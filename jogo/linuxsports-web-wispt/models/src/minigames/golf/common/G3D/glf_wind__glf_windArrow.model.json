@@ -1,0 +1,85 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_71ec7ba7965184fb",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_wind.brres/glf_windArrow",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_wind.brres",
+ "model": "glf_windArrow",
+ "glb": "models/src/minigames/golf/common/G3D/glf_wind__glf_windArrow.glb",
+ "textures": [
+  {
+   "name": "glfS_wind01",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_wind.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glfS_wind02",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_wind.brres",
+   "materials": [
+    "shadow_m"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfS_wind03",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_wind.brres",
+   "materials": [
+    "light_m"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfS_wind04",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_wind.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ],
+ "animations": [
+  {
+   "type": "SRT0",
+   "name": "glf_windArrow"
+  },
+  {
+   "type": "CLR0",
+   "name": "glf_windArrow"
+  }
+ ],
+ "materials": [
+  {
+   "name": "light_m",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfS_wind03",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "shadow_m",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfS_wind02",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  }
+ ]
+}

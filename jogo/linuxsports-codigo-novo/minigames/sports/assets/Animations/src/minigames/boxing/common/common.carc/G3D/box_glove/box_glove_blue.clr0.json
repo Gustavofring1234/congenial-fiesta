@@ -1,0 +1,1 @@
+{"type":"CLR0","name":"box_glove_blue","frames":2,"loop":true,"materials":[{"material":"M_box01","targets":[{"target":"tev0","mask":255,"frames":[[0,0,0,0],[0,14,204,0],[0,14,204,0]]}]}],"format":"nw4r-anim3d","version":1,"source":"src/minigames/boxing/common/common.carc/G3D/box_glove.brres/box_glove_blue"}

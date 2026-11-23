@@ -1,0 +1,20 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_6a7449d4d0140bba",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_fukidasi.brres/glf_fukidasi",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_fukidasi.brres",
+ "model": "glf_fukidasi",
+ "glb": "models/src/minigames/golf/common/common.carc/G3D/glf_fukidasi__glf_fukidasi.glb",
+ "textures": [
+  {
+   "name": "FaceDummy",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_fukidasi.brres"
+  },
+  {
+   "name": "glf_fukidasi_1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_fukidasi.brres"
+  }
+ ],
+ "animations": []
+}

@@ -1,0 +1,94 @@
+{
+ "assetId": "mdl_6a7449d4d0140bba",
+ "model": "glf_fukidasi",
+ "materials": [
+  {
+   "name": "FaceDummy_A",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "FaceDummy",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "FaceDummy_B",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "FaceDummy",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon3"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "fukidasi_A",
+   "translucent": true,
+   "doubleSided": true,
+   "layers": [
+    {
+     "texture": "glf_fukidasi_1",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "fukidasi_B",
+   "translucent": false,
+   "doubleSided": true,
+   "layers": [
+    {
+     "texture": "glf_fukidasi_1",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon2"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "FaceDummy",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_fukidasi.brres",
+   "materials": [
+    "FaceDummy_A",
+    "FaceDummy_B"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_fukidasi_1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_fukidasi.brres",
+   "materials": [
+    "fukidasi_A",
+    "fukidasi_B"
+   ],
+   "layer0": true
+  }
+ ]
+}

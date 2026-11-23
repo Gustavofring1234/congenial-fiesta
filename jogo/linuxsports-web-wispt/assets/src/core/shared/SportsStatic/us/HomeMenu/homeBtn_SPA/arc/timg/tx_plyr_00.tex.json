@@ -1,0 +1,31 @@
+{
+ "format": "nw4r-tex",
+ "version": 1,
+ "assetId": "tex_e1eeac1dd2b7084f",
+ "source": "src/core/shared/SportsStatic/us/local.carc/HomeMenu/homeBtn_SPA.arc.d/arc/timg/tx_plyr_00.tpl",
+ "images": [
+  {
+   "index": 0,
+   "file": "assets/src/core/shared/SportsStatic/us/HomeMenu/homeBtn_SPA/arc/timg/tx_plyr_00.png",
+   "width": 48,
+   "height": 24,
+   "format": "I4",
+   "formatId": 0,
+   "palette": null,
+   "wrapS": "CLAMP",
+   "wrapT": "CLAMP",
+   "minFilter": "LINEAR",
+   "magFilter": "LINEAR",
+   "lodBias": 0,
+   "minLod": 0,
+   "maxLod": 0,
+   "mipmapCount": 1,
+   "webgl": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "minFilter": 9729,
+    "magFilter": 9729
+   }
+  }
+ ]
+}

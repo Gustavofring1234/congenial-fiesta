@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Linux Sports — jogar</title>
+  <link rel="stylesheet" href="../ui/sports-ui.css">
+  <style>
+    html, body { margin: 0; height: 100%; background: #10141c; overflow: hidden; }
+    #palco { position: fixed; inset: 0; width: 100%; height: 100%; display: block; }
+    #jogo { position: fixed; inset: 0; touch-action: none; }
+  </style>
+</head>
+<body>
+  <canvas id="palco"></canvas>
+  <div id="jogo" tabindex="0"></div>
+  <!-- o mesmo pacote do WEBC (THREE r180 + CompanhiaVRM); troque com ?vendor=caminho -->
+  <script>
+    (function () {
+      const v = new URLSearchParams(location.search).get('vendor') || '../../../../../LNUX-APPs/apps/companhia/vendor/three-vrm-pacote.min.js';
+      document.write('<script src="' + v.replace(/"/g, '') + '"><\/script>');
+    })();
+  </script>
+  <script type="module" src="./jogar.js"></script>
+</body>
+</html>

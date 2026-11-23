@@ -1,0 +1,703 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_25b860e90d2d82cd",
+ "source": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres/glf_course_E3",
+ "brres": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+ "model": "glf_course_E3",
+ "glb": "models/assets/maps/golf/G3D/glf_course_E3__glf_course_E3.glb",
+ "textures": [
+  {
+   "name": "glf_BunkerGara1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Bunker"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "glf_color1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Color"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_cup1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Cup"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_fairway1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Fairway"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_fairway_line1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Fairway"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "glf_green1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Green"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_hole1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Green"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "glf_iwa1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Iwa"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_JimenGara2",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Fairway",
+    "M_Kiwa_F",
+    "M_Kiwa_OB",
+    "M_Kiwa_R",
+    "M_OB",
+    "M_Rough"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "glf_Kiwa_Bunker",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Kiwa_Bunker"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_Kiwa_F",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Kiwa_F"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_Kiwa_OB",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Kiwa_OB"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_Kiwa_R",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Kiwa_R"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_ob1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_OB"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_rough1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Rough"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_sand01",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Bunker"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_tokosenFix",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Green"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "glf_water1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Water"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_wave1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Water"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "glf_wave2",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Wave"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_Xnamiichi1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_XNamiuchi"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "projection_1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Bunker",
+    "M_Color",
+    "M_Fairway",
+    "M_Green",
+    "M_Kiwa_Bunker",
+    "M_Kiwa_F",
+    "M_Kiwa_OB",
+    "M_Kiwa_R",
+    "M_OB",
+    "M_Rough"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "projection_2",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Bunker",
+    "M_Color",
+    "M_Fairway",
+    "M_Green",
+    "M_Kiwa_Bunker",
+    "M_Kiwa_F",
+    "M_Kiwa_OB",
+    "M_Kiwa_R",
+    "M_OB",
+    "M_Rough"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "projection_3",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_course_E3.brres",
+   "materials": [
+    "M_Green"
+   ],
+   "layer0": false
+  }
+ ],
+ "animations": [
+  {
+   "type": "SCN0",
+   "name": "glf_scene_E3"
+  }
+ ],
+ "materials": [
+  {
+   "name": "M_Bunker",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_sand01",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_BunkerGara1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "projection_1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "projection_2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon4"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Color",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_color1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "projection_1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "projection_2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon12"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Cup",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_cup1",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon13"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Fairway",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_fairway1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_fairway_line1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_JimenGara2",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "projection_1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "projection_2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon8"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Green",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_green1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_tokosenFix",
+     "palette": "glf_tokosenFix",
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "glf_hole1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "projection_1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "projection_2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "projection_3",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon14"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Iwa",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_iwa1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon11"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Kiwa_Black",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Kiwa_Bunker",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_Kiwa_Bunker",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "projection_1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "projection_2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon22"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Kiwa_F",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_Kiwa_F",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_JimenGara2",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "projection_1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "projection_2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon15"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Kiwa_OB",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_Kiwa_OB",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_JimenGara2",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "projection_1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "projection_2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon31"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Kiwa_R",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_Kiwa_R",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_JimenGara2",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "projection_1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "projection_2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon16"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_OB",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_ob1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_JimenGara2",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "projection_1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "projection_2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon36"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Rough",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_rough1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_JimenGara2",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "projection_1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "projection_2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon10"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Water",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_water1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_wave1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon32"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Wave",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_wave2",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_wave2",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon33"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_XNamiuchi",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_Xnamiichi1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    },
+    {
+     "texture": "glf_Xnamiichi1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon34"
+   ],
+   "inGlb": true
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_4d684fbba8af8a4f",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres/lose",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres",
+ "model": "lose",
+ "glb": "models/src/core/shared/SportsStatic/us/local.carc/G3D/all_lose__lose.glb",
+ "textures": [
+  {
+   "name": "all_BG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres"
+  },
+  {
+   "name": "all_env_lose",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres"
+  },
+  {
+   "name": "all_lose_ind_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres"
+  },
+  {
+   "name": "all_lose_ind_JPN",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres"
+  },
+  {
+   "name": "all_lose_tex_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres"
+  },
+  {
+   "name": "all_lose_tex_JPN",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres"
+  },
+  {
+   "name": "all_shadow",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "lose"
+  },
+  {
+   "type": "SRT0",
+   "name": "lose"
+  },
+  {
+   "type": "CLR0",
+   "name": "lose"
+  }
+ ]
+}

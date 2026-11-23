@@ -1,0 +1,33 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_2958018a9c2cdba7",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/box_fight_model.brres/fight",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/box_fight_model.brres",
+ "model": "fight",
+ "glb": "models/src/core/shared/SportsStatic/us/local.carc/G3D/box_fight_model__fight.glb",
+ "textures": [
+  {
+   "name": "box_env",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_fight_model.brres"
+  },
+  {
+   "name": "fight_ind_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_fight_model.brres"
+  },
+  {
+   "name": "fight_tex_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_fight_model.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "fight"
+  },
+  {
+   "type": "CLR0",
+   "name": "fight"
+  }
+ ]
+}

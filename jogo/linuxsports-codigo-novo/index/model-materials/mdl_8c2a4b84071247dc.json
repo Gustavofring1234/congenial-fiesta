@@ -1,0 +1,108 @@
+{
+ "assetId": "mdl_8c2a4b84071247dc",
+ "model": "glf_sky",
+ "materials": [
+  {
+   "name": "M_Sky",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_sky1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_cloud1_in",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_cloud1_in",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_cloud_out",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_cloud1_out",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_cloud_top",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_cloud_top1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon3"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "glf_cloud1_in",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_sky.brres",
+   "materials": [
+    "M_cloud1_in"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_cloud1_out",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_sky.brres",
+   "materials": [
+    "M_cloud_out"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_cloud_top1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_sky.brres",
+   "materials": [
+    "M_cloud_top"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_sky1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_sky.brres",
+   "materials": [
+    "M_Sky"
+   ],
+   "layer0": true
+  }
+ ]
+}

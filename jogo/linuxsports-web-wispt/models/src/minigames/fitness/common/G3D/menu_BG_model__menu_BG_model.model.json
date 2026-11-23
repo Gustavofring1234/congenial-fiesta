@@ -1,0 +1,238 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_0e8a26011cbeb958",
+ "source": "src/minigames/fitness/common/common.carc/G3D/menu_BG_model.brres/menu_BG_model",
+ "brres": "src/minigames/fitness/common/common.carc/G3D/menu_BG_model.brres",
+ "model": "menu_BG_model",
+ "glb": "models/src/minigames/fitness/common/G3D/menu_BG_model__menu_BG_model.glb",
+ "textures": [
+  {
+   "name": "B",
+   "foundIn": "src/minigames/fitness/common/common.carc/G3D/menu_BG_model.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "C",
+   "foundIn": "src/minigames/fitness/common/common.carc/G3D/menu_BG_model.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "env_tex",
+   "foundIn": "src/minigames/fitness/common/common.carc/G3D/menu_BG_model.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "ind_tex",
+   "foundIn": "src/minigames/fitness/common/common.carc/G3D/menu_BG_model.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "map",
+   "foundIn": "src/minigames/fitness/common/common.carc/G3D/menu_BG_model.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "SP_menu_earth",
+   "foundIn": "src/minigames/fitness/common/common.carc/G3D/menu_BG_model.brres",
+   "materials": [
+    "mt_earth"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "SP_menu_env",
+   "foundIn": "src/minigames/fitness/common/common.carc/G3D/menu_BG_model.brres",
+   "materials": [
+    "mt_earth",
+    "mt_logo",
+    "mt_ring"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "SP_menu_ind",
+   "foundIn": "src/minigames/fitness/common/common.carc/G3D/menu_BG_model.brres",
+   "materials": [
+    "mt_BG"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "SP_menu_logo",
+   "foundIn": "src/minigames/fitness/common/common.carc/G3D/menu_BG_model.brres",
+   "materials": [
+    "mt_logo"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "SP_menu_tex00",
+   "foundIn": "src/minigames/fitness/common/common.carc/G3D/menu_BG_model.brres",
+   "materials": [
+    "mt_BG"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "SP_menu_tex01",
+   "foundIn": "src/minigames/fitness/common/common.carc/G3D/menu_BG_model.brres",
+   "materials": [
+    "mt_pipe0",
+    "mt_pipe1"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "menu_BG_model"
+  },
+  {
+   "type": "SRT0",
+   "name": "menu_BG_model"
+  },
+  {
+   "type": "CLR0",
+   "name": "menu_BG_model"
+  }
+ ],
+ "materials": [
+  {
+   "name": "mt_BG",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "SP_menu_tex00",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "SP_menu_ind",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "SP_menu_ind",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_earth",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "SP_menu_earth",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "SP_menu_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_logo",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "SP_menu_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "SP_menu_logo",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_pipe0",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "SP_menu_tex01",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon3",
+    "polygon5",
+    "polygon6",
+    "polygon7",
+    "polygon8"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_pipe1",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "SP_menu_tex01",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon4"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_ring",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "SP_menu_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon9"
+   ],
+   "inGlb": true
+  }
+ ]
+}

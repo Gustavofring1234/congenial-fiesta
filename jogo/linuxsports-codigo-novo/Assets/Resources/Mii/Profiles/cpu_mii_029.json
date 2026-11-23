@@ -1,0 +1,73 @@
+{
+ "id": "cpu_mii_029",
+ "source": "raw/src/core/shared/SportsStatic/common/CPUMii/cpu_mii_029.rcd",
+ "raw": "gBYwvzCkMO0w/DDzAAAAAAAAAAAAAEBAIAAAAAAAAADBhUnIMY/GomxphkSTMKjKAIoAiiUEAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "info": {
+  "name": "タイローン",
+  "creator": "",
+  "sex": 0,
+  "birthMonth": 0,
+  "birthDay": 0,
+  "favoriteColor": 11,
+  "favorite": 0,
+  "height": 64,
+  "build": 64,
+  "createId": "2000000000000000",
+  "faceline": {
+   "type": 6,
+   "color": 0,
+   "texture": 6
+  },
+  "hair": {
+   "type": 36,
+   "color": 7,
+   "flip": 0
+  },
+  "eye": {
+   "type": 27,
+   "color": 4,
+   "scale": 3,
+   "rotate": 3,
+   "x": 2,
+   "y": 9
+  },
+  "eyebrow": {
+   "type": 6,
+   "color": 6,
+   "scale": 3,
+   "rotate": 6,
+   "x": 2,
+   "y": 10
+  },
+  "nose": {
+   "type": 9,
+   "scale": 3,
+   "y": 6
+  },
+  "mouth": {
+   "type": 21,
+   "color": 0,
+   "scale": 6,
+   "y": 10
+  },
+  "beard": {
+   "mustache": 0,
+   "type": 0,
+   "color": 0,
+   "scale": 4,
+   "y": 10
+  },
+  "glass": {
+   "type": 0,
+   "color": 0,
+   "scale": 4,
+   "y": 10
+  },
+  "mole": {
+   "type": 0,
+   "scale": 4,
+   "x": 2,
+   "y": 20
+  }
+ }
+}

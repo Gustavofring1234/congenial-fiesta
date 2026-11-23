@@ -1,0 +1,157 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_a83edc8a093af7c7",
+ "source": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres/box_gym",
+ "brres": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres",
+ "model": "box_gym",
+ "glb": "models/assets/maps/boxing/MainGame.carc/G3D/box_gym__box_gym.glb",
+ "textures": [
+  {
+   "name": "ball_shadow",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_env03",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_env_c_mat01",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_env_glove",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_glove",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_gym_door01",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_gym_door01_i",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_gym_env1",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_gym_pos",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_gym_ringside",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_gym_rocker",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_gym_rope01",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_gym_scale",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_gym_shadow01",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_gym_tenjou",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_gym_wall01",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_gym_wall02",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_gym_window01",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_gym_window02",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_gym_wood01",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_gym_wood03",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_id02",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_ring_floor_mura",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "box_rope_kage",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "cloud01",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "tns_BG_c1",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "tns_net_a",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "tns_SHIBA_a",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "tns_sky_a",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "tns_S_tree",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "tns_tree_a3",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "tns_tree_b1",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "tns_tree_c1",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "tns_WALL_a4",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  },
+  {
+   "name": "tns_WALL_d1",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_gym.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "SCN0",
+   "name": "box_gym"
+  }
+ ]
+}

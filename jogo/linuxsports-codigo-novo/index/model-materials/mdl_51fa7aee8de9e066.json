@@ -1,0 +1,65 @@
+{
+ "assetId": "mdl_51fa7aee8de9e066",
+ "model": "box_glove_L",
+ "materials": [
+  {
+   "name": "M_box01",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "box_glove",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    },
+    {
+     "texture": "box_env_glove",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_box02",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "box_env_glove",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "box_env_glove",
+   "foundIn": "src/minigames/boxing/common/common.carc/G3D/box_glove.brres",
+   "materials": [
+    "M_box01",
+    "M_box02"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "box_glove",
+   "foundIn": "src/minigames/boxing/common/common.carc/G3D/box_glove.brres",
+   "materials": [
+    "M_box01"
+   ],
+   "layer0": true
+  }
+ ]
+}

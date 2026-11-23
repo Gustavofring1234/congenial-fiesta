@@ -1,0 +1,24 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_0c5ffb9daed3d932",
+ "source": "src/minigames/bowling/common/common.carc/G3D/bwg_gate.brres/bwg_gate",
+ "brres": "src/minigames/bowling/common/common.carc/G3D/bwg_gate.brres",
+ "model": "bwg_gate",
+ "glb": "models/src/minigames/bowling/common/common.carc/G3D/bwg_gate__bwg_gate.glb",
+ "textures": [
+  {
+   "name": "env_test",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_gate.brres"
+  },
+  {
+   "name": "gate",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_gate.brres"
+  },
+  {
+   "name": "shadow_b",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_gate.brres"
+  }
+ ],
+ "animations": []
+}

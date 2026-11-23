@@ -1,0 +1,120 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_e868e7cb2abf7fec",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_club.brres/glf_club_WD",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+ "model": "glf_club_WD",
+ "glb": "models/src/minigames/golf/common/G3D/glf_club__glf_club_WD.glb",
+ "textures": [
+  {
+   "name": "env1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_driver_grip",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [
+    "M_Grip"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_driver_grip1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_driver_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [
+    "M_DriveHead"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_env04",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_env08",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [
+    "M_DriveHead"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "glf_env1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_iron_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_putter_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_sw_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ],
+ "animations": [],
+ "materials": [
+  {
+   "name": "M_DriveHead",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_driver_head",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    },
+    {
+     "texture": "glf_env08",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Grip",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_driver_grip",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_364ca010ac3c377a",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres/glf_club_WD_L",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres",
+ "model": "glf_club_WD_L",
+ "glb": "models/src/minigames/golf/common/common.carc/G3D/glf_culb_L__glf_club_WD_L.glb",
+ "textures": [
+  {
+   "name": "glf_driver_grip",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres"
+  },
+  {
+   "name": "glf_driver_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres"
+  },
+  {
+   "name": "glf_env04",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres"
+  },
+  {
+   "name": "glf_env08",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres"
+  },
+  {
+   "name": "glf_env1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres"
+  },
+  {
+   "name": "glf_iron_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres"
+  },
+  {
+   "name": "glf_putter_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres"
+  },
+  {
+   "name": "glf_sw_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres"
+  }
+ ],
+ "animations": []
+}

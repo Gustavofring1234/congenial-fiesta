@@ -1,0 +1,31 @@
+{
+ "format": "nw4r-tex",
+ "version": 1,
+ "assetId": "tex_8967c5fed74943a2",
+ "source": "src/core/shared/SportsStatic/us/local.carc/HomeMenu/homeBtn_ENG.arc.d/arc/timg/defcursor_sd_b.tpl",
+ "images": [
+  {
+   "index": 0,
+   "file": "assets/src/core/shared/SportsStatic/us/local.carc/HomeMenu/homeBtn_ENG.arc.d/arc/timg/defcursor_sd_b.png",
+   "width": 64,
+   "height": 64,
+   "format": "I4",
+   "formatId": 0,
+   "palette": null,
+   "wrapS": "REPEAT",
+   "wrapT": "REPEAT",
+   "minFilter": "LINEAR",
+   "magFilter": "LINEAR",
+   "lodBias": 0,
+   "minLod": 0,
+   "maxLod": 0,
+   "mipmapCount": 1,
+   "webgl": {
+    "wrapS": 10497,
+    "wrapT": 10497,
+    "minFilter": 9729,
+    "magFilter": 9729
+   }
+  }
+ ]
+}

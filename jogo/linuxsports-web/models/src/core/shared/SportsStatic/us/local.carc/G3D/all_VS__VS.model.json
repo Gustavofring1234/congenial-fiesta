@@ -1,0 +1,29 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_af8ebebb429426c7",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/all_VS.brres/VS",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/all_VS.brres",
+ "model": "VS",
+ "glb": "models/src/core/shared/SportsStatic/us/local.carc/G3D/all_VS__VS.glb",
+ "textures": [
+  {
+   "name": "all_env_VS",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_VS.brres"
+  },
+  {
+   "name": "all_fire00",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_VS.brres"
+  },
+  {
+   "name": "all_fire01",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_VS.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "SRT0",
+   "name": "VS"
+  }
+ ]
+}

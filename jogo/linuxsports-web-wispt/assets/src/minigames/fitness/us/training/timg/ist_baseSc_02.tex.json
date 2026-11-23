@@ -1,0 +1,31 @@
+{
+ "format": "nw4r-tex",
+ "version": 1,
+ "assetId": "tex_25db1af4162bd427",
+ "source": "src/minigames/fitness/us/local.carc/training.arc.d/timg/ist_baseSc_02.tpl",
+ "images": [
+  {
+   "index": 0,
+   "file": "assets/src/minigames/fitness/us/training/timg/ist_baseSc_02.png",
+   "width": 200,
+   "height": 168,
+   "format": "RGB5A3",
+   "formatId": 5,
+   "palette": null,
+   "wrapS": "CLAMP",
+   "wrapT": "CLAMP",
+   "minFilter": "LINEAR",
+   "magFilter": "LINEAR",
+   "lodBias": 0,
+   "minLod": 0,
+   "maxLod": 0,
+   "mipmapCount": 1,
+   "webgl": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "minFilter": 9729,
+    "magFilter": 9729
+   }
+  }
+ ]
+}

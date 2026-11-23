@@ -1,0 +1,47 @@
+{
+ "assetId": "mdl_8a86b4d218210427",
+ "model": "tns_pole",
+ "materials": [
+  {
+   "name": "m_tns_pole",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "pole",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "env1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "env1",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_pole.brres",
+   "materials": [
+    "m_tns_pole"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "pole",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_pole.brres",
+   "materials": [
+    "m_tns_pole"
+   ],
+   "layer0": true
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "format": "nw4r-scene",
+ "version": 1,
+ "assetId": "scn_7a2491f7518da819",
+ "source": "assets/maps/tennis/tns_Field_b.carc",
+ "sport": "tennis",
+ "models": [
+  {
+   "name": "G3D/tns_Field_b.brres/tns_Field_b",
+   "ref": "mdl_cbc5aec4a2dc0755"
+  },
+  {
+   "name": "G3D/tns_net_a.brres/tns_net_a",
+   "ref": "mdl_a449af24cae2acf9"
+  }
+ ],
+ "collision": [
+  {
+   "name": "tns_Field_b.kcl",
+   "ref": "col_0fb54bf7fd70673b"
+  }
+ ],
+ "objects": [],
+ "data": []
+}

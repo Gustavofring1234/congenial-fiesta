@@ -1,0 +1,16 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_582ab15334348f75",
+ "source": "src/minigames/tennis/common/common.carc/G3D/tns_r_shadow.brres/tns_r_shadow",
+ "brres": "src/minigames/tennis/common/common.carc/G3D/tns_r_shadow.brres",
+ "model": "tns_r_shadow",
+ "glb": "models/src/minigames/tennis/common/common.carc/G3D/tns_r_shadow__tns_r_shadow.glb",
+ "textures": [
+  {
+   "name": "tns_r_shadow_a",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_r_shadow.brres"
+  }
+ ],
+ "animations": []
+}

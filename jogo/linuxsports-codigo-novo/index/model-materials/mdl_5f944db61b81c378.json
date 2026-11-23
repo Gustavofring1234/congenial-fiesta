@@ -1,0 +1,59 @@
+{
+ "assetId": "mdl_5f944db61b81c378",
+ "model": "bwg_lane",
+ "materials": [
+  {
+   "name": "bwg_gater_col_mat",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bwg_screen",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1",
+    "polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "bwg_lain_col_mat",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "floor",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "bwg_screen",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_lane.brres",
+   "materials": [
+    "bwg_gater_col_mat"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "floor",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_lane.brres",
+   "materials": [
+    "bwg_lain_col_mat"
+   ],
+   "layer0": true
+  }
+ ]
+}

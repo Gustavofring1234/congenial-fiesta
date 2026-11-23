@@ -1,0 +1,29 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_afe7ea591d482920",
+ "source": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_slide.brres/wipe_slide",
+ "brres": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_slide.brres",
+ "model": "wipe_slide",
+ "glb": "models/src/core/shared/SportsStatic/common/common.carc/G3D/wipe_slide__wipe_slide.glb",
+ "textures": [
+  {
+   "name": "dammy_L",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_slide.brres"
+  },
+  {
+   "name": "dammy_R",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_slide.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "wipe_slide_bbl"
+  },
+  {
+   "type": "CHR0",
+   "name": "wipe_slide_box"
+  }
+ ]
+}

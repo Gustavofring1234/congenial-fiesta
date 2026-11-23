@@ -1,0 +1,220 @@
+{
+ "format": "nw4r-scene",
+ "version": 1,
+ "assetId": "scn_c42e6785ae996329",
+ "source": "src/core/shared/SportsStatic/us/local.carc",
+ "sport": "shared",
+ "models": [
+  {
+   "name": "G3D/all_lose.brres/lose",
+   "ref": "mdl_4d684fbba8af8a4f"
+  },
+  {
+   "name": "G3D/all_tie.brres/tie",
+   "ref": "mdl_5d3b40e7e2836583"
+  },
+  {
+   "name": "G3D/all_VS.brres/VS",
+   "ref": "mdl_af8ebebb429426c7"
+  },
+  {
+   "name": "G3D/all_win.brres/win",
+   "ref": "mdl_18ee212c57805653"
+  },
+  {
+   "name": "G3D/bbl_game_set_model.brres/game_set",
+   "ref": "mdl_c369b49de4ec5162"
+  },
+  {
+   "name": "G3D/bbl_home_run0_model.brres/home_run0",
+   "ref": "mdl_b78a6ad69ad2ef5a"
+  },
+  {
+   "name": "G3D/bbl_home_run1_model.brres/home_run1",
+   "ref": "mdl_62fb2d1a87cda656"
+  },
+  {
+   "name": "G3D/bbl_play_ball_model.brres/play_ball",
+   "ref": "mdl_bbf388cad6bdbd66"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_0a",
+   "ref": "mdl_cde9e92721d379dc"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_0b",
+   "ref": "mdl_cde9ec2721d37ef5"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_1a",
+   "ref": "mdl_cde6c52721d106d9"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_1b",
+   "ref": "mdl_cde6c22721d101c0"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_2a",
+   "ref": "mdl_cde2dd2721cd46ca"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_2b",
+   "ref": "mdl_cde2dc2721cd4517"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_3a",
+   "ref": "mdl_cddff92721cb4087"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_3b",
+   "ref": "mdl_cddffa2721cb423a"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_4a",
+   "ref": "mdl_cddcd12721c8c6b8"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_4b",
+   "ref": "mdl_cddcd42721c8cbd1"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_5a",
+   "ref": "mdl_cdd8ed2721c50d75"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_5b",
+   "ref": "mdl_cdd8ea2721c5085c"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_6a",
+   "ref": "mdl_cdd5c52721c293a6"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_6b",
+   "ref": "mdl_cdd5c42721c291f3"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_7a",
+   "ref": "mdl_cdd1e12721beda63"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_7b",
+   "ref": "mdl_cdd1e22721bedc16"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_8a",
+   "ref": "mdl_ce04d92721ea2664"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_8b",
+   "ref": "mdl_ce04dc2721ea2b7d"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_9a",
+   "ref": "mdl_ce01f52721e82021"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_9b",
+   "ref": "mdl_ce01f22721e81b08"
+  },
+  {
+   "name": "G3D/bbl_score_model.brres/score_set",
+   "ref": "mdl_72b5207d30e121fd"
+  },
+  {
+   "name": "G3D/box_count10.brres/count10_1",
+   "ref": "mdl_4f0f1f213ad0641d"
+  },
+  {
+   "name": "G3D/box_count10.brres/count10_10",
+   "ref": "mdl_27161276f01a3877"
+  },
+  {
+   "name": "G3D/box_count10.brres/count10_2",
+   "ref": "mdl_4f0f1c213ad05f04"
+  },
+  {
+   "name": "G3D/box_count10.brres/count10_3",
+   "ref": "mdl_4f0f1d213ad060b7"
+  },
+  {
+   "name": "G3D/box_count10.brres/count10_4",
+   "ref": "mdl_4f0f1a213ad05b9e"
+  },
+  {
+   "name": "G3D/box_count10.brres/count10_5",
+   "ref": "mdl_4f0f1b213ad05d51"
+  },
+  {
+   "name": "G3D/box_count10.brres/count10_6",
+   "ref": "mdl_4f0f18213ad05838"
+  },
+  {
+   "name": "G3D/box_count10.brres/count10_7",
+   "ref": "mdl_4f0f19213ad059eb"
+  },
+  {
+   "name": "G3D/box_count10.brres/count10_8",
+   "ref": "mdl_4f0f16213ad054d2"
+  },
+  {
+   "name": "G3D/box_count10.brres/count10_9",
+   "ref": "mdl_4f0f17213ad05685"
+  },
+  {
+   "name": "G3D/box_down_model.brres/down",
+   "ref": "mdl_5a514235912c05b1"
+  },
+  {
+   "name": "G3D/box_fight_model.brres/fight",
+   "ref": "mdl_2958018a9c2cdba7"
+  },
+  {
+   "name": "G3D/box_KO_model.brres/KO",
+   "ref": "mdl_a998fbbca547b441"
+  },
+  {
+   "name": "G3D/box_round_model.brres/final_round",
+   "ref": "mdl_8577b971741968cc"
+  },
+  {
+   "name": "G3D/box_round_model.brres/round1",
+   "ref": "mdl_f01bbe1ab05a93e2"
+  },
+  {
+   "name": "G3D/box_round_model.brres/round2",
+   "ref": "mdl_f01bbd1ab05a922f"
+  },
+  {
+   "name": "G3D/bwg_nice_throw_model.brres/nice_throw",
+   "ref": "mdl_f39991aec3d54d28"
+  },
+  {
+   "name": "G3D/bwg_spare_model.brres/spare",
+   "ref": "mdl_a430718a46c601ae"
+  },
+  {
+   "name": "G3D/bwg_strike_model.brres/strike",
+   "ref": "mdl_8c061ccfb94c1618"
+  },
+  {
+   "name": "G3D/glf_chip_in_model.brres/chip_in",
+   "ref": "mdl_b2c24ba691d11a89"
+  },
+  {
+   "name": "G3D/glf_hole_in_one_model.brres/hole_in_one",
+   "ref": "mdl_63b22bdfcf890131"
+  },
+  {
+   "name": "G3D/glf_nice_in_model.brres/nice_in",
+   "ref": "mdl_e8c70951c61935d5"
+  },
+  {
+   "name": "G3D/glf_nice_on_model.brres/nice_on",
+   "ref": "mdl_ccd34258eaf4e70d"
+  }
+ ],
+ "collision": [],
+ "objects": [],
+ "data": []
+}

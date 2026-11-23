@@ -1,0 +1,3126 @@
+{
+ "summary": {
+  "models": 259,
+  "errors": {},
+  "bones": 1249,
+  "meshes": {
+   "static": 0,
+   "rigid": 1374,
+   "skinned": 66
+  },
+  "morphTargets": 60,
+  "textureLayers": 1783,
+  "texturesWritten": 1073,
+  "missingTextures": {}
+ },
+ "models": {
+  "mdl_0faa4fef7d1aa94e": {
+   "model": "bbl_Field_Score",
+   "bones": 15,
+   "meshes": {
+    "static": 0,
+    "rigid": 13,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 15,
+   "missingTextures": []
+  },
+  "mdl_1b6f4c5bac720d40": {
+   "model": "bbl_Field_Screen",
+   "bones": 2,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 5,
+   "missingTextures": []
+  },
+  "mdl_20de8bc6b195098e": {
+   "model": "bbl_Field_a",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 30,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 35,
+   "missingTextures": []
+  },
+  "mdl_644d45cbbd1ff4be": {
+   "model": "box_avatarA",
+   "bones": 14,
+   "meshes": {
+    "static": 0,
+    "rigid": 23,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 7,
+   "missingTextures": []
+  },
+  "mdl_644d44cbbd1ff30b": {
+   "model": "box_avatarB",
+   "bones": 14,
+   "meshes": {
+    "static": 0,
+    "rigid": 23,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 7,
+   "missingTextures": []
+  },
+  "mdl_644d43cbbd1ff158": {
+   "model": "box_avatarC",
+   "bones": 14,
+   "meshes": {
+    "static": 0,
+    "rigid": 22,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_6bc1c15f137c29ff": {
+   "model": "box_ball_bad",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_6bb7c75f1373dfac": {
+   "model": "box_ball_bbl",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_6b92e25f1354f150": {
+   "model": "box_ball_bwg",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_51eb685f04e52603": {
+   "model": "box_ball_glf",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_cff3095ebb449e1b": {
+   "model": "box_ball_pin",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_6a3cae12130b5f98": {
+   "model": "box_ball_shadow",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_afb4485ea9af5583": {
+   "model": "box_ball_tns",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_a83edc8a093af7c7": {
+   "model": "box_gym",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 35,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 48,
+   "missingTextures": []
+  },
+  "mdl_383a46eebf39a083": {
+   "model": "box_corner_B",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_383a36eebf398553": {
+   "model": "box_corner_R",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_c47acdaeeec61c07": {
+   "model": "box_corner_W1",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_c47aceaeeec61dba": {
+   "model": "box_corner_W2",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_97553b203796012c": {
+   "model": "box_hall",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 13,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 16,
+   "missingTextures": []
+  },
+  "mdl_9f5a008259267121": {
+   "model": "box_light",
+   "bones": 80,
+   "meshes": {
+    "static": 0,
+    "rigid": 79,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 5,
+   "missingTextures": []
+  },
+  "mdl_679492548a618249": {
+   "model": "box_ring",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 3,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 10,
+   "missingTextures": []
+  },
+  "mdl_34899a546dbbb1af": {
+   "model": "box_rope",
+   "bones": 9,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 2
+   },
+   "morphs": 0,
+   "layers": 5,
+   "missingTextures": []
+  },
+  "mdl_86db55948b013f00": {
+   "model": "box_rope_kage",
+   "bones": 9,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_5f4f7d57416a0272": {
+   "model": "box_sandbagA",
+   "bones": 6,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 3
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_fdf281ce7e419b62": {
+   "model": "box_sandbagA_a",
+   "bones": 6,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 3
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_5f4f7c57416a00bf": {
+   "model": "box_sandbagB",
+   "bones": 6,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 3
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_f6a42cce7a80fbf3": {
+   "model": "box_sandbagB_a",
+   "bones": 6,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 3
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_5f4f7b574169ff0c": {
+   "model": "box_sandbagC",
+   "bones": 6,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 3
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_ee7c13ce76071eb8": {
+   "model": "box_sandbagC_a",
+   "bones": 6,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 3
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_25b860e90d2d82cd": {
+   "model": "glf_course_E3",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 16,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 49,
+   "missingTextures": []
+  },
+  "mdl_30e7e4c624f4ea5a": {
+   "model": "glf_course_angle",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 3,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 15,
+   "missingTextures": []
+  },
+  "mdl_18a8f9bf323fb1a2": {
+   "model": "glf_course_fc11",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 12,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 39,
+   "missingTextures": []
+  },
+  "mdl_5c852ba618ec8ae5": {
+   "model": "glf_course_fc12",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 14,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 44,
+   "missingTextures": []
+  },
+  "mdl_b3d4ded6117d65d8": {
+   "model": "glf_course_fc13",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 14,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 49,
+   "missingTextures": []
+  },
+  "mdl_33e01a0d729da2a3": {
+   "model": "glf_course_fc14",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 16,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 52,
+   "missingTextures": []
+  },
+  "mdl_e3bf824e669f0299": {
+   "model": "glf_course_fc16",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 17,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 54,
+   "missingTextures": []
+  },
+  "mdl_18136362e39cc707": {
+   "model": "glf_course_fc18",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 9,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 8,
+   "missingTextures": []
+  },
+  "mdl_a3e9977b9cdd9d0b": {
+   "model": "glf_course_fc1",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 12,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 42,
+   "missingTextures": []
+  },
+  "mdl_9978fbe3bea8cb8d": {
+   "model": "glf_course_fc3",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 15,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 50,
+   "missingTextures": []
+  },
+  "mdl_1fc60dd517d056c7": {
+   "model": "glf_course_fc5",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 16,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 51,
+   "missingTextures": []
+  },
+  "mdl_771e8dccc1c9b218": {
+   "model": "glf_course_fc8",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 16,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 51,
+   "missingTextures": []
+  },
+  "mdl_5a4e8455481fee63": {
+   "model": "glf_course_fc9",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 14,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 49,
+   "missingTextures": []
+  },
+  "mdl_3fb23d6ce2fce0c3": {
+   "model": "glf_course_survey",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 4,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_a6edcc68ee70087d": {
+   "model": "glf_map_E3",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 16,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 49,
+   "missingTextures": []
+  },
+  "mdl_043a8ddc5394a9e2": {
+   "model": "glf_map_angle",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 3,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 15,
+   "missingTextures": []
+  },
+  "mdl_deb8012f13de2e60": {
+   "model": "glf_map_fc11",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 6,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 9,
+   "missingTextures": []
+  },
+  "mdl_fa17667d6bc29d7a": {
+   "model": "glf_tree_fc11",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_c6ddf0f0b45acaf9": {
+   "model": "glf_map_fc12",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 5,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 7,
+   "missingTextures": []
+  },
+  "mdl_ef2032811f780a47": {
+   "model": "glf_tree_fc12",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_fd72ccc7bb9edcee": {
+   "model": "glf_map_fc13",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 8,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 11,
+   "missingTextures": []
+  },
+  "mdl_0732306c02ddd19c": {
+   "model": "glf_tree_fc13",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_d6e9db9c2b6be8af": {
+   "model": "glf_map_fc14",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 7,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 9,
+   "missingTextures": []
+  },
+  "mdl_3a0f3ec521e8f8b1": {
+   "model": "glf_tree_fc14",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_0b9eab228d6530d5": {
+   "model": "glf_map_fc16",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 8,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 11,
+   "missingTextures": []
+  },
+  "mdl_11f6c0764634ae0b": {
+   "model": "glf_tree_fc16",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_33836d5ffb2dbb5b": {
+   "model": "glf_map_fc18",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 9,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 8,
+   "missingTextures": []
+  },
+  "mdl_b97c59b888dd09b9": {
+   "model": "glf_map_fc1",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 5,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 7,
+   "missingTextures": []
+  },
+  "mdl_a74cccc5e9152f17": {
+   "model": "glf_tree_fc1",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_bf982f3390963fbb": {
+   "model": "glf_map_fc3",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 8,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 10,
+   "missingTextures": []
+  },
+  "mdl_a107677d60ac99a5": {
+   "model": "glf_tree_fc3",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_0fdf35382ebd971d": {
+   "model": "glf_map_fc5",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 7,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 10,
+   "missingTextures": []
+  },
+  "mdl_f82fa955f5f71923": {
+   "model": "glf_tree_fc5",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_54996e2171225b60": {
+   "model": "glf_map_fc8",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 8,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 11,
+   "missingTextures": []
+  },
+  "mdl_9b3f53caa60b666e": {
+   "model": "glf_tree_fc8",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_a3a43b4143735fd1": {
+   "model": "glf_map_fc9",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 8,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 11,
+   "missingTextures": []
+  },
+  "mdl_1f4be81af67252ff": {
+   "model": "glf_tree_fc9",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_6464326441c02bbb": {
+   "model": "glf_map_survey",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 4,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_65d2061e5eb2f55e": {
+   "model": "tns_Field_a",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 19,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 26,
+   "missingTextures": []
+  },
+  "mdl_37842916e46587f2": {
+   "model": "tns_net_a",
+   "bones": 2,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 4
+   },
+   "morphs": 0,
+   "layers": 8,
+   "missingTextures": []
+  },
+  "mdl_cbc5aec4a2dc0755": {
+   "model": "tns_Field_b",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 14,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 17,
+   "missingTextures": []
+  },
+  "mdl_a449af24cae2acf9": {
+   "model": "tns_net_a",
+   "bones": 2,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 3
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_e639d7e09405ef57": {
+   "model": "ava_bodyA0",
+   "bones": 6,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_6ba2941cb6de3aed": {
+   "model": "ava_bodyA1",
+   "bones": 28,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_ab88d90e94cdb203": {
+   "model": "ava_bodyA2",
+   "bones": 28,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_0331333e2f4caff5": {
+   "model": "ava_bodyA3",
+   "bones": 20,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_938655c583cb2099": {
+   "model": "ava_bodyB0",
+   "bones": 6,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_8192b926f46ac437": {
+   "model": "ava_bodyB1",
+   "bones": 28,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_8a1d39439af01725": {
+   "model": "ava_bodyB2",
+   "bones": 28,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_5a4869d30bb2a007": {
+   "model": "ava_bodyB3",
+   "bones": 20,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_2a00b12bcdb59887": {
+   "model": "ava_bodyC0",
+   "bones": 21,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_1095848983d4c2ad": {
+   "model": "ava_bodyC1",
+   "bones": 21,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_0b61d89aabf019b7": {
+   "model": "ava_bodyE0",
+   "bones": 4,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_3d83dc32b2fcd935": {
+   "model": "ava_handA",
+   "bones": 19,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_8d5f333f192a6bd9": {
+   "model": "ava_handB",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_a37244ef72931802": {
+   "model": "logo_model",
+   "bones": 10,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_ca4afd845eeca8b6": {
+   "model": "menu_BG_model",
+   "bones": 12,
+   "meshes": {
+    "static": 0,
+    "rigid": 10,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 10,
+   "missingTextures": []
+  },
+  "mdl_e96379d6ff2c3e6e": {
+   "model": "sp_titleBG_00",
+   "bones": 22,
+   "meshes": {
+    "static": 0,
+    "rigid": 41,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_fc5f9746059d5291": {
+   "model": "sp_titleBG_00",
+   "bones": 21,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 2
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_e0b549681b52ee0f": {
+   "model": "logo_model",
+   "bones": 10,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_62aec3d3278ad277": {
+   "model": "menu_BG_model",
+   "bones": 12,
+   "meshes": {
+    "static": 0,
+    "rigid": 10,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 10,
+   "missingTextures": []
+  },
+  "mdl_e244d8011d1bb205": {
+   "model": "sun_lensfx",
+   "bones": 12,
+   "meshes": {
+    "static": 0,
+    "rigid": 11,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 11,
+   "missingTextures": []
+  },
+  "mdl_1793e8dd9749edfe": {
+   "model": "sun_model",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_41ddf01777784e40": {
+   "model": "wipe_replay",
+   "bones": 8,
+   "meshes": {
+    "static": 0,
+    "rigid": 7,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 5,
+   "missingTextures": []
+  },
+  "mdl_afe7ea591d482920": {
+   "model": "wipe_slide",
+   "bones": 5,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_af8ebebb429426c7": {
+   "model": "VS",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_4d684fbba8af8a4f": {
+   "model": "lose",
+   "bones": 19,
+   "meshes": {
+    "static": 0,
+    "rigid": 16,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 8,
+   "missingTextures": []
+  },
+  "mdl_5d3b40e7e2836583": {
+   "model": "tie",
+   "bones": 10,
+   "meshes": {
+    "static": 0,
+    "rigid": 7,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 5,
+   "missingTextures": []
+  },
+  "mdl_18ee212c57805653": {
+   "model": "win",
+   "bones": 17,
+   "meshes": {
+    "static": 0,
+    "rigid": 14,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 8,
+   "missingTextures": []
+  },
+  "mdl_c369b49de4ec5162": {
+   "model": "game_set",
+   "bones": 4,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 7,
+   "missingTextures": []
+  },
+  "mdl_b78a6ad69ad2ef5a": {
+   "model": "home_run0",
+   "bones": 5,
+   "meshes": {
+    "static": 0,
+    "rigid": 5,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_62fb2d1a87cda656": {
+   "model": "home_run1",
+   "bones": 5,
+   "meshes": {
+    "static": 0,
+    "rigid": 4,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 8,
+   "missingTextures": []
+  },
+  "mdl_bbf388cad6bdbd66": {
+   "model": "play_ball",
+   "bones": 4,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 7,
+   "missingTextures": []
+  },
+  "mdl_cde9e92721d379dc": {
+   "model": "score_0a",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_cde9ec2721d37ef5": {
+   "model": "score_0b",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_cde6c52721d106d9": {
+   "model": "score_1a",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_cde6c22721d101c0": {
+   "model": "score_1b",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_cde2dd2721cd46ca": {
+   "model": "score_2a",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_cde2dc2721cd4517": {
+   "model": "score_2b",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_cddff92721cb4087": {
+   "model": "score_3a",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_cddffa2721cb423a": {
+   "model": "score_3b",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_cddcd12721c8c6b8": {
+   "model": "score_4a",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_cddcd42721c8cbd1": {
+   "model": "score_4b",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_cdd8ed2721c50d75": {
+   "model": "score_5a",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_cdd8ea2721c5085c": {
+   "model": "score_5b",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_cdd5c52721c293a6": {
+   "model": "score_6a",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_cdd5c42721c291f3": {
+   "model": "score_6b",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_cdd1e12721beda63": {
+   "model": "score_7a",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_cdd1e22721bedc16": {
+   "model": "score_7b",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_ce04d92721ea2664": {
+   "model": "score_8a",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_ce04dc2721ea2b7d": {
+   "model": "score_8b",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_ce01f52721e82021": {
+   "model": "score_9a",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_ce01f22721e81b08": {
+   "model": "score_9b",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_72b5207d30e121fd": {
+   "model": "score_set",
+   "bones": 18,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_a998fbbca547b441": {
+   "model": "KO",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_4f0f1f213ad0641d": {
+   "model": "count10_1",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_27161276f01a3877": {
+   "model": "count10_10",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_4f0f1c213ad05f04": {
+   "model": "count10_2",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_4f0f1d213ad060b7": {
+   "model": "count10_3",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_4f0f1a213ad05b9e": {
+   "model": "count10_4",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_4f0f1b213ad05d51": {
+   "model": "count10_5",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_4f0f18213ad05838": {
+   "model": "count10_6",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_4f0f19213ad059eb": {
+   "model": "count10_7",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_4f0f16213ad054d2": {
+   "model": "count10_8",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_4f0f17213ad05685": {
+   "model": "count10_9",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_5a514235912c05b1": {
+   "model": "down",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_2958018a9c2cdba7": {
+   "model": "fight",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_8577b971741968cc": {
+   "model": "final_round",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 3
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_f01bbe1ab05a93e2": {
+   "model": "round1",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 3
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_f01bbd1ab05a922f": {
+   "model": "round2",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 3
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_f39991aec3d54d28": {
+   "model": "nice_throw",
+   "bones": 10,
+   "meshes": {
+    "static": 0,
+    "rigid": 18,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_a430718a46c601ae": {
+   "model": "spare",
+   "bones": 6,
+   "meshes": {
+    "static": 0,
+    "rigid": 10,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_8c061ccfb94c1618": {
+   "model": "strike",
+   "bones": 11,
+   "meshes": {
+    "static": 0,
+    "rigid": 11,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_b2c24ba691d11a89": {
+   "model": "chip_in",
+   "bones": 9,
+   "meshes": {
+    "static": 0,
+    "rigid": 15,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 5,
+   "missingTextures": []
+  },
+  "mdl_63b22bdfcf890131": {
+   "model": "hole_in_one",
+   "bones": 14,
+   "meshes": {
+    "static": 0,
+    "rigid": 23,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_e8c70951c61935d5": {
+   "model": "nice_in",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 3,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_ccd34258eaf4e70d": {
+   "model": "nice_on",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 3,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_20dd59f74e8fa346": {
+   "model": "bbl_Arrow_A",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_a9473c3a3b9f08a6": {
+   "model": "bbl_Arrow_B",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_df601120208c81ec": {
+   "model": "bbl_Ball",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_39b6a3190253227a": {
+   "model": "bbl_Bat",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_d9a7caed0ca0c1ad": {
+   "model": "bbl_Glove_l",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_d9a7aced0ca08eb3": {
+   "model": "bbl_Glove_r",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_295e14d068404480": {
+   "model": "bbl_RangeBoard_A",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 4,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_30f6b291a32bda82": {
+   "model": "bbl_RangeBoard_B",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 4,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_e8b6d6474331bb90": {
+   "model": "bbl_RangeBoard_C",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 4,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_ec4b2f3377140552": {
+   "model": "bbl_c_glove",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_203e083310a8b44a": {
+   "model": "bbl_c_mask",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_27c23aafc8f0242a": {
+   "model": "bbl_c_pl",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_b2c57c7bd74a1601": {
+   "model": "sun_lensfx",
+   "bones": 12,
+   "meshes": {
+    "static": 0,
+    "rigid": 11,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 11,
+   "missingTextures": []
+  },
+  "mdl_5561a9646b3e069c": {
+   "model": "sun_model",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_dfee6542cda68660": {
+   "model": "bwg_pin_166_10",
+   "bones": 11,
+   "meshes": {
+    "static": 0,
+    "rigid": 10,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_1a4e0ee243e61541": {
+   "model": "bwg_pin_286_10",
+   "bones": 11,
+   "meshes": {
+    "static": 0,
+    "rigid": 10,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_1a327de243ce5726": {
+   "model": "bwg_pin_286_91",
+   "bones": 92,
+   "meshes": {
+    "static": 0,
+    "rigid": 91,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_f255d56f5efb2948": {
+   "model": "bwg_pin_438_10",
+   "bones": 11,
+   "meshes": {
+    "static": 0,
+    "rigid": 10,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_f23ac66f5ee44813": {
+   "model": "bwg_pin_438_91",
+   "bones": 92,
+   "meshes": {
+    "static": 0,
+    "rigid": 91,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 6,
+   "missingTextures": []
+  },
+  "mdl_0965b74462d55d9e": {
+   "model": "bwg_pin_74_10",
+   "bones": 11,
+   "meshes": {
+    "static": 0,
+    "rigid": 10,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_408c9ab06b75a915": {
+   "model": "bwg_pin_866_10",
+   "bones": 11,
+   "meshes": {
+    "static": 0,
+    "rigid": 10,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_a1217670602e0366": {
+   "model": "bwg_ava_shadow",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_d7180405978dfc1b": {
+   "model": "bwg_ball_blue",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_30493df3b669668f": {
+   "model": "bwg_ball_blue_mirror",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_ce43d015980fc7e6": {
+   "model": "bwg_ball_green",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_22fff1a17c524e98": {
+   "model": "bwg_ball_green_mirror",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_7b5b999a2d39fa37": {
+   "model": "bwg_ball_pink",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_9622cede8bbe73cb": {
+   "model": "bwg_ball_pink_mirror",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_de9287bad515ccab": {
+   "model": "bwg_ball_yellow",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_4c0e29872e0101bf": {
+   "model": "bwg_ball_yellow_mirror",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_839e48d86751ab17": {
+   "model": "bwg_ball_blue_pro",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_6d30ef0b0f95956b": {
+   "model": "bwg_ball_blue_pro_mirror",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_97f90f05164e5752": {
+   "model": "bwg_ball_green_pro",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_c0a08b874ee35664": {
+   "model": "bwg_ball_green_pro_mirror",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_0b5e6bf22b877d93": {
+   "model": "bwg_ball_pink_pro",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_5258e3b6336efb97": {
+   "model": "bwg_ball_pink_pro_mirror",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_1675bfea3701bba7": {
+   "model": "bwg_ball_yellow_pro",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_7d7eac4931823d9b": {
+   "model": "bwg_ball_yellow_pro_mirror",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_4612de54072ac963": {
+   "model": "pin_conveyer",
+   "bones": 7,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_efa5bed16aa3fbd2": {
+   "model": "bwg_field_91",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 26,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 41,
+   "missingTextures": []
+  },
+  "mdl_ad91c8f94158c642": {
+   "model": "bwg_wall_L",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 3,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 5,
+   "missingTextures": []
+  },
+  "mdl_f155e37d9c3c7d74": {
+   "model": "bwg_wall_L_mirror",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 3,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 5,
+   "missingTextures": []
+  },
+  "mdl_ad91baf94158ae78": {
+   "model": "bwg_wall_R",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 3,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 5,
+   "missingTextures": []
+  },
+  "mdl_83febb82f7050662": {
+   "model": "bwg_wall_R_mirror",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 3,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 5,
+   "missingTextures": []
+  },
+  "mdl_2793cc224716d814": {
+   "model": "bwg_field",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 23,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 38,
+   "missingTextures": []
+  },
+  "mdl_3b88d8c00cba1c2c": {
+   "model": "bwg_field_front",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 18,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 32,
+   "missingTextures": []
+  },
+  "mdl_523fa258df3f0c00": {
+   "model": "bwg_field_pin",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_2d5ba7557d81b678": {
+   "model": "lane_alpha",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_48ad97da71ebf32d": {
+   "model": "lane_alpha_etc",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_0c5ffb9daed3d932": {
+   "model": "bwg_gate",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_851c4582eef98d2f": {
+   "model": "bwg_gate_frame_L",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_851c3b82eef97c31": {
+   "model": "bwg_gate_frame_R",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_5f944db61b81c378": {
+   "model": "bwg_lane",
+   "bones": 4,
+   "meshes": {
+    "static": 0,
+    "rigid": 3,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_3ec9f124b64b3840": {
+   "model": "bwg_arrow_00",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_3ec9f224b64b39f3": {
+   "model": "bwg_arrow_01",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_80e1a5a1e38617f0": {
+   "model": "bwg_throwline",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_51fa7aee8de9e066": {
+   "model": "box_glove_L",
+   "bones": 2,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_51fa94ee8dea0c94": {
+   "model": "box_glove_R",
+   "bones": 2,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_bc6bc8a9dae605b0": {
+   "model": "box_mitt_L",
+   "bones": 2,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 2
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_bc6bc6a9dae6024a": {
+   "model": "box_mitt_R",
+   "bones": 2,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 2
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_11ac2b0a5f97d21c": {
+   "model": "logo_model",
+   "bones": 10,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_0e8a26011cbeb958": {
+   "model": "menu_BG_model",
+   "bones": 12,
+   "meshes": {
+    "static": 0,
+    "rigid": 10,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 10,
+   "missingTextures": []
+  },
+  "mdl_0b49e0a8c64a381d": {
+   "model": "glf_HelpBall",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_2ca38a70e2a21cd7": {
+   "model": "glf_HelpSquare",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_7a02aad1273e49dc": {
+   "model": "glf_ball1",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_e0b8d65e4730b20e": {
+   "model": "golf_powerbar_tex01frame",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_3eaf16b0bd8bb1bd": {
+   "model": "golf_powerbar_tex01",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_d25b7347cbbd13b1": {
+   "model": "golf_powerbar_tex01bg_out",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_88452b0560c6f30c": {
+   "model": "golf_powerbar_tex01bg",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_e8ce05cb2b14b318": {
+   "model": "glf_club_IR",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_e87ff9cb2ad27d63": {
+   "model": "glf_club_PT",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_e8760acb2aca45c1": {
+   "model": "glf_club_SW",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_e868e7cb2abf7fec": {
+   "model": "glf_club_WD",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_f379a93a2c73cff2": {
+   "model": "glf_club_IR_L",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_0b9e4ff9325af63d": {
+   "model": "glf_club_PT_L",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_d6c522f2cbe67257": {
+   "model": "glf_club_SW_L",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_364ca010ac3c377a": {
+   "model": "glf_club_WD_L",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_3714054860a4d3b4": {
+   "model": "glf_cup",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_79685f5e7ee49eda": {
+   "model": "glf_cup_side",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_6a7449d4d0140bba": {
+   "model": "glf_fukidasi",
+   "bones": 5,
+   "meshes": {
+    "static": 0,
+    "rigid": 4,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_25f0370669bf20fa": {
+   "model": "glf_marker",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_6ecb2804cb0cc160": {
+   "model": "glf_matoPIN",
+   "bones": 2,
+   "meshes": {
+    "static": 0,
+    "rigid": 3,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_c6fc10689df0c805": {
+   "model": "glf_matoWATER_C",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_6f0cae11b647ed3f": {
+   "model": "glf_matoWAVE_C",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_1d16290bcedd14a0": {
+   "model": "glf_mato_A",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 6,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 5,
+   "missingTextures": []
+  },
+  "mdl_1d162b0bcedd1806": {
+   "model": "glf_mato_C",
+   "bones": 2,
+   "meshes": {
+    "static": 0,
+    "rigid": 8,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_7ea6de5c8f296c6a": {
+   "model": "glf_pin1",
+   "bones": 3,
+   "meshes": {
+    "static": 0,
+    "rigid": 3,
+    "skinned": 0
+   },
+   "morphs": 48,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_5ef7df4743629198": {
+   "model": "glf_pin1b",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_8c2a4b84071247dc": {
+   "model": "glf_sky",
+   "bones": 4,
+   "meshes": {
+    "static": 0,
+    "rigid": 4,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_3e263f580410396a": {
+   "model": "glf_sky2",
+   "bones": 4,
+   "meshes": {
+    "static": 0,
+    "rigid": 4,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_d21e0914b8236a12": {
+   "model": "glf_strike",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 3,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_7bdc8590a80d734c": {
+   "model": "glf_teeOBJ",
+   "bones": 4,
+   "meshes": {
+    "static": 0,
+    "rigid": 4,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_f63a6abda731e75c": {
+   "model": "glf_tree1",
+   "bones": 2,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_7fe3773df160414c": {
+   "model": "glf_tree1_LOD",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_bda6b83e14adaec8": {
+   "model": "glf_tree1_env",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_4ab92d35b229be82": {
+   "model": "glf_tree1_sh",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_7bbe907144008ca0": {
+   "model": "glf_tree2",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 3,
+   "missingTextures": []
+  },
+  "mdl_1257cb89eff5b670": {
+   "model": "glf_tree2_LOD",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_4c47dc8a1002d77c": {
+   "model": "glf_tree2_env",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_26c19ed42e309cf6": {
+   "model": "glf_tree2_sh",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_71ec7ba7965184fb": {
+   "model": "glf_windArrow",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 2,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_ef8573cc950774e9": {
+   "model": "glf_windGround",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_7cb31ca95e2843f5": {
+   "model": "ava_head",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_115d43c8debc4871": {
+   "model": "tns_ball_a",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_5422d68fdfbfe78d": {
+   "model": "tns_mato_a",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_5422d38fdfbfe274": {
+   "model": "tns_mato_b",
+   "bones": 10,
+   "meshes": {
+    "static": 0,
+    "rigid": 9,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_5422d48fdfbfe427": {
+   "model": "tns_mato_c",
+   "bones": 7,
+   "meshes": {
+    "static": 0,
+    "rigid": 6,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_8a86b4d218210427": {
+   "model": "tns_pole",
+   "bones": 1,
+   "meshes": {
+    "static": 0,
+    "rigid": 1,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 2,
+   "missingTextures": []
+  },
+  "mdl_d22e27ed9d9bf175": {
+   "model": "tns_r_color",
+   "bones": 4,
+   "meshes": {
+    "static": 0,
+    "rigid": 3,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_582ab15334348f75": {
+   "model": "tns_r_shadow",
+   "bones": 4,
+   "meshes": {
+    "static": 0,
+    "rigid": 3,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_4a55034043ab1877": {
+   "model": "tns_racket",
+   "bones": 4,
+   "meshes": {
+    "static": 0,
+    "rigid": 3,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 4,
+   "missingTextures": []
+  },
+  "mdl_cb54141c910f3ee6": {
+   "model": "logo_model",
+   "bones": 10,
+   "meshes": {
+    "static": 0,
+    "rigid": 0,
+    "skinned": 1
+   },
+   "morphs": 0,
+   "layers": 1,
+   "missingTextures": []
+  },
+  "mdl_7564a33ce77e1b6a": {
+   "model": "menu_BG_model",
+   "bones": 12,
+   "meshes": {
+    "static": 0,
+    "rigid": 10,
+    "skinned": 0
+   },
+   "morphs": 0,
+   "layers": 10,
+   "missingTextures": []
+  }
+ }
+}

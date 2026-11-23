@@ -1,0 +1,51 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_80e1a5a1e38617f0",
+ "source": "src/minigames/bowling/common/common.carc/G3D/bwg_throwline.brres/bwg_throwline",
+ "brres": "src/minigames/bowling/common/common.carc/G3D/bwg_throwline.brres",
+ "model": "bwg_throwline",
+ "glb": "models/src/minigames/bowling/common/G3D/bwg_throwline__bwg_throwline.glb",
+ "textures": [
+  {
+   "name": "arrow_00",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_throwline.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "arrow_01",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_throwline.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "arrow_02",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_throwline.brres",
+   "materials": [
+    "bwgLine_mat"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [],
+ "materials": [
+  {
+   "name": "bwgLine_mat",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "arrow_02",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ]
+}

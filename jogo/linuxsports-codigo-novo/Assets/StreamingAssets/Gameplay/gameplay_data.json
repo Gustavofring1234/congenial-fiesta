@@ -1,0 +1,1225 @@
+{
+ "format": "linuxsports-gameplay",
+ "version": 1,
+ "unitsPerMeter": 10.0,
+ "stateLayouts": {
+  "Boot": [
+   "lyt_9432230e0702d4c5",
+   "lyt_8e3b97ad9fb76716"
+  ],
+  "MainMenu": [
+   "lyt_f806677c102b58ce",
+   "lyt_af0a9c793e7f347e",
+   "lyt_18dfdb7b5415c592"
+  ],
+  "SportSelect": [
+   "lyt_611e981ecf948889",
+   "lyt_948dbaa3587c914b"
+  ],
+  "CharacterSelect": [
+   "lyt_611e981ecf948889",
+   "lyt_6c3473432d8a0fb3",
+   "lyt_e14a6f1d8d938bfc"
+  ],
+  "Intro": [
+   "lyt_d7102d80ffdebc5d",
+   "lyt_132e79b0ecde3659"
+  ],
+  "Playing": [
+   "lyt_5502abf3736b8545"
+  ],
+  "Paused": [
+   "lyt_ac9ea9ed54567e3b"
+  ],
+  "Results": [
+   "lyt_333c8effdd345e35",
+   "lyt_e77e2e31d92e1e60"
+  ],
+  "Records": [
+   "lyt_611e981ecf948889",
+   "lyt_e77e2e31d92e1e60",
+   "lyt_6b5d18619cf7c247"
+  ]
+ },
+ "records": [
+  {
+   "field": "BoxTrainingBest",
+   "getter": "RPSportsPlayerData::getBoxTrainingBest",
+   "getterAddr": "8018b610",
+   "getterSize": 16,
+   "setter": "RPSportsPlayerData::setBoxTrainingBest"
+  },
+  {
+   "field": "GolTrainingBest",
+   "getter": "RPSportsPlayerData::getGolTrainingBest",
+   "getterAddr": "8018b630",
+   "getterSize": 16,
+   "setter": "RPSportsPlayerData::setGolTrainingBest"
+  },
+  {
+   "field": "GolAceCount",
+   "getter": "RPSportsPlayerData::getGolAceCount",
+   "getterAddr": "8018b648",
+   "getterSize": 8,
+   "setter": "RPSportsPlayerData::setGolAceCount"
+  },
+  {
+   "field": "GolStandardBest",
+   "getter": "RPSportsPlayerData::getGolStandardBest",
+   "getterAddr": "8018b65c",
+   "getterSize": 16,
+   "setter": "RPSportsPlayerData::setGolStandardBest"
+  },
+  {
+   "field": "BowTrainingBest",
+   "getter": "RPSportsPlayerData::getBowTrainingBest",
+   "getterAddr": "8018b67c",
+   "getterSize": 16,
+   "setter": "RPSportsPlayerData::setBowTrainingBest"
+  },
+  {
+   "field": "BowPerfectCount",
+   "getter": "RPSportsPlayerData::getBowPerfectCount",
+   "getterAddr": "8018b694",
+   "getterSize": 8,
+   "setter": "RPSportsPlayerData::setBowPerfectCount"
+  },
+  {
+   "field": "BowStandardBest",
+   "getter": "RPSportsPlayerData::getBowStandardBest",
+   "getterAddr": "8018b6a4",
+   "getterSize": 8,
+   "setter": "RPSportsPlayerData::setBowStandardBest"
+  },
+  {
+   "field": "BsbRenzokuBest",
+   "getter": "RPSportsPlayerData::getBsbRenzokuBest",
+   "getterAddr": "8018b6b4",
+   "getterSize": 8,
+   "setter": "RPSportsPlayerData::setBsbRenzokuBest"
+  },
+  {
+   "field": "BsbUchiwakeBest",
+   "getter": "RPSportsPlayerData::getBsbUchiwakeBest",
+   "getterAddr": "8018b6c4",
+   "getterSize": 8,
+   "setter": "RPSportsPlayerData::setBsbUchiwakeBest"
+  },
+  {
+   "field": "BsbHomerunDistBest",
+   "getter": "RPSportsPlayerData::getBsbHomerunDistBest",
+   "getterAddr": "8018b6d4",
+   "getterSize": 8,
+   "setter": "RPSportsPlayerData::setBsbHomerunDistBest"
+  },
+  {
+   "field": "BsbHomerunRunsBest",
+   "getter": "RPSportsPlayerData::getBsbHomerunRunsBest",
+   "getterAddr": "8018b6e4",
+   "getterSize": 8,
+   "setter": "RPSportsPlayerData::setBsbHomerunRunsBest"
+  },
+  {
+   "field": "TnsTrainingBest",
+   "getter": "RPSportsPlayerData::getTnsTrainingBest",
+   "getterAddr": "8018b6f8",
+   "getterSize": 12,
+   "setter": "RPSportsPlayerData::setTnsTrainingBest"
+  },
+  {
+   "field": "TnsSuccess",
+   "getter": "RPSportsPlayerData::getTnsSuccess",
+   "getterAddr": "8018b70c",
+   "getterSize": 8,
+   "setter": "RPSportsPlayerData::setTnsSuccess"
+  },
+  {
+   "field": "TnsDifficulty",
+   "getter": "RPSportsPlayerData::getTnsDifficulty",
+   "getterAddr": "8018b71c",
+   "getterSize": 8,
+   "setter": "RPSportsPlayerData::setTnsDifficulty"
+  },
+  {
+   "field": "TrainingMedal",
+   "getter": "RPSportsPlayerData::getTrainingMedal",
+   "getterAddr": "8018b7a0",
+   "getterSize": 24,
+   "setter": "RPSportsPlayerData::setTrainingMedal"
+  },
+  {
+   "field": "TrainingPlayCount",
+   "getter": "RPSportsPlayerData::getTrainingPlayCount",
+   "getterAddr": "8018b7d0",
+   "getterSize": 24,
+   "setter": "RPSportsPlayerData::setTrainingPlayCount"
+  },
+  {
+   "field": "StandardPlayCount",
+   "getter": "RPSportsPlayerData::getStandardPlayCount",
+   "getterAddr": "8018b7f8",
+   "getterSize": 16,
+   "setter": "RPSportsPlayerData::setStandardPlayCount"
+  },
+  {
+   "field": "TrainingFirstDate",
+   "getter": "RPSportsPlayerData::getTrainingFirstDate",
+   "getterAddr": "8018b820",
+   "getterSize": 24,
+   "setter": "RPSportsPlayerData::setTrainingFirstDate"
+  },
+  {
+   "field": "StandardFirstDate",
+   "getter": "RPSportsPlayerData::getStandardFirstDate",
+   "getterAddr": "8018b848",
+   "getterSize": 16,
+   "setter": "RPSportsPlayerData::setStandardFirstDate"
+  },
+  {
+   "field": "SkillGraphPoint",
+   "getter": "RPSportsPlayerData::getSkillGraphPoint",
+   "getterAddr": "8018b870",
+   "getterSize": 24,
+   "setter": "RPSportsPlayerData::setSkillGraphPoint"
+  },
+  {
+   "field": "SkillLevel",
+   "getter": "RPSportsPlayerData::getSkillLevel",
+   "getterAddr": "8018b898",
+   "getterSize": 16,
+   "setter": "RPSportsPlayerData::setSkillLevel"
+  },
+  {
+   "field": "HandSecondary",
+   "getter": "RPSportsPlayerData::getHandSecondary",
+   "getterAddr": "8018b940",
+   "getterSize": 44,
+   "setter": "RPSportsPlayerData::setHandSecondary"
+  },
+  {
+   "field": "HandPrimary",
+   "getter": "RPSportsPlayerData::getHandPrimary",
+   "getterAddr": "8018b96c",
+   "getterSize": 40,
+   "setter": "RPSportsPlayerData::setHandPrimary"
+  }
+ ],
+ "sports": {
+  "tennis": {
+   "commonScene": "src/minigames/tennis/common/common.scene.json",
+   "scenes": [
+    "assets/maps/tennis/tns_Field_a.scene.json",
+    "assets/maps/tennis/tns_Field_b.scene.json"
+   ],
+   "animations": [
+    "tns_A0_jumpR",
+    "tns_A0_waitR",
+    "tns_back_spL",
+    "tns_backhandL",
+    "tns_fore_spR",
+    "tns_forehandR",
+    "tns_net_a_back",
+    "tns_net_a_front",
+    "tns_pole",
+    "tns_serve2R",
+    "tns_serveR",
+    "tns_tossR",
+    "tns_toss_waitR",
+    "tns_wait2L",
+    "tns_wait2R",
+    "tns_waitR",
+    "tns_wait_tR",
+    "tns_walkL",
+    "tns_walkR",
+    "tns_walk_r_L",
+    "tns_walk_r_R",
+    "tns_walk_r_tL",
+    "tns_walk_r_tR",
+    "tns_walk_tL",
+    "tns_walk_tR"
+   ],
+   "effects": [
+    "Tns_ball_mark",
+    "Tns_ball_rocketserve",
+    "Tns_ball_spark",
+    "Tns_choice_blue",
+    "Tns_choice_cpu",
+    "Tns_choice_green",
+    "Tns_choice_red",
+    "Tns_choice_yellow",
+    "Tns_jumpsmoke",
+    "Tns_jumpsmoke_slow",
+    "Tns_mato_break",
+    "Tns_mato_hit",
+    "Tns_ply_cancel_blue",
+    "Tns_ply_cancel_green",
+    "Tns_ply_cancel_red",
+    "Tns_ply_cancel_yellow",
+    "Tns_ply_good_blue",
+    "Tns_ply_good_cpu",
+    "Tns_ply_good_green",
+    "Tns_ply_good_red",
+    "Tns_ply_good_yellow",
+    "Tns_ply_miss01",
+    "Tns_rocketserve_slow",
+    "Tns_sweat01",
+    "Tns_wall_break"
+   ],
+   "models": {
+    "tns_ball_a": "Prefabs/Models/mdl_115d43c8debc4871",
+    "tns_Field_a": "Prefabs/Models/mdl_65d2061e5eb2f55e",
+    "tns_Field_b": "Prefabs/Models/mdl_cbc5aec4a2dc0755",
+    "tns_pole": "Prefabs/Models/mdl_8a86b4d218210427",
+    "tns_net_a": "Prefabs/Models/mdl_37842916e46587f2",
+    "tns_mato_a": "Prefabs/Models/mdl_5422d68fdfbfe78d",
+    "tns_mato_b": "Prefabs/Models/mdl_5422d38fdfbfe274",
+    "tns_mato_c": "Prefabs/Models/mdl_5422d48fdfbfe427",
+    "tns_racket": "Prefabs/Models/mdl_4a55034043ab1877",
+    "tns_r_shadow": "Prefabs/Models/mdl_582ab15334348f75",
+    "tns_r_color": "Prefabs/Models/mdl_d22e27ed9d9bf175"
+   },
+   "hud": {
+    "vsScoreServer_00": "lyt_faf9a9ac02d0f6bc",
+    "serverIcon_00": "lyt_5aafef20f9aef7de",
+    "ballScore_00": "lyt_16394b77c1573502",
+    "miss_00": "lyt_1353e26964e0613a",
+    "tennisText_00": "lyt_ac8f944f5f682acb",
+    "posSelect_00": "lyt_21e3903bd1a53e43"
+   },
+   "geometry": {
+    "halfLength": 118.85,
+    "singlesHalfWidth": 41.15,
+    "doublesHalfWidth": 54.85,
+    "serviceLine": 64.0,
+    "netHeightCenter": 9.14,
+    "netHeightPost": 10.7,
+    "netHalfWidth": 68.18
+   }
+  },
+  "baseball": {
+   "commonScene": "src/minigames/baseball/common/common.scene.json",
+   "scenes": [
+    "assets/maps/baseball/ballpark00.scene.json"
+   ],
+   "animations": [
+    "bbl_A0_runR",
+    "bbl_A0_waitR",
+    "bbl_b_buntR",
+    "bbl_b_bunt_waitR",
+    "bbl_b_swing1R",
+    "bbl_b_swing_wait1R",
+    "bbl_b_swing_wait2R",
+    "bbl_b_waitR",
+    "bbl_c_recerveR",
+    "bbl_c_waitR",
+    "bbl_p_pitch1R",
+    "bbl_p_pitch2R",
+    "bbl_p_waitR",
+    "bbl_r_happyR",
+    "bbl_r_runR"
+   ],
+   "effects": [
+    "Bsb_ball_tail01",
+    "Bsb_ballglow01",
+    "Bsb_ballpoint01",
+    "Bsb_base_smoke01",
+    "Bsb_batblur01",
+    "Bsb_bound_grass01",
+    "Bsb_bound_smoke01",
+    "Bsb_error_shock",
+    "Bsb_justmeet02",
+    "Bsb_run_grass01",
+    "Bsb_run_smoke01",
+    "Bsb_sweat01"
+   ],
+   "models": {
+    "bbl_Ball": "Prefabs/Models/mdl_df601120208c81ec",
+    "bbl_Field_a": "Prefabs/Models/mdl_20de8bc6b195098e",
+    "bbl_Field_Screen": "Prefabs/Models/mdl_1b6f4c5bac720d40",
+    "bbl_Field_Score": "Prefabs/Models/mdl_0faa4fef7d1aa94e",
+    "bbl_Glove_l": "Prefabs/Models/mdl_d9a7caed0ca0c1ad",
+    "bbl_Glove_r": "Prefabs/Models/mdl_d9a7aced0ca08eb3",
+    "bbl_c_mask": "Prefabs/Models/mdl_203e083310a8b44a",
+    "bbl_c_pl": "Prefabs/Models/mdl_27c23aafc8f0242a",
+    "bbl_c_glove": "Prefabs/Models/mdl_ec4b2f3377140552",
+    "bbl_Arrow_A": "Prefabs/Models/mdl_20dd59f74e8fa346",
+    "bbl_Arrow_B": "Prefabs/Models/mdl_a9473c3a3b9f08a6",
+    "bbl_RangeBoard_A": "Prefabs/Models/mdl_295e14d068404480",
+    "bbl_RangeBoard_B": "Prefabs/Models/mdl_30f6b291a32bda82",
+    "bbl_RangeBoard_C": "Prefabs/Models/mdl_e8b6d6474331bb90"
+   },
+   "hud": {
+    "bblVsGame_00": "lyt_3a7b94e834ec2ba4",
+    "bblGameText_00": "lyt_24a4c14c3d7b5e30",
+    "bblCommon_00": "lyt_e83970f769eab440",
+    "bblGameResult_00": "lyt_f39aebd88094aa42",
+    "baseballCommon_00": "lyt_296de2c39ddb1825"
+   },
+   "geometry": {
+    "home": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "firstBaseLine": [
+     -1.0,
+     0.0,
+     0.0
+    ],
+    "thirdBaseLine": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "pitcherDistance": 184.4,
+    "baseDistance": 274.3,
+    "fenceAngleStepDeg": 5.0,
+    "fence": [
+     796.0,
+     813.9,
+     848.1,
+     880.0,
+     918.3,
+     942.0,
+     961.0,
+     967.6,
+     977.1,
+     984.1,
+     977.1,
+     967.6,
+     961.0,
+     942.0,
+     918.3,
+     880.0,
+     848.1,
+     813.9,
+     796.0
+    ]
+   }
+  },
+  "bowling": {
+   "commonScene": "src/minigames/bowling/common/common.scene.json",
+   "scenes": [],
+   "animations": [
+    "bwg_A0_UturnR",
+    "bwg_A0_frontR",
+    "bwg_A0_happyR",
+    "bwg_A0_returnR",
+    "bwg_A0_throwR",
+    "bwg_A0_wait2R",
+    "bwg_A0_wait3R",
+    "bwg_A0_waitR",
+    "bwg_A0_walkR",
+    "bwg_moveR",
+    "bwg_throw1R",
+    "bwg_throw2R",
+    "bwg_throwR_tmp",
+    "bwg_wait_armR",
+    "bwg_wait_legR",
+    "bwg_wait_moveR",
+    "bwg_walkR",
+    "pin_conveyer"
+   ],
+   "effects": [
+    "Bow_lane01",
+    "Bow_perfect_hubuki",
+    "Bow_perfect_kira",
+    "Bow_pin_hit",
+    "Bow_pinltail",
+    "Bow_wall_hit",
+    "Bow_wall_hit02"
+   ],
+   "models": {
+    "bwg_ball_blue": "Prefabs/Models/mdl_d7180405978dfc1b",
+    "bwg_ball_pink": "Prefabs/Models/mdl_7b5b999a2d39fa37",
+    "bwg_ball_green": "Prefabs/Models/mdl_ce43d015980fc7e6",
+    "bwg_ball_yellow": "Prefabs/Models/mdl_de9287bad515ccab",
+    "bwg_ball_blue_mirror": "Prefabs/Models/mdl_30493df3b669668f",
+    "bwg_ball_pink_mirror": "Prefabs/Models/mdl_9622cede8bbe73cb",
+    "bwg_ball_green_mirror": "Prefabs/Models/mdl_22fff1a17c524e98",
+    "bwg_ball_yellow_mirror": "Prefabs/Models/mdl_4c0e29872e0101bf",
+    "bwg_ball_blue_pro": "Prefabs/Models/mdl_839e48d86751ab17",
+    "bwg_ball_pink_pro": "Prefabs/Models/mdl_0b5e6bf22b877d93",
+    "bwg_ball_green_pro": "Prefabs/Models/mdl_97f90f05164e5752",
+    "bwg_ball_yellow_pro": "Prefabs/Models/mdl_1675bfea3701bba7",
+    "bwg_ball_blue_pro_mirror": "Prefabs/Models/mdl_6d30ef0b0f95956b",
+    "bwg_ball_pink_pro_mirror": "Prefabs/Models/mdl_5258e3b6336efb97",
+    "bwg_ball_green_pro_mirror": "Prefabs/Models/mdl_c0a08b874ee35664",
+    "bwg_ball_yellow_pro_mirror": "Prefabs/Models/mdl_7d7eac4931823d9b",
+    "bwg_field_front": "Prefabs/Models/mdl_3b88d8c00cba1c2c",
+    "bwg_field_pin": "Prefabs/Models/mdl_523fa258df3f0c00",
+    "bwg_field_91": "Prefabs/Models/mdl_efa5bed16aa3fbd2",
+    "bwg_wall_L": "Prefabs/Models/mdl_ad91c8f94158c642",
+    "bwg_wall_R": "Prefabs/Models/mdl_ad91baf94158ae78",
+    "bwg_wall_L_mirror": "Prefabs/Models/mdl_f155e37d9c3c7d74",
+    "bwg_wall_R_mirror": "Prefabs/Models/mdl_83febb82f7050662",
+    "bwg_field": "Prefabs/Models/mdl_2793cc224716d814",
+    "bwg_pin_438_91": "Prefabs/Models/mdl_f23ac66f5ee44813",
+    "bwg_pin_286_91": "Prefabs/Models/mdl_1a327de243ce5726",
+    "bwg_pin_866_10": "Prefabs/Models/mdl_408c9ab06b75a915",
+    "bwg_pin_286_10": "Prefabs/Models/mdl_1a4e0ee243e61541",
+    "bwg_pin_438_10": "Prefabs/Models/mdl_f255d56f5efb2948",
+    "bwg_pin_74_10": "Prefabs/Models/mdl_0965b74462d55d9e",
+    "bwg_pin_166_10": "Prefabs/Models/mdl_dfee6542cda68660",
+    "pin_conveyer": "Prefabs/Models/mdl_4612de54072ac963",
+    "bwg_arrow_00": "Prefabs/Models/mdl_3ec9f124b64b3840",
+    "bwg_arrow_01": "Prefabs/Models/mdl_3ec9f224b64b39f3",
+    "bwg_throwline": "Prefabs/Models/mdl_80e1a5a1e38617f0",
+    "bwg_gate_frame_L": "Prefabs/Models/mdl_851c4582eef98d2f",
+    "bwg_gate": "Prefabs/Models/mdl_0c5ffb9daed3d932",
+    "bwg_gate_frame_R": "Prefabs/Models/mdl_851c3b82eef97c31"
+   },
+   "hud": {
+    "score_00": "lyt_e82d1df978605c9f",
+    "pin_00": "lyt_e6144ee0869e65fc",
+    "bwgStrike_00": "lyt_e3baed1dd0f822c3",
+    "bwgText_00": "lyt_ada35d0276a6f954",
+    "bwgCount_00": "lyt_1ead17819b16925e",
+    "BwgGlfScorecard_00": "lyt_b7f2f0584f49330f"
+   },
+   "geometry": {
+    "foulLineZ": 0.0,
+    "headPinZ": -182.821,
+    "laneEndZ": -260.002,
+    "laneHalfWidth": 10.54,
+    "gutterHalfWidth": 19.5,
+    "pinSpacing": 3.048,
+    "pinHeight": 3.822,
+    "pinRadius": 0.637,
+    "ballRadius": 1.09,
+    "npcLaneX": [
+     0.0,
+     -16.1,
+     17.6,
+     -33.75,
+     33.6,
+     -49.85,
+     51.15
+    ]
+   }
+  },
+  "golf": {
+   "commonScene": "src/minigames/golf/common/common.scene.json",
+   "scenes": [
+    "assets/maps/golf/glf_course_E3.scene.json",
+    "assets/maps/golf/glf_course_angle.scene.json",
+    "assets/maps/golf/glf_course_fc1.scene.json",
+    "assets/maps/golf/glf_course_fc11.scene.json",
+    "assets/maps/golf/glf_course_fc12.scene.json",
+    "assets/maps/golf/glf_course_fc13.scene.json",
+    "assets/maps/golf/glf_course_fc14.scene.json",
+    "assets/maps/golf/glf_course_fc16.scene.json",
+    "assets/maps/golf/glf_course_fc18.scene.json",
+    "assets/maps/golf/glf_course_fc3.scene.json",
+    "assets/maps/golf/glf_course_fc5.scene.json",
+    "assets/maps/golf/glf_course_fc8.scene.json",
+    "assets/maps/golf/glf_course_fc9.scene.json",
+    "assets/maps/golf/glf_course_survey.scene.json"
+   ],
+   "animations": [
+    "glf_mato_C",
+    "glf_p_swing_h",
+    "glf_p_swing_l",
+    "glf_p_swing_m",
+    "glf_p_wait_h_R",
+    "glf_p_wait_l_R",
+    "glf_p_wait_m_R",
+    "glf_pin1_L",
+    "glf_pin1_M",
+    "glf_pin1_S",
+    "glf_sky",
+    "glf_sky2",
+    "glf_w_swing_h_R",
+    "glf_w_swing_l_R",
+    "glf_w_swing_m_R",
+    "glf_w_wait_h_R",
+    "glf_w_wait_l_R",
+    "glf_w_wait_m_R"
+   ],
+   "effects": [
+    "Gol_2d_albat",
+    "Gol_2d_birdie",
+    "Gol_2d_eagle",
+    "Gol_balltail",
+    "Gol_bunker_fall",
+    "Gol_bunker_shot01",
+    "Gol_bunker_shot02",
+    "Gol_fairway_bound",
+    "Gol_fairway_shot",
+    "Gol_ikepocha",
+    "Gol_mapobj_bar",
+    "Gol_mapobj_barpoint",
+    "Gol_mapobj_hole",
+    "Gol_mapobj_hole_green",
+    "Gol_mapobj_player",
+    "Gol_mapobj_target",
+    "Gol_matohit_glow",
+    "Gol_matohit_pinlight",
+    "Gol_matohit_ring",
+    "Gol_powerbar_dia",
+    "Gol_powerbar_dot",
+    "Gol_rock_bound",
+    "Gol_rough_bound",
+    "Gol_rough_shot_hole",
+    "Gol_rough_shot_leaf",
+    "Gol_rough_shot_soil",
+    "Gol_rough_shot_waraji",
+    "Gol_shot1",
+    "Gol_tee_set",
+    "Gol_tee_shot",
+    "Gol_tree_conifer",
+    "Gol_tree_leaf",
+    "Gol_wind"
+   ],
+   "models": {
+    "glf_ball1": "Prefabs/Models/mdl_7a02aad1273e49dc",
+    "glf_marker": "Prefabs/Models/mdl_25f0370669bf20fa",
+    "glf_HelpBall": "Prefabs/Models/mdl_0b49e0a8c64a381d",
+    "glf_HelpSquare": "Prefabs/Models/mdl_2ca38a70e2a21cd7",
+    "glf_club_WD_L": "Prefabs/Models/mdl_364ca010ac3c377a",
+    "glf_club_IR_L": "Prefabs/Models/mdl_f379a93a2c73cff2",
+    "glf_club_SW_L": "Prefabs/Models/mdl_d6c522f2cbe67257",
+    "glf_club_PT_L": "Prefabs/Models/mdl_0b9e4ff9325af63d",
+    "glf_club_WD": "Prefabs/Models/mdl_e868e7cb2abf7fec",
+    "glf_club_IR": "Prefabs/Models/mdl_e8ce05cb2b14b318",
+    "glf_club_SW": "Prefabs/Models/mdl_e8760acb2aca45c1",
+    "glf_club_PT": "Prefabs/Models/mdl_e87ff9cb2ad27d63",
+    "glf_pin1": "Prefabs/Models/mdl_7ea6de5c8f296c6a",
+    "glf_pin1b": "Prefabs/Models/mdl_5ef7df4743629198",
+    "glf_fukidasi": "Prefabs/Models/mdl_6a7449d4d0140bba",
+    "golf_powerbar_tex01": "Prefabs/Models/mdl_3eaf16b0bd8bb1bd",
+    "golf_powerbar_tex01bg": "Prefabs/Models/mdl_88452b0560c6f30c",
+    "golf_powerbar_tex01frame": "Prefabs/Models/mdl_e0b8d65e4730b20e",
+    "glf_teeOBJ": "Prefabs/Models/mdl_7bdc8590a80d734c",
+    "glf_sky": "Prefabs/Models/mdl_8c2a4b84071247dc",
+    "glf_sky2": "Prefabs/Models/mdl_3e263f580410396a",
+    "glf_mato_C": "Prefabs/Models/mdl_1d162b0bcedd1806",
+    "glf_cup": "Prefabs/Models/mdl_3714054860a4d3b4",
+    "glf_cup_side": "Prefabs/Models/mdl_79685f5e7ee49eda",
+    "glf_windGround": "Prefabs/Models/mdl_ef8573cc950774e9",
+    "glf_windArrow": "Prefabs/Models/mdl_71ec7ba7965184fb",
+    "glf_matoPIN": "Prefabs/Models/mdl_6ecb2804cb0cc160"
+   },
+   "hud": {
+    "golf_00": "lyt_eddc8c3dc9d47f51",
+    "glfShotNumber_00": "lyt_a6a8769e65d90af1",
+    "glfScorecard_00": "lyt_478ca8d3c7ed6682",
+    "glfHoleOutText_00": "lyt_f501a0d0d50f02b5",
+    "glfSelectCourse_00": "lyt_b46438c3976b8785",
+    "glfHoleDemo_00": "lyt_5cb090e534aad1a5"
+   },
+   "courses": [
+    {
+     "id": "E3",
+     "scene": "assets/maps/golf/glf_course_E3.scene.json",
+     "tee": [
+      100,
+      -10,
+      -700
+     ],
+     "teeForward": [
+      -0.0,
+      0.0,
+      -1.0
+     ],
+     "pins": [
+      [
+       -7.415,
+       -97.995,
+       -2900.233
+      ]
+     ],
+     "distanceMeters": 220.5,
+     "par": 3
+    },
+    {
+     "id": "angle",
+     "scene": "assets/maps/golf/glf_course_angle.scene.json",
+     "tee": [
+      0,
+      0,
+      596
+     ],
+     "teeForward": [
+      -0.0,
+      0.0,
+      1.0
+     ],
+     "pins": [
+      [
+       0,
+       0,
+       2844.1
+      ]
+     ],
+     "distanceMeters": 224.8,
+     "par": 3
+    },
+    {
+     "id": "fc1",
+     "scene": "assets/maps/golf/glf_course_fc1.scene.json",
+     "tee": [
+      -12.8,
+      193.6,
+      1968.5
+     ],
+     "teeForward": [
+      -0.0349,
+      0.0,
+      -0.9994
+     ],
+     "pins": [
+      [
+       39.4,
+       137.3,
+       -1516
+      ],
+      [
+       -32.2,
+       135.6,
+       -1419.4
+      ],
+      [
+       -93,
+       140.3,
+       -1522.8
+      ]
+     ],
+     "distanceMeters": 338.8,
+     "par": 4
+    },
+    {
+     "id": "fc11",
+     "scene": "assets/maps/golf/glf_course_fc11.scene.json",
+     "tee": [
+      0,
+      -10,
+      1085.5
+     ],
+     "teeForward": [
+      -0.0,
+      0.0,
+      -1.0
+     ],
+     "pins": [
+      [
+       85.8,
+       -13,
+       -938.5
+      ],
+      [
+       24.1,
+       -15.3,
+       -900.2
+      ],
+      [
+       -62.9,
+       -14.9,
+       -924.2
+      ],
+      [
+       -34,
+       -8.1,
+       -966.7
+      ],
+      [
+       45.7,
+       -16,
+       -957.9
+      ]
+     ],
+     "distanceMeters": 198.6,
+     "par": 3
+    },
+    {
+     "id": "fc12",
+     "scene": "assets/maps/golf/glf_course_fc12.scene.json",
+     "tee": [
+      448.7,
+      0,
+      1785.5
+     ],
+     "teeForward": [
+      0.0175,
+      0.0,
+      -0.9998
+     ],
+     "pins": [
+      [
+       -434.1,
+       99.5,
+       -346
+      ],
+      [
+       -509.2,
+       107.5,
+       -376
+      ],
+      [
+       -554,
+       107.8,
+       -316.6
+      ]
+     ],
+     "distanceMeters": 230.9,
+     "par": 4
+    },
+    {
+     "id": "fc13",
+     "scene": "assets/maps/golf/glf_course_fc13.scene.json",
+     "tee": [
+      908.7,
+      -70,
+      2645.3
+     ],
+     "teeForward": [
+      -0.515,
+      0.0,
+      -0.8572
+     ],
+     "pins": [
+      [
+       257.2,
+       -61.8,
+       -1466.4
+      ],
+      [
+       257.2,
+       -61.8,
+       -1466.4
+      ],
+      [
+       257.2,
+       -61.8,
+       -1466.4
+      ]
+     ],
+     "distanceMeters": 416.3,
+     "par": 4
+    },
+    {
+     "id": "fc14",
+     "scene": "assets/maps/golf/glf_course_fc14.scene.json",
+     "tee": [
+      -70.3,
+      50,
+      560.7
+     ],
+     "teeForward": [
+      0.0,
+      0.0,
+      -1.0
+     ],
+     "pins": [
+      [
+       200.5,
+       -4,
+       -715.2
+      ],
+      [
+       175.6,
+       -1,
+       -754.2
+      ],
+      [
+       79.4,
+       3.9,
+       -710
+      ]
+     ],
+     "distanceMeters": 128.0,
+     "par": 3
+    },
+    {
+     "id": "fc16",
+     "scene": "assets/maps/golf/glf_course_fc16.scene.json",
+     "tee": [
+      -404.7,
+      10,
+      1362.8
+     ],
+     "teeForward": [
+      0.225,
+      0.0,
+      -0.9744
+     ],
+     "pins": [
+      [
+       -199.8,
+       110.5,
+       -1720
+      ],
+      [
+       -294.7,
+       117.1,
+       -1795.5
+      ],
+      [
+       -309.7,
+       106,
+       -1705
+      ]
+     ],
+     "distanceMeters": 307.1,
+     "par": 4
+    },
+    {
+     "id": "fc18",
+     "scene": "assets/maps/golf/glf_course_fc18.scene.json",
+     "tee": [
+      -166.3,
+      0,
+      2379.1
+     ],
+     "teeForward": [
+      -0.4384,
+      0.0,
+      -0.8988
+     ],
+     "pins": [
+      [
+       247.606,
+       0,
+       -2390.036
+      ]
+     ],
+     "distanceMeters": 478.7,
+     "par": 5
+    },
+    {
+     "id": "fc3",
+     "scene": "assets/maps/golf/glf_course_fc3.scene.json",
+     "tee": [
+      284.7,
+      36,
+      787.5
+     ],
+     "teeForward": [
+      -0.2079,
+      0.0,
+      -0.9781
+     ],
+     "pins": [
+      [
+       -100,
+       -7.5,
+       -396.2
+      ],
+      [
+       -160.5,
+       -6.6,
+       -374.2
+      ],
+      [
+       -205.1,
+       -7.1,
+       -344
+      ],
+      [
+       -174.1,
+       -2.5,
+       -449.7
+      ],
+      [
+       -210.1,
+       -7,
+       -350.5
+      ],
+      [
+       -249.8,
+       -2,
+       -420
+      ]
+     ],
+     "distanceMeters": 123.4,
+     "par": 3
+    },
+    {
+     "id": "fc5",
+     "scene": "assets/maps/golf/glf_course_fc5.scene.json",
+     "tee": [
+      -572,
+      -31.7,
+      1321.3
+     ],
+     "teeForward": [
+      0.6561,
+      0.0,
+      -0.7547
+     ],
+     "pins": [
+      [
+       -295.9,
+       1,
+       -1976.3
+      ],
+      [
+       -365.2,
+       1.7,
+       -2013.5
+      ],
+      [
+       -409.2,
+       2.2,
+       -1959.8
+      ]
+     ],
+     "distanceMeters": 328.5,
+     "par": 4
+    },
+    {
+     "id": "fc8",
+     "scene": "assets/maps/golf/glf_course_fc8.scene.json",
+     "tee": [
+      754.4,
+      17.7,
+      2152.8
+     ],
+     "teeForward": [
+      -0.6947,
+      0.0,
+      -0.7193
+     ],
+     "pins": [
+      [
+       489.7,
+       -42.5,
+       -2095.6
+      ],
+      [
+       430.2,
+       -45,
+       -2110.3
+      ],
+      [
+       430.1,
+       -47.2,
+       -2050.3
+      ]
+     ],
+     "distanceMeters": 421.6,
+     "par": 4
+    },
+    {
+     "id": "fc9",
+     "scene": "assets/maps/golf/glf_course_fc9.scene.json",
+     "tee": [
+      55.2,
+      0,
+      1142.8
+     ],
+     "teeForward": [
+      -0.1908,
+      0.0,
+      -0.9816
+     ],
+     "pins": [
+      [
+       -335,
+       195.1,
+       -861
+      ],
+      [
+       -290.3,
+       194.5,
+       -830
+      ],
+      [
+       -395.5,
+       201.6,
+       -779
+      ]
+     ],
+     "distanceMeters": 198.4,
+     "par": 3
+    },
+    {
+     "id": "survey",
+     "scene": "assets/maps/golf/glf_course_survey.scene.json",
+     "tee": [
+      0,
+      0,
+      0
+     ],
+     "teeForward": [
+      -0.0,
+      0.0,
+      -1.0
+     ],
+     "pins": [
+      [
+       -0.002,
+       0,
+       -4500
+      ]
+     ],
+     "distanceMeters": 450.0,
+     "par": 5
+    }
+   ],
+   "surfaces": {
+    "1": "tee",
+    "2": "fairway",
+    "3": "bunker",
+    "4": "rough",
+    "5": "deepRough",
+    "6": "green",
+    "7": "outOfBounds",
+    "8": "rough",
+    "9": "green",
+    "10": "rough",
+    "11": "green",
+    "12": "water",
+    "13": "outOfBounds"
+   }
+  },
+  "boxing": {
+   "commonScene": "src/minigames/boxing/common/common.scene.json",
+   "scenes": [
+    "assets/maps/boxing/MainGame.scene.json"
+   ],
+   "animations": [
+    "box_avatarA",
+    "box_avatarB",
+    "box_avatarC",
+    "box_c_nobR",
+    "box_c_shadowR",
+    "box_c_throw1_1L",
+    "box_c_throw1_1R",
+    "box_c_throw1_2L",
+    "box_c_throw1_2R",
+    "box_c_throw1_cR",
+    "box_c_throw2_L",
+    "box_c_throw2_R",
+    "box_c_waitR",
+    "box_c_weaveR",
+    "box_down1R",
+    "box_down2R",
+    "box_pose_waitR",
+    "box_pose_walkR",
+    "box_punch_hook_l_L",
+    "box_punch_hook_l_R",
+    "box_punch_hook_r_L",
+    "box_punch_hook_r_R",
+    "box_punch_jab_L",
+    "box_punch_jab_R",
+    "box_punch_straight_l_L",
+    "box_punch_straight_l_R",
+    "box_punch_straight_r_L",
+    "box_punch_straight_r_R",
+    "box_punch_upper_l_L",
+    "box_punch_upper_l_R",
+    "box_punch_upper_r_L",
+    "box_punch_upper_r_R",
+    "box_wait1R"
+   ],
+   "effects": [
+    "Box_afterimage01_blue",
+    "Box_afterimage01_red",
+    "Box_afterimage02",
+    "Box_baseball_tail",
+    "Box_bowlingball_tail",
+    "Box_damageline_1p_s",
+    "Box_damageline_1p_w",
+    "Box_damageline_vs_s",
+    "Box_damageline_vs_w",
+    "Box_glovetail01_blue",
+    "Box_glovetail01_green",
+    "Box_glovetail01_red",
+    "Box_glovetail01_white",
+    "Box_glovetail01_yellow",
+    "Box_glovetail02_blue",
+    "Box_glovetail02_green",
+    "Box_glovetail02_red",
+    "Box_glovetail02_white",
+    "Box_glovetail02_yellow",
+    "Box_golfball_tail",
+    "Box_guard01_blue",
+    "Box_guard01_red",
+    "Box_hit01_blue",
+    "Box_hit01_red",
+    "Box_hit01_yellow",
+    "Box_hit02_blue",
+    "Box_hit02_red",
+    "Box_hit02_yellow",
+    "Box_hit03_blue",
+    "Box_hit03_red",
+    "Box_hit03_yellow",
+    "Box_hit04_blue",
+    "Box_hit04_red",
+    "Box_hit04_yellow",
+    "Box_indistinct01",
+    "Box_life_base02",
+    "Box_life_ring_blink_blue",
+    "Box_life_ring_blink_red",
+    "Box_life_ring_blue",
+    "Box_mitt_hit",
+    "Box_paling01",
+    "Box_pingball_tail",
+    "Box_sandbag_crash",
+    "Box_sandbag_hit01",
+    "Box_sweat_1time01",
+    "Box_sweat_loop01",
+    "Box_tennisball_tail",
+    "Box_turnoff_blue",
+    "Box_turnoff_red",
+    "Box_turnon_blue",
+    "Box_turnon_red"
+   ],
+   "models": {
+    "box_ring": "Prefabs/Models/mdl_679492548a618249",
+    "box_hall": "Prefabs/Models/mdl_97553b203796012c",
+    "box_light": "Prefabs/Models/mdl_9f5a008259267121",
+    "box_corner_B": "Prefabs/Models/mdl_383a46eebf39a083",
+    "box_corner_R": "Prefabs/Models/mdl_383a36eebf398553",
+    "box_corner_W1": "Prefabs/Models/mdl_c47acdaeeec61c07",
+    "box_corner_W2": "Prefabs/Models/mdl_c47aceaeeec61dba",
+    "box_gym": "Prefabs/Models/mdl_a83edc8a093af7c7",
+    "box_rope": "Prefabs/Models/mdl_34899a546dbbb1af",
+    "box_rope_kage": "Prefabs/Models/mdl_86db55948b013f00",
+    "box_glove_L": "Prefabs/Models/mdl_51fa7aee8de9e066",
+    "box_glove_R": "Prefabs/Models/mdl_51fa94ee8dea0c94",
+    "box_mitt_L": "Prefabs/Models/mdl_bc6bc8a9dae605b0",
+    "box_mitt_R": "Prefabs/Models/mdl_bc6bc6a9dae6024a",
+    "box_avatarC": "Prefabs/Models/mdl_644d43cbbd1ff158",
+    "box_avatarB": "Prefabs/Models/mdl_644d44cbbd1ff30b",
+    "box_avatarA": "Prefabs/Models/mdl_644d45cbbd1ff4be",
+    "box_sandbagC": "Prefabs/Models/mdl_5f4f7b574169ff0c",
+    "box_sandbagB": "Prefabs/Models/mdl_5f4f7c57416a00bf",
+    "box_sandbagA": "Prefabs/Models/mdl_5f4f7d57416a0272",
+    "box_sandbagC_a": "Prefabs/Models/mdl_ee7c13ce76071eb8",
+    "box_sandbagB_a": "Prefabs/Models/mdl_f6a42cce7a80fbf3",
+    "box_sandbagA_a": "Prefabs/Models/mdl_fdf281ce7e419b62",
+    "box_ball_tns": "Prefabs/Models/mdl_afb4485ea9af5583",
+    "box_ball_bbl": "Prefabs/Models/mdl_6bb7c75f1373dfac",
+    "box_ball_glf": "Prefabs/Models/mdl_51eb685f04e52603",
+    "box_ball_bwg": "Prefabs/Models/mdl_6b92e25f1354f150",
+    "box_ball_pin": "Prefabs/Models/mdl_cff3095ebb449e1b",
+    "box_ball_bad": "Prefabs/Models/mdl_6bc1c15f137c29ff",
+    "box_ball_shadow": "Prefabs/Models/mdl_6a3cae12130b5f98"
+   },
+   "hud": {
+    "boxGauge_00": "lyt_719f08aaab35a777",
+    "boxJudge_00": "lyt_755ab2b04268f813",
+    "boxEx_00": "lyt_4f3a07ce031443cd"
+   },
+   "geometry": {
+    "ringHalfSize": 36.85,
+    "floorY": 0.0
+   }
+  }
+ },
+ "avatarBodies": {
+  "ava_bodyA0": "Prefabs/Models/mdl_e639d7e09405ef57",
+  "ava_bodyA1": "Prefabs/Models/mdl_6ba2941cb6de3aed",
+  "ava_bodyA2": "Prefabs/Models/mdl_ab88d90e94cdb203",
+  "ava_bodyA3": "Prefabs/Models/mdl_0331333e2f4caff5",
+  "ava_bodyB0": "Prefabs/Models/mdl_938655c583cb2099",
+  "ava_bodyB1": "Prefabs/Models/mdl_8192b926f46ac437",
+  "ava_bodyB2": "Prefabs/Models/mdl_8a1d39439af01725",
+  "ava_bodyB3": "Prefabs/Models/mdl_5a4869d30bb2a007",
+  "ava_bodyC0": "Prefabs/Models/mdl_2a00b12bcdb59887",
+  "ava_bodyC1": "Prefabs/Models/mdl_1095848983d4c2ad",
+  "ava_bodyE0": "Prefabs/Models/mdl_0b61d89aabf019b7"
+ }
+}

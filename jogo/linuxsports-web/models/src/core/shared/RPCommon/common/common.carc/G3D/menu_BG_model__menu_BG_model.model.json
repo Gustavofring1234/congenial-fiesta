@@ -1,0 +1,69 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_ca4afd845eeca8b6",
+ "source": "src/core/shared/RPCommon/common/common.carc/G3D/menu_BG_model.brres/menu_BG_model",
+ "brres": "src/core/shared/RPCommon/common/common.carc/G3D/menu_BG_model.brres",
+ "model": "menu_BG_model",
+ "glb": "models/src/core/shared/RPCommon/common/common.carc/G3D/menu_BG_model__menu_BG_model.glb",
+ "textures": [
+  {
+   "name": "B",
+   "foundIn": "src/core/shared/RPCommon/common/common.carc/G3D/menu_BG_model.brres"
+  },
+  {
+   "name": "C",
+   "foundIn": "src/core/shared/RPCommon/common/common.carc/G3D/menu_BG_model.brres"
+  },
+  {
+   "name": "env_tex",
+   "foundIn": "src/core/shared/RPCommon/common/common.carc/G3D/menu_BG_model.brres"
+  },
+  {
+   "name": "ind_tex",
+   "foundIn": "src/core/shared/RPCommon/common/common.carc/G3D/menu_BG_model.brres"
+  },
+  {
+   "name": "map",
+   "foundIn": "src/core/shared/RPCommon/common/common.carc/G3D/menu_BG_model.brres"
+  },
+  {
+   "name": "SP_menu_earth",
+   "foundIn": "src/core/shared/RPCommon/common/common.carc/G3D/menu_BG_model.brres"
+  },
+  {
+   "name": "SP_menu_env",
+   "foundIn": "src/core/shared/RPCommon/common/common.carc/G3D/menu_BG_model.brres"
+  },
+  {
+   "name": "SP_menu_ind",
+   "foundIn": "src/core/shared/RPCommon/common/common.carc/G3D/menu_BG_model.brres"
+  },
+  {
+   "name": "SP_menu_logo",
+   "foundIn": "src/core/shared/RPCommon/common/common.carc/G3D/menu_BG_model.brres"
+  },
+  {
+   "name": "SP_menu_tex00",
+   "foundIn": "src/core/shared/RPCommon/common/common.carc/G3D/menu_BG_model.brres"
+  },
+  {
+   "name": "SP_menu_tex01",
+   "foundIn": "src/core/shared/RPCommon/common/common.carc/G3D/menu_BG_model.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "menu_BG_model"
+  },
+  {
+   "type": "SRT0",
+   "name": "menu_BG_model"
+  },
+  {
+   "type": "CLR0",
+   "name": "menu_BG_model"
+  }
+ ]
+}

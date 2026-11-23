@@ -1,0 +1,37 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_b2c24ba691d11a89",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_chip_in_model.brres/chip_in",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_chip_in_model.brres",
+ "model": "chip_in",
+ "glb": "models/src/core/shared/SportsStatic/us/local.carc/G3D/glf_chip_in_model__chip_in.glb",
+ "textures": [
+  {
+   "name": "glf_chip_in_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_chip_in_model.brres"
+  },
+  {
+   "name": "glf_env",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_chip_in_model.brres"
+  },
+  {
+   "name": "glf_flash",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_chip_in_model.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "chip_in"
+  },
+  {
+   "type": "SRT0",
+   "name": "chip_in"
+  },
+  {
+   "type": "CLR0",
+   "name": "chip_in"
+  }
+ ]
+}

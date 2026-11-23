@@ -1,0 +1,20 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_d9a7aced0ca08eb3",
+ "source": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Glove.brres/bbl_Glove_r",
+ "brres": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Glove.brres",
+ "model": "bbl_Glove_r",
+ "glb": "models/src/minigames/baseball/common/common.carc/model/G3D/bbl_Glove__bbl_Glove_r.glb",
+ "textures": [
+  {
+   "name": "bbl_glove",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Glove.brres"
+  },
+  {
+   "name": "bbl_Glove_env",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Glove.brres"
+  }
+ ],
+ "animations": []
+}

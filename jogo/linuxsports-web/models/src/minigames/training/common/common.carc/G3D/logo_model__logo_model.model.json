@@ -1,0 +1,21 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_cb54141c910f3ee6",
+ "source": "src/minigames/training/common/common.carc/G3D/logo_model.brres/logo_model",
+ "brres": "src/minigames/training/common/common.carc/G3D/logo_model.brres",
+ "model": "logo_model",
+ "glb": "models/src/minigames/training/common/common.carc/G3D/logo_model__logo_model.glb",
+ "textures": [
+  {
+   "name": "WiiSports_logo",
+   "foundIn": "src/minigames/training/common/common.carc/G3D/logo_model.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "logo_model"
+  }
+ ]
+}

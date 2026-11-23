@@ -1,0 +1,83 @@
+{
+ "assetId": "mdl_d21e0914b8236a12",
+ "model": "glf_strike",
+ "materials": [
+  {
+   "name": "num_1",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfS_strike01",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "num_5",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfS_strike02",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon3"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "num_9",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfS_strike03",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon2"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "glfS_strike01",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_strike.brres",
+   "materials": [
+    "num_1"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfS_strike02",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_strike.brres",
+   "materials": [
+    "num_5"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfS_strike03",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_strike.brres",
+   "materials": [
+    "num_9"
+   ],
+   "layer0": true
+  }
+ ]
+}

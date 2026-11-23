@@ -1,0 +1,230 @@
+{
+ "format": "nw4r-scenes-index",
+ "version": 1,
+ "scenes": [
+  {
+   "assetId": "scn_86bd1563a13f7170",
+   "sport": "baseball",
+   "file": "Scenes/assets/maps/baseball/ballpark00.scene.json",
+   "name": "ballpark00",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_50f06412da289e51",
+   "sport": "boxing",
+   "file": "Scenes/assets/maps/boxing/MainGame.scene.json",
+   "name": "MainGame",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_00ca67ec6d4eebe9",
+   "sport": "golf",
+   "file": "Scenes/assets/maps/golf/glf_course_E3.scene.json",
+   "name": "glf_course_E3",
+   "objects": 87
+  },
+  {
+   "assetId": "scn_a02fd7c297f9b304",
+   "sport": "golf",
+   "file": "Scenes/assets/maps/golf/glf_course_angle.scene.json",
+   "name": "glf_course_angle",
+   "objects": 50
+  },
+  {
+   "assetId": "scn_9f39ef7c9f0c0f6f",
+   "sport": "golf",
+   "file": "Scenes/assets/maps/golf/glf_course_fc1.scene.json",
+   "name": "glf_course_fc1",
+   "objects": 119
+  },
+  {
+   "assetId": "scn_5a029717388a83c2",
+   "sport": "golf",
+   "file": "Scenes/assets/maps/golf/glf_course_fc11.scene.json",
+   "name": "glf_course_fc11",
+   "objects": 189
+  },
+  {
+   "assetId": "scn_7e1d5e62c29a70f1",
+   "sport": "golf",
+   "file": "Scenes/assets/maps/golf/glf_course_fc12.scene.json",
+   "name": "glf_course_fc12",
+   "objects": 107
+  },
+  {
+   "assetId": "scn_225f4ff1e02169e0",
+   "sport": "golf",
+   "file": "Scenes/assets/maps/golf/glf_course_fc13.scene.json",
+   "name": "glf_course_fc13",
+   "objects": 66
+  },
+  {
+   "assetId": "scn_dbb2f79393fc2b9f",
+   "sport": "golf",
+   "file": "Scenes/assets/maps/golf/glf_course_fc14.scene.json",
+   "name": "glf_course_fc14",
+   "objects": 72
+  },
+  {
+   "assetId": "scn_698fd77e78476c55",
+   "sport": "golf",
+   "file": "Scenes/assets/maps/golf/glf_course_fc16.scene.json",
+   "name": "glf_course_fc16",
+   "objects": 121
+  },
+  {
+   "assetId": "scn_f7ba9b42239ab313",
+   "sport": "golf",
+   "file": "Scenes/assets/maps/golf/glf_course_fc18.scene.json",
+   "name": "glf_course_fc18",
+   "objects": 148
+  },
+  {
+   "assetId": "scn_24b1006bf67db925",
+   "sport": "golf",
+   "file": "Scenes/assets/maps/golf/glf_course_fc3.scene.json",
+   "name": "glf_course_fc3",
+   "objects": 157
+  },
+  {
+   "assetId": "scn_9c9f9dc8945e750b",
+   "sport": "golf",
+   "file": "Scenes/assets/maps/golf/glf_course_fc5.scene.json",
+   "name": "glf_course_fc5",
+   "objects": 93
+  },
+  {
+   "assetId": "scn_1a833d4c3891ae4e",
+   "sport": "golf",
+   "file": "Scenes/assets/maps/golf/glf_course_fc8.scene.json",
+   "name": "glf_course_fc8",
+   "objects": 76
+  },
+  {
+   "assetId": "scn_b49364ace1950f67",
+   "sport": "golf",
+   "file": "Scenes/assets/maps/golf/glf_course_fc9.scene.json",
+   "name": "glf_course_fc9",
+   "objects": 74
+  },
+  {
+   "assetId": "scn_b98ba000512b8d0f",
+   "sport": "golf",
+   "file": "Scenes/assets/maps/golf/glf_course_survey.scene.json",
+   "name": "glf_course_survey",
+   "objects": 2
+  },
+  {
+   "assetId": "scn_9567f20e8a8023ea",
+   "sport": "tennis",
+   "file": "Scenes/assets/maps/tennis/tns_Field_a.scene.json",
+   "name": "tns_Field_a",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_7a2491f7518da819",
+   "sport": "tennis",
+   "file": "Scenes/assets/maps/tennis/tns_Field_b.scene.json",
+   "name": "tns_Field_b",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_5ab127c3f61f9ebb",
+   "sport": "shared",
+   "file": "Scenes/src/core/shared/Kokeshi/common/common.scene.json",
+   "name": "common",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_f2660f4083678e3e",
+   "sport": "shared",
+   "file": "Scenes/src/core/shared/RPCommon/common/common.scene.json",
+   "name": "common",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_b8ddbf2fe332279c",
+   "sport": "shared",
+   "file": "Scenes/src/core/shared/RPST/common/common.scene.json",
+   "name": "common",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_7eb3e719f5dd0a69",
+   "sport": "shared",
+   "file": "Scenes/src/core/shared/RPST/us/local.scene.json",
+   "name": "local",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_a77ada9cf2a30db7",
+   "sport": "shared",
+   "file": "Scenes/src/core/shared/RPSportsCommon/common/common.scene.json",
+   "name": "common",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_3af9f2fccfa2655c",
+   "sport": "shared",
+   "file": "Scenes/src/core/shared/SportsStatic/common/common.scene.json",
+   "name": "common",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_c42e6785ae996329",
+   "sport": "shared",
+   "file": "Scenes/src/core/shared/SportsStatic/us/local.scene.json",
+   "name": "local",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_e97011bba4d24590",
+   "sport": "baseball",
+   "file": "Scenes/src/minigames/baseball/common/common.scene.json",
+   "name": "common",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_5ce3d6de59558656",
+   "sport": "bowling",
+   "file": "Scenes/src/minigames/bowling/common/common.scene.json",
+   "name": "common",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_c3d15c585378b35d",
+   "sport": "boxing",
+   "file": "Scenes/src/minigames/boxing/common/common.scene.json",
+   "name": "common",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_28c1009cf8de679e",
+   "sport": "fitness",
+   "file": "Scenes/src/minigames/fitness/common/common.scene.json",
+   "name": "common",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_5407644f3dba21a4",
+   "sport": "golf",
+   "file": "Scenes/src/minigames/golf/common/common.scene.json",
+   "name": "common",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_bfe7bed7f790b475",
+   "sport": "tennis",
+   "file": "Scenes/src/minigames/tennis/common/common.scene.json",
+   "name": "common",
+   "objects": 0
+  },
+  {
+   "assetId": "scn_e9fcb75937ad9822",
+   "sport": "training",
+   "file": "Scenes/src/minigames/training/common/common.scene.json",
+   "name": "common",
+   "objects": 0
+  }
+ ]
+}

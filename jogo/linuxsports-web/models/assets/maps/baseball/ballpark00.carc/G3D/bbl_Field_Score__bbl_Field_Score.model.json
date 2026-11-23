@@ -1,0 +1,81 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_0faa4fef7d1aa94e",
+ "source": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres/bbl_Field_Score",
+ "brres": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres",
+ "model": "bbl_Field_Score",
+ "glb": "models/assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score__bbl_Field_Score.glb",
+ "textures": [
+  {
+   "name": "box_monitor_edge_i",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres"
+  },
+  {
+   "name": "box_TV_dots_i",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres"
+  },
+  {
+   "name": "diffusionWhite",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres"
+  },
+  {
+   "name": "faceDummy_A",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres"
+  },
+  {
+   "name": "faceDummy_B",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres"
+  },
+  {
+   "name": "grid",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres"
+  },
+  {
+   "name": "numbers",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres"
+  },
+  {
+   "name": "scoreboard",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres"
+  },
+  {
+   "name": "sportlogo_white",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "SRT0",
+   "name": "bbl_Field_numA1"
+  },
+  {
+   "type": "SRT0",
+   "name": "bbl_Field_numA2"
+  },
+  {
+   "type": "SRT0",
+   "name": "bbl_Field_numA3"
+  },
+  {
+   "type": "SRT0",
+   "name": "bbl_Field_numA4"
+  },
+  {
+   "type": "SRT0",
+   "name": "bbl_Field_numB1"
+  },
+  {
+   "type": "SRT0",
+   "name": "bbl_Field_numB2"
+  },
+  {
+   "type": "SRT0",
+   "name": "bbl_Field_numB3"
+  },
+  {
+   "type": "SRT0",
+   "name": "bbl_Field_numB4"
+  }
+ ]
+}

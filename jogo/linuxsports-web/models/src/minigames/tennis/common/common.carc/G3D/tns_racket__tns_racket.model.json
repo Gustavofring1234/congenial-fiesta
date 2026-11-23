@@ -1,0 +1,45 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_4a55034043ab1877",
+ "source": "src/minigames/tennis/common/common.carc/G3D/tns_racket.brres/tns_racket",
+ "brres": "src/minigames/tennis/common/common.carc/G3D/tns_racket.brres",
+ "model": "tns_racket",
+ "glb": "models/src/minigames/tennis/common/common.carc/G3D/tns_racket__tns_racket.glb",
+ "textures": [
+  {
+   "name": "Light_map1",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_racket.brres"
+  },
+  {
+   "name": "tns_racket.0",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_racket.brres"
+  },
+  {
+   "name": "tns_racket.1",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_racket.brres"
+  },
+  {
+   "name": "tns_racket.2",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_racket.brres"
+  },
+  {
+   "name": "tns_racket.3",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_racket.brres"
+  },
+  {
+   "name": "tns_racket.4",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_racket.brres"
+  },
+  {
+   "name": "tns_racket_a",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_racket.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "PAT0",
+   "name": "tns_racket"
+  }
+ ]
+}

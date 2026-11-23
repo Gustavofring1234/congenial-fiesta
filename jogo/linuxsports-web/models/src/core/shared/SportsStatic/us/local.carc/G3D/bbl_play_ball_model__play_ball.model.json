@@ -1,0 +1,33 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_bbf388cad6bdbd66",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_play_ball_model.brres/play_ball",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_play_ball_model.brres",
+ "model": "play_ball",
+ "glb": "models/src/core/shared/SportsStatic/us/local.carc/G3D/bbl_play_ball_model__play_ball.glb",
+ "textures": [
+  {
+   "name": "bbl_back",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_play_ball_model.brres"
+  },
+  {
+   "name": "bbl_env2",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_play_ball_model.brres"
+  },
+  {
+   "name": "bbl_playball_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_play_ball_model.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "play_ball"
+  },
+  {
+   "type": "CLR0",
+   "name": "play_ball"
+  }
+ ]
+}

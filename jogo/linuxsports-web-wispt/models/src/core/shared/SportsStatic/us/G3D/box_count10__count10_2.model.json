@@ -1,0 +1,175 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_4f0f1c213ad05f04",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres/count10_2",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+ "model": "count10_2",
+ "glb": "models/src/core/shared/SportsStatic/us/G3D/box_count10__count10_2.glb",
+ "textures": [
+  {
+   "name": "box_env",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [
+    "mt_main"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "count10_10_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_10_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_1_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_1_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_2_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [
+    "mt_main"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "count10_2_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [
+    "mt_main"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "count10_3_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_3_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_4_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_4_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_5_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_5_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_6_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_6_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_7_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_7_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_8_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_8_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_9_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "count10_9_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ],
+ "animations": [],
+ "materials": [
+  {
+   "name": "mt_main",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "count10_2_tex",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "box_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "count10_2_ind",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ]
+}

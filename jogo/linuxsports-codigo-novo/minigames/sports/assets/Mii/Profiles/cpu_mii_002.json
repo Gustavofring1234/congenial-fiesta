@@ -1,0 +1,73 @@
+{
+ "id": "cpu_mii_002",
+ "source": "raw/src/core/shared/SportsStatic/common/CPUMii/cpu_mii_002.rcd",
+ "raw": "gAwwYDBEMFkwUQAAAAAAAAAAAAAAAEBAIAAAAAAAAABGhV5IqU8kU7BKBKSFOKitKIkiiiUEAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "info": {
+  "name": "だいすけ",
+  "creator": "",
+  "sex": 0,
+  "birthMonth": 0,
+  "birthDay": 0,
+  "favoriteColor": 6,
+  "favorite": 0,
+  "height": 64,
+  "build": 64,
+  "createId": "2000000000000000",
+  "faceline": {
+   "type": 2,
+   "color": 1,
+   "texture": 10
+  },
+  "hair": {
+   "type": 47,
+   "color": 1,
+   "flip": 0
+  },
+  "eye": {
+   "type": 44,
+   "color": 0,
+   "scale": 2,
+   "rotate": 2,
+   "x": 5,
+   "y": 10
+  },
+  "eyebrow": {
+   "type": 21,
+   "color": 1,
+   "scale": 2,
+   "rotate": 5,
+   "x": 3,
+   "y": 5
+  },
+  "nose": {
+   "type": 8,
+   "scale": 5,
+   "y": 7
+  },
+  "mouth": {
+   "type": 21,
+   "color": 0,
+   "scale": 5,
+   "y": 13
+  },
+  "beard": {
+   "mustache": 0,
+   "type": 2,
+   "color": 1,
+   "scale": 4,
+   "y": 10
+  },
+  "glass": {
+   "type": 2,
+   "color": 4,
+   "scale": 4,
+   "y": 9
+  },
+  "mole": {
+   "type": 0,
+   "scale": 4,
+   "x": 2,
+   "y": 20
+  }
+ }
+}

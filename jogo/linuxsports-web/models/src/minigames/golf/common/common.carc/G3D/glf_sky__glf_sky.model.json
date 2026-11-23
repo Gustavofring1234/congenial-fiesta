@@ -1,0 +1,37 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_8c2a4b84071247dc",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_sky.brres/glf_sky",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_sky.brres",
+ "model": "glf_sky",
+ "glb": "models/src/minigames/golf/common/common.carc/G3D/glf_sky__glf_sky.glb",
+ "textures": [
+  {
+   "name": "glf_cloud1_in",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_sky.brres"
+  },
+  {
+   "name": "glf_cloud1_out",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_sky.brres"
+  },
+  {
+   "name": "glf_cloud_top1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_sky.brres"
+  },
+  {
+   "name": "glf_sky1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_sky.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "glf_sky"
+  },
+  {
+   "type": "CHR0",
+   "name": "glf_sky2"
+  }
+ ]
+}

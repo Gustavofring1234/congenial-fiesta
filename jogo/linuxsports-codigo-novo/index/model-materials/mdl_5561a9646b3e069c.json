@@ -1,0 +1,100 @@
+{
+ "assetId": "mdl_5561a9646b3e069c",
+ "model": "sun_model",
+ "materials": [
+  {
+   "name": "_mat1",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "P_sun_core1d",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "Polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "_mat24",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "P_sun_spreadline5_2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "P_sun_spreadline5_2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "Polygon1"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "P_glow1",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/sun.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "P_glow2",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/sun.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "P_glow3",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/sun.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "P_glow4",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/sun.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "P_glow5",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/sun.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "P_sun_core1d",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/sun.brres",
+   "materials": [
+    "_mat1"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "P_sun_spreadline5",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/sun.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "P_sun_spreadline5_2",
+   "foundIn": null,
+   "materials": [
+    "_mat24"
+   ],
+   "layer0": true
+  }
+ ]
+}

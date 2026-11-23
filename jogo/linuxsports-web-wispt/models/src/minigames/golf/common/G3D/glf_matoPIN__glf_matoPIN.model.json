@@ -1,0 +1,79 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_6ecb2804cb0cc160",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_matoPIN.brres/glf_matoPIN",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_matoPIN.brres",
+ "model": "glf_matoPIN",
+ "glb": "models/src/minigames/golf/common/G3D/glf_matoPIN__glf_matoPIN.glb",
+ "textures": [
+  {
+   "name": "glfM_matoPIN_ball",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_matoPIN.brres",
+   "materials": [
+    "M_matoPIN_ball"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfM_matoPIN_sh2",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_matoPIN.brres",
+   "materials": [
+    "M_matoPIN_sh"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [
+  {
+   "type": "CLR0",
+   "name": "glf_matoPIN"
+  }
+ ],
+ "materials": [
+  {
+   "name": "M_matoPIN",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_matoPIN_ball",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfM_matoPIN_ball",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_matoPIN_sh",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfM_matoPIN_sh2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ]
+}

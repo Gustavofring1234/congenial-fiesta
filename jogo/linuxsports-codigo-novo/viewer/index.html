@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>linuxsports-web · Visualizador</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../../linuxsports-web-wispt/viewer/style.css">
+  <script type="importmap">
+    { "imports": { "three": "../../linuxsports-web-wispt/viewer/vendor/three/three.module.js", "three/addons/": "../../linuxsports-web-wispt/viewer/vendor/three/addons/" } }
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">linuxsports-web <span class="muted">visualizador de assets</span></div>
+    <nav class="tabs" id="tabs">
+      <a href="#telas" data-tab="telas">Telas</a>
+      <a href="#cenas" data-tab="cenas">Cenas 3D</a>
+      <a href="#modelos" data-tab="modelos">Modelos</a>
+      <a href="#texturas" data-tab="texturas">Texturas</a>
+      <a href="#fontes" data-tab="fontes">Fontes</a>
+      <a href="#textos" data-tab="textos">Textos</a>
+      <a href="#inventario" data-tab="inventario">Inventário</a>
+    </nav>
+    <div class="status" id="status">carregando manifest…</div>
+  </header>
+
+  <main>
+    <section id="tab-telas" class="tab">
+      <aside class="sidebar">
+        <input class="filter" id="layout-filter" placeholder="filtrar layouts…">
+        <ul class="list" id="layout-list"></ul>
+      </aside>
+      <div class="content">
+        <div class="toolbar">
+          <select id="anim-select"><option value="">(sem animação)</option></select>
+          <button id="anim-play">▶ tocar</button>
+          <input type="range" id="anim-frame" min="0" max="0" value="0">
+          <span id="anim-info" class="muted"></span>
+          <label><input type="checkbox" id="show-bounds"> contornos</label>
+          <label>zoom <input type="range" id="layout-zoom" min="0.5" max="2" step="0.25" value="1"></label>
+        </div>
+        <div class="stage-wrap"><div id="layout-stage" class="layout-stage"></div></div>
+        <div id="layout-details" class="details"></div>
+      </div>
+    </section>
+
+    <section id="tab-cenas" class="tab">
+      <aside class="sidebar"><ul class="list" id="scene-list"></ul></aside>
+      <div class="content">
+        <div class="toolbar">
+          <label><input type="checkbox" id="show-models" checked> modelos</label>
+          <label><input type="checkbox" id="show-collision"> colisão</label>
+          <label><input type="checkbox" id="show-objects" checked> objetos (.pmp)</label>
+          <span id="scene-info" class="muted"></span>
+        </div>
+        <div id="scene-canvas" class="canvas3d"></div>
+        <div id="scene-details" class="details"></div>
+      </div>
+    </section>
+
+    <section id="tab-modelos" class="tab">
+      <aside class="sidebar">
+        <input class="filter" id="model-filter" placeholder="filtrar modelos…">
+        <ul class="list" id="model-list"></ul>
+      </aside>
+      <div class="content">
+        <div id="model-canvas" class="canvas3d"></div>
+        <div id="model-details" class="details"></div>
+      </div>
+    </section>
+
+    <section id="tab-texturas" class="tab single">
+      <div class="toolbar"><input class="filter" id="tex-filter" placeholder="filtrar por nome, apelido ou formato…"><span id="tex-count" class="muted"></span></div>
+      <div id="tex-grid" class="grid"></div>
+    </section>
+
+    <section id="tab-fontes" class="tab single">
+      <div class="toolbar"><input class="filter" id="font-text" value="Wii Sports 0123 ABC テニス"></div>
+      <div id="font-list"></div>
+    </section>
+
+    <section id="tab-textos" class="tab single">
+      <div class="toolbar">
+        <input class="filter" id="text-filter" placeholder="buscar por id (0x…) ou texto…">
+        <select id="text-file"><option value="">todos os arquivos</option></select>
+        <span id="text-count" class="muted"></span>
+      </div>
+      <div id="text-table"></div>
+    </section>
+
+    <section id="tab-inventario" class="tab single">
+      <div class="notice">
+        <strong>Escopo.</strong> Esta pasta reúne todos os arquivos do <code>linuxsports-game</code>: convertidos para formatos web,
+        ou copiados como originais em <code>raw/</code> com a explicação de como convertê-los.
+        A lógica de jogo (regras, física, IA, câmera, controle) está no <code>main.dol</code> e não é reimplementada aqui.
+        Para jogar, use a imagem do disco original no Dolphin.
+      </div>
+      <h2>Formatos</h2>
+      <div id="format-table"></div>
+      <h2>Arquivos que o código do jogo carrega</h2>
+      <p class="muted">Nomes encontrados em <code>src/core/decompiled/strings.tsv</code> e os assets correspondentes.</p>
+      <div class="toolbar"><input class="filter" id="coderef-filter" placeholder="filtrar…"></div>
+      <div id="coderef-table"></div>
+      <h2>Todos os arquivos</h2>
+      <div class="toolbar">
+        <input class="filter" id="inv-filter" placeholder="filtrar caminho…">
+        <select id="inv-status"><option value="">todas as situações</option></select>
+        <span id="inv-count" class="muted"></span>
+      </div>
+      <div id="inv-table"></div>
+    </section>
+  </main>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

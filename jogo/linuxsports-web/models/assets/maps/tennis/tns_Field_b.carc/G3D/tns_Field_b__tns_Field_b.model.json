@@ -1,0 +1,81 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_cbc5aec4a2dc0755",
+ "source": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres/tns_Field_b",
+ "brres": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres",
+ "model": "tns_Field_b",
+ "glb": "models/assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b__tns_Field_b.glb",
+ "textures": [
+  {
+   "name": "cloud01",
+   "foundIn": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres"
+  },
+  {
+   "name": "cloud02",
+   "foundIn": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres"
+  },
+  {
+   "name": "drm_env06",
+   "foundIn": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres"
+  },
+  {
+   "name": "tns_BG_c1",
+   "foundIn": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres"
+  },
+  {
+   "name": "tns_IN_b2",
+   "foundIn": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres"
+  },
+  {
+   "name": "tns_net_a",
+   "foundIn": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres"
+  },
+  {
+   "name": "tns_SHIBA_a",
+   "foundIn": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres"
+  },
+  {
+   "name": "tns_sky_a",
+   "foundIn": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres"
+  },
+  {
+   "name": "tns_S_tree",
+   "foundIn": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres"
+  },
+  {
+   "name": "tns_tree_a3",
+   "foundIn": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres"
+  },
+  {
+   "name": "tns_tree_b1",
+   "foundIn": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres"
+  },
+  {
+   "name": "tns_tree_c1",
+   "foundIn": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres"
+  },
+  {
+   "name": "tns_WALL_a2",
+   "foundIn": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres"
+  },
+  {
+   "name": "tns_WALL_a4",
+   "foundIn": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres"
+  },
+  {
+   "name": "tns_WALL_d1",
+   "foundIn": "assets/maps/tennis/tns_Field_b.carc/G3D/tns_Field_b.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "SRT0",
+   "name": "tns_C1"
+  },
+  {
+   "type": "SRT0",
+   "name": "tns_C2"
+  }
+ ]
+}

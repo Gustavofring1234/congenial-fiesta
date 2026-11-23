@@ -1,0 +1,18 @@
+{
+  "contagens": {
+    "1_manifesto": 0,
+    "2_animacoes": 0,
+    "3_modelos": 0,
+    "4_cenas": 0,
+    "5_ui": 0,
+    "6_efeitos": 0,
+    "7_texto": 0,
+    "8_mii": 0,
+    "9_ambiente": 0,
+    "10_audio": 0,
+    "11_jogabilidade": 0
+  },
+  "total": 0,
+  "structural_ou_scene_container": 119,
+  "violacoes": []
+}

@@ -1,0 +1,194 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_37842916e46587f2",
+ "source": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_net_a.brres/tns_net_a",
+ "brres": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_net_a.brres",
+ "model": "tns_net_a",
+ "glb": "models/assets/maps/tennis/tns_Field_a/G3D/tns_net_a__tns_net_a.glb",
+ "textures": [
+  {
+   "name": "drm_env06",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_net_a.brres",
+   "materials": [
+    "WALL_a",
+    "logo_d"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "tns_line_a",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_net_a.brres",
+   "materials": [
+    "line_a"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "tns_line_c",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_net_a.brres",
+   "materials": [
+    "line_c"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "tns_logo_d",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_net_a.brres",
+   "materials": [
+    "logo_d"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "tns_net_a",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_net_a.brres",
+   "materials": [
+    "net_a"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "tns_S_net",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_net_a.brres",
+   "materials": [
+    "S_net"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "tns_WALL_a9",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_net_a.brres",
+   "materials": [
+    "WALL_a"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "tns_net_a_back"
+  },
+  {
+   "type": "CHR0",
+   "name": "tns_net_a_front"
+  }
+ ],
+ "materials": [
+  {
+   "name": "S_net",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "tns_S_net",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon3"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "WALL_a",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "tns_WALL_a9",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "drm_env06",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "line_a",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "tns_line_a",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon5"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "line_c",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "tns_line_c",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "logo_d",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "tns_logo_d",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "drm_env06",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "net_a",
+   "translucent": true,
+   "doubleSided": true,
+   "layers": [
+    {
+     "texture": "tns_net_a",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon4"
+   ],
+   "inGlb": true
+  }
+ ]
+}

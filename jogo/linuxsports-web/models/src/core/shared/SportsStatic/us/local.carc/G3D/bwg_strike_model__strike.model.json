@@ -1,0 +1,41 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_8c061ccfb94c1618",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/bwg_strike_model.brres/strike",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/bwg_strike_model.brres",
+ "model": "strike",
+ "glb": "models/src/core/shared/SportsStatic/us/local.carc/G3D/bwg_strike_model__strike.glb",
+ "textures": [
+  {
+   "name": "bwg_env",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bwg_strike_model.brres"
+  },
+  {
+   "name": "bwg_mat_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bwg_strike_model.brres"
+  },
+  {
+   "name": "shadow_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bwg_strike_model.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "strike0"
+  },
+  {
+   "type": "CHR0",
+   "name": "strike1"
+  },
+  {
+   "type": "SRT0",
+   "name": "strike"
+  },
+  {
+   "type": "CLR0",
+   "name": "strike"
+  }
+ ]
+}

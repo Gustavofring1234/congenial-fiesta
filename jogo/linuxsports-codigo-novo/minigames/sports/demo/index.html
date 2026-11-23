@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sports — demonstração</title>
+  <link rel="stylesheet" href="../ui/sports-ui.css">
+  <style>
+    html, body { margin: 0; height: 100%; background: #10141c; color: #e8ecf4; font: 14px system-ui, sans-serif; }
+    #palco { position: fixed; inset: 0; }
+    #hud { position: fixed; left: 0; right: 0; bottom: 0; height: 38%; pointer-events: none; }
+    #barra { position: fixed; top: 8px; left: 8px; right: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
+    #barra select, #barra button { font: inherit; padding: 4px 8px; border-radius: 6px; border: 1px solid #3a4560; background: #1b2232; color: inherit; }
+    #estado { position: fixed; right: 8px; bottom: 8px; opacity: .7; }
+    @media (max-width: 640px) { #hud { height: 30%; } }
+  </style>
+</head>
+<body>
+  <canvas id="palco"></canvas>
+  <div id="hud"></div>
+  <div id="barra">
+    <select id="cena" aria-label="Cena"></select>
+    <select id="anim" aria-label="Animação do corpo Mii"></select>
+    <select id="efeito" aria-label="Efeito"></select>
+    <select id="layout" aria-label="Layout 2D"></select>
+  </div>
+  <div id="estado">carregando…</div>
+  <!-- o mesmo pacote do WEBC (THREE r180 + CompanhiaVRM); troque com ?vendor=caminho -->
+  <script>
+    (function () {
+      const v = new URLSearchParams(location.search).get('vendor') || '../../../../../LNUX-APPs/apps/companhia/vendor/three-vrm-pacote.min.js';
+      document.write('<script src="' + v.replace(/"/g, '') + '"><\/script>');
+    })();
+  </script>
+  <script type="module" src="./demo.js"></script>
+</body>
+</html>

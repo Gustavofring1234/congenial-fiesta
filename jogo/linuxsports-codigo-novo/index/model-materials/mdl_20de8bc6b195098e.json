@@ -1,0 +1,806 @@
+{
+ "assetId": "mdl_20de8bc6b195098e",
+ "model": "bbl_Field_a",
+ "materials": [
+  {
+   "name": "CLOUD1",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "cloud01",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "CLOUD2",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "cloud02",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "WALL_d",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "tns_WALL_d1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon34"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "base",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "base",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon4"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "bgView",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bgView",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon367"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "circle02",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "circle02",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon27"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "dag_out",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "dag_out",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon44"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "dirt01",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "tsuchi01",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    },
+    {
+     "texture": "tsuchi03",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon19"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "dirt02",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "tsuchi02",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "tsuchi04",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon24"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "fence01",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "fence",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon31"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "grass01",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "grass01",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "tsuchi04",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon22"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "grass02",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "grass02",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "tsuchi03",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon18"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "grass03",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "grass02",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "tsuchi04",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon23"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "line01",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "line",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon16"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "nets01",
+   "translucent": true,
+   "doubleSided": true,
+   "layers": [
+    {
+     "texture": "nets",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon61"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "roof01",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "roof01",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon33"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "seat",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "seat",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon82"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "shadow01",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "shadow_tex1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon383"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "shadow02",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "shadow_tex2",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon384"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "shadows",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "shadows",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon8"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "signboardA",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "signboardA",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon163"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "signboardB",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "signboardB",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon179"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "signboardBshadow",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "signboardBshadow",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon180"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "sky",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "sky_a",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon3"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "stairs",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "stairs",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon300"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "tree_a",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "trees",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon391"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "walls01",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "walls01",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon64"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "walls02",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "walls02",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon60"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "window",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "window",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon364"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "z_foul_pole",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "foul_pole",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon75"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "base",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "base"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "bbl_Bat_env",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bgView",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "bgView"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "circle02",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "circle02"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "cloud01",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "CLOUD1"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "cloud02",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "CLOUD2"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "dag_out",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "dag_out"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "fence",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "fence01"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "foul_pole",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "z_foul_pole"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "grass01",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "grass01"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "grass02",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "grass02",
+    "grass03"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "line",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "line01"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "nets",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "nets01"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "roof01",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "roof01"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "seat",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "seat"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "shadows",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "shadows"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "shadow_tex1",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "shadow01"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "shadow_tex2",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "shadow02"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "signboardA",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "signboardA"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "signboardB",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "signboardB"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "signboardBshadow",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "signboardBshadow"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "sky_a",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "sky"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "stairs",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "stairs"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "tns_WALL_d1",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "WALL_d"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "trees",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "tree_a"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "tsuchi01",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "dirt01"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "tsuchi02",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "dirt02"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "tsuchi03",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "dirt01",
+    "grass02"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "tsuchi04",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "dirt02",
+    "grass01",
+    "grass03"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "walls01",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "walls01"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "walls02",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "walls02"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "window",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+   "materials": [
+    "window"
+   ],
+   "layer0": true
+  }
+ ]
+}

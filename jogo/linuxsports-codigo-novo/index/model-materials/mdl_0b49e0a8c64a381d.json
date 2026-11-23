@@ -1,0 +1,39 @@
+{
+ "assetId": "mdl_0b49e0a8c64a381d",
+ "model": "glf_HelpBall",
+ "materials": [
+  {
+   "name": "M_HelpBall",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfM_HelpBall1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "glfM_HelpBall1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_Help.brres",
+   "materials": [
+    "M_HelpBall"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfM_HelpSquare1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_Help.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ]
+}

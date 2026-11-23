@@ -1,0 +1,76 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_2958018a9c2cdba7",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/box_fight_model.brres/fight",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/box_fight_model.brres",
+ "model": "fight",
+ "glb": "models/src/core/shared/SportsStatic/us/G3D/box_fight_model__fight.glb",
+ "textures": [
+  {
+   "name": "box_env",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_fight_model.brres",
+   "materials": [
+    "mt_main"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "fight_ind_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_fight_model.brres",
+   "materials": [
+    "mt_main"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "fight_tex_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_fight_model.brres",
+   "materials": [
+    "mt_main"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "fight"
+  },
+  {
+   "type": "CLR0",
+   "name": "fight"
+  }
+ ],
+ "materials": [
+  {
+   "name": "mt_main",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "fight_tex_ENG",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "box_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "fight_ind_ENG",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ]
+}

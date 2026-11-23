@@ -1,0 +1,298 @@
+{
+ "assetId": "mdl_0faa4fef7d1aa94e",
+ "model": "bbl_Field_Score",
+ "materials": [
+  {
+   "name": "faceA",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "faceDummy_A",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1",
+    "polygon3"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "faceB",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "faceDummy_B",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon2",
+    "polygon4"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "numA1",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "numbers",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon5"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "numA2",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "numbers",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon6"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "numA3",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "numbers",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon7"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "numA4",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "numbers",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon8"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "numB1",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "numbers",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon9"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "numB2",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "numbers",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon10"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "numB3",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "numbers",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon11"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "numB4",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "numbers",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon12"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "scoreboard",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "scoreboard",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "box_monitor_edge_i",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    },
+    {
+     "texture": "box_TV_dots_i",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "grid",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "diffusionWhite",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "box_monitor_edge_i",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres",
+   "materials": [
+    "scoreboard"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "box_TV_dots_i",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres",
+   "materials": [
+    "scoreboard"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "diffusionWhite",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres",
+   "materials": [
+    "scoreboard"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "faceDummy_A",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres",
+   "materials": [
+    "faceA"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "faceDummy_B",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres",
+   "materials": [
+    "faceB"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "grid",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres",
+   "materials": [
+    "scoreboard"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "numbers",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres",
+   "materials": [
+    "numA1",
+    "numA2",
+    "numA3",
+    "numA4",
+    "numB1",
+    "numB2",
+    "numB3",
+    "numB4"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "scoreboard",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres",
+   "materials": [
+    "scoreboard"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "sportlogo_white",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Score.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ]
+}

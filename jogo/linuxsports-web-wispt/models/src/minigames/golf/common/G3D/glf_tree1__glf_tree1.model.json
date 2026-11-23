@@ -1,0 +1,113 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_f63a6abda731e75c",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_tree1.brres/glf_tree1",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_tree1.brres",
+ "model": "glf_tree1",
+ "glb": "models/src/minigames/golf/common/G3D/glf_tree1__glf_tree1.glb",
+ "textures": [
+  {
+   "name": "glfM_leaf03",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_tree1.brres",
+   "materials": [
+    "M_tree1_leaf"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfM_wood01",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_tree1.brres",
+   "materials": [
+    "M_tree1_wood"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfM_wood_sh1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_tree1.brres",
+   "materials": [
+    "M_tree1_wood"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "glf_Tree1env1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_tree1.brres",
+   "materials": [
+    "M_tree1_wood"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "glf_tree1_LOD",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_tree1.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_tree1_sh",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_tree1.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "glf_tree1"
+  },
+  {
+   "type": "SRT0",
+   "name": "glf_tree1"
+  }
+ ],
+ "materials": [
+  {
+   "name": "M_tree1_leaf",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfM_leaf03",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_tree1_wood",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfM_wood01",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_Tree1env1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "glfM_wood_sh1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ]
+}

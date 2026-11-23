@@ -1,0 +1,37 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_51fa7aee8de9e066",
+ "source": "src/minigames/boxing/common/common.carc/G3D/box_glove.brres/box_glove_L",
+ "brres": "src/minigames/boxing/common/common.carc/G3D/box_glove.brres",
+ "model": "box_glove_L",
+ "glb": "models/src/minigames/boxing/common/common.carc/G3D/box_glove__box_glove_L.glb",
+ "textures": [
+  {
+   "name": "box_env_glove",
+   "foundIn": "src/minigames/boxing/common/common.carc/G3D/box_glove.brres"
+  },
+  {
+   "name": "box_glove",
+   "foundIn": "src/minigames/boxing/common/common.carc/G3D/box_glove.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CLR0",
+   "name": "box_glove_blue"
+  },
+  {
+   "type": "CLR0",
+   "name": "box_glove_gym"
+  },
+  {
+   "type": "CLR0",
+   "name": "box_glove_red"
+  },
+  {
+   "type": "CLR0",
+   "name": "box_glove_white"
+  }
+ ]
+}

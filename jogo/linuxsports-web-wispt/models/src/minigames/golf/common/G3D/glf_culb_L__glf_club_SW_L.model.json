@@ -1,0 +1,108 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_d6c522f2cbe67257",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres/glf_club_SW_L",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres",
+ "model": "glf_club_SW_L",
+ "glb": "models/src/minigames/golf/common/G3D/glf_culb_L__glf_club_SW_L.glb",
+ "textures": [
+  {
+   "name": "glf_driver_grip",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres",
+   "materials": [
+    "M_Grip"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_driver_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_env04",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_env08",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_env1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres",
+   "materials": [
+    "M_SwHead"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "glf_iron_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_putter_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_sw_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_culb_L.brres",
+   "materials": [
+    "M_SwHead"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [],
+ "materials": [
+  {
+   "name": "M_Grip",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_driver_grip",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_SwHead",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_sw_head",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_env1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  }
+ ]
+}

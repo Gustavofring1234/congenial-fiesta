@@ -1,0 +1,25 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_3eaf16b0bd8bb1bd",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_bar_tex.brres/golf_powerbar_tex01",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_bar_tex.brres",
+ "model": "golf_powerbar_tex01",
+ "glb": "models/src/minigames/golf/common/common.carc/G3D/glf_bar_tex__golf_powerbar_tex01.glb",
+ "textures": [
+  {
+   "name": "glf_cmetter_bar_2.00",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_bar_tex.brres"
+  },
+  {
+   "name": "glf_cmetter_bar_2.01",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_bar_tex.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "PAT0",
+   "name": "golf_powerbar_tex01"
+  }
+ ]
+}

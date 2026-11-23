@@ -1,0 +1,24 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_7bdc8590a80d734c",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_teeOBJ.brres/glf_teeOBJ",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_teeOBJ.brres",
+ "model": "glf_teeOBJ",
+ "glb": "models/src/minigames/golf/common/common.carc/G3D/glf_teeOBJ__glf_teeOBJ.glb",
+ "textures": [
+  {
+   "name": "glf_TeeBall1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_teeOBJ.brres"
+  },
+  {
+   "name": "glf_TeePin1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_teeOBJ.brres"
+  },
+  {
+   "name": "glf_TeeShadow1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_teeOBJ.brres"
+  }
+ ],
+ "animations": []
+}

@@ -1,0 +1,35 @@
+{
+ "assetId": "mdl_4612de54072ac963",
+ "model": "pin_conveyer",
+ "materials": [
+  {
+   "name": "pin_conveyer_mat",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "pin_comber",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0",
+    "polygon1",
+    "polygon2"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "pin_comber",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_conveyer.brres",
+   "materials": [
+    "pin_conveyer_mat"
+   ],
+   "layer0": true
+  }
+ ]
+}

@@ -1,0 +1,984 @@
+{
+ "format": "nw4r-text",
+ "version": 1,
+ "source": "raw/src/core/shared/Message/us/common_message.bmg",
+ "language": "us",
+ "file": "common_message",
+ "encoding": "utf-16-be",
+ "messages": [
+  {
+   "index": 0,
+   "id": 0,
+   "text": "Yes",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1,
+   "id": 256,
+   "text": "No",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 2,
+   "id": 512,
+   "text": "Back",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 3,
+   "id": 768,
+   "text": "Wii Menu",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 4,
+   "id": 2560,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 5,
+   "id": 2816,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 6,
+   "id": 3072,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 7,
+   "id": 3328,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 8,
+   "id": 3584,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 9,
+   "id": 3840,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 10,
+   "id": 5120,
+   "text": "Wii Sports",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 11,
+   "id": 5376,
+   "text": "Wii Play",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 12,
+   "id": 10240,
+   "text": "An error has occurred.\nPress the Eject Button，\nremove the Game Disc，\nand turn the power off.\nPlease read the\nWii Operations Manual\nfor help troubleshooting.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 13,
+   "id": 10496,
+   "text": "The Game Disc could not be read.\nPlease read the Wii operations\nmanual for more information.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 14,
+   "id": 10752,
+   "text": "Please insert the {0}\nGame Disc.",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 15,
+   "id": 11008,
+   "text": "Press a button on the Wii Remote\nif you want to continue playing.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 16,
+   "id": 12800,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 17,
+   "id": 13056,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 18,
+   "id": 13312,
+   "text": "The game could not be saved.\nContinue without saving?",
+   "controls": [
+    {
+     "group": 2,
+     "type": 1,
+     "params": "0100",
+     "at": 53
+    }
+   ],
+   "attrs": "000003e700640000"
+  },
+  {
+   "index": 19,
+   "id": 13568,
+   "text": "The Wii System Memory is\ncorrupted. Please refer to the\nWii Operations Manual for help\ntroubleshooting. Continue without\nsaving?",
+   "controls": [
+    {
+     "group": 2,
+     "type": 1,
+     "params": "0100",
+     "at": 128
+    }
+   ],
+   "attrs": "000003e700640000"
+  },
+  {
+   "index": 20,
+   "id": 25600,
+   "text": "This game's save data is\ncorrupted and must be formatted.\nFormat the data now?",
+   "controls": [
+    {
+     "group": 2,
+     "type": 1,
+     "params": "0100",
+     "at": 78
+    }
+   ],
+   "attrs": "000003e700640000"
+  },
+  {
+   "index": 21,
+   "id": 25856,
+   "text": "Continue without saving?",
+   "controls": [
+    {
+     "group": 2,
+     "type": 1,
+     "params": "0100",
+     "at": 24
+    }
+   ],
+   "attrs": "000003e700640000"
+  },
+  {
+   "index": 22,
+   "id": 26112,
+   "text": "",
+   "attrs": "000003e700640000"
+  },
+  {
+   "index": 23,
+   "id": 26368,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 24,
+   "id": 26624,
+   "text": "The Wii System Memory does not\nhave enough free space. Either\nmove files to an SD Card or erase\nfiles to save. This game requires\n{0} empty blocks.\nOpen the Data Management\nscreen now?",
+   "args": [
+    "value"
+   ],
+   "controls": [
+    {
+     "group": 2,
+     "type": 1,
+     "params": "0100",
+     "at": 184
+    }
+   ],
+   "attrs": "000003e700640000"
+  },
+  {
+   "index": 25,
+   "id": 26880,
+   "text": "Create a save file for {0}?",
+   "args": [
+    "value"
+   ],
+   "controls": [
+    {
+     "group": 2,
+     "type": 1,
+     "params": "0000",
+     "at": 27
+    }
+   ],
+   "attrs": "000003e700640000"
+  },
+  {
+   "index": 26,
+   "id": 27136,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 27,
+   "id": 27392,
+   "text": "A save file has been created.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 28,
+   "id": 27648,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 29,
+   "id": 28160,
+   "text": "The Wii System Memory does not\nhave enough empty files. Either\nmove files to an SD Card or erase\nfiles to save. Open the Data\nManagement screen now?",
+   "controls": [
+    {
+     "group": 2,
+     "type": 1,
+     "params": "0100",
+     "at": 148
+    }
+   ],
+   "attrs": "000003e700640000"
+  },
+  {
+   "index": 30,
+   "id": 38400,
+   "text": "The batteries in the Wii Remote\nare running low. Please check the\nbattery level on the HOME Menu.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 31,
+   "id": 40960,
+   "text": "Unable to load Mii Channel data.\nPlease access the Mii Channel\nand check Mii Channel data.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 32,
+   "id": 41216,
+   "text": "Unable to load Mii data stored\nin the Wii Remote.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 33,
+   "id": 43520,
+   "text": "Unable to load saved data.\nPlease try again later.\nIf this problem continues, see\nthe Wii Operations Manual for\nhelp troubleshooting.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 34,
+   "id": 43776,
+   "text": "Unable to save.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 35,
+   "id": 51200,
+   "text": "To play with this many players,\nyou need {0} Wii Remotes.\nPlease connect more Wii Remotes.",
+   "args": [
+    "value"
+   ],
+   "controls": [
+    {
+     "group": 2,
+     "type": 0,
+     "params": "003c",
+     "at": 90
+    }
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 36,
+   "id": 53760,
+   "text": "Use {0} Wii Remote with {1} players.",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 37,
+   "id": 54016,
+   "text": "Use {0} Wii Remotes with {1} players.",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 38,
+   "id": 64000,
+   "text": "You can't select this until you've\ncreated a Mii in the Mii Channel.",
+   "controls": [
+    {
+     "group": 2,
+     "type": 2,
+     "params": "0000",
+     "at": 68
+    },
+    {
+     "group": 2,
+     "type": 1,
+     "params": "0000",
+     "at": 68
+    }
+   ],
+   "attrs": "0000000200640000"
+  },
+  {
+   "index": 39,
+   "id": 64001,
+   "text": "Back",
+   "attrs": "00000000006e0000"
+  },
+  {
+   "index": 40,
+   "id": 64002,
+   "text": "To Wii Menu",
+   "attrs": "00000000006e0000"
+  },
+  {
+   "index": 41,
+   "id": 64256,
+   "text": "There are no Miis stored on this\nWii Remote. Please add a Mii in\nthe Mii Channel.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 42,
+   "id": 66560,
+   "text": "You can't save your records\nwith this Mii. Continue?",
+   "controls": [
+    {
+     "group": 2,
+     "type": 2,
+     "params": "0100",
+     "at": 52
+    },
+    {
+     "group": 2,
+     "type": 1,
+     "params": "0100",
+     "at": 52
+    }
+   ],
+   "attrs": "000003e700640000"
+  },
+  {
+   "index": 43,
+   "id": 66816,
+   "text": "You can't save My Record data\nwith this Mii. Continue?",
+   "controls": [
+    {
+     "group": 2,
+     "type": 1,
+     "params": "0100",
+     "at": 54
+    },
+    {
+     "group": 2,
+     "type": 2,
+     "params": "0100",
+     "at": 54
+    }
+   ],
+   "attrs": "000003e700640000"
+  },
+  {
+   "index": 44,
+   "id": 69120,
+   "text": "You can't select this Mii today\nbecause it has taken the Wii\nFitness test. Try again tomorrow.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 45,
+   "id": 69376,
+   "text": "The connection between the\nWii Remote and Wii console has\nbeen lost. Press  and \nsimultaneously to reconnect...",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 46,
+   "id": 71680,
+   "text": "Added {0} to\nthe player list. If you erase\nthis Mii from the Mii Channel, it\nwill be deleted from your player\nlist, so be careful!",
+   "args": [
+    "name"
+   ],
+   "controls": [
+    {
+     "group": 2,
+     "type": 0,
+     "params": "00b4",
+     "at": 130
+    }
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 47,
+   "id": 71936,
+   "text": "Added {0} to\nthe player list. If you erase\nthis Mii from the Mii Channel, it\nwill be deleted from your player\nlist, so be careful!",
+   "args": [
+    "name"
+   ],
+   "controls": [
+    {
+     "group": 2,
+     "type": 0,
+     "params": "00b4",
+     "at": 130
+    }
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 48,
+   "id": 74240,
+   "text": "One or more Miis have been\nerased from the Mii Channel\nand will be removed from your\nplayer list.",
+   "controls": [
+    {
+     "group": 2,
+     "type": 0,
+     "params": "00b4",
+     "at": 97
+    }
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 49,
+   "id": 74496,
+   "text": "One or more Miis have been\nerased from the Mii Channel\nand will be removed from your\nplayer list.",
+   "controls": [
+    {
+     "group": 2,
+     "type": 0,
+     "params": "00b4",
+     "at": 97
+    }
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 50,
+   "id": 76800,
+   "text": "Which hand do you want to use?",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 51,
+   "id": 77056,
+   "text": "Tennis",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 52,
+   "id": 77312,
+   "text": "Baseball",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 53,
+   "id": 77568,
+   "text": "Bowling",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 54,
+   "id": 77824,
+   "text": "Golf",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 55,
+   "id": 78080,
+   "text": "Boxing",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 56,
+   "id": 79360,
+   "text": "Swing",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 57,
+   "id": 79616,
+   "text": "Pitch",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 58,
+   "id": 79872,
+   "text": "Bat",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 59,
+   "id": 80128,
+   "text": "Bowl",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 60,
+   "id": 80384,
+   "text": "Swing",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 61,
+   "id": 80640,
+   "text": "Stance",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 62,
+   "id": 81920,
+   "text": "L",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 63,
+   "id": 82176,
+   "text": "R",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 64,
+   "id": 84480,
+   "text": "OK",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 65,
+   "id": 102400,
+   "text": "Select Mii",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 66,
+   "id": 102656,
+   "text": "Select Players",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 67,
+   "id": 102912,
+   "text": "Tennis",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 68,
+   "id": 103168,
+   "text": "Baseball",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 69,
+   "id": 103424,
+   "text": "Bowling",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 70,
+   "id": 103680,
+   "text": "Golf",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 71,
+   "id": 103936,
+   "text": "Boxing",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 72,
+   "id": 104192,
+   "text": "Training",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 73,
+   "id": 104448,
+   "text": "Wii Fitness",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 74,
+   "id": 104704,
+   "text": "Main Menu",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 75,
+   "id": 115200,
+   "text": "Back",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 76,
+   "id": 115201,
+   "text": "Main Menu",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 77,
+   "id": 115456,
+   "text": "P1",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 78,
+   "id": 115712,
+   "text": "P2",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 79,
+   "id": 115968,
+   "text": "P3",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 80,
+   "id": 116224,
+   "text": "P4",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 81,
+   "id": 116480,
+   "text": "{0}",
+   "args": [
+    "name"
+   ],
+   "attrs": "0000000000410000"
+  },
+  {
+   "index": 82,
+   "id": 120320,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 83,
+   "id": 128000,
+   "text": "Select the number of players.",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 84,
+   "id": 130560,
+   "text": "1",
+   "attrs": "0000000000820000"
+  },
+  {
+   "index": 85,
+   "id": 130816,
+   "text": "2",
+   "attrs": "0000000000820000"
+  },
+  {
+   "index": 86,
+   "id": 133120,
+   "text": "1",
+   "attrs": "0000000000820000"
+  },
+  {
+   "index": 87,
+   "id": 133376,
+   "text": "2",
+   "attrs": "0000000000820000"
+  },
+  {
+   "index": 88,
+   "id": 133632,
+   "text": "3",
+   "attrs": "0000000000820000"
+  },
+  {
+   "index": 89,
+   "id": 133888,
+   "text": "4",
+   "attrs": "0000000000820000"
+  },
+  {
+   "index": 90,
+   "id": 135680,
+   "text": "More",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 91,
+   "id": 135936,
+   "text": "OK",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 92,
+   "id": 138240,
+   "text": "Wii Remotes",
+   "attrs": "00000000004c0000"
+  },
+  {
+   "index": 93,
+   "id": 138496,
+   "text": "Press  and  at the same time on\neach Wii Remote you want to add.",
+   "attrs": "0000000000530000"
+  },
+  {
+   "index": 94,
+   "id": 153600,
+   "text": "Select a Mii for Player {0}.",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 95,
+   "id": 153601,
+   "text": "Select a Mii.",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 96,
+   "id": 156160,
+   "text": "Wii Console",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 97,
+   "id": 156416,
+   "text": "Guest",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 98,
+   "id": 156672,
+   "text": "Wii Remote",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 99,
+   "id": 156928,
+   "text": "Reading Mii data...\nDo not unplug the extension controller.",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 100,
+   "id": 158720,
+   "text": "Play with this Mii.",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 101,
+   "id": 158721,
+   "text": "Play with these Miis.",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 102,
+   "id": 161280,
+   "text": "P1",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 103,
+   "id": 161536,
+   "text": "P2",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 104,
+   "id": 161792,
+   "text": "",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 105,
+   "id": 162048,
+   "text": "",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 106,
+   "id": 163840,
+   "text": "{0}",
+   "args": [
+    "name"
+   ],
+   "attrs": "00000000003a0000"
+  },
+  {
+   "index": 107,
+   "id": 166400,
+   "text": "Change",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 108,
+   "id": 166656,
+   "text": "OK",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 109,
+   "id": 168960,
+   "text": "Guest A",
+   "attrs": "00000000003a0000"
+  },
+  {
+   "index": 110,
+   "id": 169216,
+   "text": "Guest B",
+   "attrs": "00000000003a0000"
+  },
+  {
+   "index": 111,
+   "id": 169472,
+   "text": "Guest C",
+   "attrs": "00000000003a0000"
+  },
+  {
+   "index": 112,
+   "id": 169728,
+   "text": "Guest D",
+   "attrs": "00000000003a0000"
+  },
+  {
+   "index": 113,
+   "id": 169984,
+   "text": "Guest E",
+   "attrs": "00000000003a0000"
+  },
+  {
+   "index": 114,
+   "id": 170240,
+   "text": "Guest F",
+   "attrs": "00000000003a0000"
+  },
+  {
+   "index": 115,
+   "id": 179200,
+   "text": "Yes",
+   "attrs": "00000000006e0000"
+  },
+  {
+   "index": 116,
+   "id": 179201,
+   "text": "Back",
+   "attrs": "00000000006e0000"
+  },
+  {
+   "index": 117,
+   "id": 179456,
+   "text": "No",
+   "attrs": "00000000006e0000"
+  },
+  {
+   "index": 118,
+   "id": 179457,
+   "text": "Wii Menu",
+   "attrs": "00000000006e0000"
+  },
+  {
+   "index": 119,
+   "id": 179712,
+   "text": "",
+   "attrs": "00000000006e0000"
+  },
+  {
+   "index": 120,
+   "id": 192000,
+   "text": "Continue",
+   "attrs": "00000000006e0000"
+  },
+  {
+   "index": 121,
+   "id": 192256,
+   "text": "Start over",
+   "attrs": "00000000006e0000"
+  },
+  {
+   "index": 122,
+   "id": 192512,
+   "text": "Quit",
+   "attrs": "00000000006e0000"
+  },
+  {
+   "index": 123,
+   "id": 204800,
+   "text": "Attach the Wii Remote wrist strap.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 124,
+   "id": 217600,
+   "text": "Slip the Wii Remote strap\nthrough the connector\nhook of the Nunchuk plug,\nthen connect the Nunchuk.",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 125,
+   "id": 217856,
+   "text": "Unplug the extension controller\nconnected to this Wii Remote.",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 126,
+   "id": 220160,
+   "text": "Put the Wii Remote strap through\nthe Nunchuk's connector hook.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 127,
+   "id": 222720,
+   "text": "{0}",
+   "args": [
+    "name"
+   ],
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 128,
+   "id": 222976,
+   "text": "OK!",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 129,
+   "id": 225280,
+   "text": "Starting the game...\n\nHold the Wii Remote\nsecurely in your hand and\npress  and .",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 130,
+   "id": 230400,
+   "text": "Are you using your Wii Remote\nJacket? Make sure there are\nno people or objects around\nthat you might bump into!",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 131,
+   "id": 230656,
+   "text": "Why not take a break?\nYou can pause the game\nby pressing .",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 132,
+   "id": 255744,
+   "text": "",
+   "attrs": "0000000000640000"
+  }
+ ]
+}

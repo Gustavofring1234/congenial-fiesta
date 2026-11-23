@@ -1,0 +1,65 @@
+{
+ "assetId": "mdl_bc6bc6a9dae6024a",
+ "model": "box_mitt_R",
+ "materials": [
+  {
+   "name": "box_mitt1",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "box_env_mitt",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "box_mitt2",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "box_mitt",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    },
+    {
+     "texture": "box_env_mitt",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "box_env_mitt",
+   "foundIn": "src/minigames/boxing/common/common.carc/G3D/box_mitt.brres",
+   "materials": [
+    "box_mitt1",
+    "box_mitt2"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "box_mitt",
+   "foundIn": "src/minigames/boxing/common/common.carc/G3D/box_mitt.brres",
+   "materials": [
+    "box_mitt2"
+   ],
+   "layer0": true
+  }
+ ]
+}

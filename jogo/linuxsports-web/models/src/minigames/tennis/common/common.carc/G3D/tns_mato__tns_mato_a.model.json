@@ -1,0 +1,33 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_5422d68fdfbfe78d",
+ "source": "src/minigames/tennis/common/common.carc/G3D/tns_mato.brres/tns_mato_a",
+ "brres": "src/minigames/tennis/common/common.carc/G3D/tns_mato.brres",
+ "model": "tns_mato_a",
+ "glb": "models/src/minigames/tennis/common/common.carc/G3D/tns_mato__tns_mato_a.glb",
+ "textures": [
+  {
+   "name": "tns_target_c",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_mato.brres"
+  },
+  {
+   "name": "tns_target_env",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_mato.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CLR0",
+   "name": "tns_mato_a"
+  },
+  {
+   "type": "CLR0",
+   "name": "tns_mato_b"
+  },
+  {
+   "type": "CLR0",
+   "name": "tns_mato_c"
+  }
+ ]
+}

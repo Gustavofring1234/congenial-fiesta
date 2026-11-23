@@ -1,0 +1,81 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_fc5f9746059d5291",
+ "source": "src/core/shared/RPSportsTitle/us/local.carc/G3D/sp_titleBG_00.brres/sp_titleBG_00",
+ "brres": "src/core/shared/RPSportsTitle/us/local.carc/G3D/sp_titleBG_00.brres",
+ "model": "sp_titleBG_00",
+ "glb": "models/src/core/shared/RPSportsTitle/us/local.carc/G3D/sp_titleBG_00__sp_titleBG_00.glb",
+ "textures": [
+  {
+   "name": "sp_titleBG.0",
+   "foundIn": "src/core/shared/RPSportsTitle/us/local.carc/G3D/sp_titleBG_00.brres"
+  },
+  {
+   "name": "sp_titleBG.1",
+   "foundIn": "src/core/shared/RPSportsTitle/us/local.carc/G3D/sp_titleBG_00.brres"
+  },
+  {
+   "name": "sp_titleBG.10",
+   "foundIn": "src/core/shared/RPSportsTitle/us/local.carc/G3D/sp_titleBG_00.brres"
+  },
+  {
+   "name": "sp_titleBG.11",
+   "foundIn": "src/core/shared/RPSportsTitle/us/local.carc/G3D/sp_titleBG_00.brres"
+  },
+  {
+   "name": "sp_titleBG.2",
+   "foundIn": "src/core/shared/RPSportsTitle/us/local.carc/G3D/sp_titleBG_00.brres"
+  },
+  {
+   "name": "sp_titleBG.3",
+   "foundIn": "src/core/shared/RPSportsTitle/us/local.carc/G3D/sp_titleBG_00.brres"
+  },
+  {
+   "name": "sp_titleBG.4",
+   "foundIn": "src/core/shared/RPSportsTitle/us/local.carc/G3D/sp_titleBG_00.brres"
+  },
+  {
+   "name": "sp_titleBG.5",
+   "foundIn": "src/core/shared/RPSportsTitle/us/local.carc/G3D/sp_titleBG_00.brres"
+  },
+  {
+   "name": "sp_titleMask",
+   "foundIn": "src/core/shared/RPSportsTitle/us/local.carc/G3D/sp_titleBG_00.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "sp_titleBG_00"
+  },
+  {
+   "type": "CHR0",
+   "name": "sp_titleBG_01"
+  },
+  {
+   "type": "SRT0",
+   "name": "sp_titleBG_00"
+  },
+  {
+   "type": "SRT0",
+   "name": "sp_titleBG_01"
+  },
+  {
+   "type": "PAT0",
+   "name": "sp_titleBG_00"
+  },
+  {
+   "type": "PAT0",
+   "name": "sp_titleBG_01"
+  },
+  {
+   "type": "CLR0",
+   "name": "sp_titleBG_00"
+  },
+  {
+   "type": "CLR0",
+   "name": "sp_titleBG_01"
+  }
+ ]
+}

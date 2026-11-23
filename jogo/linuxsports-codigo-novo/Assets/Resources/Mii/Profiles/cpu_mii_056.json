@@ -1,0 +1,73 @@
+{
+ "id": "cpu_mii_056",
+ "source": "raw/src/core/shared/SportsStatic/common/CPUMii/cpu_mii_056.rcd",
+ "raw": "wAwwojDzMMoAAAAAAAAAAAAAAAAAAEBAIAAAAAAAAACMBRrIeY8o4bROpmQUWAJPAIoAiiUEAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "info": {
+  "name": "アンナ",
+  "creator": "",
+  "sex": 1,
+  "birthMonth": 0,
+  "birthDay": 0,
+  "favoriteColor": 6,
+  "favorite": 0,
+  "height": 64,
+  "build": 64,
+  "createId": "2000000000000000",
+  "faceline": {
+   "type": 4,
+   "color": 3,
+   "texture": 0
+  },
+  "hair": {
+   "type": 13,
+   "color": 3,
+   "flip": 0
+  },
+  "eye": {
+   "type": 45,
+   "color": 5,
+   "scale": 3,
+   "rotate": 2,
+   "x": 3,
+   "y": 14
+  },
+  "eyebrow": {
+   "type": 15,
+   "color": 1,
+   "scale": 4,
+   "rotate": 6,
+   "x": 1,
+   "y": 14
+  },
+  "nose": {
+   "type": 1,
+   "scale": 4,
+   "y": 11
+  },
+  "mouth": {
+   "type": 0,
+   "color": 1,
+   "scale": 2,
+   "y": 15
+  },
+  "beard": {
+   "mustache": 0,
+   "type": 0,
+   "color": 0,
+   "scale": 4,
+   "y": 10
+  },
+  "glass": {
+   "type": 0,
+   "color": 0,
+   "scale": 4,
+   "y": 10
+  },
+  "mole": {
+   "type": 0,
+   "scale": 4,
+   "x": 2,
+   "y": 20
+  }
+ }
+}

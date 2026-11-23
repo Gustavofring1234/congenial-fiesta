@@ -1,0 +1,51 @@
+{
+ "assetId": "mdl_295e14d068404480",
+ "model": "bbl_RangeBoard_A",
+ "materials": [
+  {
+   "name": "range_color1",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "range_color",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "range_color2",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "range_color",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "range_color",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_RangeBoard_A.brres",
+   "materials": [
+    "range_color1",
+    "range_color2"
+   ],
+   "layer0": true
+  }
+ ]
+}

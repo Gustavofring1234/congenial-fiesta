@@ -1,0 +1,21 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_295e14d068404480",
+ "source": "src/minigames/baseball/common/common.carc/model/G3D/bbl_RangeBoard_A.brres/bbl_RangeBoard_A",
+ "brres": "src/minigames/baseball/common/common.carc/model/G3D/bbl_RangeBoard_A.brres",
+ "model": "bbl_RangeBoard_A",
+ "glb": "models/src/minigames/baseball/common/common.carc/model/G3D/bbl_RangeBoard_A__bbl_RangeBoard_A.glb",
+ "textures": [
+  {
+   "name": "range_color",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_RangeBoard_A.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "SHP0",
+   "name": "bbl_RangeBoard_A"
+  }
+ ]
+}

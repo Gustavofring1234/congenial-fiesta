@@ -1,0 +1,24 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_115d43c8debc4871",
+ "source": "src/minigames/tennis/common/common.carc/G3D/tns_ball_a.brres/tns_ball_a",
+ "brres": "src/minigames/tennis/common/common.carc/G3D/tns_ball_a.brres",
+ "model": "tns_ball_a",
+ "glb": "models/src/minigames/tennis/common/common.carc/G3D/tns_ball_a__tns_ball_a.glb",
+ "textures": [
+  {
+   "name": "Light_map3",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_ball_a.brres"
+  },
+  {
+   "name": "tns_Ball_c",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_ball_a.brres"
+  },
+  {
+   "name": "tns_Ball_e",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_ball_a.brres"
+  }
+ ],
+ "animations": []
+}

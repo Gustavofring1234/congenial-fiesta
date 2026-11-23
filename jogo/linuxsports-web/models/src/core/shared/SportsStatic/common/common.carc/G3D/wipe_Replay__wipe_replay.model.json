@@ -1,0 +1,45 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_41ddf01777784e40",
+ "source": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_Replay.brres/wipe_replay",
+ "brres": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_Replay.brres",
+ "model": "wipe_replay",
+ "glb": "models/src/core/shared/SportsStatic/common/common.carc/G3D/wipe_Replay__wipe_replay.glb",
+ "textures": [
+  {
+   "name": "logo_color",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_Replay.brres"
+  },
+  {
+   "name": "WiiSports_logo_1",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_Replay.brres"
+  },
+  {
+   "name": "wipe_Light_b",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_Replay.brres"
+  },
+  {
+   "name": "wipe_Light_e",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_Replay.brres"
+  },
+  {
+   "name": "wipe_mat_b",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_Replay.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "wipe_replay"
+  },
+  {
+   "type": "SRT0",
+   "name": "wipe_replay"
+  },
+  {
+   "type": "CLR0",
+   "name": "wipe_replay"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "assetId": "mdl_80e1a5a1e38617f0",
+ "model": "bwg_throwline",
+ "materials": [
+  {
+   "name": "bwgLine_mat",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "arrow_02",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "arrow_00",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_throwline.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "arrow_01",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_throwline.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "arrow_02",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_throwline.brres",
+   "materials": [
+    "bwgLine_mat"
+   ],
+   "layer0": true
+  }
+ ]
+}

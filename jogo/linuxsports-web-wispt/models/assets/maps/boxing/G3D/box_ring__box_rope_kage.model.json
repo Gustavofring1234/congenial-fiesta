@@ -1,0 +1,237 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_86db55948b013f00",
+ "source": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres/box_rope_kage",
+ "brres": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+ "model": "box_rope_kage",
+ "glb": "models/assets/maps/boxing/G3D/box_ring__box_rope_kage.glb",
+ "textures": [
+  {
+   "name": "box_c_sponge",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_env_c_mat01",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_env_c_mat02",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_grid1_i",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_kaidan",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_kaidan_shadow",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_mat01",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_saku",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_saku_sadow",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_seat",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_stair",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_top01",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_wall",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_wall_ura",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_id02",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_light_frame",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_light_front",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_light_hokori",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_light_spot",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_light_spot_env",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_logo_nin",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_logo_nin_big55",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_logo_wii",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_logo_ws_big",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_monitor_edge_i",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_ring_floor",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_ring_floor_mura",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_ring_side06",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_rope_kage",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [
+    "rope_kage"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "box_rope_shade01",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_spot_front",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_TV.1",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_TV.2",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_TV_dots_i",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ],
+ "animations": [],
+ "materials": [
+  {
+   "name": "rope_kage",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "box_rope_kage",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ]
+}

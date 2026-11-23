@@ -1,0 +1,153 @@
+{
+ "assetId": "mdl_18ee212c57805653",
+ "model": "win",
+ "materials": [
+  {
+   "name": "mt_BG",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "all_BG",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_alpha",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "all_win_tex_ENG",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "all_env_win",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "all_win_ind_ENG",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon13"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_main",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "all_win_tex_ENG",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "all_env_win",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "all_win_ind_ENG",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon7",
+    "polygon8",
+    "polygon9",
+    "polygon10",
+    "polygon11",
+    "polygon12"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_shadow",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "all_shadow",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon1",
+    "polygon2",
+    "polygon3",
+    "polygon4",
+    "polygon5",
+    "polygon6"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "all_BG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_win.brres",
+   "materials": [
+    "mt_BG"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "all_env_win",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_win.brres",
+   "materials": [
+    "mt_alpha",
+    "mt_main"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "all_shadow",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_win.brres",
+   "materials": [
+    "mt_shadow"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "all_win_ind_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_win.brres",
+   "materials": [
+    "mt_alpha",
+    "mt_main"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "all_win_tex_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_win.brres",
+   "materials": [
+    "mt_alpha",
+    "mt_main"
+   ],
+   "layer0": true
+  }
+ ]
+}

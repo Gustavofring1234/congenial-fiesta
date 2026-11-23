@@ -1,0 +1,31 @@
+{
+ "format": "nw4r-tex",
+ "version": 1,
+ "assetId": "tex_6adf04662dc58f64",
+ "source": "src/minigames/baseball/us/local.carc/baseball.arc.d/timg/baseball_GuideL_02.tpl",
+ "images": [
+  {
+   "index": 0,
+   "file": "assets/src/minigames/baseball/us/local.carc/baseball.arc.d/timg/baseball_GuideL_02.png",
+   "width": 160,
+   "height": 160,
+   "format": "RGB565",
+   "formatId": 4,
+   "palette": null,
+   "wrapS": "CLAMP",
+   "wrapT": "CLAMP",
+   "minFilter": "LINEAR",
+   "magFilter": "LINEAR",
+   "lodBias": 0,
+   "minLod": 0,
+   "maxLod": 0,
+   "mipmapCount": 1,
+   "webgl": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "minFilter": 9729,
+    "magFilter": 9729
+   }
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "format": "nw4r-tex",
+ "version": 1,
+ "assetId": "tex_4a14506ad7fadc23",
+ "source": "src/core/shared/SportsStatic/us/local.carc/cPadCursor.arc.d/timg/cPadCursor_02.tpl",
+ "images": [
+  {
+   "index": 0,
+   "file": "assets/src/core/shared/SportsStatic/us/timg/cPadCursor_02.png",
+   "width": 24,
+   "height": 24,
+   "format": "IA4",
+   "formatId": 2,
+   "palette": null,
+   "wrapS": "CLAMP",
+   "wrapT": "CLAMP",
+   "minFilter": "LINEAR",
+   "magFilter": "LINEAR",
+   "lodBias": 0,
+   "minLod": 0,
+   "maxLod": 0,
+   "mipmapCount": 1,
+   "webgl": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "minFilter": 9729,
+    "magFilter": 9729
+   }
+  }
+ ]
+}

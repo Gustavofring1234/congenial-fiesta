@@ -1,0 +1,105 @@
+{
+ "assetId": "mdl_b78a6ad69ad2ef5a",
+ "model": "home_run0",
+ "materials": [
+  {
+   "name": "mt_alpha",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [],
+   "objects": [
+    "polygon3"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_dummy0",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bbl_env2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon5"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_dummy1",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bbl_env",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon4"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_env",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bbl_env2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0",
+    "polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_mat",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bbl_env",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "bbl_env",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_home_run0_model.brres",
+   "materials": [
+    "mt_dummy1",
+    "mt_mat"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "bbl_env2",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_home_run0_model.brres",
+   "materials": [
+    "mt_dummy0",
+    "mt_env"
+   ],
+   "layer0": true
+  }
+ ]
+}

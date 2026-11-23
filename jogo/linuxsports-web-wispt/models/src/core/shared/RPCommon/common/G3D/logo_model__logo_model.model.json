@@ -1,0 +1,50 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_a37244ef72931802",
+ "source": "src/core/shared/RPCommon/common/common.carc/G3D/logo_model.brres/logo_model",
+ "brres": "src/core/shared/RPCommon/common/common.carc/G3D/logo_model.brres",
+ "model": "logo_model",
+ "glb": "models/src/core/shared/RPCommon/common/G3D/logo_model__logo_model.glb",
+ "textures": [
+  {
+   "name": "WiSpt_logo",
+   "foundIn": "src/core/shared/RPCommon/common/common.carc/G3D/logo_model.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "WiiSports_logo",
+   "foundIn": null,
+   "materials": [
+    "logo_mat"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "logo_model"
+  }
+ ],
+ "materials": [
+  {
+   "name": "logo_mat",
+   "translucent": true,
+   "doubleSided": true,
+   "layers": [
+    {
+     "texture": "WiiSports_logo",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ]
+}

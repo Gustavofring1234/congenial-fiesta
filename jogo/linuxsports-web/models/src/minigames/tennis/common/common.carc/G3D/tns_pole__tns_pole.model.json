@@ -1,0 +1,25 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_8a86b4d218210427",
+ "source": "src/minigames/tennis/common/common.carc/G3D/tns_pole.brres/tns_pole",
+ "brres": "src/minigames/tennis/common/common.carc/G3D/tns_pole.brres",
+ "model": "tns_pole",
+ "glb": "models/src/minigames/tennis/common/common.carc/G3D/tns_pole__tns_pole.glb",
+ "textures": [
+  {
+   "name": "env1",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_pole.brres"
+  },
+  {
+   "name": "pole",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_pole.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "tns_pole"
+  }
+ ]
+}

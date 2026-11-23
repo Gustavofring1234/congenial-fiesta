@@ -1,0 +1,28 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_8d5f333f192a6bd9",
+ "source": "src/core/shared/Kokeshi/common/common.carc/G3D/ava_handB.brres/ava_handB",
+ "brres": "src/core/shared/Kokeshi/common/common.carc/G3D/ava_handB.brres",
+ "model": "ava_handB",
+ "glb": "models/src/core/shared/Kokeshi/common/common.carc/G3D/ava_handB__ava_handB.glb",
+ "textures": [
+  {
+   "name": "dummy_tex_a",
+   "foundIn": "src/core/shared/Kokeshi/common/common.carc/G3D/ava_handB.brres"
+  },
+  {
+   "name": "dummy_tex_b",
+   "foundIn": "src/core/shared/Kokeshi/common/common.carc/G3D/ava_handB.brres"
+  },
+  {
+   "name": "lm_0",
+   "foundIn": "src/core/shared/Kokeshi/common/common.carc/G3D/ava_handB.brres"
+  },
+  {
+   "name": "lm_1",
+   "foundIn": "src/core/shared/Kokeshi/common/common.carc/G3D/ava_handB.brres"
+  }
+ ],
+ "animations": []
+}

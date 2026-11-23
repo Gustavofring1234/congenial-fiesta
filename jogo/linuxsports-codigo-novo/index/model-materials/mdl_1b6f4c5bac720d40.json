@@ -1,0 +1,101 @@
+{
+ "assetId": "mdl_1b6f4c5bac720d40",
+ "model": "bbl_Field_Screen",
+ "materials": [
+  {
+   "name": "backscreen",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "backscreen",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "diffusionWhite",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    },
+    {
+     "texture": "box_TV_dots_i",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "grid",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "wii_logo",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "backscreen",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Screen.brres",
+   "materials": [
+    "backscreen"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "box_monitor_edge_i",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Screen.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_TV_dots_i",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Screen.brres",
+   "materials": [
+    "backscreen"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "diffusionWhite",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Screen.brres",
+   "materials": [
+    "backscreen"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "grid",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Screen.brres",
+   "materials": [
+    "backscreen"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "sportlogo_white",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Screen.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "wii_logo",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_Screen.brres",
+   "materials": [
+    "backscreen"
+   ],
+   "layer0": false
+  }
+ ]
+}

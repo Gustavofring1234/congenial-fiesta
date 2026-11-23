@@ -1,0 +1,31 @@
+{
+ "format": "nw4r-tex",
+ "version": 1,
+ "assetId": "tex_d44cd3cd4964645f",
+ "source": "src/minigames/boxing/us/local.carc/boxing.arc.d/timg/msy_pose04_01.tpl",
+ "images": [
+  {
+   "index": 0,
+   "file": "assets/src/minigames/boxing/us/local.carc/boxing.arc.d/timg/msy_pose04_01.png",
+   "width": 232,
+   "height": 88,
+   "format": "RGB565",
+   "formatId": 4,
+   "palette": null,
+   "wrapS": "CLAMP",
+   "wrapT": "CLAMP",
+   "minFilter": "LINEAR",
+   "magFilter": "LINEAR",
+   "lodBias": 0,
+   "minLod": 0,
+   "maxLod": 0,
+   "mipmapCount": 1,
+   "webgl": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "minFilter": 9729,
+    "magFilter": 9729
+   }
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "format": "nw4r-tex",
+ "version": 1,
+ "assetId": "tex_34193878bccd7666",
+ "source": "src/core/shared/RPSportsTitle/us/local.carc/SpTitle.arc.d/timg/stm_copy_00.tpl",
+ "images": [
+  {
+   "index": 0,
+   "file": "assets/src/core/shared/RPSportsTitle/us/local.carc/SpTitle.arc.d/timg/stm_copy_00.png",
+   "width": 32,
+   "height": 32,
+   "format": "IA8",
+   "formatId": 3,
+   "palette": null,
+   "wrapS": "CLAMP",
+   "wrapT": "CLAMP",
+   "minFilter": "LINEAR",
+   "magFilter": "LINEAR",
+   "lodBias": 0,
+   "minLod": 0,
+   "maxLod": 0,
+   "mipmapCount": 1,
+   "webgl": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "minFilter": 9729,
+    "magFilter": 9729
+   }
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_62fb2d1a87cda656",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_home_run1_model.brres/home_run1",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_home_run1_model.brres",
+ "model": "home_run1",
+ "glb": "models/src/core/shared/SportsStatic/us/G3D/bbl_home_run1_model__home_run1.glb",
+ "textures": [
+  {
+   "name": "bbl_env2",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_home_run1_model.brres",
+   "materials": [
+    "mt_dummy0",
+    "mt_env"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "bbl_fire00",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_home_run1_model.brres",
+   "materials": [
+    "mt_dummy1",
+    "mt_mat"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "bbl_fire01",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_home_run1_model.brres",
+   "materials": [
+    "mt_dummy1",
+    "mt_mat"
+   ],
+   "layer0": false
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "home_run1"
+  },
+  {
+   "type": "SRT0",
+   "name": "home_run1"
+  },
+  {
+   "type": "CLR0",
+   "name": "home_run1"
+  }
+ ],
+ "materials": [
+  {
+   "name": "mt_alpha",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [],
+   "objects": [
+    "polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_dummy0",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bbl_env2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon3"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_dummy1",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bbl_fire00",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "bbl_fire01",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "bbl_fire01",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon4"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_env",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bbl_env2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_mat",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bbl_fire00",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "bbl_fire01",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "bbl_fire01",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  }
+ ]
+}

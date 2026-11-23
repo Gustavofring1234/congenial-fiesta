@@ -1,0 +1,213 @@
+{
+ "format": "nw4r-scene",
+ "version": 1,
+ "assetId": "scn_5407644f3dba21a4",
+ "source": "src/minigames/golf/common/common.carc",
+ "sport": "golf",
+ "models": [
+  {
+   "name": "G3D/glf_ball1.brres/glf_ball1",
+   "ref": "mdl_7a02aad1273e49dc"
+  },
+  {
+   "name": "G3D/glf_bar_frame.brres/golf_powerbar_tex01frame",
+   "ref": "mdl_e0b8d65e4730b20e"
+  },
+  {
+   "name": "G3D/glf_bar_tex_bg.brres/golf_powerbar_tex01bg",
+   "ref": "mdl_88452b0560c6f30c"
+  },
+  {
+   "name": "G3D/glf_bar_tex_bg2.brres/golf_powerbar_tex01bg_out",
+   "ref": "mdl_d25b7347cbbd13b1"
+  },
+  {
+   "name": "G3D/glf_bar_tex.brres/golf_powerbar_tex01",
+   "ref": "mdl_3eaf16b0bd8bb1bd"
+  },
+  {
+   "name": "G3D/glf_club.brres/glf_club_IR",
+   "ref": "mdl_e8ce05cb2b14b318"
+  },
+  {
+   "name": "G3D/glf_club.brres/glf_club_PT",
+   "ref": "mdl_e87ff9cb2ad27d63"
+  },
+  {
+   "name": "G3D/glf_club.brres/glf_club_SW",
+   "ref": "mdl_e8760acb2aca45c1"
+  },
+  {
+   "name": "G3D/glf_club.brres/glf_club_WD",
+   "ref": "mdl_e868e7cb2abf7fec"
+  },
+  {
+   "name": "G3D/glf_culb_L.brres/glf_club_IR_L",
+   "ref": "mdl_f379a93a2c73cff2"
+  },
+  {
+   "name": "G3D/glf_culb_L.brres/glf_club_PT_L",
+   "ref": "mdl_0b9e4ff9325af63d"
+  },
+  {
+   "name": "G3D/glf_culb_L.brres/glf_club_SW_L",
+   "ref": "mdl_d6c522f2cbe67257"
+  },
+  {
+   "name": "G3D/glf_culb_L.brres/glf_club_WD_L",
+   "ref": "mdl_364ca010ac3c377a"
+  },
+  {
+   "name": "G3D/glf_cup.brres/glf_cup",
+   "ref": "mdl_3714054860a4d3b4"
+  },
+  {
+   "name": "G3D/glf_cup.brres/glf_cup_side",
+   "ref": "mdl_79685f5e7ee49eda"
+  },
+  {
+   "name": "G3D/glf_fukidasi.brres/glf_fukidasi",
+   "ref": "mdl_6a7449d4d0140bba"
+  },
+  {
+   "name": "G3D/glf_Help.brres/glf_HelpBall",
+   "ref": "mdl_0b49e0a8c64a381d"
+  },
+  {
+   "name": "G3D/glf_Help.brres/glf_HelpSquare",
+   "ref": "mdl_2ca38a70e2a21cd7"
+  },
+  {
+   "name": "G3D/glf_marker.brres/glf_marker",
+   "ref": "mdl_25f0370669bf20fa"
+  },
+  {
+   "name": "G3D/glf_mato.brres/glf_matoWATER_C",
+   "ref": "mdl_c6fc10689df0c805"
+  },
+  {
+   "name": "G3D/glf_mato.brres/glf_matoWAVE_C",
+   "ref": "mdl_6f0cae11b647ed3f"
+  },
+  {
+   "name": "G3D/glf_mato.brres/glf_mato_A",
+   "ref": "mdl_1d16290bcedd14a0"
+  },
+  {
+   "name": "G3D/glf_mato.brres/glf_mato_C",
+   "ref": "mdl_1d162b0bcedd1806"
+  },
+  {
+   "name": "G3D/glf_matoPIN.brres/glf_matoPIN",
+   "ref": "mdl_6ecb2804cb0cc160"
+  },
+  {
+   "name": "G3D/glf_pin1.brres/glf_pin1",
+   "ref": "mdl_7ea6de5c8f296c6a"
+  },
+  {
+   "name": "G3D/glf_pin1.brres/glf_pin1b",
+   "ref": "mdl_5ef7df4743629198"
+  },
+  {
+   "name": "G3D/glf_sky.brres/glf_sky",
+   "ref": "mdl_8c2a4b84071247dc"
+  },
+  {
+   "name": "G3D/glf_sky.brres/glf_sky2",
+   "ref": "mdl_3e263f580410396a"
+  },
+  {
+   "name": "G3D/glf_strike.brres/glf_strike",
+   "ref": "mdl_d21e0914b8236a12"
+  },
+  {
+   "name": "G3D/glf_teeOBJ.brres/glf_teeOBJ",
+   "ref": "mdl_7bdc8590a80d734c"
+  },
+  {
+   "name": "G3D/glf_tree1.brres/glf_tree1",
+   "ref": "mdl_f63a6abda731e75c"
+  },
+  {
+   "name": "G3D/glf_tree1.brres/glf_tree1_env",
+   "ref": "mdl_bda6b83e14adaec8"
+  },
+  {
+   "name": "G3D/glf_tree1.brres/glf_tree1_LOD",
+   "ref": "mdl_7fe3773df160414c"
+  },
+  {
+   "name": "G3D/glf_tree1.brres/glf_tree1_sh",
+   "ref": "mdl_4ab92d35b229be82"
+  },
+  {
+   "name": "G3D/glf_tree2.brres/glf_tree2",
+   "ref": "mdl_7bbe907144008ca0"
+  },
+  {
+   "name": "G3D/glf_tree2.brres/glf_tree2_env",
+   "ref": "mdl_4c47dc8a1002d77c"
+  },
+  {
+   "name": "G3D/glf_tree2.brres/glf_tree2_LOD",
+   "ref": "mdl_1257cb89eff5b670"
+  },
+  {
+   "name": "G3D/glf_tree2.brres/glf_tree2_sh",
+   "ref": "mdl_26c19ed42e309cf6"
+  },
+  {
+   "name": "G3D/glf_wind.brres/glf_windArrow",
+   "ref": "mdl_71ec7ba7965184fb"
+  },
+  {
+   "name": "G3D/glf_wind.brres/glf_windGround",
+   "ref": "mdl_ef8573cc950774e9"
+  }
+ ],
+ "collision": [],
+ "objects": [],
+ "data": [
+  {
+   "role": "pblm",
+   "name": "Environment/scene_Bloom.pblm",
+   "ref": "bin_52f55221ab50b1c1"
+  },
+  {
+   "role": "plight",
+   "name": "Environment/scene_Light.plight",
+   "ref": "bin_cf0180f3f74fec89"
+  },
+  {
+   "role": "plmap",
+   "name": "Environment/scene_Lm.plmap",
+   "ref": "bin_3e6f8d9c03065a64"
+  },
+  {
+   "role": "pmmisc",
+   "name": "Environment/scene_ModelMisc.pmmisc",
+   "ref": "bin_da6c078969ce1d01"
+  },
+  {
+   "role": "bti",
+   "name": "FaceDummy1.bti",
+   "ref": "bin_34b24f336ab019b9"
+  },
+  {
+   "role": "bti",
+   "name": "FaceDummy2.bti",
+   "ref": "bin_aeb3a05ea481ff6c"
+  },
+  {
+   "role": "bti",
+   "name": "FaceDummy3.bti",
+   "ref": "bin_a2a30f592f6247db"
+  },
+  {
+   "role": "bti",
+   "name": "FaceDummy4.bti",
+   "ref": "bin_8cd8e45aadc70396"
+  }
+ ]
+}

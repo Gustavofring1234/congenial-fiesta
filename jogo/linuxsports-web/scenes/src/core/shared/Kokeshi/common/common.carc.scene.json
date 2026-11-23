@@ -1,0 +1,64 @@
+{
+ "format": "nw4r-scene",
+ "version": 1,
+ "assetId": "scn_5ab127c3f61f9ebb",
+ "source": "src/core/shared/Kokeshi/common/common.carc",
+ "sport": "shared",
+ "models": [
+  {
+   "name": "G3D/ava_bodyA0.brres/ava_bodyA0",
+   "ref": "mdl_e639d7e09405ef57"
+  },
+  {
+   "name": "G3D/ava_bodyA1.brres/ava_bodyA1",
+   "ref": "mdl_6ba2941cb6de3aed"
+  },
+  {
+   "name": "G3D/ava_bodyA2.brres/ava_bodyA2",
+   "ref": "mdl_ab88d90e94cdb203"
+  },
+  {
+   "name": "G3D/ava_bodyA3.brres/ava_bodyA3",
+   "ref": "mdl_0331333e2f4caff5"
+  },
+  {
+   "name": "G3D/ava_bodyB0.brres/ava_bodyB0",
+   "ref": "mdl_938655c583cb2099"
+  },
+  {
+   "name": "G3D/ava_bodyB1.brres/ava_bodyB1",
+   "ref": "mdl_8192b926f46ac437"
+  },
+  {
+   "name": "G3D/ava_bodyB2.brres/ava_bodyB2",
+   "ref": "mdl_8a1d39439af01725"
+  },
+  {
+   "name": "G3D/ava_bodyB3.brres/ava_bodyB3",
+   "ref": "mdl_5a4869d30bb2a007"
+  },
+  {
+   "name": "G3D/ava_bodyC0.brres/ava_bodyC0",
+   "ref": "mdl_2a00b12bcdb59887"
+  },
+  {
+   "name": "G3D/ava_bodyC1.brres/ava_bodyC1",
+   "ref": "mdl_1095848983d4c2ad"
+  },
+  {
+   "name": "G3D/ava_bodyE0.brres/ava_bodyE0",
+   "ref": "mdl_0b61d89aabf019b7"
+  },
+  {
+   "name": "G3D/ava_handA.brres/ava_handA",
+   "ref": "mdl_3d83dc32b2fcd935"
+  },
+  {
+   "name": "G3D/ava_handB.brres/ava_handB",
+   "ref": "mdl_8d5f333f192a6bd9"
+  }
+ ],
+ "collision": [],
+ "objects": [],
+ "data": []
+}

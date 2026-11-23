@@ -1,0 +1,114 @@
+{
+ "assetId": "mdl_e8ce05cb2b14b318",
+ "model": "glf_club_IR",
+ "materials": [
+  {
+   "name": "M_Grip",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_driver_grip",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_IronHead",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_iron_head",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_env1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "env1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_driver_grip",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [
+    "M_Grip"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_driver_grip1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_driver_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_env04",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_env08",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_env1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [
+    "M_IronHead"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "glf_iron_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [
+    "M_IronHead"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_putter_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_sw_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ]
+}

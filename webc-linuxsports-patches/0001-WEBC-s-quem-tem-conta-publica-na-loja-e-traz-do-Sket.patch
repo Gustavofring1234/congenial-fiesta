@@ -1,0 +1,853 @@
+From f1bc5d2246e6d268a3d942eb4006ea6882a3d41f Mon Sep 17 00:00:00 2001
+From: Claude <noreply@anthropic.com>
+Date: Sun, 15 Nov 2026 05:29:39 +0000
+Subject: [PATCH 1/4] =?UTF-8?q?WEBC:=20s=C3=B3=20quem=20tem=20conta=20publ?=
+ =?UTF-8?q?ica=20na=20loja=20(e=20traz=20do=20Sketchfab)?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+- Servidor: publicar e "Trazer para a loja" do Sketchfab exigem conta (sem ela,
+  401 com "conta": true; com a loja fechada, 403 antes). O dono do servidor
+  continua publicando sem conta. A lista da loja diz "pode_publicar" e o
+  Sketchfab diz "precisa_conta".
+- Quem publicou com a conta troca a miniatura, muda e apaga o que é seu
+  entrando na conta, de qualquer aparelho (o segredo do navegador continua
+  valendo).
+- Tela: sem conta, ＋ Publicar e Trazer/Pôr na loja avisam e abrem o "Entrar na
+  conta"; depois de entrar, seguem. O dono vê "Deixar quem tem conta publicar"
+  e o aviso quando falta o e-mail do servidor para criar contas.
+- Janelas uma sobre a outra: só a de cima responde ao Esc e ao Enter (antes o
+  Esc fechava as duas).
+- Traduções (inglês e japonês), READMEs e testes (servidor e navegador; um
+  SMTP de mentira compartilhado para criar contas).
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01Tttujp8AJKWnFCZtYUwetR
+---
+ README.md                                     |   4 +-
+ apps/companhia/README.md                      |  17 +--
+ apps/companhia/js/loja.js                     |  66 +++++++---
+ apps/companhia/js/textos.js                   |  16 ++-
+ comum/lnux.js                                 |   3 +
+ servidor/lnux_apps.py                         |  44 ++++---
+ tests/navegador/companhia_email.js            |  66 ++++++++++
+ tests/navegador/testar_companhia_loja.js      |  29 ++++-
+ tests/navegador/testar_companhia_sketchfab.js |  32 +++--
+ tests/testar_servidor.py                      | 118 ++++++++++++++----
+ 10 files changed, 313 insertions(+), 82 deletions(-)
+ create mode 100644 tests/navegador/companhia_email.js
+
+diff --git a/README.md b/README.md
+index 0239670..0da2d36 100644
+--- a/README.md
++++ b/README.md
+@@ -10,7 +10,7 @@ transferência.
+ | 🎬 **Vídeo** | Editor de vídeo no jeito do Premiere: espaços de trabalho (Edição, Montagem, Cor, Efeitos, Áudio, Legendas, Celular), monitor de Origem com entrada/saída, Inserir e Sobrescrever, 11 ferramentas (ondulação, rolante, slip, slide, navalha, esticar...), 31 efeitos de vídeo e 11 de áudio com quadros-chave e gráfico de velocidade, Cor (Lumetri) com curvas, rodas, HSL e escopos, 14 transições, mixer com loudness (LUFS), legendas SRT/VTT, gráficos prontos; exporta WebM, GIF, PNG, WAV, e MP4/MP3 pela ponte | [FilmCraft](https://github.com/storytold/filmcraft) |
+ | ✨ **Efeitos** | Animação de títulos e gráficos: camadas de texto, forma, partículas, imagem e vídeo; quadros-chave com suavização (freando, quicando, elástico...); 12 animações prontas, 7 modelos, "tremer", desfoque, brilho, sombra e modos de mistura; exporta GIF e PNG (no navegador), WebM, ou MP4 pela ponte | [EffectCraft](https://github.com/storytold/effectcraft) |
+ | ▶️ **VLC-Web** | Player de vídeo e música completo (o [VLC Web](https://github.com/Gustavo-HVF/VLC-WEB), do mesmo autor): lista de reprodução, legendas em 10 formatos com busca online e tradução, equalizador de 10 bandas e efeitos de áudio, filtros de vídeo em WebGL, faixas de áudio, A→B, capítulos, gravação, conversão, transmissão, rádios e podcasts, 31 temas e 9 layouts. **Com a ponte**: toca direto das pastas do aparelho e usa o ffmpeg dele para AVI, WMV, MKV com AC-3/DTS, outras faixas de áudio e legendas embutidas | [VLC media player](https://www.videolan.org/vlc/) (projeto independente, sem código do VLC) |
+-| 💬 **WEBC** (web chat, antes Companhia) | Um site para **jogar com outras pessoas** em salas pelo link — tela de entrar, início, **loja** de mapas, personagens e animações (com **#** para achar, **curtidas** só com conta e quantas pessoas **baixaram**), a página **Sala** e o **perfil** (capa, foto, bio, salvos e **amigos**), com transições e tela de carregamento, em **português, inglês e japonês** e com os **temas do VLC-Web**; no início, chat bot, novidades e **widgets**; no jogo, as **expressões de 1 a 9** (clique ou teclado), o bate-papo no canto e a janela **Opções** (personagem, sala, ajuda, acessibilidade, gráfico e controle). Também converse com personagens **Live2D** (os modelos do **VTube Studio**: importe o ZIP e troque quando quiser) ou **VRoid** (`.vrm`, em 3D, com **troca de roupa**: várias roupas, peças e cores; **captura de movimento** pela câmera — rosto, olhos, tronco, braços, mãos, dedos e pernas —, **pacotes de movimento** `.vrma`/`.fbx`/`.bvh`, **cenários** para andar com W A S D e Espaço (a posição do mapa se ajusta e, em mapas fechados, ela nasce do lado de dentro; voar atravessando as paredes, numa sala só quem criou), com **luz e sombras realistas** opcionais (hora do dia, exposição, tom), as **luzes do mapa** acesas de verdade (as lâmpadas do arquivo, o que brilha e as peças com nome de luz) e a **luz calculada por raios** (ray tracing: as sombras de todas as luzes, o céu entrando pelas janelas e o rebote, calculados uma vez e guardados), **conversor de mapas** para `.glb` (de `.blend` do Blender, `.fbx`, `.obj`, `.dae`, `.stl`, `.ply`...), **ajuste do esqueleto** e **avatares do Unity/VRChat** (`.unitypackage`, `.fbx`) convertidos para `.vrm`); ao abrir, uma **tela de início** com o cartão de entrar na conta (ou jogar sem conta) e o caminho para **conversar com o chat bot**; jogando, **jogar com outras pessoas** numa **lista de salas** (como a de servidores: pública ou privada, senha, quantas pessoas, bate-papo, cenário com prévia; a aparência da personagem vale para todos; **contas** com código por e-mail e perfil com foto e bio; **vídeo numa tela** dentro do cenário — YouTube, Vimeo, Twitch ou arquivo —, que segue a personagem ou fica parada, no mesmo ponto para todos da sala; sem nenhuma função de IA nesse modo), com uma **loja** de personagens, mundos e animações (prévia em 3D antes de usar; quem entra pode publicar); dá para **publicar só a Companhia**, sem os outros apps e sem a ponte para quem vem de fora; chat com **ChatGPT, Claude, Gemini**, OpenRouter, Groq, DeepSeek, Mistral, **IA local** (Ollama, LM Studio, llama.cpp) ou o **claude-code-router**, com rotas que economizam tokens e um motor local que responde o simples sem IA; **voz** (navegador, ElevenLabs, OpenAI, **VoiceStudio** no aparelho) com a boca sincronizada; 15 emoções e 12 gestos que seguem a conversa; **toques** (cafuné, cutucar, puxar a orelha, cócegas); **memória** guardada no aparelho e relida ao abrir. Detalhes em [`apps/companhia/README.md`](apps/companhia/README.md) | [AIRI](https://github.com/moeru-ai/airi), [Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) e [claude-code-router](https://github.com/musistudio/claude-code-router) (só ideias) |
++| 💬 **WEBC** (web chat, antes Companhia) | Um site para **jogar com outras pessoas** em salas pelo link — tela de entrar, início, **loja** de mapas, personagens e animações (com **#** para achar, **curtidas** só com conta e quantas pessoas **baixaram**), a página **Sala** e o **perfil** (capa, foto, bio, salvos e **amigos**), com transições e tela de carregamento, em **português, inglês e japonês** e com os **temas do VLC-Web**; no início, chat bot, novidades e **widgets**; no jogo, as **expressões de 1 a 9** (clique ou teclado), o bate-papo no canto e a janela **Opções** (personagem, sala, ajuda, acessibilidade, gráfico e controle). Também converse com personagens **Live2D** (os modelos do **VTube Studio**: importe o ZIP e troque quando quiser) ou **VRoid** (`.vrm`, em 3D, com **troca de roupa**: várias roupas, peças e cores; **captura de movimento** pela câmera — rosto, olhos, tronco, braços, mãos, dedos e pernas —, **pacotes de movimento** `.vrma`/`.fbx`/`.bvh`, **cenários** para andar com W A S D e Espaço (a posição do mapa se ajusta e, em mapas fechados, ela nasce do lado de dentro; voar atravessando as paredes, numa sala só quem criou), com **luz e sombras realistas** opcionais (hora do dia, exposição, tom), as **luzes do mapa** acesas de verdade (as lâmpadas do arquivo, o que brilha e as peças com nome de luz) e a **luz calculada por raios** (ray tracing: as sombras de todas as luzes, o céu entrando pelas janelas e o rebote, calculados uma vez e guardados), **conversor de mapas** para `.glb` (de `.blend` do Blender, `.fbx`, `.obj`, `.dae`, `.stl`, `.ply`...), **ajuste do esqueleto** e **avatares do Unity/VRChat** (`.unitypackage`, `.fbx`) convertidos para `.vrm`); ao abrir, uma **tela de início** com o cartão de entrar na conta (ou jogar sem conta) e o caminho para **conversar com o chat bot**; jogando, **jogar com outras pessoas** numa **lista de salas** (como a de servidores: pública ou privada, senha, quantas pessoas, bate-papo, cenário com prévia; a aparência da personagem vale para todos; **contas** com código por e-mail e perfil com foto e bio; **vídeo numa tela** dentro do cenário — YouTube, Vimeo, Twitch ou arquivo —, que segue a personagem ou fica parada, no mesmo ponto para todos da sala; sem nenhuma função de IA nesse modo), com uma **loja** de personagens, mundos e animações (prévia em 3D antes de usar; quem tem conta publica); dá para **publicar só a Companhia**, sem os outros apps e sem a ponte para quem vem de fora; chat com **ChatGPT, Claude, Gemini**, OpenRouter, Groq, DeepSeek, Mistral, **IA local** (Ollama, LM Studio, llama.cpp) ou o **claude-code-router**, com rotas que economizam tokens e um motor local que responde o simples sem IA; **voz** (navegador, ElevenLabs, OpenAI, **VoiceStudio** no aparelho) com a boca sincronizada; 15 emoções e 12 gestos que seguem a conversa; **toques** (cafuné, cutucar, puxar a orelha, cócegas); **memória** guardada no aparelho e relida ao abrir. Detalhes em [`apps/companhia/README.md`](apps/companhia/README.md) | [AIRI](https://github.com/moeru-ai/airi), [Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) e [claude-code-router](https://github.com/musistudio/claude-code-router) (só ideias) |
+ | 🎚️ **Som** | Estúdio de áudio multipistas: gravar pelo microfone, importar, cortar, aparar, fades, normalizar, inverter; mixer com volume, pan, mudo e solo; EQ de 3 bandas, compressor, eco e reverb por trilha; BPM, grade e metrônomo; loop; exporta WAV (16/24 bits) e, pela ponte, MP3, OGG, Opus, FLAC e M4A, ou uma trilha por arquivo | [SoundCraft](https://github.com/storytold/soundcraft) |
+ 
+ Vêm mais: editor de código (Monaco), dois sites de mensagens, escritório (texto, planilha,
+@@ -61,7 +61,7 @@ padrão do Python) faz isso pelos apps, numa API em `/api/`:
+ | IA (WEBC) | Guardar as chaves das APIs de IA e voz no aparelho (`~/.lnux-apps/ia.json`, permissão 600) e repassar os pedidos com a chave, ao vivo (streaming): só para provedores conhecidos (OpenAI, Anthropic, Gemini, OpenRouter, Groq, DeepSeek, Mistral, xAI, Together, Fireworks, Cerebras, ElevenLabs), programas do próprio aparelho (`127.0.0.1`, como Ollama e VoiceStudio) e endereços da rede que você liberar. A chave só vai para o endereço em que foi cadastrada e nunca volta ao navegador. Também guarda o núcleo do Live2D (baixado do site oficial uma vez) e os arquivos do rastreamento pela câmera (MediaPipe: o pacote do npm e os modelos do Google, baixados uma vez para `~/.lnux-apps/mediapipe/`), e converte cenários `.blend` em `.glb` com o Blender do aparelho, quando ele está instalado (sem rodar os scripts do arquivo) |
+ | Salas (WEBC) | Guardar na memória as salas para jogar com outras pessoas e a lista das públicas. Cria uma sala o dono (com a chave) e, se ele deixar, quem chega pelo link, com as opções (pública ou privada, senha, quantas pessoas, bate-papo, cenário); quem entra usa só o código da sala (sem a chave e sem acesso a nada além da sala: o cenário, as personagens que cada um mandou e o bate-papo). Também guarda o vídeo que cada um pôs numa tela (só o link, o lugar da tela e o relógio, para todos verem o mesmo pedaço; o vídeo vem direto do site dele). Até 12 salas (3 por pessoa) e 16 pessoas por sala; uma sala vazia fecha depois de 15 minutos |
+ | Contas (WEBC) | Cadastro (nome, e-mail, senha, idade) com um código de 6 dígitos por e-mail, entrar, esqueci a senha e o perfil (foto, capa, bio, itens salvos da loja e amigos: pedir, aceitar, desfazer), guardados neste aparelho (`~/.lnux-apps/contas/`, permissão 600; senha, códigos e sessões só como hash). O e-mail sai pela conta de e-mail do dono (SMTP, `~/.lnux-apps/email.json`, 600), que ele configura no WEBC (o e-mail sai no idioma da pessoa: português, inglês ou japonês); também a idade mínima e "só joga quem tem conta" |
+-| Loja (WEBC) | Uma pasta só para isso (`~/.lnux-apps/loja`: personagens, mundos e animações): qualquer um vê e baixa; publica quem o dono deixar (o formato é conferido), com # para achar; curtir só com conta; conta quantas pessoas baixaram (`.social.json`); apaga quem publicou ou o dono. É a única pasta que os visitantes alcançam. Mapas do Sketchfab com a chave do dono: todos que podem publicar buscam e trazem, e só o dono vê ou troca a chave (ela fica no servidor, em `chaves.json` com permissão 600, e nunca vai para o navegador; só entram licenças CC que deixam redistribuir, com o crédito do autor) |
++| Loja (WEBC) | Uma pasta só para isso (`~/.lnux-apps/loja`: personagens, mundos e animações): qualquer um vê e baixa; só quem tem conta publica, se o dono deixar (o formato é conferido), com # para achar; curtir só com conta; conta quantas pessoas baixaram (`.social.json`); apaga quem publicou (pela conta, de qualquer aparelho) ou o dono. É a única pasta que os visitantes alcançam. Mapas do Sketchfab com a chave do dono: todos buscam, baixam e carregam; quem tem conta (e pode publicar) traz para a loja; só o dono vê ou troca a chave (ela fica no servidor, em `chaves.json` com permissão 600, e nunca vai para o navegador; só entram licenças CC que deixam redistribuir, com o crédito do autor) |
+ 
+ **Segurança.** Escuta só no próprio aparelho (`127.0.0.1`), a não ser que você peça `--endereco 0.0.0.0`.
+ Cada pedido precisa da chave guardada em `~/.lnux-apps/ponte.json` (permissão 600). Recusa nomes de domínio no
+diff --git a/apps/companhia/README.md b/apps/companhia/README.md
+index a5a2401..4577612 100644
+--- a/apps/companhia/README.md
++++ b/apps/companhia/README.md
+@@ -265,9 +265,12 @@ cartões com a miniatura, quantas **curtidas** (♥) e quantas pessoas **baixara
+   arquivo* guarda o `.vrm`, `.glb`, `.vrma`, `.bvh` ou `.fbx`.
+ - **Publicar** (＋ Publicar): uma das suas personagens, um dos seus mapas ou movimentos, ou um arquivo do aparelho
+   (avatares do Unity viram `.vrm`; mapas de qualquer formato viram `.glb`), com os #. A miniatura é tirada da
+-  prévia. Com conta, o autor é a conta, e quem publicou pode apagar o que é seu.
+-- **O dono da loja** (quem abre no aparelho do servidor, com a ponte) apaga qualquer item, decide se quem entra
+-  pelo link pode publicar e vê onde fica a pasta: `~/.lnux-apps/loja` (ou `"loja"` em `ponte.json`, ou `--loja`),
++  prévia. **Só quem tem conta publica** (sem conta, ＋ Publicar pede para entrar ou criar uma; quem não tem conta só
++  vê, baixa e usa). O autor é a conta, e quem publicou troca a miniatura ou apaga o que é seu entrando na conta, de
++  qualquer aparelho. O dono do servidor publica mesmo sem conta.
++- **O dono da loja** (quem abre no aparelho do servidor, com a ponte) apaga qualquer item, decide se quem tem conta
++  pode publicar ("Deixar quem tem conta publicar"; as contas precisam do e-mail do servidor configurado) e vê onde
++  fica a pasta: `~/.lnux-apps/loja` (ou `"loja"` em `ponte.json`, ou `--loja`),
+   com as subpastas `personagens`, `mundos` e `animacoes`. Arquivos postos à mão nelas também aparecem na loja; as
+   miniaturas que faltam o dono gera sozinho ao abrir a loja. Os #, as curtidas e os downloads ficam em
+   `.social.json`, na mesma pasta.
+@@ -296,7 +299,7 @@ Mapas do [Sketchfab](https://sketchfab.com) vêm direto para a loja, pela API de
+    - **Pôr na loja** traz aquela versão (a de 1K deixa a loja mais leve para quem entra pelo link).
+ 
+    Baixar e carregar valem para **todos** (com a chave do dono guardada), mesmo com a loja fechada para publicações;
+-   pôr na loja só para quem pode publicar. Os de licença livre (Creative Commons) para todos; os comprados
++   pôr na loja (ou **Trazer para a loja**) é publicar: só para quem tem conta (sem ela, o botão pede para entrar). Os de licença livre (Creative Commons) para todos; os comprados
+    (*Standard*) só para o dono, que usa a própria conta (a licença não deixa passar para os outros). Os links do
+    Sketchfab ficam no servidor (nunca vão para o navegador) e são guardados por uns minutos.
+ 
+@@ -304,13 +307,13 @@ A janela mostra três modelos por fileira (dois no celular), cada um com a minia
+ botões.
+ 
+ **Todos usam, só o dono vê a chave.** Com a chave guardada, o botão aparece para todos: buscam, baixam e carregam, e
+-quem pode publicar na loja (o dono decide, em "quem entra pelo link pode publicar") também traz; o servidor usa a
++quem tem conta também traz para a loja (se o dono deixar, em "Deixar quem tem conta publicar"); o servidor usa a
+ chave por eles. Só o
+ dono vê se há chave e a troca; nenhuma resposta do servidor leva a chave, e ela não chega ao navegador de ninguém. Para
+ quem não é o dono há um limite de pedidos por endereço (40 buscas por minuto, 30 listas de arquivos a cada 10 minutos,
+ 20 downloads e 10 mapas trazidos por hora), porque a cota da
+-chave e o disco são do dono. Quem trouxe aparece no crédito ("trazido por") e pode apagar o que trouxe, como ao
+-publicar.
++chave e o disco são do dono. Quem trouxe aparece no crédito ("trazido por", o nome da conta) e pode apagar o que
++trouxe, como ao publicar.
+ 
+ **Licenças.** A loja redistribui o arquivo para quem entra pelo link, então só entram modelos com licença Creative
+ Commons que deixa redistribuir: **CC0**, **CC BY**, **CC BY-SA**, **CC BY-NC** e **CC BY-NC-SA**. Os comprados na loja
+diff --git a/apps/companhia/js/loja.js b/apps/companhia/js/loja.js
+index 07b70db..d00699e 100644
+--- a/apps/companhia/js/loja.js
++++ b/apps/companhia/js/loja.js
+@@ -5,12 +5,12 @@
+  * item, ele aparece em 3D (a personagem girando, o mundo visto de cima, a animação num boneco) antes de a pessoa
+  * decidir usar. "Usar" baixa o arquivo para o navegador dela: a personagem vira uma das suas, o mundo vai para
+  * Movimento › Cenário e a animação para os pacotes de movimento. "Publicar" manda uma personagem, um mundo ou
+- * uma animação sua para a loja (com a miniatura tirada da prévia), se o dono do servidor deixar.
++ * uma animação sua para a loja (com a miniatura tirada da prévia): só quem tem conta (e se o dono do servidor deixar).
+  *
+  * O servidor (servidor/lnux_apps.py, /api/loja) guarda tudo numa pasta própria do aparelho (~/.lnux-apps/loja), a
+- * única que os visitantes alcançam. Quem publica recebe um segredo (guardado só no navegador dela) para trocar a
+- * miniatura ou apagar o que publicou; o dono (com a chave da ponte, no próprio aparelho) apaga qualquer item e
+- * decide se os visitantes podem publicar.
++ * única que os visitantes alcançam. Quem publica troca a miniatura ou apaga o que publicou entrando na conta (de qualquer
++ * aparelho; o navegador de onde publicou guarda também um segredo); o dono (com a chave da ponte, no próprio aparelho)
++ * apaga qualquer item e decide se quem tem conta pode publicar.
+  */
+ (function () {
+   "use strict";
+@@ -66,11 +66,11 @@
+       buscar: (q, { animado = false, cursor = "" } = {}) => pedir("GET", "sketchfab/buscar?" + new URLSearchParams({ q, animado: animado ? "1" : "0", cursor })),
+       /** Traz um modelo para a loja (a chave do dono fica no servidor). Quem não é o dono recebe o segredo, como ao publicar. */
+       async importar(uid, tags = "", arquivo = "") {
+-        const j = await pedir("POST", "sketchfab/importar", { json: { uid, tags, arquivo, quem: (C.nomeDoJogo && C.nomeDoJogo.atual()) || "" } });
++        const j = await pedir("POST", "sketchfab/importar", { json: { uid, tags, arquivo } });
+         if (j.segredo) gravarSegredo(j.item.id, j.segredo);
+         return j;
+       },
+-      /** As versões que dá para baixar: {modelo, pode_baixar, pode_trazer, arquivos: [{id, formato, nome_formato, textura, tamanho, carregar}]}. */
++      /** As versões que dá para baixar: {modelo, pode_baixar, pode_trazer, precisa_conta, arquivos: [{id, formato, nome_formato, textura, tamanho, carregar}]}. */
+       arquivos: (uid) => pedir("GET", "sketchfab/arquivos?" + new URLSearchParams({ uid })),
+       /**
+        * Baixa uma versão sem pôr na loja: {arquivo (o id da versão), bruto (o arquivo como veio: ZIP, USDZ...; senão o
+@@ -139,10 +139,21 @@
+     editar: (item, dados) => pedir("POST", item.id, { json: dados, segredo: lerSegredos()[item.id] }),
+     /** "fnaf, terror #anime" → ["fnaf", "terror", "anime"] (como o servidor faz). */
+     tags: (texto) => [...new Set(String(texto || "").split(/[\s,;#]+/).map((x) => x.trim().toLowerCase().replace(/[^\p{L}\p{N}_-]+/gu, "")).filter(Boolean))].slice(0, 12),
+-    /** Quem pode apagar o item: o dono da loja ou quem publicou (o segredo ficou neste navegador). */
+-    podeMexer: (item, dono) => !!(dono || (!item.solto && lerSegredos()[item.id])),
++    /** Pode trocar a miniatura e apagar: o dono, a conta que publicou (de qualquer aparelho) ou o navegador de onde publicou. */
++    podeMexer: (item, dono) => !!(dono || (!item.solto && ((item.conta && C.contas && C.contas.eu && C.contas.eu.id === item.conta) || lerSegredos()[item.id]))),
+   };
+ 
++  /**
++   * Publicar (e trazer do Sketchfab) é só para quem tem conta: avisa e abre o "Entrar na conta" (de lá dá para criar uma).
++   * Devolve true se a pessoa entrou.
++   */
++  async function entrarParaPublicar() {
++    LNUX.aviso(t("Só quem tem conta publica na loja. Entre na sua conta (ou crie uma) para publicar."), "alerta");
++    if (!C.janelaConta || !C.contas || !(await C.contas.disponivel())) return false;
++    return !!(await C.janelaConta("entrar"));
++  }
++  C.entrarParaPublicar = entrarParaPublicar;
++
+   // ── Vitrine: a prévia em 3D ──────────────────────────────────────────
+ 
+   const cor = (nome, padrao) => (getComputedStyle(document.documentElement).getPropertyValue(nome) || "").trim() || padrao;
+@@ -446,10 +457,11 @@
+       } catch (e) { grade.replaceChildren(el("p", { class: "conta-msg erro" }, e.message)); }
+     }
+     function cartao(m) {
+-      const semPublicar = m.pode_loja && !estado.pode_trazer;
++      const semPublicar = m.pode_loja && !estado.pode_trazer && !estado.precisa_conta;
+       const trazer = el("button", { type: "button", class: "lnux-botao primario pequeno sketchfab-trazer", disabled: !m.pode_loja || semPublicar, "data-uid": m.uid,
+-        title: !m.pode_loja ? t("A licença deste modelo não deixa redistribuir: ele não pode ir para a loja.") : semPublicar ? t("O dono desta loja não está aceitando publicações agora.") : "",
+-        onclick: () => importar(m, trazer) }, m.pode_loja ? t("Trazer para a loja") : t("Licença não deixa"));
++        title: !m.pode_loja ? t("A licença deste modelo não deixa redistribuir: ele não pode ir para a loja.") : semPublicar ? t("O dono desta loja não está aceitando publicações agora.")
++          : estado.pode_trazer ? "" : t("Entre na sua conta para trazer para a loja."),
++        onclick: () => comConta(() => importar(m, trazer)) }, m.pode_loja ? t("Trazer para a loja") : t("Licença não deixa"));
+       // carregar no jogo e baixar (sem pôr na loja), escolhendo a versão: o formato e o tamanho das texturas (1K, 2K, 4K...)
+       const arquivos = el("button", { type: "button", class: "lnux-botao pequeno sketchfab-arquivos", "data-arquivos": m.uid, onclick: () => abrirArquivos(m) }, t("Arquivos e formatos..."));
+       return el("article", { class: "sketchfab-cartao" + (m.pode_loja ? "" : " bloqueado"), "data-uid": m.uid },
+@@ -483,8 +495,9 @@
+           onclick: () => usarVersao(m, a, "carregar", carregar, d) }, t("Carregar"));
+         const baixarA = el("button", { type: "button", class: "lnux-botao pequeno", "data-baixar": a.id, disabled: !info.pode_baixar, title: t("Baixar o arquivo para o aparelho, como veio"),
+           onclick: () => usarVersao(m, a, "baixar", baixarA, d) }, t("Baixar"));
+-        const trazerA = el("button", { type: "button", class: "lnux-botao plano pequeno", "data-trazer": a.id, disabled: !(a.carregar && info.pode_trazer),
+-          title: info.pode_trazer ? t("Pôr esta versão na loja") : "", onclick: () => usarVersao(m, a, "trazer", trazerA, d) }, t("Pôr na loja"));
++        const trazerA = el("button", { type: "button", class: "lnux-botao plano pequeno", "data-trazer": a.id, disabled: !(a.carregar && (info.pode_trazer || info.precisa_conta)),
++          title: info.pode_trazer ? t("Pôr esta versão na loja") : info.precisa_conta ? t("Entre na sua conta para trazer para a loja.") : "",
++          onclick: () => comConta(() => usarVersao(m, a, "trazer", trazerA, d)) }, t("Pôr na loja"));
+         return el("div", { class: "sketchfab-versao", role: "listitem", "data-arquivo": a.id },
+           el("span", { class: "sketchfab-formato", "data-formato": a.formato }, a.nome_formato),
+           el("span", { class: "sketchfab-textura", title: t("Tamanho máximo das texturas") }, ...(a.textura ? [el("b", {}, rotuloTextura(a.textura)), el("small", { class: "fraco" }, " " + t("texturas"))]
+@@ -520,6 +533,15 @@
+       } catch (e) { LNUX.erro(e); }
+       finally { prog.fechar(); botao.disabled = false; }
+     }
++    /** Trazer para a loja é só para quem tem conta: sem ela, entra primeiro (e o que dá para fazer é perguntado de novo). */
++    async function comConta(fazer) {
++      if (!estado.pode_trazer && estado.precisa_conta) {
++        if (!(C.contas && C.contas.eu) && !(await entrarParaPublicar())) return; // já entrou (em outra janela)? só pergunta de novo
++        estado = await C.loja.sketchfab.estado().catch(() => estado);
++        if (!estado.pode_trazer) { LNUX.aviso(t("O dono desta loja não está aceitando publicações agora."), "alerta"); return; }
++      }
++      try { await fazer(); } catch (e) { LNUX.erro(e); }
++    }
+     async function importar(m, botao) {
+       if (!estado.chave) { LNUX.aviso(t(estado.dono ? "Falta a chave do Sketchfab." : "O dono do servidor ainda não guardou a chave do Sketchfab."), "alerta"); if (estado.dono) chaveCampo.focus(); return; }
+       botao.disabled = true;
+@@ -588,7 +610,17 @@
+     const filtro = el("div", { class: "webc-filtro-painel", hidden: true });
+     const botaoFiltro = el("button", { type: "button", class: "webc-filtro", "aria-expanded": "false", onclick: () => { filtro.hidden = !filtro.hidden; botaoFiltro.setAttribute("aria-expanded", String(!filtro.hidden)); desenharFiltro(); } },
+       el("span", {}, "filtro"), C.iconeWebc ? C.iconeWebc("filtro") : "⏷");
+-    const publicar = el("button", { class: "lnux-botao primario", type: "button", id: "loja-publicar", onclick: () => janelaPublicar(ctx, { tipo: aba || "personagem" }).then((item) => { if (item) { recarregar().then(() => abrirItem(item.id)); } }).catch(LNUX.erro) }, "＋ Publicar");
++    const publicar = el("button", { class: "lnux-botao primario", type: "button", id: "loja-publicar", onclick: () => comecarAPublicar().catch(LNUX.erro) }, "＋ Publicar");
++    /** ＋ Publicar: quem não tem conta entra primeiro (só quem tem conta publica; o dono também sem conta). */
++    async function comecarAPublicar() {
++      if (!dados.pode_publicar) {
++        if (!(C.contas && C.contas.eu) && !(await entrarParaPublicar())) return; // já entrou? só pergunta de novo ao servidor
++        await recarregar();
++        if (!dados.pode_publicar) { LNUX.aviso(t("O dono desta loja não está aceitando publicações agora."), "alerta"); return; }
++      }
++      const item = await janelaPublicar(ctx, { tipo: aba || "personagem" });
++      if (item) { await recarregar(); abrirItem(item.id); }
++    }
+     const botaoSketchfab = el("button", { class: "lnux-botao", type: "button", id: "loja-sketchfab", hidden: true, title: "Trazer mapas do Sketchfab",
+       onclick: () => C.janelaSketchfab({ usarMapa: (nome, arquivo, blob) => (aoUsar || ctx.usar)({ tipo: "mundo", nome, arquivo }, blob) }).then((item) => { if (item) { aba = "mundo"; recarregar().then(() => abrirItem(item.id)); } }).catch(LNUX.erro) }, "Sketchfab");
+     const caixa = el("div", { class: "loja webc-loja" + (pagina ? " em-pagina" : ""), role: pagina ? "region" : "dialog", "aria-label": "Loja", "aria-modal": pagina ? undefined : "true" },
+@@ -684,10 +716,12 @@
+       if (!dados.dono) return;
+       const caixaPublicar = el("input", { type: "checkbox", checked: dados.publicar });
+       caixaPublicar.addEventListener("change", async () => {
+-        try { dados.publicar = (await C.loja.configurar({ publicar: caixaPublicar.checked })).publicar; LNUX.aviso(dados.publicar ? "Os visitantes podem publicar na loja." : "Só você publica na loja agora.", "ok"); }
++        try { dados.publicar = (await C.loja.configurar({ publicar: caixaPublicar.checked })).publicar; LNUX.aviso(dados.publicar ? "Quem tem conta pode publicar na loja." : "Só você publica na loja agora.", "ok"); }
+         catch (e) { caixaPublicar.checked = dados.publicar; LNUX.erro(e); }
+       });
+-      dono.replaceChildren(el("label", { class: "lnux-alternar" }, caixaPublicar, "Deixar quem entra pelo link publicar"));
++      const semEmail = ((C.contas && C.contas.publico) || {}).contas_email === false; // sem o e-mail do servidor, ninguém cria conta
++      dono.replaceChildren(el("label", { class: "lnux-alternar" }, caixaPublicar, "Deixar quem tem conta publicar"),
++        el("small", { class: "fraco" }, semEmail ? "Para as pessoas criarem conta, configure o e-mail do servidor (Conta › Contas e e-mail do servidor)." : "Quem não tem conta só vê, baixa e usa."));
+     }
+     async function recarregar() {
+       dados = await C.loja.lista();
+diff --git a/apps/companhia/js/textos.js b/apps/companhia/js/textos.js
+index a97a93c..87dc28b 100644
+--- a/apps/companhia/js/textos.js
++++ b/apps/companhia/js/textos.js
+@@ -57,8 +57,8 @@
+     "Nada com esse nome.": ["Nothing with that name.", "その名前のものはありません。"], "Nada com o {tag}.": ["Nothing with {tag}.", "{tag} のものはありません。"],
+     "Ainda não há {tipo} na loja.": ["There are no {tipo} in the store yet.", "ストアにはまだ{tipo}がありません。"],
+     "Seja a primeira pessoa a publicar: ＋ Publicar.": ["Be the first to publish: ＋ Publish.", "最初に公開しよう: ＋ 公開"],
+-    "Deixar quem entra pelo link publicar": ["Let people who come through the link publish", "リンクから来た人も公開できるようにする"],
+-    "Os visitantes podem publicar na loja.": ["Visitors can publish to the store.", "訪問者もストアに公開できます。"], "Só você publica na loja agora.": ["Only you can publish to the store now.", "今はあなただけがストアに公開できます。"],
++    "Deixar quem tem conta publicar": ["Let people with an account publish", "アカウントを持っている人も公開できるようにする"],
++    "Quem tem conta pode publicar na loja.": ["People with an account can publish to the store.", "アカウントを持っている人はストアに公開できます。"], "Só você publica na loja agora.": ["Only you can publish to the store now.", "今はあなただけがストアに公開できます。"],
+     "Carregando a prévia...": ["Loading the preview...", "プレビューを読み込み中..."], "Baixar o arquivo": ["Download the file", "ファイルをダウンロード"],
+     "Apagar da loja": ["Remove from the store", "ストアから削除"], "Apagar": ["Delete", "削除"], "Voltar à loja": ["Back to the store", "ストアに戻る"],
+     "Salvar no perfil": ["Save to profile", "プロフィールに保存"], "Salvo no perfil": ["Saved to profile", "プロフィールに保存済み"],
+@@ -915,3 +915,15 @@
+     "Original do autor (ZIP)": ["Author's original (ZIP)", "作者のオリジナル（ZIP）"], "texturas originais": ["original textures", "オリジナルのテクスチャ"],
+   });
+ })();
++
++// Só quem tem conta publica na loja (e traz do Sketchfab)
++(function () {
++  "use strict";
++  const C = window.C;
++  Object.assign(C.TEXTOS, {
++    "Só quem tem conta publica na loja. Entre na sua conta (ou crie uma) para publicar.": ["Only people with an account can publish to the store. Sign in (or create an account) to publish.", "ストアに公開できるのはアカウントを持っている人だけです。公開するにはログイン（またはアカウントを作成）してください。"],
++    "Entre na sua conta para trazer para a loja.": ["Sign in to bring it to the store.", "ストアに入れるにはログインしてください。"],
++    "Quem não tem conta só vê, baixa e usa.": ["People without an account can only view, download and use.", "アカウントがない人は見る・ダウンロード・使うことだけができます。"],
++    "Para as pessoas criarem conta, configure o e-mail do servidor (Conta › Contas e e-mail do servidor).": ["For people to create accounts, set up the server's e-mail (Account › Server accounts and e-mail).", "みんながアカウントを作れるように、サーバーのメールを設定してください（アカウント › サーバーのアカウントとメール）。"],
++  });
++})();
+diff --git a/comum/lnux.js b/comum/lnux.js
+index 845fca0..18721d5 100644
+--- a/comum/lnux.js
++++ b/comum/lnux.js
+@@ -352,6 +352,9 @@
+       resolver(valor);
+     };
+     const teclas = (e) => {
++      // uma janela aberta por cima de outra (ex.: entrar na conta de dentro de outra janela): só a de cima responde
++      const abertas = document.querySelectorAll(".lnux-fundo-modal");
++      if (abertas[abertas.length - 1] !== fundo) return;
+       if (e.key === "Escape") { e.stopPropagation(); e.preventDefault(); fechar(null); }
+       // Enter aperta o botão principal, a não ser num campo que trata o próprio Enter (data-enter-proprio)
+       if (e.key === "Enter" && e.target.tagName !== "TEXTAREA" && e.target.tagName !== "BUTTON" && !(e.target.closest && e.target.closest("[data-enter-proprio]"))) {
+diff --git a/servidor/lnux_apps.py b/servidor/lnux_apps.py
+index 07d899d..3a20648 100644
+--- a/servidor/lnux_apps.py
++++ b/servidor/lnux_apps.py
+@@ -1773,7 +1773,7 @@ class Manipulador(BaseHTTPRequestHandler):
+         # As contas também: cadastro, código, entrar e perfil, sem a chave da ponte (os ajustes são do dono)
+         if rota == "contas" or rota.startswith("contas/"):
+             return self.contas(self.command, rota[7:])
+-        # A loja também: ver e baixar, qualquer um; publicar, se o dono deixar; apagar, o dono ou quem publicou
++        # A loja também: ver e baixar, qualquer um; publicar, quem tem conta (se o dono deixar); apagar, o dono ou quem publicou
+         if rota == "loja" or rota.startswith("loja/"):
+             return self.loja(self.command, rota[5:])
+         # O cookie só vale para LER arquivos (é o que <video src> e <img src> precisam); o resto exige o cabeçalho
+@@ -2368,6 +2368,7 @@ class Manipulador(BaseHTTPRequestHandler):
+                 social = self.loja_social()
+                 itens = [self.loja_com_social(publico(i), social, conta) for i in self.loja_itens()]
+             return self.responder_json({"itens": itens, "publicar": self.ponte.loja_publicar(), "dono": dono, "conta": bool(conta),
++                                        "pode_publicar": bool(dono or (conta and self.ponte.loja_publicar())),
+                                         "sketchfab": bool(chave_sketchfab()),
+                                         **({"pasta": str(self.ponte.loja)} if dono else {})})
+         if partes == ["config"] and m == "POST":
+@@ -2389,6 +2390,9 @@ class Manipulador(BaseHTTPRequestHandler):
+         def pode_mexer() -> bool:
+             if dono:
+                 return True
++            conta = self.conta_da_sessao() if item.get("conta") else None  # quem publicou com a conta, de qualquer aparelho
++            if conta and hmac.compare_digest(str(item["conta"]), conta["id"]):
++                return True
+             segredo = self.headers.get("X-Loja-Segredo", "")
+             return bool(segredo and item["_segredo"] and hmac.compare_digest(hashlib.sha256(segredo.encode()).hexdigest().encode(), item["_segredo"].encode()))
+ 
+@@ -2492,20 +2496,23 @@ class Manipulador(BaseHTTPRequestHandler):
+ 
+         A chave é do dono e fica só no servidor: ninguém mais a vê nem a troca. Com ela guardada, todos buscam, baixam e
+         carregam mapas (o servidor usa a chave por eles; os links do Sketchfab nunca vão para o navegador); trazer para a
+-        loja vale para quem pode publicar nela (o dono decide, em "quem entra pelo link pode publicar"). Para quem não é o
+-        dono há um limite de pedidos por endereço (a cota da chave e o disco são do dono)."""
++        loja vale para quem pode publicar nela: quem tem conta (se o dono deixar, em "quem tem conta pode publicar") e o dono.
++        Para quem não é o dono há um limite de pedidos por endereço (a cota da chave e o disco são do dono)."""
+         tem_chave = bool(chave_sketchfab())
+-        pode_trazer = dono or self.ponte.loja_publicar()
++        conta = self.conta_da_sessao()
++        pode_trazer = dono or bool(conta and self.ponte.loja_publicar())
++        precisa_conta = not dono and not conta and self.ponte.loja_publicar()  # entrando na conta, pode trazer
+         if not partes and m == "GET":
+             return self.responder_json({"chave": tem_chave, "pode_trazer": bool(tem_chave and pode_trazer), "pode_baixar": tem_chave, "dono": dono,
++                                        "precisa_conta": bool(tem_chave and precisa_conta),
+                                         "licencas": {k: v[0] for k, v in SKETCHFAB_LICENCAS.items()}})
+         if not partes and m == "PUT" and not dono:
+             raise ErroPonte(403, "Só o dono do servidor guarda ou troca a chave do Sketchfab.")
+         if not dono:
+             if not tem_chave:
+                 raise ErroPonte(503, "O dono do servidor ainda não guardou a chave do Sketchfab.")
+-            if partes == ["importar"] and not pode_trazer:
+-                raise ErroPonte(403, "O dono desta loja não está aceitando publicações agora.")
++            if partes == ["importar"]:
++                self.quem_publica(dono)  # sem conta ou com a loja fechada: o erro
+             origem = self.origem_do_pedido()
+             limites = {"buscar": (40, 60), "arquivos": (30, 600), "baixar": (20, 3600), "importar": (10, 3600)}
+             if partes and partes[0] in limites:
+@@ -2544,7 +2551,7 @@ class Manipulador(BaseHTTPRequestHandler):
+             pode_baixar = r["pode_loja"] or dono  # os comprados (Standard) só para o dono, para ele usar
+             return self.responder_json({
+                 "modelo": {k: r[k] for k in ("uid", "nome", "autor", "licenca", "licenca_nome", "pode_loja", "animacoes", "faces")},
+-                "pode_baixar": pode_baixar, "pode_trazer": bool(pode_trazer and r["pode_loja"]),
++                "pode_baixar": pode_baixar, "pode_trazer": bool(pode_trazer and r["pode_loja"]), "precisa_conta": bool(precisa_conta and r["pode_loja"]),
+                 "arquivos": [{"id": v["id"], "formato": v["formato"], "nome_formato": SKETCHFAB_FORMATOS[v["formato"]][0], "textura": v["textura"],
+                               "tamanho": v["tamanho"], "carregar": v["formato"] in ("glb", "gltf")} for v in versoes]})
+         if partes == ["importar"] and m == "POST":
+@@ -2575,13 +2582,12 @@ class Manipulador(BaseHTTPRequestHandler):
+                     except ErroPonte:
+                         (pasta / ".miniatura").unlink(missing_ok=True)
+                 slug = r["licenca"]
+-                # quem trouxe (como quem publica): a conta, ou o segredo que fica no navegador de quem não tem conta
+-                conta = self.conta_da_sessao()
++                # quem trouxe (como quem publica): a conta (que apaga de qualquer aparelho) e o segredo, no navegador de quem trouxe
+                 segredo = secrets.token_urlsafe(18) if not dono else ""
+                 dados = {"nome": sala_texto(d.get("nome"), 60) or r["nome"] or "Mapa do Sketchfab", "descricao": sala_texto(str(info.get("description") or ""), 600),
+                          "autor": r["autor"], "conta": conta["id"] if conta and not dono else "", "arquivo": nome_arq, "criado": int(time.time()),
+                          "segredo": hashlib.sha256(segredo.encode()).hexdigest() if segredo else "",
+-                         "trouxe": (conta["nome"] if conta else sala_texto(d.get("quem"), 40)) if not dono else "",
++                         "trouxe": conta["nome"] if conta and not dono else "",
+                          "origem": {"site": "Sketchfab", "uid": uid, "url": r["url"], "autor": r["autor"], "autor_url": r["autor_url"]},
+                          "licenca": {"slug": slug, "nome": SKETCHFAB_LICENCAS[slug][0], "url": SKETCHFAB_LICENCAS[slug][1]},
+                          "animacoes": r["animacoes"]}
+@@ -2664,9 +2670,20 @@ class Manipulador(BaseHTTPRequestHandler):
+         glb_sem_especular(pasta / nome_arq)  # specular/glossiness antigo: as texturas aparecem em qualquer programa
+         return nome_arq
+ 
+-    def loja_publicar(self, tipo: str, p: dict, dono: bool):
+-        if not dono and not self.ponte.loja_publicar():
++    def quem_publica(self, dono: bool) -> dict | None:
++        """Quem pode publicar na loja (e trazer do Sketchfab): o dono do servidor e, se ele deixar, quem tem conta. Devolve a
++        conta (None para o dono sem conta); os outros recebem o erro (sem conta: 401, para a tela pedir que entre)."""
++        conta = self.conta_da_sessao()
++        if dono:
++            return conta
++        if not self.ponte.loja_publicar():
+             raise ErroPonte(403, "O dono desta loja não está aceitando publicações agora.")
++        if not conta or not conta.get("verificada"):
++            raise ErroPonte(401, "Só quem tem conta publica na loja. Entre na sua conta (ou crie uma) para publicar.", conta=True)
++        return conta
++
++    def loja_publicar(self, tipo: str, p: dict, dono: bool):
++        conta = self.quem_publica(dono)
+         sub, exts = LOJA_TIPOS[tipo]
+         nome_arq = nome_seguro(p.get("arquivo", ""), "arquivo")
+         ext = Path(nome_arq).suffix.lower()
+@@ -2684,8 +2701,7 @@ class Manipulador(BaseHTTPRequestHandler):
+             self.receber_para(pasta / nome_arq)
+             if not formato_confere(pasta / nome_arq, ext):
+                 raise ErroPonte(400, f"Esse arquivo não é um {ext} de verdade.")
+-            segredo = secrets.token_urlsafe(18)
+-            conta = self.conta_da_sessao()  # quem publica com a conta: o nome dela, e o perfil aparece no item
++            segredo = secrets.token_urlsafe(18)  # quem publica com a conta: o nome dela, e o perfil aparece no item
+             dados = {"nome": sala_texto(p.get("nome"), 60) or Path(nome_arq).stem, "descricao": sala_texto(p.get("descricao"), 600),
+                      "autor": (conta["nome"] if conta else "") or sala_texto(p.get("autor"), 40), "conta": conta["id"] if conta else "",
+                      "arquivo": nome_arq, "criado": int(time.time()), "segredo": hashlib.sha256(segredo.encode()).hexdigest()}
+diff --git a/tests/navegador/companhia_email.js b/tests/navegador/companhia_email.js
+new file mode 100644
+index 0000000..ec6f522
+--- /dev/null
++++ b/tests/navegador/companhia_email.js
+@@ -0,0 +1,66 @@
++// Contas nos testes do navegador, sem e-mail de verdade: um servidor SMTP de mentira (guarda o que chega) e criar uma
++// conta pela API com o código que chegou nele. O dono (com a chave da ponte) aponta o e-mail do servidor para ele.
++//
++//   const smtp = await smtpFalso();
++//   await configurarEmail(dono, smtp.porta);
++//   const id = await criarConta(smtp, pessoa, "Nome", "nome@exemplo.com");  // e a pessoa já entra com ela
++//   await apagarConta(pessoa);                                              // no fim (o nome volta a ficar livre)
++const net = require("net");
++const { execFileSync } = require("child_process");
++
++const SENHA = "segredo123";
++
++/** Um servidor de e-mail de mentira: guarda o que chega. */
++function smtpFalso() {
++  const caixa = [];
++  const srv = net.createServer((s) => {
++    let dados = false, buf = "", msg = [];
++    s.write("220 falso ESMTP\r\n");
++    s.on("data", (d) => {
++      buf += d.toString("utf8");
++      let i;
++      while ((i = buf.indexOf("\r\n")) >= 0) {
++        const l = buf.slice(0, i);
++        buf = buf.slice(i + 2);
++        if (dados) { if (l === ".") { dados = false; caixa.push(msg.join("\r\n")); msg = []; s.write("250 ok\r\n"); } else msg.push(l); continue; }
++        const u = l.toUpperCase();
++        if (u.startsWith("EHLO") || u.startsWith("HELO")) s.write("250-falso\r\n250 AUTH PLAIN LOGIN\r\n");
++        else if (u.startsWith("AUTH")) s.write("235 ok\r\n");
++        else if (u === "DATA") { dados = true; s.write("354 manda\r\n"); }
++        else if (u === "QUIT") { s.write("221 tchau\r\n"); s.end(); }
++        else s.write("250 ok\r\n");
++      }
++    });
++    s.on("error", () => {});
++  });
++  return new Promise((r) => srv.listen(0, "127.0.0.1", () => r({ srv, porta: srv.address().port, caixa })));
++}
++
++/** O assunto e o destinatário do e-mail (lidos pelo Python, que entende a codificação dos cabeçalhos). */
++function lerEmail(bruto) {
++  const saida = execFileSync("python3", ["-c", "import email, email.policy, json, sys\nm = email.message_from_string(sys.stdin.read(), policy=email.policy.default)\n" +
++    "print(json.dumps({'assunto': str(m['Subject']), 'para': str(m['To'])}))"], { input: bruto });
++  return JSON.parse(saida.toString("utf8"));
++}
++
++/** O dono (a página aberta com a chave da ponte) manda os códigos pelo SMTP de mentira. */
++function configurarEmail(dono, porta) {
++  return dono.ev((p) => C.contas.salvarAjustes({ email: { servidor: "127.0.0.1", porta: p, seguranca: "nenhuma", usuario: "dono@exemplo.com", senha: "x", remetente: "dono@exemplo.com", nome: "WEBC" } }), porta);
++}
++
++/** Cria uma conta pela API (com o código que chega no e-mail de mentira) e entra com ela. Devolve o id da conta. */
++async function criarConta(smtp, p, nome, email) {
++  const antes = smtp.caixa.length;
++  await p.ev(([n, e, s]) => C.contas.cadastrar({ nome: n, email: e, senha: s, idade: 22 }), [nome, email, SENHA]);
++  for (let i = 0; i < 100 && smtp.caixa.length <= antes; i++) await new Promise((r) => setTimeout(r, 100));
++  const m = lerEmail(smtp.caixa[smtp.caixa.length - 1]);
++  const codigo = (m.assunto.match(/\b(\d{6})\b/) || [])[1];
++  return p.ev(([e, c]) => C.contas.verificar(e, c).then((x) => x.id), [email, codigo]);
++}
++
++/** Apaga a conta com que a pessoa entrou (se entrou). */
++function apagarConta(p) {
++  return p.ev(async (s) => { await C.contas.carregar(); if (C.contas.eu) await C.contas.apagar(s); }, SENHA).catch(() => {});
++}
++
++module.exports = { smtpFalso, lerEmail, configurarEmail, criarConta, apagarConta, SENHA };
+diff --git a/tests/navegador/testar_companhia_loja.js b/tests/navegador/testar_companhia_loja.js
+index 60cde8b..ccaf195 100644
+--- a/tests/navegador/testar_companhia_loja.js
++++ b/tests/navegador/testar_companhia_loja.js
+@@ -5,8 +5,9 @@
+ // "visita" só pelo endereço (sem a chave), como quem recebeu o link. Cobre: a loja vazia; publicar pela tela (a
+ // personagem, com a prévia 3D e a miniatura tirada dela); a grade como uma loja (abas, busca, miniaturas, que o dono
+ // gera para o que veio sem); a prévia 3D da personagem, do mundo e da animação antes de usar; usar cada um (a
+-// personagem escolhida para a sala, o mundo em Cenário, a animação em Pacotes de movimento); a visita publicando
+-// um arquivo dela e apagando só o que é dela; o dono fechando a loja para publicações. Depois sobe um servidor com
++// personagem escolhida para a sala, o mundo em Cenário, a animação em Pacotes de movimento); a visita sem conta não
++// publica (＋ Publicar pede para entrar na conta); com conta (o código chega num SMTP de mentira), publica um arquivo
++// dela e apaga só o que é dela; o dono fechando a loja para publicações. Depois sobe um servidor com
+ // --so-app companhia e confere, como quem chega pelo túnel: a página inicial leva à Companhia, os outros apps não
+ // abrem, sem o botão dos Apps Web, e a ponte não abre nem com a chave.
+ const { chromium } = require("playwright");
+@@ -17,6 +18,7 @@ const os = require("os");
+ const path = require("path");
+ const { spawn } = require("child_process");
+ const { bonecoVRM0, mapaDeTeste, bvhDeTeste } = require("./companhia_arquivos.js");
++const { smtpFalso, configurarEmail, criarConta, apagarConta } = require("./companhia_email.js");
+ 
+ const PASTA = process.env.LNUX_TESTE_SAIDA || __dirname;
+ const TOKEN = process.env.LNUX_TESTE_TOKEN || fs.readFileSync(path.join(PASTA, "token.txt"), "utf8").trim();
+@@ -55,6 +57,7 @@ const portaLivre = () => new Promise((ok) => { const s = net.createServer(); s.l
+     return n;
+   });
+   const dono = await pessoa("dono"), visita = await pessoa("visita");
++  const smtp = await smtpFalso();
+   let servidor = null;
+   try {
+     // ── o dono: uma personagem dele e a loja vazia ──
+@@ -68,7 +71,9 @@ const portaLivre = () => new Promise((ok) => { const s = net.createServer(); s.l
+     await dono.pagina.click('.lnux-menu button:has(.rotulo:text-is("Loja: personagens, mapas e animações..."))');
+     await dono.pagina.waitForSelector(".loja .loja-vazio:not([hidden])");
+     ok(await dono.ev(() => /Ainda não há .+ na loja/.test(document.querySelector(".loja-vazio").textContent) && !document.querySelector(".loja-dono").hidden &&
+-      document.querySelector(".loja-dono input").checked), "a loja abre pelo menu Personagem; vazia, e o dono vê onde fica a pasta e se os visitantes publicam");
++      document.querySelector(".loja-dono input").checked && /quem tem conta/.test(document.querySelector(".loja-dono").textContent)),
++      "a loja abre pelo menu Personagem; vazia, e o dono vê onde fica a pasta e se quem tem conta publica");
++    await configurarEmail(dono, smtp.porta); // para a visita criar a conta dela (o código chega no SMTP de mentira)
+ 
+     // ── publicar pela tela: a prévia e a miniatura ──
+     await dono.pagina.click(".loja #loja-publicar");
+@@ -143,23 +148,33 @@ const portaLivre = () => new Promise((ok) => { const s = net.createServer(); s.l
+     await visita.pagina.waitForFunction(async () => (await C.movimentos.lista()).some((m) => m.nome === "levantar" && m.pacote === "Loja"), null, { timeout: 30000 });
+     ok(true, "\"Usar esta animação\" põe a animação nos pacotes de movimento");
+ 
+-    // ── a visita publica uma animação dela (um arquivo do aparelho) e só ela (ou o dono) apaga ──
++    // ── sem conta, a visita não publica: ＋ Publicar pede para entrar na conta ──
+     const bvh = path.join(PASTA, "aceno-da-visita.bvh");
+     fs.writeFileSync(bvh, bvhDeTeste());
+     await visita.ev(() => { window.Companhia.abrirLoja(); });
+     await visita.pagina.waitForSelector(".loja:not(.salas) .cartao-loja");
+     await visita.pagina.click(".loja:not(.salas) #loja-publicar");
++    await visita.pagina.waitForSelector(".lnux-dialogo .janela-conta", { timeout: 10000 });
++    const semConta = await visita.ev(async () => ({ publicar: !!document.querySelector(".loja-publicar"), aviso: [...document.querySelectorAll(".lnux-aviso, .lnux-avisos *")].some((a) => /Só quem tem conta publica/.test(a.textContent)),
++      servidor: (await fetch("/api/loja/animacao?arquivo=x.bvh", { method: "PUT", body: "HIERARCHY" }).then((r) => r.status)) }));
++    ok(!semConta.publicar && semConta.aviso && semConta.servidor === 401, "sem conta, ＋ Publicar avisa que só quem tem conta publica e abre o \"Entrar na conta\" (o servidor também recusa: 401)");
++    await visita.pagina.keyboard.press("Escape");
++    await visita.pagina.waitForFunction(() => !document.querySelector(".lnux-dialogo .janela-conta"));
++    // ── com conta, a visita publica uma animação dela (um arquivo do aparelho) e só ela (ou o dono) apaga ──
++    await criarConta(smtp, visita, "Visita da loja", "visita.loja@exemplo.com");
++    await visita.pagina.waitForFunction(async () => (await C.loja.lista()).pode_publicar);
++    await visita.pagina.click(".loja:not(.salas) #loja-publicar");
+     await visita.pagina.click('.loja-tipos button[data-tipo="animacao"]');
+     await visita.pagina.waitForFunction(() => [...document.querySelector(".loja-publicar select").options].some((o) => o.value === "@arquivo"));
+     const [escolha] = await Promise.all([visita.pagina.waitForEvent("filechooser"), visita.pagina.selectOption(".loja-publicar select", "@arquivo")]);
+     await escolha.setFiles(bvh);
+     await visita.pagina.waitForSelector(".vitrine-publicar[data-pronta]", { timeout: 60000 });
+-    await visita.pagina.fill('.loja-publicar input[aria-label="Seu nome"]', "Visita");
++    ok(!(await visita.ev(() => !!document.querySelector('.loja-publicar input[aria-label="Seu nome"]'))), "com conta, publicar não pede o nome (o autor é a conta)");
+     await visita.pagina.click('.lnux-dialogo footer button:text-is("Publicar")');
+     await visita.pagina.waitForSelector(".loja-detalhe:not([hidden]) .loja-acoes .perigo", { timeout: 60000 });
+     lista = (await visita.ev(() => C.loja.lista())).itens;
+     const daVisita = lista.find((i) => i.nome === "aceno-da-visita");
+-    ok(daVisita && daVisita.autor === "Visita" && daVisita.miniatura > 0, "a visita publica uma animação dela (com a miniatura), e pode apagar o que publicou");
++    ok(daVisita && daVisita.autor === "Visita da loja" && daVisita.conta && daVisita.miniatura > 0, "com conta, a visita publica uma animação dela (com a miniatura, e a conta como autora), e pode apagar o que publicou");
+     await visita.pagina.click(".loja-acoes .perigo");
+     await visita.pagina.click('.lnux-dialogo footer button:text-is("Apagar")');
+     await visita.pagina.waitForFunction(async () => !(await C.loja.lista()).itens.some((i) => i.nome === "aceno-da-visita"), null, { timeout: 20000 });
+@@ -216,6 +231,8 @@ const portaLivre = () => new Promise((ok) => { const s = net.createServer(); s.l
+     try { await visita.pagina.screenshot({ path: path.join(PASTA, "companhia-loja-erro.png") }); } catch (e2) { /* sem tela */ }
+   } finally {
+     if (servidor) servidor.kill();
++    await apagarConta(visita); // o nome volta a ficar livre para os outros testes
++    smtp.srv.close();
+     await navegador.close();
+   }
+   console.log(`\nCompanhia (loja): ${passos} ok, ${erros.length} com problema.`);
+diff --git a/tests/navegador/testar_companhia_sketchfab.js b/tests/navegador/testar_companhia_sketchfab.js
+index 7244d3e..a4f3c75 100644
+--- a/tests/navegador/testar_companhia_sketchfab.js
++++ b/tests/navegador/testar_companhia_sketchfab.js
+@@ -4,7 +4,8 @@
+ // Não fala com o Sketchfab de verdade: o teste sobe um Sketchfab de mentira (busca, detalhes, download e miniatura) na
+ // porta que o testar_navegador.py passou ao servidor (LNUX_SKETCHFAB_API). Cobre: só o dono vê o botão Sketchfab; a
+ // chave guardada no servidor; buscar; a licença que não deixa redistribuir fica bloqueada; trazer um mapa animado para a
+-// loja (com o crédito, a licença e os # do Sketchfab); usar esse mapa numa sala: as animações tocam, a peça que se mexe
++// loja (com o crédito, a licença e os # do Sketchfab); quem entra pelo link traz só com conta (sem ela, "Trazer" pede
++// para entrar; o código chega num SMTP de mentira); usar esse mapa numa sala: as animações tocam, a peça que se mexe
+ // sai da colisão, e quem entra na sala vê a animação no mesmo ponto (o relógio do servidor).
+ const { chromium } = require("playwright");
+ const fs = require("fs");
+@@ -12,6 +13,7 @@ const http = require("http");
+ const path = require("path");
+ const { mapaAnimado, png } = require("./companhia_arquivos.js");
+ const { nomeGuardado } = require("./companhia_menus.js");
++const { smtpFalso, configurarEmail, criarConta, apagarConta } = require("./companhia_email.js");
+ 
+ const PASTA = process.env.LNUX_TESTE_SAIDA || __dirname;
+ const TOKEN = process.env.LNUX_TESTE_TOKEN || fs.readFileSync(path.join(PASTA, "token.txt"), "utf8").trim();
+@@ -136,7 +138,9 @@ function sketchfabFalso() {
+       "é um mapa da loja, com a miniatura do Sketchfab, os # (os do dono e os do Sketchfab) e o aviso de que tem animação");
+     ok(falso.vistos.some(([u, a]) => u.endsWith("/download") && a === "Token chave-de-teste-123"), "o download foi pedido com a chave, pelo servidor");
+ 
+-    // ── a chave é do dono, mas todos usam: a Bia (pelo link) busca e traz, sem ver nem trocar a chave ──
++    // ── a chave é do dono, mas todos usam: a Bia (pelo link) busca e, com conta, traz, sem ver nem trocar a chave ──
++    const smtp = await smtpFalso();
++    await configurarEmail(dono, smtp.porta);
+     await bia.pagina.reload();
+     await bia.pagina.waitForSelector(".webc-loja #loja-sketchfab:not([hidden])", { timeout: 30000 });
+     await bia.pagina.click("#loja-sketchfab");
+@@ -146,17 +150,29 @@ function sketchfabFalso() {
+     await bia.pagina.fill('.janela-sketchfab input[aria-label="Procurar no Sketchfab"]', "moinho");
+     await bia.pagina.press('.janela-sketchfab input[aria-label="Procurar no Sketchfab"]', "Enter");
+     await bia.pagina.waitForSelector(`.sketchfab-cartao[data-uid="${falso.A}"] button[data-uid]:not([disabled])`, { timeout: 20000 });
++    // sem conta, "Trazer para a loja" pede para entrar (trazer é publicar)
++    await bia.pagina.click(`.sketchfab-cartao[data-uid="${falso.A}"] button[data-uid]`);
++    await bia.pagina.waitForSelector(".lnux-dialogo .janela-conta", { timeout: 10000 });
++    const pediuConta = await bia.ev(() => [...document.querySelectorAll(".lnux-aviso")].some((a) => /Só quem tem conta publica/.test(a.textContent)));
++    await bia.pagina.keyboard.press("Escape");
++    await bia.pagina.waitForFunction(() => !document.querySelector(".lnux-dialogo .janela-conta"));
++    const aindaAberta = await bia.ev(() => !!document.querySelector(".janela-sketchfab"));
++    ok(pediuConta && aindaAberta && !(await bia.ev(async () => (await C.loja.lista()).itens.some((i) => i.trouxe))),
++      "sem conta, \"Trazer para a loja\" avisa que só quem tem conta publica e abre o \"Entrar na conta\" (fechar volta para a janela do Sketchfab)");
++    await criarConta(smtp, bia, "Bia do Sketchfab", "bia.sketchfab@exemplo.com");
+     await bia.pagina.click(`.sketchfab-cartao[data-uid="${falso.A}"] button[data-uid]`);
+     await bia.pagina.waitForSelector(".loja-detalhe:not([hidden]) .loja-credito", { timeout: 60000 });
+     const daBia = await bia.ev(async () => {
+-      const credito = document.querySelector(".loja-detalhe .loja-credito").innerText, itens = (await C.loja.lista()).itens, meu = itens.find((i) => i.trouxe === "Bia");
++      const credito = document.querySelector(".loja-detalhe .loja-credito").innerText, itens = (await C.loja.lista()).itens, meu = itens.find((i) => i.trouxe === "Bia do Sketchfab");
+       const vazou = document.documentElement.outerHTML.includes("chave-de-teste") || Object.keys(localStorage).some((k) => (localStorage.getItem(k) || "").includes("chave-de-teste"));
+       const podia = !!(meu && C.loja.podeMexer(meu, false));
+-      if (meu) await C.loja.apagar(meu); // quem trouxe apaga (o segredo ficou no navegador dela)
+-      return { credito, vazou, podia, sobrou: (await C.loja.lista()).itens.some((i) => i.trouxe === "Bia") };
++      if (meu) await C.loja.apagar(meu); // quem trouxe apaga (pela conta, e o segredo ficou no navegador dela)
++      return { credito, vazou, podia, conta: !!(meu && meu.conta === C.contas.eu.id), sobrou: (await C.loja.lista()).itens.some((i) => i.trouxe === "Bia do Sketchfab") };
+     });
+-    ok(/trazido por Bia/.test(daBia.credito) && !daBia.vazou && daBia.podia && !daBia.sobrou,
+-      `a Bia trouxe o mapa com a chave do dono, que nunca chegou ao navegador dela (${daBia.credito.replace(/\s+/g, " ").slice(0, 80)}); quem trouxe pode apagar`);
++    ok(/trazido por Bia do Sketchfab/.test(daBia.credito) && !daBia.vazou && daBia.podia && daBia.conta && !daBia.sobrou,
++      `com conta, a Bia trouxe o mapa com a chave do dono, que nunca chegou ao navegador dela (${daBia.credito.replace(/\s+/g, " ").slice(0, 80)}); quem trouxe pode apagar`);
++    await apagarConta(bia); // daqui em diante, a Bia joga sem conta (como quem entra pelo link)
++    smtp.srv.close();
+     // carregar no jogo sem pôr na loja; o comprado (Standard) a Bia não baixa nem carrega (a licença não deixa passar adiante)
+     await bia.pagina.click("#loja-sketchfab");
+     await bia.pagina.fill('.janela-sketchfab input[aria-label="Procurar no Sketchfab"]', "moinho");
+@@ -172,7 +188,7 @@ function sketchfabFalso() {
+     await bia.pagina.waitForSelector('.janela-sketchfab-arquivos [data-arquivo="glb-1024"] [data-carregar]:not([disabled])', { timeout: 30000 });
+     await bia.pagina.click('.janela-sketchfab-arquivos [data-arquivo="glb-1024"] [data-carregar]');
+     await bia.pagina.waitForFunction(async (n) => (await C.mapas.lista()).length > n, mapasAntes, { timeout: 60000, polling: 300 });
+-    const carregado = await bia.ev(async () => ({ nomes: (await C.mapas.lista()).map((m) => m.nome), janela: !!document.querySelector(".janela-sketchfab"), loja: (await C.loja.lista()).itens.filter((i) => i.trouxe === "Bia").length }));
++    const carregado = await bia.ev(async () => ({ nomes: (await C.mapas.lista()).map((m) => m.nome), janela: !!document.querySelector(".janela-sketchfab"), loja: (await C.loja.lista()).itens.filter((i) => i.trouxe).length }));
+     ok(bloqueioB.carregar && bloqueioB.baixar && bloqueioB.aviso && carregado.nomes.includes("Moinho animado") && !carregado.janela && carregado.loja === 0,
+       `"Carregar" (a versão de 1K) traz o mapa direto para o jogo (Movimento › Cenário), sem pôr na loja; o comprado fica sem Carregar e Baixar para quem não é o dono`);
+ 
+diff --git a/tests/testar_servidor.py b/tests/testar_servidor.py
+index 1cde931..49c8c4d 100644
+--- a/tests/testar_servidor.py
++++ b/tests/testar_servidor.py
+@@ -87,6 +87,24 @@ def q(caminho):
+ S = Servidor()
+ 
+ 
++def conta_de_teste(nome: str) -> tuple:
++    """Uma conta já confirmada (direto no cadastro, sem e-mail): (id, o cabeçalho da sessão). Apague com apagar_contas."""
++    cadastro = lnux_apps.contas_de(lnux_apps.DADOS)
++    with lnux_apps.CONTAS_TRAVA:
++        c = {"id": secrets.token_hex(6), "email": f"{secrets.token_hex(4)}@teste.exemplo", "nome": nome, "criada": int(time.time()), "verificada": True, "perfil": {}}
++        cadastro.ler()["contas"][c["id"]] = c
++        sessao = cadastro.nova_sessao(c)
++        cadastro.gravar()
++    return c["id"], {"X-Conta-Sessao": sessao}
++
++
++def apagar_contas(*ids) -> None:
++    cadastro = lnux_apps.contas_de(lnux_apps.DADOS)
++    with lnux_apps.CONTAS_TRAVA:
++        for cid in ids:
++            lnux_apps.Manipulador.apagar_conta(cadastro, cid)
++
++
+ @caso("Apps: entrega os arquivos com o tipo certo e esconde pastas ocultas e caminhos para fora")
+ def _():
+     status, cab, dados = S.pedir("GET", "/comum/lnux.js", token=False)
+@@ -664,8 +682,12 @@ def _():
+     assert S.json("POST", f"/api/sala/{a['codigo']}/falar", json_corpo={"id": cia["id"], "segredo": cia["segredo"], "texto": "agora sim"}, **visita)[0] == 200
+     assert S.json("GET", "/api/salas", **visita)[1]["salas"] == []
+     # um mundo da loja vira o cenário (sem enviar o arquivo), com a miniatura dele
+-    _, mundo, _ = S.json("PUT", "/api/loja/mundo?nome=Pista&arquivo=pista.glb", corpo=b"glTF" + b"p" * 64, **visita)
+-    assert S.pedir("PUT", f"/api/loja/{mundo['item']['id']}/miniatura", corpo=PNG, cabecalhos={"X-Loja-Segredo": mundo["segredo"]}, **visita)[0] == 201
++    quem, eu = conta_de_teste("Quem fez a pista")
++    try:
++        _, mundo, _ = S.json("PUT", "/api/loja/mundo?nome=Pista&arquivo=pista.glb", corpo=b"glTF" + b"p" * 64, cabecalhos=eu, **visita)
++        assert S.pedir("PUT", f"/api/loja/{mundo['item']['id']}/miniatura", corpo=PNG, cabecalhos={"X-Loja-Segredo": mundo["segredo"]}, **visita)[0] == 201
++    finally:
++        apagar_contas(quem)
+     assert S.json("POST", f"/api/sala/{a['codigo']}/mapa", json_corpo={"loja": mundo["item"]["id"]}, **visita)[0] == 403
+     status, r, _ = S.json("POST", f"/api/sala/{a['codigo']}/mapa", json_corpo={"loja": mundo["item"]["id"]}, cabecalhos={"X-Sala-Chave": a["chave"]}, **visita)
+     assert status == 201 and r["mapa"]["nome"] == "Pista" and r["miniatura"] == 1 and r["mapa"]["ajuste"] == {} and r["mapa"]["arquivo"] == r["mapa"]["versao"], r
+@@ -1144,9 +1166,9 @@ def _():
+         assert item["tags"][:3] == ["praia", "fnaf", "moinho-de-vento"] and item["miniatura"] > 0, item["tags"]
+         assert S.pedir("GET", f"/api/loja/{item['id']}/arquivo", token=False)[2] == glb
+         assert ("/v3/models/" + A + "/download", "Token chave-de-teste-123") in vistos
+-        # quem entra pelo link também busca e traz (com a chave do dono, que fica no servidor), se a loja aceita publicações
++        # quem entra pelo link também busca e baixa (com a chave do dono, que fica no servidor); trazer, só com conta
+         status, r, _ = S.json("GET", "/api/loja/sketchfab", token=False)
+-        assert status == 200 and r["chave"] is True and r["pode_trazer"] is True and "chave-de-teste" not in json.dumps(r), r
++        assert status == 200 and r["chave"] is True and r["pode_baixar"] is True and r["pode_trazer"] is False and r["precisa_conta"] is True and "chave-de-teste" not in json.dumps(r), r
+         assert S.json("GET", "/api/loja", token=False)[1]["sketchfab"] is True
+         status, r, _ = S.json("GET", "/api/loja/sketchfab/buscar?q=moinho", token=False)
+         assert status == 200 and len(r["modelos"]) == 3 and "chave-de-teste" not in json.dumps(r)
+@@ -1158,15 +1180,28 @@ def _():
+         status, cab, dados = S.pedir("POST", "/api/loja/sketchfab/baixar", corpo=json.dumps({"uid": A, "arquivo": "glb-1024"}).encode(), cabecalhos={"Content-Type": "application/json"}, token=False)
+         assert status == 200 and dados == glb1k, status
+         S.json("POST", "/api/loja/config", json_corpo={"publicar": True})
++        # trazer para a loja é publicar: só com conta (sem ela, 401 e "precisa_conta" para a tela pedir que entre)
++        estado = S.json("GET", "/api/loja/sketchfab", token=False)[1]
++        assert estado["pode_trazer"] is False and estado["precisa_conta"] is True, estado
+         status, r, _ = S.json("POST", "/api/loja/sketchfab/importar", json_corpo={"uid": A, "quem": "Bia"}, token=False)
+-        assert status == 201 and r["segredo"] and r["item"]["trouxe"] == "Bia" and r["item"]["autor"] == "Joana" and "chave-de-teste" not in json.dumps(r), r
+-        assert S.json("DELETE", f"/api/loja/{r['item']['id']}", token=False)[0] == 403  # sem o segredo
+-        assert S.json("DELETE", f"/api/loja/{r['item']['id']}", token=False, cabecalhos={"X-Loja-Segredo": r["segredo"]})[0] == 200  # quem trouxe apaga
++        assert status == 401 and r.get("conta") is True, (status, r)
++        bia, eu_bia = conta_de_teste("Bia do Sketchfab")
++        try:
++            estado = S.json("GET", "/api/loja/sketchfab", cabecalhos=eu_bia, token=False)[1]
++            assert estado["pode_trazer"] is True and estado["precisa_conta"] is False, estado
++            r = S.json("GET", f"/api/loja/sketchfab/arquivos?uid={A}", cabecalhos=eu_bia, token=False)[1]
++            assert r["pode_trazer"] is True and r["precisa_conta"] is False, r
++            status, r, _ = S.json("POST", "/api/loja/sketchfab/importar", json_corpo={"uid": A, "quem": "Outro nome"}, cabecalhos=eu_bia, token=False)
++            assert status == 201 and r["segredo"] and r["item"]["trouxe"] == "Bia do Sketchfab" and r["item"]["conta"] == bia and r["item"]["autor"] == "Joana" and "chave-de-teste" not in json.dumps(r), r
++            assert S.json("DELETE", f"/api/loja/{r['item']['id']}", token=False)[0] == 403  # sem a conta nem o segredo
++            assert S.json("DELETE", f"/api/loja/{r['item']['id']}", token=False, cabecalhos=eu_bia)[0] == 200  # quem trouxe apaga (pela conta)
++        finally:
++            apagar_contas(bia)
+         # os arquivos: as versões (formato, texturas em 1K/2K/4K, tamanho), sem os links do Sketchfab (ficam no servidor)
+         status, r, _ = S.json("GET", f"/api/loja/sketchfab/arquivos?uid={A}", token=False)
+         assert status == 200 and [a["id"] for a in r["arquivos"]] == ["glb-1024", "glb-4096", "usdz-original"], r
+         assert [a["textura"] for a in r["arquivos"]] == [1024, 4096, None] and [a["carregar"] for a in r["arquivos"]] == [True, True, False]
+-        assert r["arquivos"][0]["tamanho"] == len(glb1k) and r["arquivos"][0]["nome_formato"] == "GLB" and r["pode_baixar"] and r["pode_trazer"]
++        assert r["arquivos"][0]["tamanho"] == len(glb1k) and r["arquivos"][0]["nome_formato"] == "GLB" and r["pode_baixar"] and not r["pode_trazer"] and r["precisa_conta"]
+         assert "url" not in json.dumps(r["arquivos"]) and "archives/" not in json.dumps(r) and "chave-de-teste" not in json.dumps(r)
+         r = S.json("GET", f"/api/loja/sketchfab/arquivos?uid={Cz}", token=False)[1]
+         assert r["arquivos"] == [{"id": "gltf-2048", "formato": "gltf", "nome_formato": "glTF (ZIP)", "textura": 2048, "tamanho": len(pacote.getvalue()), "carregar": True}], r  # a resolução vem da ficha
+@@ -1239,7 +1274,7 @@ def _():
+         assert status == 201 and r["item"]["tags"] == ["fnaf", "terror", "anime", "アニメ"] and r["item"]["autor"] == "Ana" and r["item"]["conta"] == ana, r
+         item, segredo = r["item"], r["segredo"]
+         assert r["item"]["curtidas"] == 0 and r["item"]["baixados"] == 0 and r["item"]["curti"] is False
+-        _, mapa, _ = S.json("PUT", "/api/loja/mundo?nome=Pizzaria&arquivo=pizzaria.glb&tags=fnaf", corpo=b"glTF" + b"z" * 50, **visita)
++        _, mapa, _ = S.json("PUT", "/api/loja/mundo?nome=Pizzaria&arquivo=pizzaria.glb&tags=fnaf", corpo=b"glTF" + b"z" * 50)  # o dono, sem conta
+         assert mapa["item"]["autor"] == "" and mapa["item"]["conta"] == "" and mapa["item"]["tags"] == ["fnaf"]
+         # curtir: só quem tem conta; desfazer; cada conta conta uma vez
+         assert S.json("POST", f"/api/loja/{item['id']}/curtir", json_corpo={"curtir": True}, **visita)[0] == 401
+@@ -1320,16 +1355,33 @@ def _():
+ 
+ 
+ 
+-@caso("Loja: ver e baixar sem a chave; publicar (com o segredo de quem publicou); miniatura; apagar; formatos conferidos")
++@caso("Loja: ver e baixar sem a chave; publicar só com conta (e o segredo de quem publicou); miniatura; apagar; formatos conferidos")
+ def _():
+-    visita = dict(token=False)
+-    status, loja, _ = S.json("GET", "/api/loja", **visita)
+-    assert status == 200 and loja["itens"] == [] and loja["publicar"] is True and loja["dono"] is False and "pasta" not in loja
++    bia, eu_bia = conta_de_teste("Bia da loja")
++    caio, eu_caio = conta_de_teste("Caio da loja")
++    try:
++        loja_sem_contas(eu_bia, eu_caio, bia)
++    finally:
++        apagar_contas(bia, caio)
++
++
++def loja_sem_contas(eu_bia, eu_caio, bia):
++    sem_conta = dict(token=False)
++    visita = dict(token=False, cabecalhos=eu_bia)  # quem publica tem conta
++    status, loja, _ = S.json("GET", "/api/loja", **sem_conta)
++    assert status == 200 and loja["itens"] == [] and loja["publicar"] is True and loja["dono"] is False and "pasta" not in loja and loja["pode_publicar"] is False
++    assert S.json("GET", "/api/loja", **visita)[1]["pode_publicar"] is True and S.json("GET", "/api/loja")[1]["pode_publicar"] is True
+     assert S.json("GET", "/api/loja")[1]["pasta"] == str(S.ponte.loja)  # o dono vê onde fica a pasta
+-    # publicar: o arquivo no corpo; o resto no endereço
++    # sem conta não publica (401, para a tela pedir que entre); nada fica na pasta
+     vrm = b"glTF\x02\x00\x00\x00" + b"x" * 500
+-    status, r, _ = S.json("PUT", "/api/loja/personagem?nome=Ana%0A%3Cb%3E&descricao=Uma%20personagem&autor=Bia&arquivo=..%2F..%2Fana.vrm", corpo=vrm, **visita)
++    status, r, _ = S.json("PUT", "/api/loja/personagem?nome=Sem%20conta&arquivo=sem.vrm", corpo=vrm, **sem_conta)
++    assert status == 401 and r.get("conta") is True and "conta" in r["erro"], (status, r)
++    assert S.json("PUT", "/api/loja/personagem?arquivo=sem.vrm", corpo=vrm, cabecalhos={"X-Conta-Sessao": "inventada"}, token=False)[0] == 401
++    assert not (S.ponte.loja / "personagens").exists() or not [x for x in (S.ponte.loja / "personagens").iterdir() if x.is_dir()]
++    # publicar: o arquivo no corpo; o resto no endereço; o autor é a conta
++    status, r, _ = S.json("PUT", "/api/loja/personagem?nome=Ana%0A%3Cb%3E&descricao=Uma%20personagem&autor=Outro&arquivo=..%2F..%2Fana.vrm", corpo=vrm, **visita)
+     assert status == 201 and len(r["segredo"]) >= 20 and r["item"]["nome"] == "Ana <b>" and r["item"]["arquivo"] == "ana.vrm" and r["item"]["tamanho"] == len(vrm), r
++    assert r["item"]["autor"] == "Bia da loja" and r["item"]["conta"] == bia, r
+     ana, segredo = r["item"], r["segredo"]
+     assert (S.ponte.loja / "personagens" / ana["id"] / "ana.vrm").is_file() and segredo not in (S.ponte.loja / "personagens" / ana["id"] / "item.json").read_text()
+     assert S.json("PUT", "/api/loja/personagem?arquivo=ana.exe", corpo=vrm, **visita)[0] == 400
+@@ -1347,16 +1399,21 @@ def _():
+     assert status == 200 and dados == vrm and cab["Content-Type"] == "application/octet-stream" and cab["Content-Disposition"].startswith("attachment")
+     assert S.pedir("GET", "/api/loja/..%2F..%2Fponte.json/arquivo", **visita)[0] == 404 and S.pedir("GET", "/api/loja/000000000000/arquivo", **visita)[0] == 404
+     # miniatura: só quem publicou (pelo segredo) ou o dono
+-    assert S.pedir("PUT", f"/api/loja/{ana['id']}/miniatura", corpo=PNG, cabecalhos={"X-Loja-Segredo": "errado"}, **visita)[0] == 403
+-    assert S.pedir("PUT", f"/api/loja/{ana['id']}/miniatura", corpo=b"<svg onload=x>", cabecalhos={"X-Loja-Segredo": segredo}, **visita)[0] == 400
+-    assert S.pedir("PUT", f"/api/loja/{ana['id']}/miniatura", corpo=PNG, cabecalhos={"X-Loja-Segredo": segredo}, **visita)[0] == 201
++    assert S.pedir("PUT", f"/api/loja/{ana['id']}/miniatura", corpo=PNG, cabecalhos={"X-Loja-Segredo": "errado"}, **sem_conta)[0] == 403
++    assert S.pedir("PUT", f"/api/loja/{ana['id']}/miniatura", corpo=b"<svg onload=x>", cabecalhos={"X-Loja-Segredo": segredo}, **sem_conta)[0] == 400
++    assert S.pedir("PUT", f"/api/loja/{ana['id']}/miniatura", corpo=PNG, cabecalhos={"X-Loja-Segredo": segredo}, **sem_conta)[0] == 201
+     status, cab, dados = S.pedir("GET", f"/api/loja/{ana['id']}/miniatura", **visita)
+     assert status == 200 and cab["Content-Type"] == "image/png" and dados == PNG
+     assert S.json("GET", f"/api/loja/{ana['id']}", **visita)[1]["miniatura"] > 0
+-    # apagar: quem publicou (pelo segredo) ou o dono; os outros não
+-    assert S.json("DELETE", f"/api/loja/{ana['id']}", cabecalhos={"X-Loja-Segredo": "errado"}, **visita)[0] == 403
+-    assert S.json("DELETE", f"/api/loja/{mundo['item']['id']}", cabecalhos={"X-Loja-Segredo": segredo}, **visita)[0] == 403
+-    assert S.json("DELETE", f"/api/loja/{ana['id']}", cabecalhos={"X-Loja-Segredo": segredo}, **visita)[0] == 200
++    # mexer no item: também a conta que publicou, de outro aparelho (sem o segredo); outra conta não
++    assert S.json("POST", f"/api/loja/{ana['id']}", json_corpo={"descricao": "De outro aparelho"}, **visita)[1]["descricao"] == "De outro aparelho"
++    assert S.json("POST", f"/api/loja/{ana['id']}", json_corpo={"descricao": "x"}, cabecalhos=eu_caio, token=False)[0] == 403
++    assert S.pedir("PUT", f"/api/loja/{ana['id']}/miniatura", corpo=PNG, cabecalhos=eu_caio, token=False)[0] == 403
++    assert S.json("DELETE", f"/api/loja/{ana['id']}", cabecalhos=eu_caio, token=False)[0] == 403
++    # apagar: quem publicou (pela conta ou pelo segredo) ou o dono; os outros não
++    assert S.json("DELETE", f"/api/loja/{ana['id']}", cabecalhos={"X-Loja-Segredo": "errado"}, **sem_conta)[0] == 403
++    assert S.json("DELETE", f"/api/loja/{mundo['item']['id']}", cabecalhos={"X-Loja-Segredo": segredo}, **sem_conta)[0] == 403
++    assert S.json("DELETE", f"/api/loja/{ana['id']}", cabecalhos={"X-Loja-Segredo": segredo}, **sem_conta)[0] == 200
+     assert S.json("DELETE", f"/api/loja/{mundo['item']['id']}")[0] == 200
+     assert not (S.ponte.loja / "personagens" / ana["id"]).exists()
+     # arquivos postos à mão na pasta aparecem; a miniatura deles e apagar, só o dono
+@@ -1375,8 +1432,10 @@ def _():
+     # o dono fecha a loja para publicações (e só ele)
+     assert S.json("POST", "/api/loja/config", json_corpo={"publicar": False}, **visita)[0] == 403
+     assert S.json("POST", "/api/loja/config", json_corpo={"publicar": False})[1] == {"publicar": False}
+-    assert S.json("PUT", "/api/loja/animacao?arquivo=b.bvh", corpo=b"HIERARCHY", **visita)[0] == 403
+-    assert S.json("PUT", "/api/loja/animacao?arquivo=b.bvh", corpo=b"HIERARCHY")[0] == 201
++    assert S.json("PUT", "/api/loja/animacao?arquivo=b.bvh", corpo=b"HIERARCHY", **visita)[0] == 403  # nem com conta
++    assert S.json("PUT", "/api/loja/animacao?arquivo=b.bvh", corpo=b"HIERARCHY", **sem_conta)[0] == 403  # fechada: nem pede a conta
++    assert S.json("GET", "/api/loja", **visita)[1]["pode_publicar"] is False
++    assert S.json("PUT", "/api/loja/animacao?arquivo=b.bvh", corpo=b"HIERARCHY")[0] == 201  # o dono, sem conta
+     assert S.json("GET", "/api/publico", **visita)[1]["loja_publicar"] is False
+     assert lnux_apps.carregar_config()["loja_publicar"] is False
+     S.json("POST", "/api/loja/config", json_corpo={"publicar": True})
+@@ -1388,8 +1447,8 @@ def _():
+     finally:
+         lnux_apps.RESERVA_DISCO = antes
+     # a loja não abre o resto da ponte, nem é alcançada de outro site
+-    assert S.json("GET", "/api/pastas?caminho=~", cabecalhos={"X-Loja-Segredo": segredo}, **visita)[0] == 401
+-    assert S.json("PUT", "/api/loja/animacao?arquivo=d.bvh", corpo=b"HIERARCHY", cabecalhos={"Origin": "http://mal.example"}, **visita)[0] == 403
++    assert S.json("GET", "/api/pastas?caminho=~", cabecalhos={"X-Loja-Segredo": segredo, **eu_bia}, token=False)[0] == 401
++    assert S.json("PUT", "/api/loja/animacao?arquivo=d.bvh", corpo=b"HIERARCHY", cabecalhos={"Origin": "http://mal.example", **eu_bia}, token=False)[0] == 403
+     assert S.json("GET", "/api/estado")[1]["recursos"]["loja"] is True
+ 
+ 
+@@ -1431,7 +1490,12 @@ def _():
+         _, ana, _ = T.json("POST", f"/api/sala/{sala['codigo']}/entrar", json_corpo={"nome": "Ana"}, cabecalhos={**fora, "Origin": "https://abc.trycloudflare.com"}, **visita)
+         assert ana["id"]
+         assert T.json("GET", "/api/loja", cabecalhos=fora, **visita)[0] == 200
+-        assert T.json("PUT", "/api/loja/animacao?arquivo=v.bvh", corpo=b"HIERARCHY", cabecalhos={**fora, "Origin": "https://abc.trycloudflare.com"}, **visita)[0] == 201
++        assert T.json("PUT", "/api/loja/animacao?arquivo=v.bvh", corpo=b"HIERARCHY", cabecalhos={**fora, "Origin": "https://abc.trycloudflare.com"}, **visita)[0] == 401  # sem conta
++        quem, eu = conta_de_teste("Visita do túnel")
++        try:
++            assert T.json("PUT", "/api/loja/animacao?arquivo=v.bvh", corpo=b"HIERARCHY", cabecalhos={**fora, **eu, "Origin": "https://abc.trycloudflare.com"}, **visita)[0] == 201
++        finally:
++            apagar_contas(quem)
+         assert T.json("GET", "/api/loja", cabecalhos=fora)[1]["dono"] is False  # a chave pelo túnel não faz de ninguém o dono
+     finally:
+         T.parar()
+-- 
+2.56.0
+

@@ -1,0 +1,166 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_63b22bdfcf890131",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_hole_in_one_model.brres/hole_in_one",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_hole_in_one_model.brres",
+ "model": "hole_in_one",
+ "glb": "models/src/core/shared/SportsStatic/us/G3D/glf_hole_in_one_model__hole_in_one.glb",
+ "textures": [
+  {
+   "name": "glf_env",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_hole_in_one_model.brres",
+   "materials": [
+    "mat_circle",
+    "mt_alpha0",
+    "mt_alpha1",
+    "mt_env",
+    "mt_mat"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_flash",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_hole_in_one_model.brres",
+   "materials": [
+    "mt_flash"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "hole_in_one"
+  },
+  {
+   "type": "SRT0",
+   "name": "hole_in_one"
+  },
+  {
+   "type": "CLR0",
+   "name": "hole_in_one"
+  }
+ ],
+ "materials": [
+  {
+   "name": "mat_circle",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon20",
+    "polygon21"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_alpha0",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_env",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon19"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_alpha1",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon18"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_env",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0",
+    "polygon2",
+    "polygon4",
+    "polygon6",
+    "polygon8",
+    "polygon10",
+    "polygon12",
+    "polygon14",
+    "polygon16"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_flash",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_flash",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon22"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_mat",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_env",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1",
+    "polygon3",
+    "polygon5",
+    "polygon7",
+    "polygon9",
+    "polygon11",
+    "polygon13",
+    "polygon15",
+    "polygon17"
+   ],
+   "inGlb": true
+  }
+ ]
+}

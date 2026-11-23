@@ -1,0 +1,46 @@
+/* Estilos mínimos do LayoutPlayer (layouts NW4R em DOM). Prefixo sp- para não colidir com o companhia.css do WEBC. */
+.sp-lyt-host { position: relative; overflow: hidden; contain: layout paint; }
+.sp-lyt-stage { position: absolute; left: 0; top: 0; transform-origin: 0 0; pointer-events: none; }
+.sp-lyt-node { position: absolute; left: 0; top: 0; transform-origin: 0 0; transform-style: preserve-3d; }
+.sp-lyt-rect { position: absolute; display: block; }
+.sp-lyt-picture, .sp-lyt-window, .sp-lyt-text { image-rendering: auto; }
+@media (max-width: 640px) {
+  .sp-lyt-host { touch-action: none; }
+}
+
+/* Etapa 5: HUD das partidas e menu da máquina de estados (minigames/sports/ui/SportsHud.js e SportsMenu.js). */
+.sp-app { position: absolute; inset: 0; pointer-events: none; font-family: system-ui, sans-serif; color: #fff; }
+.sp-app > * { pointer-events: auto; }
+.sp-hud { position: absolute; inset: 0; pointer-events: none; text-shadow: 0 1px 3px #000a; }
+.sp-hud-layouts, .sp-menu-bg { position: absolute; inset: 0; pointer-events: none; }
+.sp-hud-layout, .sp-menu-layout { position: absolute; inset: 0; }
+.sp-hud-title { position: absolute; top: 10px; left: 16px; font-weight: 700; font-size: 18px; }
+.sp-hud-score { position: absolute; top: 36px; left: 16px; margin: 0; font: 600 13px/1.35 ui-monospace, monospace; white-space: pre; background: #0006; padding: 6px 10px; border-radius: 8px; max-width: calc(100% - 32px); overflow: hidden; }
+.sp-hud-score:empty { display: none; }
+.sp-hud-hint { position: absolute; bottom: 14px; left: 16px; right: 16px; text-align: center; font-size: 14px; }
+.sp-hud-banner { position: absolute; top: 38%; left: 16px; right: 16px; text-align: center; font: 800 clamp(26px, 6vw, 56px)/1.1 system-ui, sans-serif; white-space: pre-line; }
+.sp-hud-banner.sp-pop { animation: sp-pop .35s ease-out; }
+@keyframes sp-pop { from { transform: scale(.6); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+.sp-hud-meter { position: absolute; bottom: 44px; left: 50%; width: min(320px, 70%); height: 12px; transform: translateX(-50%); background: #0007; border-radius: 6px; overflow: hidden; }
+.sp-hud-meter i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, #4cf, #ff4 70%, #f44); }
+.sp-menu { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: min(460px, calc(100% - 32px)); max-height: calc(100% - 32px); overflow: auto; background: #102040e6; border-radius: 14px; padding: 16px; box-shadow: 0 8px 30px #0008; }
+.sp-menu h2 { margin: 0 0 6px; font-size: 22px; }
+.sp-menu-sub { margin: 0 0 10px; opacity: .85; font-size: 14px; }
+.sp-menu-lines { margin: 0 0 12px; padding-left: 18px; font-size: 14px; line-height: 1.4; }
+.sp-menu-items { display: flex; flex-direction: column; gap: 6px; }
+.sp-menu-item { font: inherit; font-size: 16px; padding: 10px 12px; border: 0; border-radius: 10px; background: #fff2; color: #fff; text-align: left; cursor: pointer; }
+.sp-menu-item.sp-focus, .sp-menu-item:hover { background: #3c8cff; }
+.sp-menu-item:disabled { opacity: .4; cursor: default; }
+.sp-menu.sp-record h2 { color: #ffe066; }
+.sp-menu.sp-wide { width: min(760px, calc(100% - 32px)); display: grid; grid-template-columns: minmax(180px, 280px) 1fr; column-gap: 16px; align-items: start; }
+.sp-menu.sp-wide > :not(.sp-preview) { grid-column: 2; }
+.sp-preview { grid-column: 1; grid-row: 1 / span 4; position: sticky; top: 0; width: 100%; aspect-ratio: 3 / 4; border-radius: 12px; background: radial-gradient(#5aa0ff55, #0000 70%); touch-action: none; cursor: grab; }
+.sp-menu-field { display: flex; flex-direction: column; gap: 4px; padding: 6px 12px; border-radius: 10px; background: #fff2; font-size: 14px; }
+.sp-menu-field.sp-focus { background: #3c8cff; }
+.sp-menu-field input { font: inherit; font-size: 16px; padding: 6px 8px; border-radius: 8px; border: 0; }
+.sp-menu-file { display: block; }
+@media (max-width: 640px) {
+  .sp-menu.sp-wide { grid-template-columns: 1fr; }
+  .sp-menu.sp-wide > * { grid-column: 1 !important; }
+  .sp-preview { grid-row: auto; max-height: 34vh; aspect-ratio: 1; }
+}

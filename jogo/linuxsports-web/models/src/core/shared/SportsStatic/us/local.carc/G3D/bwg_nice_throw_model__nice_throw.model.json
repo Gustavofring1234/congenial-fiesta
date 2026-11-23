@@ -1,0 +1,21 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_f39991aec3d54d28",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/bwg_nice_throw_model.brres/nice_throw",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/bwg_nice_throw_model.brres",
+ "model": "nice_throw",
+ "glb": "models/src/core/shared/SportsStatic/us/local.carc/G3D/bwg_nice_throw_model__nice_throw.glb",
+ "textures": [
+  {
+   "name": "bwg_nice_throw_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bwg_nice_throw_model.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "nice_throw"
+  }
+ ]
+}

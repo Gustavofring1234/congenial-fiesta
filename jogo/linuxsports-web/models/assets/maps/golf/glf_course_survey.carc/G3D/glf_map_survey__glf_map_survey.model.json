@@ -1,0 +1,28 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_6464326441c02bbb",
+ "source": "assets/maps/golf/glf_course_survey.carc/G3D/glf_map_survey.brres/glf_map_survey",
+ "brres": "assets/maps/golf/glf_course_survey.carc/G3D/glf_map_survey.brres",
+ "model": "glf_map_survey",
+ "glb": "models/assets/maps/golf/glf_course_survey.carc/G3D/glf_map_survey__glf_map_survey.glb",
+ "textures": [
+  {
+   "name": "glf_enkei1",
+   "foundIn": "assets/maps/golf/glf_course_survey.carc/G3D/glf_map_survey.brres"
+  },
+  {
+   "name": "glf_fairway1",
+   "foundIn": "assets/maps/golf/glf_course_survey.carc/G3D/glf_map_survey.brres"
+  },
+  {
+   "name": "line",
+   "foundIn": "assets/maps/golf/glf_course_survey.carc/G3D/glf_map_survey.brres"
+  },
+  {
+   "name": "number",
+   "foundIn": "assets/maps/golf/glf_course_survey.carc/G3D/glf_map_survey.brres"
+  }
+ ],
+ "animations": []
+}

@@ -1,0 +1,73 @@
+{
+ "id": "cpu_mii_044",
+ "source": "raw/src/core/shared/SportsStatic/common/CPUMii/cpu_mii_044.rcd",
+ "raw": "gAow1DCoMPww6wAAAAAAAAAAAAAAAEBAIAAAAAAAAACBRYDIqY8ks5yNhGS0QGBNCGkGqa7WAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "info": {
+  "name": "ピエール",
+  "creator": "",
+  "sex": 0,
+  "birthMonth": 0,
+  "birthDay": 0,
+  "favoriteColor": 5,
+  "favorite": 0,
+  "height": 64,
+  "build": 64,
+  "createId": "2000000000000000",
+  "faceline": {
+   "type": 4,
+   "color": 0,
+   "texture": 5
+  },
+  "hair": {
+   "type": 64,
+   "color": 3,
+   "flip": 0
+  },
+  "eye": {
+   "type": 39,
+   "color": 4,
+   "scale": 2,
+   "rotate": 4,
+   "x": 3,
+   "y": 13
+  },
+  "eyebrow": {
+   "type": 21,
+   "color": 1,
+   "scale": 2,
+   "rotate": 6,
+   "x": 3,
+   "y": 11
+  },
+  "nose": {
+   "type": 11,
+   "scale": 4,
+   "y": 8
+  },
+  "mouth": {
+   "type": 12,
+   "color": 0,
+   "scale": 2,
+   "y": 13
+  },
+  "beard": {
+   "mustache": 0,
+   "type": 0,
+   "color": 3,
+   "scale": 5,
+   "y": 9
+  },
+  "glass": {
+   "type": 0,
+   "color": 4,
+   "scale": 3,
+   "y": 9
+  },
+  "mole": {
+   "type": 1,
+   "scale": 5,
+   "x": 11,
+   "y": 27
+  }
+ }
+}

@@ -1,0 +1,157 @@
+{
+ "format": "nw4r-scene",
+ "version": 1,
+ "assetId": "scn_50f06412da289e51",
+ "source": "assets/maps/boxing/MainGame.carc",
+ "sport": "boxing",
+ "models": [
+  {
+   "name": "G3D/box_avatar.brres/box_avatarA",
+   "ref": "mdl_644d45cbbd1ff4be"
+  },
+  {
+   "name": "G3D/box_avatar.brres/box_avatarB",
+   "ref": "mdl_644d44cbbd1ff30b"
+  },
+  {
+   "name": "G3D/box_avatar.brres/box_avatarC",
+   "ref": "mdl_644d43cbbd1ff158"
+  },
+  {
+   "name": "G3D/box_ball.brres/box_ball_bad",
+   "ref": "mdl_6bc1c15f137c29ff"
+  },
+  {
+   "name": "G3D/box_ball.brres/box_ball_bbl",
+   "ref": "mdl_6bb7c75f1373dfac"
+  },
+  {
+   "name": "G3D/box_ball.brres/box_ball_bwg",
+   "ref": "mdl_6b92e25f1354f150"
+  },
+  {
+   "name": "G3D/box_ball.brres/box_ball_glf",
+   "ref": "mdl_51eb685f04e52603"
+  },
+  {
+   "name": "G3D/box_ball.brres/box_ball_pin",
+   "ref": "mdl_cff3095ebb449e1b"
+  },
+  {
+   "name": "G3D/box_ball.brres/box_ball_shadow",
+   "ref": "mdl_6a3cae12130b5f98"
+  },
+  {
+   "name": "G3D/box_ball.brres/box_ball_tns",
+   "ref": "mdl_afb4485ea9af5583"
+  },
+  {
+   "name": "G3D/box_gym.brres/box_gym",
+   "ref": "mdl_a83edc8a093af7c7"
+  },
+  {
+   "name": "G3D/box_ring.brres/box_corner_B",
+   "ref": "mdl_383a46eebf39a083"
+  },
+  {
+   "name": "G3D/box_ring.brres/box_corner_R",
+   "ref": "mdl_383a36eebf398553"
+  },
+  {
+   "name": "G3D/box_ring.brres/box_corner_W1",
+   "ref": "mdl_c47acdaeeec61c07"
+  },
+  {
+   "name": "G3D/box_ring.brres/box_corner_W2",
+   "ref": "mdl_c47aceaeeec61dba"
+  },
+  {
+   "name": "G3D/box_ring.brres/box_hall",
+   "ref": "mdl_97553b203796012c"
+  },
+  {
+   "name": "G3D/box_ring.brres/box_light",
+   "ref": "mdl_9f5a008259267121"
+  },
+  {
+   "name": "G3D/box_ring.brres/box_ring",
+   "ref": "mdl_679492548a618249"
+  },
+  {
+   "name": "G3D/box_ring.brres/box_rope",
+   "ref": "mdl_34899a546dbbb1af"
+  },
+  {
+   "name": "G3D/box_ring.brres/box_rope_kage",
+   "ref": "mdl_86db55948b013f00"
+  },
+  {
+   "name": "G3D/box_sandbag.brres/box_sandbagA",
+   "ref": "mdl_5f4f7d57416a0272"
+  },
+  {
+   "name": "G3D/box_sandbag.brres/box_sandbagA_a",
+   "ref": "mdl_fdf281ce7e419b62"
+  },
+  {
+   "name": "G3D/box_sandbag.brres/box_sandbagB",
+   "ref": "mdl_5f4f7c57416a00bf"
+  },
+  {
+   "name": "G3D/box_sandbag.brres/box_sandbagB_a",
+   "ref": "mdl_f6a42cce7a80fbf3"
+  },
+  {
+   "name": "G3D/box_sandbag.brres/box_sandbagC",
+   "ref": "mdl_5f4f7b574169ff0c"
+  },
+  {
+   "name": "G3D/box_sandbag.brres/box_sandbagC_a",
+   "ref": "mdl_ee7c13ce76071eb8"
+  }
+ ],
+ "collision": [],
+ "objects": [],
+ "data": [
+  {
+   "role": "pblm",
+   "name": "EnvMain/box_ring.pblm",
+   "ref": "bin_9220c01dde1b6b8d"
+  },
+  {
+   "role": "plight",
+   "name": "EnvMain/scene_Light_MainGame.plight",
+   "ref": "bin_56837d90037b93f9"
+  },
+  {
+   "role": "plmap",
+   "name": "EnvMain/scene_Lm_MainGame.plmap",
+   "ref": "bin_2fdd66ae0e814f72"
+  },
+  {
+   "role": "pblm",
+   "name": "EnvMiniGame/box_gym.pblm",
+   "ref": "bin_fe2836bc01183c42"
+  },
+  {
+   "role": "plight",
+   "name": "EnvMiniGame/scene_Light_MiniGame01.plight",
+   "ref": "bin_72c889341649f78e"
+  },
+  {
+   "role": "plight",
+   "name": "EnvMiniGame/scene_Light_MiniGame02.plight",
+   "ref": "bin_bca348c817311e65"
+  },
+  {
+   "role": "plight",
+   "name": "EnvMiniGame/scene_Light_MiniGame03.plight",
+   "ref": "bin_7ae406ffafae5a58"
+  },
+  {
+   "role": "plmap",
+   "name": "EnvMiniGame/scene_Lm_MiniGame.plmap",
+   "ref": "bin_218cf646629fde9c"
+  }
+ ]
+}

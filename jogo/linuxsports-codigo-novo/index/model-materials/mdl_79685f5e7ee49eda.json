@@ -1,0 +1,39 @@
+{
+ "assetId": "mdl_79685f5e7ee49eda",
+ "model": "glf_cup_side",
+ "materials": [
+  {
+   "name": "M_cup_side",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_cup_side",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "glf_cup",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_cup.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_cup_side",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_cup.brres",
+   "materials": [
+    "M_cup_side"
+   ],
+   "layer0": true
+  }
+ ]
+}

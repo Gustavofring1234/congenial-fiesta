@@ -1,0 +1,89 @@
+{
+ "format": "nw4r-scene",
+ "version": 1,
+ "assetId": "scn_e97011bba4d24590",
+ "source": "src/minigames/baseball/common/common.carc",
+ "sport": "baseball",
+ "models": [
+  {
+   "name": "model/G3D/bbl_Arrow_A.brres/bbl_Arrow_A",
+   "ref": "mdl_20dd59f74e8fa346"
+  },
+  {
+   "name": "model/G3D/bbl_Arrow_B.brres/bbl_Arrow_B",
+   "ref": "mdl_a9473c3a3b9f08a6"
+  },
+  {
+   "name": "model/G3D/bbl_Ball.brres/bbl_Ball",
+   "ref": "mdl_df601120208c81ec"
+  },
+  {
+   "name": "model/G3D/bbl_Bat.brres/bbl_Bat",
+   "ref": "mdl_39b6a3190253227a"
+  },
+  {
+   "name": "model/G3D/bbl_c_glove.brres/bbl_c_glove",
+   "ref": "mdl_ec4b2f3377140552"
+  },
+  {
+   "name": "model/G3D/bbl_c_mask.brres/bbl_c_mask",
+   "ref": "mdl_203e083310a8b44a"
+  },
+  {
+   "name": "model/G3D/bbl_c_pl.brres/bbl_c_pl",
+   "ref": "mdl_27c23aafc8f0242a"
+  },
+  {
+   "name": "model/G3D/bbl_Glove.brres/bbl_Glove_l",
+   "ref": "mdl_d9a7caed0ca0c1ad"
+  },
+  {
+   "name": "model/G3D/bbl_Glove.brres/bbl_Glove_r",
+   "ref": "mdl_d9a7aced0ca08eb3"
+  },
+  {
+   "name": "model/G3D/bbl_RangeBoard_A.brres/bbl_RangeBoard_A",
+   "ref": "mdl_295e14d068404480"
+  },
+  {
+   "name": "model/G3D/bbl_RangeBoard_B.brres/bbl_RangeBoard_B",
+   "ref": "mdl_30f6b291a32bda82"
+  },
+  {
+   "name": "model/G3D/bbl_RangeBoard_C.brres/bbl_RangeBoard_C",
+   "ref": "mdl_e8b6d6474331bb90"
+  },
+  {
+   "name": "model/G3D/sun.brres/sun_lensfx",
+   "ref": "mdl_b2c57c7bd74a1601"
+  },
+  {
+   "name": "model/G3D/sun.brres/sun_model",
+   "ref": "mdl_5561a9646b3e069c"
+  }
+ ],
+ "collision": [],
+ "objects": [],
+ "data": [
+  {
+   "role": "pblm",
+   "name": "Environment/scene_Bloom.pblm",
+   "ref": "bin_a827443673bd81d5"
+  },
+  {
+   "role": "plight",
+   "name": "Environment/scene_Light.plight",
+   "ref": "bin_c344b00fe3aef01d"
+  },
+  {
+   "role": "plmap",
+   "name": "Environment/scene_Lm.plmap",
+   "ref": "bin_76041f6ed28683b8"
+  },
+  {
+   "role": "pmmisc",
+   "name": "Environment/scene_ModelMisc.pmmisc",
+   "ref": "bin_56b96b19f982f325"
+  }
+ ]
+}

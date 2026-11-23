@@ -1,0 +1,108 @@
+{
+ "assetId": "mdl_fc5f9746059d5291",
+ "model": "sp_titleBG_00",
+ "materials": [
+  {
+   "name": "title_00",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "sp_titleBG.10",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "sp_titleMask",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "title_01",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "sp_titleBG.0",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "sp_titleBG.0",
+   "foundIn": "src/core/shared/RPST/us/local.carc/G3D/sp_titleBG_00.brres",
+   "materials": [
+    "title_01"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "sp_titleBG.1",
+   "foundIn": "src/core/shared/RPST/us/local.carc/G3D/sp_titleBG_00.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "sp_titleBG.10",
+   "foundIn": "src/core/shared/RPST/us/local.carc/G3D/sp_titleBG_00.brres",
+   "materials": [
+    "title_00"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "sp_titleBG.11",
+   "foundIn": "src/core/shared/RPST/us/local.carc/G3D/sp_titleBG_00.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "sp_titleBG.2",
+   "foundIn": "src/core/shared/RPST/us/local.carc/G3D/sp_titleBG_00.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "sp_titleBG.3",
+   "foundIn": "src/core/shared/RPST/us/local.carc/G3D/sp_titleBG_00.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "sp_titleBG.4",
+   "foundIn": "src/core/shared/RPST/us/local.carc/G3D/sp_titleBG_00.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "sp_titleBG.5",
+   "foundIn": "src/core/shared/RPST/us/local.carc/G3D/sp_titleBG_00.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "sp_titleMask",
+   "foundIn": "src/core/shared/RPST/us/local.carc/G3D/sp_titleBG_00.brres",
+   "materials": [
+    "title_00"
+   ],
+   "layer0": false
+  }
+ ]
+}

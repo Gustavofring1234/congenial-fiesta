@@ -1,0 +1,75 @@
+{
+ "assetId": "mdl_2a00b12bcdb59887",
+ "model": "ava_bodyC0",
+ "materials": [
+  {
+   "name": "mt_main",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "dummy_tex_a",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "lm_0",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "lm_1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "dummy_tex_b",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "dummy_tex_a",
+   "foundIn": "src/core/shared/Kokeshi/common/common.carc/G3D/ava_bodyC0.brres",
+   "materials": [
+    "mt_main"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "dummy_tex_b",
+   "foundIn": "src/core/shared/Kokeshi/common/common.carc/G3D/ava_bodyC0.brres",
+   "materials": [
+    "mt_main"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "lm_0",
+   "foundIn": "src/core/shared/Kokeshi/common/common.carc/G3D/ava_bodyC0.brres",
+   "materials": [
+    "mt_main"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "lm_1",
+   "foundIn": "src/core/shared/Kokeshi/common/common.carc/G3D/ava_bodyC0.brres",
+   "materials": [
+    "mt_main"
+   ],
+   "layer0": false
+  }
+ ]
+}

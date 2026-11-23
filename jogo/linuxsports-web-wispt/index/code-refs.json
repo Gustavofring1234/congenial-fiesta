@@ -1,0 +1,4637 @@
+[
+ {
+  "string": "Sound/RPSportsCommon/rp_Common_Sports.brsar",
+  "assets": []
+ },
+ {
+  "string": "Common/Kokeshi/common.carc",
+  "assets": [
+   "scn_5ab127c3f61f9ebb",
+   "scn_f2660f4083678e3e",
+   "scn_a77ada9cf2a30db7",
+   "scn_b8ddbf2fe332279c",
+   "scn_3af9f2fccfa2655c",
+   "scn_e97011bba4d24590",
+   "scn_5ce3d6de59558656",
+   "scn_c3d15c585378b35d",
+   "scn_28c1009cf8de679e",
+   "scn_5407644f3dba21a4",
+   "scn_bfe7bed7f790b475",
+   "scn_e9fcb75937ad9822"
+  ]
+ },
+ {
+  "string": "Font/font.carc",
+  "assets": [
+   "fnt_d96619588d35c2e1"
+  ]
+ },
+ {
+  "string": "Message/message.carc",
+  "assets": [
+   "bin_82a52f38c9b033ec"
+  ]
+ },
+ {
+  "string": "effect.carc",
+  "assets": []
+ },
+ {
+  "string": "local.carc",
+  "assets": [
+   "scn_7eb3e719f5dd0a69",
+   "scn_c42e6785ae996329"
+  ]
+ },
+ {
+  "string": "common.carc",
+  "assets": [
+   "scn_5ab127c3f61f9ebb",
+   "scn_f2660f4083678e3e",
+   "scn_a77ada9cf2a30db7",
+   "scn_b8ddbf2fe332279c",
+   "scn_3af9f2fccfa2655c",
+   "scn_e97011bba4d24590",
+   "scn_5ce3d6de59558656",
+   "scn_c3d15c585378b35d",
+   "scn_28c1009cf8de679e",
+   "scn_5407644f3dba21a4",
+   "scn_bfe7bed7f790b475",
+   "scn_e9fcb75937ad9822"
+  ]
+ },
+ {
+  "string": "sports_message.bmg",
+  "assets": [
+   "bin_05ffeddb5dda86c6"
+  ]
+ },
+ {
+  "string": "banner.tpl",
+  "assets": []
+ },
+ {
+  "string": "pac_nRodDb_32_I4.brfnt",
+  "assets": [
+   "fnt_d96619588d35c2e1"
+  ]
+ },
+ {
+  "string": "pac_nRodDb_32_IA4.brfnt",
+  "assets": [
+   "fnt_c9e6f4d0ef7d6ec2"
+  ]
+ },
+ {
+  "string": "pac_nRodDb_62_IA4.brfnt",
+  "assets": [
+   "fnt_c0643d85b3e83007"
+  ]
+ },
+ {
+  "string": "pac_nRodDb_200_IA4.brfnt",
+  "assets": []
+ },
+ {
+  "string": "pac_nRodEb_32_I4.brfnt",
+  "assets": [
+   "fnt_f9f9a6ea60bb14a4"
+  ]
+ },
+ {
+  "string": "pac_nRodEb_70_IA4.brfnt",
+  "assets": [
+   "fnt_2639aae0909ae3e7"
+  ]
+ },
+ {
+  "string": "pac_healthTime.brfnt",
+  "assets": []
+ },
+ {
+  "string": "common_message.bmg",
+  "assets": [
+   "bin_82a52f38c9b033ec"
+  ]
+ },
+ {
+  "string": "G3D/ava_handA.brres",
+  "assets": [
+   "bin_8e4812cf7dc0f3e5"
+  ]
+ },
+ {
+  "string": "G3D/ava_handB.brres",
+  "assets": [
+   "bin_0f847fb24fc1090c"
+  ]
+ },
+ {
+  "string": "sports_common.breff",
+  "assets": [
+   "bin_d321c2fcbdf29ae7"
+  ]
+ },
+ {
+  "string": "sports_common.breft",
+  "assets": [
+   "bin_d321b4fcbdf2831d"
+  ]
+ },
+ {
+  "string": "basic_common.breff",
+  "assets": []
+ },
+ {
+  "string": "basic_common.breft",
+  "assets": []
+ },
+ {
+  "string": "effect_music.breff",
+  "assets": []
+ },
+ {
+  "string": "effect_music.breft",
+  "assets": []
+ },
+ {
+  "string": "nw4r_defcursor_pack.breff",
+  "assets": [
+   "bin_11e514ed35fe1437"
+  ]
+ },
+ {
+  "string": "nw4r_defcursor_pack.breft",
+  "assets": [
+   "bin_11e526ed35fe32cd"
+  ]
+ },
+ {
+  "string": "pack_cursor_fix.breff",
+  "assets": []
+ },
+ {
+  "string": "pack_cursor_fix.breft",
+  "assets": []
+ },
+ {
+  "string": "messageWindow.arc",
+  "assets": [
+   "bin_93058f9b2760e072"
+  ]
+ },
+ {
+  "string": "messageWindowB_00.brlyt",
+  "assets": [
+   "lyt_e8a94cd1ad107b85"
+  ]
+ },
+ {
+  "string": "messageWindowW_00.brlyt",
+  "assets": [
+   "lyt_d3cc2aac2070b7ac"
+  ]
+ },
+ {
+  "string": "messageWindowB_00_in_00.brlan",
+  "assets": [
+   "anm_d032478fa1a736f8"
+  ]
+ },
+ {
+  "string": "messageWindowB_00_out_00.brlan",
+  "assets": [
+   "anm_5a8c4a7832353a63"
+  ]
+ },
+ {
+  "string": "messageWindowW_00_in_00.brlan",
+  "assets": [
+   "anm_60090ef7fb8dd2a1"
+  ]
+ },
+ {
+  "string": "messageWindowW_00_out_00.brlan",
+  "assets": [
+   "anm_93d8ac6757c14400"
+  ]
+ },
+ {
+  "string": "lm_0.bti",
+  "assets": [
+   "bin_a4a754ae23b9fd0f"
+  ]
+ },
+ {
+  "string": "lm_1.bti",
+  "assets": [
+   "bin_dc9315b4d41c6fc0"
+  ]
+ },
+ {
+  "string": "pause_00_Offon_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "pause_00_push_00.brlan",
+  "assets": [
+   "anm_2baa6070adbf40db"
+  ]
+ },
+ {
+  "string": "pause_00_active_00.brlan",
+  "assets": [
+   "anm_29c5764ef504f54d"
+  ]
+ },
+ {
+  "string": "pause.arc",
+  "assets": [
+   "bin_c1cc92d501af3c3b"
+  ]
+ },
+ {
+  "string": "pause_00.brlyt",
+  "assets": [
+   "lyt_ac9ea9ed54567e3b"
+  ]
+ },
+ {
+  "string": "pause_00_in_00.brlan",
+  "assets": [
+   "anm_e5169da0dd2e4dee"
+  ]
+ },
+ {
+  "string": "pause_00_out_00.brlan",
+  "assets": [
+   "anm_eae5d140832ef3c5"
+  ]
+ },
+ {
+  "string": "systemWindow_00_Offon_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "systemWindow_00_push_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "systemWindow_00_activeButton_00.brlan",
+  "assets": [
+   "anm_6969f87fd627249d"
+  ]
+ },
+ {
+  "string": "systemWindow_00_pushButton_00.brlan",
+  "assets": [
+   "anm_692787ef6dc4144f"
+  ]
+ },
+ {
+  "string": "systemWindow_00_inAButton_00.brlan",
+  "assets": [
+   "anm_72f4cc0c3ec247c7"
+  ]
+ },
+ {
+  "string": "systemWindow_00_blinkAButton_00.brlan",
+  "assets": [
+   "anm_260f9d7b042aa74c"
+  ]
+ },
+ {
+  "string": "systemWindow_00.brlyt",
+  "assets": [
+   "lyt_da33c9e7dd2653e3"
+  ]
+ },
+ {
+  "string": "systemWindow_00_in_00.brlan",
+  "assets": [
+   "anm_d2fbf5c7672d6536"
+  ]
+ },
+ {
+  "string": "systemWindow_00_out_00.brlan",
+  "assets": [
+   "anm_161dc8444b715acd"
+  ]
+ },
+ {
+  "string": "/HomeMenu/homeBtnIcon.bti",
+  "assets": [
+   "bin_c1ed17f6199677b0"
+  ]
+ },
+ {
+  "string": "/HomeMenu/homeBtn_FRA.arc",
+  "assets": [
+   "bin_36958fe5cc2244e5"
+  ]
+ },
+ {
+  "string": "/HomeMenu/homeBtn_GER.arc",
+  "assets": []
+ },
+ {
+  "string": "/HomeMenu/homeBtn_ITA.arc",
+  "assets": []
+ },
+ {
+  "string": "/HomeMenu/homeBtn_SPA.arc",
+  "assets": [
+   "bin_a54dc3c0aa62a964"
+  ]
+ },
+ {
+  "string": "/HomeMenu/homeBtn_NED.arc",
+  "assets": []
+ },
+ {
+  "string": "/HomeMenu/homeBtn.arc",
+  "assets": []
+ },
+ {
+  "string": "/HomeMenu/homeBtn_ENG.arc",
+  "assets": [
+   "bin_27303de08f9b08ee"
+  ]
+ },
+ {
+  "string": "/HomeMenu/SpeakerSe.arc",
+  "assets": [
+   "bin_fe8c59a4dc8f3981"
+  ]
+ },
+ {
+  "string": "/HomeMenu/HomeButtonSe.brsar",
+  "assets": [
+   "bin_26ba3c50001ed7a5"
+  ]
+ },
+ {
+  "string": "G3D/sun.brres",
+  "assets": [
+   "bin_2384d8c98ede00cf",
+   "bin_fbab76f2c73bbd79"
+  ]
+ },
+ {
+  "string": "G3D/lensfx.brres",
+  "assets": [
+   "bin_a364095e9728d92d"
+  ]
+ },
+ {
+  "string": "HealthCPadCursor.arc",
+  "assets": []
+ },
+ {
+  "string": "cPadCursor.arc",
+  "assets": [
+   "bin_f07ee3ceffc8cc97"
+  ]
+ },
+ {
+  "string": "cPadCursor_00.brlyt",
+  "assets": [
+   "lyt_cd6b5b8e06252af9"
+  ]
+ },
+ {
+  "string": "cCursorCircle.arc",
+  "assets": [
+   "bin_2b95e14bedc3ae1e"
+  ]
+ },
+ {
+  "string": "cCursorCircle_00.brlyt",
+  "assets": [
+   "lyt_3a176c7f69b22ebd"
+  ]
+ },
+ {
+  "string": "playerIntroduction_01.brlyt",
+  "assets": [
+   "lyt_146db70518b7d6fa"
+  ]
+ },
+ {
+  "string": "playerIntroduction_01_in_00.brlan",
+  "assets": [
+   "anm_a3cc373ab095653b"
+  ]
+ },
+ {
+  "string": "playerIntroduction_01_out_00.brlan",
+  "assets": [
+   "anm_67bccf9440b6281e"
+  ]
+ },
+ {
+  "string": "playerIntroduction_01_offLED_00.brlan",
+  "assets": [
+   "anm_1cb90c528ac22928"
+  ]
+ },
+ {
+  "string": "playerIntroduction_01_onLED_00.brlan",
+  "assets": [
+   "anm_c94350689922b63c"
+  ]
+ },
+ {
+  "string": "pIRecord_00.brlyt",
+  "assets": [
+   "lyt_e77e2e31d92e1e60"
+  ]
+ },
+ {
+  "string": "pIRecord_00_in_00.brlan",
+  "assets": [
+   "anm_36d97b52a287a539"
+  ]
+ },
+ {
+  "string": "pIRecord_00_out_00.brlan",
+  "assets": [
+   "anm_0e8e7ca026f3ffb8"
+  ]
+ },
+ {
+  "string": "challenge_00.brlyt",
+  "assets": [
+   "lyt_599276ffdc717b52",
+   "lyt_7ca9754019563554"
+  ]
+ },
+ {
+  "string": "challenge_00_in_00.brlan",
+  "assets": [
+   "anm_055e6168c7538ec3",
+   "anm_b83a13d68d5226b5"
+  ]
+ },
+ {
+  "string": "challenge_00_out_00.brlan",
+  "assets": [
+   "anm_8d4d2a1b5ef76086",
+   "anm_d5a4de05e7b863ac"
+  ]
+ },
+ {
+  "string": "BwgGlfScorecard_00.brlyt",
+  "assets": [
+   "lyt_b7f2f0584f49330f",
+   "lyt_152e317051117285"
+  ]
+ },
+ {
+  "string": "BwgGlfScorecard_00_jump_00.brlan",
+  "assets": [
+   "anm_de13800f2daba48b",
+   "anm_dfd0f0a04382c025"
+  ]
+ },
+ {
+  "string": "BwgGlfScorecard_00_blinkIcon_00.brlan",
+  "assets": [
+   "anm_d6898c7def178c54",
+   "anm_86b058d3c14e49d6"
+  ]
+ },
+ {
+  "string": "BwgGlfScorecard_00_in_00.brlan",
+  "assets": [
+   "anm_9aebd70d94fed9e6",
+   "anm_9f563ea243a11360"
+  ]
+ },
+ {
+  "string": "BwgGlfScorecard_00_out_00.brlan",
+  "assets": [
+   "anm_c8c3f734f567e8dd",
+   "anm_a1b9c2bf809dd30b"
+  ]
+ },
+ {
+  "string": "AButton.arc",
+  "assets": [
+   "bin_4a9383bde120e602"
+  ]
+ },
+ {
+  "string": "AButton.brlyt",
+  "assets": [
+   "lyt_62e66ebb736334b2"
+  ]
+ },
+ {
+  "string": "AButton_in_00.brlan",
+  "assets": [
+   "anm_43b040943cde3cd7"
+  ]
+ },
+ {
+  "string": "AButton_out_00.brlan",
+  "assets": [
+   "anm_f615a885aad54e92"
+  ]
+ },
+ {
+  "string": "AButton_blink_00.brlan",
+  "assets": [
+   "anm_ad995d872de155cc"
+  ]
+ },
+ {
+  "string": "backCommon.arc",
+  "assets": [
+   "bin_0b414881d3f6d49b",
+   "bin_636e4fc638ec27d1",
+   "bin_d1c2c8a6783fe401"
+  ]
+ },
+ {
+  "string": "backCommon_00.brlyt",
+  "assets": [
+   "lyt_6b5d18619cf7c247",
+   "lyt_b50252e78848aca7",
+   "lyt_d94698b468ea1675"
+  ]
+ },
+ {
+  "string": "backCommon_00_outFrame_00.brlan",
+  "assets": [
+   "anm_d89fe9f500731d08",
+   "anm_560e74c720a916a4",
+   "anm_87684b1b9820c372"
+  ]
+ },
+ {
+  "string": "backCommon_00_inFrame_00.brlan",
+  "assets": [
+   "anm_b09c47484b2c3019",
+   "anm_e5c6ec2afd526b0d",
+   "anm_1a872baf8b6b5e67"
+  ]
+ },
+ {
+  "string": "backCommon_00_activeBack_00.brlan",
+  "assets": [
+   "anm_15eadfbab32ae2f4",
+   "anm_25c6cfd4428c9138",
+   "anm_493261110865047e"
+  ]
+ },
+ {
+  "string": "backCommon_00_pushBack_00.brlan",
+  "assets": [
+   "anm_b2d2504d8a65da7e",
+   "anm_5caa48753a7cdf22",
+   "anm_52eae2d2d8d120cc"
+  ]
+ },
+ {
+  "string": "ABPress.arc",
+  "assets": [
+   "bin_91b7703946fa8547"
+  ]
+ },
+ {
+  "string": "ABPress_00.brlyt",
+  "assets": [
+   "lyt_060b1ab45730e86f"
+  ]
+ },
+ {
+  "string": "ABPress_00_in_00.brlan",
+  "assets": [
+   "anm_c94cb3d13303c966"
+  ]
+ },
+ {
+  "string": "ABPress_00_out_00.brlan",
+  "assets": [
+   "anm_9c4a979a77cadf5d"
+  ]
+ },
+ {
+  "string": "ABPress_00_LED_00.brlan",
+  "assets": [
+   "anm_90b736bfcc3a6502"
+  ]
+ },
+ {
+  "string": "ABPress_00_inOK_00.brlan",
+  "assets": [
+   "anm_cb2f20281b1e9478"
+  ]
+ },
+ {
+  "string": "G3D/clothes.brres",
+  "assets": [
+   "bin_379692191fda4da8"
+  ]
+ },
+ {
+  "string": "G3D/ava_bodyA0.brres",
+  "assets": [
+   "bin_1d74443b4d884442"
+  ]
+ },
+ {
+  "string": "G3D/ava_bodyB0.brres",
+  "assets": [
+   "bin_21dbb201d5f4aeed"
+  ]
+ },
+ {
+  "string": "G3D/ava_bodyA1.brres",
+  "assets": [
+   "bin_04bf92da4b502149"
+  ]
+ },
+ {
+  "string": "G3D/ava_bodyB1.brres",
+  "assets": [
+   "bin_e4c276365dddf0d6"
+  ]
+ },
+ {
+  "string": "G3D/ava_bodyA2.brres",
+  "assets": [
+   "bin_bc5de3f1b886ef90"
+  ]
+ },
+ {
+  "string": "G3D/ava_bodyB2.brres",
+  "assets": [
+   "bin_334ee29488a599fb"
+  ]
+ },
+ {
+  "string": "G3D/ava_bodyA3.brres",
+  "assets": [
+   "bin_33ef98dd5304e6f7"
+  ]
+ },
+ {
+  "string": "G3D/ava_bodyB3.brres",
+  "assets": [
+   "bin_f6d1032b01046994"
+  ]
+ },
+ {
+  "string": "G3D/ava_bodyC0.brres",
+  "assets": [
+   "bin_0e2f53c890f1bdc4"
+  ]
+ },
+ {
+  "string": "G3D/ava_bodyC1.brres",
+  "assets": [
+   "bin_7ab58d0a64d5c62b"
+  ]
+ },
+ {
+  "string": "G3D/ava_bodyE0.brres",
+  "assets": [
+   "bin_c7c986dc80fbff3e"
+  ]
+ },
+ {
+  "string": "rp_Health_sound.brsar",
+  "assets": []
+ },
+ {
+  "string": "strap.arc",
+  "assets": []
+ },
+ {
+  "string": "strap_00_U.brlyt",
+  "assets": []
+ },
+ {
+  "string": "strap_00_U.brlan",
+  "assets": []
+ },
+ {
+  "string": "strap_00_J.brlyt",
+  "assets": []
+ },
+ {
+  "string": "strap_00_J.brlan",
+  "assets": []
+ },
+ {
+  "string": "strap_00_F.brlyt",
+  "assets": []
+ },
+ {
+  "string": "strap_00_F.brlan",
+  "assets": []
+ },
+ {
+  "string": "strap_00_S_US.brlyt",
+  "assets": []
+ },
+ {
+  "string": "strap_00_S_US.brlan",
+  "assets": []
+ },
+ {
+  "string": "strap_00_G.brlyt",
+  "assets": []
+ },
+ {
+  "string": "strap_00_G.brlan",
+  "assets": []
+ },
+ {
+  "string": "strap_00_I.brlyt",
+  "assets": []
+ },
+ {
+  "string": "strap_00_I.brlan",
+  "assets": []
+ },
+ {
+  "string": "strap_00_S.brlyt",
+  "assets": []
+ },
+ {
+  "string": "strap_00_S.brlan",
+  "assets": []
+ },
+ {
+  "string": "strap_00_D.brlyt",
+  "assets": []
+ },
+ {
+  "string": "strap_00_D.brlan",
+  "assets": []
+ },
+ {
+  "string": "strap_00_E.brlyt",
+  "assets": []
+ },
+ {
+  "string": "strap_00_E.brlan",
+  "assets": []
+ },
+ {
+  "string": "menuCommon.arc",
+  "assets": [
+   "bin_823c41cda6c11c23",
+   "bin_92e0eb1facb8ed2e",
+   "bin_ba90847e0c886a29",
+   "bin_c14babee823638a7"
+  ]
+ },
+ {
+  "string": "menuBg_00.brlyt",
+  "assets": [
+   "lyt_611e981ecf948889",
+   "lyt_f806677c102b58ce",
+   "lyt_7c85f0c4d8ee46e9",
+   "lyt_a150210920390aad"
+  ]
+ },
+ {
+  "string": "pack_sequence.breff",
+  "assets": [
+   "bin_b496226cbfa9fd73"
+  ]
+ },
+ {
+  "string": "pack_sequence.breft",
+  "assets": [
+   "bin_b496346cbfaa1c09"
+  ]
+ },
+ {
+  "string": "G3D/menu_BG_model.brres",
+  "assets": [
+   "bin_5b6b98b5939d749e",
+   "bin_b1ce35d3d5d41e4b",
+   "bin_0678894bbdaa48d8",
+   "bin_9d0a98a6dbf0ceca"
+  ]
+ },
+ {
+  "string": "menuFrame_00_inFrame_00.brlan",
+  "assets": [
+   "anm_3cb7a9f8609c1be5",
+   "anm_3865706822f9b12a",
+   "anm_ca2e95c2a81c5781",
+   "anm_9d659fa482e67ac9"
+  ]
+ },
+ {
+  "string": "menuFrame_00_outFrame_00.brlan",
+  "assets": [
+   "anm_02414fa6316b117c",
+   "anm_8942e162caab4c81",
+   "anm_8147907aac4d5dd0",
+   "anm_be6835e3acd86718"
+  ]
+ },
+ {
+  "string": "menuFrame_00_inBackButton_00.brlan",
+  "assets": [
+   "anm_f5dfea6e9b4dc64f",
+   "anm_02deb7c62a995316",
+   "anm_4367854952693d43",
+   "anm_678943bcf3d6c2db"
+  ]
+ },
+ {
+  "string": "menuFrame_00_outBackButton_00.brlan",
+  "assets": [
+   "anm_d5c854fc17042d7c",
+   "anm_0b8ebc447c23fc43",
+   "anm_0d90768455f949a8",
+   "anm_4070ed66aa0ac820"
+  ]
+ },
+ {
+  "string": "menuFrame_00_activeBack_00.brlan",
+  "assets": [
+   "anm_176f5502482ef270",
+   "anm_bcd241b1177577b9",
+   "anm_136fb7a1485e937c",
+   "anm_857a905db0681364"
+  ]
+ },
+ {
+  "string": "menuFrame_00_pushBack_00.brlan",
+  "assets": [
+   "anm_49b347ba4c77ee7a",
+   "anm_a6667289ad661ee3",
+   "anm_f803324b9a1f10e6",
+   "anm_46b287d26537a68e"
+  ]
+ },
+ {
+  "string": "menuFrame_00_changeBack_00.brlan",
+  "assets": [
+   "anm_c57ca0553519e95a",
+   "anm_2161cbefa57ec71f",
+   "anm_cc6bc3a6f139d5a6",
+   "anm_dd42e0ab6df8af1e"
+  ]
+ },
+ {
+  "string": "menuFrame_00_changeText_00.brlan",
+  "assets": [
+   "anm_ce9a6acceec653c6",
+   "anm_be7f834552f2045f",
+   "anm_4fabcdd78163961a",
+   "anm_4a2196f19203f292"
+  ]
+ },
+ {
+  "string": "menuFrame_00_inName_00.brlan",
+  "assets": [
+   "anm_5d5bfc0f5ecf98fb",
+   "anm_30829a82fd311dca",
+   "anm_811baf1fc71b565f",
+   "anm_5d265ca946d24d87"
+  ]
+ },
+ {
+  "string": "menuFrame_00_outName_00.brlan",
+  "assets": [
+   "anm_749ddd80d78ec63c",
+   "anm_3c866b0804640d5f",
+   "anm_c8d91b7a5d200cf8",
+   "anm_9267ac66d7564020"
+  ]
+ },
+ {
+  "string": "menuFrame_00_inTraining_00.brlan",
+  "assets": [
+   "anm_a0fd1ea408849184",
+   "anm_55adf2784fdfe269",
+   "anm_492cabc2c12733e0",
+   "anm_1e54b115c68a7908"
+  ]
+ },
+ {
+  "string": "menuFrame_00_outTraining_00.brlan",
+  "assets": [
+   "anm_66010a0589e4d467",
+   "anm_39847cd6c0badae0",
+   "anm_f168ce0dfdff5d9b",
+   "anm_add3c3b916e885a3"
+  ]
+ },
+ {
+  "string": "menuFrame_00_changeTraining_00.brlan",
+  "assets": [
+   "anm_050cae0b2375ff95",
+   "anm_502d1c016d248460",
+   "anm_52c256ad1bb20ea1",
+   "anm_ca028255051e3069"
+  ]
+ },
+ {
+  "string": "menuFrame_00_inPtGame_00.brlan",
+  "assets": [
+   "anm_bbe8c8aa834e75d0",
+   "anm_20bd4bb674019125",
+   "anm_f6e7beae4eb7844c",
+   "anm_56fa550a29c8ac64"
+  ]
+ },
+ {
+  "string": "menuFrame_00_outPtGame_00.brlan",
+  "assets": [
+   "anm_75f02869ddee6daf",
+   "anm_35593fc907a1d34c",
+   "anm_fcdbee23a9aaa283",
+   "anm_fda72f13a67fb35b"
+  ]
+ },
+ {
+  "string": "menuFrame_00_changePtGame_00.brlan",
+  "assets": [
+   "anm_87814a135af00241",
+   "anm_c9cb093e9678e0cc",
+   "anm_edd854cfacd68d4d",
+   "anm_e4aa09b51d152f25"
+  ]
+ },
+ {
+  "string": "menuFrame_00_tpaSports_00.brlan",
+  "assets": [
+   "anm_1282329fc8566769",
+   "anm_10ab971fc986641e",
+   "anm_98abee7bfe324cad",
+   "anm_625fabbf43956495"
+  ]
+ },
+ {
+  "string": "menuFrame_00_tpaHajimete_00.brlan",
+  "assets": [
+   "anm_2d6fb88bad186035",
+   "anm_5dcfbba5de27027e",
+   "anm_543e833322eb65c9",
+   "anm_5ce19a4e76d7f5e1"
+  ]
+ },
+ {
+  "string": "menuFrame_00.brlyt",
+  "assets": [
+   "lyt_948dbaa3587c914b",
+   "lyt_18dfdb7b5415c592",
+   "lyt_1e7ea038c7cedc2b",
+   "lyt_d4a4180dd204b127"
+  ]
+ },
+ {
+  "string": "Environment/scene_Light.plight",
+  "assets": [
+   "bin_1c05d56e3564018b",
+   "bin_c344b00fe3aef01d",
+   "bin_33e8d31c89a62795",
+   "bin_cf0180f3f74fec89",
+   "bin_d519d9b79d20a4b6"
+  ]
+ },
+ {
+  "string": "Environment/scene_Lm.plmap",
+  "assets": [
+   "bin_923b68462a5099de",
+   "bin_76041f6ed28683b8",
+   "bin_81d45fdc6d9ad8f0",
+   "bin_3e6f8d9c03065a64",
+   "bin_d74f77c450cb002b"
+  ]
+ },
+ {
+  "string": "rimoconEntry_00_inScene_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "rimoconEntry_00_outScene_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "rimoconEntry_00_activeButton_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "rimoconEntry_00_pushButton_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "rimoconEntry_00_offRimocon_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "rimoconEntry_00_onRimocon_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "rimoconEntry_00_inoutScene2_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "rimoconEntry_00_inoutRimoOn_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "rimoconEntry_00_loopRimoOff_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "rimoconEntry_00_off_onRimo_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "rimoconEntry_00_onOffButton_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "rimoconEntry_00_off_onLamp_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "rimoconEntry_pt.arc",
+  "assets": []
+ },
+ {
+  "string": "rimoconEntry.arc",
+  "assets": []
+ },
+ {
+  "string": "rimoconEntry_00.brlyt",
+  "assets": []
+ },
+ {
+  "string": "playerSelect_00_inFrame_00.brlan",
+  "assets": [
+   "anm_9059fc2daed71a15"
+  ]
+ },
+ {
+  "string": "playerSelect_00_outFrame_00.brlan",
+  "assets": [
+   "anm_f988579141e47acc"
+  ]
+ },
+ {
+  "string": "playerSelect_00_activeArrow_00.brlan",
+  "assets": [
+   "anm_dcbf8e9c2ec14a74"
+  ]
+ },
+ {
+  "string": "playerSelect_00_activePlayer_00.brlan",
+  "assets": [
+   "anm_1a092d5e06dfe7a6"
+  ]
+ },
+ {
+  "string": "playerSelect_00_pushArrow_00.brlan",
+  "assets": [
+   "anm_af2c3c58125e594e"
+  ]
+ },
+ {
+  "string": "playerSelect_00_pushPlayer_00.brlan",
+  "assets": [
+   "anm_74eda06922faf3f0"
+  ]
+ },
+ {
+  "string": "playerSelect_00_moveArrow_00.brlan",
+  "assets": [
+   "anm_98e6470943120fbb"
+  ]
+ },
+ {
+  "string": "playerSelect_00_inoutArrow_00.brlan",
+  "assets": [
+   "anm_6d84c8c34077e0ad"
+  ]
+ },
+ {
+  "string": "playerSelect_00_slidePlayer_00.brlan",
+  "assets": [
+   "anm_f12620efa6ced59d"
+  ]
+ },
+ {
+  "string": "playerSelect_00_activeButton_00.brlan",
+  "assets": [
+   "anm_357c646e619db57d"
+  ]
+ },
+ {
+  "string": "playerSelect_00_pushButton_00.brlan",
+  "assets": [
+   "anm_21508c5280ff6daf"
+  ]
+ },
+ {
+  "string": "playerSelect_00_activeButton_01.brlan",
+  "assets": [
+   "anm_ae42f3b4342adb66"
+  ]
+ },
+ {
+  "string": "playerSelect_00_pushButton_01.brlan",
+  "assets": [
+   "anm_1ec0e0f21c98a5a0"
+  ]
+ },
+ {
+  "string": "playerSelect_00_inoutText_00.brlan",
+  "assets": [
+   "anm_dfe39510623bcc0f"
+  ]
+ },
+ {
+  "string": "playerSelect_00_moveText_00.brlan",
+  "assets": [
+   "anm_aa468e2ff68b61f1"
+  ]
+ },
+ {
+  "string": "playerSelect_00_loopMark_00.brlan",
+  "assets": [
+   "anm_f14395308da5cd0e"
+  ]
+ },
+ {
+  "string": "playerSelect.arc",
+  "assets": [
+   "bin_89c8fe383f3979e0"
+  ]
+ },
+ {
+  "string": "playerSelect_00.brlyt",
+  "assets": [
+   "lyt_6c3473432d8a0fb3"
+  ]
+ },
+ {
+  "string": "nunchukCheck.arc",
+  "assets": []
+ },
+ {
+  "string": "nunchukCheck_00.brlyt",
+  "assets": []
+ },
+ {
+  "string": "nunchukCheck_00_activeBack_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "nunchukCheck_00_pushBack_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "nunchukCheck_00_inOK_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "nunchukCheck_00_outOK_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "nunchukCheck_00_LED_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "G3D/PT_menu_BG_model.brres",
+  "assets": []
+ },
+ {
+  "string": "G3D/PT_menu_TV_model.brres",
+  "assets": []
+ },
+ {
+  "string": "playerSelect_01_activeLR_00.brlan",
+  "assets": [
+   "anm_5378dcce2aab9cf4"
+  ]
+ },
+ {
+  "string": "playerSelect_01_activeLR_01.brlan",
+  "assets": [
+   "anm_b11af3d349371d03"
+  ]
+ },
+ {
+  "string": "playerSelect_01_pushLR_00.brlan",
+  "assets": [
+   "anm_e9c3e3e399d546d2"
+  ]
+ },
+ {
+  "string": "playerSelect_01_pushLR_01.brlan",
+  "assets": [
+   "anm_79a93281a0dae709"
+  ]
+ },
+ {
+  "string": "playerSelect_01_activeButton_00.brlan",
+  "assets": [
+   "anm_8f7957d1a63528ce"
+  ]
+ },
+ {
+  "string": "playerSelect_01_pushButton_00.brlan",
+  "assets": [
+   "anm_9b9a94d8d3654274"
+  ]
+ },
+ {
+  "string": "playerSelect_01_offButton_00.brlan",
+  "assets": [
+   "anm_42657715f72800cb"
+  ]
+ },
+ {
+  "string": "playerSelect_01_activeBar_00.brlan",
+  "assets": [
+   "anm_90bada31ba020d85"
+  ]
+ },
+ {
+  "string": "playerSelect_01_onOffSports_00.brlan",
+  "assets": [
+   "anm_432ccc975bb01c33"
+  ]
+ },
+ {
+  "string": "playerSelect_01.brlyt",
+  "assets": [
+   "lyt_e14a6f1d8d938bfc"
+  ]
+ },
+ {
+  "string": "playerSelect_01_inFrame_00.brlan",
+  "assets": [
+   "anm_bdd4a146ffd58240"
+  ]
+ },
+ {
+  "string": "playerSelect_03.brlyt",
+  "assets": [
+   "lyt_0880babd9b512dae"
+  ]
+ },
+ {
+  "string": "playerSelect_03_onOffLamp_00.brlan",
+  "assets": [
+   "anm_97cd623e9804270a"
+  ]
+ },
+ {
+  "string": "playerSelect_02_inFrame_00.brlan",
+  "assets": [
+   "anm_3f18c508c3e10e23"
+  ]
+ },
+ {
+  "string": "playerSelect_02_outFrame_00.brlan",
+  "assets": [
+   "anm_d1c00648a422ae66"
+  ]
+ },
+ {
+  "string": "playerSelect_02_activeButton_00.brlan",
+  "assets": [
+   "anm_e6c4763e8a84d44f"
+  ]
+ },
+ {
+  "string": "playerSelect_02_pushButton_00.brlan",
+  "assets": [
+   "anm_4d184cb0c5798d45"
+  ]
+ },
+ {
+  "string": "playerSelect_02.brlyt",
+  "assets": [
+   "lyt_f62d7a545caf059d"
+  ]
+ },
+ {
+  "string": "G3D/logo_model.brres",
+  "assets": [
+   "bin_7ff640800446415c",
+   "bin_0d1e9366b8de6667",
+   "bin_149352a2f80405c6",
+   "bin_082ce32faf1b6f30"
+  ]
+ },
+ {
+  "string": "playAdvice_00_in_00.brlan",
+  "assets": [
+   "anm_759ecd5b9a6bf96e"
+  ]
+ },
+ {
+  "string": "playAdvice_00_inAButton_00.brlan",
+  "assets": [
+   "anm_69eb3b6de27a7d4f"
+  ]
+ },
+ {
+  "string": "playAdvice_00_blinkAButton_00.brlan",
+  "assets": [
+   "anm_c021b4230f57d3c4"
+  ]
+ },
+ {
+  "string": "playAdvice_00_out_00.brlan",
+  "assets": [
+   "anm_bffa6b9012f95e45"
+  ]
+ },
+ {
+  "string": "playAdvice.arc",
+  "assets": [
+   "bin_b01f9e2dd4534da3"
+  ]
+ },
+ {
+  "string": "playAdvice_00.brlyt",
+  "assets": [
+   "lyt_cf08bf49fd18ea27"
+  ]
+ },
+ {
+  "string": "skill_01.brlyt",
+  "assets": [
+   "lyt_73252738c8f9ba62"
+  ]
+ },
+ {
+  "string": "skill_01_uArrow_00.brlan",
+  "assets": [
+   "anm_cfd8eeccefb981c6"
+  ]
+ },
+ {
+  "string": "skill_01_rArrow_00.brlan",
+  "assets": [
+   "anm_cae46b95ac44f2a7"
+  ]
+ },
+ {
+  "string": "skill_01_dArrow_00.brlan",
+  "assets": [
+   "anm_8200d280d4621e9d"
+  ]
+ },
+ {
+  "string": "skill.arc",
+  "assets": [
+   "bin_18db9375dda4030c"
+  ]
+ },
+ {
+  "string": "skill_00.brlyt",
+  "assets": [
+   "lyt_9d0c68bbf9da3b01"
+  ]
+ },
+ {
+  "string": "skill_00_inFrame_00.brlan",
+  "assets": [
+   "anm_d7b04445cd364173"
+  ]
+ },
+ {
+  "string": "skill_00_outFrame_00.brlan",
+  "assets": [
+   "anm_415d3cf4e3adc816"
+  ]
+ },
+ {
+  "string": "skill_00_inButton_00.brlan",
+  "assets": [
+   "anm_926ee79c8d6ab84c"
+  ]
+ },
+ {
+  "string": "skill_00_1play_00.brlan",
+  "assets": [
+   "anm_a3b1379313f788d8"
+  ]
+ },
+ {
+  "string": "skill_00_2play_00.brlan",
+  "assets": [
+   "anm_15ffd84067409c0f"
+  ]
+ },
+ {
+  "string": "skill_00_3play_00.brlan",
+  "assets": [
+   "anm_4da8ad2b831cdbea"
+  ]
+ },
+ {
+  "string": "skill_00_4play_00.brlan",
+  "assets": [
+   "anm_f59507ef571e8341"
+  ]
+ },
+ {
+  "string": "skill_00_activeButton_00.brlan",
+  "assets": [
+   "anm_5f623b3dc150463f"
+  ]
+ },
+ {
+  "string": "skill_00_pushButton_00.brlan",
+  "assets": [
+   "anm_c410ecc88fcd7fd5"
+  ]
+ },
+ {
+  "string": "G3D/wipe_replay.brres",
+  "assets": [
+   "bin_2510fef60ab0f4a6"
+  ]
+ },
+ {
+  "string": "G3D/bwg_strike_model.brres",
+  "assets": [
+   "bin_e4af231cb37ee727"
+  ]
+ },
+ {
+  "string": "G3D/wipe_slide.brres",
+  "assets": [
+   "bin_97fc11f28ff275aa"
+  ]
+ },
+ {
+  "string": "G3D/box_round_model.brres",
+  "assets": [
+   "bin_fdb03b7b772e3c52"
+  ]
+ },
+ {
+  "string": "G3D/box_count10.brres",
+  "assets": [
+   "bin_eb9825e2a67e5fc6"
+  ]
+ },
+ {
+  "string": "G3D/bbl_score_model.brres",
+  "assets": [
+   "bin_cb6e04f01f47c269"
+  ]
+ },
+ {
+  "string": "G3D/%s.brres",
+  "assets": [
+   "bin_d13bc6b1706c3e11",
+   "bin_2405069e4e63341d",
+   "bin_2f7ddb12052f8bf8",
+   "bin_54a532d3e711fcc1",
+   "bin_7e6c1891ab53987d",
+   "bin_a563312b00e81a17",
+   "bin_384e457b1060249e",
+   "bin_63a6dd9b92f2c164",
+   "bin_1a4ecf19161acf06",
+   "bin_260c278b7f33a0db",
+   "bin_05721608a34c37f4",
+   "bin_6c86d7148a33a13d",
+   "bin_8cc6466324f490d0",
+   "bin_f17cefe9b1664c8b",
+   "bin_c66adb7824554ac4",
+   "bin_6a5e257143e4319b",
+   "bin_eadc670e9b2d0f42",
+   "bin_46d1b8c9c1d7ec33",
+   "bin_1c942abc888950f8",
+   "bin_3c80711cb2f388f3",
+   "bin_4deb565f069b8812",
+   "bin_8c91de113992ecc3",
+   "bin_cc2f711a39502862",
+   "bin_d8368b511437bf83",
+   "bin_58b7a0f7365c6c32",
+   "bin_bc5b1a9513318a23",
+   "bin_043ffb350771b4ec",
+   "bin_07763e7c35a882f3",
+   "bin_d76f87e779e11d98",
+   "bin_f5e03b77e144b453",
+   "bin_1707acb24b46f198",
+   "bin_d7de74db60b98b89",
+   "bin_05a9ff6246255880",
+   "bin_3fac77b7b7bae55b",
+   "bin_68fbc4030ea56866",
+   "bin_161510accccc1813",
+   "bin_9fb5b400c0577597",
+   "bin_54169256f148b394",
+   "bin_003e7675d5d9472f",
+   "bin_b3c12deff5cecfdd",
+   "bin_1d74443b4d884442",
+   "bin_04bf92da4b502149",
+   "bin_bc5de3f1b886ef90",
+   "bin_33ef98dd5304e6f7",
+   "bin_21dbb201d5f4aeed",
+   "bin_e4c276365dddf0d6",
+   "bin_334ee29488a599fb",
+   "bin_f6d1032b01046994",
+   "bin_0e2f53c890f1bdc4",
+   "bin_7ab58d0a64d5c62b",
+   "bin_c7c986dc80fbff3e",
+   "bin_8e4812cf7dc0f3e5",
+   "bin_0f847fb24fc1090c",
+   "bin_379692191fda4da8",
+   "bin_7ff640800446415c",
+   "bin_0d1e9366b8de6667",
+   "bin_149352a2f80405c6",
+   "bin_082ce32faf1b6f30",
+   "bin_5b6b98b5939d749e",
+   "bin_b1ce35d3d5d41e4b",
+   "bin_0678894bbdaa48d8",
+   "bin_9d0a98a6dbf0ceca",
+   "bin_8b29776dfc4c7f71",
+   "bin_4d64551cd178e0f2",
+   "bin_a364095e9728d92d",
+   "bin_2384d8c98ede00cf",
+   "bin_fbab76f2c73bbd79",
+   "bin_2510fef60ab0f4a6",
+   "bin_09be2a6d9513a20f",
+   "bin_97fc11f28ff275aa",
+   "bin_ba6138db14977871",
+   "bin_9043bf6ce88c8b8b",
+   "bin_4f7407fee4ce12a0",
+   "bin_b1a3fa70dd021798",
+   "bin_a0820b78dcd16290",
+   "bin_2606244675da26a4",
+   "bin_9c086e9055b1b2cf",
+   "bin_6ca65fffbc80762d",
+   "bin_cb6e04f01f47c269",
+   "bin_24b73cc3bdee2d98",
+   "bin_eb9825e2a67e5fc6",
+   "bin_1b3b4106288e2d9e",
+   "bin_8ed1f89e069f07b4",
+   "bin_fdb03b7b772e3c52",
+   "bin_373cb5ee4ce2793f",
+   "bin_f61e460a16c99b88",
+   "bin_e4af231cb37ee727",
+   "bin_33a8d3d6ac258768",
+   "bin_e99c209326686603",
+   "bin_33b896a1b734ea69",
+   "bin_c37524cde587c667",
+   "bin_048f57ee2736345b",
+   "bin_91ea1d22d6f8a214",
+   "bin_f4a1bede1e28c54d",
+   "bin_14c9297e421b9c74",
+   "bin_9134d449ad65daf9",
+   "bin_a771eb9ed5b2fd2b",
+   "bin_9b897b656e204145",
+   "bin_11f6a5705fc342af",
+   "bin_47878a4553e3969a",
+   "bin_41c8ad042d559a61",
+   "bin_30b95bc2ba8a120b",
+   "bin_c0ad43e91b0b4fca",
+   "bin_921ca3053507051e",
+   "bin_1e04d590b4cb4d5c",
+   "bin_41de207a73a47eb8",
+   "bin_715169d313c13c91",
+   "bin_8c75ff07d5e1ab1d",
+   "bin_4691d1fdfb74efe1",
+   "bin_4236a21dfb10a6af",
+   "bin_17ffc07d9bac9e2b",
+   "bin_ea1ba59863ca7895",
+   "bin_d3555f81a4c2656a",
+   "bin_2942b2f0fb18f7cd",
+   "bin_8317f56c2fba9b01",
+   "bin_df9c36dd41054648",
+   "bin_0f3b62cbd2a23ee5",
+   "bin_3c8c8646fb8fc4d0",
+   "bin_45813325abed1608",
+   "bin_d7f7eeb7936cac10",
+   "bin_6ccea044457edb1f",
+   "bin_1b5cebccbc0d2b94",
+   "bin_289e1ee6b1e0acca",
+   "bin_16dbc2c9f22dc2a8",
+   "bin_ecf36e3779a0fa0e",
+   "bin_c8531bc8bbcc7cbd",
+   "bin_26528a585341cfce",
+   "bin_de4c063ca8a385ce",
+   "bin_b73e2ddc3fd03af8",
+   "bin_33e38ae1b3941caa",
+   "bin_91dd6e990dbae89f",
+   "bin_00f3fd63e45ec026",
+   "bin_a32c9176755f3725",
+   "bin_154c481b19cb6e9d",
+   "bin_c93c299a8a554379",
+   "bin_c8e28748e5fb6c78",
+   "bin_cbb0076400dc995b",
+   "bin_1ce2c0d8ae987b39",
+   "bin_a5e4fd7f2ed80f70",
+   "bin_56473c91793b8a21",
+   "bin_bfe5f7afb807f36c",
+   "bin_acaeb9093f0056be",
+   "bin_379cd87659daff23",
+   "bin_5d89f95a7c55a42d",
+   "bin_6eec6adbb4b57131",
+   "bin_f215aa3e4105c943",
+   "bin_69b746b299344369",
+   "bin_214d76c383489767",
+   "bin_008856ddb2245dda",
+   "bin_57ed3d42226d0dd2",
+   "bin_a43bea1503bfc7c3",
+   "bin_ae0f56ff21db60fa"
+  ]
+ },
+ {
+  "string": "G3D/wipe_scene.brres",
+  "assets": [
+   "bin_09be2a6d9513a20f"
+  ]
+ },
+ {
+  "string": "spGameStart.arc",
+  "assets": [
+   "bin_aaa9b70ff2fc1d0a"
+  ]
+ },
+ {
+  "string": "spGameStart_00.brlyt",
+  "assets": [
+   "lyt_5502abf3736b8545"
+  ]
+ },
+ {
+  "string": "spGameStart_00_inoutText_00.brlan",
+  "assets": [
+   "anm_4e6ce5ad33434ecd"
+  ]
+ },
+ {
+  "string": "sportsTop_00_activeButton_00.brlan",
+  "assets": [
+   "anm_7775fccaed895c4c"
+  ]
+ },
+ {
+  "string": "sportsTop_00_pushButton_00.brlan",
+  "assets": [
+   "anm_cc0143954758088e"
+  ]
+ },
+ {
+  "string": "sportsTop_00_activeButtonS_00.brlan",
+  "assets": [
+   "anm_780922a57b90fafb"
+  ]
+ },
+ {
+  "string": "sportsTop_00_pushButtonS_00.brlan",
+  "assets": [
+   "anm_e3b9ff7ed45b46bd"
+  ]
+ },
+ {
+  "string": "sportsTop_00_activeButtonP_00.brlan",
+  "assets": [
+   "anm_80f729b61b435b6c"
+  ]
+ },
+ {
+  "string": "sportsTop_00_pushButtonP_00.brlan",
+  "assets": [
+   "anm_0d43ee23e28c608a"
+  ]
+ },
+ {
+  "string": "sportsTop_00_tevFrame_00.brlan",
+  "assets": [
+   "anm_8fd30934283f903e"
+  ]
+ },
+ {
+  "string": "sportsTop_00_tpa_43_00.brlan",
+  "assets": [
+   "anm_55c89cd008e8f8a1"
+  ]
+ },
+ {
+  "string": "sportsTop_00_tpa_169_00.brlan",
+  "assets": [
+   "anm_d01c8ca5a365add4"
+  ]
+ },
+ {
+  "string": "sportsTop_00_titleBg_00.brlan",
+  "assets": [
+   "anm_02659c623999ee09"
+  ]
+ },
+ {
+  "string": "sportsTop.arc",
+  "assets": [
+   "bin_2ac8ca2fd84a0cee"
+  ]
+ },
+ {
+  "string": "sportsTop_00.brlyt",
+  "assets": [
+   "lyt_af0a9c793e7f347e"
+  ]
+ },
+ {
+  "string": "sportsTop_00_inFrame_00.brlan",
+  "assets": [
+   "anm_95bd97a1129b446a"
+  ]
+ },
+ {
+  "string": "playerIntroduction.arc",
+  "assets": [
+   "bin_3a30ea1ec223492e"
+  ]
+ },
+ {
+  "string": "playerIntroduction_00.brlyt",
+  "assets": [
+   "lyt_132e79b0ecde3659"
+  ]
+ },
+ {
+  "string": "playerIntroduction_00_in_00.brlan",
+  "assets": [
+   "anm_debe42dde2944718"
+  ]
+ },
+ {
+  "string": "playerIntroduction_00_out_00.brlan",
+  "assets": [
+   "anm_5da746f9c29fad83"
+  ]
+ },
+ {
+  "string": "playerIntroduction_00_onLED_00.brlan",
+  "assets": [
+   "anm_2eb2c6cd0dbd14d5"
+  ]
+ },
+ {
+  "string": "playerIntroduction_00_offLED_00.brlan",
+  "assets": [
+   "anm_11665b1cd0ecca93"
+  ]
+ },
+ {
+  "string": "spVsPlayer.arc",
+  "assets": [
+   "bin_e26b610206b2f6de"
+  ]
+ },
+ {
+  "string": "spVsPlayer_00.brlyt",
+  "assets": [
+   "lyt_d7102d80ffdebc5d"
+  ]
+ },
+ {
+  "string": "spVsPlayer_00_in_00.brlan",
+  "assets": [
+   "anm_d106f3aa39e88be0"
+  ]
+ },
+ {
+  "string": "spVsPlayer_00_on_00.brlan",
+  "assets": [
+   "anm_5bb11ce558fc4b26"
+  ]
+ },
+ {
+  "string": "spVsPlayer_00_off_00.brlan",
+  "assets": [
+   "anm_04d64f2fee328af8"
+  ]
+ },
+ {
+  "string": "spVsPlayer_00_p2_00.brlan",
+  "assets": [
+   "anm_0662314320db172f"
+  ]
+ },
+ {
+  "string": "spVsPlayer_00_cpu_00.brlan",
+  "assets": [
+   "anm_97211d0a037e6a15"
+  ]
+ },
+ {
+  "string": "training_01_pushA_00.brlan",
+  "assets": [
+   "anm_22fc1c11d0301dd5",
+   "anm_2812ae2ea25f4a0d"
+  ]
+ },
+ {
+  "string": "training_01_tpaGameScreen_00.brlan",
+  "assets": [
+   "anm_03b3a1aa61b4d7df",
+   "anm_641df8c786e6f147"
+  ]
+ },
+ {
+  "string": "training.arc",
+  "assets": [
+   "bin_02d464a8be96ca35",
+   "bin_fd8bf790d3eaf147"
+  ]
+ },
+ {
+  "string": "training_01.brlyt",
+  "assets": [
+   "lyt_01712b7fc7a1a138",
+   "lyt_480f42dfbb50938a",
+   "lyt_a8a1bc57d8983e6c"
+  ]
+ },
+ {
+  "string": "training_00_sportsTitle_00.brlan",
+  "assets": [
+   "anm_108178ae1cbbb648",
+   "anm_fdab4ad7d83e4680"
+  ]
+ },
+ {
+  "string": "training_00_upSportsTitle_00.brlan",
+  "assets": [
+   "anm_1b4e21f853e89d55",
+   "anm_848a8e2ebbae5c2d"
+  ]
+ },
+ {
+  "string": "training_00_downSportsTitle_00.brlan",
+  "assets": [
+   "anm_35578102f99ea478",
+   "anm_85d62e712b249950"
+  ]
+ },
+ {
+  "string": "training_00_Button_00.brlan",
+  "assets": [
+   "anm_54b913c96729009b",
+   "anm_446e8c2868cc3293"
+  ]
+ },
+ {
+  "string": "training_00_activeButton_00.brlan",
+  "assets": [
+   "anm_bb484cd39cae8bb1",
+   "anm_d9d49c822e554c19"
+  ]
+ },
+ {
+  "string": "training_00_pushButton_00.brlan",
+  "assets": [
+   "anm_e010b9b8769b4883",
+   "anm_d4235a678af9c54b"
+  ]
+ },
+ {
+  "string": "training_00_open_00.brlan",
+  "assets": [
+   "anm_cb86fb7f2ca71603",
+   "anm_0e5163845501a07b"
+  ]
+ },
+ {
+  "string": "training_00.brlyt",
+  "assets": [
+   "lyt_fe3b53d34a401dcf",
+   "lyt_f0e3635bd2bf14e9",
+   "lyt_650ad39ebc3ae563"
+  ]
+ },
+ {
+  "string": "training_00_inFrame_00.brlan",
+  "assets": [
+   "anm_2fe33e2774e13461",
+   "anm_a46b7db89c70b519"
+  ]
+ },
+ {
+  "string": "Effect/sports_training.breff",
+  "assets": [
+   "bin_029451e8971d86a9"
+  ]
+ },
+ {
+  "string": "Effect/sports_training.breft",
+  "assets": [
+   "bin_02943fe8971d6813"
+  ]
+ },
+ {
+  "string": "trainingResult_01_inoutScene_00.brlan",
+  "assets": [
+   "anm_6a1e4472c6266663"
+  ]
+ },
+ {
+  "string": "trainingResult_01_inButton_00.brlan",
+  "assets": [
+   "anm_3c375a24e6f396b7"
+  ]
+ },
+ {
+  "string": "trainingResult_01_2play_00.brlan",
+  "assets": [
+   "anm_a37dbfb49f627c22"
+  ]
+ },
+ {
+  "string": "trainingResult_01_3play_00.brlan",
+  "assets": [
+   "anm_3bac351916972d27"
+  ]
+ },
+ {
+  "string": "trainingResult_01_4play_00.brlan",
+  "assets": [
+   "anm_4adc2c7bc4dc5304"
+  ]
+ },
+ {
+  "string": "trainingResult_02_blinkIcon_00.brlan",
+  "assets": [
+   "anm_1191bcafe886fa74"
+  ]
+ },
+ {
+  "string": "trainingResult_02.brlyt",
+  "assets": [
+   "lyt_e9bf87e92857e74b"
+  ]
+ },
+ {
+  "string": "trainingResult.arc",
+  "assets": [
+   "bin_4106d25af7af7c9c"
+  ]
+ },
+ {
+  "string": "trainingResult_01.brlyt",
+  "assets": [
+   "lyt_287636f269c6af86"
+  ]
+ },
+ {
+  "string": "trainingResult_01_activeButton_00.brlan",
+  "assets": [
+   "anm_69d0b648fee85b98"
+  ]
+ },
+ {
+  "string": "trainingResult_01_pushButton_00.brlan",
+  "assets": [
+   "anm_cbb82562ffc401da"
+  ]
+ },
+ {
+  "string": "trainingResult_00_inoutScene_00.brlan",
+  "assets": [
+   "anm_87fbf19f6721571c"
+  ]
+ },
+ {
+  "string": "trainingResult_00_medal_00.brlan",
+  "assets": [
+   "anm_a504334a4b648ffe"
+  ]
+ },
+ {
+  "string": "trainingResult_00_inIcon_00.brlan",
+  "assets": [
+   "anm_392d453c2ba3dbaf"
+  ]
+ },
+ {
+  "string": "trainingResult_00_keepIcon_00.brlan",
+  "assets": [
+   "anm_703846c62e543c6d"
+  ]
+ },
+ {
+  "string": "trainingResult_00_tpaMedal_00.brlan",
+  "assets": [
+   "anm_d369704e5d7babef"
+  ]
+ },
+ {
+  "string": "trainingResult_00_activeButton_00.brlan",
+  "assets": [
+   "anm_ea559a5102d1931f"
+  ]
+ },
+ {
+  "string": "trainingResult_00_pushButton_00.brlan",
+  "assets": [
+   "anm_781f9878f09c6b35"
+  ]
+ },
+ {
+  "string": "trainingResult_00_offOnButton_00.brlan",
+  "assets": [
+   "anm_2d889a051efabf93"
+  ]
+ },
+ {
+  "string": "trainingResult_00.brlyt",
+  "assets": [
+   "lyt_333c8effdd345e35"
+  ]
+ },
+ {
+  "string": "spFTest_00_activeButton_00.brlan",
+  "assets": [
+   "anm_2dbce96fa2b24829"
+  ]
+ },
+ {
+  "string": "spFTest_00_activeNgButton_00.brlan",
+  "assets": [
+   "anm_2ca28ab55070e9d4"
+  ]
+ },
+ {
+  "string": "spFTest_00_pushButton_00.brlan",
+  "assets": [
+   "anm_5bee89a2747216fb"
+  ]
+ },
+ {
+  "string": "spFTest_00_activeLGraph_00.brlan",
+  "assets": [
+   "anm_3be9e20bbd14a5dd"
+  ]
+ },
+ {
+  "string": "spFTest_00_pushLGraph_00.brlan",
+  "assets": [
+   "anm_738c86fcbb49cab3"
+  ]
+ },
+ {
+  "string": "spFTest_00_measure_00.brlan",
+  "assets": [
+   "anm_c89ef33a19adc999"
+  ]
+ },
+ {
+  "string": "spFTest_00_spAgeResult_00.brlan",
+  "assets": [
+   "anm_fd373680fdd5c1c4"
+  ]
+ },
+ {
+  "string": "msy_point08_00.bti",
+  "assets": [
+   "bin_2f1bbe61ce4a9560"
+  ]
+ },
+ {
+  "string": "spFTest.arc",
+  "assets": [
+   "bin_e25949dd71dfb99a"
+  ]
+ },
+ {
+  "string": "spFTest_00.brlyt",
+  "assets": [
+   "lyt_2fa7f1877de3d3c7"
+  ]
+ },
+ {
+  "string": "spFTest_01.brlyt",
+  "assets": [
+   "lyt_51874e963563eb50"
+  ]
+ },
+ {
+  "string": "spFTest_00_in_00.brlan",
+  "assets": [
+   "anm_1c7d04938e5e31aa"
+  ]
+ },
+ {
+  "string": "spFTest_01_in_01.brlan",
+  "assets": [
+   "anm_48590f3c156c971e"
+  ]
+ },
+ {
+  "string": "training_01_inAlphaFrame_00.brlan",
+  "assets": [
+   "anm_5b775367c0d9ab0a",
+   "anm_6dc764e007d72712"
+  ]
+ },
+ {
+  "string": "replay.arc",
+  "assets": [
+   "bin_9f59621971f13a08"
+  ]
+ },
+ {
+  "string": "replay_00.brlyt",
+  "assets": [
+   "lyt_5ca73401f482b945"
+  ]
+ },
+ {
+  "string": "replay_00_blink_00.brlan",
+  "assets": [
+   "anm_ccd31986c0546821"
+  ]
+ },
+ {
+  "string": "G3D/sp_titleBG_00.brres",
+  "assets": [
+   "bin_8b29776dfc4c7f71",
+   "bin_4d64551cd178e0f2"
+  ]
+ },
+ {
+  "string": "SpTitle_01_in_00.brlan",
+  "assets": [
+   "anm_673d80f8f1f893e3"
+  ]
+ },
+ {
+  "string": "SpTitle_00_in_00.brlan",
+  "assets": [
+   "anm_3917080019a75ae0"
+  ]
+ },
+ {
+  "string": "SpTitle_00_upDown_00.brlan",
+  "assets": [
+   "anm_9784df4663cbe7fe"
+  ]
+ },
+ {
+  "string": "SpTitle_00_push_00.brlan",
+  "assets": [
+   "anm_f981a42bd0705335"
+  ]
+ },
+ {
+  "string": "SpTitle_00.brlyt",
+  "assets": [
+   "lyt_9432230e0702d4c5"
+  ]
+ },
+ {
+  "string": "SpTitle_01.brlyt",
+  "assets": [
+   "lyt_8e3b97ad9fb76716"
+  ]
+ },
+ {
+  "string": "SpTitle.arc",
+  "assets": [
+   "bin_2f5fe5769ca82874"
+  ]
+ },
+ {
+  "string": "spFTest_00_inButton_00.brlan",
+  "assets": [
+   "anm_1986544c96cf5e8a"
+  ]
+ },
+ {
+  "string": "spFTest_00_onLGraph_00.brlan",
+  "assets": [
+   "anm_cf3792bca21ec764"
+  ]
+ },
+ {
+  "string": "spFTest_00_result_00.brlan",
+  "assets": [
+   "anm_f8969312f1d69828"
+  ]
+ },
+ {
+  "string": "spFTest_00_result_01.brlan",
+  "assets": [
+   "anm_eb33ce6041e4bbb7"
+  ]
+ },
+ {
+  "string": "spFTest_01_resultBnr_00.brlan",
+  "assets": [
+   "anm_2404eec8a6c3afab"
+  ]
+ },
+ {
+  "string": "spFTest_01_inAge_00.brlan",
+  "assets": [
+   "anm_a75f9ad31174ed36"
+  ]
+ },
+ {
+  "string": "spFTest_01_outAge_00.brlan",
+  "assets": [
+   "anm_a13380acc2b0f53d"
+  ]
+ },
+ {
+  "string": "spFTest_01_inCrash_00.brlan",
+  "assets": [
+   "anm_ffbfc953c38fbb4a"
+  ]
+ },
+ {
+  "string": "spFTest_01_outCrash_00.brlan",
+  "assets": [
+   "anm_08a8ce87daac0fe5"
+  ]
+ },
+ {
+  "string": "spFTest_01_inSpAge_00.brlan",
+  "assets": [
+   "anm_f5a8a0da4627ef2d"
+  ]
+ },
+ {
+  "string": "spFTest_01_outSpAge_00.brlan",
+  "assets": [
+   "anm_b420e5a5074b0f7e"
+  ]
+ },
+ {
+  "string": "spFTest_01_inBack_00.brlan",
+  "assets": [
+   "anm_4e8945d5db42b5d0"
+  ]
+ },
+ {
+  "string": "spFTest_01_outBack_00.brlan",
+  "assets": [
+   "anm_1c1031d0a03ba2fd"
+  ]
+ },
+ {
+  "string": "Effect/sports_physical.breff",
+  "assets": [
+   "bin_8d63434116ec2cec"
+  ]
+ },
+ {
+  "string": "Effect/sports_physical.breft",
+  "assets": [
+   "bin_8d63554116ec4b82"
+  ]
+ },
+ {
+  "string": "zsports_message.bmg",
+  "assets": []
+ },
+ {
+  "string": "effect/sports_tennis.breff",
+  "assets": [
+   "bin_c631e17a1f78de37"
+  ]
+ },
+ {
+  "string": "effect/sports_tennis.breft",
+  "assets": [
+   "bin_c631f37a1f78fccd"
+  ]
+ },
+ {
+  "string": "tns_Field_b.carc",
+  "assets": [
+   "scn_7a2491f7518da819"
+  ]
+ },
+ {
+  "string": "tns_Field_a.carc",
+  "assets": [
+   "scn_9567f20e8a8023ea"
+  ]
+ },
+ {
+  "string": "rp_Tns_sound.brsar",
+  "assets": []
+ },
+ {
+  "string": "G3D/tns_ball_a.brres",
+  "assets": [
+   "bin_69b746b299344369"
+  ]
+ },
+ {
+  "string": "bti/shadow.bti",
+  "assets": [
+   "bin_15817b7188bc946a"
+  ]
+ },
+ {
+  "string": "G3D/tns_Field_a.brres",
+  "assets": [
+   "bin_9fb5b400c0577597"
+  ]
+ },
+ {
+  "string": "tns_Field_a.kcl",
+  "assets": [
+   "col_2d4b91c4a24f3049"
+  ]
+ },
+ {
+  "string": "G3D/tns_Field_b.brres",
+  "assets": [
+   "bin_b3c12deff5cecfdd"
+  ]
+ },
+ {
+  "string": "tns_Field_b.kcl",
+  "assets": [
+   "col_0fb54bf7fd70673b"
+  ]
+ },
+ {
+  "string": "G3D/tns_avatar_anim.brres",
+  "assets": [
+   "bin_f215aa3e4105c943"
+  ]
+ },
+ {
+  "string": "G3D/tns_pole.brres",
+  "assets": [
+   "bin_008856ddb2245dda"
+  ]
+ },
+ {
+  "string": "environment/scene_Bloom_b.pblm",
+  "assets": [
+   "bin_684c710c19cb153d"
+  ]
+ },
+ {
+  "string": "environment/scene_Bloom.pblm",
+  "assets": [
+   "bin_a827443673bd81d5",
+   "bin_fce32a255eba4fad",
+   "bin_52f55221ab50b1c1",
+   "bin_f2d3e118b4015272"
+  ]
+ },
+ {
+  "string": "G3D/scene.brres",
+  "assets": [
+   "bin_048f57ee2736345b",
+   "bin_91ea1d22d6f8a214"
+  ]
+ },
+ {
+  "string": "environment/scene_Light.plight",
+  "assets": [
+   "bin_1c05d56e3564018b",
+   "bin_c344b00fe3aef01d",
+   "bin_33e8d31c89a62795",
+   "bin_cf0180f3f74fec89",
+   "bin_d519d9b79d20a4b6"
+  ]
+ },
+ {
+  "string": "environment/scene_Lm.plmap",
+  "assets": [
+   "bin_923b68462a5099de",
+   "bin_76041f6ed28683b8",
+   "bin_81d45fdc6d9ad8f0",
+   "bin_3e6f8d9c03065a64",
+   "bin_d74f77c450cb002b"
+  ]
+ },
+ {
+  "string": "environment/scene_Light_select.plight",
+  "assets": [
+   "bin_e115acf3de494831"
+  ]
+ },
+ {
+  "string": "environment/scene_Lm_select.plmap",
+  "assets": [
+   "bin_99bfa43eccbf7624"
+  ]
+ },
+ {
+  "string": "environment/scene_Light_b.plight",
+  "assets": [
+   "bin_8f650178cd6ef5b1"
+  ]
+ },
+ {
+  "string": "environment/scene_Lm_b.plmap",
+  "assets": [
+   "bin_5f8a21d367706536"
+  ]
+ },
+ {
+  "string": "bti/block.bti",
+  "assets": [
+   "bin_2b5e9866370ab775"
+  ]
+ },
+ {
+  "string": "G3D/tns_net_a.brres",
+  "assets": [
+   "bin_54169256f148b394",
+   "bin_003e7675d5d9472f"
+  ]
+ },
+ {
+  "string": "G3D/tns_mato.brres",
+  "assets": [
+   "bin_214d76c383489767"
+  ]
+ },
+ {
+  "string": "serverIcon.arc",
+  "assets": [
+   "bin_8f6ff375e0e674b0"
+  ]
+ },
+ {
+  "string": "serverIcon_00.brlyt",
+  "assets": [
+   "lyt_5aafef20f9aef7de"
+  ]
+ },
+ {
+  "string": "serverIcon_00_point_00.brlan",
+  "assets": [
+   "anm_e5ef1c7634b649b0"
+  ]
+ },
+ {
+  "string": "serverIcon_00_out_00.brlan",
+  "assets": [
+   "anm_118bb5e4b66277da"
+  ]
+ },
+ {
+  "string": "serverIcon_00_in_00.brlan",
+  "assets": [
+   "anm_1f3774a5194ce99f"
+  ]
+ },
+ {
+  "string": "miss.arc",
+  "assets": [
+   "bin_3936d78a13d37ea2"
+  ]
+ },
+ {
+  "string": "miss_00.brlyt",
+  "assets": [
+   "lyt_1353e26964e0613a"
+  ]
+ },
+ {
+  "string": "ballScore_00_changeWPane_00.brlan",
+  "assets": [
+   "anm_6e2e13d314629c17"
+  ]
+ },
+ {
+  "string": "ballScore_01_changeWPane_00.brlan",
+  "assets": [
+   "anm_8650b3788aeb5942"
+  ]
+ },
+ {
+  "string": "ballScore_00_changeWPane_01.brlan",
+  "assets": [
+   "anm_7ef7d885c7395488"
+  ]
+ },
+ {
+  "string": "ballScore_01_changeWPane_01.brlan",
+  "assets": [
+   "anm_8e59c43667cf6b39"
+  ]
+ },
+ {
+  "string": "ballScore_00_changeWPane_02.brlan",
+  "assets": [
+   "anm_97af6b9460bc9519"
+  ]
+ },
+ {
+  "string": "ballScore_01_changeWPane_02.brlan",
+  "assets": [
+   "anm_7b8bed3385fcf828"
+  ]
+ },
+ {
+  "string": "ballScore_00_in_00.brlan",
+  "assets": [
+   "anm_0aaad9e09edadd3f"
+  ]
+ },
+ {
+  "string": "ballScore_01_in_00.brlan",
+  "assets": [
+   "anm_abd91131409d855c"
+  ]
+ },
+ {
+  "string": "ballScore.arc",
+  "assets": [
+   "bin_c9a2e66d0cce991b"
+  ]
+ },
+ {
+  "string": "ballScore_00.brlyt",
+  "assets": [
+   "lyt_16394b77c1573502"
+  ]
+ },
+ {
+  "string": "ballScore_01.brlyt",
+  "assets": [
+   "lyt_9b027388de6e6821"
+  ]
+ },
+ {
+  "string": "vsScoreServer_00_blink_00.brlan",
+  "assets": [
+   "anm_6e095dff4345c5ce"
+  ]
+ },
+ {
+  "string": "vsScoreServer_00_blink_01.brlan",
+  "assets": [
+   "anm_91f31c75922d0585"
+  ]
+ },
+ {
+  "string": "vsScoreServer.arc",
+  "assets": [
+   "bin_1a74cc9daee177a6"
+  ]
+ },
+ {
+  "string": "vsScoreServer_00.brlyt",
+  "assets": [
+   "lyt_faf9a9ac02d0f6bc"
+  ]
+ },
+ {
+  "string": "posSelect_01_offIndi_00.brlan",
+  "assets": [
+   "anm_08c0bc184f648263"
+  ]
+ },
+ {
+  "string": "posSelect_01_onIndi_00.brlan",
+  "assets": [
+   "anm_34dd86c4a734ee8f"
+  ]
+ },
+ {
+  "string": "posSelect_01_out_00.brlan",
+  "assets": [
+   "anm_453eb493edadb96c"
+  ]
+ },
+ {
+  "string": "posSelect_01_icoCPU_00.brlan",
+  "assets": [
+   "anm_c5b98c01ffd2db1f"
+  ]
+ },
+ {
+  "string": "posSelect_01_icoPlayer_00.brlan",
+  "assets": [
+   "anm_246c00010d5a9010"
+  ]
+ },
+ {
+  "string": "posSelect_02_wait_00.brlan",
+  "assets": [
+   "anm_b13e3220e0e6f49e"
+  ]
+ },
+ {
+  "string": "posSelect_02_out_00.brlan",
+  "assets": [
+   "anm_9c53732fe8952edf"
+  ]
+ },
+ {
+  "string": "tennis.arc",
+  "assets": [
+   "bin_d5ed706d8065d529"
+  ]
+ },
+ {
+  "string": "posSelect_02.brlyt",
+  "assets": [
+   "lyt_01e90886400ea02d"
+  ]
+ },
+ {
+  "string": "posSelect_01.brlyt",
+  "assets": [
+   "lyt_1a475f7df51dc7cc"
+  ]
+ },
+ {
+  "string": "posSelect_00.brlyt",
+  "assets": [
+   "lyt_21e3903bd1a53e43"
+  ]
+ },
+ {
+  "string": "posSelect_00_activeButton_00.brlan",
+  "assets": [
+   "anm_cf969cf248aa3349"
+  ]
+ },
+ {
+  "string": "posSelect_00_pushButton_00.brlan",
+  "assets": [
+   "anm_0c1f6b6b3fb3fa9b"
+  ]
+ },
+ {
+  "string": "posSelect_00_activeBack_00.brlan",
+  "assets": [
+   "anm_957da3a51427b244"
+  ]
+ },
+ {
+  "string": "posSelect_00_pushBack_00.brlan",
+  "assets": [
+   "anm_6f71e3f8c4396bee"
+  ]
+ },
+ {
+  "string": "training_01_blink_00.brlan",
+  "assets": [
+   "anm_b77160e41007fae8"
+  ]
+ },
+ {
+  "string": "training_01_in_00.brlan",
+  "assets": [
+   "anm_8835869f81565e13"
+  ]
+ },
+ {
+  "string": "training_01_in_01.brlan",
+  "assets": [
+   "anm_8975b3f3ad319684"
+  ]
+ },
+ {
+  "string": "tennisText_00_in_00.brlan",
+  "assets": [
+   "anm_8ba20821ae0368c2"
+  ]
+ },
+ {
+  "string": "tennisText_00_out_00.brlan",
+  "assets": [
+   "anm_be0d18ed6b154771"
+  ]
+ },
+ {
+  "string": "tennisText_00.brlyt",
+  "assets": [
+   "lyt_ac8f944f5f682acb"
+  ]
+ },
+ {
+  "string": "G3D/tns_racket.brres",
+  "assets": [
+   "bin_ae0f56ff21db60fa"
+  ]
+ },
+ {
+  "string": "G3D/tns_r_shadow.brres",
+  "assets": [
+   "bin_a43bea1503bfc7c3"
+  ]
+ },
+ {
+  "string": "G3D/tns_r_color.brres",
+  "assets": [
+   "bin_57ed3d42226d0dd2"
+  ]
+ },
+ {
+  "string": "tnsNameIco_00_offIndi_00.brlan",
+  "assets": [
+   "anm_8d1a846702d0bedf"
+  ]
+ },
+ {
+  "string": "tnsNameIco_00_onIndi_01.brlan",
+  "assets": [
+   "anm_7e075949a4d94a6c"
+  ]
+ },
+ {
+  "string": "tnsNameIco_00_in_00.brlan",
+  "assets": [
+   "anm_56623e81a06fa8c9"
+  ]
+ },
+ {
+  "string": "tnsNameIco_00_out_00.brlan",
+  "assets": [
+   "anm_93ecf0febb3671a8"
+  ]
+ },
+ {
+  "string": "tnsNameIco_00.brlyt",
+  "assets": [
+   "lyt_88a2c7dfacf77f58"
+  ]
+ },
+ {
+  "string": "tnsCamera_00_upDown_00.brlan",
+  "assets": [
+   "anm_fefc40b0eb717a36"
+  ]
+ },
+ {
+  "string": "tnsCamera_00.brlyt",
+  "assets": [
+   "lyt_7cb1203901db8d81"
+  ]
+ },
+ {
+  "string": "G3D/ava_head.brres",
+  "assets": [
+   "bin_6eec6adbb4b57131"
+  ]
+ },
+ {
+  "string": "effect/sports_baseball.breff",
+  "assets": [
+   "bin_02145e3d1b5bcb5d"
+  ]
+ },
+ {
+  "string": "effect/sports_baseball.breft",
+  "assets": [
+   "bin_02146c3d1b5be327"
+  ]
+ },
+ {
+  "string": "rp_Bsb_sound.brsar",
+  "assets": []
+ },
+ {
+  "string": "model/G3D/bbl_Ball.brres",
+  "assets": [
+   "bin_9134d449ad65daf9"
+  ]
+ },
+ {
+  "string": "bbl_Field_a.kcl",
+  "assets": [
+   "col_3ccb6ed07ef60fb4"
+  ]
+ },
+ {
+  "string": "G3D/bbl_Field_a.brres",
+  "assets": [
+   "bin_2f7ddb12052f8bf8"
+  ]
+ },
+ {
+  "string": "G3D/bbl_Field_Screen.brres",
+  "assets": [
+   "bin_2405069e4e63341d"
+  ]
+ },
+ {
+  "string": "G3D/bbl_Field_Score.brres",
+  "assets": [
+   "bin_d13bc6b1706c3e11"
+  ]
+ },
+ {
+  "string": "ballpark00.carc",
+  "assets": [
+   "scn_86bd1563a13f7170"
+  ]
+ },
+ {
+  "string": "motion/G3D/bbl_avatar_anim.brres",
+  "assets": [
+   "bin_41de207a73a47eb8"
+  ]
+ },
+ {
+  "string": "model/G3D/bbl_Bat.brres",
+  "assets": [
+   "bin_a771eb9ed5b2fd2b"
+  ]
+ },
+ {
+  "string": "model/G3D/bbl_Glove.brres",
+  "assets": [
+   "bin_9b897b656e204145"
+  ]
+ },
+ {
+  "string": "model/G3D/bbl_c_mask.brres",
+  "assets": [
+   "bin_c0ad43e91b0b4fca"
+  ]
+ },
+ {
+  "string": "model/G3D/bbl_c_pl.brres",
+  "assets": [
+   "bin_921ca3053507051e"
+  ]
+ },
+ {
+  "string": "model/G3D/bbl_c_glove.brres",
+  "assets": [
+   "bin_30b95bc2ba8a120b"
+  ]
+ },
+ {
+  "string": "baseball.arc",
+  "assets": [
+   "bin_c6bcfad228477aeb"
+  ]
+ },
+ {
+  "string": "bblGameText_00.brlyt",
+  "assets": [
+   "lyt_24a4c14c3d7b5e30"
+  ]
+ },
+ {
+  "string": "bblGameText_00_batting_00.brlan",
+  "assets": [
+   "anm_31883c8d79b1450d"
+  ]
+ },
+ {
+  "string": "bblGameText_00_pitching_00.brlan",
+  "assets": [
+   "anm_8765ae5990b42a9e"
+  ]
+ },
+ {
+  "string": "bblGameText_00_ball_00.brlan",
+  "assets": [
+   "anm_0eeb2108e80e2d9f"
+  ]
+ },
+ {
+  "string": "bblGameText_00_game00.brlan",
+  "assets": [
+   "anm_06a789cd175a66bb"
+  ]
+ },
+ {
+  "string": "bblGameText_00_advise_00.brlan",
+  "assets": [
+   "anm_6d18d70681b1a158"
+  ]
+ },
+ {
+  "string": "results.arc",
+  "assets": [
+   "bin_06b306c6486346e3"
+  ]
+ },
+ {
+  "string": "resultsW_00.brlyt",
+  "assets": [
+   "lyt_47b84cba5efb6dc2"
+  ]
+ },
+ {
+  "string": "resultsW_00.brlmc",
+  "assets": [
+   "anm_4b02b1d09aad9534"
+  ]
+ },
+ {
+  "string": "resultsW_00.brlpa",
+  "assets": [
+   "anm_4b4287d09ae331cb"
+  ]
+ },
+ {
+  "string": "resultsW_00.brlvi",
+  "assets": [
+   "anm_4b57a3d09af5bd69"
+  ]
+ },
+ {
+  "string": "results_00.brlyt",
+  "assets": [
+   "lyt_792fd8590ec6cd1b"
+  ]
+ },
+ {
+  "string": "results_00.brlmc",
+  "assets": [
+   "anm_3978674405e3cabf"
+  ]
+ },
+ {
+  "string": "bblCommon_00.brlyt",
+  "assets": [
+   "lyt_e83970f769eab440"
+  ]
+ },
+ {
+  "string": "bblCommon_00_inoutSpeed_00.brlan",
+  "assets": [
+   "anm_7a49b651f0b76810"
+  ]
+ },
+ {
+  "string": "bblCommon_00_inoutFeet_00.brlan",
+  "assets": [
+   "anm_c8c19e5bf5448743"
+  ]
+ },
+ {
+  "string": "bblHomerun_00.brlyt",
+  "assets": [
+   "lyt_8f6b52e7d880ea05"
+  ]
+ },
+ {
+  "string": "bblHomerun_00_hit_00.brlan",
+  "assets": [
+   "anm_e0fc7a9d4391fbb8"
+  ]
+ },
+ {
+  "string": "bblHomerun_00_bigHit_00.brlan",
+  "assets": [
+   "anm_cf1c47f0fb49d600"
+  ]
+ },
+ {
+  "string": "bblHomerun_00_offBall_00.brlan",
+  "assets": [
+   "anm_639d69c3e2a8499f"
+  ]
+ },
+ {
+  "string": "vsBaseball_00.brlmc",
+  "assets": [
+   "anm_84ae966a9fa6e031"
+  ]
+ },
+ {
+  "string": "vsBaseball_00.brlpa",
+  "assets": [
+   "anm_846ec06a9f71439a"
+  ]
+ },
+ {
+  "string": "bblVsGame_00.brlyt",
+  "assets": [
+   "lyt_3a7b94e834ec2ba4"
+  ]
+ },
+ {
+  "string": "bblVsGame_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "bblVsGame_00_onRunner_00.brlan",
+  "assets": [
+   "anm_4550314f92bb3abd"
+  ]
+ },
+ {
+  "string": "bblVsGame_00_changeScore_00.brlan",
+  "assets": [
+   "anm_00f46a848b009ee2"
+  ]
+ },
+ {
+  "string": "bblVsGame_00_offOnLamp_00.brlan",
+  "assets": [
+   "anm_d1202bdbdb3afbba"
+  ]
+ },
+ {
+  "string": "bblVsGame_00_posSBO_00.brlan",
+  "assets": [
+   "anm_bfd4e07ed36a9fd4"
+  ]
+ },
+ {
+  "string": "bblVsGame_00_onLamp_00.brlan",
+  "assets": [
+   "anm_d86e50bd78c5e8dd"
+  ]
+ },
+ {
+  "string": "model/G3D/bbl_Arrow_A.brres",
+  "assets": [
+   "bin_f4a1bede1e28c54d"
+  ]
+ },
+ {
+  "string": "model/G3D/bbl_Arrow_B.brres",
+  "assets": [
+   "bin_14c9297e421b9c74"
+  ]
+ },
+ {
+  "string": "model/G3D/bbl_RangeBoard_A.brres",
+  "assets": [
+   "bin_11f6a5705fc342af"
+  ]
+ },
+ {
+  "string": "model/G3D/bbl_RangeBoard_B.brres",
+  "assets": [
+   "bin_47878a4553e3969a"
+  ]
+ },
+ {
+  "string": "model/G3D/bbl_RangeBoard_C.brres",
+  "assets": [
+   "bin_41c8ad042d559a61"
+  ]
+ },
+ {
+  "string": "bblAreaHit_00.brlyt",
+  "assets": [
+   "lyt_9018dbaeafdd6be3"
+  ]
+ },
+ {
+  "string": "bblAreaHit_00_hit3_00.brlan",
+  "assets": [
+   "anm_3ead1bfa3162e905"
+  ]
+ },
+ {
+  "string": "bblAreaHit_00_hit2_00.brlan",
+  "assets": [
+   "anm_8969661a141ee0bc"
+  ]
+ },
+ {
+  "string": "bblAreaHit_00_hit1_00.brlan",
+  "assets": [
+   "anm_d5753495fd586d0b"
+  ]
+ },
+ {
+  "string": "bblAreaHit_00_offBall_00.brlan",
+  "assets": [
+   "anm_504e0c58a27de865"
+  ]
+ },
+ {
+  "string": "Environment/G3D/scene.brres",
+  "assets": [
+   "bin_048f57ee2736345b",
+   "bin_91ea1d22d6f8a214"
+  ]
+ },
+ {
+  "string": "bblBatting_00.brlyt",
+  "assets": [
+   "lyt_d351dc8c2f3ea088"
+  ]
+ },
+ {
+  "string": "bblBatting_00_countDown_00.brlan",
+  "assets": [
+   "anm_2f3e17bc835ed965"
+  ]
+ },
+ {
+  "string": "bblBatting_00_hit_00.brlan",
+  "assets": [
+   "anm_d6a1df9f58202567"
+  ]
+ },
+ {
+  "string": "bblBatting_00_inoutHit_00.brlan",
+  "assets": [
+   "anm_ae124f851b199fda"
+  ]
+ },
+ {
+  "string": "bblBatting_00_inoutCombo_00.brlan",
+  "assets": [
+   "anm_761a27243f5a74bf"
+  ]
+ },
+ {
+  "string": "bblBatting_00_Combo_00.brlan",
+  "assets": [
+   "anm_9a5278e4dd35b2fa"
+  ]
+ },
+ {
+  "string": "bblGameResult_00.brlyt",
+  "assets": [
+   "lyt_f39aebd88094aa42"
+  ]
+ },
+ {
+  "string": "bblGameResult_00_inoutScene_00.brlan",
+  "assets": [
+   "anm_d6b6b2ed6847af1b"
+  ]
+ },
+ {
+  "string": "bblGameResult_00_coldGame_00.brlan",
+  "assets": [
+   "anm_c9625ab0554690ce"
+  ]
+ },
+ {
+  "string": "pIBbl_00.brlyt",
+  "assets": [
+   "lyt_e58188876cc4b8ec"
+  ]
+ },
+ {
+  "string": "pIBbl_00_in_00.brlan",
+  "assets": [
+   "anm_aeb0a6920313016d"
+  ]
+ },
+ {
+  "string": "pIBbl_00_out_00.brlan",
+  "assets": [
+   "anm_93145f13a54e7aa4"
+  ]
+ },
+ {
+  "string": "pIBbl_00_onLED_00.brlan",
+  "assets": [
+   "anm_f1a5dd5be37bcbc6"
+  ]
+ },
+ {
+  "string": "pIBbl_00_offLED_00.brlan",
+  "assets": [
+   "anm_e0af3ede470d1c2a"
+  ]
+ },
+ {
+  "string": "pIBbl_00_pIFirstBat_00.brlan",
+  "assets": [
+   "anm_44a2fd1bf2da51aa"
+  ]
+ },
+ {
+  "string": "pIBbl_00_pIBat_00.brlan",
+  "assets": [
+   "anm_d1d66a12d6ea94b6"
+  ]
+ },
+ {
+  "string": "Y%Y.Y8Y9YBYCbblGuide_00_inTitle_00.brlan",
+  "assets": []
+ },
+ {
+  "string": "bblGuide_00_outTitle_00.brlan",
+  "assets": [
+   "anm_d5b72eb9740fb28f"
+  ]
+ },
+ {
+  "string": "bblGuide_00_inGuide_00.brlan",
+  "assets": [
+   "anm_af7ccc15ef0571c0"
+  ]
+ },
+ {
+  "string": "bblGuide_00_outGuide_00.brlan",
+  "assets": [
+   "anm_f00c30a77213d051"
+  ]
+ },
+ {
+  "string": "bblGuide_00_tpaPic_00.brlan",
+  "assets": [
+   "anm_9c4383447088732a"
+  ]
+ },
+ {
+  "string": "bblGuide_00.brlyt",
+  "assets": [
+   "lyt_01c622a0bb157ff1"
+  ]
+ },
+ {
+  "string": "bblGuide_01_inoutPGuide_00.brlan",
+  "assets": [
+   "anm_11ab90ffc4d51e89"
+  ]
+ },
+ {
+  "string": "bblGuide_01.brlyt",
+  "assets": [
+   "lyt_2995146b9615c652"
+  ]
+ },
+ {
+  "string": "sports_golf.breff",
+  "assets": [
+   "bin_1c7a8a5cf534db4f"
+  ]
+ },
+ {
+  "string": "sports_golf.breft",
+  "assets": [
+   "bin_1c7a7c5cf534c385"
+  ]
+ },
+ {
+  "string": "glf_course_%s.carc",
+  "assets": [
+   "scn_00ca67ec6d4eebe9",
+   "scn_a02fd7c297f9b304",
+   "scn_9f39ef7c9f0c0f6f",
+   "scn_5a029717388a83c2",
+   "scn_7e1d5e62c29a70f1",
+   "scn_225f4ff1e02169e0",
+   "scn_dbb2f79393fc2b9f",
+   "scn_698fd77e78476c55",
+   "scn_f7ba9b42239ab313",
+   "scn_24b1006bf67db925",
+   "scn_9c9f9dc8945e750b",
+   "scn_1a833d4c3891ae4e",
+   "scn_b49364ace1950f67",
+   "scn_b98ba000512b8d0f"
+  ]
+ },
+ {
+  "string": "rp_Gol_sound.brsar",
+  "assets": []
+ },
+ {
+  "string": "Environment/scene_Bloom.pblm",
+  "assets": [
+   "bin_a827443673bd81d5",
+   "bin_fce32a255eba4fad",
+   "bin_52f55221ab50b1c1",
+   "bin_f2d3e118b4015272"
+  ]
+ },
+ {
+  "string": "G3D/glf_tree%d.brres",
+  "assets": [
+   "bin_acaeb9093f0056be",
+   "bin_379cd87659daff23"
+  ]
+ },
+ {
+  "string": "G3D/glf_ball1.brres",
+  "assets": [
+   "bin_c8531bc8bbcc7cbd"
+  ]
+ },
+ {
+  "string": "G3D/glf_marker.brres",
+  "assets": [
+   "bin_c93c299a8a554379"
+  ]
+ },
+ {
+  "string": "G3D/glf_Help.brres",
+  "assets": [
+   "bin_16dbc2c9f22dc2a8"
+  ]
+ },
+ {
+  "string": "G3D/glf_culb_L.brres",
+  "assets": [
+   "bin_00f3fd63e45ec026"
+  ]
+ },
+ {
+  "string": "G3D/glf_club.brres",
+  "assets": [
+   "bin_91dd6e990dbae89f"
+  ]
+ },
+ {
+  "string": "G3D/glf_pin1.brres",
+  "assets": [
+   "bin_1ce2c0d8ae987b39"
+  ]
+ },
+ {
+  "string": "golf.arc",
+  "assets": [
+   "bin_295ebeb5be906d7b"
+  ]
+ },
+ {
+  "string": "glfSelectCourse_00.brlyt",
+  "assets": [
+   "lyt_b46438c3976b8785"
+  ]
+ },
+ {
+  "string": "glfSelectCourse_00_in_00.brlan",
+  "assets": [
+   "anm_ed4ccc0d8cdfa8dc"
+  ]
+ },
+ {
+  "string": "glfSelectCourse_00_BG_00.brlan",
+  "assets": [
+   "anm_5c29a2e3f0267ce0"
+  ]
+ },
+ {
+  "string": "glfSelectCourse_00_active_00.brlan",
+  "assets": [
+   "anm_cf61314053be3e47"
+  ]
+ },
+ {
+  "string": "glfSelectCourse_00_push_00.brlan",
+  "assets": [
+   "anm_57144d3dae5440b1"
+  ]
+ },
+ {
+  "string": "G3D/glf_fukidasi.brres",
+  "assets": [
+   "bin_154c481b19cb6e9d"
+  ]
+ },
+ {
+  "string": "FaceDummy1.bti",
+  "assets": [
+   "bin_34b24f336ab019b9"
+  ]
+ },
+ {
+  "string": "FaceDummy2.bti",
+  "assets": [
+   "bin_aeb3a05ea481ff6c"
+  ]
+ },
+ {
+  "string": "FaceDummy3.bti",
+  "assets": [
+   "bin_a2a30f592f6247db"
+  ]
+ },
+ {
+  "string": "FaceDummy4.bti",
+  "assets": [
+   "bin_8cd8e45aadc70396"
+  ]
+ },
+ {
+  "string": "G3D/glf_avatar.brres",
+  "assets": [
+   "bin_ecf36e3779a0fa0e"
+  ]
+ },
+ {
+  "string": "G3D/glf_bar_tex.brres",
+  "assets": [
+   "bin_de4c063ca8a385ce"
+  ]
+ },
+ {
+  "string": "G3D/glf_bar_tex_bg.brres",
+  "assets": [
+   "bin_b73e2ddc3fd03af8"
+  ]
+ },
+ {
+  "string": "G3D/glf_bar_frame.brres",
+  "assets": [
+   "bin_26528a585341cfce"
+  ]
+ },
+ {
+  "string": "G3D/glf_teeOBJ.brres",
+  "assets": [
+   "bin_bfe5f7afb807f36c"
+  ]
+ },
+ {
+  "string": "G3D/glf_sky.brres",
+  "assets": [
+   "bin_a5e4fd7f2ed80f70"
+  ]
+ },
+ {
+  "string": "G3D/glf_mato.brres",
+  "assets": [
+   "bin_c8e28748e5fb6c78"
+  ]
+ },
+ {
+  "string": "G3D/glf_cup.brres",
+  "assets": [
+   "bin_a32c9176755f3725"
+  ]
+ },
+ {
+  "string": "G3D/glf_wind.brres",
+  "assets": [
+   "bin_5d89f95a7c55a42d"
+  ]
+ },
+ {
+  "string": "BwgGlfScorecard.arc",
+  "assets": [
+   "bin_26924eca826b9284",
+   "bin_3242451274e6ceb8"
+  ]
+ },
+ {
+  "string": "golf_00.brlyt",
+  "assets": [
+   "lyt_eddc8c3dc9d47f51"
+  ]
+ },
+ {
+  "string": "golf_00_in_00.brlan",
+  "assets": [
+   "anm_c14e8446388e7140"
+  ]
+ },
+ {
+  "string": "golf_00_out_00.brlan",
+  "assets": [
+   "anm_c40610a51331dc6b"
+  ]
+ },
+ {
+  "string": "golf_00_outShot_00.brlan",
+  "assets": [
+   "anm_a69ebe419ae332cb"
+  ]
+ },
+ {
+  "string": "golf_00_inShot_00.brlan",
+  "assets": [
+   "anm_0b1a301a523106a0"
+  ]
+ },
+ {
+  "string": "golf_00_changeText_00.brlan",
+  "assets": [
+   "anm_367ff8e16f46ff38"
+  ]
+ },
+ {
+  "string": "golf_00_TextPin_00.brlan",
+  "assets": [
+   "anm_36452d941c189679"
+  ]
+ },
+ {
+  "string": "golf_00_inAButton_00.brlan",
+  "assets": [
+   "anm_395934c3429df011"
+  ]
+ },
+ {
+  "string": "golf_00_outAButton_00.brlan",
+  "assets": [
+   "anm_6e75b7cc669a8880"
+  ]
+ },
+ {
+  "string": "golf_00_wind_00.brlan",
+  "assets": [
+   "anm_2ebb40607e65a733"
+  ]
+ },
+ {
+  "string": "golf_00_inContour_00.brlan",
+  "assets": [
+   "anm_44dfc5d8522098fe"
+  ]
+ },
+ {
+  "string": "golf_00_outContour_00.brlan",
+  "assets": [
+   "anm_c169514fc908d85f"
+  ]
+ },
+ {
+  "string": "golf_00_tpaClub_00.brlan",
+  "assets": [
+   "anm_7092fad229856d2e"
+  ]
+ },
+ {
+  "string": "golf_00_cPadClub_00.brlan",
+  "assets": [
+   "anm_3e4197f38a8d7bbb"
+  ]
+ },
+ {
+  "string": "golf_00_ball_00.brlan",
+  "assets": [
+   "anm_3aae68a786356d1e"
+  ]
+ },
+ {
+  "string": "golf_00_ballMiss_00.brlan",
+  "assets": [
+   "anm_b89f67a34d63c6d6"
+  ]
+ },
+ {
+  "string": "golf_00_ballOff_00.brlan",
+  "assets": [
+   "anm_410cf28aaafd4be1"
+  ]
+ },
+ {
+  "string": "golf_00_ballGread_00.brlan",
+  "assets": [
+   "anm_3e93b4664f5d592d"
+  ]
+ },
+ {
+  "string": "golf_00_ballGradeH_00.brlan",
+  "assets": [
+   "anm_db85455c64459179"
+  ]
+ },
+ {
+  "string": "golf_00_ballShot_00.brlan",
+  "assets": [
+   "anm_4f1c6a731372df16"
+  ]
+ },
+ {
+  "string": "glfLiePinTA_00.brlyt",
+  "assets": [
+   "lyt_1157c68f7f3672bc"
+  ]
+ },
+ {
+  "string": "glfLiePinTA_00_in_00.brlan",
+  "assets": [
+   "anm_e6a2e657d2db273d"
+  ]
+ },
+ {
+  "string": "glfLiePinTA_00_out_00.brlan",
+  "assets": [
+   "anm_2a1df09681759714"
+  ]
+ },
+ {
+  "string": "glfLiePinTA_00_tryAgain_00.brlan",
+  "assets": [
+   "anm_e314c81e95726191"
+  ]
+ },
+ {
+  "string": "glfGiveUp_00.brlyt",
+  "assets": [
+   "lyt_19b206f3a33b4e4e"
+  ]
+ },
+ {
+  "string": "glfGiveUp_00_giveUp_00.brlan",
+  "assets": [
+   "anm_0dad5a10de0ccb8a"
+  ]
+ },
+ {
+  "string": "glfStartPoint_00.brlyt",
+  "assets": [
+   "lyt_c6bd04f5b35d4608"
+  ]
+ },
+ {
+  "string": "glfStartPoint_00_startPoint_00.brlan",
+  "assets": [
+   "anm_87919d6504fa11fe"
+  ]
+ },
+ {
+  "string": "glfShotNumber_00.brlyt",
+  "assets": [
+   "lyt_a6a8769e65d90af1"
+  ]
+ },
+ {
+  "string": "glfShotNumber_00_in_00.brlan",
+  "assets": [
+   "anm_a80d14bd58cd0260"
+  ]
+ },
+ {
+  "string": "glfShotNumber_00_out_00.brlan",
+  "assets": [
+   "anm_9c5692c47a44f00b"
+  ]
+ },
+ {
+  "string": "glfTargetPoint_00.brlyt",
+  "assets": [
+   "lyt_685131241d8ec61d"
+  ]
+ },
+ {
+  "string": "glfTargetPoint_00_point_00.brlan",
+  "assets": [
+   "anm_4b166375e1f58755"
+  ]
+ },
+ {
+  "string": "glfHoleOutText_%02d.brlyt",
+  "assets": [
+   "lyt_f501a0d0d50f02b5",
+   "lyt_ea3b48c361a15406",
+   "lyt_ab8499ba20328bcb",
+   "lyt_8de048fba5f3bbf4"
+  ]
+ },
+ {
+  "string": "glfHoleOutText_%02d_holeOut_00.brlan",
+  "assets": [
+   "anm_81ec34d5bb656819",
+   "anm_db40ef6a440d4ea8",
+   "anm_82f2cd11206ba8b7",
+   "anm_d5c4383341cee5f6"
+  ]
+ },
+ {
+  "string": "glfHoleDemo_00.brlyt",
+  "assets": [
+   "lyt_5cb090e534aad1a5"
+  ]
+ },
+ {
+  "string": "glfHoleDemo_00_in_00.brlan",
+  "assets": [
+   "anm_e793bb7a7f97bffc"
+  ]
+ },
+ {
+  "string": "glfHoleDemo_00_out_00.brlan",
+  "assets": [
+   "anm_0283b231a079608f"
+  ]
+ },
+ {
+  "string": "glfScorecard_00.brlyt",
+  "assets": [
+   "lyt_478ca8d3c7ed6682"
+  ]
+ },
+ {
+  "string": "glfScorecard_00_in_00.brlan",
+  "assets": [
+   "anm_146765801e1e1513"
+  ]
+ },
+ {
+  "string": "glfScorecard_00_out_00.brlan",
+  "assets": [
+   "anm_22bcd319b5b7aab6"
+  ]
+ },
+ {
+  "string": "glfScorecard_01.brlyt",
+  "assets": [
+   "lyt_cc55d0e4e50499a1"
+  ]
+ },
+ {
+  "string": "glfScorecard_01_scoreBogey_00.brlan",
+  "assets": [
+   "anm_d344154a4e193579"
+  ]
+ },
+ {
+  "string": "glfScorecard_01_scorePar_00.brlan",
+  "assets": [
+   "anm_1386b7707ddcac32"
+  ]
+ },
+ {
+  "string": "glfScorecard_01_scorebirdie_00.brlan",
+  "assets": [
+   "anm_835a1c5fe77d2486"
+  ]
+ },
+ {
+  "string": "glfScorecard_00_playHole_00.brlan",
+  "assets": [
+   "anm_858f120dd1987bde"
+  ]
+ },
+ {
+  "string": "glfScorecard_00_piayHole_01.brlan",
+  "assets": [
+   "anm_aa2a348aeeec9680"
+  ]
+ },
+ {
+  "string": "glfExplanation_00.brlyt",
+  "assets": [
+   "lyt_ee077af64e76fcc7"
+  ]
+ },
+ {
+  "string": "glfExplanation_00_in_00.brlan",
+  "assets": [
+   "anm_52e8555b54e1c88e"
+  ]
+ },
+ {
+  "string": "glfExplanation_00_out_00.brlan",
+  "assets": [
+   "anm_ba8d8f1136ceed65"
+  ]
+ },
+ {
+  "string": "glfExplanation_00_expSwing_00.brlan",
+  "assets": [
+   "anm_1e7bf1ba7a42bd86"
+  ]
+ },
+ {
+  "string": "glfExplanation_00_expShot_00.brlan",
+  "assets": [
+   "anm_4850f4a66954e990"
+  ]
+ },
+ {
+  "string": "G3D/glf_matoPIN.brres",
+  "assets": [
+   "bin_cbb0076400dc995b"
+  ]
+ },
+ {
+  "string": "MainGame.carc",
+  "assets": [
+   "scn_50f06412da289e51"
+  ]
+ },
+ {
+  "string": "Effect/sports_boxing.breff",
+  "assets": [
+   "bin_fd808055d3652c23"
+  ]
+ },
+ {
+  "string": "Effect/sports_boxing.breft",
+  "assets": [
+   "bin_fd807255d3651459"
+  ]
+ },
+ {
+  "string": "EnvMain/scene_Light_MainGame.plight",
+  "assets": [
+   "bin_56837d90037b93f9"
+  ]
+ },
+ {
+  "string": "EnvMiniGame/scene_Light_MiniGame03.plight",
+  "assets": [
+   "bin_7ae406ffafae5a58"
+  ]
+ },
+ {
+  "string": "EnvMiniGame/scene_Light_MiniGame02.plight",
+  "assets": [
+   "bin_bca348c817311e65"
+  ]
+ },
+ {
+  "string": "EnvMiniGame/scene_Light_MiniGame01.plight",
+  "assets": [
+   "bin_72c889341649f78e"
+  ]
+ },
+ {
+  "string": "EnvMain/scene_Lm_MainGame.plmap",
+  "assets": [
+   "bin_2fdd66ae0e814f72"
+  ]
+ },
+ {
+  "string": "EnvMiniGame/scene_Lm_MiniGame.plmap",
+  "assets": [
+   "bin_218cf646629fde9c"
+  ]
+ },
+ {
+  "string": "EnvMain/box_ring.pblm",
+  "assets": [
+   "bin_9220c01dde1b6b8d"
+  ]
+ },
+ {
+  "string": "EnvMiniGame/box_gym.pblm",
+  "assets": [
+   "bin_fe2836bc01183c42"
+  ]
+ },
+ {
+  "string": "G3D/box_ring.brres",
+  "assets": [
+   "bin_384e457b1060249e"
+  ]
+ },
+ {
+  "string": "G3D/box_gym.brres",
+  "assets": [
+   "bin_a563312b00e81a17"
+  ]
+ },
+ {
+  "string": "G3D/box_glove.brres",
+  "assets": [
+   "bin_6ccea044457edb1f"
+  ]
+ },
+ {
+  "string": "G3D/box_mitt.brres",
+  "assets": [
+   "bin_1b5cebccbc0d2b94"
+  ]
+ },
+ {
+  "string": "rp_Box_sound.brsar",
+  "assets": []
+ },
+ {
+  "string": "G3D/box_avatar.brres",
+  "assets": [
+   "bin_54a532d3e711fcc1"
+  ]
+ },
+ {
+  "string": "G3D/box_sandbag.brres",
+  "assets": [
+   "bin_63a6dd9b92f2c164"
+  ]
+ },
+ {
+  "string": "G3D/box_ball.brres",
+  "assets": [
+   "bin_7e6c1891ab53987d"
+  ]
+ },
+ {
+  "string": "G3D/box_avatarC0.brres",
+  "assets": [
+   "bin_d7f7eeb7936cac10"
+  ]
+ },
+ {
+  "string": "G3D/box_punch.brres",
+  "assets": [
+   "bin_289e1ee6b1e0acca"
+  ]
+ },
+ {
+  "string": "boxMsg_00.brlyt",
+  "assets": []
+ },
+ {
+  "string": "boxGauge_00.brlyt",
+  "assets": [
+   "lyt_719f08aaab35a777"
+  ]
+ },
+ {
+  "string": "boxJudge_00.brlyt",
+  "assets": [
+   "lyt_755ab2b04268f813"
+  ]
+ },
+ {
+  "string": "boxFTest_00.brlyt",
+  "assets": [
+   "lyt_7cb3f25b41517878"
+  ]
+ },
+ {
+  "string": "boxEx_00.brlyt",
+  "assets": [
+   "lyt_4f3a07ce031443cd"
+  ]
+ },
+ {
+  "string": "boxing.arc",
+  "assets": [
+   "bin_e4acb14b9c6a9115"
+  ]
+ },
+ {
+  "string": "boxFTest_00_in_00.brlan",
+  "assets": [
+   "anm_cbc71fdc2481efb1"
+  ]
+ },
+ {
+  "string": "boxFTest_00_count_00.brlan",
+  "assets": [
+   "anm_eb2f2cd294463141"
+  ]
+ },
+ {
+  "string": "boxFTest_00_point_00.brlan",
+  "assets": [
+   "anm_e16361029bd5512a"
+  ]
+ },
+ {
+  "string": "boxFTest_00_point_01.brlan",
+  "assets": [
+   "anm_5091a743c706c641"
+  ]
+ },
+ {
+  "string": "boxFTest_00_out_00.brlan",
+  "assets": [
+   "anm_573b5988d4f0d6b0"
+  ]
+ },
+ {
+  "string": "boxJudge_00_inJudge_00.brlan",
+  "assets": [
+   "anm_83b1038015dbebfb"
+  ]
+ },
+ {
+  "string": "boxJudge_00_inPoint_00.brlan",
+  "assets": [
+   "anm_b435ba14177806b4"
+  ]
+ },
+ {
+  "string": "boxJudge_00_b_00.brlan",
+  "assets": [
+   "anm_d1c9247a3e3f0c77"
+  ]
+ },
+ {
+  "string": "boxJudge_00_r_00.brlan",
+  "assets": [
+   "anm_2b304c9c956342a7"
+  ]
+ },
+ {
+  "string": "boxJudge_00_g_00.brlan",
+  "assets": [
+   "anm_809c1e66797a737a"
+  ]
+ },
+ {
+  "string": "boxJudge_00_outJudge_00.brlan",
+  "assets": [
+   "anm_dc7025bf7fcf20d6"
+  ]
+ },
+ {
+  "string": "boxGauge_00_in_00.brlan",
+  "assets": [
+   "anm_5b1d2683b5c9512e"
+  ]
+ },
+ {
+  "string": "boxGauge_00_roundOn_00.brlan",
+  "assets": [
+   "anm_fe640d2800ce14a6"
+  ]
+ },
+ {
+  "string": "boxGauge_00_roundOff_00.brlan",
+  "assets": [
+   "anm_4cae107317abef78"
+  ]
+ },
+ {
+  "string": "boxGauge_00_count_00.brlan",
+  "assets": [
+   "anm_140c41c86e7c2c6c"
+  ]
+ },
+ {
+  "string": "boxGauge_00_player2p_00.brlan",
+  "assets": [
+   "anm_8af209368ab72fc2"
+  ]
+ },
+ {
+  "string": "boxGauge_00_playerCpu_00.brlan",
+  "assets": [
+   "anm_de2fb0448bfdebda"
+  ]
+ },
+ {
+  "string": "boxGauge_00_out_00.brlan",
+  "assets": [
+   "anm_6577294eb120df05"
+  ]
+ },
+ {
+  "string": "boxEx_00_inBelt_00.brlan",
+  "assets": [
+   "anm_2d2d2e5f4b95c43b"
+  ]
+ },
+ {
+  "string": "boxEx_00_outBelt_00.brlan",
+  "assets": [
+   "anm_5c97257df12f7a84"
+  ]
+ },
+ {
+  "string": "boxEx_00_inPose_00.brlan",
+  "assets": [
+   "anm_9be77b769897a6ff"
+  ]
+ },
+ {
+  "string": "boxEx_00_pose_00.brlan",
+  "assets": [
+   "anm_687927a12f12b48e"
+  ]
+ },
+ {
+  "string": "boxEx_00_pose_01.brlan",
+  "assets": [
+   "anm_df6db343f5efd745"
+  ]
+ },
+ {
+  "string": "boxEx_00_pose_02.brlan",
+  "assets": [
+   "anm_df927061ff6c5e74"
+  ]
+ },
+ {
+  "string": "boxEx_00_pose_03.brlan",
+  "assets": [
+   "anm_3d3487671df7de83"
+  ]
+ },
+ {
+  "string": "boxEx_00_outPose_00.brlan",
+  "assets": [
+   "anm_b460ab4857c56ba0"
+  ]
+ },
+ {
+  "string": "effect/sports_bowling.breff",
+  "assets": [
+   "bin_11cab7cdd4ad4d25"
+  ]
+ },
+ {
+  "string": "effect/sports_bowling.breft",
+  "assets": [
+   "bin_11cac5cdd4ad64ef"
+  ]
+ },
+ {
+  "string": "rp_Bow_sound.brsar",
+  "assets": []
+ },
+ {
+  "string": "bwg_field_col.kcl",
+  "assets": [
+   "col_48265ddfe7ae2d97"
+  ]
+ },
+ {
+  "string": "bwg_field_91_col.kcl",
+  "assets": [
+   "col_c5d0632ac48a34c4"
+  ]
+ },
+ {
+  "string": "G3D/bwg_field_rsca.brres",
+  "assets": [
+   "bin_df9c36dd41054648"
+  ]
+ },
+ {
+  "string": "G3D/bwg_field_91_rsca.brres",
+  "assets": [
+   "bin_8317f56c2fba9b01"
+  ]
+ },
+ {
+  "string": "G3D/bwg_ball.brres",
+  "assets": [
+   "bin_4236a21dfb10a6af"
+  ]
+ },
+ {
+  "string": "G3D/bwg_ball_pro.brres",
+  "assets": [
+   "bin_17ffc07d9bac9e2b"
+  ]
+ },
+ {
+  "string": "G3D/bwg_ava_shadow.brres",
+  "assets": [
+   "bin_8c75ff07d5e1ab1d"
+  ]
+ },
+ {
+  "string": "G3D/bwg_Pin.brres",
+  "assets": [
+   "bin_715169d313c13c91"
+  ]
+ },
+ {
+  "string": "G3D/bwg_field.brres",
+  "assets": [
+   "bin_d3555f81a4c2656a"
+  ]
+ },
+ {
+  "string": "G3D/bwg_field_91.brres",
+  "assets": [
+   "bin_2942b2f0fb18f7cd"
+  ]
+ },
+ {
+  "string": "G3D/bwg_avatar_anim.brres",
+  "assets": [
+   "bin_4691d1fdfb74efe1"
+  ]
+ },
+ {
+  "string": "G3D/bwg_conveyer.brres",
+  "assets": [
+   "bin_ea1ba59863ca7895"
+  ]
+ },
+ {
+  "string": "G3D/bwg_throwline.brres",
+  "assets": [
+   "bin_45813325abed1608"
+  ]
+ },
+ {
+  "string": "G3D/bwg_gate.brres",
+  "assets": [
+   "bin_0f3b62cbd2a23ee5"
+  ]
+ },
+ {
+  "string": "bowling.arc",
+  "assets": [
+   "bin_839bfc35a6e059e5"
+  ]
+ },
+ {
+  "string": "score_00.brlyt",
+  "assets": [
+   "lyt_e82d1df978605c9f"
+  ]
+ },
+ {
+  "string": "score_01.brlyt",
+  "assets": [
+   "lyt_71018256b153dc48"
+  ]
+ },
+ {
+  "string": "score_02.brlyt",
+  "assets": [
+   "lyt_997ed617b5e17f29"
+  ]
+ },
+ {
+  "string": "pin_00.brlyt",
+  "assets": [
+   "lyt_e6144ee0869e65fc"
+  ]
+ },
+ {
+  "string": "pin_01.brlyt",
+  "assets": [
+   "lyt_70fe53062694e9b3"
+  ]
+ },
+ {
+  "string": "pin_01_stage_%02d.brlan",
+  "assets": [
+   "anm_5851ee2de58c70ff",
+   "anm_4d8bb620721ef8b0",
+   "anm_0f0cfb1730e11181",
+   "anm_f0fb8a58b645396a",
+   "anm_c221a32c2f35d773",
+   "anm_147da6030ba4f9e4",
+   "anm_bd8dde0da3e90b35",
+   "anm_1f426c4810935afe",
+   "anm_af1c5ba4b7fdc127",
+   "anm_c1707c0df6a165d8"
+  ]
+ },
+ {
+  "string": "bwgTutorial_00.brlyt",
+  "assets": [
+   "lyt_ea4657997e9a3af3"
+  ]
+ },
+ {
+  "string": "bwgTutorial_00_in_00.brlan",
+  "assets": [
+   "anm_95d890c6e8647492"
+  ]
+ },
+ {
+  "string": "bwgTutorial_00_out_00.brlan",
+  "assets": [
+   "anm_b728cc5e6f267ae1"
+  ]
+ },
+ {
+  "string": "bwgTutorial_00_loop_00.brlan",
+  "assets": [
+   "anm_c5b68e3f8c9cb645"
+  ]
+ },
+ {
+  "string": "bwgStrike_00.brlyt",
+  "assets": [
+   "lyt_e3baed1dd0f822c3"
+  ]
+ },
+ {
+  "string": "bwgStrike_00_inOut_00.brlan",
+  "assets": [
+   "anm_ae2be4c4072120ee"
+  ]
+ },
+ {
+  "string": "bwgText_04.brlyt",
+  "assets": [
+   "lyt_dbb43ef1d0c78b78"
+  ]
+ },
+ {
+  "string": "bwgText_04_inOut_00.brlan",
+  "assets": [
+   "anm_e79c8c6cbab8ac6b"
+  ]
+ },
+ {
+  "string": "bwgText_03.brlyt",
+  "assets": [
+   "lyt_16b1ac816d20d315"
+  ]
+ },
+ {
+  "string": "bwgText_02.brlyt",
+  "assets": [
+   "lyt_1aa43af81bb485e6"
+  ]
+ },
+ {
+  "string": "bwgText_01.brlyt",
+  "assets": [
+   "lyt_80159449f802acab"
+  ]
+ },
+ {
+  "string": "bwgText_01_in_00.brlan",
+  "assets": [
+   "anm_f9f1110cd6a71dea"
+  ]
+ },
+ {
+  "string": "bwgText_00.brlyt",
+  "assets": [
+   "lyt_ada35d0276a6f954"
+  ]
+ },
+ {
+  "string": "bwgText_00_in_00.brlan",
+  "assets": [
+   "anm_59871acfcac8f515"
+  ]
+ },
+ {
+  "string": "bwgText_00_out_00.brlan",
+  "assets": [
+   "anm_6036a72530ebb00c"
+  ]
+ },
+ {
+  "string": "bwgCount_00.brlyt",
+  "assets": [
+   "lyt_1ead17819b16925e"
+  ]
+ },
+ {
+  "string": "bwgCount_00_bigBall_00.brlan",
+  "assets": [
+   "anm_5a6a5205690b783b"
+  ]
+ },
+ {
+  "string": "bwgCount_00_smallBall_00.brlan",
+  "assets": [
+   "anm_716f9f5fff67d1ec"
+  ]
+ },
+ {
+  "string": "bwgCount_00_ballColor_%02d.brlan",
+  "assets": [
+   "anm_47c929a0c5801496",
+   "anm_d497e70f5d3e686d",
+   "anm_5e904669efe3ebfc",
+   "anm_8d32f1cb8fbe130b",
+   "anm_35a6004733187382"
+  ]
+ },
+ {
+  "string": "bwgCount_01.brlyt",
+  "assets": [
+   "lyt_b8ec484cb3bbde4d"
+  ]
+ },
+ {
+  "string": "bwgCount_01_ballColor_%02d.brlan",
+  "assets": [
+   "anm_8534ac72deb1da33",
+   "anm_8120e21d4049a3a4",
+   "anm_7b4cefaa89219ef5",
+   "anm_33877de00dcef6be"
+  ]
+ },
+ {
+  "string": "bwgMoveExp_00.brlyt",
+  "assets": [
+   "lyt_7df75eecb4a8068f"
+  ]
+ },
+ {
+  "string": "bwgMoveExp_00_blink_00.brlan",
+  "assets": [
+   "anm_f3c6fd1bef6b7dc7"
+  ]
+ },
+ {
+  "string": "bwgMoveExp_00_change_00.brlan",
+  "assets": [
+   "anm_0b8c9ed6245c5a93"
+  ]
+ },
+ {
+  "string": "bwgMoveExp_00_on_00.brlan",
+  "assets": [
+   "anm_14c3085453973d10"
+  ]
+ },
+ {
+  "string": "bwgMoveExp_00_off_00.brlan",
+  "assets": [
+   "anm_3446d15814ba7822"
+  ]
+ },
+ {
+  "string": "bwgText_05.brlyt",
+  "assets": [
+   "lyt_80203cc31bfcfa0f"
+  ]
+ },
+ {
+  "string": "bwgText_05_in_00.brlan",
+  "assets": [
+   "anm_c4d23c12703268d6"
+  ]
+ },
+ {
+  "string": "bwgText_05_out_00.brlan",
+  "assets": [
+   "anm_d6eb0ae30859986d"
+  ]
+ },
+ {
+  "string": "xP1_Def.brlyt",
+  "assets": []
+ },
+ {
+  "string": "P2_Def.brlyt",
+  "assets": [
+   "lyt_751876aac2e6941e",
+   "lyt_481aa8c2489b7e55",
+   "lyt_5cf2a5ad426774ac"
+  ]
+ },
+ {
+  "string": "P3_Def.brlyt",
+  "assets": [
+   "lyt_2cb629e785653089",
+   "lyt_85f2f5746aac457a",
+   "lyt_80a26c7a5d27a6f7"
+  ]
+ },
+ {
+  "string": "P4_Def.brlyt",
+  "assets": [
+   "lyt_15fbf2068580c658",
+   "lyt_0661fa4791ed5a97",
+   "lyt_985cbcd96a708fda"
+  ]
+ },
+ {
+  "string": "_cntBtn_in.brlan",
+  "assets": []
+ },
+ {
+  "string": "_cntBtn_psh.brlan",
+  "assets": []
+ },
+ {
+  "string": "_cntBtn_out.brlan",
+  "assets": []
+ },
+ {
+  "string": "_ltrIcn_on.brlan",
+  "assets": []
+ },
+ {
+  "string": "_optn_bar_psh.brlan",
+  "assets": []
+ },
+ {
+  "string": "_close_bar_psh.brlan",
+  "assets": []
+ },
+ {
+  "string": "_hmMenu_bar_in.brlan",
+  "assets": []
+ },
+ {
+  "string": "_hmMenu_bar_psh.brlan",
+  "assets": []
+ },
+ {
+  "string": "_link_msg_in.brlan",
+  "assets": []
+ },
+ {
+  "string": "_link_msg_out.brlan",
+  "assets": []
+ },
+ {
+  "string": "_cmn_msg_in.brlan",
+  "assets": []
+ },
+ {
+  "string": "_cmn_msg_out.brlan",
+  "assets": []
+ },
+ {
+  "string": "_cntrl_up.brlan",
+  "assets": []
+ },
+ {
+  "string": "_cntrl_wndw_opn.brlan",
+  "assets": []
+ },
+ {
+  "string": "_cntrl_dwn.brlan",
+  "assets": []
+ },
+ {
+  "string": "_hmMenu_bar_out.brlan",
+  "assets": []
+ },
+ {
+  "string": "_cmn_msg_rtrn.brlan",
+  "assets": []
+ },
+ {
+  "string": "_12btn_on.brlan",
+  "assets": []
+ },
+ {
+  "string": "_hmMenu_strt.brlan",
+  "assets": []
+ },
+ {
+  "string": "_hmMenu_fnsh.brlan",
+  "assets": []
+ },
+ {
+  "string": "_optn_bar_in.brlan",
+  "assets": []
+ },
+ {
+  "string": "_optn_bar_out.brlan",
+  "assets": []
+ },
+ {
+  "string": "_optn_btn_in.brlan",
+  "assets": []
+ },
+ {
+  "string": "_optn_btn_psh.brlan",
+  "assets": []
+ },
+ {
+  "string": "_vb_btn_wht_psh.brlan",
+  "assets": []
+ },
+ {
+  "string": "_optn_btn_out.brlan",
+  "assets": []
+ },
+ {
+  "string": "_vb_btn_ylw_psh.brlan",
+  "assets": []
+ },
+ {
+  "string": "_sound_gry.brlan",
+  "assets": []
+ },
+ {
+  "string": "_sound_ylw.brlan",
+  "assets": []
+ },
+ {
+  "string": "_cmn_msg_btn_in.brlan",
+  "assets": []
+ },
+ {
+  "string": "_cmn_msg_btn_out.brlan",
+  "assets": []
+ },
+ {
+  "string": "_cmn_msg_btn_psh.brlan",
+  "assets": []
+ },
+ {
+  "string": "_vb_btn_ylw_ylw.brlan",
+  "assets": []
+ },
+ {
+  "string": "_btry_wink.brlan",
+  "assets": []
+ },
+ {
+  "string": "_btry_gry.brlan",
+  "assets": []
+ },
+ {
+  "string": "_btry_wht.brlan",
+  "assets": []
+ },
+ {
+  "string": "_btry_wink_gry.brlan",
+  "assets": []
+ },
+ {
+  "string": "_close_bar_in.brlan",
+  "assets": []
+ },
+ {
+  "string": "_close_bar_out.brlan",
+  "assets": []
+ },
+ {
+  "string": "_btry_red.brlan",
+  "assets": []
+ }
+]

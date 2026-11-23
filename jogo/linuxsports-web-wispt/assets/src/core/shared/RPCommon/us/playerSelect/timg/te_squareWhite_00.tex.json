@@ -1,0 +1,31 @@
+{
+ "format": "nw4r-tex",
+ "version": 1,
+ "assetId": "tex_a34d8613a8667d28",
+ "source": "src/core/shared/RPCommon/us/local.carc/playerSelect.arc.d/timg/te_squareWhite_00.tpl",
+ "images": [
+  {
+   "index": 0,
+   "file": "assets/src/core/shared/RPCommon/us/playerSelect/timg/te_squareWhite_00.png",
+   "width": 8,
+   "height": 8,
+   "format": "I4",
+   "formatId": 0,
+   "palette": null,
+   "wrapS": "CLAMP",
+   "wrapT": "CLAMP",
+   "minFilter": "LINEAR",
+   "magFilter": "LINEAR",
+   "lodBias": 0,
+   "minLod": 0,
+   "maxLod": 0,
+   "mipmapCount": 1,
+   "webgl": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "minFilter": 9729,
+    "magFilter": 9729
+   }
+  }
+ ]
+}

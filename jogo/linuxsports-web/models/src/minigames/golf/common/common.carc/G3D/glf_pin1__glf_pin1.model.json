@@ -1,0 +1,45 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_7ea6de5c8f296c6a",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_pin1.brres/glf_pin1",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_pin1.brres",
+ "model": "glf_pin1",
+ "glb": "models/src/minigames/golf/common/common.carc/G3D/glf_pin1__glf_pin1.glb",
+ "textures": [
+  {
+   "name": "glf_flag1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_pin1.brres"
+  },
+  {
+   "name": "glf_pin1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_pin1.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "glf_pin1_L"
+  },
+  {
+   "type": "CHR0",
+   "name": "glf_pin1_M"
+  },
+  {
+   "type": "CHR0",
+   "name": "glf_pin1_S"
+  },
+  {
+   "type": "CLR0",
+   "name": "glf_pin1"
+  },
+  {
+   "type": "CLR0",
+   "name": "glf_pin1b"
+  },
+  {
+   "type": "SHP0",
+   "name": "glf_pin1"
+  }
+ ]
+}

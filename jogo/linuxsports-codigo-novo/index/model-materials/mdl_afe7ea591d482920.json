@@ -1,0 +1,58 @@
+{
+ "assetId": "mdl_afe7ea591d482920",
+ "model": "wipe_slide",
+ "materials": [
+  {
+   "name": "W_Left",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "dammy_L",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "W_Right",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "dammy_R",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "dammy_L",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_slide.brres",
+   "materials": [
+    "W_Left"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "dammy_R",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_slide.brres",
+   "materials": [
+    "W_Right"
+   ],
+   "layer0": true
+  }
+ ]
+}

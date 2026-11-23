@@ -1,0 +1,1 @@
+{"type":"CLR0","name":"tns_mato_b","frames":2,"loop":false,"materials":[{"material":"mato","targets":[{"target":"mat0","mask":4294967040,"frames":[[0,0,0,255],[0,0,0,0],[0,0,0,0]]}]}],"format":"nw4r-anim3d","version":1,"source":"src/minigames/tennis/common/common.carc/G3D/tns_mato.brres/tns_mato_b"}

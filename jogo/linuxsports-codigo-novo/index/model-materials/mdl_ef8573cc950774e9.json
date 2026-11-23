@@ -1,0 +1,51 @@
+{
+ "assetId": "mdl_ef8573cc950774e9",
+ "model": "glf_windGround",
+ "materials": [
+  {
+   "name": "terrain_m",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfS_wind01",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "glfS_wind01",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_wind.brres",
+   "materials": [
+    "terrain_m"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfS_wind02",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_wind.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glfS_wind03",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_wind.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glfS_wind04",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_wind.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ]
+}

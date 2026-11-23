@@ -1,0 +1,73 @@
+{
+ "id": "cpu_mii_045",
+ "source": "raw/src/core/shared/SportsStatic/common/CPUMii/cpu_mii_045.rcd",
+ "raw": "AA4wojDsMMMwrzC5AAAAAAAAAAAAAEBAIAAAAAAAAABSflQAIQ8Gs0SOBG9ySEBvAIrgiyUFAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "info": {
+  "name": "アレックス",
+  "creator": "",
+  "sex": 0,
+  "birthMonth": 0,
+  "birthDay": 0,
+  "favoriteColor": 7,
+  "favorite": 0,
+  "height": 64,
+  "build": 64,
+  "createId": "2000000000000000",
+  "faceline": {
+   "type": 2,
+   "color": 4,
+   "texture": 9
+  },
+  "hair": {
+   "type": 42,
+   "color": 0,
+   "flip": 0
+  },
+  "eye": {
+   "type": 17,
+   "color": 0,
+   "scale": 2,
+   "rotate": 4,
+   "x": 3,
+   "y": 14
+  },
+  "eyebrow": {
+   "type": 4,
+   "color": 0,
+   "scale": 3,
+   "rotate": 4,
+   "x": 3,
+   "y": 11
+  },
+  "nose": {
+   "type": 7,
+   "scale": 2,
+   "y": 9
+  },
+  "mouth": {
+   "type": 8,
+   "color": 0,
+   "scale": 3,
+   "y": 15
+  },
+  "beard": {
+   "mustache": 3,
+   "type": 2,
+   "color": 0,
+   "scale": 4,
+   "y": 11
+  },
+  "glass": {
+   "type": 0,
+   "color": 0,
+   "scale": 4,
+   "y": 10
+  },
+  "mole": {
+   "type": 0,
+   "scale": 4,
+   "x": 2,
+   "y": 20
+  }
+ }
+}

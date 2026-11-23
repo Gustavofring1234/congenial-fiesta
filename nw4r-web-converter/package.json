@@ -1,0 +1,31 @@
+{
+  "name": "nw4r-web-converter",
+  "version": "0.1.0",
+  "description": "Pure TypeScript converters for Nintendo Wii/GameCube NW4R binaries (.carc/.arc, .tpl, .brfnt, .brlan, .kcl) into web-native assets (zip, png, json, glb).",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./web-runtime": "./src/web-runtime/index.ts",
+    "./schemas": "./src/schemas/bundle.schema.ts"
+  },
+  "bin": {
+    "nw4r-web": "src/cli.ts"
+  },
+  "scripts": {
+    "convert": "tsx src/cli.ts convert",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fflate": "^0.8.3",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}

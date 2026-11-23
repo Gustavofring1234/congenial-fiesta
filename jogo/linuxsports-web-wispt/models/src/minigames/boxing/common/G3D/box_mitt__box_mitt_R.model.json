@@ -1,0 +1,71 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_bc6bc6a9dae6024a",
+ "source": "src/minigames/boxing/common/common.carc/G3D/box_mitt.brres/box_mitt_R",
+ "brres": "src/minigames/boxing/common/common.carc/G3D/box_mitt.brres",
+ "model": "box_mitt_R",
+ "glb": "models/src/minigames/boxing/common/G3D/box_mitt__box_mitt_R.glb",
+ "textures": [
+  {
+   "name": "box_env_mitt",
+   "foundIn": "src/minigames/boxing/common/common.carc/G3D/box_mitt.brres",
+   "materials": [
+    "box_mitt1",
+    "box_mitt2"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "box_mitt",
+   "foundIn": "src/minigames/boxing/common/common.carc/G3D/box_mitt.brres",
+   "materials": [
+    "box_mitt2"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [],
+ "materials": [
+  {
+   "name": "box_mitt1",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "box_env_mitt",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "box_mitt2",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "box_mitt",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    },
+    {
+     "texture": "box_env_mitt",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ]
+}

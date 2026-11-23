@@ -1,0 +1,53 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_d9a7caed0ca0c1ad",
+ "source": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Glove.brres/bbl_Glove_l",
+ "brres": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Glove.brres",
+ "model": "bbl_Glove_l",
+ "glb": "models/src/minigames/baseball/common/model/G3D/bbl_Glove__bbl_Glove_l.glb",
+ "textures": [
+  {
+   "name": "bbl_glove",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Glove.brres",
+   "materials": [
+    "bbl_glove"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "bbl_Glove_env",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Glove.brres",
+   "materials": [
+    "bbl_glove"
+   ],
+   "layer0": false
+  }
+ ],
+ "animations": [],
+ "materials": [
+  {
+   "name": "bbl_glove",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bbl_glove",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "bbl_Glove_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ]
+}

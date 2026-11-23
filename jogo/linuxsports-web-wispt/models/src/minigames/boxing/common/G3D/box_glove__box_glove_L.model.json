@@ -1,0 +1,88 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_51fa7aee8de9e066",
+ "source": "src/minigames/boxing/common/common.carc/G3D/box_glove.brres/box_glove_L",
+ "brres": "src/minigames/boxing/common/common.carc/G3D/box_glove.brres",
+ "model": "box_glove_L",
+ "glb": "models/src/minigames/boxing/common/G3D/box_glove__box_glove_L.glb",
+ "textures": [
+  {
+   "name": "box_env_glove",
+   "foundIn": "src/minigames/boxing/common/common.carc/G3D/box_glove.brres",
+   "materials": [
+    "M_box01",
+    "M_box02"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "box_glove",
+   "foundIn": "src/minigames/boxing/common/common.carc/G3D/box_glove.brres",
+   "materials": [
+    "M_box01"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [
+  {
+   "type": "CLR0",
+   "name": "box_glove_blue"
+  },
+  {
+   "type": "CLR0",
+   "name": "box_glove_gym"
+  },
+  {
+   "type": "CLR0",
+   "name": "box_glove_red"
+  },
+  {
+   "type": "CLR0",
+   "name": "box_glove_white"
+  }
+ ],
+ "materials": [
+  {
+   "name": "M_box01",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "box_glove",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    },
+    {
+     "texture": "box_env_glove",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_box02",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "box_env_glove",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  }
+ ]
+}

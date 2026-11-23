@@ -1,0 +1,28 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_4c47dc8a1002d77c",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_tree2.brres/glf_tree2_env",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_tree2.brres",
+ "model": "glf_tree2_env",
+ "glb": "models/src/minigames/golf/common/common.carc/G3D/glf_tree2__glf_tree2_env.glb",
+ "textures": [
+  {
+   "name": "glfM_tree2leaf",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_tree2.brres"
+  },
+  {
+   "name": "glfM_tree2wood",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_tree2.brres"
+  },
+  {
+   "name": "glfM_tree2_LOD",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_tree2.brres"
+  },
+  {
+   "name": "glf_Tree2env1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_tree2.brres"
+  }
+ ],
+ "animations": []
+}

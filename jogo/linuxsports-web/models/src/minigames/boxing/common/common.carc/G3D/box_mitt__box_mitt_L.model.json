@@ -1,0 +1,20 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_bc6bc8a9dae605b0",
+ "source": "src/minigames/boxing/common/common.carc/G3D/box_mitt.brres/box_mitt_L",
+ "brres": "src/minigames/boxing/common/common.carc/G3D/box_mitt.brres",
+ "model": "box_mitt_L",
+ "glb": "models/src/minigames/boxing/common/common.carc/G3D/box_mitt__box_mitt_L.glb",
+ "textures": [
+  {
+   "name": "box_env_mitt",
+   "foundIn": "src/minigames/boxing/common/common.carc/G3D/box_mitt.brres"
+  },
+  {
+   "name": "box_mitt",
+   "foundIn": "src/minigames/boxing/common/common.carc/G3D/box_mitt.brres"
+  }
+ ],
+ "animations": []
+}

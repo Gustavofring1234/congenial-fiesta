@@ -1,0 +1,53 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_5d3b40e7e2836583",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/all_tie.brres/tie",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/all_tie.brres",
+ "model": "tie",
+ "glb": "models/src/core/shared/SportsStatic/us/local.carc/G3D/all_tie__tie.glb",
+ "textures": [
+  {
+   "name": "all_BG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_tie.brres"
+  },
+  {
+   "name": "all_env_tie",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_tie.brres"
+  },
+  {
+   "name": "all_shadow",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_tie.brres"
+  },
+  {
+   "name": "all_tie_ind_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_tie.brres"
+  },
+  {
+   "name": "all_tie_ind_JPN",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_tie.brres"
+  },
+  {
+   "name": "all_tie_tex_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_tie.brres"
+  },
+  {
+   "name": "all_tie_tex_JPN",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_tie.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "tie"
+  },
+  {
+   "type": "SRT0",
+   "name": "tie"
+  },
+  {
+   "type": "CLR0",
+   "name": "tie"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "id": "cpu_mii_059",
+ "source": "raw/src/core/shared/SportsStatic/common/CPUMii/cpu_mii_059.rcd",
+ "raw": "wAIw6zC3MPwwogAAAAAAAAAAAAAAAEBAIAAAAAAAAACAxSeICY8GwqBtRmQTUKhuAo8AiiUEAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "info": {
+  "name": "ルシーア",
+  "creator": "",
+  "sex": 1,
+  "birthMonth": 0,
+  "birthDay": 0,
+  "favoriteColor": 1,
+  "favorite": 0,
+  "height": 64,
+  "build": 64,
+  "createId": "2000000000000000",
+  "faceline": {
+   "type": 4,
+   "color": 0,
+   "texture": 3
+  },
+  "hair": {
+   "type": 19,
+   "color": 6,
+   "flip": 0
+  },
+  "eye": {
+   "type": 40,
+   "color": 2,
+   "scale": 3,
+   "rotate": 3,
+   "x": 3,
+   "y": 13
+  },
+  "eyebrow": {
+   "type": 1,
+   "color": 0,
+   "scale": 3,
+   "rotate": 6,
+   "x": 2,
+   "y": 12
+  },
+  "nose": {
+   "type": 1,
+   "scale": 3,
+   "y": 10
+  },
+  "mouth": {
+   "type": 21,
+   "color": 0,
+   "scale": 3,
+   "y": 14
+  },
+  "beard": {
+   "mustache": 0,
+   "type": 0,
+   "color": 0,
+   "scale": 4,
+   "y": 10
+  },
+  "glass": {
+   "type": 0,
+   "color": 1,
+   "scale": 4,
+   "y": 15
+  },
+  "mole": {
+   "type": 0,
+   "scale": 4,
+   "x": 2,
+   "y": 20
+  }
+ }
+}

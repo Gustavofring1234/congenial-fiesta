@@ -1,0 +1,108 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_a6edcc68ee70087d",
+ "source": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres/glf_map_E3",
+ "brres": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres",
+ "model": "glf_map_E3",
+ "glb": "models/assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3__glf_map_E3.glb",
+ "textures": [
+  {
+   "name": "glf_BunkerGara1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_color1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_cup1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_fairway1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_fairway_line1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_green1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_hole1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_iwa1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_JimenGara2",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_Kiwa_Bunker",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_Kiwa_F",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_Kiwa_OB",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_Kiwa_R",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_ob1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_rough1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_sand01",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_tokosenFix",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_water1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_wave1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_wave2",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "glf_Xnamiichi1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "projection_1",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "projection_2",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  },
+  {
+   "name": "projection_3",
+   "foundIn": "assets/maps/golf/glf_course_E3.carc/G3D/glf_map_E3.brres"
+  }
+ ],
+ "animations": []
+}

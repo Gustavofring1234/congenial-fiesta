@@ -1,0 +1,73 @@
+{
+ "id": "cpu_mii_031",
+ "source": "raw/src/core/shared/SportsStatic/common/CPUMii/cpu_mii_031.rcd",
+ "raw": "wAowojC3MOUw6jD8AAAAAAAAAAAAAEBAIAAAAAAAAACGhTeIAY8oomyMpmQUSLDNVIsAiiUEAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "info": {
+  "name": "アシュリー",
+  "creator": "",
+  "sex": 1,
+  "birthMonth": 0,
+  "birthDay": 0,
+  "favoriteColor": 5,
+  "favorite": 0,
+  "height": 64,
+  "build": 64,
+  "createId": "2000000000000000",
+  "faceline": {
+   "type": 4,
+   "color": 1,
+   "texture": 10
+  },
+  "hair": {
+   "type": 27,
+   "color": 6,
+   "flip": 0
+  },
+  "eye": {
+   "type": 27,
+   "color": 5,
+   "scale": 3,
+   "rotate": 4,
+   "x": 3,
+   "y": 12
+  },
+  "eyebrow": {
+   "type": 0,
+   "color": 1,
+   "scale": 4,
+   "rotate": 6,
+   "x": 2,
+   "y": 10
+  },
+  "nose": {
+   "type": 1,
+   "scale": 4,
+   "y": 9
+  },
+  "mouth": {
+   "type": 22,
+   "color": 0,
+   "scale": 6,
+   "y": 13
+  },
+  "beard": {
+   "mustache": 0,
+   "type": 0,
+   "color": 0,
+   "scale": 4,
+   "y": 10
+  },
+  "glass": {
+   "type": 5,
+   "color": 2,
+   "scale": 4,
+   "y": 11
+  },
+  "mole": {
+   "type": 0,
+   "scale": 4,
+   "x": 2,
+   "y": 20
+  }
+ }
+}

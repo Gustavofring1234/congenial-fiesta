@@ -1,0 +1,91 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_30493df3b669668f",
+ "source": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres/bwg_ball_blue_mirror",
+ "brres": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres",
+ "model": "bwg_ball_blue_mirror",
+ "glb": "models/src/minigames/bowling/common/G3D/bwg_ball__bwg_ball_blue_mirror.glb",
+ "textures": [
+  {
+   "name": "ball_gra",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_Ball_blue",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres",
+   "materials": [
+    "bwg_ball_mat"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "bwg_Ball_green",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_Ball_pink",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_ball_yellow",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "env_test",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres",
+   "materials": [
+    "bwg_ball_mat"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "test_gra",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres",
+   "materials": [
+    "bwg_ball_mat"
+   ],
+   "layer0": false
+  }
+ ],
+ "animations": [],
+ "materials": [
+  {
+   "name": "bwg_ball_mat",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bwg_Ball_blue",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "env_test",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "test_gra",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ]
+}

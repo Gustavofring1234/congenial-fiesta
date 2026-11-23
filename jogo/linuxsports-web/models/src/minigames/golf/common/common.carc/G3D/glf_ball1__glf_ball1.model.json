@@ -1,0 +1,20 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_7a02aad1273e49dc",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_ball1.brres/glf_ball1",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_ball1.brres",
+ "model": "glf_ball1",
+ "glb": "models/src/minigames/golf/common/common.carc/G3D/glf_ball1__glf_ball1.glb",
+ "textures": [
+  {
+   "name": "glfM_ball1env",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_ball1.brres"
+  },
+  {
+   "name": "glf_M_ball1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_ball1.brres"
+  }
+ ],
+ "animations": []
+}

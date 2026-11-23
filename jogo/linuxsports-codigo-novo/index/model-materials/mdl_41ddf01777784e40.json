@@ -1,0 +1,131 @@
+{
+ "assetId": "mdl_41ddf01777784e40",
+ "model": "wipe_replay",
+ "materials": [
+  {
+   "name": "wp_Light",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "wipe_Light_e",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "wp_bord",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "wipe_mat_b",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon3",
+    "polygon4",
+    "polygon5",
+    "polygon6"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "wp_logo",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "logo_color",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "wipe_Light_b",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "wp_shadow",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "WiiSports_logo_1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon2"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "logo_color",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_Replay.brres",
+   "materials": [
+    "wp_logo"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "WiSpt_logo_1",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_Replay.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "wipe_Light_b",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_Replay.brres",
+   "materials": [
+    "wp_logo"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "wipe_Light_e",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_Replay.brres",
+   "materials": [
+    "wp_Light"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "wipe_mat_b",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_Replay.brres",
+   "materials": [
+    "wp_bord"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "WiiSports_logo_1",
+   "foundIn": null,
+   "materials": [
+    "wp_shadow"
+   ],
+   "layer0": true
+  }
+ ]
+}

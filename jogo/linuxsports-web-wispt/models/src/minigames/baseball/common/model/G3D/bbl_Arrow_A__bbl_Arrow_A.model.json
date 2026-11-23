@@ -1,0 +1,57 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_20dd59f74e8fa346",
+ "source": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Arrow_A.brres/bbl_Arrow_A",
+ "brres": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Arrow_A.brres",
+ "model": "bbl_Arrow_A",
+ "glb": "models/src/minigames/baseball/common/model/G3D/bbl_Arrow_A__bbl_Arrow_A.glb",
+ "textures": [
+  {
+   "name": "arrowA",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Arrow_A.brres",
+   "materials": [
+    "arrowA1_mat",
+    "arrowA2_mat"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [],
+ "materials": [
+  {
+   "name": "arrowA1_mat",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "arrowA",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "arrowA2_mat",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "arrowA",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  }
+ ]
+}

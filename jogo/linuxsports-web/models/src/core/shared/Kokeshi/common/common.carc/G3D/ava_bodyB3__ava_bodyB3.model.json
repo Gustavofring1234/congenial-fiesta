@@ -1,0 +1,28 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_5a4869d30bb2a007",
+ "source": "src/core/shared/Kokeshi/common/common.carc/G3D/ava_bodyB3.brres/ava_bodyB3",
+ "brres": "src/core/shared/Kokeshi/common/common.carc/G3D/ava_bodyB3.brres",
+ "model": "ava_bodyB3",
+ "glb": "models/src/core/shared/Kokeshi/common/common.carc/G3D/ava_bodyB3__ava_bodyB3.glb",
+ "textures": [
+  {
+   "name": "dummy_tex_a",
+   "foundIn": "src/core/shared/Kokeshi/common/common.carc/G3D/ava_bodyB3.brres"
+  },
+  {
+   "name": "dummy_tex_b",
+   "foundIn": "src/core/shared/Kokeshi/common/common.carc/G3D/ava_bodyB3.brres"
+  },
+  {
+   "name": "lm_0",
+   "foundIn": "src/core/shared/Kokeshi/common/common.carc/G3D/ava_bodyB3.brres"
+  },
+  {
+   "name": "lm_1",
+   "foundIn": "src/core/shared/Kokeshi/common/common.carc/G3D/ava_bodyB3.brres"
+  }
+ ],
+ "animations": []
+}

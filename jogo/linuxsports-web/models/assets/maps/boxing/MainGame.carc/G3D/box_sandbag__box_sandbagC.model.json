@@ -1,0 +1,40 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_5f4f7b574169ff0c",
+ "source": "assets/maps/boxing/MainGame.carc/G3D/box_sandbag.brres/box_sandbagC",
+ "brres": "assets/maps/boxing/MainGame.carc/G3D/box_sandbag.brres",
+ "model": "box_sandbagC",
+ "glb": "models/assets/maps/boxing/MainGame.carc/G3D/box_sandbag__box_sandbagC.glb",
+ "textures": [
+  {
+   "name": "box_env_sdbg",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_sandbag.brres"
+  },
+  {
+   "name": "box_id02",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_sandbag.brres"
+  },
+  {
+   "name": "box_sandbag_test",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_sandbag.brres"
+  },
+  {
+   "name": "box_sdbg_boro",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_sandbag.brres"
+  },
+  {
+   "name": "box_sdbg_chain",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_sandbag.brres"
+  },
+  {
+   "name": "box_sdbg_chain_maru",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_sandbag.brres"
+  },
+  {
+   "name": "box_sdbg_kiwa",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_sandbag.brres"
+  }
+ ],
+ "animations": []
+}

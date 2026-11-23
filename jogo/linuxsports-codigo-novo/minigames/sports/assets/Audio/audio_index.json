@@ -1,0 +1,67 @@
+{
+ "format": "linuxsports-audio-index",
+ "version": 1,
+ "banks": [
+  {
+   "name": "home",
+   "source": "raw/assets/audio/decoded (HomeButtonSe.brsar)",
+   "clips": [
+    {
+     "name": "SpeakerSe_connect1",
+     "cue": "HOMESE_CONNECTED",
+     "file": "Audio/home/SpeakerSe_connect1.wav",
+     "channels": 1,
+     "sampleRate": 32000,
+     "frames": 6496,
+     "seconds": 0.203
+    },
+    {
+     "name": "SpeakerSe_connect2",
+     "cue": "HOMESE_CONNECTED2",
+     "file": "Audio/home/SpeakerSe_connect2.wav",
+     "channels": 1,
+     "sampleRate": 32000,
+     "frames": 6288,
+     "seconds": 0.1965
+    },
+    {
+     "name": "SpeakerSe_connect3",
+     "cue": "HOMESE_CONNECTED3",
+     "file": "Audio/home/SpeakerSe_connect3.wav",
+     "channels": 1,
+     "sampleRate": 32000,
+     "frames": 5456,
+     "seconds": 0.1705
+    },
+    {
+     "name": "SpeakerSe_connect4",
+     "cue": "HOMESE_CONNECTED4",
+     "file": "Audio/home/SpeakerSe_connect4.wav",
+     "channels": 1,
+     "sampleRate": 32000,
+     "frames": 6608,
+     "seconds": 0.2065
+    },
+    {
+     "name": "SpeakerSe_volume",
+     "cue": "HOMESE_VOLUME_PLUS",
+     "file": "Audio/home/SpeakerSe_volume.wav",
+     "channels": 1,
+     "sampleRate": 32000,
+     "frames": 4760,
+     "seconds": 0.1487
+    }
+   ]
+  }
+ ],
+ "missingBanks": [
+  "rp_Common_Sports",
+  "rp_Tns_sound",
+  "rp_Bsb_sound",
+  "rp_Gol_sound",
+  "rp_Box_sound",
+  "rp_Bow_sound",
+  "rp_Health_sound",
+  "HomeButtonSe"
+ ]
+}

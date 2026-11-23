@@ -1,0 +1,44 @@
+{
+ "format": "nw4r-scene",
+ "version": 1,
+ "assetId": "scn_3af9f2fccfa2655c",
+ "source": "src/core/shared/SportsStatic/common/common.carc",
+ "sport": "shared",
+ "models": [
+  {
+   "name": "G3D/lensfx.brres/sun_lensfx",
+   "ref": "mdl_e244d8011d1bb205"
+  },
+  {
+   "name": "G3D/sun.brres/sun_model",
+   "ref": "mdl_1793e8dd9749edfe"
+  },
+  {
+   "name": "G3D/wipe_Replay.brres/wipe_replay",
+   "ref": "mdl_41ddf01777784e40"
+  },
+  {
+   "name": "G3D/wipe_slide.brres/wipe_slide",
+   "ref": "mdl_afe7ea591d482920"
+  }
+ ],
+ "collision": [],
+ "objects": [],
+ "data": [
+  {
+   "role": "bti",
+   "name": "HomeMenu/homeBtnIcon.bti",
+   "ref": "bin_c1ed17f6199677b0"
+  },
+  {
+   "role": "bti",
+   "name": "lm_0.bti",
+   "ref": "bin_a4a754ae23b9fd0f"
+  },
+  {
+   "role": "bti",
+   "name": "lm_1.bti",
+   "ref": "bin_dc9315b4d41c6fc0"
+  }
+ ]
+}

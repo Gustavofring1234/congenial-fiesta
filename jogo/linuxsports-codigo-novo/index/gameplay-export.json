@@ -1,0 +1,507 @@
+{
+ "unitsPerMeter": 10.0,
+ "bowling": {
+  "laneCollision": "Collision/src/minigames/bowling/common/bwg_lane_col.glb",
+  "laneBounds": [
+   [
+    -19.5,
+    0,
+    -260.00177001953125
+   ],
+   [
+    19.5,
+    0,
+    0
+   ]
+  ],
+  "backgroundPins": "Models/src/minigames/bowling/common/G3D/bwg_field__bwg_field_pin.glb",
+  "backgroundPinsBounds": [
+   [
+    -173.42294311523438,
+    0.010041000321507454,
+    -190.80348205566406
+   ],
+   [
+    173.42291259765625,
+    3.8606960773468018,
+    -182.2690887451172
+   ]
+  ],
+  "npcLaneX": "DOL 0x803CA6C8..0x803CA6E0 (7 floats, Bowling::CheckBallLaneIntersection)"
+ },
+ "golfSurfaceEvidence": {
+  "E3": {
+   "teeFlags": [
+    1
+   ],
+   "pinFlags": [
+    [
+     11
+    ]
+   ],
+   "areaM2": {
+    "1": 7646,
+    "2": 24515,
+    "3": 1613,
+    "4": 111105,
+    "5": 1018167,
+    "6": 603,
+    "7": 8103,
+    "8": 0,
+    "9": 123,
+    "10": 0,
+    "11": 0,
+    "12": 0
+   }
+  },
+  "angle": {
+   "teeFlags": [
+    1
+   ],
+   "pinFlags": [
+    [
+     1
+    ]
+   ],
+   "areaM2": {
+    "1": 259199,
+    "3": 28800,
+    "12": 0
+   }
+  },
+  "fc1": {
+   "teeFlags": [
+    1
+   ],
+   "pinFlags": [
+    [
+     6
+    ],
+    [
+     6
+    ],
+    [
+     6
+    ]
+   ],
+   "areaM2": {
+    "1": 14784,
+    "2": 35340,
+    "3": 1658,
+    "4": 330429,
+    "5": 18525,
+    "6": 825,
+    "9": 128
+   }
+  },
+  "fc11": {
+   "teeFlags": [
+    1
+   ],
+   "pinFlags": [
+    [
+     6
+    ],
+    [
+     6
+    ],
+    [
+     6
+    ],
+    [
+     6
+    ],
+    [
+     6
+    ]
+   ],
+   "areaM2": {
+    "1": 9250,
+    "2": 33621,
+    "4": 93400,
+    "5": 79136,
+    "6": 490,
+    "7": 38278,
+    "9": 86,
+    "12": 2477
+   }
+  },
+  "fc12": {
+   "teeFlags": [
+    1
+   ],
+   "pinFlags": [
+    [
+     6
+    ],
+    [
+     6
+    ],
+    [
+     6
+    ]
+   ],
+   "areaM2": {
+    "1": 10574,
+    "2": 27693,
+    "3": 1414,
+    "4": 141900,
+    "5": 82739,
+    "6": 592,
+    "9": 93
+   }
+  },
+  "fc13": {
+   "teeFlags": [
+    1,
+    7
+   ],
+   "pinFlags": [
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "areaM2": {
+    "1": 15501,
+    "2": 32010,
+    "3": 1196,
+    "4": 46521,
+    "5": 79265,
+    "6": 386,
+    "7": 2001376,
+    "9": 76,
+    "12": 15823
+   }
+  },
+  "fc14": {
+   "teeFlags": [
+    1,
+    13
+   ],
+   "pinFlags": [
+    [
+     6,
+     13
+    ],
+    [
+     6,
+     13
+    ],
+    [
+     6,
+     13
+    ]
+   ],
+   "areaM2": {
+    "1": 1397,
+    "2": 7586,
+    "3": 438,
+    "4": 89390,
+    "5": 444067,
+    "6": 558,
+    "9": 89,
+    "12": 262753,
+    "13": 749994
+   }
+  },
+  "fc16": {
+   "teeFlags": [
+    1
+   ],
+   "pinFlags": [
+    [
+     6
+    ],
+    [
+     6
+    ],
+    [
+     6
+    ]
+   ],
+   "areaM2": {
+    "1": 9701,
+    "2": 44987,
+    "3": 69042,
+    "4": 392703,
+    "5": 238585,
+    "6": 604,
+    "7": 85798,
+    "9": 95,
+    "12": 70506
+   }
+  },
+  "fc18": {
+   "teeFlags": [
+    1,
+    7
+   ],
+   "pinFlags": [
+    [
+     7,
+     11
+    ]
+   ],
+   "areaM2": {
+    "1": 26685,
+    "2": 38279,
+    "3": 1605,
+    "4": 231838,
+    "6": 598,
+    "7": 940923,
+    "10": 0,
+    "11": 0,
+    "12": 0
+   }
+  },
+  "fc3": {
+   "teeFlags": [
+    1
+   ],
+   "pinFlags": [
+    [
+     6
+    ],
+    [
+     6
+    ],
+    [
+     6
+    ],
+    [
+     6
+    ],
+    [
+     6
+    ],
+    [
+     6
+    ]
+   ],
+   "areaM2": {
+    "1": 2358,
+    "2": 13219,
+    "3": 393,
+    "4": 83837,
+    "5": 44843,
+    "6": 510,
+    "7": 8095,
+    "9": 86,
+    "12": 744
+   }
+  },
+  "fc5": {
+   "teeFlags": [
+    1,
+    7
+   ],
+   "pinFlags": [
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "areaM2": {
+    "1": 17181,
+    "2": 35070,
+    "3": 1336,
+    "4": 183040,
+    "5": 42486,
+    "6": 449,
+    "7": 749999,
+    "9": 85,
+    "12": 3306,
+    "16": 47614
+   }
+  },
+  "fc8": {
+   "teeFlags": [
+    1
+   ],
+   "pinFlags": [
+    [
+     6
+    ],
+    [
+     6
+    ],
+    [
+     6
+    ]
+   ],
+   "areaM2": {
+    "1": 16540,
+    "2": 33281,
+    "3": 571,
+    "4": 695167,
+    "5": 55040,
+    "6": 448,
+    "7": 14925,
+    "9": 80,
+    "12": 4133
+   }
+  },
+  "fc9": {
+   "teeFlags": [
+    1,
+    7
+   ],
+   "pinFlags": [
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     7
+    ]
+   ],
+   "areaM2": {
+    "1": 3492,
+    "2": 14311,
+    "3": 563,
+    "4": 97521,
+    "5": 93470,
+    "6": 714,
+    "7": 441496,
+    "9": 105,
+    "12": 10017
+   }
+  },
+  "survey": {
+   "teeFlags": [
+    1
+   ],
+   "pinFlags": [
+    [
+     1
+    ]
+   ],
+   "areaM2": {
+    "1": 653427
+   }
+  }
+ },
+ "golf": {
+  "courses": 14,
+  "source": "objetos .pmp tipo 0 (tee) e 1 (pino), no referencial do alvo (web)",
+  "surfaces": {
+   "1": "tee",
+   "2": "fairway",
+   "3": "bunker",
+   "4": "rough",
+   "5": "deepRough",
+   "6": "green",
+   "7": "outOfBounds",
+   "8": "rough",
+   "9": "green",
+   "10": "rough",
+   "11": "green",
+   "12": "water",
+   "13": "outOfBounds"
+  }
+ },
+ "baseball": {
+  "collision": "Collision/assets/maps/baseball/bbl_Field_a.glb",
+  "triangles": 3428,
+  "fenceBuckets": 19
+ },
+ "tennis": {
+  "net": "Models/assets/maps/tennis/tns_Field_a/G3D/tns_net_a__tns_net_a.glb",
+  "netWidthUnits": 136.36,
+  "impliedUnitsPerMeter": 10.65
+ },
+ "boxing": {
+  "ring": "Models/assets/maps/boxing/G3D/box_ring__box_ring.glb",
+  "bounds": [
+   [
+    -36.853515625,
+    -10.0,
+    -36.853515625
+   ],
+   [
+    36.853515625,
+    0.0,
+    36.853515625
+   ]
+  ]
+ },
+ "counts": {
+  "tennis": {
+   "animations": 25,
+   "effects": 25,
+   "models": 11,
+   "hud": 6
+  },
+  "baseball": {
+   "animations": 15,
+   "effects": 12,
+   "models": 14,
+   "hud": 5
+  },
+  "bowling": {
+   "animations": 18,
+   "effects": 7,
+   "models": 38,
+   "hud": 6
+  },
+  "golf": {
+   "animations": 18,
+   "effects": 33,
+   "models": 27,
+   "hud": 6
+  },
+  "boxing": {
+   "animations": 33,
+   "effects": 51,
+   "models": 30,
+   "hud": 3
+  }
+ },
+ "records": 23,
+ "avatarBodies": [
+  "ava_bodyA0",
+  "ava_bodyA1",
+  "ava_bodyA2",
+  "ava_bodyA3",
+  "ava_bodyB0",
+  "ava_bodyB1",
+  "ava_bodyB2",
+  "ava_bodyB3",
+  "ava_bodyC0",
+  "ava_bodyC1",
+  "ava_bodyE0"
+ ],
+ "stateLayouts": {
+  "Boot": 2,
+  "MainMenu": 3,
+  "SportSelect": 2,
+  "CharacterSelect": 3,
+  "Intro": 2,
+  "Playing": 1,
+  "Paused": 1,
+  "Results": 2,
+  "Records": 3
+ }
+}

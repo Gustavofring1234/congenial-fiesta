@@ -1,0 +1,73 @@
+{
+ "id": "cpu_mii_049",
+ "source": "raw/src/core/shared/SportsStatic/common/CPUMii/cpu_mii_049.rcd",
+ "raw": "AAAw9DCjMK8wyDDrAAAAAAAAAAAAAEBAIAAAAAAAAADCvoYAYM8IskSNSFI1SEBvAIrg6qSFAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "info": {
+  "name": "ヴィクトル",
+  "creator": "",
+  "sex": 0,
+  "birthMonth": 0,
+  "birthDay": 0,
+  "favoriteColor": 0,
+  "favorite": 0,
+  "height": 64,
+  "build": 64,
+  "createId": "2000000000000000",
+  "faceline": {
+   "type": 6,
+   "color": 0,
+   "texture": 10
+  },
+  "hair": {
+   "type": 67,
+   "color": 0,
+   "flip": 0
+  },
+  "eye": {
+   "type": 17,
+   "color": 2,
+   "scale": 4,
+   "rotate": 4,
+   "x": 2,
+   "y": 13
+  },
+  "eyebrow": {
+   "type": 12,
+   "color": 0,
+   "scale": 4,
+   "rotate": 3,
+   "x": 2,
+   "y": 11
+  },
+  "nose": {
+   "type": 3,
+   "scale": 5,
+   "y": 9
+  },
+  "mouth": {
+   "type": 8,
+   "color": 0,
+   "scale": 3,
+   "y": 15
+  },
+  "beard": {
+   "mustache": 3,
+   "type": 2,
+   "color": 0,
+   "scale": 7,
+   "y": 10
+  },
+  "glass": {
+   "type": 0,
+   "color": 0,
+   "scale": 4,
+   "y": 10
+  },
+  "mole": {
+   "type": 1,
+   "scale": 4,
+   "x": 2,
+   "y": 18
+  }
+ }
+}

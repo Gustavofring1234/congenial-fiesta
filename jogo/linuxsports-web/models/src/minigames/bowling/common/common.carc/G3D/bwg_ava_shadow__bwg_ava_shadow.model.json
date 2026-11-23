@@ -1,0 +1,16 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_a1217670602e0366",
+ "source": "src/minigames/bowling/common/common.carc/G3D/bwg_ava_shadow.brres/bwg_ava_shadow",
+ "brres": "src/minigames/bowling/common/common.carc/G3D/bwg_ava_shadow.brres",
+ "model": "bwg_ava_shadow",
+ "glb": "models/src/minigames/bowling/common/common.carc/G3D/bwg_ava_shadow__bwg_ava_shadow.glb",
+ "textures": [
+  {
+   "name": "wtd_ava_shadow",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_ava_shadow.brres"
+  }
+ ],
+ "animations": []
+}

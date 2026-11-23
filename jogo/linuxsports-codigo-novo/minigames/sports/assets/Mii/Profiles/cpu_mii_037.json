@@ -1,0 +1,73 @@
+{
+ "id": "cpu_mii_037",
+ "source": "raw/src/core/shared/SportsStatic/common/CPUMii/cpu_mii_037.rcd",
+ "raw": "wBQwyjCqMN8AAAAAAAAAAAAAAAAAAEBAIAAAAAAAAAAqBQ7IAc9o0oxtZIRyWGquAIoAiiUEAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "info": {
+  "name": "ナオミ",
+  "creator": "",
+  "sex": 1,
+  "birthMonth": 0,
+  "birthDay": 0,
+  "favoriteColor": 10,
+  "favorite": 0,
+  "height": 64,
+  "build": 64,
+  "createId": "2000000000000000",
+  "faceline": {
+   "type": 1,
+   "color": 2,
+   "texture": 8
+  },
+  "hair": {
+   "type": 7,
+   "color": 3,
+   "flip": 0
+  },
+  "eye": {
+   "type": 35,
+   "color": 3,
+   "scale": 2,
+   "rotate": 3,
+   "x": 4,
+   "y": 13
+  },
+  "eyebrow": {
+   "type": 0,
+   "color": 3,
+   "scale": 4,
+   "rotate": 7,
+   "x": 2,
+   "y": 13
+  },
+  "nose": {
+   "type": 7,
+   "scale": 2,
+   "y": 11
+  },
+  "mouth": {
+   "type": 13,
+   "color": 1,
+   "scale": 5,
+   "y": 14
+  },
+  "beard": {
+   "mustache": 0,
+   "type": 0,
+   "color": 0,
+   "scale": 4,
+   "y": 10
+  },
+  "glass": {
+   "type": 0,
+   "color": 0,
+   "scale": 4,
+   "y": 10
+  },
+  "mole": {
+   "type": 0,
+   "scale": 4,
+   "x": 2,
+   "y": 20
+  }
+ }
+}

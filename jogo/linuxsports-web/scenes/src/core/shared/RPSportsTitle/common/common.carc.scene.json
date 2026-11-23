@@ -1,0 +1,16 @@
+{
+ "format": "nw4r-scene",
+ "version": 1,
+ "assetId": "scn_b8ddbf2fe332279c",
+ "source": "src/core/shared/RPSportsTitle/common/common.carc",
+ "sport": "shared",
+ "models": [
+  {
+   "name": "G3D/sp_titleBG_00.brres/sp_titleBG_00",
+   "ref": "mdl_e96379d6ff2c3e6e"
+  }
+ ],
+ "collision": [],
+ "objects": [],
+ "data": []
+}

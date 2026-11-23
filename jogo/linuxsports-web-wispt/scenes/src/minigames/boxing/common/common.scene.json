@@ -1,0 +1,28 @@
+{
+ "format": "nw4r-scene",
+ "version": 1,
+ "assetId": "scn_c3d15c585378b35d",
+ "source": "src/minigames/boxing/common/common.carc",
+ "sport": "boxing",
+ "models": [
+  {
+   "name": "G3D/box_glove.brres/box_glove_L",
+   "ref": "mdl_51fa7aee8de9e066"
+  },
+  {
+   "name": "G3D/box_glove.brres/box_glove_R",
+   "ref": "mdl_51fa94ee8dea0c94"
+  },
+  {
+   "name": "G3D/box_mitt.brres/box_mitt_L",
+   "ref": "mdl_bc6bc8a9dae605b0"
+  },
+  {
+   "name": "G3D/box_mitt.brres/box_mitt_R",
+   "ref": "mdl_bc6bc6a9dae6024a"
+  }
+ ],
+ "collision": [],
+ "objects": [],
+ "data": []
+}

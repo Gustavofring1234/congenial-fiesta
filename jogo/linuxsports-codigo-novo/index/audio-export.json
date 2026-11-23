@@ -1,0 +1,13 @@
+{
+ "clips": 5,
+ "missingBanks": [
+  "rp_Common_Sports",
+  "rp_Tns_sound",
+  "rp_Bsb_sound",
+  "rp_Gol_sound",
+  "rp_Box_sound",
+  "rp_Bow_sound",
+  "rp_Health_sound",
+  "HomeButtonSe"
+ ]
+}

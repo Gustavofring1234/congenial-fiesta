@@ -1,0 +1,180 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_6a3cae12130b5f98",
+ "source": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres/box_ball_shadow",
+ "brres": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+ "model": "box_ball_shadow",
+ "glb": "models/assets/maps/boxing/G3D/box_ball__box_ball_shadow.glb",
+ "textures": [
+  {
+   "name": "ball.0",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "ball.1",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "ball.2",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "ball.3",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "ball.4",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "ball.5",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "ball.6",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "ball.7",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "ball.8",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "ball.9",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "ball_shadow",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [
+    "ball_shadow"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "bbl_Ball",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bbl_Ball_env",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_ball.0",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_ball.1",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_ball.2",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_ball.3",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "env",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "env_bwg",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_ball1A",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_ball1B",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "Light_map3",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "tns_Ball_e",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ball.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ],
+ "animations": [
+  {
+   "type": "PAT0",
+   "name": "box_ball_bad"
+  },
+  {
+   "type": "PAT0",
+   "name": "box_ball_bwg"
+  }
+ ],
+ "materials": [
+  {
+   "name": "ball_shadow",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "ball_shadow",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ]
+}

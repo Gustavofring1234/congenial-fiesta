@@ -1,0 +1,81 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_27c23aafc8f0242a",
+ "source": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres/bbl_c_pl",
+ "brres": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+ "model": "bbl_c_pl",
+ "glb": "models/src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl__bbl_c_pl.glb",
+ "textures": [
+  {
+   "name": "bbl_Glove_env",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres"
+  },
+  {
+   "name": "bbl_pl.0",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres"
+  },
+  {
+   "name": "bbl_pl.1",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres"
+  },
+  {
+   "name": "bbl_pl.10",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres"
+  },
+  {
+   "name": "bbl_pl.11",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres"
+  },
+  {
+   "name": "bbl_pl.2",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres"
+  },
+  {
+   "name": "bbl_pl.3",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres"
+  },
+  {
+   "name": "bbl_pl.4",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres"
+  },
+  {
+   "name": "bbl_pl.5",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres"
+  },
+  {
+   "name": "bbl_pl.6",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres"
+  },
+  {
+   "name": "bbl_pl.7",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres"
+  },
+  {
+   "name": "bbl_pl.8",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres"
+  },
+  {
+   "name": "bbl_pl.9",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres"
+  },
+  {
+   "name": "bbl_pl_blue",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres"
+  },
+  {
+   "name": "bbl_pl_env",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres"
+  },
+  {
+   "name": "bbl_pl_red",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "PAT0",
+   "name": "bbl_c_pl"
+  }
+ ]
+}

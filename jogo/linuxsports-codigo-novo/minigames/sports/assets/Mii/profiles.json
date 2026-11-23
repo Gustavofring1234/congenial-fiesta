@@ -1,0 +1,484 @@
+{
+ "profiles": [
+  {
+   "id": "cpu_mii_000",
+   "name": "さぶろう",
+   "sex": 0,
+   "favoriteColor": 5,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_001",
+   "name": "ひろし",
+   "sex": 0,
+   "favoriteColor": 8,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_002",
+   "name": "だいすけ",
+   "sex": 0,
+   "favoriteColor": 6,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_003",
+   "name": "しんのすけ",
+   "sex": 0,
+   "favoriteColor": 0,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_004",
+   "name": "あきら",
+   "sex": 0,
+   "favoriteColor": 9,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_005",
+   "name": "たつあき",
+   "sex": 0,
+   "favoriteColor": 11,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_006",
+   "name": "しょうた",
+   "sex": 0,
+   "favoriteColor": 9,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_007",
+   "name": "れん",
+   "sex": 0,
+   "favoriteColor": 6,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_008",
+   "name": "けんた",
+   "sex": 0,
+   "favoriteColor": 4,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_009",
+   "name": "たくみ",
+   "sex": 0,
+   "favoriteColor": 2,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_010",
+   "name": "ハル",
+   "sex": 1,
+   "favoriteColor": 3,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_011",
+   "name": "ヨシ",
+   "sex": 1,
+   "favoriteColor": 4,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_012",
+   "name": "ふみこ",
+   "sex": 1,
+   "favoriteColor": 0,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_013",
+   "name": "けいこ",
+   "sex": 1,
+   "favoriteColor": 10,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_014",
+   "name": "ようこ",
+   "sex": 1,
+   "favoriteColor": 10,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_015",
+   "name": "みゆか",
+   "sex": 1,
+   "favoriteColor": 8,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_016",
+   "name": "あい",
+   "sex": 1,
+   "favoriteColor": 1,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_017",
+   "name": "みさき",
+   "sex": 1,
+   "favoriteColor": 9,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_018",
+   "name": "りん",
+   "sex": 1,
+   "favoriteColor": 6,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_019",
+   "name": "さくら",
+   "sex": 1,
+   "favoriteColor": 7,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_020",
+   "name": "アンディー",
+   "sex": 0,
+   "favoriteColor": 1,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_021",
+   "name": "クリス",
+   "sex": 0,
+   "favoriteColor": 9,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_022",
+   "name": "ライアン",
+   "sex": 0,
+   "favoriteColor": 6,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_023",
+   "name": "ジェイク",
+   "sex": 0,
+   "favoriteColor": 10,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_024",
+   "name": "マット",
+   "sex": 0,
+   "favoriteColor": 1,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_025",
+   "name": "マイク",
+   "sex": 0,
+   "favoriteColor": 2,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_026",
+   "name": "ニック",
+   "sex": 0,
+   "favoriteColor": 4,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_027",
+   "name": "オスカー",
+   "sex": 0,
+   "favoriteColor": 3,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_028",
+   "name": "テオ",
+   "sex": 0,
+   "favoriteColor": 8,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_029",
+   "name": "タイローン",
+   "sex": 0,
+   "favoriteColor": 11,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_030",
+   "name": "アビィー",
+   "sex": 1,
+   "favoriteColor": 5,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_031",
+   "name": "アシュリー",
+   "sex": 1,
+   "favoriteColor": 5,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_032",
+   "name": "エミリー",
+   "sex": 1,
+   "favoriteColor": 2,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_033",
+   "name": "ヘイリー",
+   "sex": 1,
+   "favoriteColor": 3,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_034",
+   "name": "ジャッキー",
+   "sex": 1,
+   "favoriteColor": 8,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_035",
+   "name": "ジェシー",
+   "sex": 1,
+   "favoriteColor": 9,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_036",
+   "name": "マリア",
+   "sex": 1,
+   "favoriteColor": 3,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_037",
+   "name": "ナオミ",
+   "sex": 1,
+   "favoriteColor": 10,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_038",
+   "name": "レイチェル",
+   "sex": 1,
+   "favoriteColor": 7,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_039",
+   "name": "ステフ",
+   "sex": 1,
+   "favoriteColor": 2,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_040",
+   "name": "ジェムーズ",
+   "sex": 0,
+   "favoriteColor": 7,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_041",
+   "name": "スティーブ",
+   "sex": 0,
+   "favoriteColor": 3,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_042",
+   "name": "ミヒャエール",
+   "sex": 0,
+   "favoriteColor": 0,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_043",
+   "name": "マルティン",
+   "sex": 0,
+   "favoriteColor": 11,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_044",
+   "name": "ピエール",
+   "sex": 0,
+   "favoriteColor": 5,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_045",
+   "name": "アレックス",
+   "sex": 0,
+   "favoriteColor": 7,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_046",
+   "name": "ルーカ",
+   "sex": 0,
+   "favoriteColor": 4,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_047",
+   "name": "マルコ",
+   "sex": 0,
+   "favoriteColor": 4,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_048",
+   "name": "ダヴィド",
+   "sex": 0,
+   "favoriteColor": 2,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_049",
+   "name": "ヴィクトル",
+   "sex": 0,
+   "favoriteColor": 0,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_050",
+   "name": "セラー",
+   "sex": 1,
+   "favoriteColor": 0,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_051",
+   "name": "ヘレン",
+   "sex": 1,
+   "favoriteColor": 7,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_052",
+   "name": "カトリン",
+   "sex": 1,
+   "favoriteColor": 10,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_053",
+   "name": "ジルケ",
+   "sex": 1,
+   "favoriteColor": 11,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_054",
+   "name": "エンマ",
+   "sex": 1,
+   "favoriteColor": 5,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_055",
+   "name": "ジュリー",
+   "sex": 1,
+   "favoriteColor": 1,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_056",
+   "name": "アンナ",
+   "sex": 1,
+   "favoriteColor": 6,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_057",
+   "name": "エリーザ",
+   "sex": 1,
+   "favoriteColor": 8,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_058",
+   "name": "エバ",
+   "sex": 1,
+   "favoriteColor": 11,
+   "height": 64,
+   "build": 64
+  },
+  {
+   "id": "cpu_mii_059",
+   "name": "ルシーア",
+   "sex": 1,
+   "favoriteColor": 1,
+   "height": 64,
+   "build": 64
+  }
+ ]
+}

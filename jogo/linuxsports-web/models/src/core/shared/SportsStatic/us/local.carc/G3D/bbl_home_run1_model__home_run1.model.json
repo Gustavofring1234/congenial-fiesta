@@ -1,0 +1,37 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_62fb2d1a87cda656",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_home_run1_model.brres/home_run1",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_home_run1_model.brres",
+ "model": "home_run1",
+ "glb": "models/src/core/shared/SportsStatic/us/local.carc/G3D/bbl_home_run1_model__home_run1.glb",
+ "textures": [
+  {
+   "name": "bbl_env2",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_home_run1_model.brres"
+  },
+  {
+   "name": "bbl_fire00",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_home_run1_model.brres"
+  },
+  {
+   "name": "bbl_fire01",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_home_run1_model.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "home_run1"
+  },
+  {
+   "type": "SRT0",
+   "name": "home_run1"
+  },
+  {
+   "type": "CLR0",
+   "name": "home_run1"
+  }
+ ]
+}

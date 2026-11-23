@@ -1,0 +1,134 @@
+indice	texto
+0	Yes
+1	No
+2	Back
+3	Wii Menu
+4	
+5	
+6	
+7	
+8	
+9	
+10	Wii Sports
+11	Wii Play
+12	An error has occurred.\nPress the Eject Button，\nremove the Game Disc，\nand turn the power off.\nPlease read the\nWii Operations Manual\nfor help troubleshooting.
+13	The Game Disc could not be read.\nPlease read the Wii operations\nmanual for more information.
+14	Please insert the {tag:0600:}\nGame Disc.
+15	Press a button on the Wii Remote\nif you want to continue playing.
+16	
+17	
+18	The game could not be saved.\nContinue without saving?{tag:0802:01}
+19	The Wii System Memory is\ncorrupted. Please refer to the\nWii Operations Manual for help\ntroubleshooting. Continue without\nsaving?{tag:0802:01}
+20	This game's save data is\ncorrupted and must be formatted.\nFormat the data now?{tag:0802:01}
+21	Continue without saving?{tag:0802:01}
+22	
+23	
+24	The Wii System Memory does not\nhave enough free space. Either\nmove files to an SD Card or erase\nfiles to save. This game requires\n{tag:0600:} empty blocks.\nOpen the Data Management\nscreen now?{tag:0802:01}
+25	Create a save file for {tag:0600:}?{tag:0802:00}
+26	
+27	A save file has been created.
+28	
+29	The Wii System Memory does not\nhave enough empty files. Either\nmove files to an SD Card or erase\nfiles to save. Open the Data\nManagement screen now?{tag:0802:01}
+30	The batteries in the Wii Remote\nare running low. Please check the\nbattery level on the HOME Menu.
+31	Unable to load Mii Channel data.\nPlease access the Mii Channel\nand check Mii Channel data.
+32	Unable to load Mii data stored\nin the Wii Remote.
+33	Unable to load saved data.\nPlease try again later.\nIf this problem continues, see\nthe Wii Operations Manual for\nhelp troubleshooting.
+34	Unable to save.
+35	To play with this many players,\nyou need {tag:0600:} Wii Remotes.\nPlease connect more Wii Remotes.{tag:0802:}<
+36	Use {tag:0600:} Wii Remote with {tag:0600:} players.
+37	Use {tag:0600:} Wii Remotes with {tag:0600:} players.
+38	You can't select this until you've\ncreated a Mii in the Mii Channel.{tag:0802:0000}{tag:0802:00}
+39	Back
+40	To Wii Menu
+41	There are no Miis stored on this\nWii Remote. Please add a Mii in\nthe Mii Channel.
+42	You can't save your records\nwith this Mii. Continue?{tag:0802:0100}{tag:0802:01}
+43	You can't save My Record data\nwith this Mii. Continue?{tag:0802:01}{tag:0802:0100}
+44	You can't select this Mii today\nbecause it has taken the Wii\nFitness test. Try again tomorrow.
+45	The connection between the\nWii Remote and Wii console has\nbeen lost. Press  and \nsimultaneously to reconnect...
+46	Added {tag:0600:00}to\nthe player list. If you erase\nthis Mii from the Mii Channel, it\nwill be deleted from your player\nlist, so be careful!{tag:0802:}´
+47	Added {tag:0600:00}to\nthe player list. If you erase\nthis Mii from the Mii Channel, it\nwill be deleted from your player\nlist, so be careful!{tag:0802:}´
+48	One or more Miis have been\nerased from the Mii Channel\nand will be removed from your\nplayer list.{tag:0802:}´
+49	One or more Miis have been\nerased from the Mii Channel\nand will be removed from your\nplayer list.{tag:0802:}´
+50	Which hand do you want to use?
+51	Tennis
+52	Baseball
+53	Bowling
+54	Golf
+55	Boxing
+56	Swing
+57	Pitch
+58	Bat
+59	Bowl
+60	Swing
+61	Stance
+62	L
+63	R
+64	OK
+65	Select Mii
+66	Select Players
+67	Tennis
+68	Baseball
+69	Bowling
+70	Golf
+71	Boxing
+72	Training
+73	Wii Fitness
+74	Main Menu
+75	Back
+76	Main Menu
+77	P1
+78	P2
+79	P3
+80	P4
+81	{tag:0600:00}Select the number of players.
+82	
+83	Select the number of players.
+84	1
+85	2
+86	1
+87	2
+88	3
+89	4
+90	More
+91	OK
+92	Wii Remotes
+93	Press  and  at the same time on\neach Wii Remote you want to add.
+94	Select a Mii for Player {tag:0600:}.
+95	Select a Mii.
+96	Wii Console
+97	Guest
+98	Wii Remote
+99	Reading Mii data...\nDo not unplug the extension controller.
+100	Play with this Mii.
+101	Play with these Miis.
+102	P1
+103	P2
+104	
+105	
+106	{tag:0600:00}Change
+107	Change
+108	OK
+109	Guest A
+110	Guest B
+111	Guest C
+112	Guest D
+113	Guest E
+114	Guest F
+115	Yes
+116	Back
+117	No
+118	Wii Menu
+119	
+120	Continue
+121	Start over
+122	Quit
+123	Attach the Wii Remote wrist strap.
+124	Slip the Wii Remote strap\nthrough the connector\nhook of the Nunchuk plug,\nthen connect the Nunchuk.
+125	Unplug the extension controller\nconnected to this Wii Remote.
+126	Put the Wii Remote strap through\nthe Nunchuk's connector hook.
+127	{tag:0600:00}OK!
+128	OK!
+129	Starting the game...\n\nHold the Wii Remote\nsecurely in your hand and\npress  and .
+130	Are you using your Wii Remote\nJacket? Make sure there are\nno people or objects around\nthat you might bump into!
+131	Why not take a break?\nYou can pause the game\nby pressing .
+132	

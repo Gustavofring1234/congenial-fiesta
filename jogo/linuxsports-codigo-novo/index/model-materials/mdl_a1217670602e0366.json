@@ -1,0 +1,33 @@
+{
+ "assetId": "mdl_a1217670602e0366",
+ "model": "bwg_ava_shadow",
+ "materials": [
+  {
+   "name": "ava_shadow",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "wtd_ava_shadow",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "wtd_ava_shadow",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_ava_shadow.brres",
+   "materials": [
+    "ava_shadow"
+   ],
+   "layer0": true
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "assetId": "mdl_5422d68fdfbfe78d",
+ "model": "tns_mato_a",
+ "materials": [
+  {
+   "name": "mato",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "tns_target_c",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    },
+    {
+     "texture": "tns_target_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "tns_target_c",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_mato.brres",
+   "materials": [
+    "mato"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "tns_target_env",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_mato.brres",
+   "materials": [
+    "mato"
+   ],
+   "layer0": false
+  }
+ ]
+}

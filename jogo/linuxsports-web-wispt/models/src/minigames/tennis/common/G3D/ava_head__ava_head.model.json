@@ -1,0 +1,81 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_7cb31ca95e2843f5",
+ "source": "src/minigames/tennis/common/common.carc/G3D/ava_head.brres/ava_head",
+ "brres": "src/minigames/tennis/common/common.carc/G3D/ava_head.brres",
+ "model": "ava_head",
+ "glb": "models/src/minigames/tennis/common/G3D/ava_head__ava_head.glb",
+ "textures": [
+  {
+   "name": "dummy_tex_a",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/ava_head.brres",
+   "materials": [
+    "mt_main"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "dummy_tex_b",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/ava_head.brres",
+   "materials": [
+    "mt_main"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "lm_0",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/ava_head.brres",
+   "materials": [
+    "mt_main"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "lm_1",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/ava_head.brres",
+   "materials": [
+    "mt_main"
+   ],
+   "layer0": false
+  }
+ ],
+ "animations": [],
+ "materials": [
+  {
+   "name": "mt_main",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "dummy_tex_a",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "lm_0",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "lm_1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "dummy_tex_b",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ]
+}

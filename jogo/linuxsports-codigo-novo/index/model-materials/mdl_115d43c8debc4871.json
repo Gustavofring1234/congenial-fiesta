@@ -1,0 +1,53 @@
+{
+ "assetId": "mdl_115d43c8debc4871",
+ "model": "tns_ball_a",
+ "materials": [
+  {
+   "name": "Ball_a",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "tns_Ball_e",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    },
+    {
+     "texture": "Light_map3",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "Polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "Light_map3",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_ball_a.brres",
+   "materials": [
+    "Ball_a"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "tns_Ball_c",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_ball_a.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "tns_Ball_e",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_ball_a.brres",
+   "materials": [
+    "Ball_a"
+   ],
+   "layer0": true
+  }
+ ]
+}

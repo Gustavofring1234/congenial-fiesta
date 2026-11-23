@@ -1,0 +1,3320 @@
+{
+ "summary": {
+  "animations": 301,
+  "byType": {
+   "SRT0": 56,
+   "CHR0": 158,
+   "PAT0": 11,
+   "SCN0": 32,
+   "CLR0": 39,
+   "VIS0": 1,
+   "SHP0": 4
+  },
+  "byMethod": {
+   "CHR0/same-brres": 50,
+   "CHR0/structural": 108,
+   "CLR0/same-brres": 35,
+   "CLR0/structural": 4,
+   "PAT0/same-brres": 11,
+   "SCN0/same-brres": 26,
+   "SCN0/scene-container": 6,
+   "SHP0/same-brres": 4,
+   "SRT0/same-brres": 55,
+   "SRT0/structural": 1,
+   "VIS0/same-brres": 1
+  },
+  "orphansWithoutModelInBrres": 119,
+  "orphansMatched": 113,
+  "orphansUnassigned": []
+ },
+ "orphans": [
+  {
+   "id": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_score_model/score_in.CLR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_f39991aec3d54d28",
+     "model": "nice_throw",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/bwg_nice_throw_model__nice_throw.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_cde9e92721d379dc",
+     "model": "score_0a",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/bbl_score_model__score_0a.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_cde9ec2721d37ef5",
+     "model": "score_0b",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/bbl_score_model__score_0b.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_score_model/score_keep.CLR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_f39991aec3d54d28",
+     "model": "nice_throw",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/bwg_nice_throw_model__nice_throw.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_cde9e92721d379dc",
+     "model": "score_0a",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/bbl_score_model__score_0a.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_cde9ec2721d37ef5",
+     "model": "score_0b",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/bbl_score_model__score_0b.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_score_model/score_out.CLR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_f39991aec3d54d28",
+     "model": "nice_throw",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/bwg_nice_throw_model__nice_throw.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_cde9e92721d379dc",
+     "model": "score_0a",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/bbl_score_model__score_0a.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_cde9ec2721d37ef5",
+     "model": "score_0b",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/bbl_score_model__score_0b.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10/count10.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_4f0f1f213ad0641d",
+     "model": "count10_1",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/box_count10__count10_1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_27161276f01a3877",
+     "model": "count10_10",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/box_count10__count10_10.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_4f0f1c213ad05f04",
+     "model": "count10_2",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/box_count10__count10_2.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10/count10.CLR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_a998fbbca547b441",
+     "model": "KO",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/box_KO_model__KO.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model/round.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_8577b971741968cc",
+     "model": "final_round",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/box_round_model__final_round.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_f01bbe1ab05a93e2",
+     "model": "round1",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/box_round_model__round1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_f01bbd1ab05a922f",
+     "model": "round2",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/box_round_model__round2.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model/round.SRT0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_a998fbbca547b441",
+     "model": "KO",
+     "sidecar": "Models/src/core/shared/SportsStatic/us/G3D/box_KO_model__KO.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_A0_runR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.975,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.975,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_A0_waitR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.975,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.975,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_b_buntR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_b_bunt_waitR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_b_swing1R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_b_swing1Rold.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_b_swing_wait1R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_b_swing_wait2R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_b_waitR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_c_recerveR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_c_waitR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_p_pitch1R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_p_pitch2R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_p_pitchR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_p_waitR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_p_wait_ready1R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_p_wait_ready2R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_r_happyR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/baseball/common/common.carc/motion/G3D/bbl_avatar_anim/bbl_r_runR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bak_bwg_walkR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_A0_frontR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_A0_happyR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_A0_returnR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_A0_throwR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_A0_UturnR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_A0_wait2R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_A0_wait3R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_A0_waitR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_A0_walkR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.8036,
+     "coverage": 0.7143,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_moveR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_throw1R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9464,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.6429
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9464,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.6429
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9464,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.6429
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_throw2R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9464,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.6429
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9464,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.6429
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9464,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.6429
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_throwR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_throwR_tmp.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9464,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.6429
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9464,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.6429
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9464,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.6429
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_waitR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_wait_armR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9464,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.6429
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9464,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.6429
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9464,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.6429
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_wait_legR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_0331333e2f4caff5",
+     "model": "ava_bodyA3",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA3__ava_bodyA3.nw4r.json",
+     "score": 0.9025,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.35
+    },
+    {
+     "assetId": "mdl_5a4869d30bb2a007",
+     "model": "ava_bodyB3",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB3__ava_bodyB3.nw4r.json",
+     "score": 0.9025,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.35
+    },
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.3333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_wait_moveR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_walkR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_0331333e2f4caff5",
+     "model": "ava_bodyA3",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA3__ava_bodyA3.nw4r.json",
+     "score": 0.9025,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.35
+    },
+    {
+     "assetId": "mdl_5a4869d30bb2a007",
+     "model": "ava_bodyB3",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB3__ava_bodyB3.nw4r.json",
+     "score": 0.9025,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.35
+    },
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.3333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/bowling/common/common.carc/G3D/bwg_avatar_anim/bwg_walk_armR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9464,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.6429
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9464,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.6429
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9464,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.6429
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_c_nobR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_c_shadowR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_c_throw1_1L.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_c_throw1_1R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_c_throw1_2L.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_c_throw1_2R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_c_throw1_cR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_c_throw2_L.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_c_throw2_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_c_waitR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_c_wait_tR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_c_weaveR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_down1R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_down2R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_pose_waitR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_pose_walkR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_avatarC0/box_wait1R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 0.9383,
+     "coverage": 0.9091,
+     "hierarchy": 1.0,
+     "precision": 0.9524
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_punch/box_punch_hook_l_L.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_punch/box_punch_hook_l_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_punch/box_punch_hook_r_L.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_punch/box_punch_hook_r_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_punch/box_punch_jab_L.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_punch/box_punch_jab_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_punch/box_punch_straight_l_L.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_punch/box_punch_straight_l_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_punch/box_punch_straight_r_L.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_punch/box_punch_straight_r_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_punch/box_punch_upper_l_L.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_punch/box_punch_upper_l_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_punch/box_punch_upper_r_L.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/boxing/common/common.carc/G3D/box_punch/box_punch_upper_r_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_2a00b12bcdb59887",
+     "model": "ava_bodyC0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC0__ava_bodyC0.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    },
+    {
+     "assetId": "mdl_1095848983d4c2ad",
+     "model": "ava_bodyC1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyC1__ava_bodyC1.nw4r.json",
+     "score": 1.0,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 1.0
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/golf/common/common.carc/G3D/glf_avatar/glf_p_swing_h.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/golf/common/common.carc/G3D/glf_avatar/glf_p_swing_l.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/golf/common/common.carc/G3D/glf_avatar/glf_p_swing_m.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/golf/common/common.carc/G3D/glf_avatar/glf_p_wait_h_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/golf/common/common.carc/G3D/glf_avatar/glf_p_wait_l_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/golf/common/common.carc/G3D/glf_avatar/glf_p_wait_m_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/golf/common/common.carc/G3D/glf_avatar/glf_w_swing_h_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/golf/common/common.carc/G3D/glf_avatar/glf_w_swing_l_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/golf/common/common.carc/G3D/glf_avatar/glf_w_swing_m_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/golf/common/common.carc/G3D/glf_avatar/glf_w_wait_h_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/golf/common/common.carc/G3D/glf_avatar/glf_w_wait_l_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/golf/common/common.carc/G3D/glf_avatar/glf_w_wait_m_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_A0_clapR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.975,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.975,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_A0_jumpR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.975,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.975,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_A0_waitR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_e639d7e09405ef57",
+     "model": "ava_bodyA0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA0__ava_bodyA0.nw4r.json",
+     "score": 0.975,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    },
+    {
+     "assetId": "mdl_938655c583cb2099",
+     "model": "ava_bodyB0",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB0__ava_bodyB0.nw4r.json",
+     "score": 0.975,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.8333
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_backhandL.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_back_spL.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_forehandR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_fore_spR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_serve2R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9346,
+     "coverage": 0.9,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9346,
+     "coverage": 0.9,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9346,
+     "coverage": 0.9,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_serveR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_tossR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_toss_waitR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_wait2L.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_wait2R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_waitR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9533,
+     "coverage": 0.931,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_wait_tR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9172,
+     "coverage": 0.871,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9172,
+     "coverage": 0.871,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9172,
+     "coverage": 0.871,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_walkL.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_walkR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_walk_r_L.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_walk_r_R.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9946,
+     "coverage": 1.0,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_walk_r_tL.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9172,
+     "coverage": 0.871,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9172,
+     "coverage": 0.871,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9172,
+     "coverage": 0.871,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_walk_r_tR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9172,
+     "coverage": 0.871,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9172,
+     "coverage": 0.871,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9172,
+     "coverage": 0.871,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_walk_tL.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9172,
+     "coverage": 0.871,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9172,
+     "coverage": 0.871,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9172,
+     "coverage": 0.871,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  },
+  {
+   "id": "src/minigames/tennis/common/common.carc/G3D/tns_avatar_anim/tns_walk_tR.CHR0",
+   "method": "structural",
+   "best": [
+    {
+     "assetId": "mdl_6ba2941cb6de3aed",
+     "model": "ava_bodyA1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA1__ava_bodyA1.nw4r.json",
+     "score": 0.9172,
+     "coverage": 0.871,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_ab88d90e94cdb203",
+     "model": "ava_bodyA2",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyA2__ava_bodyA2.nw4r.json",
+     "score": 0.9172,
+     "coverage": 0.871,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    },
+    {
+     "assetId": "mdl_8192b926f46ac437",
+     "model": "ava_bodyB1",
+     "sidecar": "Models/src/core/shared/Kokeshi/common/G3D/ava_bodyB1__ava_bodyB1.nw4r.json",
+     "score": 0.9172,
+     "coverage": 0.871,
+     "hierarchy": 1.0,
+     "precision": 0.9643
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_63b22bdfcf890131",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_hole_in_one_model.brres/hole_in_one",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_hole_in_one_model.brres",
+ "model": "hole_in_one",
+ "glb": "models/src/core/shared/SportsStatic/us/local.carc/G3D/glf_hole_in_one_model__hole_in_one.glb",
+ "textures": [
+  {
+   "name": "glf_env",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_hole_in_one_model.brres"
+  },
+  {
+   "name": "glf_flash",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_hole_in_one_model.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "hole_in_one"
+  },
+  {
+   "type": "SRT0",
+   "name": "hole_in_one"
+  },
+  {
+   "type": "CLR0",
+   "name": "hole_in_one"
+  }
+ ]
+}

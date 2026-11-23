@@ -1,0 +1,73 @@
+{
+ "id": "cpu_mii_023",
+ "source": "raw/src/core/shared/SportsStatic/common/CPUMii/cpu_mii_023.rcd",
+ "raw": "gBQwuDCnMKQwrwAAAAAAAAAAAAAAAEBAIAAAAAAAAABKhVeIuU8osnBsAKQ0SFBuhorKySUEAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "info": {
+  "name": "ジェイク",
+  "creator": "",
+  "sex": 0,
+  "birthMonth": 0,
+  "birthDay": 0,
+  "favoriteColor": 10,
+  "favorite": 0,
+  "height": 64,
+  "build": 64,
+  "createId": "2000000000000000",
+  "faceline": {
+   "type": 2,
+   "color": 2,
+   "texture": 10
+  },
+  "hair": {
+   "type": 43,
+   "color": 6,
+   "flip": 0
+  },
+  "eye": {
+   "type": 28,
+   "color": 0,
+   "scale": 0,
+   "rotate": 3,
+   "x": 5,
+   "y": 12
+  },
+  "eyebrow": {
+   "type": 23,
+   "color": 1,
+   "scale": 4,
+   "rotate": 5,
+   "x": 2,
+   "y": 11
+  },
+  "nose": {
+   "type": 3,
+   "scale": 4,
+   "y": 9
+  },
+  "mouth": {
+   "type": 10,
+   "color": 0,
+   "scale": 3,
+   "y": 14
+  },
+  "beard": {
+   "mustache": 3,
+   "type": 0,
+   "color": 5,
+   "scale": 6,
+   "y": 9
+  },
+  "glass": {
+   "type": 8,
+   "color": 3,
+   "scale": 4,
+   "y": 10
+  },
+  "mole": {
+   "type": 0,
+   "scale": 4,
+   "x": 2,
+   "y": 20
+  }
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "assetId": "mdl_4a55034043ab1877",
+ "model": "tns_racket",
+ "materials": [
+  {
+   "name": "M_grip",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "tns_racket.0",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_racket",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "tns_racket.0",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "Light_map1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "gat_a",
+   "translucent": true,
+   "doubleSided": true,
+   "layers": [
+    {
+     "texture": "tns_racket_a",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "Light_map1",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_racket.brres",
+   "materials": [
+    "M_racket"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "tns_racket.0",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_racket.brres",
+   "materials": [
+    "M_grip",
+    "M_racket"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "tns_racket.1",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_racket.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "tns_racket.2",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_racket.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "tns_racket.3",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_racket.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "tns_racket.4",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_racket.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "tns_racket_a",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_racket.brres",
+   "materials": [
+    "gat_a"
+   ],
+   "layer0": true
+  }
+ ]
+}

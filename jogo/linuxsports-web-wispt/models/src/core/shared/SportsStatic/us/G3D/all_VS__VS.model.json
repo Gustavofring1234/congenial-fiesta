@@ -1,0 +1,89 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_af8ebebb429426c7",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/all_VS.brres/VS",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/all_VS.brres",
+ "model": "VS",
+ "glb": "models/src/core/shared/SportsStatic/us/G3D/all_VS__VS.glb",
+ "textures": [
+  {
+   "name": "all_env_VS",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_VS.brres",
+   "materials": [
+    "mt_env"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "all_fire00",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_VS.brres",
+   "materials": [
+    "mt_fire"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "all_fire01",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_VS.brres",
+   "materials": [
+    "mt_fire"
+   ],
+   "layer0": false
+  }
+ ],
+ "animations": [
+  {
+   "type": "SRT0",
+   "name": "VS"
+  }
+ ],
+ "materials": [
+  {
+   "name": "mt_env",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "all_env_VS",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_fire",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "all_fire00",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "all_fire01",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "all_fire01",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  }
+ ]
+}

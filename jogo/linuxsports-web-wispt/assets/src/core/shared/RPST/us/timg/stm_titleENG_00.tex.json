@@ -1,0 +1,31 @@
+{
+ "format": "nw4r-tex",
+ "version": 1,
+ "assetId": "tex_dfd1e8d1d0d7ee53",
+ "source": "src/core/shared/RPST/us/local.carc/SpTitle.arc.d/timg/stm_titleENG_00.tpl",
+ "images": [
+  {
+   "index": 0,
+   "file": "assets/src/core/shared/RPST/us/timg/stm_titleENG_00.png",
+   "width": 512,
+   "height": 128,
+   "format": "RGB5A3",
+   "formatId": 5,
+   "palette": null,
+   "wrapS": "CLAMP",
+   "wrapT": "CLAMP",
+   "minFilter": "LINEAR",
+   "magFilter": "LINEAR",
+   "lodBias": 0,
+   "minLod": 0,
+   "maxLod": 0,
+   "mipmapCount": 1,
+   "webgl": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "minFilter": 9729,
+    "magFilter": 9729
+   }
+  }
+ ]
+}

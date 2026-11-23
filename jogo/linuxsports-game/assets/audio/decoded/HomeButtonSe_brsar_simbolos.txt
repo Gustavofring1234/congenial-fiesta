@@ -1,0 +1,31 @@
+# Simbolos (bloco SYMB) de HomeButtonSe.brsar, extraidos sem decodificar ondas.
+# Prefixos: HOMESE_* = sons; SND_GROUP_* = grupos; BANK_* = bancos; PLAYER_* = players.
+# Observacao: o byte inicial de cada nome pode vir colado a um ponteiro; so o trecho em maiusculas foi mantido.
+# indice	nome	tipo
+0	PLAYER_FOCUS	player
+1	PLAYER_DEFAULT	player
+2	PLAYER_FADE_SE	player
+3	SND_GROUP_HOMEBUTTON	grupo
+4	BANK_HOMEBUTTON	banco
+5	HOMESE_HOME_BUTTON	som
+6	HOMESE_RETURN_APP	som
+7	HOMESE_GOTO_MENU	som
+8	HOMESE_RESET_APP	som
+9	HOMESE_FOCUS	som
+10	HOMESE_SELECT	som
+11	HOMESE_CANCEL	som
+12	HOMESE_OPEN_CONTROLLER	som
+13	HOMESE_CLOSE_CONTROLLER	som
+14	HOMESE_VOLUME_PLUS	som
+15	HOMESE_VOLUME_MINUS	som
+16	HOMESE_VOLUME_PLUS_LIMIT	som
+17	HOMESE_VOLUME_MINUS_LIMIT	som
+18	HOMESE_NOTHING_DONE	som
+19	HOMESE_VIBE_ON	som
+20	HOMESE_VIBE_OFF	som
+21	HOMESE_START_CONNECT_WINDOW	som
+22	HOMESE_CONNECTED	som
+23	HOMESE_CONNECTED2	som
+24	HOMESE_CONNECTED3	som
+25	HOMESE_CONNECTED4	som
+26	HOMESE_END_CONNECT_WINDOW	som

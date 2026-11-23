@@ -1,0 +1,175 @@
+RELATÓRIO DE CONTINUAÇÃO — LINUX SPORTS NO WEBC (Three.js 0.180) — PRONTO PARA A ETAPA 5
+Data: 20/11/2026
+Projeto: /workspaces/codespaces-blank/jogo/linuxsports-codigo-novo/
+Cole este arquivo numa sessão nova do Claude Code e peça: "leia RELATORIO_PARA_ETAPA5.txt e faça a Etapa 5".
+
+======================================================================
+1. SITUAÇÃO GERAL
+======================================================================
+Etapa 1 (materiais, .pmp, UI 2D, textos) ............ CONCLUÍDA em Three.js
+Etapa 2 (animações 3D, .vrma, partículas) ........... CONCLUÍDA em Three.js
+Etapa 3 (avatar VRM do WEBC + 60 oponentes Mii) ..... CONCLUÍDA em Three.js
+Etapa 4 (luz/sombra/bloom, entrada híbrida, áudio) .. CONCLUÍDA em Three.js
+Etapa 5 (estados, sala 120 ms, física, regras, IA) .. PENDENTE  <- próximo passo
+
+Verificação atual:
+  node --test tests/sports/*.test.mjs  -> 57 testes, 57 passam, 0 falham
+  tests/sports/browser-smoke.mjs        -> demo no Chromium (WebGL 2) sem erros de console/shader
+O projeto Unity antigo (Assets/, Packages/) fica como LEGADO: tem as 5 etapas em C# e serve de
+REFERÊNCIA de lógica para a Etapa 5 (não é usado no WEBC).
+
+======================================================================
+2. REGRAS DO PROJETO (manter na Etapa 5)
+======================================================================
+- Código cliente: JavaScript puro, ES Modules (import/export), SEM bundler, SEM TypeScript, SEM React.
+  Sem TODO/placeholders. Comentários em português.
+- Saída SÓ em: minigames/sports/ (módulos) e tools/ (Python offline). Testes em tests/sports/.
+- Origens SOMENTE LEITURA: ../linuxsports-web-wispt/ e ../linuxsports-web/ e o WEBC
+  (/workspaces/codespaces-blank/LNUX-APPs/apps/companhia/).
+- three.js: NUNCA "import 'three'". Usar minigames/sports/lib/runtime.js (runtime.THREE, runtime.GLTFLoader,
+  runtime.MeshBVH, runtime.VRMLoaderPlugin...), que lê os globais do pacote do WEBC
+  (apps/companhia/vendor/three-vrm-pacote.min.js: window.THREE r180 + window.CompanhiaVRM).
+- Referencial: Wii = glTF = three.js (destro, Y para cima). 10 unidades = 1 metro. NÃO espelhar X
+  (o C# do Unity espelha; ao portar, remova o espelho).
+- Dados: caminhos relativos a minigames/sports/assets/ via AssetStore (defaultStore()).
+- decompiled.c (14,7 MB): nunca ler inteiro; grep pontual / functions.tsv / strings.tsv.
+- Gemini: chave SÓ no .env local (ignorado pelo git) e lida por os.getenv("GEMINI_API_KEY") em
+  tools/gemini_client.py. Nunca em .js. Uso: set -a; source .env; set +a; python3 tools/gemini_client.py ask "..."
+  (ATENÇÃO: a chave atual apareceu no chat — gerar outra e trocar no .env.)
+- O usuário pediu subagentes com modelo Haiku para as tarefas delegadas e revisão final com Opus.
+
+======================================================================
+3. MÓDULOS JÁ PRONTOS (minigames/sports/)
+======================================================================
+lib/runtime.js                      globais do WEBC; NW4R_FPS=60; UNITS_PER_METER=10
+engine/assets/AssetStore.js         json/text/image/texture(sRGB, flipY=false)/gltf com cache
+engine/assets/Nw4rMaterial.js       textura certa por material (MDL0), TEV lerp(tev0,tev1,tex)
+engine/assets/ModelLoader.js        loadModel(store, sidecar): ossos (Euler ZYX), SkinnedMesh, morphs,
+                                    segment scale compensate (flag 0x20); userData.nw4r.boneByName/materials
+engine/scene/SceneLoader.js         new SceneLoader().load('glf_course_fc1') -> {root, models, collision,
+                                    objects(.pmp: tee/pin), byName}
+engine/scene/CollisionWorld.js      MeshBVH: raycast, groundAt, heightNear, sphereContact; .surface pela
+                                    flag KCL (1 tee, 2 fairway, 3 bunker, 4/8/10 rough, 5 deepRough,
+                                    6/9/11 green, 7/13 out, 12 water)
+engine/scene/SceneEnvironment.js    luz do .plight, sombra PCFSoft, luzes locais próximas, render() com bloom
+engine/scene/BloomPass.js           bloom próprio (o pacote do WEBC não tem EffectComposer)
+engine/animation/AnimationLibrary.js  301 animações; player(model).play('nome'); update(dt)
+engine/animation/Nw4rClipFactory.js   CHR0/VIS0/SHP0 -> AnimationClip
+engine/animation/Nw4rMaterialAnimator.js  SRT0/CLR0/PAT0/SCN0 por quadro
+engine/animation/VrmaPlayer.js      106 .vrma (movimentos esportivos) no VRM do jogador
+engine/particles/Nw4rParticles.js   EffectLibrary: spawn('Bsb_ball_tail01',{at,parent}); update(dt)
+engine/input/SportsInputBridge.js   ações swing/aim/throw/strike/move/confirm/back; fontes câmera
+                                    (captura.ouvir do WEBC), mouse/teclado, toque, gamepad; poll()
+engine/audio/SportsAudioManager.js  5 .wav + síntese: playImpact(força,tipo), whistle(), crowd(n)
+entities/MiiOpponentBuilder.js      60 CPUs: build(i,{body:true}), setExpression, aiProfile(perfil, skill)
+entities/WebcAvatarAdapter.js       VRM do WEBC: play(.vrma), celebrate()/lose()/neutral(), attach/teleport
+ui/TextManager.js                   textos .bmg por ID (pt/en/ja; segue <html data-idioma>)
+ui/LayoutPlayer.js                  138 layouts NW4R + 647 animações 2D, escala para celular
+ui/sports-ui.css                    estilos (prefixo sp-)
+demo/index.html + demo.js           demonstração de tudo acima (?cena=&anim=&efeito=&layout=&mii=)
+README.md                           guia de integração ao WEBC
+
+Dados (minigames/sports/assets/, ~95 MB, regeneráveis):
+  Models/ Textures/ Collision/ Scenes/ Animations/ animations_manifest.json Vrma/ Effects/ UI/ Text/
+  Mii/ Environment/ Audio/
+Ferramentas (tools/, NW4R_TARGET=web por padrão; =unity regrava o legado):
+  export_models.py export_animations.py export_effects.py stage_web_assets.py export_vrma.py
+  export_mii.py export_environment.py export_audio.py translate_texts.py (pt/ja, NÃO rodado ainda)
+  export_gameplay.py (Etapa 5, ainda gera para o Unity — ver seção 5)
+
+======================================================================
+4. CONTRATOS DO WEBC (lidos em LNUX-APPs/apps/companhia/js/)
+======================================================================
+- Scripts clássicos com globais (window.C, LNUX). Idioma: <html data-idioma="pt|en|ja">, C.definirIdioma.
+- Minijogos atuais: js/minijogos.js (C.minijogos.registrar({id,nome,descricao,opcoes,criar(ctx)}),
+  ctx.entrada, ctx.fim(resultado); o jogo devolve {atualizar(dt), estado(), parar()}),
+  js/esportes.js e js/esportes-nucleo.js (versão simples atual dos 5 esportes).
+- Sala: js/sala.js — setInterval(() => this.trocar(), 120): POST `${codigo}/estado` com
+  {id, segredo, desde, estado: this.meuEstado()}; resposta r.pessoas[] -> Remoto.receber(j);
+  meuEstado() = {p:[x,y,z], r, e, emo, g, c, pose?, rosto?}. Relógio do servidor: r.agora (sala.desvio).
+  Para a Etapa 5: acrescentar um campo compacto (ex.: "sp") ao estado sem quebrar os demais e ler o
+  "sp" dos remotos.
+- Captura: js/captura.js — captura.ouvir(f) entrega {corpo:{mundo[33],imagem[33]}, maos:[{lado,mundo[21],
+  imagem[21]}]} (já consumido pelo SportsInputBridge).
+- Servidor Python do WEBC: servidor/lnux_apps.py (porta 8095).
+
+======================================================================
+5. O QUE FAZER NA ETAPA 5
+======================================================================
+Arquivos a criar (sugestão):
+  minigames/sports/core/SportsStateMachine.js   Seleção de modalidade -> Lobby/Sala -> Partida -> Placar
+                                                 -> Recordes; pausa/voltar; usa LayoutPlayer + TextManager
+                                                 (nomes das modalidades: common_message IDs 77056..78080)
+  minigames/sports/core/RoomSync.js             deltas compactos a cada 120 ms (bola, turno, placar,
+                                                 gesto/pose), anfitrião autoritativo, interpolação pelo
+                                                 relógio da sala; acoplado a sala.meuEstado/receber
+  minigames/sports/core/RecordStore.js          IndexedDB + localStorage (campos de RPSportsPlayerData:
+                                                 BowStandardBest, GolAceCount, BsbRenzokuBest, TnsSuccess,
+                                                 SkillLevel, StandardPlayCount...)
+  minigames/sports/activities/{bowling,golf,tennis,baseball,boxing}/ (física + regras + IA cada)
+  minigames/sports/activities/common/ (física de bola com arrasto/Magnus contra CollisionWorld, Elo)
+  minigames/sports/index.js                     registra os 5 jogos em C.minijogos (ou API própria)
+  tests/sports/stage5.test.mjs                   regras puras + física + IA + sincronização
+Dados: rodar/adaptar tools/export_gameplay.py para NW4R_TARGET=web
+  (hoje grava StreamingAssets/Gameplay/gameplay_data.json do Unity; usar paths.ASSETS -> assets/Gameplay/).
+  Contém: escala 10 u = 1 m, X das 7 pistas de boliche (DAT_803ca6c8..e0), tees/pinos/par dos 14 cursos,
+  muro do beisebol por ângulo, animações/efeitos/layouts por modalidade, campos de recorde.
+Referência C# a portar (Assets/Scripts/):
+  Core/Game/GameStateMachine.cs, Activities/Rules/* (regras puras), Activities/Bowling|Golf|Tennis|
+  Baseball|Boxing/*, Activities/Common/* (BallFlight, AiProfile, SkillRating), RecordStore.
+  Regras já descritas no LEIAME.md (seção "Etapa 5: fluxo, física, regras e IA" do legado):
+  boliche 10 quadros/strike/spare/split, gancho no último terço; golfe com vento, backspin, superfícies,
+  água/fora +1, 4 tacos; tênis simples/duplas, iguais/vantagem, saque em 2 tempos; beisebol 5 arremessos
+  com Magnus, janela de ±0,13 s, home run pelo muro real; boxe guarda/esquiva/contra-ataque ×1,4,
+  quedas, K.O./nocaute técnico/pontos. IA pelos 60 perfis .rcd (aiProfile) + Elo do jogador.
+  Os números internos do jogo original NÃO foram extraídos (lógica em ~6.500 FUN_* sem nome; só
+  Bowling::* tem nomes) — Gemini pode ajudar a nomear rotinas pontuais (tools/gemini_client.py rename).
+
+======================================================================
+6. LIMITAÇÕES CONHECIDAS (já documentadas no LEIAME.md)
+======================================================================
+- 12 de 56 SRT0 animam só camadas indiretas/ambiente (TEV aproximado não desenha).
+- CLR0 kon*: só alfa (opacidade dos letreiros win/lose/tie/nice); RGB de konst e tev2 ignorados.
+- Textos embutidos nos layouts são placeholders em japonês: o jogo troca por .bmg no código (Etapa 5).
+- Traduções pt/ja ainda não geradas (translate_texts.py manda os 1.333 textos para a Gemini).
+- Lightmaps .plmap não desenhados; luzes e limiares de gestos não calibrados com o Wii/MediaPipe real.
+- Calça do Mii sem região UV; escala da cabeça 0,125 vem da calibração do Unity.
+- Áudio testado só com AudioContext falso; os 8 bancos .brsar não existem.
+
+======================================================================
+7. COMO RODAR
+======================================================================
+cd /workspaces/codespaces-blank/jogo/linuxsports-codigo-novo
+node --test tests/sports/*.test.mjs
+Navegador (precisa playwright-core 1.48 e o Chromium em ~/.cache/ms-playwright/chromium-1148):
+  CHROMIUM_PATH=$HOME/.cache/ms-playwright/chromium-1148/chrome-linux/chrome \
+  PLAYWRIGHT_CORE=<pasta>/node_modules/playwright-core node tests/sports/browser-smoke.mjs saida.png
+  (instalar: npm i playwright-core@1.48.2 numa pasta temporária)
+Demo manual: na pasta /workspaces/codespaces-blank rode "python3 -m http.server 8700" e abra
+  http://127.0.0.1:8700/jogo/linuxsports-codigo-novo/minigames/sports/demo/index.html
+
+======================================================================
+8. ETAPA 5 — FEITA (20/11/2026)
+======================================================================
+Dados: tools/export_gameplay.py agora respeita NW4R_TARGET (padrão web): grava
+  minigames/sports/assets/Gameplay/gameplay_data.json no referencial do Wii (sem espelhar X; campos target e
+  coordinateSystem; cenas web usam 'sidecar' e 'quaternion'). NW4R_TARGET=unity continua gerando o legado.
+Módulos novos (minigames/sports/):
+  core/GameplayData.js  core/RecordStore.js (localStorage + IndexedDB, Elo)  core/RoomSync.js (campo "sp")
+  core/SportsStateMachine.js  index.js (registerWebcGames / createSportsGame)
+  activities/common/{vec3,rng,BallFlight,BallBody,AiProfile,SportActivity,ActivityStage}.js
+  activities/bowling/{BowlingScore,BowlingPhysics,BowlingActivity}.js
+  activities/golf/{GolfScorecard,GolfClubs,GolfActivity}.js
+  activities/tennis/{TennisScore,TennisCourt,TennisActivity}.js
+  activities/baseball/{BaseballGame,PitchMath,BaseballActivity}.js
+  activities/boxing/{BoxingBout,BoxingActivity}.js
+  ui/SportsHud.js  ui/SportsMenu.js  demo/jogar.html + jogar.js
+Testes: tests/sports/stage5.test.mjs (22) -> total 79/79 em Node; tests/sports/browser-play.mjs (Chromium).
+Diferenças conscientes em relação ao C#:
+  - pinos do boliche: discos no plano + tombamento por impulso (no lugar do PhysX); bolso 1-3 = strike.
+  - tênis: a CPU mira dentro da quadra (no C# ~17% das bolas saíam); beisebol: erro de tempo da CPU maior
+    (no C# saíam ~6 home runs por entrada entre CPUs fortes).
+  - sorteio com semente própria (mulberry32), não o System.Random.
+Pendências: a Sala do WEBC é local ao app.js; para jogar em sala a página precisa expô-la em C.salaAtiva
+  (o WEBC é somente leitura para este projeto). Partida em sala testada só com sala falsa em Node.
+  Números internos do jogo original continuam não extraídos (mesma limitação da seção 5).

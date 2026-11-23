@@ -1,0 +1,186 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_4d684fbba8af8a4f",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres/lose",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres",
+ "model": "lose",
+ "glb": "models/src/core/shared/SportsStatic/us/G3D/all_lose__lose.glb",
+ "textures": [
+  {
+   "name": "all_BG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres",
+   "materials": [
+    "mt_BG"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "all_env_lose",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres",
+   "materials": [
+    "mt_alpha",
+    "mt_main"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "all_lose_ind_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres",
+   "materials": [
+    "mt_alpha",
+    "mt_main"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "all_lose_ind_JPN",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "all_lose_tex_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres",
+   "materials": [
+    "mt_alpha",
+    "mt_main"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "all_lose_tex_JPN",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "all_shadow",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres",
+   "materials": [
+    "mt_shadow"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "lose"
+  },
+  {
+   "type": "SRT0",
+   "name": "lose"
+  },
+  {
+   "type": "CLR0",
+   "name": "lose"
+  }
+ ],
+ "materials": [
+  {
+   "name": "mt_BG",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "all_BG",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_alpha",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "all_lose_tex_ENG",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "all_env_lose",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "all_lose_ind_ENG",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon8"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_main",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "all_lose_tex_ENG",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "all_env_lose",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "all_lose_ind_ENG",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1",
+    "polygon2",
+    "polygon3",
+    "polygon4",
+    "polygon5",
+    "polygon6",
+    "polygon7"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_shadow",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "all_shadow",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon9",
+    "polygon10",
+    "polygon11",
+    "polygon12",
+    "polygon13",
+    "polygon14",
+    "polygon15"
+   ],
+   "inGlb": true
+  }
+ ]
+}

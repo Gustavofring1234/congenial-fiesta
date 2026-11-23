@@ -1,0 +1,31 @@
+{
+ "format": "nw4r-tex",
+ "version": 1,
+ "assetId": "tex_b51d3046df7482b8",
+ "source": "src/core/shared/RPSportsCommon/us/local.carc/sportsTop.arc.d/timg/physicalBg_000.tpl",
+ "images": [
+  {
+   "index": 0,
+   "file": "assets/src/core/shared/RPSportsCommon/us/local.carc/sportsTop.arc.d/timg/physicalBg_000.png",
+   "width": 320,
+   "height": 120,
+   "format": "IA8",
+   "formatId": 3,
+   "palette": null,
+   "wrapS": "CLAMP",
+   "wrapT": "CLAMP",
+   "minFilter": "LINEAR",
+   "magFilter": "LINEAR",
+   "lodBias": 0,
+   "minLod": 0,
+   "maxLod": 0,
+   "mipmapCount": 1,
+   "webgl": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "minFilter": 9729,
+    "magFilter": 9729
+   }
+  }
+ ]
+}

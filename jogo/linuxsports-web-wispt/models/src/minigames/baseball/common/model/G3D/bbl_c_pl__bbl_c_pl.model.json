@@ -1,0 +1,142 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_27c23aafc8f0242a",
+ "source": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres/bbl_c_pl",
+ "brres": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+ "model": "bbl_c_pl",
+ "glb": "models/src/minigames/baseball/common/model/G3D/bbl_c_pl__bbl_c_pl.glb",
+ "textures": [
+  {
+   "name": "bbl_Glove_env",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+   "materials": [
+    "m_bbil_c_pl"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "bbl_pl.0",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+   "materials": [
+    "m_bbil_c_pl"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "bbl_pl.1",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bbl_pl.10",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bbl_pl.11",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bbl_pl.2",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bbl_pl.3",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bbl_pl.4",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bbl_pl.5",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bbl_pl.6",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bbl_pl.7",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bbl_pl.8",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bbl_pl.9",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bbl_pl_blue",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bbl_pl_env",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bbl_pl_red",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_pl.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ],
+ "animations": [
+  {
+   "type": "PAT0",
+   "name": "bbl_c_pl"
+  }
+ ],
+ "materials": [
+  {
+   "name": "m_bbil_c_pl",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bbl_pl.0",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "bbl_Glove_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ]
+}

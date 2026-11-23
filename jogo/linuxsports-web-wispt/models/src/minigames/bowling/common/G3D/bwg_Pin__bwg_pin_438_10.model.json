@@ -1,0 +1,100 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_f255d56f5efb2948",
+ "source": "src/minigames/bowling/common/common.carc/G3D/bwg_Pin.brres/bwg_pin_438_10",
+ "brres": "src/minigames/bowling/common/common.carc/G3D/bwg_Pin.brres",
+ "model": "bwg_pin_438_10",
+ "glb": "models/src/minigames/bowling/common/G3D/bwg_Pin__bwg_pin_438_10.glb",
+ "textures": [
+  {
+   "name": "bwg_Ball_blue",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_Pin.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_pin",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_Pin.brres",
+   "materials": [
+    "bwl_pin_mat"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "bwg_pin_env",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_Pin.brres",
+   "materials": [
+    "bwl_pin_mat"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "bwg_pin_red",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_Pin.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "env_test",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_Pin.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "test_gra",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_Pin.brres",
+   "materials": [
+    "bwl_pin_mat"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "test_gra_91",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_Pin.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ],
+ "animations": [],
+ "materials": [
+  {
+   "name": "bwl_pin_mat",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bwg_pin",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "bwg_pin_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "test_gra",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0",
+    "polygon1",
+    "polygon2",
+    "polygon3",
+    "polygon4",
+    "polygon5",
+    "polygon6",
+    "polygon7",
+    "polygon8",
+    "polygon9"
+   ],
+   "inGlb": true
+  }
+ ]
+}

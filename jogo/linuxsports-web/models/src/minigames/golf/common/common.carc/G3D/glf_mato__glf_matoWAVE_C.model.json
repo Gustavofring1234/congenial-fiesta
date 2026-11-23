@@ -1,0 +1,61 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_6f0cae11b647ed3f",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_mato.brres/glf_matoWAVE_C",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_mato.brres",
+ "model": "glf_matoWAVE_C",
+ "glb": "models/src/minigames/golf/common/common.carc/G3D/glf_mato__glf_matoWAVE_C.glb",
+ "textures": [
+  {
+   "name": "glfM_kazu_7250",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_mato.brres"
+  },
+  {
+   "name": "glfo_kazu_04",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_mato.brres"
+  },
+  {
+   "name": "glfo_maru_03",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_mato.brres"
+  },
+  {
+   "name": "glfo_maru_A02",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_mato.brres"
+  },
+  {
+   "name": "glfo_maru_A03",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_mato.brres"
+  },
+  {
+   "name": "glfo_siro01",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_mato.brres"
+  },
+  {
+   "name": "glf_matoWAVE1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_mato.brres"
+  },
+  {
+   "name": "glf_matoWAVE1_ind",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_mato.brres"
+  },
+  {
+   "name": "glf_water_ind1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_mato.brres"
+  },
+  {
+   "name": "glf_water_light1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_mato.brres"
+  },
+  {
+   "name": "glf_water_wave1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_mato.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "SRT0",
+   "name": "glf_matoWAVE_C"
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "assetId": "mdl_d9a7caed0ca0c1ad",
+ "model": "bbl_Glove_l",
+ "materials": [
+  {
+   "name": "bbl_glove",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bbl_glove",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "bbl_Glove_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "bbl_glove",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Glove.brres",
+   "materials": [
+    "bbl_glove"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "bbl_Glove_env",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Glove.brres",
+   "materials": [
+    "bbl_glove"
+   ],
+   "layer0": false
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "id": "cpu_mii_048",
+ "source": "raw/src/core/shared/SportsStatic/common/CPUMii/cpu_mii_048.rcd",
+ "raw": "gAQwwDD0MKMwyQAAAAAAAAAAAAAAAEBAIAAAAAAAAADRBTAIIQ8IkrBrBmSVQKjOAIoAiiUEAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "info": {
+  "name": "ダヴィド",
+  "creator": "",
+  "sex": 0,
+  "birthMonth": 0,
+  "birthDay": 0,
+  "favoriteColor": 2,
+  "favorite": 0,
+  "height": 64,
+  "build": 64,
+  "createId": "2000000000000000",
+  "faceline": {
+   "type": 6,
+   "color": 4,
+   "texture": 4
+  },
+  "hair": {
+   "type": 24,
+   "color": 0,
+   "flip": 0
+  },
+  "eye": {
+   "type": 44,
+   "color": 0,
+   "scale": 3,
+   "rotate": 3,
+   "x": 3,
+   "y": 11
+  },
+  "eyebrow": {
+   "type": 4,
+   "color": 0,
+   "scale": 4,
+   "rotate": 4,
+   "x": 2,
+   "y": 9
+  },
+  "nose": {
+   "type": 9,
+   "scale": 5,
+   "y": 8
+  },
+  "mouth": {
+   "type": 21,
+   "color": 0,
+   "scale": 6,
+   "y": 14
+  },
+  "beard": {
+   "mustache": 0,
+   "type": 0,
+   "color": 0,
+   "scale": 4,
+   "y": 10
+  },
+  "glass": {
+   "type": 0,
+   "color": 0,
+   "scale": 4,
+   "y": 10
+  },
+  "mole": {
+   "type": 0,
+   "scale": 4,
+   "x": 2,
+   "y": 20
+  }
+ }
+}

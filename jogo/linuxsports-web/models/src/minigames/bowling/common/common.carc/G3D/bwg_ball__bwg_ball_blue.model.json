@@ -1,0 +1,40 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_d7180405978dfc1b",
+ "source": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres/bwg_ball_blue",
+ "brres": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres",
+ "model": "bwg_ball_blue",
+ "glb": "models/src/minigames/bowling/common/common.carc/G3D/bwg_ball__bwg_ball_blue.glb",
+ "textures": [
+  {
+   "name": "ball_gra",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres"
+  },
+  {
+   "name": "bwg_Ball_blue",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres"
+  },
+  {
+   "name": "bwg_Ball_green",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres"
+  },
+  {
+   "name": "bwg_Ball_pink",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres"
+  },
+  {
+   "name": "bwg_ball_yellow",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres"
+  },
+  {
+   "name": "env_test",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres"
+  },
+  {
+   "name": "test_gra",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_ball.brres"
+  }
+ ],
+ "animations": []
+}

@@ -1,0 +1,720 @@
+From b72b0f61b8aeda3851eb7066ceb6ac6777daaa32 Mon Sep 17 00:00:00 2001
+From: Gustavofring1234 <gustavo.felix7@aluno.educa.go.gov.br>
+Date: Fri, 20 Nov 2026 01:42:24 +0000
+Subject: [PATCH 4/4] =?UTF-8?q?WEBC:=20JOGOS=20com=20o=20n=C3=BAcleo=20do?=
+ =?UTF-8?q?=20Linux=20Sports=20=E2=80=94=20voo=20com=20Magnus,=20split,=20?=
+ =?UTF-8?q?queimada=20dupla,=20CPU=20pela=20habilidade=20e=20recordes?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Readapta para o WEBC a lógica do Linux Sports (projeto Unity do mesmo autor; só código,
+sem arte nem dados de outros jogos), num módulo sem tela, js/esportes-nucleo.js:
+
+- golfe: a bola no ar com resistência do ar, efeito Magnus (backspin de cada taco,
+  efeito lateral ao puxar o mouse) e o vento de verdade; a força ainda leva a bola
+  à distância do taco;
+- boliche: o split (7-10, 2-7...) é avisado e contado no fim;
+- beisebol: queimada dupla, voo de sacrifício e a virada do time da casa na última
+  entrada também por base por bolas;
+- o CPU acompanha você: habilidade de 0 a 2000 por jogo (Elo) e um perfil de IA por
+  partida (precisão, reação, força, velocidade, lado); no boxe, o padrão é
+  "Pela habilidade";
+- recordes por pessoa e por jogo (partidas, vitórias, melhor marca, habilidade), no
+  fim da partida e na página JOGOS; traduções em inglês e japonês.
+
+Testes: o núcleo (split, busca da velocidade e Magnus, quique, queimada dupla e voo de
+sacrifício, Elo, IA, nível do boxe) e o registro no fim da luta.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+---
+ apps/companhia/README.md                      |  20 ++
+ apps/companhia/index.html                     |   1 +
+ apps/companhia/js/esportes-nucleo.js          | 237 ++++++++++++++++++
+ apps/companhia/js/esportes.js                 | 101 +++++---
+ apps/companhia/js/minijogos.js                |  23 +-
+ apps/companhia/js/textos.js                   |   8 +
+ tests/navegador/testar_companhia_minijogos.js |  25 ++
+ 7 files changed, 384 insertions(+), 31 deletions(-)
+ create mode 100644 apps/companhia/js/esportes-nucleo.js
+
+diff --git a/apps/companhia/README.md b/apps/companhia/README.md
+index 5ec4543..d53d69d 100644
+--- a/apps/companhia/README.md
++++ b/apps/companhia/README.md
+@@ -354,6 +354,24 @@ opções:
+   guarda; esquiva; quando a luva dele pisca, ele vai socar: defenda ou esquive e contra-ataque. Knockdowns com
+   contagem (você levanta apertando várias vezes), nocaute, nocaute técnico com 3 quedas ou decisão por pontos.
+ 
++**O núcleo dos esportes** (`js/esportes-nucleo.js`, readaptado do Linux Sports, um projeto Unity do mesmo autor;
++só a lógica, sem arte nem dados de outros jogos):
++
++- **A bola no ar** no golfe tem resistência do ar e **efeito Magnus**: o backspin de cada taco sustenta a bola, puxar
++  para o lado ao soltar dá efeito (curva para esse lado) e o vento entra de verdade no voo. A força ainda leva a bola
++  à distância do taco (a velocidade de saída é calculada para isso).
++- **Boliche**: avisa o **split** (o pino 1 caiu e sobraram grupos separados, como 7-10) e conta os splits no fim.
++- **Beisebol**: **queimada dupla** (rasteira com corredor na 1ª) e **voo de sacrifício** (bola alta funda com corredor
++  na 3ª: ele marca); o time da casa que passa à frente na última entrada vence na hora, também por base por bolas.
++- **O CPU acompanha você**: cada jogo guarda a sua **habilidade** (0 a 2000 pontos, ajustados como no xadrez, o Elo,
++  pela força do adversário que você venceu ou perdeu). A força do CPU vem dela, com um estilo próprio a cada partida
++  (precisão, reação, força, velocidade e lado preferido). No boxe, o adversário padrão é **Pela habilidade** (vai do
++  fácil ao difícil); fácil, médio e difícil continuam.
++- **Recordes**: por pessoa (a conta, ou o nome de quem joga sem conta) e por jogo, guardados neste navegador:
++  partidas, vitórias, a melhor marca (pontos no boliche, o resultado no golfe para 3, 9 e 18 buracos, a maior troca de
++  bola no tênis, corridas no beisebol, socos certos no boxe) e a habilidade. O fim da partida mostra **Novo recorde**
++  e quanto a habilidade mudou; a página JOGOS mostra o resumo em cada jogo.
++
+ **Controles.** Com o **mouse e o teclado**: o mouse mira; clique (ou Espaço) para golpear; segure para carregar a
+ força e solte para jogar (boliche, golfe, arremesso). No boxe, botão esquerdo/K = direto, direito/J = jab, S/Shift =
+ guarda, A/D = esquivar. Com a **câmera de movimento** (escolha na página ou no botão do jogo): o mesmo rastreamento
+@@ -832,6 +850,8 @@ js/webc.js         o site do WEBC: cabeçalho, início (cartões, quadrados), no
+ js/minijogos.js    a página JOGOS e o motor dos minijogos: tela cheia, placar, pausa, os controles (mouse/teclado e câmera
+                    de movimento), os bonecos, o céu, as luzes e a torcida
+ js/esportes.js     os cinco minijogos: tênis, beisebol, boliche, golfe e boxe (e as contas de cada um)
++js/esportes-nucleo.js  o núcleo dos esportes (sem tela): voo com arrasto e Magnus, quique, split, queimada dupla e voo de
++                   sacrifício, perfil da IA, habilidade (Elo) e recordes por pessoa
+ js/inicio.js       a tela de entrar (conta ou só o nome) e o nome de quem joga sem conta
+ js/jogo.js         a tela do jogo: a barra do alto com o ☰, as expressões de 1 a 9, o bate-papo e o vídeo no canto, a janela Opções
+ js/widgets.js      os widgets do início (relógio, salas, loja, amigos, salvos, notas)
+diff --git a/apps/companhia/index.html b/apps/companhia/index.html
+index 60b752b..747f469 100644
+--- a/apps/companhia/index.html
++++ b/apps/companhia/index.html
+@@ -114,6 +114,7 @@
+   <script src="js/inicio.js"></script>
+   <script src="js/widgets.js"></script>
+   <script src="js/minijogos.js"></script>
++  <script src="js/esportes-nucleo.js"></script>
+   <script src="js/esportes.js"></script>
+   <script src="js/webc.js"></script>
+   <script src="js/personagens.js"></script>
+diff --git a/apps/companhia/js/esportes-nucleo.js b/apps/companhia/js/esportes-nucleo.js
+new file mode 100644
+index 0000000..deaf652
+--- /dev/null
++++ b/apps/companhia/js/esportes-nucleo.js
+@@ -0,0 +1,237 @@
++/*
++ * WEBC — o núcleo dos minijogos de esporte (sem three.js e sem a tela: só contas, para o js/esportes.js usar e os
++ * testes conferirem). Readaptado do Linux Sports (o projeto Unity do mesmo autor; código próprio, sem nada de jogos
++ * de terceiros):
++ *
++ *   voo        a bola no ar com gravidade, resistência do ar e o efeito Magnus (backspin sustenta, topspin derruba,
++ *              efeito lateral curva), o quique com atrito e a busca da velocidade para uma distância;
++ *   boliche    o split (o pino 1 caiu e sobraram grupos separados) e a máscara dos pinos em pé;
++ *   beisebol   queimada dupla e voo de sacrifício (quem está na 3ª marca);
++ *   ia         um perfil para cada adversário: precisão, reação, força, velocidade e estilo, a partir de uma força
++ *              (0 a 1) e de uma semente estável (o nome);
++ *   habilidade pontos de 0 a 2000 por jogo, ajustados como no xadrez (Elo) contra a força do adversário;
++ *   recordes   por pessoa e por jogo (melhor marca, vitórias, partidas, habilidade), guardados neste navegador.
++ *
++ * Unidades: metros, segundos e quilos (o mesmo do js/esportes.js).
++ */
++(function () {
++  "use strict";
++  const C = (window.C = window.C || {});
++  const limitar = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
++  const G = 9.8;
++
++  // ══════════════════════════════ o voo da bola ══════════════════════════════
++
++  const AR = 1.2; // densidade do ar (kg/m³)
++  /** Bolas: raio (m), massa (kg), arrasto, Magnus (S, kg), perda do giro (1/s), restituição e atrito no quique. */
++  const BOLAS = {
++    golfe: { raio: 0.02135, massa: 0.04593, arrasto: 0.25, magnus: 0.000025, perdaGiro: 0.25, restituicao: 0.38, atrito: 0.35 },
++    tenis: { raio: 0.0335, massa: 0.058, arrasto: 0.55, magnus: 0.000045, perdaGiro: 0.15, restituicao: 0.75, atrito: 0.25 },
++    beisebol: { raio: 0.0366, massa: 0.145, arrasto: 0.33, magnus: 0.00008, perdaGiro: 0.1, restituicao: 0.45, atrito: 0.4 },
++  };
++  const cruz = (a, b) => ({ x: a.y * b.z - a.z * b.y, y: a.z * b.x - a.x * b.z, z: a.x * b.y - a.y * b.x });
++
++  /** A aceleração da bola (m/s²) com a velocidade, o giro (rad/s, vetor) e o vento (m/s). */
++  function aceleracao(vel, giro, vento, bola) {
++    const r = { x: vel.x - (vento ? vento.x : 0), y: vel.y - (vento ? vento.y || 0 : 0), z: vel.z - (vento ? vento.z : 0) };
++    const v = Math.hypot(r.x, r.y, r.z), area = Math.PI * bola.raio * bola.raio;
++    const k = v > 1e-5 ? (-0.5 * AR * bola.arrasto * area * v) / bola.massa : 0;
++    const m = giro ? cruz(giro, r) : { x: 0, y: 0, z: 0 }, s = bola.magnus / bola.massa;
++    return { x: k * r.x + s * m.x, y: -G + k * r.y + s * m.y, z: k * r.z + s * m.z };
++  }
++  /** Um passo (Euler semi-implícito): muda pos, vel e giro no lugar. */
++  function passo(pos, vel, giro, vento, bola, dt) {
++    const a = aceleracao(vel, giro, vento, bola);
++    vel.x += a.x * dt; vel.y += a.y * dt; vel.z += a.z * dt;
++    pos.x += vel.x * dt; pos.y += vel.y * dt; pos.z += vel.z * dt;
++    if (giro) { const f = Math.max(0, 1 - bola.perdaGiro * dt); giro.x *= f; giro.y *= f; giro.z *= f; }
++  }
++  /** O eixo do backspin para uma direção no chão (o Magnus empurra para cima). Topspin = o eixo ao contrário. */
++  function eixoBackspin(dir) {
++    const h = Math.hypot(dir.x, dir.z) || 1, d = { x: dir.x / h, y: 0, z: dir.z / h };
++    return cruz(d, { x: 0, y: 1, z: 0 });
++  }
++  /** Simula sem colisão até a bola descer à altura "chao". Devolve {x, y, z, t}. */
++  function preverQueda(pos0, vel0, giro0, vento, bola, chao = 0, max = 15, dt = 1 / 120) {
++    const pos = { ...pos0 }, vel = { ...vel0 }, giro = giro0 ? { ...giro0 } : null;
++    let t = 0;
++    while (t < max) {
++      const ant = { ...pos };
++      passo(pos, vel, giro, vento, bola, dt);
++      t += dt;
++      if (pos.y <= chao && vel.y < 0) {
++        const k = (ant.y - chao) / (ant.y - pos.y || 1);
++        return { x: ant.x + (pos.x - ant.x) * k, y: chao, z: ant.z + (pos.z - ant.z) * k, t };
++      }
++    }
++    return { ...pos, t };
++  }
++  /** A velocidade de saída (m/s) para a bola cair a "distancia" metros com o ângulo (graus) e o backspin (rad/s). */
++  function velocidadePara(distancia, anguloGraus, backspin, bola, desnivel = 0, maxima = 95) {
++    let lo = 0.5, hi = maxima;
++    const a = (anguloGraus * Math.PI) / 180, giro = eixoBackspin({ x: 0, z: 1 });
++    for (let i = 0; i < 28; i++) {
++      const v = 0.5 * (lo + hi);
++      const q = preverQueda({ x: 0, y: 0, z: 0 }, { x: 0, y: Math.sin(a) * v, z: Math.cos(a) * v }, { x: giro.x * backspin, y: 0, z: giro.z * backspin }, null, bola, desnivel);
++      if (q.z < distancia) lo = v; else hi = v;
++    }
++    return 0.5 * (lo + hi);
++  }
++  /** O quique numa superfície de normal n: a parte normal volta com a restituição, a tangencial perde pelo atrito e
++   *  parte do giro vira velocidade no chão (o efeito "morde"). Devolve a nova velocidade e muda o giro. */
++  function quique(vel, n, giro, bola) {
++    const vn = vel.x * n.x + vel.y * n.y + vel.z * n.z;
++    if (vn >= 0) return { ...vel };
++    const N = { x: vn * n.x, y: vn * n.y, z: vn * n.z }, Tg = { x: vel.x - N.x, y: vel.y - N.y, z: vel.z - N.z };
++    const c = giro ? cruz(giro, { x: -n.x * bola.raio, y: -n.y * bola.raio, z: -n.z * bola.raio }) : { x: 0, y: 0, z: 0 };
++    const f = limitar(bola.atrito);
++    const nt = { x: Tg.x - (Tg.x + c.x) * f, y: Tg.y - (Tg.y + c.y) * f, z: Tg.z - (Tg.z + c.z) * f };
++    if (giro) { giro.x *= 1 - f; giro.y *= 1 - f; giro.z *= 1 - f; }
++    return { x: nt.x - N.x * bola.restituicao, y: nt.y - N.y * bola.restituicao, z: nt.z - N.z * bola.restituicao };
++  }
++
++  // ══════════════════════════════ boliche ══════════════════════════════
++
++  // Os pinos na ordem do js/esportes.js (1 na frente; em cada fileira, da esquerda para a direita): a coluna em
++  // meias distâncias e a fileira.
++  const COL = [0, -1, 1, -2, 0, 2, -3, -1, 1, 3], FIL = [0, 1, 1, 2, 2, 2, 3, 3, 3, 3];
++  const mascara = (emPe) => emPe.reduce((m, de, i) => (de ? m | (1 << i) : m), 0);
++  const contarBits = (m) => { let c = 0; while (m) { m &= m - 1; c++; } return c; };
++  /** Split: o pino 1 caiu e os que sobraram formam dois ou mais grupos sem pino entre eles (regra da USBC). */
++  function ehSplit(m) {
++    if (m & 1 || contarBits(m) < 2) return false;
++    let vistos = 0, grupos = 0;
++    for (let i = 0; i < 10; i++) {
++      if (!((m >> i) & 1) || (vistos >> i) & 1) continue;
++      grupos++;
++      const pilha = [i]; vistos |= 1 << i;
++      while (pilha.length) {
++        const a = pilha.pop();
++        for (let b = 0; b < 10; b++) {
++          if (!((m >> b) & 1) || (vistos >> b) & 1) continue;
++          const df = Math.abs(FIL[a] - FIL[b]), dc = Math.abs(COL[a] - COL[b]);
++          if ((df === 0 && dc === 2) || (df === 1 && dc === 1) || (df === 2 && dc === 0)) { vistos |= 1 << b; pilha.push(b); }
++        }
++      }
++    }
++    return grupos >= 2;
++  }
++  /** O nome do split (os pinos em pé, do menor para o maior: "7-10", "4-6"...). */
++  const nomeSplit = (m) => Array.from({ length: 10 }, (_, i) => ((m >> i) & 1 ? i + 1 : 0)).filter(Boolean).join("-");
++
++  // ══════════════════════════════ beisebol ══════════════════════════════
++
++  /**
++   * O que a eliminação vira, com as bases e as eliminações de antes: {tipo: "simples"|"dupla"|"sacrificio", corridas,
++   * bases, fora}. Rasteira com corredor na 1ª e menos de 2 eliminações: queimada dupla (a chance vem da defesa);
++   * bola alta funda com corredor na 3ª e menos de 2 eliminações: voo de sacrifício (ele marca).
++   */
++  function eliminacao({ bases, fora, alta, distancia = 0, defesa = 0.5, sorteio = Math.random }) {
++    const b = bases.slice();
++    if (!alta && b[0] && fora < 2 && sorteio() < 0.35 + 0.35 * defesa) {
++      b[0] = false;
++      return { tipo: "dupla", corridas: 0, bases: b, fora: Math.min(3, fora + 2) };
++    }
++    if (alta && b[2] && fora < 2 && distancia >= 60) {
++      b[2] = false;
++      return { tipo: "sacrificio", corridas: 1, bases: b, fora: fora + 1 };
++    }
++    return { tipo: "simples", corridas: 0, bases: b, fora: fora + 1 };
++  }
++
++  // ══════════════════════════════ a IA ══════════════════════════════
++
++  /** Hash FNV-1a (estável em qualquer navegador). */
++  function hash(s) {
++    let h = 2166136261;
++    for (const ch of String(s || "")) { h ^= ch.codePointAt(0); h = Math.imul(h, 16777619); }
++    return (h >>> 0) & 0x7fffffff;
++  }
++  /** O perfil de um adversário: força 0 a 1 e a semente (o nome dele) dão o estilo. */
++  function perfilIA(forca, semente = "cpu", corpo = {}) {
++    const s = limitar(forca), h = hash(semente), u1 = (h & 0xff) / 255, u2 = ((h >> 8) & 0xff) / 255, u3 = ((h >> 16) & 0xff) / 255;
++    const altura = limitar(corpo.altura ?? 0.5), peso = limitar(corpo.peso ?? 0.5);
++    return {
++      forca: s,
++      precisao: limitar(0.25 + 0.7 * s + 0.05 * (u1 - 0.5)),
++      reacao: 0.45 - 0.33 * s + 0.04 * u2,                 // segundos até reagir
++      potencia: limitar(0.3 + 0.4 * s + 0.3 * peso),
++      velocidade: limitar(0.35 + 0.45 * s + 0.25 * (1 - Math.abs(peso - 0.4))),
++      alcance: 0.85 + 0.3 * altura,
++      agressividade: limitar(0.3 + 0.4 * u3 + 0.2 * s),
++      lado: u1 * 2 - 1,                                     // prefere a esquerda (-1) ou a direita (+1)
++      semente: h,
++      /** Um erro aleatório (normal) que diminui com a precisão. */
++      erro(escala, r = Math.random) {
++        const a = 1 - r(), b = r();
++        return Math.sqrt(-2 * Math.log(a)) * Math.cos(2 * Math.PI * b) * escala * (1 - this.precisao * 0.9);
++      },
++    };
++  }
++
++  // ══════════════════════════════ habilidade (Elo) ══════════════════════════════
++
++  const HABILIDADE_MAX = 2000, K = 60;
++  /** Quanto os pontos mudam: força do adversário 0 a 1 (vira 0 a 2000), resultado 1 = vitória, 0,5 = empate. */
++  function deltaHabilidade(atual, forcaAdversario, resultado) {
++    const opp = limitar(forcaAdversario) * HABILIDADE_MAX;
++    const esperado = 1 / (1 + Math.pow(10, (opp - atual) / 400));
++    return Math.round(K * (limitar(resultado) - esperado));
++  }
++  /** A força do CPU para quem tem esses pontos (o adversário acompanha você). */
++  const forcaPara = (pontos) => limitar(0.15 + 0.8 * limitar(pontos / HABILIDADE_MAX));
++
++  // ══════════════════════════════ recordes ══════════════════════════════
++
++  const PREF = "webc.esportes.recordes";
++  function ler() { try { return JSON.parse(LNUX.preferencia.ler(PREF, "{}")) || {}; } catch (e) { return {}; } }
++  function gravar(d) { try { LNUX.preferencia.gravar(PREF, JSON.stringify(d)); } catch (e) { /* sem armazenamento */ } }
++  /** Quem está jogando: a conta (se entrou) ou o nome guardado; "visitante" se nenhum. */
++  function pessoa() {
++    const c = C.contas && C.contas.eu;
++    if (c && (c.id || c.nome)) return "conta:" + (c.id || c.nome);
++    try { const n = localStorage.getItem("companhia.sala-nome"); if (n) return "nome:" + n; } catch (e) { /* sem armazenamento */ }
++    return "visitante";
++  }
++  function doJogo(jogo, quem = pessoa()) {
++    const d = ler(), p = (d[quem] = d[quem] || {});
++    return { d, p, r: (p[jogo] = p[jogo] || { partidas: 0, vitorias: 0, habilidade: 0, melhor: null }) };
++  }
++  /** Os recordes de um jogo (para a página JOGOS e o fim de partida). */
++  const recordesDe = (jogo, quem) => ({ ...doJogo(jogo, quem).r });
++  /**
++   * Registra uma partida. resultado: {vitoria, empate?, recorde?: {valor, melhor: "maior"|"menor", rotulo}, forcaCPU?}.
++   * Devolve {novoRecorde, anterior, delta, habilidade}.
++   */
++  function registrar(jogo, resultado = {}, quem = pessoa()) {
++    const { d, r } = doJogo(jogo, quem);
++    r.partidas++;
++    if (resultado.vitoria) r.vitorias++;
++    let novoRecorde = false, anterior = null;
++    const rec = resultado.recorde;
++    if (rec && Number.isFinite(rec.valor)) {
++      // cada variante (ex.: golfe de 3, 9 ou 18 buracos) tem o próprio recorde; o cartão mostra o último que melhorou
++      const v = String(rec.variante || "-"), por = (r.melhores = r.melhores || {});
++      anterior = por[v] ? por[v].valor : null;
++      const melhorou = anterior === null || (rec.melhor === "menor" ? rec.valor < anterior : rec.valor > anterior);
++      if (melhorou) {
++        por[v] = { valor: rec.valor, rotulo: rec.rotulo || String(rec.valor) };
++        r.melhor = rec.valor; r.rotulo = por[v].rotulo; novoRecorde = true;
++      }
++    }
++    let delta = 0;
++    if (Number.isFinite(resultado.forcaCPU)) {
++      delta = deltaHabilidade(r.habilidade, resultado.forcaCPU, resultado.empate ? 0.5 : resultado.vitoria ? 1 : 0);
++      r.habilidade = Math.max(0, Math.min(HABILIDADE_MAX, r.habilidade + delta));
++    }
++    gravar(d);
++    return { novoRecorde, anterior, delta, habilidade: r.habilidade };
++  }
++
++  C.esportesNucleo = {
++    G, BOLAS, aceleracao, passo, eixoBackspin, preverQueda, velocidadePara, quique,
++    mascara, ehSplit, nomeSplit, eliminacao,
++    hash, perfilIA, deltaHabilidade, forcaPara, HABILIDADE_MAX,
++    pessoa, recordesDe, registrar,
++  };
++})();
+diff --git a/apps/companhia/js/esportes.js b/apps/companhia/js/esportes.js
+index e14bdb5..a09f1ca 100644
+--- a/apps/companhia/js/esportes.js
++++ b/apps/companhia/js/esportes.js
+@@ -167,7 +167,7 @@
+         hud.aviso(venceu > 0 ? t("Game seu!") : t("Game do CPU"), 1700, venceu > 0 ? "bom" : "ruim");
+         if (placar.games[idx(venceu)] >= meta) {
+           placar.fim = true;
+-          setTimeout(() => ctx.fim({ vitoria: venceu > 0, titulo: venceu > 0 ? t("Você venceu!") : t("O CPU venceu"),
++          setTimeout(() => ctx.fim({ vitoria: venceu > 0, forcaCPU: ctx.forcaCPU, recorde: { valor: placar.trocas, melhor: "maior", rotulo: t("troca de {n} bolas", { n: placar.trocas }) }, titulo: venceu > 0 ? t("Você venceu!") : t("O CPU venceu"),
+             subtitulo: t("Games {a} – {b}", { a: placar.games[0], b: placar.games[1] }), linhas: [t("Rebatidas suas: {n}", { n: placar.golpesVoce }), t("Maior troca de bola: {n}", { n: placar.trocas })] }), 1400);
+         }
+       } else hud.aviso(motivo + " · " + textoPontos(), 1500, time > 0 ? "bom" : "ruim");
+@@ -287,15 +287,17 @@
+           const contato = new T.Vector3(j.x - 0.55, 1.0, j.z + 0.4);
+           if (b.viva && b.batedor > 0 && Math.sign(b.p.z) < 0 && b.quiques <= 1 && b.p.y < 2.4 && b.p.distanceTo(contato) < 1.0 && b.v.z < 0 && (b.quiques === 1 || Math.abs(b.p.z) < 6)) {
+             const fora = b.previsto && b.previsto.pouso && (Math.abs(b.previsto.pouso.x) > larg + 0.05 || b.previsto.pouso.z < -L - 0.05);
+-            if (fora && Math.random() < 0.85) continue; // deixa a bola ir para fora
++            const ia = ctx.ia, prec = ia ? ia.precisao : 0.6;
++            if (fora && Math.random() < 0.6 + 0.35 * prec) continue; // deixa a bola ir para fora (o fraco às vezes rebate)
+             const veloz = limitar((b.v.length() - 14) / 14);
+-            const acerta = Math.random() > 0.08 + veloz * 0.25;
++            const acerta = Math.random() > (0.08 + veloz * 0.25) * (1.6 - prec);
+             animarGolpe(j, false);
+-            rebater(j, acerta ? lerp(0.7, 0.95, Math.random()) : 0.15, lerp(-0.9, 0.9, Math.random()), lerp(0.35, 0.8, Math.random()));
++            const lado = ia ? limitar(lerp(-0.9, 0.9, Math.random()) + ia.lado * 0.25, -0.95, 0.95) : lerp(-0.9, 0.9, Math.random());
++            rebater(j, acerta ? lerp(0.55 + 0.2 * prec, 0.8 + 0.18 * prec, Math.random()) : 0.15, lado, lerp(0.3, 0.6 + 0.3 * (ia ? ia.potencia : 0.5), Math.random()));
+           }
+         }
+         // anda até o alvo
+-        const dx = j.alvo.x - j.x, dz = j.alvo.z - j.z, d = Math.hypot(dx, dz), vel = j.humano ? 7.5 : 6.2;
++        const dx = j.alvo.x - j.x, dz = j.alvo.z - j.z, d = Math.hypot(dx, dz), vel = j.humano ? 7.5 : 5.2 + 2 * (ctx.ia ? ctx.ia.velocidade : 0.5);
+         const passo = Math.min(d, vel * dt);
+         if (d > 0.01) { j.x += (dx / d) * passo; j.z += (dz / d) * passo; }
+         j.b.andando = limitar(d / 1.2) * (passo > 0.001 ? 1 : 0);
+@@ -592,21 +594,28 @@
+     function contar() {
+       let novos = 0;
+       for (const p of pinos) if ((p.caido || p.fora) && !p.contado) { p.contado = true; novos++; }
++      // split (js/esportes-nucleo.js): só na 1ª bola de um jogo de pinos completo
++      const N = C.esportesNucleo, cheio = jogo.quadro < 9 ? jogo.bolaNoQuadro === 0 : decimoQuadro(pontosBoliche(jogo.jogadas).quadros[9].bolas).novos;
++      const resto = N ? N.mascara(pinos.map((p) => !p.caido && !p.fora)) : 0;
++      const split = !!(N && cheio && novos < 10 && N.ehSplit(resto));
++      if (split) jogo.splits = (jogo.splits || 0) + 1;
++      jogo.ultimoSplit = split ? N.nomeSplit(resto) : null;
++      const avisoPinos = () => hud.aviso(split ? t("Split {p}! {n} pinos", { p: jogo.ultimoSplit, n: novos }) : novos ? t("{n} pinos", { n: novos }) : t("Nenhum pino"), split ? 1500 : 1100);
+       jogo.jogadas.push(novos);
+       jogo.ultimo = novos;
+       const q = jogo.quadro;
+       let proximoQuadro = false, todos = false;
+       if (q < 9) {
+         if (jogo.bolaNoQuadro === 0 && novos === 10) { hud.aviso(t("STRIKE!"), 1800, "bom"); som("torcida"); proximoQuadro = true; }
+-        else if (jogo.bolaNoQuadro === 1) { const soma = jogo.jogadas[jogo.jogadas.length - 2] + novos; if (soma === 10) { hud.aviso(t("SPARE!"), 1600, "bom"); som("ponto"); } else hud.aviso(novos ? t("{n} pinos", { n: novos }) : t("Nenhum pino"), 1100); proximoQuadro = true; }
+-        else hud.aviso(novos ? t("{n} pinos", { n: novos }) : t("Nenhum pino"), 1100);
++        else if (jogo.bolaNoQuadro === 1) { const soma = jogo.jogadas[jogo.jogadas.length - 2] + novos; if (soma === 10) { hud.aviso(t("SPARE!"), 1600, "bom"); som("ponto"); } else avisoPinos(); proximoQuadro = true; }
++        else avisoPinos();
+       } else {
+         const f = pontosBoliche(jogo.jogadas).quadros[9], ultima = f.marcas[f.marcas.length - 1];
+         const d = decimoQuadro(f.bolas);
+         if (ultima === "X") { hud.aviso(t("STRIKE!"), 1600, "bom"); som("torcida"); }
+         else if (ultima === "/") { hud.aviso(t("SPARE!"), 1600, "bom"); som("ponto"); }
+-        else hud.aviso(novos ? t("{n} pinos", { n: novos }) : t("Nenhum pino"), 1100);
+-        if (d.acabou) { jogo.fase = "fim"; const r = desenharPlacar(); setTimeout(() => ctx.fim({ vitoria: r.total >= 100, titulo: t("{n} pontos", { n: r.total }), subtitulo: r.total >= 200 ? t("Jogo incrível!") : r.total >= 120 ? t("Belo jogo!") : t("Fim das 10 rodadas"), linhas: [t("Strikes: {n}", { n: r.quadros.reduce((a, f) => a + f.marcas.filter((m) => m === "X").length, 0) }), t("Spares: {n}", { n: r.quadros.reduce((a, f) => a + f.marcas.filter((m) => m === "/").length, 0) })] }), 1600); return; }
++        else avisoPinos();
++        if (d.acabou) { jogo.fase = "fim"; const r = desenharPlacar(); setTimeout(() => ctx.fim({ vitoria: r.total >= 100, titulo: t("{n} pontos", { n: r.total }), recorde: { valor: r.total, melhor: "maior", rotulo: t("{n} pontos", { n: r.total }) }, subtitulo: r.total >= 200 ? t("Jogo incrível!") : r.total >= 120 ? t("Belo jogo!") : t("Fim das 10 rodadas"), linhas: [t("Strikes: {n}", { n: r.quadros.reduce((a, f) => a + f.marcas.filter((m) => m === "X").length, 0) }), t("Spares: {n}", { n: r.quadros.reduce((a, f) => a + f.marcas.filter((m) => m === "/").length, 0) }), t("Splits: {n}", { n: jogo.splits || 0 })] }), 1600); return; }
+         todos = d.novos;
+         jogo.bolaNoQuadro++;
+         arrumarPinos(todos);
+@@ -668,7 +677,7 @@
+           seguir(new T.Vector3(b.x * 0.5, 1.3, z), new T.Vector3(b.x * 0.3, 0.2, Math.min(b.z - 4, BOLICHE.cabeca)), dt, 3);
+         } else seguir(new T.Vector3(jogo.posX * 0.5 + 0.75, 2.1, 5.4), new T.Vector3(jogo.posX * 0.3, 0.2, -12), dt, 3); // por cima do ombro direito
+       },
+-      estado: () => ({ fase: jogo.fase, quadro: jogo.quadro + 1, bola: jogo.bolaNoQuadro + 1, jogadas: jogo.jogadas.slice(), total: pontosBoliche(jogo.jogadas).total, lancamentos: jogo.lancamentos,
++      estado: () => ({ fase: jogo.fase, quadro: jogo.quadro + 1, bola: jogo.bolaNoQuadro + 1, jogadas: jogo.jogadas.slice(), total: pontosBoliche(jogo.jogadas).total, lancamentos: jogo.lancamentos, splits: jogo.splits || 0, ultimoSplit: jogo.ultimoSplit || null,
+         emPe: pinos.filter((p) => !p.caido && !p.fora && p.g.visible).length, ultimo: jogo.ultimo }),
+       /** Para os testes: joga uma bola na hora (forca 0 a 1, curva -1 a 1). */
+       lancar,
+@@ -791,6 +800,11 @@
+       return corridas;
+     }
+     function proximoRebatedor() { p.bolas = 0; p.strikes = 0; p.fase = "pronto"; p.espera = 1.5; }
++    /** O time da casa passou à frente no fim da última entrada (ou numa extra): o jogo acaba na hora (walk-off). */
++    function viradaFinal() {
++      if (p.topo || p.entrada < entradas || p.corridas[1] <= p.corridas[0]) return false;
++      desenharPlacar(); fimDeJogo(); return true;
++    }
+     function eliminado(texto) {
+       p.fora++;
+       hud.aviso(texto, 1500, rebatendo() ? "ruim" : "bom");
+@@ -803,8 +817,9 @@
+       const tabela = el("table", { class: "mj-tabela" },
+         el("tr", {}, el("th", {}, ""), ...Array.from({ length: p.entrada }, (_, i) => el("th", {}, String(i + 1))), el("th", {}, "R")),
+         ...[[t("Você"), 0], [t("CPU"), 1]].map(([n, k]) => el("tr", {}, el("th", {}, n), ...Array.from({ length: p.entrada }, (_, i) => el("td", {}, p.porEntrada[k][i] === undefined ? (k === 1 && i === p.entrada - 1 && !p.jogouUltima ? "x" : "0") : String(p.porEntrada[k][i]))), el("td", {}, String(p.corridas[k])))));
+-      setTimeout(() => ctx.fim({ vitoria: venceu, titulo: a === b ? t("Empate") : venceu ? t("Você venceu!") : t("O CPU venceu"), subtitulo: t("Você {a} × {b} CPU", { a, b }), tabela,
+-        linhas: [t("Rebatidas válidas: {n}", { n: p.rebatidas }), t("Eliminações por strike: {n}", { n: p.eliminadosPorStrike })] }), 1500);
++      setTimeout(() => ctx.fim({ vitoria: venceu, empate: a === b, forcaCPU: ctx.forcaCPU, recorde: { valor: a, melhor: "maior", rotulo: t("{n} corridas", { n: a }) },
++        titulo: a === b ? t("Empate") : venceu ? t("Você venceu!") : t("O CPU venceu"), subtitulo: t("Você {a} × {b} CPU", { a, b }), tabela,
++        linhas: [t("Rebatidas válidas: {n}", { n: p.rebatidas }), t("Eliminações por strike: {n}", { n: p.eliminadosPorStrike }), t("Queimadas duplas: {n}", { n: p.duplas || 0 })] }), 1500);
+     }
+     function trocarLado() {
+       p.fora = 0; p.bases = [false, false, false];
+@@ -877,10 +892,11 @@
+       let g = a.golpe;
+       if (!rebatendo() && !a.decidiu) { // o CPU rebate (ou não)
+         a.decidiu = true;
+-        const quer = Math.random() < (a.naZona ? 0.74 : 0.28);
++        const prec = ctx.ia ? ctx.ia.precisao : 0.6; // o rebatedor melhor escolhe melhor
++        const quer = Math.random() < (a.naZona ? 0.6 + 0.25 * prec : 0.42 - 0.25 * prec);
+         if (quer) {
+           const dificil = (a.a.vel * (a.tempo ? a.de.distanceTo(a.para) / a.tempo / a.a.vel : 1) - 17) / 12;
+-          const sigma = 0.035 + limitar(dificil) * 0.045 + Math.abs(a.a.quebra) * 0.02;
++          const sigma = (0.035 + limitar(dificil) * 0.045 + Math.abs(a.a.quebra) * 0.02) * (1.5 - (ctx.ia ? ctx.ia.precisao : 0.6));
+           g = { atraso: (Math.random() + Math.random() + Math.random() - 1.5) * sigma * 2.2, forca: lerp(0.5, 0.95, Math.random()) };
+           balancoTaco();
+         }
+@@ -896,7 +912,7 @@
+       if (a.naZona) return strike(false);
+       p.bolas++;
+       hud.aviso(t("Bola {n}", { n: p.bolas }), 900);
+-      if (p.bolas >= 4) { const c = avancar(1, true); anotar(c); hud.aviso(t("Base por bolas"), 1400, rebatendo() ? "bom" : "ruim"); proximoRebatedor(); }
++      if (p.bolas >= 4) { const c = avancar(1, true); anotar(c); hud.aviso(t("Base por bolas"), 1400, rebatendo() ? "bom" : "ruim"); if (viradaFinal()) return; proximoRebatedor(); }
+       else { p.fase = "pronto"; p.espera = 1.1; }
+       desenharPlacar();
+     }
+@@ -924,14 +940,20 @@
+         p.fase = "pronto"; p.espera = 1.2; desenharPlacar();
+         return;
+       }
+-      if (r.tipo === "eliminado") { eliminado(r.alta ? t("Pegou no ar! Eliminado") : t("Eliminado na base")); desenharPlacar(); return; }
++      if (r.tipo === "eliminado") {
++        // queimada dupla ou voo de sacrifício (js/esportes-nucleo.js)
++        const N = C.esportesNucleo, e = N ? N.eliminacao({ bases: p.bases, fora: p.fora, alta: !!r.alta, distancia: r.distancia || 0, defesa: rebatendo() ? (ctx.ia ? ctx.ia.precisao : 0.5) : 0.5 }) : { tipo: "simples" };
++        if (e.tipo === "dupla") { p.bases = e.bases; p.fora++; p.duplas = (p.duplas || 0) + 1; eliminado(t("Queimada dupla!")); desenharPlacar(); return; }
++        if (e.tipo === "sacrificio") { p.bases = e.bases; anotar(1); if (viradaFinal()) return; eliminado(t("Voo de sacrifício: +1 corrida")); desenharPlacar(); return; }
++        eliminado(r.alta ? t("Pegou no ar! Eliminado") : t("Eliminado na base")); desenharPlacar(); return;
++      }
+       const bases = { simples: 1, dupla: 2, tripla: 3, homerun: 4 }[r.tipo];
+       const c = avancar(bases);
+       anotar(c);
+       if (rebatendo()) p.rebatidas++;
+       hud.aviso({ simples: t("Simples!"), dupla: t("Dupla!"), tripla: t("Tripla!"), homerun: t("HOME RUN!") }[r.tipo] + (c ? " " + t("+{n} corrida(s)", { n: c }) : ""), 1800, rebatendo() ? "bom" : "ruim");
+       // o time da casa vira o jogo na última entrada: acaba na hora
+-      if (!p.topo && p.entrada >= entradas && p.corridas[1] > p.corridas[0]) { desenharPlacar(); return fimDeJogo(); }
++      if (viradaFinal()) return;
+       proximoRebatedor();
+       desenharPlacar();
+     }
+@@ -949,7 +971,7 @@
+           if (p.espera <= 0) {
+             if (rebatendo()) {
+               const tipos = ["rapida", "rapida", "curva", "lenta"], tipo = tipos[Math.floor(Math.random() * tipos.length)];
+-              const naZona = Math.random() < 0.66;
++              const naZona = Math.random() < 0.55 + 0.2 * (ctx.ia ? ctx.ia.precisao : 0.6);
+               const x = naZona ? lerp(-ZONA.x, ZONA.x, Math.random()) : (Math.random() < 0.5 ? -1 : 1) * lerp(ZONA.x + 0.08, ZONA.x + 0.3, Math.random());
+               const y = naZona ? lerp(ZONA.baixo, ZONA.alto, Math.random()) : Math.random() < 0.5 ? lerp(0.2, ZONA.baixo - 0.06, Math.random()) : lerp(ZONA.alto + 0.06, 1.45, Math.random());
+               arremessar(tipo, x, y);
+@@ -994,7 +1016,7 @@
+         receptor.grupo.visible = !(rebatendo() && p.fase !== "voo"); // rebatendo, a câmera fica atrás dele
+         zona.visible = p.fase !== "voo";
+       },
+-      estado: () => ({ fase: p.fase, entrada: p.entrada, topo: p.topo, corridas: p.corridas.slice(), fora: p.fora, bolas: p.bolas, strikes: p.strikes, bases: p.bases.slice(), tipo: p.tipo, arremessos: p.arremessos, golpes: p.golpes, fim: p.fim }),
++      estado: () => ({ fase: p.fase, entrada: p.entrada, topo: p.topo, corridas: p.corridas.slice(), fora: p.fora, bolas: p.bolas, strikes: p.strikes, bases: p.bases.slice(), tipo: p.tipo, arremessos: p.arremessos, golpes: p.golpes, fim: p.fim, duplas: p.duplas || 0 }),
+       /** Para os testes: pula a metade da entrada (como 3 eliminações). */
+       trocarLado,
+     };
+@@ -1194,9 +1216,13 @@
+       som(putt ? "quique" : "rebatida");
+       if (putt) { const v = 6.7 * est.forca; est.vel.set(d.x * v, 0, d.z * v); est.fase = "rolando"; return; }
+       const taco = TACOS[est.taco], carry = Math.max(4, taco.max * est.forca * (SAIDA[lie()] || 1)), th = (taco.loft * Math.PI) / 180;
+-      const v0 = Math.sqrt((carry * G) / Math.sin(2 * th));
++      // a velocidade que, sem vento, leva a bola à distância do taco com o backspin dele (js/esportes-nucleo.js)
++      const N = C.esportesNucleo, giro = 220 + taco.loft * 6;
++      const v0 = N ? N.velocidadePara(carry, taco.loft, giro, N.BOLAS.golfe) : Math.sqrt((carry * G) / Math.sin(2 * th));
+       est.vel.set(d.x * v0 * Math.cos(th), v0 * Math.sin(th), d.z * v0 * Math.cos(th));
+-      est.curva = est.dx * 5;
++      const eixo = N ? N.eixoBackspin(d) : { x: 0, y: 0, z: 0 };
++      est.giro = { x: eixo.x * giro, y: -est.dx * 260, z: eixo.z * giro }; // efeito para o lado: puxar para a direita curva para a direita
++      est.curva = N ? 0 : est.dx * 5;
+       est.y = 0.05;
+       est.fase = "voo";
+     }
+@@ -1236,10 +1262,18 @@
+       if (nv < 0.05) { est.fase = "parada"; est.espera = 0.7; est.vel.set(0, 0, 0); }
+     }
+     function voar(dt) {
+-      est.vel.y -= G * dt;
+-      est.vel.x += est.vento.x * 0.32 * dt; est.vel.z += est.vento.z * 0.32 * dt;
+-      const d = est.direcaoVoo; est.vel.x += -d.z * est.curva * dt; est.vel.z += d.x * est.curva * dt; // efeito (gancho ou slice)
+-      est.x += est.vel.x * dt; est.y += est.vel.y * dt; est.z += est.vel.z * dt;
++      const N = C.esportesNucleo;
++      if (N && est.giro) {
++        // gravidade, resistência do ar com o vento e o efeito Magnus, em passos pequenos
++        const pos = { x: est.x, y: est.y, z: est.z }, vento = { x: est.vento.x, y: 0, z: est.vento.z }, n = 4;
++        for (let i = 0; i < n; i++) N.passo(pos, est.vel, est.giro, vento, N.BOLAS.golfe, dt / n);
++        est.x = pos.x; est.y = pos.y; est.z = pos.z;
++      } else {
++        est.vel.y -= G * dt;
++        est.vel.x += est.vento.x * 0.32 * dt; est.vel.z += est.vento.z * 0.32 * dt;
++        const d = est.direcaoVoo; est.vel.x += -d.z * est.curva * dt; est.vel.z += d.x * est.curva * dt; // efeito (gancho ou slice)
++        est.x += est.vel.x * dt; est.y += est.vel.y * dt; est.z += est.vel.z * dt;
++      }
+       if (est.y <= 0) {
+         est.y = 0;
+         const sup = lie();
+@@ -1268,7 +1302,7 @@
+         el("tr", {}, el("th", {}, t("Buraco")), ...est.cartao.map((_, i) => el("th", {}, String(i + 1))), el("th", {}, t("Total"))),
+         el("tr", {}, el("th", {}, t("Par")), ...est.cartao.map((c) => el("td", {}, String(c.par))), el("td", {}, String(pares))),
+         el("tr", {}, el("th", {}, t("Você")), ...est.cartao.map((c) => el("td", { class: c.tacadas < c.par ? "abaixo" : c.tacadas > c.par ? "acima" : "" }, String(c.tacadas))), el("td", {}, String(soma))));
+-      ctx.fim({ vitoria: dif <= 0, titulo: dif === 0 ? t("No par!") : dif < 0 ? t("{n} abaixo do par!", { n: -dif }) : t("{n} acima do par", { n: dif }), subtitulo: t("{n} tacadas em {b} buracos", { n: soma, b: total }), tabela });
++      ctx.fim({ vitoria: dif <= 0, recorde: { valor: dif, melhor: "menor", variante: total, rotulo: t("{d} em {b} buracos", { d: dif > 0 ? "+" + dif : dif === 0 ? "par" : String(dif), b: total }) }, titulo: dif === 0 ? t("No par!") : dif < 0 ? t("{n} abaixo do par!", { n: -dif }) : t("{n} acima do par", { n: dif }), subtitulo: t("{n} tacadas em {b} buracos", { n: soma, b: total }), tabela });
+     }
+     function desenharPlacar() {
+       const setas = ["↑", "↗", "→", "↘", "↓", "↙", "←", "↖"], va = Math.atan2(est.vento.x, -est.vento.z), vv = Math.hypot(est.vento.x, est.vento.z);
+@@ -1347,9 +1381,16 @@
+   const FOLEGO = { E: 16, D: 25, recupera: 15 }; // socar cansa: o jab gasta menos que o direto; o fôlego volta sozinho
+   const ROUND = 60;
+ 
++  /** O adversário entre o fácil (força 0) e o difícil (força 1), passando pelo médio. */
++  function nivelPara(forca) {
++    const f = limitar(forca), [a, b, k] = f < 0.5 ? [NIVEIS.facil, NIVEIS.medio, f / 0.5] : [NIVEIS.medio, NIVEIS.dificil, (f - 0.5) / 0.5];
++    return Object.fromEntries(Object.keys(a).map((c) => [c, lerp(a[c], b[c], k)]));
++  }
+   function criarBoxe(ctx) {
+     const { T, cena, camera, entrada, hud, som } = ctx;
+-    const nivel = NIVEIS[ctx.opcoes.nivel] || NIVEIS.medio;
++    const auto = ctx.opcoes.nivel === "auto";
++    const nivel = auto ? nivelPara(ctx.forcaCPU) : NIVEIS[ctx.opcoes.nivel] || NIVEIS.medio;
++    const forcaLuta = auto ? ctx.forcaCPU : { facil: 0.2, medio: 0.5, dificil: 0.85 }[ctx.opcoes.nivel] ?? 0.5;
+     cena.background = new T.Color("#11131c");
+     cena.fog = new T.Fog("#11131c", 12, 34);
+     cena.add(new T.HemisphereLight("#cfd8ff", "#2a2233", 0.9));
+@@ -1462,7 +1503,7 @@
+     }
+     function fimDaLuta(vitoria, titulo, sub) {
+       luta.fase = "fim";
+-      ctx.fim({ vitoria, titulo, subtitulo: sub, linhas: [t("Socos: {n} · acertos: {a}", { n: luta.socos, a: luta.acertos }), t("Defesas: {d} · esquivas: {e}", { d: luta.bloqueios, e: luta.esquivas }), t("Knockdowns: você {a} × {b} CPU", { a: luta.quedas[1], b: luta.quedas[0] })] });
++      ctx.fim({ vitoria, empate: titulo === t("Empate nos pontos"), forcaCPU: forcaLuta, recorde: { valor: luta.acertos, melhor: "maior", rotulo: t("{n} socos certos", { n: luta.acertos }) }, titulo, subtitulo: sub, linhas: [t("Socos: {n} · acertos: {a}", { n: luta.socos, a: luta.acertos }), t("Defesas: {d} · esquivas: {e}", { d: luta.bloqueios, e: luta.esquivas }), t("Knockdowns: você {a} × {b} CPU", { a: luta.quedas[1], b: luta.quedas[0] })] });
+     }
+     function contar(dt) {
+       luta.espera -= dt;
+@@ -1569,7 +1610,7 @@
+     };
+   }
+ 
+-  C.esportes = { pontosBoliche, decimoQuadro, rebatida, buracoDe, superficie, criarTenis, criarBoliche, criarBeisebol, criarGolfe, criarBoxe };
++  C.esportes = { pontosBoliche, decimoQuadro, rebatida, buracoDe, superficie, nivelPara, criarTenis, criarBoliche, criarBeisebol, criarGolfe, criarBoxe };
+ 
+   C.minijogos.registrar({
+     id: "tenis", nome: "Tênis", cor: "#2c62c9", descricao: "Partidas de simples ou duplas, com saque, troca de bola e a contagem do tênis.",
+@@ -1594,7 +1635,7 @@
+   });
+   C.minijogos.registrar({
+     id: "boxe", nome: "Boxe", cor: "#f08a24", descricao: "Lutas de 3 rounds contra o adversário: soque, defenda e esquive.",
+-    opcoes: [{ id: "nivel", rotulo: "Adversário", padrao: "medio", valores: [{ v: "facil", rotulo: "Fácil" }, { v: "medio", rotulo: "Médio" }, { v: "dificil", rotulo: "Difícil" }] }],
++    opcoes: [{ id: "nivel", rotulo: "Adversário", padrao: "auto", valores: [{ v: "auto", rotulo: "Pela habilidade" }, { v: "facil", rotulo: "Fácil" }, { v: "medio", rotulo: "Médio" }, { v: "dificil", rotulo: "Difícil" }] }],
+     criar: (ctx) => C.esportes.criarBoxe(ctx),
+   });
+ })();
+diff --git a/apps/companhia/js/minijogos.js b/apps/companhia/js/minijogos.js
+index 008092b..60ee176 100644
+--- a/apps/companhia/js/minijogos.js
++++ b/apps/companhia/js/minijogos.js
+@@ -589,6 +589,13 @@
+     function fim(resultado = {}) {
+       if (acabou) return;
+       acabou = true;
++      const N = C.esportesNucleo, extras = [];
++      if (N && !resultado.semRegistro) {
++        const r = N.registrar(id, resultado);
++        if (r.novoRecorde && resultado.recorde) extras.push(el("li", { class: "mj-recorde" }, t("Novo recorde: {r}", { r: resultado.recorde.rotulo || String(resultado.recorde.valor) })));
++        if (Number.isFinite(resultado.forcaCPU)) extras.push(el("li", { class: "mj-habilidade", "data-delta": String(r.delta) }, t("Habilidade: {h} ({d})", { h: r.habilidade, d: (r.delta >= 0 ? "+" : "") + r.delta })));
++        sessao.registro = r;
++      }
+       hud.barra(null);
+       som(resultado.vitoria ? "torcida" : "apito");
+       camadaPausa.hidden = false;
+@@ -596,7 +603,7 @@
+         el("h2", {}, resultado.titulo || t("Fim de jogo")),
+         resultado.subtitulo ? el("p", { class: "mj-subtitulo" }, resultado.subtitulo) : null,
+         resultado.tabela || null,
+-        (resultado.linhas || []).length ? el("ul", { class: "mj-linhas" }, resultado.linhas.map((l) => el("li", {}, l))) : null,
++        (resultado.linhas || []).length || extras.length ? el("ul", { class: "mj-linhas" }, (resultado.linhas || []).map((l) => el("li", {}, l)), extras) : null,
+         el("div", { class: "mj-acoes" },
+           el("button", { type: "button", class: "lnux-botao primario", "data-acao": "de-novo", onclick: () => reiniciar() }, t("Jogar de novo")),
+           el("button", { type: "button", class: "lnux-botao", "data-acao": "sair", onclick: () => sair() }, t("Escolher outro jogo")))));
+@@ -623,8 +630,12 @@
+       pausado = false;
+       camadaPausa.hidden = true;
+       sessao.resultado = null;
++      // o CPU acompanha a sua habilidade neste jogo (js/esportes-nucleo.js: pontos como no Elo)
++      const N = C.esportesNucleo, rec = N ? N.recordesDe(id) : null;
++      const forcaCPU = N ? N.forcaPara(rec.habilidade) : 0.5;
+       const ctx = {
+         T, cena, camera, entrada, hud, opcoes: { ...opcoes }, cor, som, fim, aleatorio, renderer, elemento: raiz,
++        forcaCPU, ia: N ? N.perfilIA(forcaCPU, "cpu-" + id + "-" + Math.floor(Math.random() * 1e6)) : null,
+         mat: (c, op) => materialDe(T, c, op),
+         malha: (geo, c, op) => malhaDe(T, geo, c, op),
+         boneco: (op) => { const b = bonecoDe(T, op); cena.add(b.grupo); return b; },
+@@ -713,6 +724,15 @@
+         el("small", { class: "fraco" }, camera ? t("A câmera liga ao começar o jogo (a imagem não sai do aparelho). Fique de frente, com os ombros e as mãos à vista.") : t("Mire com o mouse; clique (ou Espaço) para golpear; segure para carregar a força.")));
+     };
+     desenharControle();
++    /** Partidas, vitórias, recorde e habilidade deste jogo (de quem está jogando, neste navegador). */
++    const resumoRecordes = (id) => {
++      const N = C.esportesNucleo;
++      if (!N) return null;
++      const r = N.recordesDe(id);
++      if (!r.partidas) return el("p", { class: "mj-recordes fraco pequeno", "data-recordes": id }, t("Ainda sem partidas"));
++      return el("p", { class: "mj-recordes fraco pequeno", "data-recordes": id },
++        [t("Partidas: {n}", { n: r.partidas }), t("Vitórias: {n}", { n: r.vitorias }), r.melhor !== null && r.melhor !== undefined ? t("Recorde: {r}", { r: r.rotulo || String(r.melhor) }) : null, t("Habilidade: {h}", { h: r.habilidade })].filter(Boolean).join(" · "));
++    };
+     const cartao = (def) => {
+       const minhas = { ...Object.fromEntries((def.opcoes || []).map((o) => [o.id, o.padrao])), ...(escolhas[def.id] || {}) };
+       const linhaOpcoes = (def.opcoes || []).map((o) => el("div", { class: "mj-opcao", role: "radiogroup", "aria-label": t(o.rotulo), "data-opcao": o.id },
+@@ -728,6 +748,7 @@
+         el("div", { class: "mj-jogo-info" },
+           el("h2", {}, t(def.nome)),
+           el("p", { class: "fraco" }, t(def.descricao)),
++          resumoRecordes(def.id),
+           ...linhaOpcoes,
+           el("button", { type: "button", class: "lnux-botao primario mj-jogar", "data-jogar": def.id, onclick: () => abrir(def.id, { ...minhas }, { captura }).catch(LNUX.erro) }, t("Jogar"))));
+       artigo.style.setProperty("--mj-cor", def.cor || "#2f7bff"); // a cor da capa de cada jogo
+diff --git a/apps/companhia/js/textos.js b/apps/companhia/js/textos.js
+index bc5e17b..37859ef 100644
+--- a/apps/companhia/js/textos.js
++++ b/apps/companhia/js/textos.js
+@@ -992,6 +992,14 @@
+     "Adversário": ["Opponent", "対戦相手"], "Fácil": ["Easy", "やさしい"], "Difícil": ["Hard", "むずかしい"], "Round {n}": ["Round {n}", "ラウンド{n}"],
+     "Ele esquivou": ["He dodged", "よけられた"], "Fôlego": ["Stamina", "スタミナ"], "Sem fôlego! Respire um pouco": ["Out of breath! Take a moment", "息切れ！ひと息ついて"], "Contra-ataque!": ["Counterpunch!", "カウンター！"], "Esquivou!": ["Dodged!", "よけた！"],
+     "Você caiu! Aperte (ou soque) várias vezes para levantar": ["You're down! Press (or punch) repeatedly to get up", "ダウン！何度も押して（またはパンチして）立ち上がろう"], "Knockdown!": ["Knockdown!", "ダウン！"],
++    "Novo recorde: {r}": ["New record: {r}", "新記録：{r}"], "Habilidade: {h} ({d})": ["Skill: {h} ({d})", "スキル：{h}（{d}）"],
++    "Habilidade: {h}": ["Skill: {h}", "スキル：{h}"], "Ainda sem partidas": ["No games yet", "まだプレイしていません"],
++    "Partidas: {n}": ["Games: {n}", "試合：{n}"], "Vitórias: {n}": ["Wins: {n}", "勝利：{n}"], "Recorde: {r}": ["Record: {r}", "記録：{r}"],
++    "Split {p}! {n} pinos": ["Split {p}! {n} pins", "スプリット {p}！{n}本"], "Splits: {n}": ["Splits: {n}", "スプリット：{n}"],
++    "{d} em {b} buracos": ["{d} over {b} holes", "{b}ホールで {d}"], "troca de {n} bolas": ["{n}-shot rally", "{n}回のラリー"],
++    "Queimada dupla!": ["Double play!", "ダブルプレー！"], "Voo de sacrifício: +1 corrida": ["Sacrifice fly: +1 run", "犠牲フライ：+1点"],
++    "Queimadas duplas: {n}": ["Double plays: {n}", "ダブルプレー：{n}"], "{n} corridas": ["{n} runs", "{n}点"],
++    "Pela habilidade": ["By your skill", "スキルに合わせる"], "{n} socos certos": ["{n} punches landed", "{n}発命中"],
+     "Socos: {n} · acertos: {a}": ["Punches: {n} · landed: {a}", "パンチ：{n} · ヒット：{a}"], "Defesas: {d} · esquivas: {e}": ["Blocks: {d} · dodges: {e}", "ガード：{d} · かわした：{e}"], "Knockdowns: você {a} × {b} CPU": ["Knockdowns: you {a} × {b} CPU", "ダウン奪取：あなた {a} × {b} CPU"],
+     "Ele levantou!": ["He's back up!", "立ち上がった！"], "Nocaute! Você venceu!": ["Knockout! You win!", "ノックアウト！あなたの勝ち！"], "3 knockdowns (nocaute técnico)": ["3 knockdowns (technical knockout)", "3ダウン（TKO）"], "Ele não levantou": ["He didn't get up", "立ち上がれなかった"],
+     "De pé! Continue": ["On your feet! Keep going", "立ち上がった！続けよう"], "Nocaute… o CPU venceu": ["Knockout… the CPU wins", "ノックアウト…CPUの勝ち"], "Você não levantou a tempo": ["You didn't get up in time", "時間内に立ち上がれなかった"],
+diff --git a/tests/navegador/testar_companhia_minijogos.js b/tests/navegador/testar_companhia_minijogos.js
+index 0fe6d60..a13b6c0 100644
+--- a/tests/navegador/testar_companhia_minijogos.js
++++ b/tests/navegador/testar_companhia_minijogos.js
+@@ -100,6 +100,29 @@ const ok = (c, m) => { if (c) { passos++; console.log("  ✔ " + m); } else { er
+     ok(["dupla", "eliminado", "falta", "homerun", "simples", "tripla"].every((x) => contas.tipos.includes(x)), `beisebol: as rebatidas dão falta, eliminado, simples, dupla, tripla e home run (${contas.tipos})`);
+     ok(contas.mesmo && contas.tee === "tee" && contas.green === "green" && contas.par3 === 3, "golfe: o mesmo percurso para a mesma semente; o tee e o green no lugar certo");
+ 
++    // ── o núcleo (js/esportes-nucleo.js, readaptado do Linux Sports) ──
++    const nucleo = await ev(() => {
++      const N = C.esportesNucleo, m = (l) => l.reduce((a, p) => a | (1 << (p - 1)), 0);
++      const carry = (v, loft, giro) => { const a = (loft * Math.PI) / 180, e = N.eixoBackspin({ x: 0, z: 1 }); return N.preverQueda({ x: 0, y: 0, z: 0 }, { x: 0, y: Math.sin(a) * v, z: Math.cos(a) * v }, { x: e.x * giro, y: 0, z: e.z * giro }, null, N.BOLAS.golfe).z; };
++      const v150 = N.velocidadePara(150, 24, 364, N.BOLAS.golfe);
++      const sem = (() => { const a = (24 * Math.PI) / 180; return N.preverQueda({ x: 0, y: 0, z: 0 }, { x: 0, y: Math.sin(a) * v150, z: Math.cos(a) * v150 }, null, null, N.BOLAS.golfe).z; })();
++      const curva = (() => { const a = (24 * Math.PI) / 180, e = N.eixoBackspin({ x: 0, z: -1 }); return N.preverQueda({ x: 0, y: 0, z: 0 }, { x: 0, y: Math.sin(a) * 45, z: -Math.cos(a) * 45 }, { x: e.x * 300, y: -200, z: e.z * 300 }, null, N.BOLAS.golfe).x; })();
++      const q = N.quique({ x: 0, y: -10, z: 5 }, { x: 0, y: 1, z: 0 }, null, N.BOLAS.tenis);
++      const dp = N.eliminacao({ bases: [true, false, false], fora: 0, alta: false, defesa: 1, sorteio: () => 0 });
++      const sf = N.eliminacao({ bases: [false, false, true], fora: 1, alta: true, distancia: 80 });
++      const fraco = N.perfilIA(0.1, "a"), forte = N.perfilIA(0.9, "a");
++      const auto = C.esportes.nivelPara(0.5), dificil = C.esportes.nivelPara(1);
++      return { split710: N.ehSplit(m([7, 10])), baby: N.ehSplit(m([2, 7])), vizinhos: N.ehSplit(m([4, 5])), comUm: N.ehSplit(m([1, 7, 10])), nome: N.nomeSplit(m([7, 10])),
++        acerta150: Math.abs(carry(v150, 24, 364) - 150) < 1, sustenta: sem < 150, curva, quiqueY: q.y, quiqueZ: q.z, dp: dp.tipo + dp.fora + dp.bases.join(), sf: sf.tipo + sf.corridas + sf.fora,
++        elo: [N.deltaHabilidade(0, 0.5, 1), N.deltaHabilidade(1500, 0.2, 0), N.deltaHabilidade(1000, 0.5, 0.5)], ia: forte.precisao > fraco.precisao && forte.reacao < fraco.reacao,
++        hash: N.hash("cpu") === N.hash("cpu") && N.hash("a") !== N.hash("b"), auto: Math.abs(auto.vida - 120) < 1e-6 && Math.abs(dificil.vida - 150) < 1e-6 };
++    });
++    ok(nucleo.split710 && nucleo.baby && !nucleo.vizinhos && !nucleo.comUm && nucleo.nome === "7-10", "boliche: o split (7-10 e 2-7 sim; 4-5 e com o pino 1 em pé, não)");
++    ok(nucleo.acerta150 && nucleo.sustenta && nucleo.curva > 5, `golfe: a busca da velocidade acerta 150 m, o backspin sustenta a bola e o efeito curva (${nucleo.curva.toFixed(1)} m)`);
++    ok(Math.abs(nucleo.quiqueY - 7.5) < 1e-6 && nucleo.quiqueZ > 0 && nucleo.quiqueZ < 5, "o quique devolve 75% da tênis e perde velocidade no chão");
++    ok(nucleo.dp === "dupla2false,false,false" && nucleo.sf === "sacrificio12", `beisebol: queimada dupla e voo de sacrifício (${nucleo.dp}, ${nucleo.sf})`);
++    ok(nucleo.elo[0] > 0 && nucleo.elo[1] < 0 && nucleo.elo[2] === 0 && nucleo.ia && nucleo.hash && nucleo.auto, `habilidade como no Elo (${nucleo.elo.join(", ")}), a IA mais forte é mais precisa e o boxe "pela habilidade" vai do médio ao difícil`);
++
+     // ── boliche ──
+     await abrirJogo("boliche");
+     ok((await cores()) > 6, "boliche: abre em tela cheia com a pista, os pinos e o placar dos 10 quadros");
+@@ -235,6 +258,8 @@ const ok = (c, m) => { if (c) { passos++; console.log("  ✔ " + m); } else { er
+     }
+     await pagina.waitForSelector(".mj-fim [data-acao=de-novo]", { timeout: 15000 });
+     ok(await ev(() => C.minijogos.atual.jogo.estado().round === 3 && /pontos|Empate/i.test(document.querySelector(".mj-fim h2").textContent)), "depois do 3º round, a luta vai para os pontos e mostra o resultado (Jogar de novo / Escolher outro jogo)");
++    ok(await ev(() => { const h = document.querySelector(".mj-fim .mj-habilidade"), r = C.esportesNucleo.recordesDe("boxe"); return !!h && r.partidas >= 1 && r.melhor !== null && !!document.querySelector(".mj-fim .mj-recorde"); }),
++      "o fim da luta registra a partida, o recorde (socos certos) e a habilidade, e mostra no cartão");
+     await pagina.click(".mj-fim [data-acao=de-novo]");
+     await esperar(400);
+     e = await estado();
+-- 
+2.56.0
+

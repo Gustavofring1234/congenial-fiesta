@@ -1,0 +1,40 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_33836d5ffb2dbb5b",
+ "source": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres/glf_map_fc18",
+ "brres": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres",
+ "model": "glf_map_fc18",
+ "glb": "models/assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18__glf_map_fc18.glb",
+ "textures": [
+  {
+   "name": "glf_cup1",
+   "foundIn": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres"
+  },
+  {
+   "name": "glf_enkei1",
+   "foundIn": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres"
+  },
+  {
+   "name": "glf_fairway1",
+   "foundIn": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres"
+  },
+  {
+   "name": "glf_green1.1",
+   "foundIn": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres"
+  },
+  {
+   "name": "glf_iwa1",
+   "foundIn": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres"
+  },
+  {
+   "name": "glf_rough1",
+   "foundIn": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres"
+  },
+  {
+   "name": "glf_sand01",
+   "foundIn": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres"
+  }
+ ],
+ "animations": []
+}

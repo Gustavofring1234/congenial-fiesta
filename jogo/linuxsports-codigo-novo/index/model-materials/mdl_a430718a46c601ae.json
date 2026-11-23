@@ -1,0 +1,65 @@
+{
+ "assetId": "mdl_a430718a46c601ae",
+ "model": "spare",
+ "materials": [
+  {
+   "name": "mt_main0",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bwg_spare_ENG",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0",
+    "polygon2",
+    "polygon4",
+    "polygon6",
+    "polygon8"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_main1",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bwg_spare_ENG",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1",
+    "polygon3",
+    "polygon5",
+    "polygon7",
+    "polygon9"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "bwg_spare_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bwg_spare_model.brres",
+   "materials": [
+    "mt_main0",
+    "mt_main1"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "bwg_spare_JPN",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bwg_spare_model.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ]
+}

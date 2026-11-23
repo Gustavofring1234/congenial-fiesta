@@ -1,0 +1,75 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_1793e8dd9749edfe",
+ "source": "src/core/shared/SportsStatic/common/common.carc/G3D/sun.brres/sun_model",
+ "brres": "src/core/shared/SportsStatic/common/common.carc/G3D/sun.brres",
+ "model": "sun_model",
+ "glb": "models/src/core/shared/SportsStatic/common/G3D/sun__sun_model.glb",
+ "textures": [
+  {
+   "name": "P_sun_core1d",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/sun.brres",
+   "materials": [
+    "_mat1"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "P_sun_spreadline5_2",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/sun.brres",
+   "materials": [
+    "_mat24"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [
+  {
+   "type": "SRT0",
+   "name": "sun_model"
+  }
+ ],
+ "materials": [
+  {
+   "name": "_mat1",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "P_sun_core1d",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "Polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "_mat24",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "P_sun_spreadline5_2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "P_sun_spreadline5_2",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "Polygon1"
+   ],
+   "inGlb": true
+  }
+ ]
+}

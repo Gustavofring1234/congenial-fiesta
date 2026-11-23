@@ -1,0 +1,73 @@
+{
+ "id": "cpu_mii_030",
+ "source": "raw/src/core/shared/SportsStatic/common/CPUMii/cpu_mii_030.rcd",
+ "raw": "wAowojDTMKMw/AAAAAAAAAAAAAAAAEBAIAAAAAAAAAAExQ2IAY8monSthmRjQLCNAIoAiiUEAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "info": {
+  "name": "アビィー",
+  "creator": "",
+  "sex": 1,
+  "birthMonth": 0,
+  "birthDay": 0,
+  "favoriteColor": 5,
+  "favorite": 0,
+  "height": 64,
+  "build": 64,
+  "createId": "2000000000000000",
+  "faceline": {
+   "type": 0,
+   "color": 1,
+   "texture": 3
+  },
+  "hair": {
+   "type": 6,
+   "color": 6,
+   "flip": 0
+  },
+  "eye": {
+   "type": 29,
+   "color": 4,
+   "scale": 3,
+   "rotate": 5,
+   "x": 3,
+   "y": 13
+  },
+  "eyebrow": {
+   "type": 0,
+   "color": 1,
+   "scale": 3,
+   "rotate": 6,
+   "x": 2,
+   "y": 10
+  },
+  "nose": {
+   "type": 6,
+   "scale": 3,
+   "y": 8
+  },
+  "mouth": {
+   "type": 22,
+   "color": 0,
+   "scale": 4,
+   "y": 13
+  },
+  "beard": {
+   "mustache": 0,
+   "type": 0,
+   "color": 0,
+   "scale": 4,
+   "y": 10
+  },
+  "glass": {
+   "type": 0,
+   "color": 0,
+   "scale": 4,
+   "y": 10
+  },
+  "mole": {
+   "type": 0,
+   "scale": 4,
+   "x": 2,
+   "y": 20
+  }
+ }
+}

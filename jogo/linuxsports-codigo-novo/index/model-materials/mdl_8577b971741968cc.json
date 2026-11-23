@@ -1,0 +1,109 @@
+{
+ "assetId": "mdl_8577b971741968cc",
+ "model": "final_round",
+ "materials": [
+  {
+   "name": "mt_back",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "round_back",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_frame",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "round_frame",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_main",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "round_mask",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "final_round_ENG",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon2"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "final_round_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model.brres",
+   "materials": [
+    "mt_main"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "round1_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "round2_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "round_back",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model.brres",
+   "materials": [
+    "mt_back"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "round_frame",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model.brres",
+   "materials": [
+    "mt_frame"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "round_mask",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model.brres",
+   "materials": [
+    "mt_main"
+   ],
+   "layer0": true
+  }
+ ]
+}

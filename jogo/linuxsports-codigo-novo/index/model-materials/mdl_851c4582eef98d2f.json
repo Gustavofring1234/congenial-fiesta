@@ -1,0 +1,53 @@
+{
+ "assetId": "mdl_851c4582eef98d2f",
+ "model": "bwg_gate_frame_L",
+ "materials": [
+  {
+   "name": "gate_mat",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "gate",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "env_test",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "env_test",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_gate.brres",
+   "materials": [
+    "gate_mat"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "gate",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_gate.brres",
+   "materials": [
+    "gate_mat"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "shadow_b",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_gate.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "format": "nw4r-scene",
+ "version": 1,
+ "assetId": "scn_b98ba000512b8d0f",
+ "source": "assets/maps/golf/glf_course_survey.carc",
+ "sport": "golf",
+ "models": [
+  {
+   "name": "G3D/glf_course_survey.brres/glf_course_survey",
+   "ref": "mdl_3fb23d6ce2fce0c3"
+  },
+  {
+   "name": "G3D/glf_map_survey.brres/glf_map_survey",
+   "ref": "mdl_6464326441c02bbb"
+  }
+ ],
+ "collision": [
+  {
+   "name": "glf_course_survey.kcl",
+   "ref": "col_9322489abe7a50c0"
+  }
+ ],
+ "objects": [
+  {
+   "typeId": 1,
+   "variant": 0,
+   "model": null,
+   "position": [
+    0.0023529999889433384,
+    0,
+    -4500
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ],
+   "axes": {
+    "z": [
+     0,
+     0,
+     1
+    ],
+    "y": [
+     0,
+     1,
+     0
+    ],
+    "x": [
+     1,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "typeId": 0,
+   "variant": 0,
+   "model": null,
+   "position": [
+    0,
+    0,
+    0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ],
+   "axes": {
+    "z": [
+     1.2246063538223773e-16,
+     0,
+     -1
+    ],
+    "y": [
+     0,
+     1,
+     0
+    ],
+    "x": [
+     -1,
+     0,
+     -1.2246063538223773e-16
+    ]
+   }
+  }
+ ],
+ "data": [
+  {
+   "role": "pmp",
+   "name": "glf_course_survey.pmp",
+   "ref": "bin_33e5cd287a033574"
+  }
+ ]
+}

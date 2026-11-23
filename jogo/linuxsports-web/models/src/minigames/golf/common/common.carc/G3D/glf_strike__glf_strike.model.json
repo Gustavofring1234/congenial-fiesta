@@ -1,0 +1,24 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_d21e0914b8236a12",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_strike.brres/glf_strike",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_strike.brres",
+ "model": "glf_strike",
+ "glb": "models/src/minigames/golf/common/common.carc/G3D/glf_strike__glf_strike.glb",
+ "textures": [
+  {
+   "name": "glfS_strike01",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_strike.brres"
+  },
+  {
+   "name": "glfS_strike02",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_strike.brres"
+  },
+  {
+   "name": "glfS_strike03",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_strike.brres"
+  }
+ ],
+ "animations": []
+}

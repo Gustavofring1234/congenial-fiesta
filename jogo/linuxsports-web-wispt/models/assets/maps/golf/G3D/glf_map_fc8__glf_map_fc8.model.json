@@ -1,0 +1,273 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_54996e2171225b60",
+ "source": "assets/maps/golf/glf_course_fc8.carc/G3D/glf_map_fc8.brres/glf_map_fc8",
+ "brres": "assets/maps/golf/glf_course_fc8.carc/G3D/glf_map_fc8.brres",
+ "model": "glf_map_fc8",
+ "glb": "models/assets/maps/golf/G3D/glf_map_fc8__glf_map_fc8.glb",
+ "textures": [
+  {
+   "name": "glfM_MapBunker1",
+   "foundIn": "assets/maps/golf/glf_course_fc8.carc/G3D/glf_map_fc8.brres",
+   "materials": [
+    "M_Bunker"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfM_MapColor1",
+   "foundIn": "assets/maps/golf/glf_course_fc8.carc/G3D/glf_map_fc8.brres",
+   "materials": [
+    "M_Color"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfM_MapFairway1",
+   "foundIn": "assets/maps/golf/glf_course_fc8.carc/G3D/glf_map_fc8.brres",
+   "materials": [
+    "M_Fairway"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfM_MapGreen1",
+   "foundIn": "assets/maps/golf/glf_course_fc8.carc/G3D/glf_map_fc8.brres",
+   "materials": [
+    "M_Green"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfM_MapIwa1",
+   "foundIn": "assets/maps/golf/glf_course_fc8.carc/G3D/glf_map_fc8.brres",
+   "materials": [
+    "M_Iwa"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfM_MapLake1",
+   "foundIn": "assets/maps/golf/glf_course_fc8.carc/G3D/glf_map_fc8.brres",
+   "materials": [
+    "M_Sea"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfM_MapLine1",
+   "foundIn": "assets/maps/golf/glf_course_fc8.carc/G3D/glf_map_fc8.brres",
+   "materials": [
+    "M_Fairway"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "glfM_MapOB2_Mip2",
+   "foundIn": "assets/maps/golf/glf_course_fc8.carc/G3D/glf_map_fc8.brres",
+   "materials": [
+    "M_OB"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfM_MapRough1",
+   "foundIn": "assets/maps/golf/glf_course_fc8.carc/G3D/glf_map_fc8.brres",
+   "materials": [
+    "M_Rough"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfM_map_tree1",
+   "foundIn": "assets/maps/golf/glf_course_fc8.carc/G3D/glf_map_fc8.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glfM_map_tree2",
+   "foundIn": "assets/maps/golf/glf_course_fc8.carc/G3D/glf_map_fc8.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_tokosenFix",
+   "foundIn": "assets/maps/golf/glf_course_fc8.carc/G3D/glf_map_fc8.brres",
+   "materials": [
+    "M_Green"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "glf_water_ind1",
+   "foundIn": "assets/maps/golf/glf_course_fc8.carc/G3D/glf_map_fc8.brres",
+   "materials": [
+    "M_Sea"
+   ],
+   "layer0": false
+  }
+ ],
+ "animations": [
+  {
+   "type": "SRT0",
+   "name": "glf_map_fc8"
+  }
+ ],
+ "materials": [
+  {
+   "name": "M_Bunker",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfM_MapBunker1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Color",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfM_MapColor1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Fairway",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfM_MapFairway1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glfM_MapLine1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Green",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfM_MapGreen1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_tokosenFix",
+     "palette": "glf_tokosenFix",
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon3"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Iwa",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfM_MapIwa1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon5"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_OB",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfM_MapOB2_Mip2",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon4"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Rough",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfM_MapRough1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon6"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_Sea",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfM_MapLake1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_water_ind1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon7"
+   ],
+   "inGlb": true
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "format": "nw4r-collision-index",
+ "version": 1,
+ "entries": [
+  {
+   "glb": "Collision/assets/maps/baseball/bbl_Field_a.glb",
+   "assetId": "col_3ccb6ed07ef60fb4"
+  },
+  {
+   "glb": "Collision/assets/maps/golf/glf_course_E3.glb",
+   "assetId": "col_b04e9d4e9a627028"
+  },
+  {
+   "glb": "Collision/assets/maps/golf/glf_course_angle.glb",
+   "assetId": "col_0c46c5b734b9f274"
+  },
+  {
+   "glb": "Collision/assets/maps/golf/glf_course_fc1.glb",
+   "assetId": "col_9c5f3660f98ae1c8"
+  },
+  {
+   "glb": "Collision/assets/maps/golf/glf_course_fc11.glb",
+   "assetId": "col_f312e1e08d004f66"
+  },
+  {
+   "glb": "Collision/assets/maps/golf/glf_course_fc12.glb",
+   "assetId": "col_0ddde72b258750c8"
+  },
+  {
+   "glb": "Collision/assets/maps/golf/glf_course_fc13.glb",
+   "assetId": "col_734c03d5cebfeece"
+  },
+  {
+   "glb": "Collision/assets/maps/golf/glf_course_fc14.glb",
+   "assetId": "col_57041589b07ff364"
+  },
+  {
+   "glb": "Collision/assets/maps/golf/glf_course_fc16.glb",
+   "assetId": "col_f97d8f700d9adef0"
+  },
+  {
+   "glb": "Collision/assets/maps/golf/glf_course_fc18.glb",
+   "assetId": "col_a4b4569dc8d385e4"
+  },
+  {
+   "glb": "Collision/assets/maps/golf/glf_course_fc3.glb",
+   "assetId": "col_b660c9c1e3598c80"
+  },
+  {
+   "glb": "Collision/assets/maps/golf/glf_course_fc5.glb",
+   "assetId": "col_51fe1fdc1d271480"
+  },
+  {
+   "glb": "Collision/assets/maps/golf/glf_course_fc8.glb",
+   "assetId": "col_195323ba3cedf238"
+  },
+  {
+   "glb": "Collision/assets/maps/golf/glf_course_fc9.glb",
+   "assetId": "col_fe199daebf77e948"
+  },
+  {
+   "glb": "Collision/assets/maps/golf/glf_course_survey.glb",
+   "assetId": "col_9322489abe7a50c0"
+  },
+  {
+   "glb": "Collision/assets/maps/tennis/tns_Field_a.glb",
+   "assetId": "col_2d4b91c4a24f3049"
+  },
+  {
+   "glb": "Collision/assets/maps/tennis/tns_Field_b.glb",
+   "assetId": "col_0fb54bf7fd70673b"
+  },
+  {
+   "glb": "Collision/src/minigames/bowling/common/bwg_field_91_col.glb",
+   "assetId": "col_c5d0632ac48a34c4"
+  },
+  {
+   "glb": "Collision/src/minigames/bowling/common/bwg_field_col.glb",
+   "assetId": "col_48265ddfe7ae2d97"
+  },
+  {
+   "glb": "Collision/src/minigames/bowling/common/bwg_lane_col.glb",
+   "assetId": "col_a3703c557e93f0a1"
+  },
+  {
+   "glb": "Collision/src/minigames/bowling/common/cube_col.glb",
+   "assetId": "col_eb945f36ddedcf3f"
+  }
+ ]
+}

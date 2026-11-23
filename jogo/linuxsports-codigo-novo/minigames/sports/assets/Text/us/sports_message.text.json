@@ -1,0 +1,8349 @@
+{
+ "format": "nw4r-text",
+ "version": 1,
+ "source": "raw/src/core/shared/Message/us/sports_message.bmg",
+ "language": "us",
+ "file": "sports_message",
+ "encoding": "utf-16-be",
+ "messages": [
+  {
+   "index": 0,
+   "id": 0,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1,
+   "id": 256,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 2,
+   "id": 255744,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 3,
+   "id": 256000,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 4,
+   "id": 284160,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 5,
+   "id": 332800,
+   "text": "Returning Balls",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 6,
+   "id": 333056,
+   "text": "Return the ball inside\nthe court. Just relax\nand focus on hitting\nthe ball.",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 7,
+   "id": 335360,
+   "text": "Timing Your Swing",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 8,
+   "id": 335616,
+   "text": "Return the ball into\nthe orange bar. Watch\nyour timing, and aim\neach shot carefully.",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 9,
+   "id": 337920,
+   "text": "Target Practice",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 10,
+   "id": 338176,
+   "text": "Volley the ball off\nthe wall and hit the\ntargets. Controlling\nyour swing speed and\nstrength is essential\nin aiming your shots.",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 11,
+   "id": 512000,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 12,
+   "id": 537600,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 13,
+   "id": 537856,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 14,
+   "id": 537857,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 15,
+   "id": 537858,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 16,
+   "id": 537859,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 17,
+   "id": 538112,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 18,
+   "id": 588800,
+   "text": "Hitting Home Runs",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 19,
+   "id": 589056,
+   "text": "Watch the ball, and\ntry to hit it out of\nthe park. Timing is\neverything!",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 20,
+   "id": 591360,
+   "text": "Swing Control",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 21,
+   "id": 591616,
+   "text": "Hit into the target\nzones on the field.\nMaster this, and you'll\nbe a pro in no time!",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 22,
+   "id": 593920,
+   "text": "Batting Practice",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 23,
+   "id": 594176,
+   "text": "The pitcher will keep\nthrowing those balls,\nso focus on making\nfast, compact swings!",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 24,
+   "id": 768000,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 25,
+   "id": 768256,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 26,
+   "id": 768512,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 27,
+   "id": 768513,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 28,
+   "id": 768768,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 29,
+   "id": 793600,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 30,
+   "id": 793856,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 31,
+   "id": 819200,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 32,
+   "id": 819456,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 33,
+   "id": 844800,
+   "text": "Putting",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 34,
+   "id": 845056,
+   "text": "Drop it in the cup with\na single putt. Check\nthe lay of the green\nby pressing .",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 35,
+   "id": 847360,
+   "text": "Hitting the Green",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 36,
+   "id": 847616,
+   "text": "Land the ball as close\nto the pin as possible.\nPractice your stroke\nto check the power of\nyour swing. Hold \nto approach the ball.",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 37,
+   "id": 849920,
+   "text": "Target Practice",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 38,
+   "id": 850176,
+   "text": "Hit the target with\nthe ball. Before you\ntake your swing, be\nsure to read the\nwind direction.",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 39,
+   "id": 1024000,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 40,
+   "id": 1024256,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 41,
+   "id": 1049600,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 42,
+   "id": 1049856,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 43,
+   "id": 1280000,
+   "text": "Boxing",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 44,
+   "id": 1356800,
+   "text": "Throwing Punches",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 45,
+   "id": 1357056,
+   "text": "Watch your trainer's\nmitts, and try to hit\nthem. You lose points\nif you hit your trainer.",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 46,
+   "id": 1359360,
+   "text": "Dodging",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 47,
+   "id": 1359616,
+   "text": "Your trainer throws\nball after ball at you.\nMove left and right\nto avoid getting hit.",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 48,
+   "id": 1361920,
+   "text": "Working the Bag",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 49,
+   "id": 1362176,
+   "text": "Throw punches at\nthe punching bags\nuntil you knock them\noff their chains.\nWell-aimed combo\npunches are key.",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 50,
+   "id": 1536000,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 51,
+   "id": 1612800,
+   "text": "Picking Up Spares",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 52,
+   "id": 1613056,
+   "text": "Knock down the pins\nwith a single throw.\nTwist your wrist to\ncurve the ball.",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 53,
+   "id": 1615360,
+   "text": "Spin Control",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 54,
+   "id": 1615616,
+   "text": "Avoid the barriers in\nthe lane and knock\ndown the pin. You'll\nhave to balance speed\nand spin.",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 55,
+   "id": 1617920,
+   "text": "Power Throws",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 56,
+   "id": 1618176,
+   "text": "Knock down as many\npins as you can. A\nnew row will be added\nafter each set. Strikes\ndouble your score!",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 57,
+   "id": 1792000,
+   "text": "Today's fitness test uses\nthe Nunchuk. Are you able to use\nthe Nunchuk?",
+   "controls": [
+    {
+     "group": 2,
+     "type": 1,
+     "params": "0000",
+     "at": 71
+    }
+   ],
+   "attrs": "000003e700640000"
+  },
+  {
+   "index": 58,
+   "id": 1792256,
+   "text": "Quit the Wii Fitness test?\n\nIf you quit, you can't do another\nWii Fitness test until tomorrow.",
+   "controls": [
+    {
+     "group": 2,
+     "type": 1,
+     "params": "0100",
+     "at": 94
+    },
+    {
+     "group": 2,
+     "type": 2,
+     "params": "0100",
+     "at": 94
+    }
+   ],
+   "attrs": "000003e700640000"
+  },
+  {
+   "index": 59,
+   "id": 1792512,
+   "text": "Quitting today's fitness test.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 60,
+   "id": 1792768,
+   "text": "",
+   "attrs": "0000000200640000"
+  },
+  {
+   "index": 61,
+   "id": 1793024,
+   "text": "",
+   "attrs": "0000000100640000"
+  },
+  {
+   "index": 62,
+   "id": 1793280,
+   "text": "",
+   "attrs": "000003e700640000"
+  },
+  {
+   "index": 63,
+   "id": 1793536,
+   "text": "Selecting events that do\nnot use the Nunchuk.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 64,
+   "id": 1794560,
+   "text": "You can take only one Wii Fitness\ntest each day. You've already\ntaken the test today, so please\ntry again tomorrow.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 65,
+   "id": 1797120,
+   "text": "",
+   "attrs": "000003e700640000"
+  },
+  {
+   "index": 66,
+   "id": 1799680,
+   "text": "Wii Fitness\n\nTest your speed, stamina, and\nstrength to determine your Wii\nFitness Age. Train every day to\nlower your Wii Fitness Age.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 67,
+   "id": 2048000,
+   "text": "{0}\ndebuted in Wii Sports on\n{1} at {2}.",
+   "args": [
+    "name",
+    "value",
+    "value"
+   ],
+   "attrs": "0000000100640000"
+  },
+  {
+   "index": 68,
+   "id": 2050560,
+   "text": "You're a tennis pro!",
+   "attrs": "0000000200640000"
+  },
+  {
+   "index": 69,
+   "id": 2050816,
+   "text": "You're a baseball pro!",
+   "attrs": "0000000100640000"
+  },
+  {
+   "index": 70,
+   "id": 2051072,
+   "text": "You're a pro bowler!",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 71,
+   "id": 2051328,
+   "text": "You're a pro golfer!",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 72,
+   "id": 2051584,
+   "text": "You're a pro boxer!",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 73,
+   "id": 2053120,
+   "text": "You've lost your\ntennis pro status!",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 74,
+   "id": 2053376,
+   "text": "You've lost your\nbaseball pro status!",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 75,
+   "id": 2053632,
+   "text": "You've lost your\nbowling pro status!",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 76,
+   "id": 2053888,
+   "text": "You've lost your\ngolf pro status!",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 77,
+   "id": 2054144,
+   "text": "You've lost your\nboxing pro status!",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 78,
+   "id": 2055680,
+   "text": "New personal best!\nGolf: Stroke play",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 79,
+   "id": 2055681,
+   "text": "Score: {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 80,
+   "id": 2055682,
+   "text": "{0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 81,
+   "id": 2055936,
+   "text": "New personal best!\nBowling: Score play",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 82,
+   "id": 2055937,
+   "text": "Score: {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 83,
+   "id": 2055938,
+   "text": "{0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 84,
+   "id": 2058240,
+   "text": "New personal best!\n{0}: {1}",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 85,
+   "id": 2058241,
+   "text": "Score: {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 86,
+   "id": 2058242,
+   "text": "{0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 87,
+   "id": 2058243,
+   "text": "{0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 88,
+   "id": 2058496,
+   "text": "Home runs: {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 89,
+   "id": 2058497,
+   "text": "{0} homer",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 90,
+   "id": 2058498,
+   "text": "Total distance: {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 91,
+   "id": 2058499,
+   "text": "{0} foot",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 92,
+   "id": 2058500,
+   "text": "{0} feet",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 93,
+   "id": 2058501,
+   "text": "{0} homers",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 94,
+   "id": 2058752,
+   "text": "Hits: {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 95,
+   "id": 2058753,
+   "text": "{0} hit",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 96,
+   "id": 2058754,
+   "text": "{0} hits",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 97,
+   "id": 2059008,
+   "text": "Successful hits: {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 98,
+   "id": 2059009,
+   "text": "{0} hit",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 99,
+   "id": 2059010,
+   "text": "{0} hits",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 100,
+   "id": 2059264,
+   "text": "Pins knocked down: {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 101,
+   "id": 2059265,
+   "text": "{0} pin",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 102,
+   "id": 2059266,
+   "text": "{0} pins",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 103,
+   "id": 2059520,
+   "text": "Cup-in: {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 104,
+   "id": 2059521,
+   "text": "{0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 105,
+   "id": 2059522,
+   "text": "{0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 106,
+   "id": 2059776,
+   "text": "Total remaining: {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 107,
+   "id": 2059777,
+   "text": "{0} yard",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 108,
+   "id": 2059778,
+   "text": "{0} yards",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 109,
+   "id": 2060800,
+   "text": "You got a {0} medal in\n{1}: {2}!",
+   "args": [
+    "value",
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 110,
+   "id": 2063360,
+   "text": "Wii Fitness Results",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 111,
+   "id": 2063361,
+   "text": "{0} years old!\nYou've taken off {1} year!",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 112,
+   "id": 2063362,
+   "text": "{0} years old!\nYou've taken off {1} years!",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 113,
+   "id": 2065920,
+   "text": "Impressive! You hit a hole\nin one on hole {0} in a\nnine-hole game of golf!",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 114,
+   "id": 2065921,
+   "text": "Impressive! You hit a hole\nin one on hole {0} in a\nthree-hole game of golf!",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 115,
+   "id": 2073600,
+   "text": "Wii Sports Debut",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 116,
+   "id": 2076160,
+   "text": "Pro Status Earned",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 117,
+   "id": 2076416,
+   "text": "Pro Status Lost",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 118,
+   "id": 2076672,
+   "text": "New Personal Best Set",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 119,
+   "id": 2076928,
+   "text": "A New Champion!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 120,
+   "id": 2077204,
+   "text": "Impressive!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 121,
+   "id": 2077214,
+   "text": "Impressive!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 122,
+   "id": 2078720,
+   "text": "New Personal Best Set",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 123,
+   "id": 2078976,
+   "text": "Platinum Medal Earned!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 124,
+   "id": 2078977,
+   "text": "Gold Medal Earned!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 125,
+   "id": 2078978,
+   "text": "Silver Medal Earned!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 126,
+   "id": 2078979,
+   "text": "Bronzed Medal Earned!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 127,
+   "id": 2079232,
+   "text": "All Gold Medals Earned!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 128,
+   "id": 2079488,
+   "text": "All Platinum Medals Earned!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 129,
+   "id": 2081280,
+   "text": "Wii Fitness Results",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 130,
+   "id": 2099200,
+   "text": "Wii Sports Debut",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 131,
+   "id": 2101760,
+   "text": "Tennis Pro Status Reached!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 132,
+   "id": 2101770,
+   "text": "Baseball Pro Status Reached!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 133,
+   "id": 2101780,
+   "text": "Bowling Pro Status Reached!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 134,
+   "id": 2101790,
+   "text": "Golf Pro Status Reached!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 135,
+   "id": 2101800,
+   "text": "Boxing Pro Status Reached!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 136,
+   "id": 2102016,
+   "text": "Tennis Pro Status Lost!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 137,
+   "id": 2102026,
+   "text": "Baseball Pro Status Lost!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 138,
+   "id": 2102036,
+   "text": "Bowling Pro Status Lost!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 139,
+   "id": 2102046,
+   "text": "Golf Pro Status Lost!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 140,
+   "id": 2102056,
+   "text": "Boxing Pro Status Lost!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 141,
+   "id": 2102292,
+   "text": "Bowling\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 142,
+   "id": 2102302,
+   "text": "Golf\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 143,
+   "id": 2102528,
+   "text": "Tennis\n   Beat the tennis champ!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 144,
+   "id": 2102538,
+   "text": "Baseball\n   Beat the baseball champ!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 145,
+   "id": 2102568,
+   "text": "Boxing\n   Beat the boxing champ!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 146,
+   "id": 2104320,
+   "text": "Tennis: Target Practice\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 147,
+   "id": 2104321,
+   "text": "Tennis: Timing Your Swing\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 148,
+   "id": 2104322,
+   "text": "Tennis: Returning Balls\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 149,
+   "id": 2104330,
+   "text": "Baseball: Hitting Home Runs\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 150,
+   "id": 2104331,
+   "text": "Baseball: Swing Control\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 151,
+   "id": 2104332,
+   "text": "Baseball: Batting Practice\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 152,
+   "id": 2104340,
+   "text": "Bowling: Picking Up Spares\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 153,
+   "id": 2104341,
+   "text": "Bowling: Power Throws\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 154,
+   "id": 2104342,
+   "text": "Bowling: Spin Control\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 155,
+   "id": 2104350,
+   "text": "Golf: Putting\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 156,
+   "id": 2104351,
+   "text": "Golf: Hitting the Green\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 157,
+   "id": 2104352,
+   "text": "Golf: Target Practice\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 158,
+   "id": 2104360,
+   "text": "Boxing: Working the Bag\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 159,
+   "id": 2104361,
+   "text": "Boxing: Dodging\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 160,
+   "id": 2104362,
+   "text": "Boxing: Throwing Punches\n   New Personal Best!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 161,
+   "id": 2104576,
+   "text": "Tennis: Target Practice\n   Earned a platinum medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 162,
+   "id": 2104577,
+   "text": "Tennis: Target Practice\n   Earned a gold medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 163,
+   "id": 2104578,
+   "text": "Tennis: Target Practice\n   Earned a silver medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 164,
+   "id": 2104579,
+   "text": "Tennis: Target Practice\n   Earned a bronze medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 165,
+   "id": 2104580,
+   "text": "Tennis: Timing Your Swing\n   Earned a platinum medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 166,
+   "id": 2104581,
+   "text": "Tennis: Timing Your Swing\n   Earned a gold medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 167,
+   "id": 2104582,
+   "text": "Tennis: Timing Your Swing\n   Earned a silver medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 168,
+   "id": 2104583,
+   "text": "Tennis: Timing Your Swing\n   Earned a bronze medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 169,
+   "id": 2104584,
+   "text": "Tennis: Returning Balls\n   Earned a platinum medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 170,
+   "id": 2104585,
+   "text": "Tennis: Returning Balls\n   Earned a gold medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 171,
+   "id": 2104586,
+   "text": "Tennis: Returning Balls\n   Earned a silver medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 172,
+   "id": 2104587,
+   "text": "Tennis: Returning Balls\n   Earned a bronze medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 173,
+   "id": 2104596,
+   "text": "Baseball: Hitting Home Runs\n   Earned a platinum medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 174,
+   "id": 2104597,
+   "text": "Baseball: Hitting Home Runs\n   Earned a gold medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 175,
+   "id": 2104598,
+   "text": "Baseball: Hitting Home Runs\n   Earned a silver medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 176,
+   "id": 2104599,
+   "text": "Baseball: Hitting Home Runs\n   Earned a bronze medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 177,
+   "id": 2104600,
+   "text": "Baseball: Swing Control\n   Earned a platinum medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 178,
+   "id": 2104601,
+   "text": "Baseball: Swing Control\n   Earned a gold medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 179,
+   "id": 2104602,
+   "text": "Baseball: Swing Control\n   Earned a silver medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 180,
+   "id": 2104603,
+   "text": "Baseball: Swing Control\n   Earned a bronze medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 181,
+   "id": 2104604,
+   "text": "Baseball: Batting Practice\n   Earned a platinum medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 182,
+   "id": 2104605,
+   "text": "Baseball: Batting Practice\n   Earned a gold medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 183,
+   "id": 2104606,
+   "text": "Baseball: Batting Practice\n   Earned a silver medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 184,
+   "id": 2104607,
+   "text": "Baseball: Batting Practice\n   Earned a bronze medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 185,
+   "id": 2104616,
+   "text": "Bowling: Picking Up Spares\n   Earned a platinum medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 186,
+   "id": 2104617,
+   "text": "Bowling: Picking Up Spares\n   Earned a gold medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 187,
+   "id": 2104618,
+   "text": "Bowling: Picking Up Spares\n   Earned a silver medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 188,
+   "id": 2104619,
+   "text": "Bowling: Picking Up Spares\n   Earned a bronze medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 189,
+   "id": 2104620,
+   "text": "Bowling: Power Throws\n   Earned a platinum medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 190,
+   "id": 2104621,
+   "text": "Bowling: Power Throws\n   Earned a gold medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 191,
+   "id": 2104622,
+   "text": "Bowling: Power Throws\n   Earned a silver medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 192,
+   "id": 2104623,
+   "text": "Bowling: Power Throws\n   Earned a bronze medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 193,
+   "id": 2104624,
+   "text": "Bowling: Spin Control\n   Earned a platinum medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 194,
+   "id": 2104625,
+   "text": "Bowling: Spin Control\n   Earned a gold medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 195,
+   "id": 2104626,
+   "text": "Bowling: Spin Control\n   Earned a silver medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 196,
+   "id": 2104627,
+   "text": "Bowling: Spin Control\n   Earned a bronze medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 197,
+   "id": 2104636,
+   "text": "Golf: Putting \n   Earned a platinum medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 198,
+   "id": 2104637,
+   "text": "Golf: Putting \n   Earned a gold medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 199,
+   "id": 2104638,
+   "text": "Golf: Putting \n   Earned a silver medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 200,
+   "id": 2104639,
+   "text": "Golf: Putting \n   Earned a bronze medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 201,
+   "id": 2104640,
+   "text": "Golf: Hitting the Green\n   Earned a platinum medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 202,
+   "id": 2104641,
+   "text": "Golf: Hitting the Green\n   Earned a gold medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 203,
+   "id": 2104642,
+   "text": "Golf: Hitting the Green\n   Earned a silver medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 204,
+   "id": 2104643,
+   "text": "Golf: Hitting the Green\n   Earned a bronze medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 205,
+   "id": 2104644,
+   "text": "Golf: Target Practice\n   Earned a platinum medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 206,
+   "id": 2104645,
+   "text": "Golf: Target Practice\n   Earned a gold medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 207,
+   "id": 2104646,
+   "text": "Golf: Target Practice\n   Earned a silver medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 208,
+   "id": 2104647,
+   "text": "Golf: Target Practice\n   Earned a bronze medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 209,
+   "id": 2104656,
+   "text": "Boxing: Working the Bag\n   Earned a platinum medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 210,
+   "id": 2104657,
+   "text": "Boxing: Working the Bag\n   Earned a gold medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 211,
+   "id": 2104658,
+   "text": "Boxing: Working the Bag\n   Earned a silver medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 212,
+   "id": 2104659,
+   "text": "Boxing: Working the Bag\n   Earned a bronze medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 213,
+   "id": 2104660,
+   "text": "Boxing: Dodging\n   Earned a platinum medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 214,
+   "id": 2104661,
+   "text": "Boxing: Dodging\n   Earned a gold medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 215,
+   "id": 2104662,
+   "text": "Boxing: Dodging\n   Earned a silver medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 216,
+   "id": 2104663,
+   "text": "Boxing: Dodging\n   Earned a bronze medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 217,
+   "id": 2104664,
+   "text": "Boxing: Throwing Punches\n   Earned a platinum medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 218,
+   "id": 2104665,
+   "text": "Boxing: Throwing Punches\n   Earned a gold medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 219,
+   "id": 2104666,
+   "text": "Boxing: Throwing Punches\n   Earned a silver medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 220,
+   "id": 2104667,
+   "text": "Boxing: Throwing Punches\n   Earned a bronze medal!",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 221,
+   "id": 2124800,
+   "text": "The following player has been\nadded to the player list:\n{0}{1}\n\nIf you erase this Mii from the\nMii Channel, it will be deleted\nfrom your player list, so be\ncareful.",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 222,
+   "id": 2127360,
+   "text": "The following player has become\na tennis pro:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 223,
+   "id": 2127370,
+   "text": "The following player has become\na baseball pro:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 224,
+   "id": 2127380,
+   "text": "The following player has become\na bowling pro:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 225,
+   "id": 2127390,
+   "text": "The following player has become\na golf pro:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 226,
+   "id": 2127400,
+   "text": "The following player has become\na boxing pro:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 227,
+   "id": 2127616,
+   "text": "The following player has lost\nthe title of tennis pro:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 228,
+   "id": 2127626,
+   "text": "The following player has lost\nthe title of baseball pro:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 229,
+   "id": 2127636,
+   "text": "The following player has lost\nthe title of bowling pro:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 230,
+   "id": 2127646,
+   "text": "The following player has lost\nthe title of golf pro:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 231,
+   "id": 2127656,
+   "text": "The following player has lost\nthe title of boxing pro:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 232,
+   "id": 2127892,
+   "text": "The following player has set a\nnew personal best in bowling:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 233,
+   "id": 2127902,
+   "text": "The following player has set a\nnew personal best in three-hole\ngolf at the beginner level:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 234,
+   "id": 2127903,
+   "text": "The following player has set a\nnew personal best in three-hole\ngolf at the intermediate level:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 235,
+   "id": 2127904,
+   "text": "The following player has set a\nnew personal best in three-hole\ngolf at the expert level:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 236,
+   "id": 2127905,
+   "text": "The following player has set a\nnew personal best in nine-hole\ngolf:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 237,
+   "id": 2128128,
+   "text": "{0}{1} beat\ntennis pro {2}.",
+   "args": [
+    "name",
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 238,
+   "id": 2128138,
+   "text": "{0}{1} beat\nbaseball pro {2}.",
+   "args": [
+    "name",
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 239,
+   "id": 2128168,
+   "text": "{0}{1} beat\nboxing pro {2}.",
+   "args": [
+    "name",
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 240,
+   "id": 2128414,
+   "text": "The following player hit a hole\nin one on the first hole in golf:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 241,
+   "id": 2128415,
+   "text": "The following player hit a hole\nin one on the second hole in\ngolf:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 242,
+   "id": 2128416,
+   "text": "The following player hit a hole\nin one on the third hole in\ngolf:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 243,
+   "id": 2128417,
+   "text": "The following player hit a hole\nin one on the fourth hole in\ngolf:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 244,
+   "id": 2128418,
+   "text": "The following player hit a hole\nin one on the fifth hole in\ngolf:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 245,
+   "id": 2128419,
+   "text": "The following player hit a hole\nin one on the sixth hole in\ngolf:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 246,
+   "id": 2128420,
+   "text": "The following player hit a hole\nin one on the seventh hole in\ngolf:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 247,
+   "id": 2128421,
+   "text": "The following player hit a hole\nin one on the eighth hole in\ngolf:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 248,
+   "id": 2128422,
+   "text": "The following player hit a hole\nin one on the nine hole in golf:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 249,
+   "id": 2128434,
+   "text": "{0}{1} bowled\na perfect game.",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 250,
+   "id": 2129664,
+   "text": "Score: {0} ⇒ {1}",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 251,
+   "id": 2129920,
+   "text": "The following player has set a\nnew personal best in Tennis:\nTarget Practice:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 252,
+   "id": 2129921,
+   "text": "The following player has set a\nnew personal best in Tennis:\nTiming Your Swing:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 253,
+   "id": 2129922,
+   "text": "The following player has set a\nnew personal best in Tennis:\nReturning Balls:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 254,
+   "id": 2129930,
+   "text": "The following player has set a\nnew personal best in Baseball:\nHitting Home Runs:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 255,
+   "id": 2129931,
+   "text": "The following player has set a\nnew personal best in Baseball:\nSwing Control:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 256,
+   "id": 2129932,
+   "text": "The following player has set a\nnew personal best in Baseball:\nBatting Practice:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 257,
+   "id": 2129940,
+   "text": "The following player has set a\nnew personal best in Bowling:\nPicking Up Spares:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 258,
+   "id": 2129941,
+   "text": "The following player has set a\nnew personal best in Bowling:\nPower Throws:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 259,
+   "id": 2129942,
+   "text": "The following player has set a\nnew personal best in Bowling:\nSpin Control:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 260,
+   "id": 2129950,
+   "text": "The following player has set a\nnew personal best in Golf:\nPutting:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 261,
+   "id": 2129951,
+   "text": "The following player has set a\nnew personal best in Golf:\nHitting the Green:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 262,
+   "id": 2129952,
+   "text": "The following player has set a\nnew personal best in Golf:\nTarget Practice:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 263,
+   "id": 2129960,
+   "text": "The following player has set a\nnew personal best in Boxing:\nWorking the Bag:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 264,
+   "id": 2129961,
+   "text": "The following player has set a\nnew personal best in Boxing:\nDodging:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 265,
+   "id": 2129962,
+   "text": "The following player has set a\nnew personal best in Boxing:\nThrowing Punches:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 266,
+   "id": 2130176,
+   "text": "The following player has earned\na platinum medal in Tennis:\nTarget Practice:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 267,
+   "id": 2130177,
+   "text": "The following player has earned\na gold medal in Tennis:\nTarget Practice:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 268,
+   "id": 2130178,
+   "text": "The following player has earned\na silver medal in Tennis:\nTarget Practice:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 269,
+   "id": 2130179,
+   "text": "The following player has earned\na bronze medal in Tennis:\nTarget Practice:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 270,
+   "id": 2130180,
+   "text": "The following player has earned\na platinum medal in Tennis:\nTiming Your Swing:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 271,
+   "id": 2130181,
+   "text": "The following player has earned\na gold medal in Tennis:\nTiming Your Swing:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 272,
+   "id": 2130182,
+   "text": "The following player has earned\na silver medal in Tennis:\nTiming Your Swing:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 273,
+   "id": 2130183,
+   "text": "The following player has earned\na bronze medal in Tennis:\nTiming Your Swing:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 274,
+   "id": 2130184,
+   "text": "The following player has earned\na platinum medal in Tennis:\nReturning Balls:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 275,
+   "id": 2130185,
+   "text": "The following player has earned\na gold medal in Tennis:\nReturning Balls:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 276,
+   "id": 2130186,
+   "text": "The following player has earned\na silver medal in Tennis:\nReturning Balls:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 277,
+   "id": 2130187,
+   "text": "The following player has earned\na bronze medal in Tennis:\nReturning Balls:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 278,
+   "id": 2130196,
+   "text": "The following player has earned\na platinum medal in Baseball:\nHitting Home Runs:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 279,
+   "id": 2130197,
+   "text": "The following player has earned\na gold medal in Baseball:\nHitting Home Runs:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 280,
+   "id": 2130198,
+   "text": "The following player has earned\na silver medal in Baseball:\nHitting Home Runs:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 281,
+   "id": 2130199,
+   "text": "The following player has earned\na bronze medal in Baseball:\nHitting Home Runs:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 282,
+   "id": 2130200,
+   "text": "The following player has earned\na platinum medal in Baseball:\nSwing Control:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 283,
+   "id": 2130201,
+   "text": "The following player has earned\na gold medal in Baseball:\nSwing Control:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 284,
+   "id": 2130202,
+   "text": "The following player has earned\na silver medal in Baseball:\nSwing Control:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 285,
+   "id": 2130203,
+   "text": "The following player has earned\na bronze medal in Baseball:\nSwing Control:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 286,
+   "id": 2130204,
+   "text": "The following player has earned\na platinum medal in Baseball:\nBatting Practice:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 287,
+   "id": 2130205,
+   "text": "The following player has earned\na gold medal in Baseball:\nBatting Practice:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 288,
+   "id": 2130206,
+   "text": "The following player has earned\na silver medal in Baseball:\nBatting Practice:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 289,
+   "id": 2130207,
+   "text": "The following player has earned\na bronze medal in Baseball:\nBatting Practice:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 290,
+   "id": 2130216,
+   "text": "The following player has earned\na platinum medal in Bowling:\nPicking Up Spares:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 291,
+   "id": 2130217,
+   "text": "The following player has earned\na gold medal in Bowling:\nPicking Up Spares:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 292,
+   "id": 2130218,
+   "text": "The following player has earned\na silver medal in Bowling:\nPicking Up Spares:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 293,
+   "id": 2130219,
+   "text": "The following player has earned\na bronze medal in Bowling:\nPicking Up Spares:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 294,
+   "id": 2130220,
+   "text": "The following player has earned\na platinum medal in Bowling:\nPower Throws:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 295,
+   "id": 2130221,
+   "text": "The following player has earned\na gold medal in Bowling:\nPower Throws:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 296,
+   "id": 2130222,
+   "text": "The following player has earned\na silver medal in Bowling:\nPower Throws:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 297,
+   "id": 2130223,
+   "text": "The following player has earned\na bronze medal in Bowling:\nPower Throws:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 298,
+   "id": 2130224,
+   "text": "The following player has earned\na platinum medal in Bowling:\nSpin Control:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 299,
+   "id": 2130225,
+   "text": "The following player has earned\na gold medal in Bowling:\nSpin Control:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 300,
+   "id": 2130226,
+   "text": "The following player has earned\na silver medal in Bowling:\nSpin Control:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 301,
+   "id": 2130227,
+   "text": "The following player has earned\na bronze medal in Bowling:\nSpin Control:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 302,
+   "id": 2130236,
+   "text": "The following player has earned\na platinum medal in Golf:\nPutting:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 303,
+   "id": 2130237,
+   "text": "The following player has earned\na gold medal in Golf:\nPutting:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 304,
+   "id": 2130238,
+   "text": "The following player has earned\na silver medal in Golf:\nPutting:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 305,
+   "id": 2130239,
+   "text": "The following player has earned\na bronze medal in Golf:\nPutting:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 306,
+   "id": 2130240,
+   "text": "The following player has earned\na platinum medal in Golf:\nHitting the Green:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 307,
+   "id": 2130241,
+   "text": "The following player has earned\na gold medal in Golf:\nHitting the Green:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 308,
+   "id": 2130242,
+   "text": "The following player has earned\na silver medal in Golf:\nHitting the Green:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 309,
+   "id": 2130243,
+   "text": "The following player has earned\na bronze medal in Golf:\nHitting the Green:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 310,
+   "id": 2130244,
+   "text": "The following player has earned\na platinum medal in Golf:\nTarget Practice:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 311,
+   "id": 2130245,
+   "text": "The following player has earned\na gold medal in Golf:\nTarget Practice:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 312,
+   "id": 2130246,
+   "text": "The following player has earned\na silver medal in Golf:\nTarget Practice:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 313,
+   "id": 2130247,
+   "text": "The following player has earned\na bronze medal in Golf:\nTarget Practice:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 314,
+   "id": 2130256,
+   "text": "The following player has earned\na platinum medal in Boxing:\nWorking the Bag:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 315,
+   "id": 2130257,
+   "text": "The following player has earned\na gold medal in Boxing:\nWorking the Bag:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 316,
+   "id": 2130258,
+   "text": "The following player has earned\na silver medal in Boxing:\nWorking the Bag:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 317,
+   "id": 2130259,
+   "text": "The following player has earned\na bronze medal in Boxing:\nWorking the Bag:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 318,
+   "id": 2130260,
+   "text": "The following player has earned\na platinum medal in Boxing:\nDodging:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 319,
+   "id": 2130261,
+   "text": "The following player has earned\na gold medal in Boxing:\nDodging:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 320,
+   "id": 2130262,
+   "text": "The following player has earned\na silver medal in Boxing:\nDodging:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 321,
+   "id": 2130263,
+   "text": "The following player has earned\na bronze medal in Boxing:\nDodging:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 322,
+   "id": 2130264,
+   "text": "The following player has earned\na platinum medal in Boxing:\nThrowing Punches:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 323,
+   "id": 2130265,
+   "text": "The following player has earned\na gold medal in Boxing:\nThrowing Punches:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 324,
+   "id": 2130266,
+   "text": "The following player has earned\na silver medal in Boxing:\nThrowing Punches:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 325,
+   "id": 2130267,
+   "text": "The following player has earned\na bronze medal in Boxing:\nThrowing Punches:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 326,
+   "id": 2132224,
+   "text": "Score: {0} ⇒ {1}",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 327,
+   "id": 2132225,
+   "text": "Score:\n{0} {1} ({2} {3})\n⇒ {4} {5} ({6} {7})",
+   "args": [
+    "value",
+    "value",
+    "value",
+    "value",
+    "value",
+    "value",
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 328,
+   "id": 2132226,
+   "text": "Score: {0} ft ⇒ {1} ft",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 329,
+   "id": 2132480,
+   "text": "The following player has earned\ngold medals in all training\ngames:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 330,
+   "id": 2132736,
+   "text": "The following player has earned\nplatinum medals in all training\ngames:\n{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 331,
+   "id": 2135040,
+   "text": "Today's Wii Fitness results for\n{0}{1}:",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 332,
+   "id": 2135296,
+   "text": "　　　　　　　{0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 333,
+   "id": 2135552,
+   "text": "Wow! You've taken off {0} {1}!",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 334,
+   "id": 2135553,
+   "text": "Wow! You've taken off {0} {1}!",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 335,
+   "id": 2135554,
+   "text": "Oh, no! You've added {0} {1}!",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 336,
+   "id": 2135555,
+   "text": "Oh, no! You've added {0} {1}!",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 337,
+   "id": 2178560,
+   "text": "Tennis Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 338,
+   "id": 2178565,
+   "text": "Skill level\n       {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 339,
+   "id": 2178566,
+   "text": "Debuted on\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 340,
+   "id": 2178567,
+   "text": "Games played\n    {0} {1}",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 341,
+   "id": 2178570,
+   "text": "Baseball Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 342,
+   "id": 2178575,
+   "text": "Skill level\n       {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 343,
+   "id": 2178576,
+   "text": "Debuted on\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 344,
+   "id": 2178577,
+   "text": "Games played\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 345,
+   "id": 2178580,
+   "text": "Bowling Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 346,
+   "id": 2178585,
+   "text": "Skill level\n       {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 347,
+   "id": 2178586,
+   "text": "Debuted on\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 348,
+   "id": 2178587,
+   "text": "Games played\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 349,
+   "id": 2178590,
+   "text": "Golf Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 350,
+   "id": 2178595,
+   "text": "Skill level\n       {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 351,
+   "id": 2178596,
+   "text": "Debuted on\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 352,
+   "id": 2178597,
+   "text": "Games played\n    {0} {1}",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 353,
+   "id": 2178600,
+   "text": "Boxing Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 354,
+   "id": 2178605,
+   "text": "Skill level\n       {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 355,
+   "id": 2178606,
+   "text": "Debuted on\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 356,
+   "id": 2178607,
+   "text": "Matches fought\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 357,
+   "id": 2178816,
+   "text": "Tennis Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 358,
+   "id": 2178821,
+   "text": "Skill level\n       {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 359,
+   "id": 2178822,
+   "text": "Debuted on\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 360,
+   "id": 2178823,
+   "text": "Games played\n    {0} {1}",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 361,
+   "id": 2178826,
+   "text": "Baseball Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 362,
+   "id": 2178831,
+   "text": "Skill level\n       {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 363,
+   "id": 2178832,
+   "text": "Debuted on\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 364,
+   "id": 2178833,
+   "text": "Games played\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 365,
+   "id": 2178836,
+   "text": "Bowling Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 366,
+   "id": 2178841,
+   "text": "Skill level\n       {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 367,
+   "id": 2178842,
+   "text": "Debuted on\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 368,
+   "id": 2178843,
+   "text": "Games played\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 369,
+   "id": 2178846,
+   "text": "Golf Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 370,
+   "id": 2178851,
+   "text": "Skill level\n       {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 371,
+   "id": 2178852,
+   "text": "Debuted on\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 372,
+   "id": 2178853,
+   "text": "Games played\n    {0} {1}",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 373,
+   "id": 2178856,
+   "text": "Boxing Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 374,
+   "id": 2178861,
+   "text": "Skill level\n       {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 375,
+   "id": 2178862,
+   "text": "Debuted on\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 376,
+   "id": 2178863,
+   "text": "Matches fought\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 377,
+   "id": 2179092,
+   "text": "Bowling Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 378,
+   "id": 2179097,
+   "text": "Skill level\n       {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 379,
+   "id": 2179098,
+   "text": "Debuted on\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 380,
+   "id": 2179099,
+   "text": "Games played\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 381,
+   "id": 2179102,
+   "text": "Golf Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 382,
+   "id": 2179107,
+   "text": "Skill level\n       {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 383,
+   "id": 2179108,
+   "text": "Debuted on\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 384,
+   "id": 2179109,
+   "text": "Games played\n    {0} {1}",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 385,
+   "id": 2179328,
+   "text": "Tennis Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 386,
+   "id": 2179333,
+   "text": "Skill level\n       {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 387,
+   "id": 2179334,
+   "text": "Debuted on\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 388,
+   "id": 2179335,
+   "text": "Matches played\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 389,
+   "id": 2179338,
+   "text": "Baseball Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 390,
+   "id": 2179368,
+   "text": "Boxing Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 391,
+   "id": 2179584,
+   "text": "Holes in one: {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 392,
+   "id": 2179585,
+   "text": "Perfect games: {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 393,
+   "id": 2181120,
+   "text": "Training Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 394,
+   "id": 2181121,
+   "text": "Medal earned\n    Platinum",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 395,
+   "id": 2181122,
+   "text": "Medal earned\n    Gold",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 396,
+   "id": 2181123,
+   "text": "Medal earned\n    Silver",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 397,
+   "id": 2181124,
+   "text": "Medal earned\n    Bronze",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 398,
+   "id": 2181125,
+   "text": "Began training on\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 399,
+   "id": 2181126,
+   "text": "Total training sessions\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 400,
+   "id": 2181376,
+   "text": "Training Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 401,
+   "id": 2181377,
+   "text": "Personal best\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 402,
+   "id": 2181378,
+   "text": "Personal best\n     {0} {1} ({2} {3})",
+   "args": [
+    "value",
+    "value",
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 403,
+   "id": 2181379,
+   "text": "Personal best\n    {0} ft",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 404,
+   "id": 2181381,
+   "text": "Began training on\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 405,
+   "id": 2181382,
+   "text": "Total training sessions\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 406,
+   "id": 2183680,
+   "text": "Wii Fitness Info",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 407,
+   "id": 2183681,
+   "text": "Date of this Wii Fitness test:\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 408,
+   "id": 2183682,
+   "text": "Date of first Wii Fitness test:\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 409,
+   "id": 2183683,
+   "text": "Total tests completed:\n    {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 410,
+   "id": 2183684,
+   "text": "Wii Fitness\n\nMeasure your skill in Wii\nSports. Your test results appear\nas a Wii Fitness Age, with 20\nbeing the best possible age.\n\nBecause these tests are designed\nfor adults, children may not\nget accurate test results.",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 411,
+   "id": 2278400,
+   "text": "Wii Sports News\n",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 412,
+   "id": 2278656,
+   "text": "{0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 413,
+   "id": 2278912,
+   "text": "",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 414,
+   "id": 2279168,
+   "text": "【PRO】",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 415,
+   "id": 2280960,
+   "text": "",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 416,
+   "id": 2280961,
+   "text": "",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 417,
+   "id": 2281216,
+   "text": "set",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 418,
+   "id": 2281217,
+   "text": "sets",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 419,
+   "id": 2281472,
+   "text": "hole",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 420,
+   "id": 2281473,
+   "text": "holes",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 421,
+   "id": 2281728,
+   "text": "homer",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 422,
+   "id": 2281729,
+   "text": "homers",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 423,
+   "id": 2281984,
+   "text": "ft",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 424,
+   "id": 2282240,
+   "text": "",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 425,
+   "id": 2282496,
+   "text": "years",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 426,
+   "id": 2282497,
+   "text": "year",
+   "attrs": "0000000000560000"
+  },
+  {
+   "index": 427,
+   "id": 2559744,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 428,
+   "id": 4864000,
+   "text": "Saburo",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 429,
+   "id": 4864001,
+   "text": "Hiroshi",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 430,
+   "id": 4864002,
+   "text": "Daisuke",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 431,
+   "id": 4864003,
+   "text": "Shinnosuke",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 432,
+   "id": 4864004,
+   "text": "Akira",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 433,
+   "id": 4864005,
+   "text": "Tatsuaki",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 434,
+   "id": 4864006,
+   "text": "Shouta",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 435,
+   "id": 4864007,
+   "text": "Ren",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 436,
+   "id": 4864008,
+   "text": "Kentaro",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 437,
+   "id": 4864009,
+   "text": "Takumi",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 438,
+   "id": 4864010,
+   "text": "Haru",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 439,
+   "id": 4864011,
+   "text": "Yoshi",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 440,
+   "id": 4864012,
+   "text": "Fumiko",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 441,
+   "id": 4864013,
+   "text": "Keiko",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 442,
+   "id": 4864014,
+   "text": "Yoko",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 443,
+   "id": 4864015,
+   "text": "Miyu",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 444,
+   "id": 4864016,
+   "text": "Ai",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 445,
+   "id": 4864017,
+   "text": "Misaki",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 446,
+   "id": 4864018,
+   "text": "Rin",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 447,
+   "id": 4864019,
+   "text": "Sakura",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 448,
+   "id": 4864020,
+   "text": "Andy",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 449,
+   "id": 4864021,
+   "text": "Chris",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 450,
+   "id": 4864022,
+   "text": "Ryan",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 451,
+   "id": 4864023,
+   "text": "Jake",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 452,
+   "id": 4864024,
+   "text": "Matt",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 453,
+   "id": 4864025,
+   "text": "Mike",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 454,
+   "id": 4864026,
+   "text": "Nick",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 455,
+   "id": 4864027,
+   "text": "Oscar",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 456,
+   "id": 4864028,
+   "text": "Theo",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 457,
+   "id": 4864029,
+   "text": "Tyrone",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 458,
+   "id": 4864030,
+   "text": "Abby",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 459,
+   "id": 4864031,
+   "text": "Ashley",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 460,
+   "id": 4864032,
+   "text": "Emily",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 461,
+   "id": 4864033,
+   "text": "Hayley",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 462,
+   "id": 4864034,
+   "text": "Jackie",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 463,
+   "id": 4864035,
+   "text": "Jessie",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 464,
+   "id": 4864036,
+   "text": "Maria",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 465,
+   "id": 4864037,
+   "text": "Naomi",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 466,
+   "id": 4864038,
+   "text": "Rachel",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 467,
+   "id": 4864039,
+   "text": "Steph",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 468,
+   "id": 4864040,
+   "text": "James",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 469,
+   "id": 4864041,
+   "text": "Steve",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 470,
+   "id": 4864042,
+   "text": "Michael",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 471,
+   "id": 4864043,
+   "text": "Martin",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 472,
+   "id": 4864044,
+   "text": "Pierre",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 473,
+   "id": 4864045,
+   "text": "Alex",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 474,
+   "id": 4864046,
+   "text": "Luca",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 475,
+   "id": 4864047,
+   "text": "Marco",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 476,
+   "id": 4864048,
+   "text": "David",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 477,
+   "id": 4864049,
+   "text": "Víctor",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 478,
+   "id": 4864050,
+   "text": "Sarah",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 479,
+   "id": 4864051,
+   "text": "Helen",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 480,
+   "id": 4864052,
+   "text": "Kathrin",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 481,
+   "id": 4864053,
+   "text": "Silke",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 482,
+   "id": 4864054,
+   "text": "Emma",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 483,
+   "id": 4864055,
+   "text": "Julie",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 484,
+   "id": 4864056,
+   "text": "Anna",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 485,
+   "id": 4864057,
+   "text": "Elisa",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 486,
+   "id": 4864058,
+   "text": "Eva",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 487,
+   "id": 4864059,
+   "text": "Lucía",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 488,
+   "id": 5120000,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 489,
+   "id": 5120001,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 490,
+   "id": 5120002,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 491,
+   "id": 5120256,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 492,
+   "id": 5120257,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 493,
+   "id": 5120258,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 494,
+   "id": 5120259,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 495,
+   "id": 5120512,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 496,
+   "id": 5122560,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 497,
+   "id": 5122561,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 498,
+   "id": 5125120,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 499,
+   "id": 5125121,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 500,
+   "id": 5125122,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 501,
+   "id": 5125123,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 502,
+   "id": 5125124,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 503,
+   "id": 5125125,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 504,
+   "id": 5125126,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 505,
+   "id": 5125376,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 506,
+   "id": 5125377,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 507,
+   "id": 5125378,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 508,
+   "id": 5125379,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 509,
+   "id": 5125380,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 510,
+   "id": 5125381,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 511,
+   "id": 5125382,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 512,
+   "id": 5125383,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 513,
+   "id": 5125384,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 514,
+   "id": 5125385,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 515,
+   "id": 5125386,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 516,
+   "id": 5125387,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 517,
+   "id": 5125632,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 518,
+   "id": 5125633,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 519,
+   "id": 5125634,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 520,
+   "id": 5125635,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 521,
+   "id": 5127680,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 522,
+   "id": 5127681,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 523,
+   "id": 5127682,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 524,
+   "id": 5127683,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 525,
+   "id": 5127684,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 526,
+   "id": 5127685,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 527,
+   "id": 5127686,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 528,
+   "id": 5127687,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 529,
+   "id": 5127936,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 530,
+   "id": 5127937,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 531,
+   "id": 5127938,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 532,
+   "id": 5127939,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 533,
+   "id": 5127940,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 534,
+   "id": 5130240,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 535,
+   "id": 5132800,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 536,
+   "id": 5133056,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 537,
+   "id": 5135360,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 538,
+   "id": 5135616,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 539,
+   "id": 5135617,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 540,
+   "id": 5135618,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 541,
+   "id": 5135872,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 542,
+   "id": 5136128,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 543,
+   "id": 5136129,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 544,
+   "id": 5136130,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 545,
+   "id": 5136131,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 546,
+   "id": 5136132,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 547,
+   "id": 5136384,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 548,
+   "id": 5137920,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 549,
+   "id": 5138176,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 550,
+   "id": 5138432,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 551,
+   "id": 5140480,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 552,
+   "id": 5140481,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 553,
+   "id": 5376000,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 554,
+   "id": 5378560,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 555,
+   "id": 5378561,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 556,
+   "id": 5378562,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 557,
+   "id": 5378563,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 558,
+   "id": 5378564,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 559,
+   "id": 5378816,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 560,
+   "id": 5378817,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 561,
+   "id": 5381120,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 562,
+   "id": 5381121,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 563,
+   "id": 5381122,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 564,
+   "id": 5383680,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 565,
+   "id": 5401600,
+   "text": "Server",
+   "attrs": "0000000000430000"
+  },
+  {
+   "index": 566,
+   "id": 5404160,
+   "text": "Miss",
+   "attrs": "0000000000430000"
+  },
+  {
+   "index": 567,
+   "id": 5406720,
+   "text": "Let",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 568,
+   "id": 5406721,
+   "text": "Out",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 569,
+   "id": 5406722,
+   "text": "Miss",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 570,
+   "id": 5406723,
+   "text": "2nd Bounce",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 571,
+   "id": 5409280,
+   "text": "00",
+   "attrs": "0000000000580000"
+  },
+  {
+   "index": 572,
+   "id": 5409281,
+   "text": "15",
+   "attrs": "0000000000580000"
+  },
+  {
+   "index": 573,
+   "id": 5409282,
+   "text": "30",
+   "attrs": "0000000000580000"
+  },
+  {
+   "index": 574,
+   "id": 5409283,
+   "text": "40",
+   "attrs": "0000000000580000"
+  },
+  {
+   "index": 575,
+   "id": 5409284,
+   "text": "Adv.",
+   "attrs": "0000000000580000"
+  },
+  {
+   "index": 576,
+   "id": 5409536,
+   "text": "-",
+   "attrs": "00000000006e0000"
+  },
+  {
+   "index": 577,
+   "id": 5409792,
+   "text": "Deuce",
+   "attrs": "0000000000580000"
+  },
+  {
+   "index": 578,
+   "id": 5409793,
+   "text": "Game",
+   "attrs": "0000000000580000"
+  },
+  {
+   "index": 579,
+   "id": 5411840,
+   "text": "Advantage",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 580,
+   "id": 5412096,
+   "text": "Deuce",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 581,
+   "id": 5412097,
+   "text": "Game Point",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 582,
+   "id": 5412098,
+   "text": "Break Point",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 583,
+   "id": 5412099,
+   "text": "Match Point",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 584,
+   "id": 5414400,
+   "text": "{0}",
+   "args": [
+    "name"
+   ],
+   "attrs": "00000000002d0000"
+  },
+  {
+   "index": 585,
+   "id": 5427200,
+   "text": "Choose positions and press .",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 586,
+   "id": 5429760,
+   "text": "Single Game",
+   "attrs": "00000000004d0000"
+  },
+  {
+   "index": 587,
+   "id": 5430016,
+   "text": "Best of 3",
+   "attrs": "00000000004d0000"
+  },
+  {
+   "index": 588,
+   "id": 5430272,
+   "text": "Best of 5",
+   "attrs": "00000000004d0000"
+  },
+  {
+   "index": 589,
+   "id": 5432320,
+   "text": "Start",
+   "attrs": "0000000000430000"
+  },
+  {
+   "index": 590,
+   "id": 5434880,
+   "text": "{0}{1}\nSkill Level: {2}",
+   "args": [
+    "name",
+    "value",
+    "value"
+   ],
+   "attrs": "00000000003b0000"
+  },
+  {
+   "index": 591,
+   "id": 5437440,
+   "text": "?",
+   "attrs": "0000000000960000"
+  },
+  {
+   "index": 592,
+   "id": 5452800,
+   "text": "{0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 593,
+   "id": 5455360,
+   "text": "pt",
+   "attrs": "00000000004e0000"
+  },
+  {
+   "index": 594,
+   "id": 5455361,
+   "text": "pts",
+   "attrs": "00000000004e0000"
+  },
+  {
+   "index": 595,
+   "id": 5504000,
+   "text": "{0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 596,
+   "id": 5506560,
+   "text": "Targets left",
+   "attrs": "00000000004e0000"
+  },
+  {
+   "index": 597,
+   "id": 5509120,
+   "text": "Balls left",
+   "attrs": "00000000004e0000"
+  },
+  {
+   "index": 598,
+   "id": 5632000,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 599,
+   "id": 5632001,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 600,
+   "id": 5632256,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 601,
+   "id": 5632257,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 602,
+   "id": 5632258,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 603,
+   "id": 5632259,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 604,
+   "id": 5634560,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 605,
+   "id": 5634561,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 606,
+   "id": 5634562,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 607,
+   "id": 5634563,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 608,
+   "id": 5634564,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 609,
+   "id": 5634565,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 610,
+   "id": 5634566,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 611,
+   "id": 5634567,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 612,
+   "id": 5634568,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 613,
+   "id": 5634816,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 614,
+   "id": 5634817,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 615,
+   "id": 5634818,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 616,
+   "id": 5657600,
+   "text": "Play Ball!",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 617,
+   "id": 5657856,
+   "text": "Mercy Rule",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 618,
+   "id": 5660160,
+   "text": "Strike",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 619,
+   "id": 5660161,
+   "text": "Ball",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 620,
+   "id": 5660162,
+   "text": "Ball Four",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 621,
+   "id": 5660163,
+   "text": "Strikeout",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 622,
+   "id": 5662720,
+   "text": "Foul Ball",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 623,
+   "id": 5662721,
+   "text": "Single",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 624,
+   "id": 5662722,
+   "text": "Double",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 625,
+   "id": 5662723,
+   "text": "Triple",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 626,
+   "id": 5662724,
+   "text": "Home Run",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 627,
+   "id": 5662725,
+   "text": "Out of the Park",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 628,
+   "id": 5665280,
+   "text": "Out",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 629,
+   "id": 5665281,
+   "text": "Double Play",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 630,
+   "id": 5665282,
+   "text": "Error",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 631,
+   "id": 5665283,
+   "text": "Change",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 632,
+   "id": 5665284,
+   "text": "Mercy Rule",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 633,
+   "id": 5667840,
+   "text": "Fastball",
+   "attrs": "0000000000780000"
+  },
+  {
+   "index": 634,
+   "id": 5667841,
+   "text": "Curveball",
+   "attrs": "0000000000780000"
+  },
+  {
+   "index": 635,
+   "id": 5667842,
+   "text": "Screwball",
+   "attrs": "0000000000780000"
+  },
+  {
+   "index": 636,
+   "id": 5667843,
+   "text": "Splitter",
+   "attrs": "0000000000780000"
+  },
+  {
+   "index": 637,
+   "id": 5670400,
+   "text": "mph",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 638,
+   "id": 5670656,
+   "text": "ft",
+   "attrs": "0000000000780000"
+  },
+  {
+   "index": 639,
+   "id": 5670657,
+   "text": "ft",
+   "attrs": "0000000000780000"
+  },
+  {
+   "index": 640,
+   "id": 5672960,
+   "text": "1ST",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 641,
+   "id": 5672961,
+   "text": "2ND",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 642,
+   "id": 5672962,
+   "text": "3RD",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 643,
+   "id": 5675520,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 644,
+   "id": 5678080,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 645,
+   "id": 5678081,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 646,
+   "id": 5678082,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 647,
+   "id": 5680640,
+   "text": "Vs.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 648,
+   "id": 5680896,
+   "text": "1",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 649,
+   "id": 5680897,
+   "text": "2",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 650,
+   "id": 5680898,
+   "text": "3",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 651,
+   "id": 5680899,
+   "text": "R",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 652,
+   "id": 5681152,
+   "text": "B",
+   "attrs": "0000000000400000"
+  },
+  {
+   "index": 653,
+   "id": 5681153,
+   "text": "S",
+   "attrs": "0000000000400000"
+  },
+  {
+   "index": 654,
+   "id": 5681410,
+   "text": "O",
+   "attrs": "0000000000400000"
+  },
+  {
+   "index": 655,
+   "id": 5683200,
+   "text": "{0}",
+   "args": [
+    "name"
+   ],
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 656,
+   "id": 5683456,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 657,
+   "id": 5685760,
+   "text": "Strikeout",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 658,
+   "id": 5685761,
+   "text": "Ball Four",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 659,
+   "id": 5685762,
+   "text": "Out",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 660,
+   "id": 5685763,
+   "text": "Single",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 661,
+   "id": 5685764,
+   "text": "Double",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 662,
+   "id": 5685765,
+   "text": "Triple",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 663,
+   "id": 5685766,
+   "text": "Home Run",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 664,
+   "id": 5685767,
+   "text": "Out of the Park",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 665,
+   "id": 5685768,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 666,
+   "id": 5688320,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 667,
+   "id": 5688321,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 668,
+   "id": 5688322,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 669,
+   "id": 5690880,
+   "text": "That's the Game!",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 670,
+   "id": 5693440,
+   "text": "R",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 671,
+   "id": 5696000,
+   "text": "Play again",
+   "attrs": "00000000006e0000"
+  },
+  {
+   "index": 672,
+   "id": 5696256,
+   "text": "Quit",
+   "attrs": "00000000006e0000"
+  },
+  {
+   "index": 673,
+   "id": 5696512,
+   "text": "Next",
+   "attrs": "00000000006e0000"
+  },
+  {
+   "index": 674,
+   "id": 5708800,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 675,
+   "id": 5709056,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 676,
+   "id": 5721600,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 677,
+   "id": 5734400,
+   "text": "10 balls",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 678,
+   "id": 5734401,
+   "text": "30 balls",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 679,
+   "id": 5736960,
+   "text": "You swung too early!",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 680,
+   "id": 5736961,
+   "text": "You're a tad early!",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 681,
+   "id": 5736962,
+   "text": "You swung too late!",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 682,
+   "id": 5736963,
+   "text": "You're a tad late!",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 683,
+   "id": 5739520,
+   "text": "Home run",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 684,
+   "id": 5739521,
+   "text": "Out of the park",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 685,
+   "id": 5747200,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 686,
+   "id": 5747456,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 687,
+   "id": 5760000,
+   "text": "10 pitches",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 688,
+   "id": 5762560,
+   "text": "{0} runs",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 689,
+   "id": 5765120,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 690,
+   "id": 5785600,
+   "text": "Left",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 691,
+   "id": 5785856,
+   "text": "",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 692,
+   "id": 5788160,
+   "text": "Hits",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 693,
+   "id": 5788416,
+   "text": "",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 694,
+   "id": 5788417,
+   "text": "",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 695,
+   "id": 5788672,
+   "text": "Hit!",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 696,
+   "id": 5790720,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 697,
+   "id": 5790976,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 698,
+   "id": 5798400,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 699,
+   "id": 5798656,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 700,
+   "id": 5811200,
+   "text": "Vs.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 701,
+   "id": 5813760,
+   "text": "{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 702,
+   "id": 5814016,
+   "text": "Skill Level: {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 703,
+   "id": 5816320,
+   "text": "{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 704,
+   "id": 5816576,
+   "text": "Skill Level: {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 705,
+   "id": 5836800,
+   "text": "Batting",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 706,
+   "id": 5837056,
+   "text": "",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 707,
+   "id": 5839360,
+   "text": "How to Hold",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 708,
+   "id": 5839616,
+   "text": "Hold the Wii Remote so that the side\nwith the buttons is facing you.",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 709,
+   "id": 5841920,
+   "text": "Batting",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 710,
+   "id": 5842176,
+   "text": "Hold the Wii Remote like a bat. Swing at\npitches at the right time to hit them.",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 711,
+   "id": 5844480,
+   "text": "Pitching",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 712,
+   "id": 5844736,
+   "text": "",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 713,
+   "id": 5847040,
+   "text": "Pitching",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 714,
+   "id": 5847296,
+   "text": "Swing the Wii Remote overhand to pitch.\nAim your pitch with .",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 715,
+   "id": 5849600,
+   "text": "Breaking Balls",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 716,
+   "id": 5849856,
+   "text": "Pitch while pressing  for a screwball,\n for a curveball, and + for a splitter.",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 717,
+   "id": 5849857,
+   "text": "Pitch while pressing  for a curveball,\n for a screwball, and + for a splitter.",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 718,
+   "id": 5852160,
+   "text": "Swing to pitch.",
+   "attrs": "00000000003e0000"
+  },
+  {
+   "index": 719,
+   "id": 5888000,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 720,
+   "id": 5888256,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 721,
+   "id": 5890560,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 722,
+   "id": 5890816,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 723,
+   "id": 5890817,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 724,
+   "id": 5891072,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 725,
+   "id": 5891073,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 726,
+   "id": 5891074,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 727,
+   "id": 5891075,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 728,
+   "id": 5891076,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 729,
+   "id": 5893120,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 730,
+   "id": 5893121,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 731,
+   "id": 5893122,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 732,
+   "id": 5893123,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 733,
+   "id": 5893124,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 734,
+   "id": 5895680,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 735,
+   "id": 5895681,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 736,
+   "id": 5913600,
+   "text": "Select a course",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 737,
+   "id": 5913856,
+   "text": "9-Hole Game",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 738,
+   "id": 5914112,
+   "text": "3-Hole Game",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 739,
+   "id": 5914368,
+   "text": "Beginner",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 740,
+   "id": 5914369,
+   "text": "Holes 1 to 3",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 741,
+   "id": 5914624,
+   "text": "Intermediate",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 742,
+   "id": 5914625,
+   "text": "Holes 4 to 5",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 743,
+   "id": 5914880,
+   "text": "Expert",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 744,
+   "id": 5914881,
+   "text": "Holes 6 to 9",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 745,
+   "id": 5915136,
+   "text": "Main menu",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 746,
+   "id": 5916160,
+   "text": "Hole {0}: Par {1}",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000320000"
+  },
+  {
+   "index": 747,
+   "id": 5916416,
+   "text": "{0}",
+   "args": [
+    "name"
+   ],
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 748,
+   "id": 5916672,
+   "text": "Best",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 749,
+   "id": 5916928,
+   "text": "",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 750,
+   "id": 5917184,
+   "text": "Skill Level",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 751,
+   "id": 5917440,
+   "text": "",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 752,
+   "id": 5917696,
+   "text": "Score",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 753,
+   "id": 5917952,
+   "text": "",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 754,
+   "id": 5918720,
+   "text": "Stroke {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 755,
+   "id": 5918976,
+   "text": "{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 756,
+   "id": 5921280,
+   "text": "Hole {0}: Par {1}",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 757,
+   "id": 5921536,
+   "text": "{0} yd left",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 758,
+   "id": 5921537,
+   "text": "{0} yds left",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 759,
+   "id": 5921538,
+   "text": "{0} ft left",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 760,
+   "id": 5921539,
+   "text": "{0} ft left",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 761,
+   "id": 5921792,
+   "text": "{0} mph",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 762,
+   "id": 5921793,
+   "text": "Wind",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 763,
+   "id": 5921794,
+   "text": "mph",
+   "attrs": "00000000003b0000"
+  },
+  {
+   "index": 764,
+   "id": 5922048,
+   "text": "Driver",
+   "attrs": "00000000002d0000"
+  },
+  {
+   "index": 765,
+   "id": 5922049,
+   "text": "Iron",
+   "attrs": "00000000002d0000"
+  },
+  {
+   "index": 766,
+   "id": 5922050,
+   "text": "Wedge",
+   "attrs": "00000000002d0000"
+  },
+  {
+   "index": 767,
+   "id": 5922051,
+   "text": "Putter",
+   "attrs": "00000000002d0000"
+  },
+  {
+   "index": 768,
+   "id": 5922304,
+   "text": "To hit the ball, hold down  and swing.\n㌍㍗: Aim, ㌦㌣: Change clubs",
+   "attrs": "00000000005f0000"
+  },
+  {
+   "index": 769,
+   "id": 5922560,
+   "text": "To hit the ball, hold down  and swing.\n㌍㍗: Aim, : Read green\n: Change camera",
+   "attrs": "00000000005f0000"
+  },
+  {
+   "index": 770,
+   "id": 5922816,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 771,
+   "id": 5923840,
+   "text": "Green",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 772,
+   "id": 5923841,
+   "text": "Edge of Green",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 773,
+   "id": 5923842,
+   "text": "Fairway",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 774,
+   "id": 5923843,
+   "text": "Rough",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 775,
+   "id": 5923844,
+   "text": "Bunker",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 776,
+   "id": 5923845,
+   "text": "Out of Bounds",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 777,
+   "id": 5923846,
+   "text": "Water Hazard",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 778,
+   "id": 5923847,
+   "text": "Off the Green",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 779,
+   "id": 5924096,
+   "text": "{0} yard to go",
+   "args": [
+    "value"
+   ],
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 780,
+   "id": 5924097,
+   "text": "{0} yards to go",
+   "args": [
+    "value"
+   ],
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 781,
+   "id": 5924352,
+   "text": "{0} foot to go",
+   "args": [
+    "value"
+   ],
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 782,
+   "id": 5924353,
+   "text": "{0} feet to go",
+   "args": [
+    "value"
+   ],
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 783,
+   "id": 5926400,
+   "text": "Hole in One",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 784,
+   "id": 5926401,
+   "text": "Double Eagle",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 785,
+   "id": 5926402,
+   "text": "Eagle",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 786,
+   "id": 5926403,
+   "text": "Birdie",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 787,
+   "id": 5926404,
+   "text": "Par",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 788,
+   "id": 5926405,
+   "text": "Bogey",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 789,
+   "id": 5926406,
+   "text": "Double Bogey",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 790,
+   "id": 5926407,
+   "text": "Triple Bogey",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 791,
+   "id": 5926408,
+   "text": "{0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 792,
+   "id": 5928960,
+   "text": "Give up",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 793,
+   "id": 5929216,
+   "text": "{0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 794,
+   "id": 5931520,
+   "text": "Scorecard",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 795,
+   "id": 5934080,
+   "text": "New personal best!",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 796,
+   "id": 5934336,
+   "text": "Next",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 797,
+   "id": 5934592,
+   "text": "Hole",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 798,
+   "id": 5934848,
+   "text": "Total",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 799,
+   "id": 5935104,
+   "text": "Par",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 800,
+   "id": 5935360,
+   "text": "{0}",
+   "args": [
+    "name"
+   ],
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 801,
+   "id": 5939200,
+   "text": "Round {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 802,
+   "id": 5941760,
+   "text": "Distance left: {0} ft",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 803,
+   "id": 5941761,
+   "text": "Distance left: {0} ft",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 804,
+   "id": 5944320,
+   "text": "Try again",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 805,
+   "id": 5964800,
+   "text": "Total: {0} ft",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000410000"
+  },
+  {
+   "index": 806,
+   "id": 5964801,
+   "text": "Total: {0} ft",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000410000"
+  },
+  {
+   "index": 807,
+   "id": 5967360,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 808,
+   "id": 5967616,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 809,
+   "id": 5967617,
+   "text": "Score: {0} ft",
+   "args": [
+    "value"
+   ],
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 810,
+   "id": 5990400,
+   "text": "Total: {0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000410000"
+  },
+  {
+   "index": 811,
+   "id": 5990401,
+   "text": "Total: {0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000410000"
+  },
+  {
+   "index": 812,
+   "id": 5990656,
+   "text": "Miss",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 813,
+   "id": 5990657,
+   "text": "+10",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 814,
+   "id": 5990658,
+   "text": "+25",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 815,
+   "id": 5990659,
+   "text": "+50",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 816,
+   "id": 5990660,
+   "text": "+100",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 817,
+   "id": 5990661,
+   "text": "+75",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 818,
+   "id": 6016000,
+   "text": "High",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 819,
+   "id": 6016256,
+   "text": "Low",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 820,
+   "id": 6041600,
+   "text": "Hold the Wii Remote down, like a club.\nSwing as though you are hitting the\nball with the side of the Wii Remote.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 821,
+   "id": 6041856,
+   "text": "Check the strength of your swing\nwith the power gauge.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 822,
+   "id": 6042112,
+   "text": "If you swing too hard and max out the\ngauge, your shot will slice or hook.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 823,
+   "id": 6042368,
+   "text": "Try some practice swings before you\nstep up to hit the ball.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 824,
+   "id": 6042624,
+   "text": "Let's take a swing at the ball.\nAim the Wii Remote down and hold\ndown  to swing.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 825,
+   "id": 6144000,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 826,
+   "id": 6144256,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 827,
+   "id": 6144512,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 828,
+   "id": 6144513,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 829,
+   "id": 6400000,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 830,
+   "id": 6400256,
+   "text": "",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 831,
+   "id": 6400512,
+   "text": "",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 832,
+   "id": 6400768,
+   "text": "",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 833,
+   "id": 6402560,
+   "text": "Decision",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 834,
+   "id": 6402816,
+   "text": "Decision",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 835,
+   "id": 6405120,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 836,
+   "id": 6405376,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 837,
+   "id": 6407680,
+   "text": "R１",
+   "attrs": "0000000000320000"
+  },
+  {
+   "index": 838,
+   "id": 6407681,
+   "text": "R２",
+   "attrs": "0000000000320000"
+  },
+  {
+   "index": 839,
+   "id": 6407682,
+   "text": "R３",
+   "attrs": "0000000000320000"
+  },
+  {
+   "index": 840,
+   "id": 6410240,
+   "text": "pt",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 841,
+   "id": 6410241,
+   "text": "pts",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 842,
+   "id": 6425600,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 843,
+   "id": 6425856,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 844,
+   "id": 6451200,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 845,
+   "id": 6451456,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 846,
+   "id": 6476800,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 847,
+   "id": 6477056,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 848,
+   "id": 6502400,
+   "text": "Guard your face!",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 849,
+   "id": 6502656,
+   "text": "Hold the Wii Remote and Nunchuk\nup in front of your face.",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 850,
+   "id": 6504960,
+   "text": "Punch the face!",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 851,
+   "id": 6505216,
+   "text": "Jab with the Wii Remote to punch\nyour opponent's head.",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 852,
+   "id": 6507520,
+   "text": "Guard your body!",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 853,
+   "id": 6507776,
+   "text": "Hold the Wii Remote and Nunchuk in front\nof your torso and tilt them inward.",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 854,
+   "id": 6510080,
+   "text": "Punch the Body",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 855,
+   "id": 6510336,
+   "text": "Jab with the Wii Remote to punch\nyour opponent's body.",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 856,
+   "id": 6512640,
+   "text": "Dodge Punches",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 857,
+   "id": 6512896,
+   "text": "Hold the Wii Remote and Nunchuk and tilt\nyour body forward, back, left, or right.",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 858,
+   "id": 6540800,
+   "text": "Fighting Stance",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 859,
+   "id": 6541056,
+   "text": "Hold the Wii Remote in your dominant\nhand and the Nunchuk in the other hand.",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 860,
+   "id": 6656000,
+   "text": "Raise the Wii Remote and hold .",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 861,
+   "id": 6656256,
+   "text": "Take a swing while\nholding . Release \nas you roll the ball.",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 862,
+   "id": 6656512,
+   "text": "Swing your arm while\nholding down , and\nrelease it to roll the ball.",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 863,
+   "id": 6658560,
+   "text": "Strike",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 864,
+   "id": 6658561,
+   "text": "Spare",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 865,
+   "id": 6658562,
+   "text": "{0} pin",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 866,
+   "id": 6658563,
+   "text": "{0} pins",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 867,
+   "id": 6658816,
+   "text": "Double",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 868,
+   "id": 6658817,
+   "text": "Turkey",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 869,
+   "id": 6658818,
+   "text": "Fourth",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 870,
+   "id": 6658819,
+   "text": "Fifth",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 871,
+   "id": 6658820,
+   "text": "Six-pack",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 872,
+   "id": 6658821,
+   "text": "Seven-pack",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 873,
+   "id": 6658822,
+   "text": "Eight in a row",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 874,
+   "id": 6658823,
+   "text": "Nine in a row",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 875,
+   "id": 6658824,
+   "text": "Ten in a row",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 876,
+   "id": 6658825,
+   "text": "Eleven in a row",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 877,
+   "id": 6658826,
+   "text": "Perfect",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 878,
+   "id": 6659072,
+   "text": "Missed",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 879,
+   "id": 6661120,
+   "text": "Scorecard",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 880,
+   "id": 6661376,
+   "text": "Record!",
+   "attrs": "0000000000260000"
+  },
+  {
+   "index": 881,
+   "id": 6661632,
+   "text": "-",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 882,
+   "id": 6661888,
+   "text": "①②③④⑤⑥⑦⑧",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 883,
+   "id": 6663680,
+   "text": "Next",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 884,
+   "id": 6666240,
+   "text": "Move",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 885,
+   "id": 6666241,
+   "text": "Turn",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 886,
+   "id": 6666496,
+   "text": "Switch",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 887,
+   "id": 6666752,
+   "text": "Back",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 888,
+   "id": 6668800,
+   "text": "Game Finished",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 889,
+   "id": 6671360,
+   "text": "Replay",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 890,
+   "id": 6681600,
+   "text": "Stage {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 891,
+   "id": 6681856,
+   "text": "{0} pins",
+   "args": [
+    "value"
+   ],
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 892,
+   "id": 6682112,
+   "text": "Stage {0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 893,
+   "id": 6684160,
+   "text": "Missed",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 894,
+   "id": 6686720,
+   "text": "Challenge cleared",
+   "attrs": "0000000000550000"
+  },
+  {
+   "index": 895,
+   "id": 6707200,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 896,
+   "id": 6732800,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 897,
+   "id": 6758400,
+   "text": "{0} pin",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000320000"
+  },
+  {
+   "index": 898,
+   "id": 6758401,
+   "text": "{0} pins",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000320000"
+  },
+  {
+   "index": 899,
+   "id": 6758656,
+   "text": "×",
+   "attrs": "0000000000320000"
+  },
+  {
+   "index": 900,
+   "id": 6784000,
+   "text": "Perfect!",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 901,
+   "id": 6912000,
+   "text": "{0}",
+   "args": [
+    "name"
+   ],
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 902,
+   "id": 6912256,
+   "text": "Wii Fitness",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 903,
+   "id": 6914560,
+   "text": "Wii Fitness Age: ",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 904,
+   "id": 6914816,
+   "text": "",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 905,
+   "id": 6917120,
+   "text": "{0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 906,
+   "id": 6917376,
+   "text": "Sun",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 907,
+   "id": 6917377,
+   "text": "Mon",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 908,
+   "id": 6917378,
+   "text": "Tues",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 909,
+   "id": 6917379,
+   "text": "Wed",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 910,
+   "id": 6917380,
+   "text": "Thurs",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 911,
+   "id": 6917381,
+   "text": "Fri",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 912,
+   "id": 6917382,
+   "text": "Sat",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 913,
+   "id": 6919680,
+   "text": "Start",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 914,
+   "id": 6919936,
+   "text": "Done",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 915,
+   "id": 6937600,
+   "text": "Speed",
+   "attrs": "0000000000410000"
+  },
+  {
+   "index": 916,
+   "id": 6937856,
+   "text": "Balance",
+   "attrs": "0000000000410000"
+  },
+  {
+   "index": 917,
+   "id": 6938112,
+   "text": "Stamina",
+   "attrs": "0000000000410000"
+  },
+  {
+   "index": 918,
+   "id": 6963200,
+   "text": "Results",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 919,
+   "id": 6965760,
+   "text": "{0}",
+   "args": [
+    "name"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 920,
+   "id": 6965761,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 921,
+   "id": 6965762,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 922,
+   "id": 6968320,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 923,
+   "id": 6970880,
+   "text": "",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 924,
+   "id": 6976000,
+   "text": "Wow! It's like you're {0} years younger!",
+   "args": [
+    "value"
+   ],
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 925,
+   "id": 6976256,
+   "text": "It's like you're a whole year younger!",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 926,
+   "id": 6976257,
+   "text": "It's like you're {0} years younger!",
+   "args": [
+    "value"
+   ],
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 927,
+   "id": 6976512,
+   "text": "No change",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 928,
+   "id": 6976768,
+   "text": "A bit lower than before",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 929,
+   "id": 6977024,
+   "text": "A big decline",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 930,
+   "id": 6977280,
+   "text": "Good job!",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 931,
+   "id": 7014400,
+   "text": "JAN",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 932,
+   "id": 7014401,
+   "text": "FEB",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 933,
+   "id": 7014402,
+   "text": "MAR",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 934,
+   "id": 7014403,
+   "text": "APR",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 935,
+   "id": 7014404,
+   "text": "MAY",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 936,
+   "id": 7014405,
+   "text": "JUN",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 937,
+   "id": 7014406,
+   "text": "JUL",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 938,
+   "id": 7014407,
+   "text": "AUG",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 939,
+   "id": 7014408,
+   "text": "SEP",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 940,
+   "id": 7014409,
+   "text": "OCT",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 941,
+   "id": 7014410,
+   "text": "NOV",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 942,
+   "id": 7014411,
+   "text": "DEC",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 943,
+   "id": 7040000,
+   "text": "{0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000a00000"
+  },
+  {
+   "index": 944,
+   "id": 7065600,
+   "text": "Testing...",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 945,
+   "id": 7065856,
+   "text": "Wii Fitness Age",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 946,
+   "id": 7168000,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 947,
+   "id": 7424000,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 948,
+   "id": 7424001,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 949,
+   "id": 7424002,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 950,
+   "id": 7424003,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 951,
+   "id": 7424004,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 952,
+   "id": 7424005,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 953,
+   "id": 7424006,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 954,
+   "id": 7424007,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 955,
+   "id": 7424008,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 956,
+   "id": 7424009,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 957,
+   "id": 7424010,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 958,
+   "id": 7424011,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 959,
+   "id": 7424012,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 960,
+   "id": 7424013,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 961,
+   "id": 7424014,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 962,
+   "id": 7426560,
+   "text": "Start",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 963,
+   "id": 7426561,
+   "text": "Finished",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 964,
+   "id": 7449600,
+   "text": "",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 965,
+   "id": 7452416,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 966,
+   "id": 7452672,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 967,
+   "id": 7452928,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 968,
+   "id": 7453184,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 969,
+   "id": 7453440,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 970,
+   "id": 7454720,
+   "text": "",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 971,
+   "id": 7454976,
+   "text": "",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 972,
+   "id": 7455232,
+   "text": "",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 973,
+   "id": 7455488,
+   "text": "",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 974,
+   "id": 7455744,
+   "text": "",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 975,
+   "id": 7456000,
+   "text": "",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 976,
+   "id": 7457280,
+   "text": "",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 977,
+   "id": 7457536,
+   "text": "",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 978,
+   "id": 7459840,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 979,
+   "id": 7475200,
+   "text": "Training",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 980,
+   "id": 7475456,
+   "text": "Main menu",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 981,
+   "id": 7475712,
+   "text": "Wii Fitness",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 982,
+   "id": 7477760,
+   "text": "Tennis",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 983,
+   "id": 7478016,
+   "text": "Baseball",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 984,
+   "id": 7478272,
+   "text": "Bowling",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 985,
+   "id": 7478528,
+   "text": "Golf",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 986,
+   "id": 7478784,
+   "text": "Boxing",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 987,
+   "id": 7482880,
+   "text": "Returning Balls",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 988,
+   "id": 7483136,
+   "text": "Timing Your Swing",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 989,
+   "id": 7483392,
+   "text": "Target Practice",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 990,
+   "id": 7483648,
+   "text": "Hitting Home Runs",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 991,
+   "id": 7483904,
+   "text": "Batting Practice",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 992,
+   "id": 7484160,
+   "text": "Swing Control",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 993,
+   "id": 7484416,
+   "text": "Picking Up Spares",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 994,
+   "id": 7484672,
+   "text": "Spin Control",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 995,
+   "id": 7484928,
+   "text": "Power Throws",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 996,
+   "id": 7485184,
+   "text": "Putting",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 997,
+   "id": 7485440,
+   "text": "Hitting the Green",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 998,
+   "id": 7485696,
+   "text": "Target Practice",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 999,
+   "id": 7485952,
+   "text": "Throwing Punches",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 1000,
+   "id": 7486208,
+   "text": "Dodging",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 1001,
+   "id": 7486464,
+   "text": "Working the Bag",
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 1002,
+   "id": 7500800,
+   "text": ": Start",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1003,
+   "id": 7503360,
+   "text": "???",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1004,
+   "id": 7526400,
+   "text": "First event",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1005,
+   "id": 7526401,
+   "text": "Second event",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1006,
+   "id": 7526402,
+   "text": "Third event",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1007,
+   "id": 7552000,
+   "text": "Skill Level",
+   "attrs": "0000000000370000"
+  },
+  {
+   "index": 1008,
+   "id": 7552256,
+   "text": "PRO",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 1009,
+   "id": 7552512,
+   "text": "Play again",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1010,
+   "id": 7552768,
+   "text": "Quit",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1011,
+   "id": 7554560,
+   "text": "{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 1012,
+   "id": 7554816,
+   "text": "{0}",
+   "args": [
+    "value"
+   ],
+   "attrs": "00000000005afe00"
+  },
+  {
+   "index": 1013,
+   "id": 7577600,
+   "text": "{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "00000000004b0000"
+  },
+  {
+   "index": 1014,
+   "id": 7577856,
+   "text": "Pause",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1015,
+   "id": 7580160,
+   "text": "Record: {0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1016,
+   "id": 7580161,
+   "text": "Record: {0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1017,
+   "id": 7580416,
+   "text": "Record: {0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1018,
+   "id": 7580417,
+   "text": "Record: {0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1019,
+   "id": 7580672,
+   "text": "Record: {0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1020,
+   "id": 7580673,
+   "text": "Record: {0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1021,
+   "id": 7582720,
+   "text": "Record: {0} homer ({1} ft)",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "00000000005e0000"
+  },
+  {
+   "index": 1022,
+   "id": 7582721,
+   "text": "Record: {0} homers ({1} ft)",
+   "args": [
+    "value",
+    "value"
+   ],
+   "attrs": "00000000005e0000"
+  },
+  {
+   "index": 1023,
+   "id": 7582976,
+   "text": "Record: {0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1024,
+   "id": 7582977,
+   "text": "Record: {0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1025,
+   "id": 7583232,
+   "text": "Record: {0} hit",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1026,
+   "id": 7583233,
+   "text": "Record: {0} hits",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1027,
+   "id": 7585280,
+   "text": "Record: {0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1028,
+   "id": 7585281,
+   "text": "Record: {0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1029,
+   "id": 7585536,
+   "text": "Record: {0} ft",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1030,
+   "id": 7585537,
+   "text": "Record: {0} ft",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1031,
+   "id": 7585792,
+   "text": "Record: {0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1032,
+   "id": 7585793,
+   "text": "Record: {0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1033,
+   "id": 7587840,
+   "text": "Record: {0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1034,
+   "id": 7587841,
+   "text": "Record: {0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1035,
+   "id": 7588096,
+   "text": "Record: {0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1036,
+   "id": 7588097,
+   "text": "Record: {0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1037,
+   "id": 7588352,
+   "text": "Record: {0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1038,
+   "id": 7588353,
+   "text": "Record: {0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1039,
+   "id": 7590400,
+   "text": "Record: {0} lane",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1040,
+   "id": 7590401,
+   "text": "Record: {0} lanes",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1041,
+   "id": 7590656,
+   "text": "Record: {0} lane",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1042,
+   "id": 7590657,
+   "text": "Record: {0} lanes",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1043,
+   "id": 7590912,
+   "text": "Record: {0} pin",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1044,
+   "id": 7590913,
+   "text": "Record: {0} pins",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1045,
+   "id": 7603200,
+   "text": "{0}{1}",
+   "args": [
+    "name",
+    "value"
+   ],
+   "attrs": "00000000005f0000"
+  },
+  {
+   "index": 1046,
+   "id": 7603456,
+   "text": "Record!",
+   "attrs": "00000000001e0000"
+  },
+  {
+   "index": 1047,
+   "id": 7603712,
+   "text": "Try again",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1048,
+   "id": 7603968,
+   "text": "Quit",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1049,
+   "id": 7605760,
+   "text": "Returning Balls",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1050,
+   "id": 7605761,
+   "text": "Score:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1051,
+   "id": 7605762,
+   "text": "pt",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1052,
+   "id": 7605763,
+   "text": "pts",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1053,
+   "id": 7606016,
+   "text": "Timing Your Swing",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1054,
+   "id": 7606017,
+   "text": "Score:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1055,
+   "id": 7606018,
+   "text": "pt",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1056,
+   "id": 7606019,
+   "text": "pts",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1057,
+   "id": 7606272,
+   "text": "Target Practice",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1058,
+   "id": 7606273,
+   "text": "Score:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1059,
+   "id": 7606274,
+   "text": "pt",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1060,
+   "id": 7606275,
+   "text": "pts",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1061,
+   "id": 7608320,
+   "text": "Hitting Home Runs",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1062,
+   "id": 7608321,
+   "text": "Home runs:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1063,
+   "id": 7608322,
+   "text": "run",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1064,
+   "id": 7608323,
+   "text": "runs",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1065,
+   "id": 7608324,
+   "text": "Total distance:",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 1066,
+   "id": 7608325,
+   "text": "ft",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 1067,
+   "id": 7608326,
+   "text": "ft",
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 1068,
+   "id": 7608576,
+   "text": "Swing Control",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1069,
+   "id": 7608577,
+   "text": "Score:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1070,
+   "id": 7608578,
+   "text": "pt",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1071,
+   "id": 7608579,
+   "text": "pts",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1072,
+   "id": 7608832,
+   "text": "Batting Practice",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1073,
+   "id": 7608833,
+   "text": "Score:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1074,
+   "id": 7608834,
+   "text": "hit",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1075,
+   "id": 7608835,
+   "text": "hits",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1076,
+   "id": 7610880,
+   "text": "Putting",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1077,
+   "id": 7610881,
+   "text": "Cup-in:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1078,
+   "id": 7610882,
+   "text": "pt",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1079,
+   "id": 7610883,
+   "text": "pts",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1080,
+   "id": 7611136,
+   "text": "Hitting the Green",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1081,
+   "id": 7611137,
+   "text": "Total left:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1082,
+   "id": 7611138,
+   "text": "ft",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1083,
+   "id": 7611139,
+   "text": "ft",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1084,
+   "id": 7611392,
+   "text": "Target Practice",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1085,
+   "id": 7611393,
+   "text": "Score:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1086,
+   "id": 7611394,
+   "text": "pt",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1087,
+   "id": 7611395,
+   "text": "pts",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1088,
+   "id": 7613440,
+   "text": "Throwing Punches",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1089,
+   "id": 7613441,
+   "text": "Score:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1090,
+   "id": 7613442,
+   "text": "pt",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1091,
+   "id": 7613443,
+   "text": "pts",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1092,
+   "id": 7613444,
+   "text": "Hit score:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1093,
+   "id": 7613445,
+   "text": "pt",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1094,
+   "id": 7613446,
+   "text": "pts",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1095,
+   "id": 7613447,
+   "text": "Trainer penalty:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1096,
+   "id": 7613448,
+   "text": "pt",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1097,
+   "id": 7613449,
+   "text": "pts",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1098,
+   "id": 7613696,
+   "text": "Dodging",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1099,
+   "id": 7613697,
+   "text": "Score:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1100,
+   "id": 7613698,
+   "text": "pt",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1101,
+   "id": 7613699,
+   "text": "pts",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1102,
+   "id": 7613700,
+   "text": "Balls dodged:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1103,
+   "id": 7613701,
+   "text": "pt",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1104,
+   "id": 7613702,
+   "text": "pts",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1105,
+   "id": 7613703,
+   "text": "Balls hit:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1106,
+   "id": 7613704,
+   "text": "pt",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1107,
+   "id": 7613705,
+   "text": "pts",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1108,
+   "id": 7613952,
+   "text": "Working the Bag",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1109,
+   "id": 7613953,
+   "text": "Score:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1110,
+   "id": 7613954,
+   "text": "pt",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1111,
+   "id": 7613955,
+   "text": "pts",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1112,
+   "id": 7613956,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1113,
+   "id": 7613957,
+   "text": "",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1114,
+   "id": 7613958,
+   "text": "",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1115,
+   "id": 7613959,
+   "text": "",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1116,
+   "id": 7613960,
+   "text": "",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1117,
+   "id": 7613961,
+   "text": "",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1118,
+   "id": 7616000,
+   "text": "Picking Up Spares",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1119,
+   "id": 7616001,
+   "text": "Cleared:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1120,
+   "id": 7616002,
+   "text": "lane",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1121,
+   "id": 7616003,
+   "text": "lanes",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1122,
+   "id": 7616256,
+   "text": "Spin Control",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1123,
+   "id": 7616257,
+   "text": "Cleared:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1124,
+   "id": 7616258,
+   "text": "lane",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1125,
+   "id": 7616259,
+   "text": "lanes",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1126,
+   "id": 7616512,
+   "text": "Power Throws",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1127,
+   "id": 7616513,
+   "text": "Score:",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1128,
+   "id": 7616514,
+   "text": "pin",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1129,
+   "id": 7616515,
+   "text": "pins",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1130,
+   "id": 7628800,
+   "text": "",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1131,
+   "id": 7629056,
+   "text": "1",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 1132,
+   "id": 7629312,
+   "text": "2",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 1133,
+   "id": 7629568,
+   "text": "3",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 1134,
+   "id": 7629824,
+   "text": "4",
+   "attrs": "0000000000460000"
+  },
+  {
+   "index": 1135,
+   "id": 7630080,
+   "text": "{0}",
+   "args": [
+    "name"
+   ],
+   "attrs": "0000000000500000"
+  },
+  {
+   "index": 1136,
+   "id": 7631360,
+   "text": "{0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1137,
+   "id": 7631361,
+   "text": "{0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1138,
+   "id": 7631616,
+   "text": "{0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1139,
+   "id": 7631617,
+   "text": "{0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1140,
+   "id": 7631872,
+   "text": "{0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1141,
+   "id": 7631873,
+   "text": "{0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1142,
+   "id": 7633920,
+   "text": "{0} homer ({1} ft)",
+   "args": [
+    "value",
+    "value"
+   ],
+   "controls": [
+    {
+     "group": 255,
+     "type": 1,
+     "params": "003c",
+     "at": 10
+    }
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1143,
+   "id": 7633921,
+   "text": "{0} homers ({1} ft)",
+   "args": [
+    "value",
+    "value"
+   ],
+   "controls": [
+    {
+     "group": 255,
+     "type": 1,
+     "params": "003c",
+     "at": 11
+    }
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1144,
+   "id": 7633922,
+   "text": "",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1145,
+   "id": 7633923,
+   "text": "",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1146,
+   "id": 7634176,
+   "text": "{0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1147,
+   "id": 7634177,
+   "text": "{0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1148,
+   "id": 7634432,
+   "text": "{0} hit",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1149,
+   "id": 7634433,
+   "text": "{0} hits",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1150,
+   "id": 7636480,
+   "text": "{0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1151,
+   "id": 7636481,
+   "text": "{0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1152,
+   "id": 7636736,
+   "text": "{0} ft",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1153,
+   "id": 7636737,
+   "text": "{0} ft",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1154,
+   "id": 7636992,
+   "text": "{0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1155,
+   "id": 7636993,
+   "text": "{0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1156,
+   "id": 7639040,
+   "text": "{0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1157,
+   "id": 7639041,
+   "text": "{0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1158,
+   "id": 7639296,
+   "text": "{0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1159,
+   "id": 7639297,
+   "text": "{0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1160,
+   "id": 7639552,
+   "text": "{0} pt",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1161,
+   "id": 7639553,
+   "text": "{0} pts",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1162,
+   "id": 7641600,
+   "text": "{0} lane",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1163,
+   "id": 7641601,
+   "text": "{0} lanes",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1164,
+   "id": 7641856,
+   "text": "{0} lane",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1165,
+   "id": 7641857,
+   "text": "{0} lanes",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1166,
+   "id": 7642112,
+   "text": "{0} pin",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1167,
+   "id": 7642113,
+   "text": "{0} pins",
+   "args": [
+    "value"
+   ],
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1168,
+   "id": 7644160,
+   "text": "Returning Balls",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1169,
+   "id": 7644416,
+   "text": "Timing Your Swing",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1170,
+   "id": 7644672,
+   "text": "Target Practice",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1171,
+   "id": 7644928,
+   "text": "Hitting Home Runs",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1172,
+   "id": 7645184,
+   "text": "Batting Practice",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1173,
+   "id": 7645440,
+   "text": "Swing Control",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1174,
+   "id": 7645696,
+   "text": "Picking Up Spares",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1175,
+   "id": 7645952,
+   "text": "Spin Control",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1176,
+   "id": 7646208,
+   "text": "Power Throws",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1177,
+   "id": 7646464,
+   "text": "Putting",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1178,
+   "id": 7646720,
+   "text": "Hitting the Green",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1179,
+   "id": 7646976,
+   "text": "Target Practice",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1180,
+   "id": 7647232,
+   "text": "Throwing Punches",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1181,
+   "id": 7647488,
+   "text": "Dodging",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1182,
+   "id": 7647744,
+   "text": "Working the Bag",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1183,
+   "id": 7649280,
+   "text": "Again",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1184,
+   "id": 7649536,
+   "text": "Quit",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1185,
+   "id": 7651840,
+   "text": "Platinum",
+   "attrs": "0000000000370000"
+  },
+  {
+   "index": 1186,
+   "id": 7652096,
+   "text": "Gold",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 1187,
+   "id": 7652352,
+   "text": "Silver",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 1188,
+   "id": 7652608,
+   "text": "Bronze",
+   "attrs": "00000000003c0000"
+  },
+  {
+   "index": 1189,
+   "id": 7654400,
+   "text": "Tennis",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1190,
+   "id": 7654656,
+   "text": "Baseball",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1191,
+   "id": 7654912,
+   "text": "Bowling",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1192,
+   "id": 7655168,
+   "text": "Golf",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1193,
+   "id": 7655424,
+   "text": "Boxing",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1194,
+   "id": 7656960,
+   "text": "Training",
+   "attrs": "0000000000820000"
+  },
+  {
+   "index": 1195,
+   "id": 7657216,
+   "text": "Wii Fitness",
+   "attrs": "0000000000820000"
+  },
+  {
+   "index": 1196,
+   "id": 7659520,
+   "text": "㌃㌶㍑",
+   "attrs": "0000000000960000"
+  },
+  {
+   "index": 1197,
+   "id": 7662080,
+   "text": "Please press  and .",
+   "attrs": "00000000005a0000"
+  },
+  {
+   "index": 1198,
+   "id": 7664640,
+   "text": "Wii Sports",
+   "attrs": "0000000000640000"
+  },
+  {
+   "index": 1199,
+   "id": 7664896,
+   "text": "Play like a pro!",
+   "attrs": "0000000000640000"
+  }
+ ]
+}

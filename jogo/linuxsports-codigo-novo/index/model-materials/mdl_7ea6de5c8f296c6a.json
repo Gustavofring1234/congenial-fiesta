@@ -1,0 +1,59 @@
+{
+ "assetId": "mdl_7ea6de5c8f296c6a",
+ "model": "glf_pin1",
+ "materials": [
+  {
+   "name": "M_flag",
+   "translucent": true,
+   "doubleSided": true,
+   "layers": [
+    {
+     "texture": "glf_flag1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1",
+    "polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_pin",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_pin1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "glf_flag1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_pin1.brres",
+   "materials": [
+    "M_flag"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_pin1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_pin1.brres",
+   "materials": [
+    "M_pin"
+   ],
+   "layer0": true
+  }
+ ]
+}

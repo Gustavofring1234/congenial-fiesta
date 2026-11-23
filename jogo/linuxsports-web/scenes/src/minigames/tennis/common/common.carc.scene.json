@@ -1,0 +1,99 @@
+{
+ "format": "nw4r-scene",
+ "version": 1,
+ "assetId": "scn_bfe7bed7f790b475",
+ "source": "src/minigames/tennis/common/common.carc",
+ "sport": "tennis",
+ "models": [
+  {
+   "name": "G3D/ava_head.brres/ava_head",
+   "ref": "mdl_7cb31ca95e2843f5"
+  },
+  {
+   "name": "G3D/tns_ball_a.brres/tns_ball_a",
+   "ref": "mdl_115d43c8debc4871"
+  },
+  {
+   "name": "G3D/tns_mato.brres/tns_mato_a",
+   "ref": "mdl_5422d68fdfbfe78d"
+  },
+  {
+   "name": "G3D/tns_mato.brres/tns_mato_b",
+   "ref": "mdl_5422d38fdfbfe274"
+  },
+  {
+   "name": "G3D/tns_mato.brres/tns_mato_c",
+   "ref": "mdl_5422d48fdfbfe427"
+  },
+  {
+   "name": "G3D/tns_pole.brres/tns_pole",
+   "ref": "mdl_8a86b4d218210427"
+  },
+  {
+   "name": "G3D/tns_r_color.brres/tns_r_color",
+   "ref": "mdl_d22e27ed9d9bf175"
+  },
+  {
+   "name": "G3D/tns_r_shadow.brres/tns_r_shadow",
+   "ref": "mdl_582ab15334348f75"
+  },
+  {
+   "name": "G3D/tns_racket.brres/tns_racket",
+   "ref": "mdl_4a55034043ab1877"
+  }
+ ],
+ "collision": [],
+ "objects": [],
+ "data": [
+  {
+   "role": "bti",
+   "name": "bti/block.bti",
+   "ref": "bin_2b5e9866370ab775"
+  },
+  {
+   "role": "bti",
+   "name": "bti/shadow.bti",
+   "ref": "bin_15817b7188bc946a"
+  },
+  {
+   "role": "pblm",
+   "name": "Environment/scene_Bloom_b.pblm",
+   "ref": "bin_684c710c19cb153d"
+  },
+  {
+   "role": "pblm",
+   "name": "Environment/scene_Bloom.pblm",
+   "ref": "bin_f2d3e118b4015272"
+  },
+  {
+   "role": "plight",
+   "name": "Environment/scene_Light_b.plight",
+   "ref": "bin_8f650178cd6ef5b1"
+  },
+  {
+   "role": "plight",
+   "name": "Environment/scene_Light_select.plight",
+   "ref": "bin_e115acf3de494831"
+  },
+  {
+   "role": "plight",
+   "name": "Environment/scene_Light.plight",
+   "ref": "bin_d519d9b79d20a4b6"
+  },
+  {
+   "role": "plmap",
+   "name": "Environment/scene_Lm_b.plmap",
+   "ref": "bin_5f8a21d367706536"
+  },
+  {
+   "role": "plmap",
+   "name": "Environment/scene_Lm_select.plmap",
+   "ref": "bin_99bfa43eccbf7624"
+  },
+  {
+   "role": "plmap",
+   "name": "Environment/scene_Lm.plmap",
+   "ref": "bin_d74f77c450cb002b"
+  }
+ ]
+}

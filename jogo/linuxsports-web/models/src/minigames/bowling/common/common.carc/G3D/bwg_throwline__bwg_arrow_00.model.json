@@ -1,0 +1,24 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_3ec9f124b64b3840",
+ "source": "src/minigames/bowling/common/common.carc/G3D/bwg_throwline.brres/bwg_arrow_00",
+ "brres": "src/minigames/bowling/common/common.carc/G3D/bwg_throwline.brres",
+ "model": "bwg_arrow_00",
+ "glb": "models/src/minigames/bowling/common/common.carc/G3D/bwg_throwline__bwg_arrow_00.glb",
+ "textures": [
+  {
+   "name": "arrow_00",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_throwline.brres"
+  },
+  {
+   "name": "arrow_01",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_throwline.brres"
+  },
+  {
+   "name": "arrow_02",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_throwline.brres"
+  }
+ ],
+ "animations": []
+}

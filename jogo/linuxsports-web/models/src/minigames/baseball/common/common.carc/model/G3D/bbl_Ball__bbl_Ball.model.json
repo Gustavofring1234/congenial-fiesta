@@ -1,0 +1,28 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_df601120208c81ec",
+ "source": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Ball.brres/bbl_Ball",
+ "brres": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Ball.brres",
+ "model": "bbl_Ball",
+ "glb": "models/src/minigames/baseball/common/common.carc/model/G3D/bbl_Ball__bbl_Ball.glb",
+ "textures": [
+  {
+   "name": "bbl_Ball",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Ball.brres"
+  },
+  {
+   "name": "bbl_Ball_env",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Ball.brres"
+  },
+  {
+   "name": "bbl_Ball_nuime",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Ball.brres"
+  },
+  {
+   "name": "bbl_Ball_white",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Ball.brres"
+  }
+ ],
+ "animations": []
+}

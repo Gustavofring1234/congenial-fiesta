@@ -1,0 +1,39 @@
+{
+ "assetId": "mdl_11ac2b0a5f97d21c",
+ "model": "logo_model",
+ "materials": [
+  {
+   "name": "logo_mat",
+   "translucent": true,
+   "doubleSided": true,
+   "layers": [
+    {
+     "texture": "WiiSports_logo",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "WiSpt_logo",
+   "foundIn": "src/minigames/fitness/common/common.carc/G3D/logo_model.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "WiiSports_logo",
+   "foundIn": null,
+   "materials": [
+    "logo_mat"
+   ],
+   "layer0": true
+  }
+ ]
+}

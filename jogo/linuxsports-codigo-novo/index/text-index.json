@@ -1,0 +1,18 @@
+[
+ {
+  "language": "us",
+  "file": "common_message",
+  "path": "Text/us/common_message.text.json",
+  "messages": 133,
+  "nonEmpty": 116,
+  "duplicateIds": 0
+ },
+ {
+  "language": "us",
+  "file": "sports_message",
+  "path": "Text/us/sports_message.text.json",
+  "messages": 1200,
+  "nonEmpty": 960,
+  "duplicateIds": 0
+ }
+]

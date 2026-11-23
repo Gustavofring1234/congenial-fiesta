@@ -1,0 +1,21 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_4612de54072ac963",
+ "source": "src/minigames/bowling/common/common.carc/G3D/bwg_conveyer.brres/pin_conveyer",
+ "brres": "src/minigames/bowling/common/common.carc/G3D/bwg_conveyer.brres",
+ "model": "pin_conveyer",
+ "glb": "models/src/minigames/bowling/common/common.carc/G3D/bwg_conveyer__pin_conveyer.glb",
+ "textures": [
+  {
+   "name": "pin_comber",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_conveyer.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "pin_conveyer"
+  }
+ ]
+}

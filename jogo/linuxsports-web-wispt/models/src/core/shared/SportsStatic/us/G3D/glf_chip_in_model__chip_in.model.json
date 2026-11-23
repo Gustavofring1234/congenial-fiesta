@@ -1,0 +1,128 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_b2c24ba691d11a89",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_chip_in_model.brres/chip_in",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_chip_in_model.brres",
+ "model": "chip_in",
+ "glb": "models/src/core/shared/SportsStatic/us/G3D/glf_chip_in_model__chip_in.glb",
+ "textures": [
+  {
+   "name": "glf_chip_in_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_chip_in_model.brres",
+   "materials": [
+    "mt_env",
+    "mt_mat"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "glf_env",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_chip_in_model.brres",
+   "materials": [
+    "mt_env",
+    "mt_mat"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_flash",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_chip_in_model.brres",
+   "materials": [
+    "mt_flash"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "chip_in"
+  },
+  {
+   "type": "SRT0",
+   "name": "chip_in"
+  },
+  {
+   "type": "CLR0",
+   "name": "chip_in"
+  }
+ ],
+ "materials": [
+  {
+   "name": "mt_env",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_env",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_chip_in_ENG",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1",
+    "polygon3",
+    "polygon5",
+    "polygon7",
+    "polygon9",
+    "polygon11",
+    "polygon14"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_flash",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_flash",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon12"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_mat",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_env",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "glf_chip_in_ENG",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0",
+    "polygon2",
+    "polygon4",
+    "polygon6",
+    "polygon8",
+    "polygon10",
+    "polygon13"
+   ],
+   "inGlb": true
+  }
+ ]
+}

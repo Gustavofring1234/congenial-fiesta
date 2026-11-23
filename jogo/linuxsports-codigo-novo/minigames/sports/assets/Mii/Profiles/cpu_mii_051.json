@@ -1,0 +1,73 @@
+{
+ "id": "cpu_mii_051",
+ "source": "raw/src/core/shared/SportsStatic/common/CPUMii/cpu_mii_051.rcd",
+ "raw": "wA4w2DDsMPMAAAAAAAAAAAAAAAAAAEBAIAAAAAAAAABMRRSIAY9IoqiNZIRkSGiNRmwAig+MAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "info": {
+  "name": "ヘレン",
+  "creator": "",
+  "sex": 1,
+  "birthMonth": 0,
+  "birthDay": 0,
+  "favoriteColor": 7,
+  "favorite": 0,
+  "height": 64,
+  "build": 64,
+  "createId": "2000000000000000",
+  "faceline": {
+   "type": 2,
+   "color": 3,
+   "texture": 1
+  },
+  "hair": {
+   "type": 10,
+   "color": 2,
+   "flip": 0
+  },
+  "eye": {
+   "type": 42,
+   "color": 3,
+   "scale": 2,
+   "rotate": 4,
+   "x": 4,
+   "y": 13
+  },
+  "eyebrow": {
+   "type": 0,
+   "color": 2,
+   "scale": 4,
+   "rotate": 6,
+   "x": 2,
+   "y": 10
+  },
+  "nose": {
+   "type": 6,
+   "scale": 4,
+   "y": 9
+  },
+  "mouth": {
+   "type": 13,
+   "color": 0,
+   "scale": 4,
+   "y": 13
+  },
+  "beard": {
+   "mustache": 0,
+   "type": 0,
+   "color": 0,
+   "scale": 4,
+   "y": 10
+  },
+  "glass": {
+   "type": 4,
+   "color": 3,
+   "scale": 3,
+   "y": 12
+  },
+  "mole": {
+   "type": 0,
+   "scale": 1,
+   "x": 6,
+   "y": 30
+  }
+ }
+}

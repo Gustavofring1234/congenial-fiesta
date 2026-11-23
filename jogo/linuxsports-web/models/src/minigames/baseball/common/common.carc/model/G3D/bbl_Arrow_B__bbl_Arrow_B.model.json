@@ -1,0 +1,25 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_a9473c3a3b9f08a6",
+ "source": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Arrow_B.brres/bbl_Arrow_B",
+ "brres": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Arrow_B.brres",
+ "model": "bbl_Arrow_B",
+ "glb": "models/src/minigames/baseball/common/common.carc/model/G3D/bbl_Arrow_B__bbl_Arrow_B.glb",
+ "textures": [
+  {
+   "name": "arrowB",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Arrow_B.brres"
+  },
+  {
+   "name": "arrowC",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Arrow_B.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "SRT0",
+   "name": "bbl_Arrow_B"
+  }
+ ]
+}

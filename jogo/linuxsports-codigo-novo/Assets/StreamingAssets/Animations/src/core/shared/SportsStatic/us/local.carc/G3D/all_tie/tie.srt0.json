@@ -1,0 +1,1 @@
+{"type":"SRT0","name":"tie","frames":180,"loop":true,"matrixMode":1,"materials":[{"material":"mt_main","textures":[{"slot":1,"indirect":null,"rotate":{"type":"hermite","keys":[[0.0,-180.0,2.0],[180.0,180.0,2.0]]}}]}],"format":"nw4r-anim3d","version":1,"source":"src/core/shared/SportsStatic/us/local.carc/G3D/all_tie.brres/tie"}

@@ -1,0 +1,113 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_65d2061e5eb2f55e",
+ "source": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres/tns_Field_a",
+ "brres": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres",
+ "model": "tns_Field_a",
+ "glb": "models/assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a__tns_Field_a.glb",
+ "textures": [
+  {
+   "name": "cloud01",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "cloud02",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "drm_env04",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_BG_c1",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_gallery_a",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_IN_e1a",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_IN_e2a",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_IN_e3",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_logo_d",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_OUT_e1",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_ROAD_a",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_SHIBA_a",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_sky_a",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_S_a",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_S_tree",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_tree_a3",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_tree_b1",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_tree_c1",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_WALL_a3x",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_WALL_a9",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_WALL_d1",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_WALL_env01",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  },
+  {
+   "name": "tns_window_a",
+   "foundIn": "assets/maps/tennis/tns_Field_a.carc/G3D/tns_Field_a.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "SRT0",
+   "name": "tns_C1"
+  },
+  {
+   "type": "SRT0",
+   "name": "tns_C2"
+  }
+ ]
+}

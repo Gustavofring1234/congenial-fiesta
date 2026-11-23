@@ -1,0 +1,57 @@
+{
+ "assetId": "mdl_e0b8d65e4730b20e",
+ "model": "golf_powerbar_tex01frame",
+ "materials": [
+  {
+   "name": "powerbar_bg",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "pc_glf_metter_w.00",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "pc_glf_metter_w.00",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_bar_frame.brres",
+   "materials": [
+    "powerbar_bg"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "pc_glf_metter_w.01",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_bar_frame.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "pc_glf_metter_w.02",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_bar_frame.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "pc_glf_metter_w.03",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_bar_frame.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "pc_glf_metter_w.04",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_bar_frame.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ]
+}

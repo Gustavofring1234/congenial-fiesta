@@ -1,0 +1,59 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_d22e27ed9d9bf175",
+ "source": "src/minigames/tennis/common/common.carc/G3D/tns_r_color.brres/tns_r_color",
+ "brres": "src/minigames/tennis/common/common.carc/G3D/tns_r_color.brres",
+ "model": "tns_r_color",
+ "glb": "models/src/minigames/tennis/common/G3D/tns_r_color__tns_r_color.glb",
+ "textures": [
+  {
+   "name": "tns_racket_a",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_r_color.brres",
+   "materials": [
+    "gat_a"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [],
+ "materials": [
+  {
+   "name": "M_grip",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_racket",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [],
+   "objects": [
+    "polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "gat_a",
+   "translucent": true,
+   "doubleSided": true,
+   "layers": [
+    {
+     "texture": "tns_racket_a",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ]
+}

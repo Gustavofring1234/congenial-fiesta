@@ -1,0 +1,33 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_e8c70951c61935d5",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_nice_in_model.brres/nice_in",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_nice_in_model.brres",
+ "model": "nice_in",
+ "glb": "models/src/core/shared/SportsStatic/us/local.carc/G3D/glf_nice_in_model__nice_in.glb",
+ "textures": [
+  {
+   "name": "glf_alpha",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_nice_in_model.brres"
+  },
+  {
+   "name": "glf_nice_in_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_nice_in_model.brres"
+  },
+  {
+   "name": "glf_nice_in_shadow_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/glf_nice_in_model.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "nice_in"
+  },
+  {
+   "type": "CLR0",
+   "name": "nice_in"
+  }
+ ]
+}

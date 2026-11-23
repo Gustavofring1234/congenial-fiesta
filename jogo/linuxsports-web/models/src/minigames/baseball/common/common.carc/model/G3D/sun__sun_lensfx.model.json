@@ -1,0 +1,40 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_b2c57c7bd74a1601",
+ "source": "src/minigames/baseball/common/common.carc/model/G3D/sun.brres/sun_lensfx",
+ "brres": "src/minigames/baseball/common/common.carc/model/G3D/sun.brres",
+ "model": "sun_lensfx",
+ "glb": "models/src/minigames/baseball/common/common.carc/model/G3D/sun__sun_lensfx.glb",
+ "textures": [
+  {
+   "name": "P_glow1",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/sun.brres"
+  },
+  {
+   "name": "P_glow2",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/sun.brres"
+  },
+  {
+   "name": "P_glow3",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/sun.brres"
+  },
+  {
+   "name": "P_glow4",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/sun.brres"
+  },
+  {
+   "name": "P_glow5",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/sun.brres"
+  },
+  {
+   "name": "P_sun_core1d",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/sun.brres"
+  },
+  {
+   "name": "P_sun_spreadline5",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/sun.brres"
+  }
+ ],
+ "animations": []
+}

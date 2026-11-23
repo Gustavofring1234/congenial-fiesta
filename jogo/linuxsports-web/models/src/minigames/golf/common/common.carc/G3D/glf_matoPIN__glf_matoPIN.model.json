@@ -1,0 +1,25 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_6ecb2804cb0cc160",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_matoPIN.brres/glf_matoPIN",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_matoPIN.brres",
+ "model": "glf_matoPIN",
+ "glb": "models/src/minigames/golf/common/common.carc/G3D/glf_matoPIN__glf_matoPIN.glb",
+ "textures": [
+  {
+   "name": "glfM_matoPIN_ball",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_matoPIN.brres"
+  },
+  {
+   "name": "glfM_matoPIN_sh2",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_matoPIN.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CLR0",
+   "name": "glf_matoPIN"
+  }
+ ]
+}

@@ -1,0 +1,368 @@
+{
+ "assetId": "mdl_83febb82f7050662",
+ "model": "bwg_wall_R_mirror",
+ "materials": [
+  {
+   "name": "kabe_etc_mat",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "kabe_etc",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    },
+    {
+     "texture": "projection_1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "kabe_mat",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "kabe",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "projection_1",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "shadow_b_mat",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "shadow_b",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "alpha_z",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "back_floor",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "back_roof",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "ball_comber",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "ball_putplace_",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "ball_return",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "ball_stand",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "black",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_ball_alpha",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_chair_env",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_conveyer_env",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_etc",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_pin_env",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_screen",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_screen_alpha",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_screen_tekari",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "carpet",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "chair",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "chair_cylinder",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "chair_cylinder_env",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "counter",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "counter_test",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "dust_table",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "env_test",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "floor",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "floor_mura02",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "gater",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "inside",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "jihanki",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "kabe",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [
+    "kabe_mat"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "kabe_etc",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [
+    "kabe_etc_mat"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "kansetu_light",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "locker",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "mark",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "mirror",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "pin_spot",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "projection",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "projection_1",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [
+    "kabe_etc_mat",
+    "kabe_mat"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "projection_2",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "put_ball_env",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "roof",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "roof_91",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "roof_light",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "roof_mirror",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "shadow_a",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "shadow_b",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [
+    "shadow_b_mat"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "table",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "white",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_field_91.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ]
+}

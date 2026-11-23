@@ -1,0 +1,120 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_e87ff9cb2ad27d63",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_club.brres/glf_club_PT",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+ "model": "glf_club_PT",
+ "glb": "models/src/minigames/golf/common/G3D/glf_club__glf_club_PT.glb",
+ "textures": [
+  {
+   "name": "env1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_driver_grip",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [
+    "M_Grip"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_driver_grip1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_driver_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_env04",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [
+    "M_PutterHead"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "glf_env08",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_env1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_iron_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glf_putter_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [
+    "M_PutterHead"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_sw_head",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_club.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ],
+ "animations": [],
+ "materials": [
+  {
+   "name": "M_Grip",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_driver_grip",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_PutterHead",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_putter_head",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    },
+    {
+     "texture": "glf_env04",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ]
+}

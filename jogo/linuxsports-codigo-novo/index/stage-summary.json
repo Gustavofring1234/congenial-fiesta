@@ -1,0 +1,24 @@
+{
+ "scenes": {
+  "scenes": 32,
+  "objects": 1361,
+  "onTerrain": 1359,
+  "within5Units": 1246,
+  "maxAbsMedianHeightOffset": 0.89,
+  "teeVotes": {
+   "aligned": 12
+  },
+  "convention": "Wii colunas (X,Y,Z) a partir do registro Z,Y,X; Unity = espelho em X: pos(-x,y,z), quat(x,-y,-z,w)"
+ },
+ "ui": {
+  "layouts": 138,
+  "animations": 647,
+  "animationsWithMissingTargets": 47,
+  "files": 1399
+ },
+ "text": {
+  "bmgFiles": 2,
+  "messages": 1333,
+  "tsvFiles": 2
+ }
+}

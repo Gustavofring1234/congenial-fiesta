@@ -1,0 +1,22 @@
+/** API pública (sem dependências de Node — utilizável no browser e em Web Workers). */
+export * from './binary/reader.ts';
+export * from './binary/png.ts';
+export * from './binary/ids.ts';
+export * from './codecs/gx.ts';
+export * from './parsers/yaz0.ts';
+export * from './parsers/u8.ts';
+export * from './parsers/tpl.ts';
+export * from './parsers/brfnt.ts';
+export * from './parsers/brlan.ts';
+export { isBrlyt, parseBrlyt, parseBrlytRefs, flattenPanes, type BrlytFile, type BrlytRefs, type PaneType, type Rgba, type Vec2 } from './parsers/brlyt.ts';
+export type { LayoutPane as BrlytPane, LayoutMaterial as BrlytMaterial, LayoutGroup as BrlytGroup } from './parsers/brlyt.ts';
+export * from './parsers/kcl.ts';
+export * from './serializers/texture.ts';
+export * from './serializers/font.ts';
+export * from './serializers/anim.ts';
+export * from './serializers/glb.ts';
+export * from './serializers/collision.ts';
+export * from './serializers/bundle.ts';
+export * from './schemas/bundle.schema.ts';
+export * from './web-runtime/curves.ts';
+export * from './web-runtime/WebAssetLoader.ts';

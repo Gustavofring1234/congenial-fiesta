@@ -1,0 +1,149 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_20de8bc6b195098e",
+ "source": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres/bbl_Field_a",
+ "brres": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres",
+ "model": "bbl_Field_a",
+ "glb": "models/assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a__bbl_Field_a.glb",
+ "textures": [
+  {
+   "name": "base",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "bbl_Bat_env",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "bgView",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "circle02",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "cloud01",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "cloud02",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "dag_out",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "fence",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "foul_pole",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "grass01",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "grass02",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "line",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "nets",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "roof01",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "seat",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "shadows",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "shadow_tex1",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "shadow_tex2",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "signboardA",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "signboardB",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "signboardBshadow",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "sky_a",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "stairs",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "tns_WALL_d1",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "trees",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "tsuchi01",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "tsuchi02",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "tsuchi03",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "tsuchi04",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "walls01",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "walls02",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  },
+  {
+   "name": "window",
+   "foundIn": "assets/maps/baseball/ballpark00.carc/G3D/bbl_Field_a.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "SRT0",
+   "name": "bbl_Field_cloud01"
+  },
+  {
+   "type": "SRT0",
+   "name": "bbl_Field_cloud02"
+  }
+ ]
+}

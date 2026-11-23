@@ -1,0 +1,96 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_4f0f1a213ad05b9e",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres/count10_4",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres",
+ "model": "count10_4",
+ "glb": "models/src/core/shared/SportsStatic/us/local.carc/G3D/box_count10__count10_4.glb",
+ "textures": [
+  {
+   "name": "box_env",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_10_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_10_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_1_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_1_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_2_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_2_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_3_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_3_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_4_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_4_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_5_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_5_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_6_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_6_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_7_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_7_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_8_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_8_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_9_ind",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  },
+  {
+   "name": "count10_9_tex",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_count10.brres"
+  }
+ ],
+ "animations": []
+}

@@ -1,0 +1,371 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_9f5a008259267121",
+ "source": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres/box_light",
+ "brres": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+ "model": "box_light",
+ "glb": "models/assets/maps/boxing/G3D/box_ring__box_light.glb",
+ "textures": [
+  {
+   "name": "box_c_sponge",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_env_c_mat01",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_env_c_mat02",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_grid1_i",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_kaidan",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_kaidan_shadow",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_mat01",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_saku",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_saku_sadow",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_seat",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_stair",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_top01",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_wall",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_hall_wall_ura",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_id02",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_light_frame",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_light_front",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_light_hokori",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [
+    "box_light_air"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "box_light_spot",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [
+    "box_light_spot"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "box_light_spot_env",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [
+    "box_light_air",
+    "box_light_spot"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "box_logo_nin",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_logo_nin_big55",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_logo_wii",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_logo_ws_big",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_monitor_edge_i",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_ring_floor",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_ring_floor_mura",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_ring_side06",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_rope_kage",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_rope_shade01",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_spot_front",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [
+    "box_spot_front"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "box_TV.1",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_TV.2",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_TV_dots_i",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_ring.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ],
+ "animations": [
+  {
+   "type": "SRT0",
+   "name": "box_light"
+  }
+ ],
+ "materials": [
+  {
+   "name": "box_light_air",
+   "translucent": true,
+   "doubleSided": true,
+   "layers": [
+    {
+     "texture": "box_light_hokori",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    },
+    {
+     "texture": "box_light_spot_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon77",
+    "polygon78"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "box_light_spot",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "box_light_spot",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    },
+    {
+     "texture": "box_light_spot_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon76"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "box_spot_front",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "box_spot_front",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon0",
+    "polygon1",
+    "polygon2",
+    "polygon3",
+    "polygon4",
+    "polygon5",
+    "polygon6",
+    "polygon7",
+    "polygon8",
+    "polygon9",
+    "polygon10",
+    "polygon11",
+    "polygon12",
+    "polygon13",
+    "polygon14",
+    "polygon15",
+    "polygon16",
+    "polygon17",
+    "polygon18",
+    "polygon19",
+    "polygon20",
+    "polygon21",
+    "polygon22",
+    "polygon23",
+    "polygon24",
+    "polygon25",
+    "polygon26",
+    "polygon27",
+    "polygon28",
+    "polygon29",
+    "polygon30",
+    "polygon31",
+    "polygon32",
+    "polygon33",
+    "polygon34",
+    "polygon35",
+    "polygon36",
+    "polygon37",
+    "polygon38",
+    "polygon39",
+    "polygon40",
+    "polygon41",
+    "polygon42",
+    "polygon43",
+    "polygon44",
+    "polygon45",
+    "polygon46",
+    "polygon47",
+    "polygon48",
+    "polygon49",
+    "polygon50",
+    "polygon51",
+    "polygon52",
+    "polygon53",
+    "polygon54",
+    "polygon55",
+    "polygon56",
+    "polygon57",
+    "polygon58",
+    "polygon59",
+    "polygon60",
+    "polygon61",
+    "polygon62",
+    "polygon63",
+    "polygon64",
+    "polygon65",
+    "polygon66",
+    "polygon67",
+    "polygon68",
+    "polygon69",
+    "polygon70",
+    "polygon71",
+    "polygon72",
+    "polygon73",
+    "polygon74",
+    "polygon75"
+   ],
+   "inGlb": true
+  }
+ ]
+}

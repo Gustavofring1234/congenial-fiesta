@@ -1,0 +1,31 @@
+{
+ "format": "nw4r-scene",
+ "version": 1,
+ "assetId": "scn_f2660f4083678e3e",
+ "source": "src/core/shared/RPCommon/common/common.carc",
+ "sport": "shared",
+ "models": [
+  {
+   "name": "G3D/logo_model.brres/logo_model",
+   "ref": "mdl_a37244ef72931802"
+  },
+  {
+   "name": "G3D/menu_BG_model.brres/menu_BG_model",
+   "ref": "mdl_ca4afd845eeca8b6"
+  }
+ ],
+ "collision": [],
+ "objects": [],
+ "data": [
+  {
+   "role": "plight",
+   "name": "Environment/scene_Light.plight",
+   "ref": "bin_1c05d56e3564018b"
+  },
+  {
+   "role": "plmap",
+   "name": "Environment/scene_Lm.plmap",
+   "ref": "bin_923b68462a5099de"
+  }
+ ]
+}

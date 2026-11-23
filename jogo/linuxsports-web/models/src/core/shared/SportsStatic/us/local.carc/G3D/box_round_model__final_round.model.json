@@ -1,0 +1,36 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_8577b971741968cc",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model.brres/final_round",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model.brres",
+ "model": "final_round",
+ "glb": "models/src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model__final_round.glb",
+ "textures": [
+  {
+   "name": "final_round_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model.brres"
+  },
+  {
+   "name": "round1_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model.brres"
+  },
+  {
+   "name": "round2_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model.brres"
+  },
+  {
+   "name": "round_back",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model.brres"
+  },
+  {
+   "name": "round_frame",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model.brres"
+  },
+  {
+   "name": "round_mask",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_round_model.brres"
+  }
+ ],
+ "animations": []
+}

@@ -1,0 +1,41 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_30e7e4c624f4ea5a",
+ "source": "assets/maps/golf/glf_course_angle.carc/G3D/glf_course_angle.brres/glf_course_angle",
+ "brres": "assets/maps/golf/glf_course_angle.carc/G3D/glf_course_angle.brres",
+ "model": "glf_course_angle",
+ "glb": "models/assets/maps/golf/glf_course_angle.carc/G3D/glf_course_angle__glf_course_angle.glb",
+ "textures": [
+  {
+   "name": "glf_fairway1",
+   "foundIn": "assets/maps/golf/glf_course_angle.carc/G3D/glf_course_angle.brres"
+  },
+  {
+   "name": "glf_fairway_line1",
+   "foundIn": "assets/maps/golf/glf_course_angle.carc/G3D/glf_course_angle.brres"
+  },
+  {
+   "name": "glf_sand01",
+   "foundIn": "assets/maps/golf/glf_course_angle.carc/G3D/glf_course_angle.brres"
+  },
+  {
+   "name": "projection_1",
+   "foundIn": "assets/maps/golf/glf_course_angle.carc/G3D/glf_course_angle.brres"
+  },
+  {
+   "name": "projection_2",
+   "foundIn": "assets/maps/golf/glf_course_angle.carc/G3D/glf_course_angle.brres"
+  },
+  {
+   "name": "projection_3",
+   "foundIn": "assets/maps/golf/glf_course_angle.carc/G3D/glf_course_angle.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "SCN0",
+   "name": "glf_scene_angle"
+  }
+ ]
+}

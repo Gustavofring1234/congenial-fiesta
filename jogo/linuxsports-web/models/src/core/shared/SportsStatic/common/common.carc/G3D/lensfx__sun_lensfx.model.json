@@ -1,0 +1,32 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_e244d8011d1bb205",
+ "source": "src/core/shared/SportsStatic/common/common.carc/G3D/lensfx.brres/sun_lensfx",
+ "brres": "src/core/shared/SportsStatic/common/common.carc/G3D/lensfx.brres",
+ "model": "sun_lensfx",
+ "glb": "models/src/core/shared/SportsStatic/common/common.carc/G3D/lensfx__sun_lensfx.glb",
+ "textures": [
+  {
+   "name": "P_glow1",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/lensfx.brres"
+  },
+  {
+   "name": "P_glow2",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/lensfx.brres"
+  },
+  {
+   "name": "P_glow3",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/lensfx.brres"
+  },
+  {
+   "name": "P_glow4",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/lensfx.brres"
+  },
+  {
+   "name": "P_glow5",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/lensfx.brres"
+  }
+ ],
+ "animations": []
+}

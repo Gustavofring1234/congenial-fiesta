@@ -1,0 +1,20 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_3714054860a4d3b4",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_cup.brres/glf_cup",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_cup.brres",
+ "model": "glf_cup",
+ "glb": "models/src/minigames/golf/common/common.carc/G3D/glf_cup__glf_cup.glb",
+ "textures": [
+  {
+   "name": "glf_cup",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_cup.brres"
+  },
+  {
+   "name": "glf_cup_side",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_cup.brres"
+  }
+ ],
+ "animations": []
+}

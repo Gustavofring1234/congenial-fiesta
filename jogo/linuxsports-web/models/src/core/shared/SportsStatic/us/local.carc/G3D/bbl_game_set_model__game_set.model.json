@@ -1,0 +1,33 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_c369b49de4ec5162",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_game_set_model.brres/game_set",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_game_set_model.brres",
+ "model": "game_set",
+ "glb": "models/src/core/shared/SportsStatic/us/local.carc/G3D/bbl_game_set_model__game_set.glb",
+ "textures": [
+  {
+   "name": "bbl_back",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_game_set_model.brres"
+  },
+  {
+   "name": "bbl_env2",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_game_set_model.brres"
+  },
+  {
+   "name": "bbl_game_set_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bbl_game_set_model.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "game_set"
+  },
+  {
+   "type": "CLR0",
+   "name": "game_set"
+  }
+ ]
+}

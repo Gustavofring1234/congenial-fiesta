@@ -1,0 +1,163 @@
+{
+ "assetId": "mdl_644d45cbbd1ff4be",
+ "model": "box_avatarA",
+ "materials": [
+  {
+   "name": "box_avatar_body",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "box_avatar_dummy",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "box_avatar_hand_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0",
+    "polygon3",
+    "polygon6",
+    "polygon9",
+    "polygon15",
+    "polygon16",
+    "polygon17",
+    "polygon18",
+    "polygon19",
+    "polygon20",
+    "polygon21",
+    "polygon22"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "box_avatar_dummyA",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "box_avatar_dummy",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon2",
+    "polygon5",
+    "polygon8",
+    "polygon11",
+    "polygon12"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "box_avatar_dummyB",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "box_avatar_dummy",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "box_avatar_dummy",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1",
+    "polygon4",
+    "polygon7",
+    "polygon10"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "box_avatar_far",
+   "translucent": false,
+   "doubleSided": true,
+   "layers": [
+    {
+     "texture": "box_avatar_far",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon13"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "people_dots",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "box_people_dotsA",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon14"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "box_avatar_dummy",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_avatar.brres",
+   "materials": [
+    "box_avatar_body",
+    "box_avatar_dummyA",
+    "box_avatar_dummyB"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "box_avatar_far",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_avatar.brres",
+   "materials": [
+    "box_avatar_far"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "box_avatar_hand_env",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_avatar.brres",
+   "materials": [
+    "box_avatar_body"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "box_people_dotsA",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_avatar.brres",
+   "materials": [
+    "people_dots"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "box_people_dotsB",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_avatar.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ]
+}

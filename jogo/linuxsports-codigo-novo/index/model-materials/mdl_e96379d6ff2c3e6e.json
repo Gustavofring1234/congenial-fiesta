@@ -1,0 +1,82 @@
+{
+ "assetId": "mdl_e96379d6ff2c3e6e",
+ "model": "sp_titleBG_00",
+ "materials": [
+  {
+   "name": "bgColor",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [],
+   "objects": [
+    "polygon1",
+    "polygon3",
+    "polygon5",
+    "polygon7",
+    "polygon9",
+    "polygon11",
+    "polygon13",
+    "polygon15",
+    "polygon17",
+    "polygon19",
+    "polygon21",
+    "polygon23",
+    "polygon25",
+    "polygon27",
+    "polygon29",
+    "polygon31",
+    "polygon33",
+    "polygon35",
+    "polygon37",
+    "polygon39",
+    "polygon40"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "titleLogo",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "sp_titleBG_temp",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0",
+    "polygon2",
+    "polygon4",
+    "polygon6",
+    "polygon8",
+    "polygon10",
+    "polygon12",
+    "polygon14",
+    "polygon16",
+    "polygon18",
+    "polygon20",
+    "polygon22",
+    "polygon24",
+    "polygon26",
+    "polygon28",
+    "polygon30",
+    "polygon32",
+    "polygon34",
+    "polygon36",
+    "polygon38"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "sp_titleBG_temp",
+   "foundIn": "src/core/shared/RPST/common/common.carc/G3D/sp_titleBG_00.brres",
+   "materials": [
+    "titleLogo"
+   ],
+   "layer0": true
+  }
+ ]
+}

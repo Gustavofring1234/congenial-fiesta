@@ -1,0 +1,4968 @@
+803780cb	\nAnmObjVis
+803780dc	AnmObjVisNode
+803780f0	AnmObjVisOR
+80378103	AnmObjVisRes
+8037811b	AnmObjMatClr
+80378134	AnmObjMatClrNode
+8037814c	AnmObjMatClrOverride
+8037816c	AnmObjMatClrRes
+80378183	AnmObjTexPat
+8037819c	AnmObjTexPatNode
+803781b4	AnmObjTexPatOverride
+803781d4	AnmObjTexPatRes
+803781eb	AnmObjTexSrt
+80378204	AnmObjTexSrtNode
+8037821c	AnmObjTexSrtOverride
+8037823c	AnmObjTexSrtRes
+80378253	\nAnmObjChr
+80378264	AnmObjChrNode
+80378278	AnmObjChrBlend
+8037828b	AnmObjChrRes
+803782b4	AnmObjShpNode
+803782c8	AnmObjShpBlend
+803782db	AnmObjShpRes
+80378b9c	ScnLeaf
+80378bab	\tScnGroup
+80378bbc	ScnRoot
+80378bcb	ScnMdlSimple
+80378c0c	ScnProc
+80378c18	eggShadowTextureManager.cpp
+80378c34	group < GROUP_MAX
+80378c46	Can't set texture any more.
+80378c9c	eggStateGX.cpp
+80378cad	s0 < 2048
+80378cb7	s1 < 2048
+80378cc1	s2 < 2048
+80378ccb	s3 < 2048
+80378cd5	b0 % 2 == 0
+80378ce1	b1 % 2 == 0
+80378cf0	eggTextureBuffer.cpp
+80378d05	mState == STATE_ALLOCED
+80378d1d	spBufferAll == NULL
+80378d31	size % 32 == 0
+80378d40	spBufferAll
+80378d4c	Please call TextureBuffer::initialize().
+80378d75	p_buffer
+80378d7e	p_buffer->mpNext == NULL
+80378d97	size > 0
+80378da0	p_list == spHead
+80378db1	No free area.
+80378dc0	eggAnalizeDL.cpp
+80378dd1	vtxDesc
+80378dd9	vtxAttr
+80378de1	i_idx >= nw4r::g3d::ResPrePrimDL::SIZE_GXVTXATTRFMTLIST
+80378e38	eggCapTexture.cpp
+80378e4a	getBuffer()
+80378e56	Please call configure() after construct!
+80378e7f	w > 0 && h > 0
+80378e90	eggCpuTexture.cpp
+80378ea2	pColor
+80378ea9	tableStart <= tableGoal
+80378ec1	tableStart <= tableSize && tableGoal <= tableSize
+80378ef3	tableSize <= 1024
+80378f05	Please call configure() after construct!
+80378f33	mpBuffer
+80378f3c	checkHasHeader()
+80378f4d	getFormat() == GX_TF_RGBA8
+80378f68	getBuffer()
+80378f74	getFormat() == GX_TF_RGBA8 || getFormat() == GX_TF_I8
+80378faa	isSLine || dir == 't' || dir == 'T'
+80378fce	tableSize % 2 == 0
+80378fe1	getTexBufferSize() > 0
+80378ff8	pBuffer
+80379000	x < getWidth()
+8037900f	y < getHeight()
+80379220	eggDrawGX.cpp
+8037922e	divide > 0
+80379241	num % 2 == 0
+8037924e	pRes != NULL
+8037925b	tex.IsValid()
+80379269	( s_flag & FLAG_INITIALIZE_DISPLAY_LIST ) == 0
+8037929a	s_DL[i_dl].m_size < tmpSize
+803792b6	s_flag & FLAG_INITIALIZE_DISPLAY_LIST
+803792dc	zMode < ZMODE_MAX
+803792ee	blendMode < BLEND_MAX
+80379322	eggDrawPathBloom.cpp
+80379337	pData
+80379340	eggDrawPathDOF.cpp
+80379353	mpDOF
+80379359	mpBlur
+80379360	mpBlurSimple
+8037936d	mpMask
+80379374	mFocusRange > 0.f
+80379386	StateGX::getDefaultPixelFormat() == GX_PF_RGBA6_Z24
+803793c0	eggDrawPathHDR.cpp
+803793d3	p_buff
+803793ec	eggDrawPathShadowVolume.cpp
+80379408	mpFull
+80379410	eggG3DUtility.cpp
+80379422	tmpSize % 32 == 0
+80379434	sManualProjectionMapMode == i
+80379452	sManualProjectionMapMode != 0
+80379470	srt.IsValid()
+80379481	pName
+80379487	p_resObj
+80379490	eggGfxEngine.cpp
+803794a1	spInstance == NULL
+803794b4	spInstance
+803794bf	interlace < cVFilter_Max
+803794d8	progressive < cVFilter_Max
+80379518	blight
+8037951f	eggLightManager.cpp
+80379533	lightNum > 0
+80379540	ambientNum > 0
+8037954f	m_pLightTextureManager != NULL
+8037956e	m_pObjSet != NULL
+80379580	m_ppLightSet != NULL
+80379595	m_pAmbientSet != NULL
+803795ab	m_ppLightSet[i_light] != NULL
+803795c9	lightNum <= GetNum()
+803795de	ambientNum <= GetAmbientNum()
+803795fc	viewNo < m_viewNum
+8037960f	pScnRoot != NULL
+80379620	l.GetNumLightObj() >= GetNum()
+8037963f	l.GetNumLightSet() >= GetAmbientNum()
+80379665	is_success
+80379675	eggIBinary.h
+80379686	Not for this class.
+80379718	bltex
+8037971e	eggLightTexture.cpp
+80379732	mLightNum > 0
+80379745	mpEffectScale != NULL
+8037975b	mpPttrn != NULL
+80379775	width
+8037977b	height
+80379782	mSetting.mStatus == cDrawStatus_None
+803797a7	getBuffer()
+803797b3	This map can't write this setting!!
+803797d7	getNormalEnvironment()
+803797ee	mSetting.mStatus == cDrawStatus_Drawing
+80379820	blmap
+80379826	eggLightTextureManager.cpp
+80379841	pManager
+8037984a	mTexNum < getMax()
+80379862	0 <= index && index < mTexNum
+80379880	srt.IsValid()
+8037988e	gen.IsValid()
+8037989c	tex_index != -1
+803798ac	p_obj
+803798b2	isEnableClearWorkSpace()
+803798d0	eggIBinary.h
+803798e1	Not for this class.
+803798f8	eggModelBoundingInfo.cpp
+8037991f	m_pMdl
+80379926	m_pMdl->getNumShape() > 0
+80379940	eggModelBoundingInfo.h
+80379957	pData
+8037995d	pData->m_pShapeSet
+803799ac	eggModelEx.cpp
+803799bb	pModel
+803799c7	mpBV == NULL && !( mFlag & cFlag_HasOriginalBV )
+803799fc	Unknown
+80379a0e	shapeIndex < getNumShape()
+80379a29	shp.IsValid()
+80379a37	NodeTree
+80379a40	NodeMix
+80379a48	pWorldMtxArray != NULL
+80379a5f	pViewMtxArray != NULL
+80379a75	!( drawFlag & cDrawShape_None )
+80379a95	type < cSearchType_Max
+80379aac	mpBV == NULL
+80379ab9	matIndex < getNumMaterial()
+80379ad8	eggModelSnapshot.cpp
+80379aed	mdlMax > 0
+80379af8	m_mdlNum < m_mdlMax
+80379b0c	pModel
+80379b13	ModelEx has no bounding info. Please create.
+80379b40	pScreen
+80379b48	eggPostEffectBase.cpp
+80379b5e	mpCapTexture
+80379b6b	scale >= 0.f
+80379b78	eggPostEffectMask.cpp
+80379b8e	getCapTexture()->getLoadMap() != mpDstScreen->getLoadMap()
+80379bd0	eggScnRootEx.cpp
+80379be1	pScnRoot
+80379bea	mpShadowTextureManager
+80379c01	mpScreen
+80379c0a	Can't call this func if not isEnableDoubleBuffer().
+80379c3e	pScnRoot != NULL
+80379c50	eggScreen.cpp
+80379c5e	maxX != NULL
+80379c6b	maxY != NULL
+80379c78	spRoot == NULL || ( spRoot != NULL && spRoot == this )
+80379caf	GetSizeXMax() > 0
+80379cc1	GetSizeYMax() > 0
+80379cf4	eggShadowTexture.cpp
+80379d09	Can't use this format for shadow texture.
+80379d38	m_effectMtxNum < EFFECT_MTX_MAX
+80379d58	Too much texture.
+80379d6a	no such a texture.
+80379d87	m_effectMtxSet[i].m_texSrt.IsValid()
+80379dac	count_calc == count_draw
+80379dc5	Width range over.
+80379dd7	Height range over.
+80379df0	eggIScnProc.cpp
+80379e00	mpDataSet != NULL
+80379e12	mpDataSet == NULL
+80379e24	procNum > 0
+80379e30	procIndex < getNumScnProc()
+80379e4c	pScnGroup
+80379e56	is_push_back
+80379e63	is_remove
+80379e6f	pScnProc
+80379e78	p_data
+80379e7f	p_data->mpThis
+80379e90	eggScnRenderer.cpp
+80379ea3	mppPathSet
+80379eae	mppPathSet == NULL
+80379ec3	mppPathSet != NULL
+80379ed6	getDrawPathBase( i )
+80379eeb	pScnRoot != NULL
+80379f01	This timing is not opa.
+80379f19	Local priority range over.
+80379f34	This timing is not xlu.
+80379f4c	pScnProc
+80379f6a	eggLightObject.cpp
+80379f82	pColor
+80379f8e	ref brightness B must be (0 < B && B < 1)
+80379fbf	pData
+80379ff8	eggPostEffectMaskDOF.cpp
+8037a011	getCapTexture()
+8037a021	m_pDstScreen
+8037a02e	-17 <= scale_exp && scale_exp <= 46
+8037a058	eggScreenEffectBase.cpp
+8037a070	getBuffer( ( BufferType )i ) == NULL
+8037a097	cap_x >= 0.f && cap_y >= 0.f
+8037a0b4	spBufferSet[cBufferType_Hide_1_16].mpAllocBase != NULL
+8037a0f0	eggFrustum.cpp
+8037a104	Illegal camera number.
+8037a11b	Unknown GXProjectionType
+8037a134	p != NULL
+8037a14a	pScreenPos
+8037a155	pViewPos
+8037a169	pPosView
+8037a178	eggGXUtility.cpp
+8037a189	0 <= no && no < 8
+8037a19b	p != NULL
+8037a1b9	Not implemented.
+8037a1cf	tex.IsValid()
+8037a1e7	---------- HALT -------------\n
+8037a206	%s(%d):
+8037a212	eggAssert.cpp
+8037a220	Program Halt
+8037a230	eggMath.cpp
+8037a243	-1 <= t && t <= 1
+8037a255	gcd(%d,%d)\n
+8037a268	eggHeap.cpp
+8037a274	Please call Heap::initialize()
+8037a293	cannot allocate from heap %x : %x\n
+8037a2b6	heap (%p):(%.1fMBytes) size(%d:%.1fMBytes)\n
+8037a2e2	cannot allocate %d from heap %x\n
+8037a303	mHeapHandle != NULL
+8037a317	this != NULL
+8037a328	eggThread.cpp
+8037a336	mStackMemory
+8037a343	mOSThread
+8037a34d	mMesgBuffer
+8037a360	eggSystem.cpp
+8037a36e	MEM1      : %p-> : (%.1fMBytes)\n
+8037a38f	MEM2(Rel) : %p-> : (%.1fMBytes)\n
+8037a3b0	MEM2(Dbg) : %p-> : (%.1fMBytes)\n
+8037a3d1	mem == 0 || mem == 1
+8037a3e8	eggTaskThread.cpp
+8037a3fa	size > 0
+8037a403	sEndMesgBuffer
+8037a418	eggGraphicsFifo.cpp
+8037a42c	!sGraphicsFifo
+8037a43b	OSIsMEM1Region( heap )
+8037a452	mBufBase
+8037a460	eggColorFader.cpp
+8037a472	frame != 0
+8037a480	eggSceneManager.cpp
+8037a494	mCurrentFader
+8037a4a2	pParentHeap_Mem1 && pParentHeap_Mem2
+8037a4c7	pNewHeap && pNewHeap_Mem1 && pNewHeap_Mem2
+8037a4f2	mSceneCreator
+8037a500	pNewScene
+8037a50a	pParent
+8037a512	pParent->getChildScene() == NULL
+8037a533	pScene
+8037a53a	pScene->getHeap() != pScene->getHeap_Debug()
+8037a569	pParentHeap != NULL
+8037a590	eggController.cpp
+8037a5a2	This Status is not for Free Style
+8037a5c4	bit_num > 0 && bit_num <= 32
+8037a5e1	mRumbleMgr == NULL
+8037a5f4	overlap_num > 0
+8037a604	index >= 0 && index < mKPADReadLength
+8037a62a	(coreStatus->hold & cCORE_FSSTICK_BUTTONS) == 0
+8037a65a	(coreStatus->trig & cCORE_FSSTICK_BUTTONS) == 0
+8037a68a	(coreStatus->release & cCORE_FSSTICK_BUTTONS) == 0
+8037a6bd	Create Singleton Twice (%s) : addr %x\n
+8037a6e4	CoreControllerMgr
+8037a6f6	getDevType() == cDEV_DOLPHIN
+8037a715	0 <= channel && channel < 4
+8037a738	eggStream.cpp
+8037a746	Token Error\n
+8037a756	eof::_read (%x,%d) : mPosition %d\n
+8037a77d	eof::_write (%x,%d) : mPosition %d\n
+8037a7b7	SJIS-Assertion : unterminated sjis
+8037a7da	Yen error\n
+8037a7e5	readString(%x,%d) overflow\n
+8037a801	buffer overflow\n[%s]\n
+8037a826	copyToTextBuffer : eof or %d>=%d\n
+8037a848	isBeginGroup is out of support\n
+8037a868	isEndGroup is out of support\n
+8037a888	eggDisplay.cpp
+8037a897	pObj != NULL
+8037ab0d	RenderMode is null
+8037ab20	eggXfb.cpp
+8037ab2b	mBuffer
+8037ab33	rm != NULL
+8037ab3e	video != NULL
+8037ab50	eggDvdRipper.cpp
+8037ab61	heap allocation Failed: %d (heap %p)\n
+8037ab87	readFailed : %d\n
+8037ab98	read Header Failed\n
+8037abb0	eggScene.cpp
+8037abbd	mHeap != NULL
+8037abd0	eggProcessMeter.cpp
+8037abe4	pGXThread->priority > 0
+8037ac00	eggArchive.cpp
+8037ac0f	arcBinary != NULL
+8037ac21	archive != NULL
+8037ac31	false
+8037ac37	not mount this archive
+8037ac4e	openResult
+8037ac59	param
+8037ac61	(totalArray - 1) >= *numFiles_p
+8037ac81	RestSizePathBuf >= NextDirNameLength
+8037acab	fileInfo
+8037acb8	eggDecomp.cpp
+8037acc6	!sWorkArea
+8037acd1	sWorkArea
+8037acdb	sp < cTreeStackSize
+8037acf0	eggCntFile.cpp
+8037acff	sIsInitialized
+8037ad10	eggAudioArcPlayerMgr.cpp
+8037ad29	Unlknown Storage :%d\n
+8037ad3f	Set Sound Heap\n
+8037ad4f	Sound Archive is already opened\n
+8037ad70	cannot alloc setup memory %d\n
+8037ad8e	cannot alloc setup strm memory %d\n
+8037adb1	openArchive : Cannot Use String Data : %s\n
+8037addc	Now Setteing (oprn archive not finished)!!!\n
+8037ae09	archive is not opened!!!\n
+8037ae23	playernum<getPlayer().GetSoundPlayerCount()
+8037ae50	eggAudioExpMgr.cpp
+8037aeb0	eggAudioFxMgr.cpp
+8037aec2	bus<nw4r::snd::AUX_BUS_NUM
+8037aedd	createFxReverbHi FAILED!!! irregal param.\n
+8037af08	createFxReverbHi FAILED!!! need %d (alloc %d)\n
+8037af37	createFxReverbHiDpl2 FAILED!!! irregal param.\n
+8037af66	createFxReverbHiDpl2 FAILED!!! need %d (alloc %d)\n
+8037af99	createFxReverbStd FAILED!!! irregal param.\n
+8037afc5	createFxReverbStd FAILED!!! need %d (alloc %d)\n
+8037aff5	createFxChorus FAILED!!! irregal param.\n
+8037b01e	createFxChorus FAILED!!! need %d (alloc %d)\n
+8037b04b	createFxDelay FAILED!!! irregal param.\n
+8037b073	createFxDelay FAILED!!! need %d (alloc %d)\n
+8037b09f	code>=AudioFx::TYPE_AXFX_MAX
+8037b0c0	eggAudioHeapMgr.cpp
+8037b0d4	mHeap.IsValid()
+8037b0e8	eggAudioMgr.cpp
+8037b100	INF1DAT1STR1MID1FLW1FLI1
+8037b158	eggMsgRes.cpp
+8037b16b	( u32 )data + mMsgHeader->mDataSize > ( u32 )current
+8037b1a0	Illegal data block.\n
+8037b1b9	tagLength
+8037b1c3	tagID
+8037b1c9	param
+8037b1cf	cTagMark == code
+8037b1e0	mMsgDataBlk
+8037b1ec	Not found message %d, %d.\n
+8037b207	mMsgInfoDataBlk
+8037b217	mMsgIDDataBlk
+8037b225	mMsgInfoDataBlk->mNumEntries > i
+8037b270	GCN_Mem_Alloc.c : InitDefaultHeap. No Heap Available\n
+8037b2a6	Metrowerks CW runtime library initializing default heap\n
+8037b2f8	542101086242752217003726400434970855712890625
+8037b326	11102230246251565404236316680908203125
+8037b34d	23283064365386962890625
+8037b365	152587890625
+8037b372	390625
+8037b379	78125
+8037b37f	15625
+8037b7d8	%a %b %e %T %Y
+8037b7e8	%I:%M:%S %p
+8037b7f4	%m/%d/%y
+8037b800	Sun|Sunday|Mon|Monday|Tue|Tuesday|Wed|Wednesday|Thu|Thursday|Fri|Friday|Sat|Saturday
+8037b858	Jan|January|Feb|February|Mar|March|Apr|April|May|May|Jun|June|Jul|July|Aug|August|Sep|September|Oct|October|Nov|November|Dec|December
+8037b938	INFINITY
+8037c268	MetroTRK for Revolution v0.1
+8037c288	ERROR : No buffer available\n
+8037c2a8	\nMetroTRK Option : SerialIO - 
+8037c2c8	Enable\n
+8037c2d0	Disable\n
+8037c370	Devkit set to : %ld\n
+8037c388	MetroTRK : Sizeof Reply - %ld bytes\n
+8037c3b0	MetroTRK : Set to BBA\n
+8037c3c8	MetroTRK : Set to NDEV hardware\n
+8037c3ec	MetroTRK : Set to UNKNOWN hardware. (%ld)\n
+8037c418	MetroTRK : Invalid hardware ID passed from OS\n
+8037c448	MetroTRK : Defaulting to GDEV Hardware\n
+8037c600	/shared2/sys
+8037c610	/shared2/sys/SYSCONF
+8037c628	/title/00000001/00000002/data/setting.txt
+80381018	nosefrhdfacehaircap_berdnslnmaskglas
+80381b5a	no name
+80381ba2	\nno name
+80381bee	no name
+80381c38	no name
+80381c82	no name
+80381ccc	no name
+803820c8	gameConfig.ini
+803820d7	timeStamp.txt
+803820e5	Now Loading
+803822d5	8$!RPCommon/
+8038230d	RPBsbScene/
+8038231e	RPBowScene/
+80382335	RPGolScene/
+80382348	RPTnsScene/
+8038235b	RPBoxScene/
+80382372	RPSportsTitle/
+80382390	RPSportsCommon/
+803823b9	RPSportsTrainingMenu/
+803823e4	RPSportsPhysical/
+80382470	GameConfig
+8038247b	RootScene
+80382485	TVMode
+8038248c	Language
+80382495	RPPrint
+8038249d	RPSysPrint
+803824a8	RPUtlPrint
+803824b3	RPAudPrint
+803824be	RPSndPrint
+803824c9	RPUserPrint
+803824d5	RPSmkPrint
+803824e0	RPOkaPrint
+803824eb	RPOknPrint
+803824f6	RPKasPrint
+80382501	RPMatPrint
+8038250c	RPSawPrint
+80382517	RPSakPrint
+80382522	RPKodPrint
+8038252d	RPGutPrint
+80382538	RPSaiPrint
+80382543	RPSumPrint
+8038254e	RPUmePrint
+80382559	GameOpen
+80382568	Sound/RPSportsCommon/rp_Common_Sports.brsar
+80382594	GROUP_LOGO
+8038259f	GROUP_COMMON_01
+803825b0	%s %s %s %s
+803825f8	SportsStatic/
+80382606	PartyStatic/
+80382613	HealthStatic/
+80382621	MusicStatic/
+8038262e	Common/Kokeshi/common.carc
+8038264b	Effect/
+80382653	Stage/
+8038265b	Common/
+80382663	Font/font.carc
+80382672	Message/message.carc
+80382687	effect.carc
+80382693	local.carc
+8038269e	common.carc
+803826aa	Sound/
+803826b8	Linux Sports
+803826c3	Please insert the 
+803826d6	\nGame Disc.
+803826e2	The Game Disc could not be read.\nPlease read the Wii Operations\nManual for more information.
+8038274d	rer le disque de\n
+80382792	rer\nau mode d'emploi Wii\npour de plus amples informations.
+803827cd	Bitte schiebe die\n
+803827e0	-Disc ein.
+803827eb	Diese Disc kann nicht gelesen werden.\nBitte lies die Wii-Bedienungsanleitung,\num weitere Informationen zu erhalten.
+8038285f	Inserisci il disco di 
+80382876	Impossibile leggere il disco di gioco.\nPer maggiori informazioni consulta\nil manuale di istruzioni della console Wii.
+803828ec	Inserta el disco de 
+803829e0	banner.bin
+803829eb	/tmp/banner.bin
+803829fb	RPSports.dat
+80382a08	Save File
+80382a12	sports_message.bmg
+80382a25	banner.tpl
+80382a6c	pac_nRodDb_32_I4.brfnt
+80382a83	pac_nRodDb_32_IA4.brfnt
+80382a9b	pac_nRodDb_62_IA4.brfnt
+80382ab3	pac_nRodDb_200_IA4.brfnt
+80382acc	pac_nRodEb_32_I4.brfnt
+80382ae3	pac_nRodEb_70_IA4.brfnt
+80382afb	pac_healthTime.brfnt
+80382b10	RP_COM_GAME_SE_PAUSE_01_CTSP
+80382b2d	RP_COM_GAME_SE_PAUSE_01_TVSP
+80382be0	dummy_tex_a
+80382bec	dummy_tex_b
+80382c02	mt_main
+80382c0a	RFL_Res.dat
+80382c16	common_message.bmg
+80382c29	G3D/ava_handA.brres
+80382c3d	G3D/ava_handB.brres
+80382c51	KokeshiManager
+80382c80	sports_common.breff
+80382c94	sports_common.breft
+80382ca8	basic_common.breff
+80382cbb	basic_common.breft
+80382cce	effect_music.breff
+80382ce1	effect_music.breft
+80382cf4	nw4r_defcursor_pack.breff
+80382d0e	nw4r_defcursor_pack.breft
+80382d28	pack_cursor_fix.breff
+80382d3e	pack_cursor_fix.breft
+80382d54	dummy_tex
+80382d80	N_ABuPosition_00
+80382d91	messageWindow.arc
+80382da3	messageWindowB_00.brlyt
+80382dbb	messageWindowW_00.brlyt
+80382dd3	messageWindowB_00_in_00.brlan
+80382df1	messageWindowB_00_out_00.brlan
+80382e10	messageWindowW_00_in_00.brlan
+80382e2e	messageWindowW_00_out_00.brlan
+80382e4d	N_texWind_00
+80382e5a	N_twPosition_00
+80382e6a	N_twPosition_01
+80382e7a	N_twPosition_02
+80382e8a	T_message_00
+80382eb7	\n****--------
+80382ec5	***-***---*
+80382ed8	lm_0.bti
+80382ee1	lm_1.bti
+80382f20	def_cursor_normal_1p
+80382f35	def_cursor_normal_1p_n
+80382f4c	def_cursor_normal_2p
+80382f61	def_cursor_normal_2p_n
+80382f78	def_cursor_normal_3p
+80382f8d	def_cursor_normal_3p_n
+80382fa4	def_cursor_normal_4p
+80382fb9	def_cursor_normal_4p_n
+80382fd0	def_cursor_normal_1p_blur
+80382fea	def_cursor_normal_2p_blur
+80383004	def_cursor_normal_3p_blur
+8038301e	def_cursor_normal_4p_blur
+80383038	Cursor Manager
+80383047	def_cursor_normal_sd
+80383078	pause_00_Offon_00.brlan
+80383090	pause_00_push_00.brlan
+803830a7	pause_00_active_00.brlan
+803830c0	N_choicesF_00
+803830ce	N_choicesS_00
+803830dc	N_choicesT_00
+803830ea	B_choicesF_00
+803830f8	B_choicesS_00
+80383106	B_choicesT_00
+80383114	T_choicesF_00
+80383122	T_choicesS_00
+80383130	T_choicesT_00
+8038313e	RP_COM_GAME_SE_PAUSE_KEY_A_01_CTSP
+80383161	RP_COM_GAME_SE_PAUSE_KEY_A_01_TVSP
+80383184	RP_COM_GAME_SE_PAUSE_KEY_A_02_CTSP
+803831a7	RP_COM_GAME_SE_PAUSE_KEY_A_02_TVSP
+803831ca	RP_COM_GAME_SE_PAUSE_KEY_A_03_CTSP
+803831ed	RP_COM_GAME_SE_PAUSE_KEY_A_03_TVSP
+80383210	RP_COM_GAME_SE_PAUSE_Cursor_01
+8038322f	pause.arc
+80383239	pause_00.brlyt
+80383248	N_center_00
+80383254	N_bg_00
+8038325c	pause_00_in_00.brlan
+80383271	pause_00_out_00.brlan
+80383287	common_message.bmg
+803832a0	systemWindow_00_Offon_00.brlan
+803832bf	systemWindow_00_push_00.brlan
+803832dd	systemWindow_00_activeButton_00.brlan
+80383303	systemWindow_00_pushButton_00.brlan
+80383327	systemWindow_00_inAButton_00.brlan
+8038334a	systemWindow_00_blinkAButton_00.brlan
+80383370	N_choicesL_00
+8038337e	N_choicesR_00
+8038338c	B_choicesL_00
+8038339a	B_choicesR_00
+803833a8	T_choicesL_00
+803833b6	T_choicesR_00
+803833c4	RP_COMMON_SE_KEY_BACK_01_CTSP
+803833e2	RP_COMMON_SE_KEY_BACK_01_TVSP
+80383400	RP_COMMON_SE_KEY_A_04_CTSP
+8038341b	RP_COMMON_SE_KEY_A_04_TVSP
+80383436	RP_COMMON_SE_KEY_CURSOR_01
+80383451	messageWindow.arc
+80383463	systemWindow_00.brlyt
+80383479	N_center_00
+80383485	T_message_02
+80383492	T_message_00
+8038349f	T_message_03
+803834ac	T_message_01
+803834b9	N_AButton_00
+803834c6	systemWindow_00_in_00.brlan
+803834e2	systemWindow_00_out_00.brlan
+803834ff	common_message.bmg
+80383512	RP_COMMON_SE_MESS_10
+80383527	RP_COMMON_SE_MESS_20
+80383540	/HomeMenu/homeBtnIcon.bti
+8038355a	/HomeMenu/homeBtn_FRA.arc
+80383574	/HomeMenu/homeBtn_GER.arc
+8038358e	/HomeMenu/homeBtn_ITA.arc
+803835a8	/HomeMenu/homeBtn_SPA.arc
+803835c2	/HomeMenu/homeBtn_NED.arc
+803835dc	/HomeMenu/homeBtn.arc
+803835f2	/HomeMenu/homeBtn_ENG.arc
+8038360c	/HomeMenu/SpeakerSe.arc
+80383624	/HomeMenu/home_nosave.csv
+8038363e	/HomeMenu/config.txt
+80383653	/HomeMenu/HomeButtonSe.brsar
+8038370d	plight
+80383714	plobj
+8038371a	pltex
+80383720	plmap
+80383740	RPGrpModelScene.cpp
+80383754	l.IsValid()
+80383760	success
+803837b8	RP_COM_GAME_PLAYER_PAUSE
+803837d1	Sound/RPMpeScene/
+803837e8	cone2
+803837f5	G3D/sun.brres
+80383803	G3D/lensfx.brres
+80383814	sun_model
+8038381e	sun_lensfx
+80383830	P_cPadCuTL_00
+8038383e	P_cPadCuTR_00
+8038384c	P_cPadCuBL_00
+8038385a	P_cPadCuBR_00
+80383868	P_cPadCuTL_01
+80383876	P_cPadCuTR_01
+80383884	P_cPadCuBL_01
+80383892	P_cPadCuBR_01
+803838a0	P_cPadCuTL_02
+803838ae	P_cPadCuTR_02
+803838bc	P_cPadCuBL_02
+803838ca	P_cPadCuBR_02
+803838d9	HealthCPadCursor.arc
+803838ee	cPadCursor.arc
+803838fd	cPadCursor_00.brlyt
+80383911	N_cPadCursor_00
+80383921	N_cPadCursor_01
+80383931	N_cPadCursor_02
+80383948	?????
+8038394e	cCursorCircle.arc
+80383960	cCursorCircle_00.brlyt
+80383977	W_cursor_00
+80383983	N_cursor_00
+803839a8	SE_TR_Common_Jyunban
+803839bd	SE_TR_Common_Jyunban_TVSP
+803839d7	N_ABuPosition_00
+803839e8	playerIntroduction_01.brlyt
+80383a04	playerIntroduction_01_in_00.brlan
+80383a26	playerIntroduction_01_out_00.brlan
+80383a49	N_strap_00
+80383a54	P_P%dLED_00
+80383a60	playerIntroduction_01_offLED_00.brlan
+80383a86	playerIntroduction_01_onLED_00.brlan
+80383aab	p_base_00
+80383ab5	T_pName_00
+80383ad0	pIRecord_00.brlyt
+80383ae2	pIRecord_00_in_00.brlan
+80383afa	pIRecord_00_out_00.brlan
+80383b13	N_p%dBg_00
+80383b1e	P_p%dBgL_00
+80383b2a	P_p%dBgS_00
+80383b36	P_p%dTLineL_00
+80383b45	P_p%dTLineS_00
+80383b54	N_p%d_00
+80383b5d	T_p%dName_00
+80383b6a	T_p%dNBest_00
+80383b78	T_p%dNSkill_00
+80383b87	P_p%dBaseL_00
+80383b95	P_p%dBaseS_00
+80383ba3	T_p%dSkill_00
+80383bb1	T_p%dBest_00
+80383bbe	P_bLineL_00
+80383bca	P_bLineS_00
+80383bd8	CPUMii/cpu_mii_
+80383bf0	challenge_00.brlyt
+80383c03	challenge_00_in_00.brlan
+80383c1c	challenge_00_out_00.brlan
+80383c36	T_challenge_00
+80383c45	T_challenge_01
+80383c78	Scm_bestscore_blue
+80383c8b	Scm_bestscore_red
+80383c9d	Scm_bestscore_green
+80383cb1	Scm_bestscore_yellow
+80383cc6	N_AButton_00
+80383cd3	BwgGlfScorecard_00.brlyt
+80383cec	N_playerRoot_00
+80383cfc	N_scorecard_%02d
+80383d0d	W_playerColor_%02d
+80383d20	N_face_%02d
+80383d2c	T_score_%02d
+80383d39	T_scoreSD_%02d
+80383d48	N_record_%02d
+80383d56	T_record_%02d
+80383d64	T_recordSD_%02d
+80383d74	T_ranking_%02d
+80383d83	T_rankingSD_%02d
+80383d94	N_ranking_%02d
+80383da3	BwgGlfScorecard_00_jump_00.brlan
+80383dc4	N_rank_%02d
+80383dd0	BwgGlfScorecard_00_blinkIcon_00.brlan
+80383df6	T_title_00
+80383e01	BwgGlfScorecard_00_in_00.brlan
+80383e20	BwgGlfScorecard_00_out_00.brlan
+80383e40	N_ABuPoAd_00
+80383e4d	N_titleRoot_00
+80383e60	AButton.arc
+80383e6c	AButton.brlyt
+80383e7a	AButton_in_00.brlan
+80383e8e	AButton_out_00.brlan
+80383ea3	AButton_blink_00.brlan
+80383eba	RootPane
+80383ec3	N_AButton_00
+80383ed0	B_backButton_00
+80383ee0	B_backButton_01
+80383ef0	backCommon.arc
+80383eff	backCommon_00.brlyt
+80383f13	backCommon_00_outFrame_00.brlan
+80383f33	backCommon_00_inFrame_00.brlan
+80383f52	backCommon_00_activeBack_00.brlan
+80383f74	backCommon_00_pushBack_00.brlan
+80383f94	T_caption_01
+80383fa1	N_frameDown_00
+80383fb0	P_captionDown_00
+80383fc1	P_captionDown_01
+80383fd2	P_backButton_01
+80383fe2	P_backButton_00
+80383ff2	P_backMark_00
+80384000	RP_COMMON_SE_KEY_BACK_01_TVSP
+8038401e	RP_COMMON_SE_KEY_BACK_01_CTSP
+8038403c	RP_COMMON_SE_KEY_CURSOR_01
+80384057	common_message.bmg
+80384080	SE_TR_COMMON_Push_AB_CTSP
+8038409a	SE_TR_COMMON_Push_AB_TVSP
+803840b4	ABPress.arc
+803840c0	ABPress_00.brlyt
+803840d1	ABPress_00_in_00.brlan
+803840e8	ABPress_00_out_00.brlan
+80384100	N_bg_00
+80384108	N_main_00
+80384112	N_player_%02d
+80384120	P_pColor1_%02d
+8038412f	P_pColor2_%02d
+8038413e	N_LED_%02d
+80384149	P_P%dLED_%02d
+80384157	ABPress_00_LED_00.brlan
+8038416f	N_ok_%02d
+80384179	ABPress_00_inOK_00.brlan
+80384192	T_pName_%02d
+8038419f	T_ok_%02d
+803841a9	T_ABPress_00
+803841d0	G3D/clothes.brres
+803841e2	body_tex00_a
+803841ef	body_tex00_b
+803841fc	body_tex01_a
+80384209	body_tex01_b
+80384216	body_tex02_a
+80384223	body_tex02_b
+80384230	body_tex03_a
+8038423d	body_tex03_b
+8038424a	body_tex04_a
+80384257	body_tex04_b
+80384264	body_tex05_a
+80384271	body_tex05_b
+8038427e	body_tex06_a
+8038428b	body_tex06_b
+80384298	body_tex07_a
+803842a5	body_tex07_b
+803842b2	body_tex08_a
+803842bf	body_tex08_b
+803842cc	body_tex09_a
+803842d9	body_tex09_b
+803842e6	body_tex10_a
+803842f3	body_tex10_b
+80384300	body_tex11_a
+8038430d	body_tex11_b
+8038431a	body_tex50_a
+80384327	body_tex50_b
+80384334	body_tex51_a
+80384341	body_tex51_b
+8038434e	body_tex52_a
+8038435b	body_tex52_b
+80384368	body_tex53_a
+80384375	body_tex53_b
+80384382	body_tex54_a
+8038438f	body_tex54_b
+8038439c	body_tex55_a
+803843a9	body_tex55_b
+803843b6	body_tex56_a
+803843c3	body_tex56_b
+803843d0	body_tex57_a
+803843dd	body_tex57_b
+803843ea	body_tex58_a
+803843f7	body_tex58_b
+80384404	body_tex59_a
+80384411	body_tex59_b
+8038441e	body_tex60_a
+8038442b	body_tex60_b
+80384438	body_tex61_a
+80384445	body_tex61_b
+80384452	G3D/ava_bodyA0.brres
+80384467	G3D/ava_bodyB0.brres
+8038447c	G3D/ava_bodyA1.brres
+80384491	G3D/ava_bodyB1.brres
+803844a6	G3D/ava_bodyA2.brres
+803844bb	G3D/ava_bodyB2.brres
+803844d0	G3D/ava_bodyA3.brres
+803844e5	G3D/ava_bodyB3.brres
+803844fa	G3D/ava_bodyC0.brres
+8038450f	G3D/ava_bodyC1.brres
+80384524	G3D/ava_bodyE0.brres
+80384539	hand_r
+80384540	wrist_r
+80384548	hand_l
+8038454f	wrist_l
+80384557	head_set
+80384573	rp_Health_sound.brsar
+80384589	strap.arc
+80384593	strap_00_U.brlyt
+803845a4	strap_00_U.brlan
+803845b5	strap_00_J.brlyt
+803845c6	strap_00_J.brlan
+803845d7	strap_00_F.brlyt
+803845e8	strap_00_F.brlan
+803845f9	strap_00_S_US.brlyt
+8038460d	strap_00_S_US.brlan
+80384621	strap_00_G.brlyt
+80384632	strap_00_G.brlan
+80384643	strap_00_I.brlyt
+80384654	strap_00_I.brlan
+80384665	strap_00_S.brlyt
+80384676	strap_00_S.brlan
+80384687	strap_00_D.brlyt
+80384698	strap_00_D.brlan
+803846a9	strap_00_E.brlyt
+803846ba	strap_00_E.brlan
+803846d0	RP_COMMON_SE_CON_Change_01
+803846eb	menuCommon.arc
+803846fa	menuBg_00.brlyt
+8038470a	STRM_Training_Select
+8038471f	STRM_Measurement_Start
+80384736	STRM_SportsPackSelect
+8038474c	RP_COMMON_BGM_PARTY_MENU
+80384765	common_message.bmg
+80384778	pack_sequence.breff
+8038478c	pack_sequence.breft
+803847a0	G3D/menu_BG_model.brres
+803847b8	menu_BG_model
+80384b40	N_frameUp_00
+80384b4d	N_frameDown_00
+80384b5c	N_backButton_00
+80384b6c	T_caption_01
+80384b79	N_caption_00
+80384b86	N_name_00
+80384b90	N_training_00
+80384b9e	N_ptGame_00
+80384baa	menuFrame_00_inFrame_00.brlan
+80384bc8	menuFrame_00_outFrame_00.brlan
+80384be7	menuFrame_00_inBackButton_00.brlan
+80384c0a	menuFrame_00_outBackButton_00.brlan
+80384c2e	menuFrame_00_activeBack_00.brlan
+80384c4f	menuFrame_00_pushBack_00.brlan
+80384c6e	menuFrame_00_changeBack_00.brlan
+80384c8f	menuFrame_00_changeText_00.brlan
+80384cb0	menuFrame_00_inName_00.brlan
+80384ccd	menuFrame_00_outName_00.brlan
+80384ceb	menuFrame_00_inTraining_00.brlan
+80384d0c	menuFrame_00_outTraining_00.brlan
+80384d2e	menuFrame_00_changeTraining_00.brlan
+80384d53	menuFrame_00_inPtGame_00.brlan
+80384d72	menuFrame_00_outPtGame_00.brlan
+80384d92	menuFrame_00_changePtGame_00.brlan
+80384db5	menuFrame_00_tpaSports_00.brlan
+80384dd5	menuFrame_00_tpaHajimete_00.brlan
+80384df7	B_backButton_00
+80384e07	B_backButton_01
+80384e17	P_nameBg_01
+80384e23	P_nameBg_02
+80384e2f	RP_COMMON_SE_KEY_BACK_01_CTSP
+80384e4d	RP_COMMON_SE_KEY_BACK_01_TVSP
+80384e6b	RP_COMMON_SE_KEY_CURSOR_01
+80384e86	RootPane
+80384e8f	N_3Drogo_00
+80384e9b	T_caption_00
+80384ea8	T_player_00
+80384eb4	T_playerName_00
+80384ec4	N_3dmodel_00
+80384ed1	T_training_00
+80384edf	T_ptGame_00
+80384eeb	menuCommon.arc
+80384efa	menuFrame_00.brlyt
+80384f0d	common_message.bmg
+80384f20	Kokeshi Head
+80384f70	Environment/scene_Light.plight
+80384f8f	Environment/scene_Lm.plmap
+80384faa	KokeshiMgr
+80384fb5	eggIBinary.h
+80384fc6	Not for this class.
+803851f8	rimoconEntry_00_inScene_00.brlan
+80385219	rimoconEntry_00_outScene_00.brlan
+8038523b	rimoconEntry_00_activeButton_00.brlan
+80385261	rimoconEntry_00_pushButton_00.brlan
+80385285	rimoconEntry_00_offRimocon_00.brlan
+803852a9	rimoconEntry_00_onRimocon_00.brlan
+803852cc	rimoconEntry_00_inoutScene2_00.brlan
+803852f1	rimoconEntry_00_inoutRimoOn_00.brlan
+80385316	rimoconEntry_00_loopRimoOff_00.brlan
+8038533b	rimoconEntry_00_off_onRimo_00.brlan
+8038535f	rimoconEntry_00_onOffButton_00.brlan
+80385384	rimoconEntry_00_off_onLamp_00.brlan
+803853a8	P_button_00
+803853b4	P_button_01
+803853c0	P_button_02
+803853cc	P_button_03
+803853d8	P_button_06
+803853e4	P_button_07
+803853f0	P_button_04
+803853fc	P_button_05
+80385408	B_button_00
+80385414	B_button_01
+80385420	B_button_02
+8038542c	B_button_03
+80385438	B_button_06
+80385444	B_button_07
+80385450	B_button_04
+8038545c	B_button_05
+80385468	P_rimo_00
+80385472	P_rimo_01
+8038547c	P_rimo_02
+80385486	P_rimo_03
+80385490	P_rimo_04
+8038549a	P_rimo_05
+803854a4	P_rimocon_00
+803854b1	P_rimocon_01
+803854be	P_rimocon_02
+803854cb	P_rimocon_03
+803854d8	P_lamp_00
+803854e2	P_lamp_01
+803854ec	P_lamp_02
+803854f6	P_lamp_03
+80385500	P_lamp_04
+8038550a	P_lamp_05
+80385514	P_lamp_06
+8038551e	P_lamp_07
+80385528	P_lamp_08
+80385532	P_lamp_09
+8038553c	P_lamp_10
+80385546	P_lamp_11
+80385550	P_lamp_12
+8038555a	P_lamp_13
+80385564	P_lamp_14
+8038556e	P_lamp_15
+80385578	P_rimocon_04
+80385585	P_rimocon_05
+80385592	P_lamp_16
+8038559c	P_lamp_17
+803855a6	P_lamp_18
+803855b0	P_lamp_19
+803855ba	P_lamp_20
+803855c4	P_lamp_21
+803855ce	P_lamp_22
+803855d8	P_lamp_23
+803855e2	N_playerBg_00
+803855f0	N_rimoconBg_00
+803855ff	N_scene2_00
+8038560b	N_rimoEntry_00
+8038561a	T_playMenber_00
+8038562a	T_text_04
+80385634	T_text_05
+8038563e	T_text_00
+80385648	T_text_01
+80385652	T_text_02
+8038565c	T_text_03
+80385666	T_text_06
+80385670	T_text_07
+8038567a	T_rimocon_00
+80385687	T_rimocon_01
+80385694	N_play4_00
+8038569f	N_rimo4_00
+803856aa	N_rimocon4
+803856b5	N_play2_00
+803856c0	N_rimo2_00
+803856cb	N_rimocon2
+803856d6	rimoconEntry_pt.arc
+803856ea	rimoconEntry.arc
+803856fb	rimoconEntry_00.brlyt
+803857f8	RP_COMMON_SE_KEY_CURSOR_02
+80385813	RP_COMMON_SE_KEY_CURSOR_01
+8038582e	RP_COMMON_SE_KEY_A_02_CTSP
+80385849	RP_COMMON_SE_KEY_A_02_TVSP
+80385864	RP_COMMON_SE_KEY_NG_01_CTSP
+80385880	RP_COMMON_SE_KEY_NG_01_TVSP
+8038589c	RP_COMMON_SE_WIN_CLOSE_01
+803858b6	RP_COMMON_SE_SEARCH_01
+803858cd	RP_COMMON_SE_WIN_OPEN_01
+80385b28	playerSelect_00_inFrame_00.brlan
+80385b49	playerSelect_00_outFrame_00.brlan
+80385b6b	playerSelect_00_activeArrow_00.brlan
+80385b90	playerSelect_00_activePlayer_00.brlan
+80385bb6	playerSelect_00_pushArrow_00.brlan
+80385bd9	playerSelect_00_pushPlayer_00.brlan
+80385bfd	playerSelect_00_moveArrow_00.brlan
+80385c20	playerSelect_00_inoutArrow_00.brlan
+80385c44	playerSelect_00_slidePlayer_00.brlan
+80385c69	playerSelect_00_activeButton_00.brlan
+80385c8f	playerSelect_00_pushButton_00.brlan
+80385cb3	playerSelect_00_activeButton_01.brlan
+80385cd9	playerSelect_00_pushButton_01.brlan
+80385cfd	playerSelect_00_inoutText_00.brlan
+80385d20	playerSelect_00_moveText_00.brlan
+80385d42	playerSelect_00_loopMark_00.brlan
+80385d64	B_button_00
+80385d70	B_button_01
+80385d7c	B_button_02
+80385d88	B_arrowR_00
+80385d94	B_arrowL_00
+80385da0	B_face_00
+80385daa	B_face_01
+80385db4	B_face_02
+80385dbe	B_face_03
+80385dc8	B_face_04
+80385dd2	B_face_05
+80385ddc	B_face_06
+80385de6	B_face_07
+80385df0	B_face_08
+80385dfa	B_face_09
+80385e04	P_arrowL_00
+80385e10	P_arrowR_00
+80385e1c	N_3Dmodel_00
+80385e29	N_3Dmodel_01
+80385e36	N_3Dmodel_02
+80385e43	N_3Dmodel_03
+80385e50	N_3Dmodel_04
+80385e5d	N_3Dmodel_05
+80385e6a	N_3Dmodel_06
+80385e77	N_3Dmodel_07
+80385e84	N_3Dmodel_08
+80385e91	N_3Dmodel_09
+80385e9e	N_3Dmodel_10
+80385eab	N_3Dmodel_11
+80385eb8	N_3Dmodel_12
+80385ec5	N_3Dmodel_13
+80385ed2	N_3Dmodel_14
+80385edf	N_3Dmodel_15
+80385eec	N_3Dmodel_16
+80385ef9	N_3Dmodel_17
+80385f06	N_3Dmodel_18
+80385f13	N_3Dmodel_19
+80385f20	N_face_00
+80385f2a	N_face_01
+80385f34	N_face_02
+80385f3e	N_face_03
+80385f48	N_face_04
+80385f52	N_face_05
+80385f5c	N_face_06
+80385f66	N_face_07
+80385f70	N_face_08
+80385f7a	N_face_09
+80385f84	N_face_10
+80385f8e	N_face_11
+80385f98	N_face_12
+80385fa2	N_face_13
+80385fac	N_face_14
+80385fb6	N_face_15
+80385fc0	N_face_16
+80385fca	N_face_17
+80385fd4	N_face_18
+80385fde	N_face_19
+80385fe8	P_button_00
+80385ff4	P_button_01
+80386000	P_button_02
+8038600c	G_arrow_00
+80386017	G_back_00
+80386021	W_baseLine_01
+8038602f	W_baseLine_02
+8038603d	W_baseLine_03
+8038604b	N_arrowR_00
+80386057	N_arrowL_00
+80386063	N_faceAll_00
+80386070	N_faceAll_01
+8038607d	N_scene_00
+80386088	N_message_00
+80386095	T_button_00
+803860a1	T_button_01
+803860ad	T_button_02
+803860b9	T_message_00
+803860c6	T_playerSelect
+803860d5	playerSelect.arc
+803860e6	playerSelect_00.brlyt
+803863f0	Seq_choice_mii_blue
+80386404	Seq_choice_mii_red
+80386417	Seq_choice_mii_green
+8038642c	Seq_choice_mii_yellow
+80386442	RP_COMMON_SE_KEY_CURSOR_02
+8038645d	RP_COMMON_SE_KEY_A_04_CTSP
+80386478	RP_COMMON_SE_KEY_A_04_TVSP
+80386493	RP_COMMON_SE_KEY_CURSOR_05
+803864ae	RP_COMMON_SE_KEY_A_02_CTSP
+803864c9	RP_COMMON_SE_KEY_A_02_TVSP
+803864e4	RP_COMMON_SE_KEY_A_03_CTSP
+803864ff	RP_COMMON_SE_KEY_A_03_TVSP
+8038651a	RP_COMMON_SE_KEY_NG_01_CTSP
+80386536	RP_COMMON_SE_KEY_NG_01_TVSP
+80386558	nunchukCheck.arc
+80386569	nunchukCheck_00.brlyt
+8038657f	N_nunchuk_01
+8038658c	N_nunchuk_00
+80386599	T_nunchuk_00
+803865a6	T_nunchuk_01
+803865b3	N_backButton_00
+803865c3	nunchukCheck_00_activeBack_00.brlan
+803865e7	nunchukCheck_00_pushBack_00.brlan
+80386609	B_backButton_00
+80386619	T_caption_01
+80386626	N_player_00
+80386632	N_ok_00
+8038663a	N_LED_00
+80386643	P_P1LED_00
+8038664e	P_P2LED_00
+80386659	P_P3LED_00
+80386664	P_P4LED_00
+8038666f	N_player_01
+8038667b	N_ok_01
+80386683	N_LED_01
+8038668c	P_P1LED_01
+80386697	P_P2LED_01
+803866a2	P_P3LED_01
+803866ad	P_P4LED_01
+803866b8	N_player_02
+803866c4	N_ok_02
+803866cc	N_LED_02
+803866d5	P_P1LED_02
+803866e0	P_P2LED_02
+803866eb	P_P3LED_02
+803866f6	P_P4LED_02
+80386701	N_player_03
+8038670d	N_ok_03
+80386715	N_LED_03
+8038671e	P_P1LED_03
+80386729	P_P2LED_03
+80386734	P_P3LED_03
+8038673f	P_P4LED_03
+8038674a	nunchukCheck_00_inOK_00.brlan
+80386768	nunchukCheck_00_outOK_00.brlan
+80386787	nunchukCheck_00_LED_00.brlan
+803867a4	P_pColor1_00
+803867b1	P_pColor2_00
+803867be	P_pColor1_01
+803867cb	P_pColor2_01
+803867d8	P_pColor1_02
+803867e5	P_pColor2_02
+803867f2	P_pColor1_03
+803867ff	P_pColor2_03
+8038680c	T_pName_00
+80386817	T_pName_01
+80386822	T_pName_02
+8038682d	T_pName_03
+80386838	T_ok_00
+80386840	T_ok_01
+80386848	T_ok_02
+80386850	T_ok_03
+80386858	RP_COMMON_SE_KEY_BACK_01
+80386871	RP_COMMON_SE_KEY_CURSOR_01
+8038688c	RP_COMMON_SE_MESS_OK_02_CTSP
+803868a9	RP_COMMON_SE_MESS_OK_02_TVSP
+803868c6	RP_COMMON_SE_MESS_OK_01_CTSP
+803868e3	RP_COMMON_SE_MESS_OK_01_TVSP
+80386900	common_message.bmg
+80386913	sports_message.bmg
+80386928	G3D/PT_menu_BG_model.brres
+80386943	PT_menu_BG_model
+80386954	PT_menu_BG_4_3
+80386963	PT_menu_BG_16_9
+80386973	G3D/PT_menu_TV_model.brres
+8038698e	PT_menu_TV_model
+80386a18	P_LR_00
+80386a20	B_LR_00
+80386a28	T_LR_00
+80386a30	P_LR_01
+80386a40	T_LR_01
+80386a48	P_LR_02
+80386a50	B_LR_02
+80386a58	T_LR_02
+80386a60	P_LR_03
+80386a68	B_LR_03
+80386a70	T_LR_03
+80386a78	P_LR_04
+80386a80	B_LR_04
+80386a88	T_LR_04
+80386a90	P_LR_05
+80386a98	B_LR_05
+80386aa0	T_LR_05
+80386aa8	P_LR_06
+80386ab0	B_LR_06
+80386ab8	T_LR_06
+80386ac0	P_LR_07
+80386ac8	B_LR_07
+80386ad0	T_LR_07
+80386ad8	P_LR_08
+80386ae0	B_LR_08
+80386ae8	T_LR_08
+80386af0	P_LR_09
+80386af8	B_LR_09
+80386b00	T_LR_09
+80386b08	P_LR_10
+80386b10	B_LR_10
+80386b18	T_LR_10
+80386b20	P_LR_11
+80386b28	B_LR_11
+80386b30	T_LR_11
+80386b38	P_okButton_00
+80386b46	B_okButton_00
+80386b54	T_ok_00
+80386b5c	P_LRbg_00
+80386b66	P_LRbg_01
+80386b70	P_LRbg_02
+80386b7a	P_LRbg_03
+80386b84	P_LRbg_04
+80386b8e	P_LRbg_05
+80386b98	playerSelect_01_activeLR_00.brlan
+80386bba	playerSelect_01_activeLR_01.brlan
+80386bdc	playerSelect_01_pushLR_00.brlan
+80386bfc	playerSelect_01_pushLR_01.brlan
+80386c1c	playerSelect_01_activeButton_00.brlan
+80386c42	playerSelect_01_pushButton_00.brlan
+80386c66	playerSelect_01_offButton_00.brlan
+80386c89	playerSelect_01_activeBar_00.brlan
+80386cac	playerSelect_01_onOffSports_00.brlan
+80386cd1	T_handSelect
+80386cde	T_tennis_00
+80386cea	T_baseball_00
+80386cf8	T_bowling_00
+80386d05	T_golf_00
+80386d0f	T_boxing_00
+80386d1b	T_title_00
+80386d26	T_title_01
+80386d31	T_title_02
+80386d3c	T_title_03
+80386d47	T_title_04
+80386d52	T_title_05
+80386d5d	N_tennis_00
+80386d69	N_baseball_00
+80386d77	N_bowling_00
+80386d84	N_golf_00
+80386d8e	N_boxing_00
+80386d9a	N_baseThrow_00
+80386da9	N_baseHit_00
+80386db6	RP_COMMON_SE_KEY_CURSOR_02
+80386dd1	RP_COMMON_SE_KEY_CURSOR_01
+80386dec	W_baseLine_02
+80386dfa	W_baseLine_01
+80386e08	RP_COMMON_SE_KEY_A_02_CTSP
+80386e23	RP_COMMON_SE_KEY_A_02_TVSP
+80386e3e	RP_COMMON_SE_KEY_A_03_CTSP
+80386e59	RP_COMMON_SE_KEY_A_03_TVSP
+80386e74	playerSelect.arc
+80386e85	playerSelect_01.brlyt
+80386e9b	playerSelect_01_inFrame_00.brlan
+80386ebc	N_scene_00
+80386ec7	common_message.bmg
+80386f48	P_lamp_00
+80386f52	P_lamp_01
+80386f5c	P_lamp_02
+80386f66	P_lamp_03
+80386f70	T_name_00
+80386f82	N_lamp_00
+80386f8c	T_P_00
+80386f93	playerSelect.arc
+80386fa4	playerSelect_03.brlyt
+80386fba	playerSelect_03_onOffLamp_00.brlan
+80386fdd	N_name_00
+80386fe7	N_3d_00
+80386fef	P_bg_01
+80386ff7	P_bgLine_00
+80387168	playerSelect_02_inFrame_00.brlan
+80387189	playerSelect_02_outFrame_00.brlan
+803871ab	playerSelect_02_activeButton_00.brlan
+803871d1	playerSelect_02_pushButton_00.brlan
+803871f5	N_1p_01
+803871fd	N_2p_01
+80387205	N_2p_02
+8038720d	N_3p_01
+80387215	N_3p_02
+8038721d	N_3p_03
+80387225	N_4p_01
+8038722d	N_4p_02
+80387235	N_4p_03
+8038723d	N_4p_04
+80387245	RP_COMMON_SE_KEY_CURSOR_01
+80387260	T_playerAll_00
+8038726f	RP_COMMON_SE_KEY_BACK_01_CTSP
+8038728d	RP_COMMON_SE_KEY_BACK_01_TVSP
+803872ab	RP_COMMON_SE_KEY_A_02_CTSP
+803872c6	RP_COMMON_SE_KEY_A_02_TVSP
+803872e1	N_scene_00
+803872ec	playerSelect.arc
+803872fd	playerSelect_02.brlyt
+80387313	P_button_%02u
+80387321	B_button_%02u
+8038732f	T_button_00
+8038733b	T_button_01
+80387420	common_message.bmg
+80387438	G3D/logo_model.brres
+8038744d	logo_model
+80387510	playAdvice_00_in_00.brlan
+8038752a	playAdvice_00_inAButton_00.brlan
+8038754b	playAdvice_00_blinkAButton_00.brlan
+8038756f	playAdvice_00_out_00.brlan
+8038758a	T_advice_00
+80387596	P_break_00
+803875a1	P_range_00
+803875ac	RP_COMMON_SE_KEY_A_04_CTSP
+803875c7	RP_COMMON_SE_KEY_A_04_TVSP
+803875e2	playAdvice.arc
+803875f1	playAdvice_00.brlyt
+80387608	STRM_SportsPackTittle
+8038761e	common_message.bmg
+80387631	sports_message.bmg
+80387847	STRM_Training_Select
+8038785c	menuCommon.arc
+8038786b	menuBg_00.brlyt
+80387880	STRM_Measurement_Start
+80387897	menuCommon.arc
+803878a6	menuBg_00.brlyt
+803878b8	menuCommon.arc
+803878c7	menuBg_00.brlyt
+803878d8	STRM_Measurement_Tns
+803878ed	STRM_Measurement_Bsb
+80387902	STRM_Measurement_Bow
+80387917	STRM_Measurement_Gol
+8038792c	STRM_Measurement_Box
+80387941	STRM_Measurement_Start
+80387958	menuCommon.arc
+80387967	menuBg_00.brlyt
+80387978	Normal
+8038797f	Training
+80387988	Physical
+803879a5	SE_TR_Common_Jyunban
+803879ba	SE_TR_Common_Jyunban_TVSP
+803879d4	SE_TR_Common_Sports_DemoSkipButton
+803879f7	SE_TR_Common_Sports_DemoSkipButton_TVSP
+80387a1f	sports_message.bmg
+80387a32	common_message.bmg
+80387a58	Scm_skillgraph_blue
+80387a6c	Scm_skillgraph_red
+80387a7f	Scm_skillgraph_green
+80387a94	Scm_skillgraph_yellow
+80387aaa	Scm_skillgraph_light
+80387abf	Scm_skillgraph_gokou
+80387ad4	SE_TR_COMMON_Jyukurendo_NameFlash
+80387af6	Scm_skillgraph_demotion
+80387b0e	SE_TR_COMMON_Jyukurendo_NameSmoke
+80387b30	SE_TR_COMMON_Jyukurendo_ScoreFlash
+80387b53	skill_01.brlyt
+80387b62	N_player_00
+80387b6e	P_arrow_00
+80387b79	N_3Dmodel_00
+80387b86	skill_01_uArrow_00.brlan
+80387b9f	skill_01_rArrow_00.brlan
+80387bb8	skill_01_dArrow_00.brlan
+80387bd1	T_name_00
+80387bdb	T_score_00
+80387be6	T_score_01
+80387bf1	T_score_02
+80387bfc	P_nameBg_00
+80387c08	P_nameBg_01
+80387c14	skill.arc
+80387c1e	skill_00.brlyt
+80387c2d	skill_00_inFrame_00.brlan
+80387c47	skill_00_outFrame_00.brlan
+80387c62	skill_00_inButton_00.brlan
+80387c7d	skill_00_1play_00.brlan
+80387c95	skill_00_2play_00.brlan
+80387cad	skill_00_3play_00.brlan
+80387cc5	skill_00_4play_00.brlan
+80387cdd	N_scene_00
+80387ce8	N_button_00
+80387cf4	N_button_01
+80387d00	N_button_02
+80387d0c	N_LT_00
+80387d14	N_RB_00
+80387d1c	N_LB_00
+80387d24	N_p1_00
+80387d2c	N_p2_00
+80387d34	N_p3_00
+80387d3c	N_p4_00
+80387d44	T_skill_00
+80387d4f	T_pro_00
+80387d58	T_button_00
+80387d64	T_button_01
+80387d70	P_button_00
+80387d7c	B_button_00
+80387d88	skill_00_activeButton_00.brlan
+80387da7	skill_00_pushButton_00.brlan
+80387dc4	P_button_01
+80387dd0	B_button_01
+80387de0	SE_TR_Common_Sports_Cursol
+80387dfb	SE_TR_Common_Sports_Decide_TVSP
+80387e1b	SE_TR_Common_Sports_Decide
+80387e38	SE_TR_Common_Sports_Cursol
+80387ea0	G3D/wipe_replay.brres
+80387eb6	G3D/bwg_strike_model.brres
+80387ed1	wipe_replay
+80387edd	strike0
+80387ee5	strike1
+80387eed	strike
+80387ef4	Scm_wipe
+80387efd	G3D/wipe_slide.brres
+80387f12	wipe_slide_bbl
+80387f21	wipe_slide_box
+80387f30	dammy_L
+80387f38	dammy_R
+80387f40	Scm_vs_sparkline01_top
+80387f57	Scm_vs_sparkline01_thund01
+80387f72	Scm_vs_sparkline01_thund02
+80387f8d	Scm_vs_sparkline01_thund03
+80387fa8	Scm_vs_sparkline01_thund04
+80387fc3	Scm_vs_sparkline01_glow
+80387fdb	all_win
+80387fe3	all_lose
+80387fec	all_tie
+80387ff4	all_VS
+80387ffb	bbl_play_ball_model
+8038800f	bbl_game_set_model
+80388022	bbl_home_run0_model
+80388036	bbl_home_run1_model
+8038804a	glf_hole_in_one_model
+80388060	glf_chip_in_model
+80388072	glf_nice_in_model
+80388084	glf_nice_on_model
+80388096	box_fight_model
+803880a6	box_down_model
+803880b5	box_KO_model
+803880c2	bwg_spare_model
+803880d2	bwg_nice_throw_model
+803880f7	play_ball
+80388101	game_set
+8038810a	home_run0
+80388114	home_run1
+8038811e	hole_in_one
+8038812a	chip_in
+80388132	nice_in
+8038813a	nice_on
+80388142	fight
+80388150	spare
+80388156	nice_throw
+80388161	G3D/box_round_model.brres
+8038817b	G3D/box_count10.brres
+80388191	round1
+80388198	round2
+8038819f	final_round
+803881ab	count10_1
+803881b5	count10_2
+803881bf	count10_3
+803881c9	count10_4
+803881d3	count10_5
+803881dd	count10_6
+803881e7	count10_7
+803881f1	count10_8
+803881fb	count10_9
+80388205	count10_10
+80388210	round
+80388216	count10
+8038821e	G3D/bbl_score_model.brres
+80388238	score_0a
+80388241	score_1a
+8038824a	score_2a
+80388253	score_3a
+8038825c	score_4a
+80388265	score_5a
+8038826e	score_6a
+80388277	score_7a
+80388280	score_8a
+80388289	score_9a
+80388292	score_0b
+8038829b	score_1b
+803882a4	score_2b
+803882ad	score_3b
+803882b6	score_4b
+803882bf	score_5b
+803882c8	score_6b
+803882d1	score_7b
+803882da	score_8b
+803882e3	score_9b
+803882ec	score_set_anim_1P
+803882fe	score_set_anim_2P
+80388310	score_keep
+8038831b	score_in
+80388324	score_out
+8038832e	set_1P_A_a
+80388339	set_1P_A_b0
+80388345	set_1P_A_b1
+80388351	set_1P_B_a
+8038835c	set_1P_B_b0
+80388368	set_1P_B_b1
+80388374	set_2P_A_a
+8038837f	set_2P_A_b0
+8038838b	set_2P_A_b1
+80388397	set_2P_B_a
+803883a2	set_2P_B_b0
+803883ae	set_2P_B_b1
+803883ba	Scm_bsb_scoreup
+803883ca	score_set
+803883d4	Scm_bsb_homerun00
+803883e6	Scm_bsb_homerun01
+803883f8	Scm_box_ko_spark
+80388409	Scm_bow_splitget
+8038841a	G3D/%s.brres
+80388427	Scm_win
+8038842f	eff_top
+80388437	eff_under
+80388441	wipe_slide
+8038844c	SE_TR_Common_Sports_Wipe
+80388465	FANFARE_GameSet_Win
+80388479	FANFARE_GameSet_Lose
+8038848e	FANFARE_GameSet_Tie
+803884a2	G3D/wipe_scene.brres
+803884b7	3Dfont_wipe_Scene
+803884d0	menuCommon.arc
+803884df	menuBg_00.brlyt
+80388500	T_game_00
+8038850a	T_game_01
+80388514	T_game_02
+8038851e	T_game_03
+80388528	SE_TR_Common_Sports_Game_End
+80388545	SE_TR_Common_Sports_Game_Start
+80388564	spGameStart.arc
+80388574	spGameStart_00.brlyt
+80388589	spGameStart_00_inoutText_00.brlan
+803885ab	N_tex_00
+803885b8	cpuData.bin
+80388624	P_button_00
+80388630	B_button_00
+8038863c	???????
+80388644	P_button_01
+80388650	B_button_01
+8038865c	P_button_02
+80388668	B_button_02
+80388674	P_button_03
+80388680	B_button_03
+8038868c	P_button_04
+80388698	B_button_04
+803886a4	P_buttonS_00
+803886b1	B_buttonS_00
+803886be	P_buttonS_01
+803886cb	B_buttonS_01
+803886d8	sportsTop_00_activeButton_00.brlan
+803886fb	sportsTop_00_pushButton_00.brlan
+8038871c	sportsTop_00_activeButtonS_00.brlan
+80388740	sportsTop_00_pushButtonS_00.brlan
+80388762	sportsTop_00_activeButtonP_00.brlan
+80388786	sportsTop_00_pushButtonP_00.brlan
+803887a8	sportsTop_00_tevFrame_00.brlan
+803887c7	sportsTop_00_tpa_43_00.brlan
+803887e4	sportsTop_00_tpa_169_00.brlan
+80388802	sportsTop_00_titleBg_00.brlan
+80388820	P_tevLine_00
+8038882d	P_image43_00
+8038883a	P_image169_00
+80388848	W_textBg_00
+80388854	T_bName_00
+8038885f	T_bName_01
+8038886a	T_bName_02
+80388875	T_bName_03
+80388880	T_bName_04
+8038888b	T_title_00
+80388896	T_title_01
+803888a1	??????
+803888a8	RP_COMMON_SE_KEY_CURSOR_02
+803888c3	RP_COMMON_SE_KEY_CURSOR_01
+803888de	RP_COMMON_SE_KEY_A_02_CTSP
+803888f9	RP_COMMON_SE_KEY_A_02_TVSP
+80388914	STRM_SportsPackSelect
+8038892a	sportsTop.arc
+80388938	sportsTop_00.brlyt
+8038894b	sportsTop_00_inFrame_00.brlan
+80388969	N_scene_00
+80388974	sports_message.bmg
+80388987	common_message.bmg
+803889a0	Scm_intro_medal01
+803889b2	Scm_intro_medal02
+803889c4	Scm_intro_medal03
+803889d6	T_pName_00
+803889e1	T_bestRecord_00
+803889f1	P_playerColor_00
+80388a02	N_ABuPosition_00
+80388a13	playerIntroduction.arc
+80388a2a	playerIntroduction_00.brlyt
+80388a46	playerIntroduction_00_in_00.brlan
+80388a68	playerIntroduction_00_out_00.brlan
+80388a8b	playerIntroduction_00_onLED_00.brlan
+80388ab0	playerIntroduction_00_offLED_00.brlan
+80388ad6	P_P1LED_00
+80388ae1	P_P2LED_00
+80388aec	P_P3LED_00
+80388af7	P_P4LED_00
+80388b02	N_medal_00
+80388b0d	P_medalC_00
+80388b19	P_medalS_00
+80388b25	P_medalG_00
+80388b31	P_medalP_00
+80388b3d	N_strap_00
+80388b48	T_levelL_00
+80388b54	T_levelL_01
+80388b60	T_levelR_00
+80388b6c	T_levelR_01
+80388b78	T_pNameL_00
+80388b84	T_pNameL_01
+80388b90	T_pNameR_00
+80388b9c	T_pNameR_01
+80388ba8	N_ABuPosition_00
+80388bb9	spVsPlayer.arc
+80388bc8	spVsPlayer_00.brlyt
+80388bdc	spVsPlayer_00_in_00.brlan
+80388bf6	spVsPlayer_00_on_00.brlan
+80388c10	spVsPlayer_00_off_00.brlan
+80388c2b	spVsPlayer_00_p2_00.brlan
+80388c45	spVsPlayer_00_cpu_00.brlan
+80388c60	N_lampL_00
+80388c6b	P_lampL_00
+80388c76	P_lampL_01
+80388c81	P_lampL_02
+80388c8c	P_lampL_03
+80388c97	N_lampR_00
+80388ca2	P_lampR_00
+80388cad	P_lampR_01
+80388cb8	P_lampR_02
+80388cc3	P_lampR_03
+80388cce	P_baseR_00
+80388cd9	P_baseR_01
+80388ce4	P_wbaseR_00
+80388df8	P_ok_00
+80388e00	B_ok_00
+80388e08	??????
+80388e0f	P_gameScreen_00
+80388e1f	training_01_pushA_00.brlan
+80388e3a	training_01_tpaGameScreen_00.brlan
+80388e5d	T_gameTitle_00
+80388e6c	T_comment_00
+80388e79	T_ok_00
+80388e81	T_tairyoku_00
+80388e8f	N_scene_00
+80388e9a	W_tairyoku_00
+80388ea8	RP_COMMON_SE_WIN_CLOSE_01
+80388ec2	RP_COMMON_SE_KEY_CURSOR_02
+80388edd	RP_COMMON_SE_KEY_A_01_CTSP
+80388ef8	RP_COMMON_SE_KEY_A_01_TVSP
+80388f13	RootPane
+80388f1c	training.arc
+80388f29	training_01.brlyt
+80388f3b	sports_message.bmg
+80388f4e	common_message.bmg
+80389028	P_gameButton_00
+80389038	B_gameButton_00
+80389048	?????
+8038904e	P_gameButton_01
+8038905e	B_gameButton_01
+8038906e	P_cover_01
+80389079	P_gameButton_02
+80389089	B_gameButton_02
+80389099	P_cover_02
+803890a4	P_gameButton_03
+803890b4	B_gameButton_03
+803890c4	P_gameButton_04
+803890d4	B_gameButton_04
+803890e4	P_cover_04
+803890ef	P_gameButton_05
+803890ff	B_gameButton_05
+8038910f	P_cover_05
+8038911a	P_gameButton_06
+8038912a	B_gameButton_06
+8038913a	??????
+80389141	P_gameButton_07
+80389151	B_gameButton_07
+80389161	P_cover_07
+8038916c	P_gameButton_08
+8038917c	B_gameButton_08
+8038918c	P_cover_08
+80389197	P_gameButton_09
+803891a7	B_gameButton_09
+803891b7	P_gameButton_10
+803891c7	B_gameButton_10
+803891d7	P_cover_10
+803891e2	P_gameButton_11
+803891f2	B_gameButton_11
+80389202	P_cover_11
+8038920d	P_gameButton_12
+8038921d	B_gameButton_12
+8038922d	P_gameButton_13
+8038923d	B_gameButton_13
+8038924d	P_cover_13
+80389258	P_gameButton_14
+80389268	B_gameButton_14
+80389278	P_cover_14
+80389283	W_sports_00
+8038928f	W_sports_01
+8038929b	W_sports_02
+803892a7	W_sports_03
+803892b3	W_sports_04
+803892bf	T_sportsName_00
+803892cf	T_sportsName_01
+803892df	T_sportsName_02
+803892ef	T_sportsName_03
+803892ff	T_sportsName_04
+8038930f	training_00_sportsTitle_00.brlan
+80389330	training_00_upSportsTitle_00.brlan
+80389353	training_00_downSportsTitle_00.brlan
+80389378	training_00_Button_00.brlan
+80389394	training_00_activeButton_00.brlan
+803893b6	training_00_pushButton_00.brlan
+803893d6	training_00_open_00.brlan
+803893f0	N_scene_00
+803893fb	RP_COMMON_SE_KEY_CURSOR_02
+80389416	RP_COMMON_SE_KEY_CURSOR_01
+80389431	RP_COMMON_SE_WIN_OPEN_01
+8038944a	RP_COMMON_SE_TR_TrainingPanelOpen
+8038946c	RP_COMMON_SE_KEY_A_02_CTSP
+80389487	RP_COMMON_SE_KEY_A_02_TVSP
+803894a2	RP_COMMON_SE_KEY_NG_Decide_CTSP
+803894c2	RP_COMMON_SE_KEY_NG_Decide_TVSP
+803894e2	RootPane
+803894eb	training.arc
+803894f8	training_00.brlyt
+8038950a	training_00_inFrame_00.brlan
+80389527	sports_message.bmg
+8038953a	common_message.bmg
+8038954d	Effect/sports_training.breff
+8038956a	Effect/sports_training.breft
+80389587	Str_panel_open
+80389596	Str_panel_open_std
+803895c0	SE_TR_Common_Sports_DemoSkipButton
+803895e3	SE_TR_Common_Sports_DemoSkipButton_TVSP
+8038969c	trainingResult_01_inoutScene_00.brlan
+803896c2	trainingResult_01_inButton_00.brlan
+803896e6	trainingResult_01_2play_00.brlan
+80389707	trainingResult_01_3play_00.brlan
+80389728	trainingResult_01_4play_00.brlan
+80389749	N_scene_00
+80389754	N_button_00
+80389760	N_button_01
+8038976c	N_button_02
+80389778	N_player_00
+80389784	N_1p_00
+8038978c	N_2p_00
+80389794	N_3p_00
+8038979c	N_4p_00
+803897a4	T_gameTitle_00
+803897b3	T_button_00
+803897bf	T_button_01
+803897cb	trainingResult_02_blinkIcon_00.brlan
+803897f0	N_rank_00
+803897fa	N_2d_00
+80389802	P_pBg_00
+8038980b	P_Line_00
+80389815	W_faceBg_00
+80389821	T_rank_01
+8038982b	T_rank_00
+80389835	T_name_00
+8038983f	T_score_00
+8038984a	T_scoreSub_00
+80389858	trainingResult_02.brlyt
+80389870	trainingResult.arc
+80389883	trainingResult_01.brlyt
+8038989b	P_button_00
+803898a7	B_button_00
+803898b3	trainingResult_01_activeButton_00.brlan
+803898db	trainingResult_01_pushButton_00.brlan
+80389901	P_button_01
+8038990d	B_button_01
+80389919	Scm_vs_result
+80389958	trainingResult_00_inoutScene_00.brlan
+8038997e	trainingResult_00_medal_00.brlan
+8038999f	trainingResult_00_inIcon_00.brlan
+803899c1	trainingResult_00_keepIcon_00.brlan
+803899e5	trainingResult_00_tpaMedal_00.brlan
+80389a09	trainingResult_00_activeButton_00.brlan
+80389a31	trainingResult_00_pushButton_00.brlan
+80389a57	trainingResult_00_offOnButton_00.brlan
+80389a7e	N_scene_00
+80389a89	N_button_00
+80389a95	N_face_00
+80389a9f	N_medal_00
+80389aaa	N_hiScore_00
+80389ab7	P_medal_00
+80389ac2	P_button_00
+80389ace	P_button_01
+80389ada	N_typeA_00
+80389ae5	N_typeB_00
+80389af0	N_typeC_00
+80389afb	T_gameTitle_00
+80389b0a	T_name_00
+80389b14	T_name_01
+80389b1e	T_button_00
+80389b2a	T_button_01
+80389b36	T_hiScore_00
+80389b43	T_hiScore_01
+80389b50	T_score_09
+80389b5b	T_score_13
+80389b66	T_score_18
+80389b71	T_score_10
+80389b7c	T_score_14
+80389b87	T_score_15
+80389b92	T_score_11
+80389b9d	T_score_16
+80389ba8	T_score_17
+80389bb3	T_score_00
+80389bbe	T_score_03
+80389bc9	T_score_04
+80389bd4	T_score_01
+80389bdf	T_score_05
+80389bea	T_score_06
+80389bf5	T_score_02
+80389c00	T_score_07
+80389c0b	T_score_08
+80389c16	Scm_platinum_wait01
+80389c2a	Scm_platinum_wait02
+80389c3e	Scm_platinum_wait03
+80389c52	Scm_gold_wait01
+80389c62	Scm_gold_wait02
+80389c72	Scm_silver_wait01
+80389c84	Scm_silver_wait02
+80389c96	Scm_bronze_wait01
+80389ca8	Scm_bronze_wait02
+80389cba	Scm_medalbronze_flash
+80389cd0	Scm_medalsilver_flash
+80389ce6	Scm_medalgold_flash
+80389cfa	Scm_medalplatinum_flash
+80389d12	W_face_01
+80389d1c	N_AButton_00
+80389d29	STRM_Training_Result03
+80389d40	STRM_Training_Result02
+80389d57	STRM_Training_Result01
+80389d6e	SE_TR_Common_Medal_Copper
+80389d88	VOICE_TR_Common_BronzeMedal
+80389da4	SE_TR_Common_Medal_Silver
+80389dbe	VOICE_TR_Common_SilverMedal
+80389dda	SE_TR_Common_Medal_Gold
+80389df2	VOICE_TR_Common_GoldMedal
+80389e0c	SE_TR_Common_Medal_Platinum
+80389e28	VOICE_TR_Common_PlatinumMedal
+80389e46	T_medalN_00
+80389e52	T_medalN_01
+80389e5e	SE_TR_Common_Sports_MyBestRecord
+80389e7f	VOICE_TR_Common_HighScore
+80389e99	trainingResult.arc
+80389eac	trainingResult_00.brlyt
+80389ec4	B_button_00
+80389ed0	B_button_01
+80389ee0	P_button_01
+80389eec	B_button_01
+80389f00	N_lGraphAll_00
+80389f0f	B_lGraphBase_00
+80389f1f	??????????
+80389f2a	T_measure_00
+80389f37	?????????
+80389f41	N_spAgeResult_00
+80389f52	N_lGraph1_00
+80389f5f	N_lGraph2_00
+80389f6c	N_lGraph3_00
+80389f79	N_result_00
+80389f85	N_button_01
+80389f91	T_spAge_00
+80389f9c	T_spAge_01
+80389fa7	T_spAge_02
+80389fb2	N_resultAge_00
+80389fc1	N_scene_00
+80389fcc	N_plyar_00
+80389fd7	spFTest_00_activeButton_00.brlan
+80389ff8	spFTest_00_activeNgButton_00.brlan
+8038a01b	spFTest_00_pushButton_00.brlan
+8038a03a	spFTest_00_activeLGraph_00.brlan
+8038a05b	spFTest_00_pushLGraph_00.brlan
+8038a07a	spFTest_00_measure_00.brlan
+8038a096	spFTest_00_spAgeResult_00.brlan
+8038a0b6	msy_point08_00.bti
+8038a0c9	RP_COMMON_SE_KEY_CURSOR_02
+8038a0e4	RP_COMMON_SE_KEY_NG_Decide_CTSP
+8038a104	RP_COMMON_SE_KEY_NG_Decide_TVSP
+8038a124	RP_COMMON_SE_KEY_A_02_CTSP
+8038a13f	RP_COMMON_SE_KEY_A_02_TVSP
+8038a15a	RP_COMMON_SE_KEY_A_03_CTSP
+8038a175	RP_COMMON_SE_KEY_A_03_TVSP
+8038a190	spFTest.arc
+8038a19c	spFTest_00.brlyt
+8038a1ad	spFTest_01.brlyt
+8038a1be	spFTest_00_in_00.brlan
+8038a1d5	spFTest_01_in_01.brlan
+8038a1ec	sports_message.bmg
+8038a308	P_ok_00
+8038a310	B_ok_00
+8038a318	??????
+8038a31f	P_gameScreen_00
+8038a32f	training_01_pushA_00.brlan
+8038a34a	training_01_tpaGameScreen_00.brlan
+8038a36d	T_gameTitle_00
+8038a37c	T_comment_00
+8038a389	T_ok_00
+8038a391	T_tairyoku_00
+8038a39f	N_scene_00
+8038a3aa	RP_COMMON_SE_KEY_A_01_CTSP
+8038a3c5	RP_COMMON_SE_KEY_A_01_TVSP
+8038a3e0	RootPane
+8038a3e9	training.arc
+8038a3f6	training_01.brlyt
+8038a408	sports_message.bmg
+8038a41b	common_message.bmg
+8038a42e	training_01_inAlphaFrame_00.brlan
+8038a450	replay.arc
+8038a45b	replay_00.brlyt
+8038a46b	replay_00_blink_00.brlan
+8038a484	T_replay_00
+8038a5a8	G3D/sp_titleBG_00.brres
+8038a5c0	sp_titleBG_00
+8038a5ce	sp_titleBG_01
+8038a624	N_titleRoot_00
+8038a633	P_titleENG_00
+8038a641	P_titleJPN_00
+8038a64f	SpTitle_01_in_00.brlan
+8038a666	T_titleRoot_00
+8038a675	N_pushAB_00
+8038a681	N_AButton_00
+8038a68e	N_BButton_00
+8038a69b	N_lineA_00
+8038a6a6	N_lineB_00
+8038a6b1	SpTitle_00_in_00.brlan
+8038a6c8	SpTitle_00_upDown_00.brlan
+8038a6e3	SpTitle_00_push_00.brlan
+8038a6fc	T_pushAB_00
+8038a708	RP_COMMON_SE_KEY_AB_01_TVSP
+8038a724	RP_COMMON_SE_KEY_AB_01_CTSP
+8038a740	RP_COMMON_SE_KEY_AB_pri_A_01
+8038a75d	RP_COMMON_SE_KEY_AB_pri_B_01
+8038a77a	SpTitle_00.brlyt
+8038a78b	SpTitle_01.brlyt
+8038a79c	SpTitle.arc
+8038a908	T_tGraph_00
+8038a914	T_tGraph_01
+8038a920	T_tGraph_02
+8038a92c	T_measure_00
+8038a939	T_fTtestBnr_00
+8038a948	T_button_01
+8038a954	T_spAge_00
+8038a95f	T_spAge_02
+8038a96a	T_txtLGraphY_00
+8038a97a	T_txtLGraphY_01
+8038a98a	T_txtLGraphY_02
+8038a99a	T_txtLGraphY_03
+8038a9aa	T_txtLGraphY_04
+8038a9ba	T_txtLGraphY_05
+8038a9ca	T_txtLGraphY_06
+8038a9da	T__txtLGraphX_00
+8038a9eb	T__txtLGraphX_01
+8038a9fc	T__txtLGraphX_02
+8038aa0d	T__txtLGraphX_03
+8038aa1e	T__txtLGraphX_04
+8038aa2f	T_name_00
+8038aa39	T_spAge_01
+8038aa44	T_date_00
+8038aa4e	T_week_00
+8038aa58	T_result_00
+8038aa64	T_resultBnr_00
+8038aa73	T_resultBnr_01
+8038aa82	T_resultBnr_02
+8038aa91	T_resultSpAge_00
+8038aaa2	T_SpAgeEf_00
+8038aaaf	T_SpAgeEf_01
+8038aabc	T_resultAge_00
+8038aacb	T_AgeEf_01
+8038aad6	T_AgeEf_00
+8038aae1	T_resultAge_01
+8038aaf0	sports_message.bmg
+8038ab08	N_tCT_00
+8038ab11	N_tCC_00
+8038ab1a	N_tLB_00
+8038ab23	N_tRB_00
+8038ab2c	N_lLB_00
+8038ab35	N_lRB_00
+8038ab3e	N_lLT_00
+8038ab47	N_lRT_00
+8038ab50	Normal
+8038ab57	Training
+8038ab60	Physical
+8038ab7d	N_button_01
+8038ab89	B_button_01
+8038ab95	???????
+8038ab9d	N_lGraphAll_00
+8038abac	B_lGraphBase_00
+8038abbc	??????????
+8038abc7	T_measure_00
+8038abd4	?????????
+8038abde	N_spAgeResult_00
+8038abef	N_result_00
+8038abfb	???????????
+8038ac07	N_spAge_00
+8038ac12	????????
+8038ac1b	N_resultBnr_00
+8038ac2a	N_resultAge_00
+8038ac39	N_resultSpAge_00
+8038ac4a	N_resultBnr_02
+8038ac59	N_lGraph1_00
+8038ac66	N_lGraph2_00
+8038ac73	N_lGraph3_00
+8038ac80	N_scene_00
+8038ac8b	N_plyar_00
+8038ac96	spFTest_00_activeButton_00.brlan
+8038acb7	spFTest_00_activeNgButton_00.brlan
+8038acda	spFTest_00_pushButton_00.brlan
+8038acf9	spFTest_00_inButton_00.brlan
+8038ad16	spFTest_00_activeLGraph_00.brlan
+8038ad37	spFTest_00_pushLGraph_00.brlan
+8038ad56	spFTest_00_onLGraph_00.brlan
+8038ad73	spFTest_00_measure_00.brlan
+8038ad8f	spFTest_00_spAgeResult_00.brlan
+8038adaf	spFTest_00_result_00.brlan
+8038adca	spFTest_00_result_01.brlan
+8038ade5	spFTest_01_resultBnr_00.brlan
+8038ae03	spFTest_01_inAge_00.brlan
+8038ae1d	spFTest_01_outAge_00.brlan
+8038ae38	spFTest_01_inCrash_00.brlan
+8038ae54	spFTest_01_outCrash_00.brlan
+8038ae71	spFTest_01_inSpAge_00.brlan
+8038ae8d	spFTest_01_outSpAge_00.brlan
+8038aeaa	spFTest_01_inBack_00.brlan
+8038aec5	spFTest_01_outBack_00.brlan
+8038aee1	msy_point08_00.bti
+8038aef4	N_effect_00
+8038af00	RP_COMMON_SE_KEY_CURSOR_02
+8038af1b	N_ABuPosition_00
+8038af2c	RP_COMMON_SE_TR_StartMeasureAge
+8038af4c	RP_COMMON_SE_TR_AgeDisp
+8038af64	RP_COMMON_SE_TR_MeasureAgeCount
+8038af84	RP_COMMON_SE_TR_AgeKatamuku
+8038afa0	STRM_Measurement_Result
+8038afb8	RP_COMMON_SE_TR_AgeSmoke
+8038afd1	RP_COMMON_SE_TR_AgePush
+8038afe9	RP_COMMON_SE_TR_AgeStop
+8038b001	RP_COMMON_SE_TR_Decide_CTSP
+8038b01d	RP_COMMON_SE_TR_Decide_TVSP
+8038b039	RP_COMMON_SE_KEY_A_02_CTSP
+8038b054	RP_COMMON_SE_KEY_A_02_TVSP
+8038b06f	RP_COMMON_SE_KEY_A_03_CTSP
+8038b08a	RP_COMMON_SE_KEY_A_03_TVSP
+8038b0a5	spFTest.arc
+8038b0b1	spFTest_00.brlyt
+8038b0c2	spFTest_01.brlyt
+8038b0d3	spFTest_00_in_00.brlan
+8038b0ea	spFTest_01_in_01.brlan
+8038b101	sports_message.bmg
+8038b114	Effect/sports_physical.breff
+8038b131	Effect/sports_physical.breft
+8038b14e	Sph_age_smoke01
+8038b15e	Sph_age_appear01
+8038b1a6	 zsports_message.bmg
+8038b1bb	effect/sports_tennis.breff
+8038b1d6	effect/sports_tennis.breft
+8038b1f1	tns_Field_b.carc
+8038b202	tns_Field_a.carc
+8038b213	rp_Tns_sound.brsar
+8038b2e8	Tns_ply_good_blue
+8038b2fa	Tns_ply_good_red
+8038b30b	Tns_ply_good_green
+8038b31e	Tns_ply_good_yellow
+8038b332	Tns_ply_good_cpu
+8038b343	Tns_ply_miss01
+8038b358	G3D/tns_ball_a.brres
+8038b36d	bti/shadow.bti
+8038b37c	Tns_ball_rocketserve
+8038b391	tns_ball_a
+8038b3d0	G3D/tns_Field_a.brres
+8038b3e6	tns_Field_a.kcl
+8038b3f6	tns_Field_a
+8038b402	tns_C1
+8038b409	tns_C2
+8038b410	G3D/tns_Field_b.brres
+8038b426	tns_Field_b.kcl
+8038b436	tns_Field_b
+8038b4a0	G3D/tns_avatar_anim.brres
+8038b4ba	tns_waitR
+8038b4c4	tns_wait2R
+8038b4cf	tns_wait2L
+8038b4da	tns_walkR
+8038b4e4	tns_walk_r_R
+8038b4f1	tns_walkL
+8038b4fb	tns_walk_r_L
+8038b508	tns_wait_tR
+8038b514	tns_walk_tR
+8038b520	tns_walk_r_tR
+8038b52e	tns_walk_tL
+8038b53a	tns_walk_r_tL
+8038b548	tns_forehandR
+8038b556	tns_fore_spR
+8038b563	tns_backhandL
+8038b571	tns_back_spL
+8038b57e	tns_tossR
+8038b588	tns_toss_waitR
+8038b597	tns_serveR
+8038b5a2	tns_serve2R
+8038b5ae	Tns_sweat01
+8038b5c6	Tns_jumpsmoke
+8038b5d4	skl_root
+8038b5dd	chest
+8038b5e3	wrist_r
+8038b5eb	head_set
+8038b5f8	tns_A0_waitR
+8038b605	tns_A0_jumpR
+8038b612	G3D/tns_avatar_anim.brres
+8038b630	Tns_ball_spark
+8038b63f	Tns_ball_mark
+8038b64d	G3D/tns_pole.brres
+8038b660	tns_pole
+8038b670	SE_TR_Common_Sports_Training_GoodLong
+8038b698	SE_TR_Common_Sports_Training_GoodLong
+8038b6be	SE_TR_Common_Sports_Training_NotGood
+8038b6e8	environment/scene_Bloom_b.pblm
+8038b707	environment/scene_Bloom.pblm
+8038b724	G3D/scene.brres
+8038b734	TNSScene
+8038b73d	environment/scene_Light.plight
+8038b75c	environment/scene_Lm.plmap
+8038b777	environment/scene_Light_select.plight
+8038b79d	environment/scene_Lm_select.plmap
+8038b7bf	environment/scene_Light_b.plight
+8038b7e0	environment/scene_Lm_b.plmap
+8038b7fd	eggIBinary.h
+8038b80e	Not for this class.
+8038b828	SE_TR_Common_Sports_DemoSkipButton
+8038b84b	SE_TR_Common_Sports_DemoSkipButton_TVSP
+8038b8b7	VSE_TR_Common_Sports_DemoSkipButton
+8038b8db	SE_TR_Common_Sports_DemoSkipButton_TVSP
+8038b908	SE_TR_Common_Sports_Training_NotGood
+8038b9f0	bti/block.bti
+8038b9fe	Tns_wall_break
+8038ba10	G3D/tns_Field_b.brres
+8038ba26	G3D/tns_Field_a.brres
+8038ba3c	G3D/tns_net_a.brres
+8038ba50	tns_net_a
+8038ba5a	tns_net_a_back
+8038ba69	tns_net_a_front
+8038ba85	Tns_mato_hit
+8038ba92	Tns_mato_break
+8038baa1	tns_mato_a
+8038baac	tns_mato_b
+8038bab7	tns_mato_c
+8038bac2	G3D/tns_mato.brres
+8038bad5	parts%d
+8038bae0	Tns_jumpsmoke_slow
+8038baf3	Tns_rocketserve_slow
+8038bb08	serverIcon.arc
+8038bb17	serverIcon_00.brlyt
+8038bb2b	serverIcon_00_point_00.brlan
+8038bb48	serverIcon_00_out_00.brlan
+8038bb63	serverIcon_00_in_00.brlan
+8038bb7d	N_serverIcon_00
+8038bb8d	W_serverIcon_00
+8038bb9d	P_serverMark_00
+8038bbad	T_server_00
+8038bbd8	miss.arc
+8038bbe1	miss_00.brlyt
+8038bbef	N_arrowPoint_00
+8038bbff	T_miss_00
+8038bc09	T_miss_01
+8038bc64	ballScore_00_changeWPane_00.brlan
+8038bc86	ballScore_01_changeWPane_00.brlan
+8038bca8	ballScore_00_changeWPane_01.brlan
+8038bcca	ballScore_01_changeWPane_01.brlan
+8038bcec	ballScore_00_changeWPane_02.brlan
+8038bd0e	ballScore_01_changeWPane_02.brlan
+8038bd30	ballScore_00_in_00.brlan
+8038bd49	ballScore_01_in_00.brlan
+8038bd62	W_window_00
+8038bd6e	P_ballOff_00
+8038bd7b	P_ballOff_01
+8038bd88	P_ballOff_02
+8038bd95	P_ballOn_00
+8038bda1	P_ballOn_01
+8038bdad	P_ballOn_02
+8038bdb9	ballScore.arc
+8038bdc7	ballScore_00.brlyt
+8038bdda	ballScore_01.brlyt
+8038be68	vsScoreServer_00_blink_00.brlan
+8038be88	vsScoreServer_00_blink_01.brlan
+8038bea8	W_vsWindow_00
+8038beb6	N_playerIconL_01
+8038bec7	N_playerIconR_01
+8038bed8	N_playerIconL_00
+8038bee9	N_playerIconR_00
+8038befa	T_scoreL_00
+8038bf06	T_scoreR_00
+8038bf12	T_scoreVsBar_00
+8038bf22	T_scoreLR_00
+8038bf2f	vsScoreServer.arc
+8038bf41	vsScoreServer_00.brlyt
+8038c000	N_button_00
+8038c00c	N_button_01
+8038c018	N_button_02
+8038c024	N_backButton_00
+8038c034	B_button_00
+8038c040	B_button_01
+8038c04c	B_button_02
+8038c058	B_backButton_01
+8038c068	T_exp_00
+8038c071	T_button_00
+8038c07d	T_button_01
+8038c089	T_button_02
+8038c095	T_button_03
+8038c0a1	T_button_04
+8038c0ad	T_button_05
+8038c0b9	T_button_06
+8038c0c5	T_button_07
+8038c0d1	T_button_08
+8038c0dd	T_caption_01
+8038c0ea	posSelect_01_offIndi_00.brlan
+8038c108	posSelect_01_onIndi_00.brlan
+8038c125	posSelect_01_out_00.brlan
+8038c13f	posSelect_01_icoCPU_00.brlan
+8038c15c	posSelect_01_icoPlayer_00.brlan
+8038c17c	N_skillRoot_00
+8038c18b	P_indi_00
+8038c195	P_indi_01
+8038c19f	P_indi_02
+8038c1a9	P_indi_03
+8038c1b3	N_skill_00
+8038c1be	W_name_01
+8038c1c8	W_name_02
+8038c1d2	N_indiRoot_00
+8038c1e0	T_name_00
+8038c1ea	T_name_01
+8038c1f4	posSelect_02_wait_00.brlan
+8038c20f	posSelect_02_out_00.brlan
+8038c229	N_question_00
+8038c237	N_question_01
+8038c245	Tns_choice_blue
+8038c255	Tns_choice_red
+8038c264	Tns_choice_green
+8038c275	Tns_choice_yellow
+8038c287	Tns_ply_cancel_blue
+8038c29b	Tns_ply_cancel_red
+8038c2ae	Tns_ply_cancel_green
+8038c2c3	Tns_ply_cancel_yellow
+8038c2d9	Tns_choice_cpu
+8038c2e8	SE_TR_Common_Sports_Cancel
+8038c303	SE_TR_Common_Sports_Cancel_TVSP
+8038c323	tennis.arc
+8038c32e	posSelect_02.brlyt
+8038c341	posSelect_01.brlyt
+8038c354	W_name_03
+8038c35e	posSelect_00.brlyt
+8038c371	posSelect_00_activeButton_00.brlan
+8038c394	posSelect_00_pushButton_00.brlan
+8038c3b5	posSelect_00_activeBack_00.brlan
+8038c3d6	posSelect_00_pushBack_00.brlan
+8038c428	N_point_00
+8038c433	T_point_00
+8038c43e	T_point_01
+8038c449	T_point_02
+8038c454	T_point_03
+8038c45f	T_point_04
+8038c46a	T_point_05
+8038c475	tennis.arc
+8038c480	training_00.brlyt
+8038c4b8	training_01_blink_00.brlan
+8038c4d3	training_01_in_00.brlan
+8038c4eb	training_01_in_01.brlan
+8038c503	N_remains_00
+8038c510	T_remains_03
+8038c51d	T_remains_00
+8038c52a	T_remains_01
+8038c537	T_remains_02
+8038c544	tennis.arc
+8038c54f	training_01.brlyt
+8038c574	tennisText_00_in_00.brlan
+8038c58e	tennisText_00_out_00.brlan
+8038c5a9	N_textRoot_00
+8038c5b7	N_textOnly_00
+8038c5c5	N_textIcon_00
+8038c5d3	T_text_00
+8038c5dd	T_text_01
+8038c5e7	tennis.arc
+8038c5f2	tennisText_00.brlyt
+8038c608	G3D/tns_racket.brres
+8038c61d	tns_racket
+8038c628	G3D/tns_r_shadow.brres
+8038c63f	tns_r_shadow
+8038c64c	G3D/tns_r_color.brres
+8038c662	tns_r_color
+8038c6ac	tnsNameIco_00_offIndi_00.brlan
+8038c6cb	tnsNameIco_00_onIndi_01.brlan
+8038c6e9	tnsNameIco_00_in_00.brlan
+8038c703	tnsNameIco_00_out_00.brlan
+8038c71e	N_nameRoot_00
+8038c72c	N_name_00
+8038c736	P_indi_00
+8038c740	P_indi_01
+8038c74a	P_indi_02
+8038c754	P_indi_03
+8038c75e	N_indiRoot_00
+8038c76c	P_playerColor_00
+8038c77d	P_playerColor_01
+8038c78e	P_playerColor_02
+8038c79f	N_player_00
+8038c7ab	T_name_00
+8038c7b5	T_name_01
+8038c7bf	tennis.arc
+8038c7ca	tnsNameIco_00.brlyt
+8038c7e0	SE_TR_Common_ModeChange_CTSP
+8038c7fd	SE_TR_Common_ModeChange_TVSP
+8038c820	tnsCamera_00_upDown_00.brlan
+8038c83d	N_cameraRoot_00
+8038c84d	N_camera_00
+8038c859	tennis.arc
+8038c864	tnsCamera_00.brlyt
+8038c878	G3D/ava_head.brres
+8038c8a0	effect/sports_baseball.breff
+8038c8bd	effect/sports_baseball.breft
+8038c8da	rp_Bsb_sound.brsar
+8038c8ed	root ( RPBsbScene )
+8038c908	model/G3D/bbl_Ball.brres
+8038c921	bbl_Ball
+8038c92a	Bsb_bound_smoke01
+8038c93c	Bsb_bound_grass01
+8038c94e	Bsb_ball_tail01
+8038c95e	Bsb_ballpoint01
+8038c96e	Bsb_ballglow01
+8038c980	bbl_Field_a.kcl
+8038c990	G3D/bbl_Field_a.brres
+8038c9a6	bbl_Field_a
+8038c9b2	G3D/bbl_Field_Screen.brres
+8038c9cd	bbl_Field_Screen
+8038c9de	G3D/bbl_Field_Score.brres
+8038c9f8	bbl_Field_Score
+8038ca08	bbl_Field_numA1
+8038ca18	bbl_Field_numA2
+8038ca28	bbl_Field_numA3
+8038ca38	bbl_Field_numA4
+8038ca48	bbl_Field_numB1
+8038ca58	bbl_Field_numB2
+8038ca68	bbl_Field_numB3
+8038ca78	bbl_Field_numB4
+8038ca88	numA1
+8038ca8e	numA2
+8038ca94	numA3
+8038ca9a	numA4
+8038caa0	numB1
+8038caa6	numB2
+8038caac	numB3
+8038cab2	numB4
+8038cab8	shadow_tex1
+8038cac4	shadow_tex2
+8038cad0	bbl_Field_cloud01
+8038cae2	bbl_Field_cloud02
+8038caf4	backscreen
+8038caff	ballpark00.carc
+8038cb0f	faceDummy_A
+8038cb1b	faceDummy_B
+8038cb28	motion/G3D/bbl_avatar_anim.brres
+8038cb50	model/G3D/bbl_Bat.brres
+8038cb70	bbl_b_swing1R
+8038cb7e	bbl_b_swing_wait1R
+8038cb91	bbl_b_swing_wait2R
+8038cba4	bbl_b_waitR
+8038cbb0	bbl_b_buntR
+8038cbbc	bbl_b_bunt_waitR
+8038cbcd	bbl_p_waitR
+8038cbd9	Bsb_justmeet02
+8038cbe8	chest
+8038cbee	wrist_l
+8038cbf6	Bsb_batblur01
+8038cc08	model/G3D/bbl_Glove.brres
+8038cc22	bbl_Glove_l
+8038cc2e	bbl_Glove_r
+8038cc3a	model/G3D/bbl_c_mask.brres
+8038cc55	bbl_c_mask
+8038cc60	model/G3D/bbl_c_pl.brres
+8038cc79	bbl_c_pl
+8038cc82	model/G3D/bbl_c_glove.brres
+8038cc9e	bbl_c_glove
+8038ccaa	bbl_A0_runR
+8038ccb6	bbl_A0_waitR
+8038ccc3	bbl_r_runR
+8038ccce	bbl_r_happyR
+8038ccdb	bbl_c_recerveR
+8038ccea	bbl_c_waitR
+8038ccf6	skl_root
+8038cd2f	Bsb_run_smoke01
+8038cd3f	Bsb_run_grass01
+8038cd4f	Bsb_error_shock
+8038cd60	bbl_p_pitch1R
+8038cd6e	bbl_p_pitch2R
+8038cd7c	bbl_p_waitR
+8038cd88	chest
+8038cd8e	wrist_l
+8038cd96	wrist_r
+8038cd9e	Bsb_error_shock
+8038cdae	Bsb_sweat01
+8038cea0	Bgm_Tutorial
+8038ceb0	sports_message.bmg
+8038cec3	baseball.arc
+8038ced0	bblGameText_00.brlyt
+8038cee5	bblGameText_00_batting_00.brlan
+8038cf05	bblGameText_00_pitching_00.brlan
+8038cf26	bblGameText_00_ball_00.brlan
+8038cf43	bblGameText_00_game00.brlan
+8038cf5f	bblGameText_00_advise_00.brlan
+8038cf7e	RootPane
+8038cf87	T_batting_00
+8038cf94	T_batting_01
+8038cfa1	T_pitching_00
+8038cfaf	T_pitching_01
+8038cfbd	T_ball_00
+8038cfc7	T_ball_01
+8038cfd1	T_gameTex_00
+8038cfde	T_gameTex_01
+8038cfeb	T_advise_00
+8038cff7	T_advise_01
+8038d003	N_batting_00
+8038d010	N_pitching_00
+8038d01e	N_ball_00
+8038d028	N_gameTex_00
+8038d035	N_advise_00
+8038d068	T_results_00
+8038d075	T_results_01
+8038d0c0	results.arc
+8038d0cc	resultsW_00.brlyt
+8038d0de	resultsW_00.brlmc
+8038d0f0	resultsW_00.brlpa
+8038d102	resultsW_00.brlvi
+8038d114	results_00.brlyt
+8038d125	results_00.brlmc
+8038d138	baseball.arc
+8038d145	bblCommon_00.brlyt
+8038d158	bblCommon_00_inoutSpeed_00.brlan
+8038d179	bblCommon_00_inoutFeet_00.brlan
+8038d199	T_feet_00
+8038d1a3	T_feet_01
+8038d1ad	T_feetScore_00
+8038d1bc	T_feetScore_01
+8038d1cb	T_ballName_00
+8038d1d9	T_ballName_01
+8038d1e7	T_ballSpeed_00
+8038d1f6	T_ballSpeed_01
+8038d205	T_mph_00
+8038d20e	T_mph_01
+8038d217	N_ballSpeed_00
+8038d226	N_feet_00
+8038d230	baseball.arc
+8038d23d	bblHomerun_00.brlyt
+8038d251	bblHomerun_00_hit_00.brlan
+8038d26c	bblHomerun_00_bigHit_00.brlan
+8038d28a	bblHomerun_00_offBall_00.brlan
+8038d2a9	P_3ballOn_00
+8038d2b6	P_3ballOn_01
+8038d2c3	P_3ballOn_02
+8038d2d0	P_3ballHit_00
+8038d2de	P_3ballHit_01
+8038d2ec	P_3ballHit_02
+8038d2fa	P_10ballOn_00
+8038d308	P_10ballOn_01
+8038d316	P_10ballOn_02
+8038d324	P_10ballOn_03
+8038d332	P_10ballOn_04
+8038d340	P_10ballOn_05
+8038d34e	P_10ballOn_06
+8038d35c	P_10ballOn_07
+8038d36a	P_10ballOn_08
+8038d378	P_10ballOn_09
+8038d386	P_10ballHit_00
+8038d395	P_10ballHit_01
+8038d3a4	P_10ballHit_02
+8038d3b3	P_10ballHit_03
+8038d3c2	P_10ballHit_04
+8038d3d1	P_10ballHit_05
+8038d3e0	P_10ballHit_06
+8038d3ef	P_10ballHit_07
+8038d3fe	P_10ballHit_08
+8038d40d	P_10ballHit_09
+8038d41c	N_3ballWindow_00
+8038d42d	N_10ballWindow_00
+8038d43f	P_hit_%02d
+8038d44a	P_on_%02d
+8038d458	vsBaseball_00.brlmc
+8038d46c	vsBaseball_00.brlpa
+8038d480	baseball.arc
+8038d48d	bblVsGame_00.brlyt
+8038d4a0	bblVsGame_00.brlan
+8038d4b3	bblVsGame_00_onRunner_00.brlan
+8038d4d2	bblVsGame_00_changeScore_00.brlan
+8038d4f4	bblVsGame_00_offOnLamp_00.brlan
+8038d514	bblVsGame_00_posSBO_00.brlan
+8038d531	bblVsGame_00_onLamp_00.brlan
+8038d54e	N_score_00
+8038d562	P_ballOn_00
+8038d56e	P_ballOn_01
+8038d57a	P_ballOn_02
+8038d586	P_ballOn_03
+8038d592	P_ballOn_04
+8038d59e	P_ballOn_05
+8038d5aa	P_ballOn_06
+8038d5b6	P_strikeOn_00
+8038d5c4	P_strikeOn_01
+8038d5d2	P_outOn_00
+8038d5dd	P_outOn_01
+8038d5e8	P_runnerOn_01
+8038d5f6	P_runnerOn_02
+8038d604	P_runnerOn_03
+8038d612	T_playerL_00
+8038d61f	T_playerR_00
+8038d62c	T_scoreL_00
+8038d638	T_scoreR_00
+8038d644	P_arrow_00
+8038d64f	P_arrow_01
+8038d65a	N_3DL_00
+8038d663	N_3DR_00
+8038d66c	T_L_00
+8038d673	T_R_00
+8038d67a	T_game_00
+8038d684	T_sbo_00
+8038d68d	T_sbo_01
+8038d696	T_sbo_02
+8038d69f	N_b_00
+8038d6a6	N_S_00
+8038d6fc	model/G3D/bbl_Arrow_A.brres
+8038d718	model/G3D/bbl_Arrow_B.brres
+8038d734	model/G3D/bbl_RangeBoard_A.brres
+8038d755	model/G3D/bbl_RangeBoard_B.brres
+8038d776	model/G3D/bbl_RangeBoard_C.brres
+8038d797	bbl_Arrow_A
+8038d7a3	bbl_Arrow_B
+8038d7af	bbl_RangeBoard_A
+8038d7c0	bbl_RangeBoard_B
+8038d7d1	bbl_RangeBoard_C
+8038d808	baseball.arc
+8038d815	bblAreaHit_00.brlyt
+8038d829	bblAreaHit_00_hit3_00.brlan
+8038d845	bblAreaHit_00_hit2_00.brlan
+8038d861	bblAreaHit_00_hit1_00.brlan
+8038d87d	bblAreaHit_00_offBall_00.brlan
+8038d89c	P_3ballOn_00
+8038d8a9	P_3ballOn_01
+8038d8b6	P_3ballOn_02
+8038d8c3	P_3ballHit_00
+8038d8d1	P_3ballHit_01
+8038d8df	P_3ballHit_02
+8038d8ed	P_10ballOn_00
+8038d8fb	P_10ballOn_01
+8038d909	P_10ballOn_02
+8038d917	P_10ballOn_03
+8038d925	P_10ballOn_04
+8038d933	P_10ballOn_05
+8038d941	P_10ballOn_06
+8038d94f	P_10ballOn_07
+8038d95d	P_10ballOn_08
+8038d96b	P_10ballOn_09
+8038d979	P_10ballHit_00
+8038d988	P_10ballHit_01
+8038d997	P_10ballHit_02
+8038d9a6	P_10ballHit_03
+8038d9b5	P_10ballHit_04
+8038d9c4	P_10ballHit_05
+8038d9d3	P_10ballHit_06
+8038d9e2	P_10ballHit_07
+8038d9f1	P_10ballHit_08
+8038da00	P_10ballHit_09
+8038da0f	N_3ballWindow_00
+8038da20	N_10ballWindow_00
+8038da32	P_on_%02d
+8038da40	environment/scene_Light.plight
+8038da5f	environment/scene_Lm.plmap
+8038da7a	environment/scene_Bloom.pblm
+8038da97	environment/scene_ModelMisc.pmmisc
+8038daba	Environment/G3D/scene.brres
+8038dad6	BBLScene
+8038dadf	eggIBinary.h
+8038daf0	Not for this class.
+8038db08	Bsb_base_smoke01
+8038db20	baseball.arc
+8038db2d	bblBatting_00.brlyt
+8038db41	bblBatting_00_countDown_00.brlan
+8038db62	bblBatting_00_hit_00.brlan
+8038db7d	bblBatting_00_inoutHit_00.brlan
+8038db9d	bblBatting_00_inoutCombo_00.brlan
+8038dbbf	bblBatting_00_Combo_00.brlan
+8038dbdc	P_3ballOn_00
+8038dbe9	P_3ballOn_01
+8038dbf6	P_3ballOn_02
+8038dc03	P_3ballHit_00
+8038dc11	P_3ballHit_01
+8038dc1f	P_3ballHit_02
+8038dc2d	P_10ballOn_00
+8038dc3b	P_10ballOn_01
+8038dc49	P_10ballOn_02
+8038dc57	P_10ballOn_03
+8038dc65	P_10ballOn_04
+8038dc73	P_10ballOn_05
+8038dc81	P_10ballOn_06
+8038dc8f	P_10ballOn_07
+8038dc9d	P_10ballOn_08
+8038dcab	P_10ballOn_09
+8038dcb9	P_10ballHit_00
+8038dcc8	P_10ballHit_01
+8038dcd7	P_10ballHit_02
+8038dce6	P_10ballHit_03
+8038dcf5	P_10ballHit_04
+8038dd04	P_10ballHit_05
+8038dd13	P_10ballHit_06
+8038dd22	P_10ballHit_07
+8038dd31	P_10ballHit_08
+8038dd40	P_10ballHit_09
+8038dd4f	N_3ballWindow_00
+8038dd60	N_10ballWindow_00
+8038dd72	T_rest_01
+8038dd7c	T_hit_01
+8038dd85	N_hit_00
+8038dd8e	N_comboMark_00
+8038dd9d	N_hitCount_00
+8038ddab	T_hitCount_00
+8038ddb9	T_hitCount_01
+8038ddc7	T_rest_00
+8038ddd1	T_hit_00
+8038ddda	T_hitM_01
+8038dde4	T_hitM_00
+8038de10	baseball.arc
+8038de1d	bblGameResult_00.brlyt
+8038de34	bblGameResult_00_inoutScene_00.brlan
+8038de59	bblGameResult_00_coldGame_00.brlan
+8038de7c	T_score_00
+8038de87	T_score_01
+8038de92	T_score_02
+8038de9d	T_score_03
+8038dea8	T_score_04
+8038deb3	T_score_05
+8038debe	T_score_06
+8038dec9	T_score_07
+8038ded4	N_scene_00
+8038dedf	N_face_00
+8038dee9	N_face_01
+8038def3	P_cold_00
+8038defd	P_cold_01
+8038df07	N_AButton_00
+8038df14	T_total_00
+8038df20	baseball.arc
+8038df2d	pIBbl_00.brlyt
+8038df3c	pIBbl_00_in_00.brlan
+8038df51	pIBbl_00_out_00.brlan
+8038df67	pIBbl_00_onLED_00.brlan
+8038df7f	pIBbl_00_offLED_00.brlan
+8038df98	pIBbl_00_pIFirstBat_00.brlan
+8038dfb5	pIBbl_00_pIBat_00.brlan
+8038dfcd	N_pI_00
+8038dfd5	W_base_00
+8038dfdf	N_firstBat_00
+8038dfed	N_score_00
+8038dff8	N_LED_00
+8038e001	P_P1LED_00
+8038e00c	P_P2LED_00
+8038e017	P_P3LED_00
+8038e022	P_P4LED_00
+8038e02d	T_nBatting_00
+8038e03b	T_nBatting_01
+8038e049	T_pName_00
+8038e054	T_score_00
+8038e05f	T_score_01
+8038e06a	T_score_02
+8038e075	P_playerColor_00
+8038e08e	Y$Y%Y.Y8Y9YBYCbblGuide_00_inTitle_00.brlan
+8038e0b9	bblGuide_00_outTitle_00.brlan
+8038e0d7	bblGuide_00_inGuide_00.brlan
+8038e0f4	bblGuide_00_outGuide_00.brlan
+8038e112	bblGuide_00_tpaPic_00.brlan
+8038e12e	N_GuideBG_00
+8038e13b	P_picBgR_00
+8038e147	P_picBgL_00
+8038e153	N_bg_00
+8038e15b	P_GuideBG_00
+8038e168	P_GuideBG_01
+8038e175	T_Guide_00
+8038e180	T_Guide_01
+8038e18b	T_title_00
+8038e196	T_title_01
+8038e1a1	T_explain_00
+8038e1ae	baseball.arc
+8038e1bb	sports_message.bmg
+8038e1ce	bblGuide_00.brlyt
+8038e1e0	bblGuide_01_inoutPGuide_00.brlan
+8038e201	N_guide_00
+8038e20c	T_title_00
+8038e217	baseball.arc
+8038e224	sports_message.bmg
+8038e237	bblGuide_01.brlyt
+8038e250	sports_golf.breff
+8038e262	sports_golf.breft
+8038e274	glf_course_%s.carc
+8038e287	rp_Gol_sound.brsar
+8038e29a	sports_message.bmg
+8038e2bc	M_Green
+8038e2c4	Environment/scene_Light.plight
+8038e2e3	Environment/scene_Lm.plmap
+8038e2fe	Environment/scene_Bloom.pblm
+8038e31b	projection_1
+8038e328	projection_2
+8038e335	projection_3
+8038e342	glf_scene_%s/glf_scene_%s.%s
+8038e35f	%s/glf_%s_%s.%s
+8038e36f	glf_%s_%s.%s
+8038e37c	glf_%s_%s
+8038e386	course
+8038e399	brres
+8038e3a3	scene
+8038e3a9	plmap
+8038e3b4	plight
+8038e3c4	Gol_mapobj_hole
+8038e3d4	Gol_mapobj_hole_green
+8038e3ea	Gol_mapobj_player
+8038e3fc	Gol_mapobj_bar
+8038e40b	Gol_mapobj_barpoint
+8038e41f	Gol_mapobj_target
+8038e431	eggIBinary.h
+8038e442	Not for this class.
+8038e458	Environment/scene_ModelMisc.pmmisc
+8038e47b	eggIBinary.h
+8038e48c	Not for this class.
+8038e4a0	G3D/glf_tree%d.brres
+8038e4b5	glf_tree%d
+8038e4c0	glf_tree%d_LOD
+8038e4cf	glf_tree%d_sh
+8038e4e8	G3D/glf_tree%d.brres
+8038e4fd	glf_tree%d_env
+8038e510	G3D/glf_ball1.brres
+8038e524	glf_ball1
+8038e52e	G3D/glf_marker.brres
+8038e543	glf_marker
+8038e54e	Gol_ikepocha
+8038e55b	Gol_rock_bound
+8038e56a	Gol_fairway_bound
+8038e57c	Gol_rough_bound
+8038e58c	Gol_bunker_fall
+8038e59c	Gol_tree_leaf
+8038e5aa	Gol_tree_conifer
+8038e5bb	Gol_shot1
+8038e5c5	**--***-------------------------
+8038e5f5	Gol_balltail
+8038e602	Gol_tee_set
+8038e640	survey
+8038e647	angle
+8038e668	G3D/glf_Help.brres
+8038e67b	glf_HelpBall
+8038e688	glf_HelpSquare
+8038e698	glf_club_WD_L
+8038e6a6	glf_club_IR_L
+8038e6b4	glf_club_SW_L
+8038e6c2	glf_club_PT_L
+8038e6d0	glf_club_WD
+8038e6dc	glf_club_IR
+8038e6e8	glf_club_SW
+8038e6f4	glf_club_PT
+8038e700	G3D/glf_culb_L.brres
+8038e715	G3D/glf_club.brres
+8038e73c	Gol_tee_shot
+8038e749	Gol_fairway_shot
+8038e75a	Gol_rough_shot_waraji
+8038e770	Gol_rough_shot_soil
+8038e784	Gol_rough_shot_leaf
+8038e798	Gol_bunker_shot01
+8038e7aa	Gol_bunker_shot02
+8038e7bc	**--****--****------------------
+8038e7e0	**--****------------------------
+8038e801	IR/SW (Fairway)
+8038e811	*****--***----------------------
+8038e832	IR/SW (Rough)
+8038e840	*****---****--------------------
+8038e861	IR/SW (Bunker)
+8038e870	**--***-------------------------
+8038e891	PT ( 0%-25%)
+8038e89e	PT (25%-50%)
+8038e8ab	PT (50%-75%)
+8038e8b8	**--*****-----------------------
+8038e8d9	PT (75%-100%)
+8038e8e7	***-------****-------****-------
+8038e90d	Gol_rough_shot_hole
+8038ea80	G3D/glf_pin1.brres
+8038ea93	glf_pin1
+8038ea9c	glf_pin1b
+8038eaa6	glf_pin1_S
+8038eab1	glf_pin1_M
+8038eabc	glf_pin1_L
+8038eac7	glf_flag1
+8038ead1	glf_flag2
+8038eae0	golf.arc
+8038eae9	glfSelectCourse_00.brlyt
+8038eb02	glfSelectCourse_00_in_00.brlan
+8038eb21	glfSelectCourse_00_BG_00.brlan
+8038eb40	N_BG_00
+8038eb48	glfSelectCourse_00_active_00.brlan
+8038eb6b	glfSelectCourse_00_push_00.brlan
+8038eb8c	B_coButton_%02d
+8038eb9c	P_coButton_%02d
+8038ebac	sports_message.bmg
+8038ebbf	T_seCo_00
+8038ebc9	T_seCo_01
+8038ebd3	T_course_00
+8038ebdf	T_course_01
+8038ebeb	T_course_02
+8038ebf7	T_course_03
+8038ec03	T_3hole_00
+8038ec0e	rp_Gol_sound.brsar
+8038ec38	G3D/glf_fukidasi.brres
+8038ec4f	glf_fukidasi
+8038ec5c	glf_fukidasi_A
+8038ec6b	FaceDummy1.bti
+8038ec7a	FaceDummy2.bti
+8038ec89	FaceDummy3.bti
+8038ec98	FaceDummy4.bti
+8038eca7	AvaFaceB
+8038ecb0	fukidasi_A
+8038ecbb	FaceDummy_A
+8038ecc7	fukidasi_B
+8038ecd2	FaceDummy_B
+8038ecde	AvaFaceA
+8038ece7	FaceDummy
+8038ecf8	glf_w_swing_h_R
+8038ed08	glf_w_swing_m_R
+8038ed18	glf_w_swing_l_R
+8038ed28	glf_w_wait_h_R
+8038ed37	glf_w_wait_m_R
+8038ed46	glf_w_wait_l_R
+8038ed55	glf_p_swing_h
+8038ed63	glf_p_swing_m
+8038ed71	glf_p_swing_l
+8038ed7f	glf_p_wait_h_R
+8038ed8e	glf_p_wait_m_R
+8038ed9d	glf_p_wait_l_R
+8038edac	avatar_body
+8038edb8	avatar_head
+8038edc4	avatar_hand
+8038edd0	G3D/glf_avatar.brres
+8038ede5	wrist_l
+8038eded	ankle_l
+8038edf5	ankle_r
+8038ee00	G3D/glf_bar_tex.brres
+8038ee16	golf_powerbar_tex01
+8038ee2a	G3D/glf_bar_tex_bg.brres
+8038ee43	golf_powerbar_tex01bg
+8038ee59	G3D/glf_bar_frame.brres
+8038ee71	golf_powerbar_tex01frame
+8038ee8a	Gol_powerbar_dia
+8038ee9b	Gol_powerbar_dot
+8038eeb0	G3D/glf_teeOBJ.brres
+8038eec5	glf_teeOBJ
+8038eed0	G3D/glf_sky.brres
+8038eee2	glf_sky
+8038eeea	glf_sky2
+8038ef38	G3D/glf_mato.brres
+8038ef4c	glf_mato_B
+8038ef57	glf_mato_C
+8038ef62	glf_mato_D
+8038ef6d	glf_mato_%c
+8038ef79	glf_matoWATER_%c
+8038ef8a	glf_matoWAVE_%c
+8038efa0	G3D/glf_cup.brres
+8038efb2	glf_cup
+8038efba	glf_cup_side
+8038efc8	G3D/glf_wind.brres
+8038efdb	glf_windGround
+8038efea	glf_windArrow
+8038eff8	Gol_wind
+8038f020	golf.arc
+8038f029	playerIntroduction.arc
+8038f040	BwgGlfScorecard.arc
+8038f058	golf_00.brlyt
+8038f066	golf_00_in_00.brlan
+8038f07a	golf_00_out_00.brlan
+8038f08f	golf_00_outShot_00.brlan
+8038f0a8	golf_00_inShot_00.brlan
+8038f0c0	golf_00_changeText_00.brlan
+8038f0dc	golf_00_TextPin_00.brlan
+8038f0f5	golf_00_inAButton_00.brlan
+8038f110	golf_00_outAButton_00.brlan
+8038f12c	golf_00_wind_00.brlan
+8038f142	golf_00_inContour_00.brlan
+8038f15d	golf_00_outContour_00.brlan
+8038f179	N_club_01
+8038f183	P_clubIcon_01
+8038f191	golf_00_tpaClub_00.brlan
+8038f1aa	N_mapWindow_01
+8038f1b9	T_club_02
+8038f1c3	T_club_03
+8038f1cd	W_mapWiFrame_01
+8038f1dd	N_cPad_01
+8038f1e7	golf_00_cPadClub_00.brlan
+8038f201	N_club_00
+8038f20b	P_clubIcon_00
+8038f219	N_mapWindow_00
+8038f228	T_club_00
+8038f232	T_club_01
+8038f23c	W_mapWiFrame_00
+8038f24c	N_cPad_00
+8038f256	N_ballsTBase_00
+8038f266	N_ballsBase_00
+8038f275	N_ballsTotal_00
+8038f285	P_ball_%02d
+8038f291	P_ballMiss_%02d
+8038f2a1	P_ballOff_%02d
+8038f2b0	P_grade_%02d
+8038f2bd	P_gradeH_%02d
+8038f2cb	golf_00_ball_00.brlan
+8038f2e1	golf_00_ballMiss_00.brlan
+8038f2fb	golf_00_ballOff_00.brlan
+8038f314	golf_00_ballGread_00.brlan
+8038f32f	golf_00_ballGradeH_00.brlan
+8038f34b	golf_00_ballShot_00.brlan
+8038f365	N_3dWindPo_00
+8038f373	N_tWind_00
+8038f37e	N_windW3d_00
+8038f38b	N_wind_00
+8038f395	T_nWind_00
+8038f3a0	T_nWind_01
+8038f3ab	T_uWind_00
+8038f3b6	T_uWind_01
+8038f3c1	T_total_00
+8038f3cc	T_pin_00
+8038f3d5	T_pin_01
+8038f3de	T_hole_00
+8038f3e8	T_hole_01
+8038f3f2	N_AButton_00
+8038f3ff	N_tHole_00
+8038f40a	N_tPin_00
+8038f414	N_contour_00
+8038f421	T_windW3d_00
+8038f42e	T_windW3d_01
+8038f43b	T_high_00
+8038f445	T_high_01
+8038f44f	T_low_00
+8038f458	T_low_01
+8038f4a0	glfLiePinTA_00.brlyt
+8038f4b5	glfLiePinTA_00_in_00.brlan
+8038f4d0	glfLiePinTA_00_out_00.brlan
+8038f4ec	glfLiePinTA_00_tryAgain_00.brlan
+8038f50d	N_tTryAgain_00
+8038f51c	T_lie_00
+8038f525	T_lie_01
+8038f52e	T_pin_00
+8038f537	T_pin_01
+8038f540	T_tryAgain_00
+8038f54e	T_tryAgain_01
+8038f55c	T_tryAgain_02
+8038f56a	glfGiveUp_00.brlyt
+8038f57d	glfGiveUp_00_giveUp_00.brlan
+8038f59a	T_giveUp_00
+8038f5a6	T_giveUp_01
+8038f5b2	T_giveUp_02
+8038f5be	T_score_00
+8038f5c9	T_score_01
+8038f5d4	T_score_02
+8038f5df	glfStartPoint_00.brlyt
+8038f5f6	glfStartPoint_00_startPoint_00.brlan
+8038f61b	T_startPoint_00
+8038f62b	T_startPoint_01
+8038f63b	T_startPoint_02
+8038f64b	glfShotNumber_00.brlyt
+8038f662	glfShotNumber_00_in_00.brlan
+8038f67f	glfShotNumber_00_out_00.brlan
+8038f69d	T_shot_00
+8038f6a7	T_shot_01
+8038f6b1	T_shot_02
+8038f6bb	glfTargetPoint_00.brlyt
+8038f6d3	glfTargetPoint_00_point_00.brlan
+8038f6f4	T_point_01
+8038f6ff	T_point_00
+8038f70a	Gol_2d_albat
+8038f717	Gol_2d_eagle
+8038f724	Gol_2d_birdie
+8038f732	glfHoleOutText_%02d.brlyt
+8038f74c	T_holeOut_%02d
+8038f75b	glfHoleOutText_%02d_holeOut_00.brlan
+8038f780	glfHoleDemo_00.brlyt
+8038f795	glfHoleDemo_00_in_00.brlan
+8038f7b0	glfHoleDemo_00_out_00.brlan
+8038f7cc	T_hole_00
+8038f7d6	T_hole_01
+8038f7e0	glfScorecard_00.brlyt
+8038f7f6	N_scorecard_00
+8038f805	N_scoreBaseH_00
+8038f815	glfScorecard_00_in_00.brlan
+8038f831	glfScorecard_00_out_00.brlan
+8038f84e	glfScorecard_01.brlyt
+8038f864	RootPane
+8038f86d	T_nScore_%02d
+8038f87b	glfScorecard_01_scoreBogey_00.brlan
+8038f89f	glfScorecard_01_scorePar_00.brlan
+8038f8c1	glfScorecard_01_scorebirdie_00.brlan
+8038f8e6	T_nTotalScore_00
+8038f8f7	P_scoreBaseB_00
+8038f907	P_scoreBaseB_04
+8038f917	T_pName_00
+8038f922	T_pName_01
+8038f92d	T_nHole_%02d
+8038f93a	T_nPar_%02d
+8038f946	glfScorecard_00_playHole_00.brlan
+8038f968	glfScorecard_00_piayHole_01.brlan
+8038f98a	T_hole_00
+8038f994	T_total_00
+8038f99f	T_par_00
+8038f9a8	T_parTotal_00
+8038f9b8	Bgm_Tutorial
+8038f9d0	glfExplanation_00.brlyt
+8038f9e8	glfExplanation_00_in_00.brlan
+8038fa06	glfExplanation_00_out_00.brlan
+8038fa25	glfExplanation_00_expSwing_00.brlan
+8038fa49	glfExplanation_00_expShot_00.brlan
+8038fa6c	N_exp_01
+8038fa75	N_exp_00
+8038fa7e	P_exp_01
+8038fa87	P_exp_00
+8038fa90	N_glfExp_00
+8038faa0	G3D/glf_matoPIN.brres
+8038fab6	glf_matoPIN
+8038fac2	Gol_matohit_pinlight
+8038fad7	Gol_matohit_glow
+8038fae8	Gol_matohit_ring
+8038fb10	MainGame.carc
+8038fb1e	Effect/sports_boxing.breff
+8038fb39	Effect/sports_boxing.breft
+8038ff40	box_ring
+8038ff49	box_hall
+8038ff52	box_light
+8038ff5c	box_corner_B
+8038ff69	box_corner_R
+8038ff76	box_corner_W1
+8038ff84	box_corner_W2
+8038ff92	box_gym
+8038ff9a	EnvMain/scene_Light_MainGame.plight
+8038ffbe	EnvMiniGame/scene_Light_MiniGame03.plight
+8038ffe8	EnvMiniGame/scene_Light_MiniGame02.plight
+80390012	EnvMiniGame/scene_Light_MiniGame01.plight
+8039003c	EnvMain/scene_Lm_MainGame.plmap
+8039005c	EnvMiniGame/scene_Lm_MiniGame.plmap
+80390080	EnvMain/box_ring.pblm
+80390096	EnvMiniGame/box_gym.pblm
+803900af	box_rope
+803900b8	box_rope_kage
+803900c6	G3D/box_ring.brres
+803900e2	box_hall2
+803900ec	G3D/box_gym.brres
+803900fe	eggIBinary.h
+8039010f	Not for this class.
+803901d0	box_glove_L
+803901dc	box_glove_R
+803901e8	box_glove_blue
+803901f7	box_glove_red
+80390205	box_glove_white
+80390215	box_glove_gym
+80390223	box_mitt_L
+8039022e	box_mitt_R
+80390239	skl_root
+80390242	chest1
+80390249	chest2
+80390250	arm_l1
+80390257	arm_l2
+8039025e	wrist_l
+80390266	arm_r1
+8039026d	arm_r2
+80390274	wrist_r
+80390285	leg_l1
+8039028c	leg_l2
+80390293	ankle_l
+8039029b	leg_r1
+803902a2	leg_r2
+803902a9	ankle_r
+803902b1	L_fist
+803902b8	L_wrist
+803902c0	R_fist
+803902c7	R_wrist
+803902cf	L_finger
+803902d8	R_finger
+803902e1	G3D/box_glove.brres
+803902f5	G3D/box_mitt.brres
+80390374	Box_glovetail01_blue
+80390389	Box_glovetail02_blue
+8039039e	Box_glovetail01_red
+803903b2	Box_glovetail02_red
+803903c6	Box_glovetail01_green
+803903dc	Box_glovetail02_green
+803903f2	Box_glovetail01_yellow
+80390409	Box_glovetail02_yellow
+80390420	Box_glovetail01_white
+80390436	Box_glovetail02_white
+8039044c	Box_afterimage01_blue
+80390462	Box_afterimage01_red
+80390477	Box_hit01_blue
+80390486	Box_hit02_blue
+80390495	Box_hit03_blue
+803904a4	Box_guard01_blue
+803904b5	Box_mitt_hit
+803904c2	Box_paling01
+803904cf	Box_sandbag_hit01
+803904e1	Box_sandbag_crash
+803904f3	Box_hit01_red
+80390501	Box_hit02_red
+8039050f	Box_hit03_red
+8039051d	Box_guard01_red
+8039052d	Box_hit01_yellow
+8039053e	Box_hit02_yellow
+8039054f	Box_hit03_yellow
+80390560	Box_hit04_blue
+8039056f	Box_hit04_red
+8039057d	Box_hit04_yellow
+8039058e	Box_damageline_1p_s
+803905a2	Box_damageline_1p_w
+803905b6	Box_damageline_vs_s
+803905ca	Box_damageline_vs_w
+803905de	Box_sweat_1time01
+803905f0	Box_afterimage02
+80390601	Box_sweat_loop01
+80390612	Box_indistinct01
+80390b10	Bgm_Tutorial
+80390b1d	rp_Box_sound.brsar
+80390cb0	box_avatarC
+80390cbc	box_avatarB
+80390cc8	box_avatarA
+80390cd4	G3D/box_avatar.brres
+80390ce9	box_avatar_dummy
+80390d77	*****--***--**
+80390d86	*******--***--****
+80390d99	*********--****--*****
+80390db0	*********-******-***-**-*****
+80390dce	******
+80390dd5	******--**-**
+80390de3	*******
+80390f48	box_sandbagC
+80390f55	box_sandbagB
+80390f62	box_sandbagA
+80390f6f	box_sandbagC_a
+80390f7e	box_sandbagB_a
+80390f8d	box_sandbagA_a
+80390f9c	sandbag_root
+80390fa9	chain1
+80390fb0	chain2
+80390fb7	joint1
+80390fbe	joint2
+80390fc5	joint3
+80390fcc	G3D/box_sandbag.brres
+80391240	box_ball_tns
+8039124d	box_ball_bbl
+8039125a	box_ball_glf
+80391267	box_ball_bwg
+80391274	box_ball_pin
+80391281	box_ball_bad
+8039128e	Box_tennisball_tail
+803912a2	Box_baseball_tail
+803912b4	Box_golfball_tail
+803912c6	Box_bowlingball_tail
+803912db	Box_pingball_tail
+803912ed	Box_hit02_yellow
+803912fe	Box_hit01_yellow
+8039130f	Box_hit03_yellow
+80391320	G3D/box_ball.brres
+80391333	box_ball_shadow
+80391630	box_wait1R
+8039163b	box_down1R
+80391646	box_down2R
+80391651	box_pose_waitR
+80391660	box_pose_walkR
+8039166f	box_c_nobR
+8039167a	box_c_waitR
+80391686	box_c_weaveR
+80391693	box_c_shadowR
+803916a1	box_c_throw1_cR
+803916b1	box_c_throw1_1R
+803916c1	box_c_throw1_2R
+803916d1	box_c_throw1_1L
+803916e1	box_c_throw1_2L
+803916f1	box_c_throw2_L
+80391700	box_c_throw2_R
+8039170f	box_punch_jab_R
+8039171f	box_punch_straight_l_R
+80391736	box_punch_straight_r_R
+8039174d	box_punch_upper_l_R
+80391761	box_punch_upper_r_R
+80391775	box_punch_hook_l_R
+80391788	box_punch_hook_r_R
+8039179b	box_punch_jab_L
+803917ab	box_punch_straight_l_L
+803917c2	box_punch_straight_r_L
+803917d9	box_punch_upper_l_L
+803917ed	box_punch_upper_r_L
+80391801	box_punch_hook_l_L
+80391814	box_punch_hook_r_L
+80391827	G3D/box_avatarC0.brres
+8039183e	G3D/box_punch.brres
+80391910	boxMsg_00.brlyt
+80391920	boxGauge_00.brlyt
+80391932	boxJudge_00.brlyt
+80391944	boxFTest_00.brlyt
+80391956	boxEx_00.brlyt
+80391965	boxing.arc
+80391970	sports_message.bmg
+80391998	boxFTest_00_in_00.brlan
+803919b0	boxFTest_00_count_00.brlan
+803919cb	boxFTest_00_point_00.brlan
+803919e6	boxFTest_00_point_01.brlan
+80391a01	boxFTest_00_out_00.brlan
+80391a1a	N_box_00
+80391a23	N_FTest_00
+80391a2e	N_score_00
+80391a39	N_tScore_00
+80391a45	N_score_01
+80391a50	N_tScore_01
+80391a5c	N_trainer_00
+80391a69	N_trainer_01
+80391a76	N_FTest_01
+80391a81	N_tScore_02
+80391a8d	N_tScore_04
+80391a99	N_FTest_02
+80391aa4	N_tScore_03
+80391ab0	N_timeWBase_00
+80391abf	N_timeBase_00
+80391acd	N_hand_00
+80391ad7	T_point_00
+80391ae2	T_point_02
+80391aed	T_pt_00
+80391af5	T_pt_02
+80391afd	T_point_04
+80391b08	T_point_08
+80391b13	T_pt_04
+80391b1b	T_pt_08
+80391b23	T_point_06
+80391b2e	T_pt_06
+80391b60	boxJudge_00_inJudge_00.brlan
+80391b7d	boxJudge_00_inPoint_00.brlan
+80391b9a	boxJudge_00_b_00.brlan
+80391bb1	boxJudge_00_r_00.brlan
+80391bc8	boxJudge_00_g_00.brlan
+80391bdf	boxJudge_00_outJudge_00.brlan
+80391bfd	N_PJudge_00
+80391c09	N_tPoint_00
+80391c15	N_tPoint_01
+80391c21	P_light_00
+80391c2c	P_light_02
+80391c37	P_light_04
+80391c42	P_light_01
+80391c4d	P_light_03
+80391c58	P_light_05
+80391c63	T_judgeBnr_00
+80391c71	T_judgeBnr_01
+80391c7f	T_round_00
+80391c8a	T_round_01
+80391c95	T_round_02
+80391ca0	T_pointL_00
+80391cac	T_pointL_01
+80391cb8	T_pointR_00
+80391cc4	T_pointR_01
+80391ce3	[boxGauge_00_in_00.brlan
+80391cfc	boxGauge_00_roundOn_00.brlan
+80391d19	boxGauge_00_roundOff_00.brlan
+80391d37	boxGauge_00_count_00.brlan
+80391d52	boxGauge_00_player2p_00.brlan
+80391d70	boxGauge_00_playerCpu_00.brlan
+80391d8f	boxGauge_00_out_00.brlan
+80391da8	N_box_gauge_00
+80391db7	P_count_02
+80391dc2	P_count_01
+80391dcd	P_count_00
+80391dd8	P_round_00
+80391de3	P_round_01
+80391dee	P_round_02
+80391df9	N_player00_00
+80391e07	N_player01_00
+80391e15	N_frame00_01
+80391e22	T_name_00
+80391e2c	T_name_01
+80391e68	boxEx_00_inBelt_00.brlan
+80391e81	boxEx_00_outBelt_00.brlan
+80391e9b	boxEx_00_inPose_00.brlan
+80391eb4	boxEx_00_pose_00.brlan
+80391ecb	boxEx_00_pose_01.brlan
+80391ee2	boxEx_00_pose_02.brlan
+80391ef9	boxEx_00_pose_03.brlan
+80391f10	boxEx_00_outPose_00.brlan
+80391f2a	N_exBelt_00
+80391f36	N_exPose_00
+80391f42	P_pose_00
+80391f4c	P_pose_00_L
+80391f58	P_belt_00
+80391f62	P_belt_01
+80391f6c	P_Glove_00
+80391f77	T_explain_00
+80391f84	T_exTitle_00
+803920e7	`Box_life_ring_red
+803920fa	Box_life_ring_blink_red
+80392112	Box_turnon_red
+80392121	Box_turnoff_red
+80392131	Box_life_ring_blue
+80392144	Box_life_ring_blink_blue
+8039215d	Box_turnon_blue
+8039216d	Box_turnoff_blue
+8039217e	Box_life_base02
+803922bd	-----------
+80392382	Environment/scene_Lm.plmap
+8039239d	GateChallengeData.bin
+803923b3	TrialData.bin
+803923c1	BowExcelGlobal.bin
+803923d4	effect/sports_bowling.breff
+803923f0	effect/sports_bowling.breft
+8039240c	Environment/scene_Light.plight
+8039242b	rp_Bow_sound.brsar
+8039243e	bwg_field_col.kcl
+80392450	bwg_field_91_col.kcl
+80392465	sports_message.bmg
+80392478	eggIBinary.h
+80392489	Not for this class.
+80392516	bwg_ball_blue
+80392524	bwg_ball_pink
+80392532	bwg_ball_green
+80392541	bwg_ball_yellow
+80392551	bwg_ball_blue_mirror
+80392566	bwg_ball_pink_mirror
+8039257b	bwg_ball_green_mirror
+80392591	bwg_ball_yellow_mirror
+803925a8	bwg_ball_blue_pro
+803925ba	bwg_ball_pink_pro
+803925cc	bwg_ball_green_pro
+803925df	bwg_ball_yellow_pro
+803925f3	bwg_ball_blue_pro_mirror
+8039260c	bwg_ball_pink_pro_mirror
+80392625	bwg_ball_green_pro_mirror
+8039263f	bwg_ball_yellow_pro_mirror
+8039265a	G3D/bwg_field_rsca.brres
+80392673	RPScene
+8039267b	G3D/bwg_field_91_rsca.brres
+80392697	G3D/bwg_ball.brres
+803926aa	G3D/bwg_ball_pro.brres
+803926c1	G3D/bwg_ava_shadow.brres
+803926da	G3D/bwg_Pin.brres
+803926ec	G3D/bwg_field.brres
+80392700	G3D/bwg_field_91.brres
+80392717	bwg_field_front
+80392727	bwg_field_pin
+80392735	bwg_field_91
+80392742	bwg_wall_L
+8039274d	bwg_wall_R
+80392758	bwg_wall_L_mirror
+8039276a	bwg_wall_R_mirror
+8039277c	bwg_field
+80392786	lane_alpha_etc
+80392795	lane_alpha
+803927a0	projection_1
+803927ad	projection_2
+803927ba	G3D/bwg_avatar_anim.brres
+803927d4	bwg_wait_legR
+803927e2	bwg_throwR_tmp
+803927f1	bwg_wait_armR
+803927ff	bwg_walkR
+80392809	bwg_throw1R
+80392815	bwg_throw2R
+80392821	bwg_moveR
+8039282b	bwg_wait_moveR
+8039283a	bwg_A0_wait3R
+80392848	bwg_A0_frontR
+80392856	bwg_A0_walkR
+80392863	bwg_A0_waitR
+80392870	bwg_A0_throwR
+8039287e	bwg_A0_wait2R
+8039288c	bwg_A0_UturnR
+8039289a	bwg_A0_returnR
+803928a9	bwg_A0_happyR
+803928b7	bwg_pin_438_91
+803928c6	bwg_pin_286_91
+803928d5	bwg_pin_866_10
+803928e4	bwg_pin_286_10
+803928f3	bwg_pin_438_10
+80392902	bwg_pin_74_10
+80392910	bwg_pin_166_10
+8039291f	G3D/bwg_conveyer.brres
+80392936	pin_conveyer
+80392943	G3D/bwg_throwline.brres
+8039295b	bwg_arrow_00
+80392968	bwg_arrow_01
+80392975	bwg_throwline
+80392983	G3D/bwg_gate.brres
+80392996	bwg_gate_frame_L
+803929a7	bwg_gate
+803929b0	bwg_gate_frame_R
+803929c8	BowExcelGlobal.bin
+80392b10	Bow_pin_hit
+80392b20	Bow_pinltail
+80392b58	SE_TR_Common_Sports_DemoSkipButton
+80392b7b	SE_TR_Common_Sports_DemoSkipButton_TVSP
+80392c4d	WAIT_PREPARE_LINE
+80392c5f	PREPARE
+80392c74	NPC[%d(%s)] %s  phy:%d
+80392cc0	SE_TR_Common_Sports_DemoSkipButton
+80392ce3	SE_TR_Common_Sports_DemoSkipButton_TVSP
+80392d0b	FANFARE_Training_Nagitaoshi
+80392ed8	Bow_wall_hit02
+80392ee8	Bow_lane01
+803930d0	Bow_wall_hit
+803930dd	Bow_lane01
+803930e8	SE_TR_Common_Sports_DemoSkipButton
+8039310b	SE_TR_Common_Sports_DemoSkipButton_TVSP
+80393133	FANFARE_Training_Kabeyoke
+8039314d	FANFARE_Training_SpareGet
+80393204	OPENING_1
+8039320e	OPENING_2
+80393218	OPENING_3
+80393222	THROWSTART
+8039322d	TRIAL_STAGEINFO
+8039323d	TRIAL_NEXTSTAGEINFO
+80393251	GATE_STATEINFO
+80393260	GATE_NEXTSTATEINFO
+80393273	RESULT
+8039327a	RESULT_1
+80393283	RESULT_2
+8039328c	100PIN_STAGEINFO[0]
+803932a0	100PIN_STAGEINFO[9]
+803932b4	100PIN_STAGEINFO[%d]
+803932c9	100PIN_REPLAY1[0]
+803932db	100PIN_REPLAY1[9]
+803932ed	100PIN_REPLAY1[%d]
+80393300	100PIN_REPLAY2[0]
+80393312	100PIN_REPLAY2[9]
+80393324	100PIN_REPLAY2[%d]
+80393337	100PIN_REPLAY3[%d]
+80393360	bowling.arc
+8039336c	playerIntroduction.arc
+80393383	BwgGlfScorecard.arc
+80393410	score_00.brlyt
+8039341f	P_frameBG%02d_00
+80393430	T_frame%02d_00
+8039343f	P_frameBG10_01
+8039344e	T_frame10_01
+8039345b	P_playerBG_%02d
+8039346b	N_scoreRoot_00
+8039347a	RootPane
+80393483	score_01.brlyt
+80393492	score_02.brlyt
+803934a1	P_scoreBG_00
+803934ae	T_throw%d_00
+803934bb	P_strike%d_00
+803934c9	P_spare%d_00
+803934d6	T_total_00
+803934e1	N_playerIcon_%02d
+803934f8	pin_00.brlyt
+80393505	RootPane
+8039350e	N_pin%02d_00
+80393520	pin_01.brlyt
+8039352d	RootPane
+80393536	N_lineBG%02d_00
+80393546	N_line%02d_00
+80393554	pin_01_stage_%02d.brlan
+8039356c	P_pin_%02d
+80393578	bwgTutorial_00.brlyt
+8039358d	bwgTutorial_00_in_00.brlan
+803935a8	bwgTutorial_00_out_00.brlan
+803935c4	bwgTutorial_00_loop_00.brlan
+803935e1	N_AButton_00
+803935ee	N_tutorial_01
+803935fc	T_tutorial_00
+8039360a	bwgStrike_00.brlyt
+8039361d	bwgStrike_00_inOut_00.brlan
+80393639	T_strike_00
+80393645	T_strike_01
+80393651	bwgText_04.brlyt
+80393662	bwgText_04_inOut_00.brlan
+8039367c	T_game_00
+80393686	T_game_01
+80393690	bwgText_03.brlyt
+803936a1	T_stage_00
+803936ac	T_stage_01
+803936b7	T_pin_00
+803936c0	T_pin_01
+803936c9	bwgText_02.brlyt
+803936da	bwgText_01.brlyt
+803936eb	T_text_00
+803936f5	T_text_01
+803936ff	T_textS_00
+8039370a	T_textS_01
+80393715	bwgText_01_in_00.brlan
+8039372c	N_text_00
+80393736	N_textS_00
+80393741	T_double_00
+8039374d	T_double_01
+80393759	N_double_00
+80393765	bwgText_00.brlyt
+80393776	bwgText_00_in_00.brlan
+8039378d	bwgText_00_out_00.brlan
+803937a5	P_tutorial_01
+803937b3	T_exp_00
+803937c0	bwgCount_00.brlyt
+803937d2	RootPane
+803937db	bwgCount_00_bigBall_00.brlan
+803937f8	bwgCount_00_smallBall_00.brlan
+80393817	N_ball_%02d
+80393823	bwgCount_00_ballColor_%02d.brlan
+80393848	bwgCount_01.brlyt
+8039385a	RootPane
+80393863	N_ball_%02d
+8039386f	P_check_%02d
+8039387c	bwgCount_01_ballColor_%02d.brlan
+8039389d	T_text_00
+803938a7	T_text_01
+803938b1	T_textS_00
+803938bc	T_textS_01
+803938c8	bwgMoveExp_00.brlyt
+803938dc	RootPane
+803938e5	bwgMoveExp_00_blink_00.brlan
+80393902	N_plusButton_00
+80393912	T_plusText_00
+80393920	T_plusText_01
+8039392e	T_aText_00
+80393939	T_aText_01
+80393944	bwgMoveExp_00_change_00.brlan
+80393962	N_aButton_00
+8039396f	N_plusText_00
+8039397d	bwgMoveExp_00_on_00.brlan
+80393997	bwgMoveExp_00_off_00.brlan
+803939b2	N_plusButton_01
+803939c2	N_plusText_01
+803939d0	T_plusText_02
+803939de	T_plusText_03
+803939f0	Bow_perfect_kira
+80393a01	bwgText_05.brlyt
+80393a12	bwgText_05_in_00.brlan
+80393a29	bwgText_05_out_00.brlan
+80393a41	T_perfect_%02d
+80393a50	Bow_perfect_hubuki
+80393a63	N_perfect_00
+80393dc0	<< NW4R    - EF \tfinal   build: Jun  8 2007 11:16:29 (0x4199_60831) >>
+80395e18	#%08x[%d]: printvar %sVAR_%d(%d) = %d\n
+803962fe	\t<< NW4R    - SND \tfinal   build: Jun  8 2007 11:17:15 (0x4199_60831) >>
+80396584	Palettes(NW4R)
+803965a4	Textures(NW4R)
+80396624	AnmTexPat(NW4R)
+803966a4	External
+80396724	LightSet(NW4R)
+80396744	AmbLights(NW4R)
+80396ec8	NodeTree
+80397024	NodeTree
+803970c0	<< NW4R    - G3D \tfinal   build: Jun  8 2007 11:16:25 (0x4199_60831) >>
+80397140	<< NW4R    - LYT \tfinal   build: Jun  8 2007 11:17:26 (0x4199_60831) >>
+8039750c	pCapTexture
+80397518	eggPostEffectBase.h
+80397548	( u32 )pBuffer % 32 == 0
+80397568	eggCpuTexture.h
+80397578	eggCpuTexture.h
+803976cf	8spScreen
+803976dc	eggIDrawGX.h
+8039774c	num <= eCnstBlurGather_Max
+80397768	eggPostEffectBlurGather.h
+80397784	dataNum < CIRCLE_MAX
+8039779c	eggPostEffectBlur.h
+80397800	eggPostEffectMaskDOF.h
+80397818	end >= 0.f && end <= 1.f
+80397834	eggPostEffectMaskDOF.h
+8039784c	center >= 0.f && center <= 1.f
+8039786c	eggPostEffectMaskDOF.h
+80397970	index < GetNum()
+80397984	eggLightManager.h
+80397998	index < GetNum()
+803979ac	eggLightManager.h
+80397a08	index < mLightObjectMax
+80397a20	eggLightTextureManager.h
+80397a3c	lightID < mLightNum
+80397a50	eggLightTexture.h
+80397a64	lightID < mLightNum
+80397a78	eggLightTexture.h
+80397a8c	lightID < mLightNum
+80397aa0	eggLightTexture.h
+80397ab4	lightID < mLightNum
+80397ac8	eggLightTexture.h
+80397adc	pat < cPttrn_Max
+80397af0	eggLightTexture.h
+80397b34	eggModelEx.h
+80397b44	eggModelBoundingInfo.h
+80397b5c	eggModelBoundingInfo.h
+80397b84	Size over.
+80397b90	eggG3DUtility.h
+80397ba0	sTempMemIndex % align == 0
+80397bc0	eggG3DUtility.h
+80397bd0	s_result.m_type == TYPE_VERTEX
+80397bf0	eggAnalizeDL.h
+80397c00	mType == cType_ScnProcModel
+80397c1c	eggModelEx.h
+80397c5c	eggModelBoundingInfo.h
+80397cc8	type < PROJ_MAX
+80397cd8	eggFrustum.h
+80397e08	mpScreen
+80397e14	eggScnRootEx.h
+80397e3c	sizeX >= 0.f
+80397e4c	eggFrustum.h
+80397e5c	sizeY >= 0.f
+80397e6c	eggFrustum.h
+80397eb0	procIndex < getNumScnProc()
+80397ecc	eggIScnProc.h
+80397f37	$mpTimingPrioritySet != NULL
+80397f54	eggScnRenderer.h
+80397f68	timing < getNumTiming()
+80397f80	eggScnRenderer.h
+80397f98	path < getNumDrawPath()
+80397fb0	eggScnRenderer.h
+80397fe4	VEC3Len( &dir ) > 0.f
+80397ffc	eggLightObject.h
+80398044	type < cBufferType_Max
+8039805c	eggScreenEffectBase.h
+8039808c	0.f < fovy && fovy < 180.f
+803980a8	eggFrustum.h
+803982d8	TBuffer::checkRange %d (0<=x<%d)\n
+803982fc	eggBuffer.h
+80398308	TBuffer::checkRange %d (0<=x<%d)\n
+8039832c	eggBuffer.h
+80398500	eggCntFile.h
+80398620	eggAudio3DMgr.h
+80398630	eggAudio3DMgr.h
+80398678	eggAudioExpMgr.h
+8039876b	xeggMsgRes.h
+80398778	dataBlkHeader
+80398788	eggMsgRes.h
+8039928c	-INF
+80399296	-inf
+803992b0	-NAN
+803992ba	-nan
+80399418	<< RVL_SDK - KPAD \trelease build: Jun  5 2007 11:27:45 (0x4199_60831) >>
+80399470	<< RVL_SDK - WPAD \trelease build: May 17 2007 01:52:03 (0x4199_60831) >>
+803994bc	No Alloc: Nothing to do!!!\n
+803994d8	No Free: Nothing to do!!!\n
+803994f4	Deregister allocators because of fatal error.\n
+80399538	Check the update of WiFi using channel\n
+80399560	WiFi uses channel = %d\n
+80399578	WPADInit()\n
+80399584	 ==>this error means that the firmware is for NDEV %s\n
+803995bc	2.1 or later
+803995cc	connection is opened\n
+803995e4	connection is closed\n
+80399600	clean up command queue\n
+80399618	WARNING: disconnection for device handle not assigned to channel.\n
+80399660	HID Parser reports: %d\n
+80399678	WPADiRecvCallback(): Unknown channel %d\n
+803996a4	WPADSetSamplingCallback()\n
+803996c0	WPADSetConnectCallback()\n
+803996dc	WPADSetExtensionCallback()\n
+803996f8	WPADSetAutoSamplingBuf()\n
+80399714	handle = %d, repid = %02x\n
+803997f0	Dpd Setting is ok.\n
+80399808	Dpd Setting is broken.\n
+80399820	Old Firmware uses default values because it has no Dpd Setting.\n
+80399864	Acc is ok.\n
+80399870	Acc is broken.\n
+80399880	0G:  accX = %d,  accY = %d,  accZ = %d\n
+803998a8	1G:  accX = %d,  accY = %d,  accZ = %d\n
+803998d0	Volume: %d,   Motor: %d\n
+803998ec	check sum error.\n
+80399900	0G:  fsaccX = %d,  fsaccY = %d,  fsaccZ = %d\n
+80399930	1G:  fsaccX = %d,  fsaccY = %d,  fsaccZ = %d\n
+80399960	FS:  X = %d,  X max = %d,  X min = %d\n
+80399988	FS:  Y = %d,  Y max = %d,  Y min = %d\n
+803999b0	CL:  X = %d,  X max = %d,  X min = %d\n
+803999d8	CL:  Y = %d,  Y max = %d,  Y min = %d\n
+80399a00	CR:  X = %d,  X max = %d,  X min = %d\n
+80399a28	CR:  Y = %d,  Y max = %d,  Y min = %d\n
+80399a50	LR:  L = %d,  R = %d\n
+80399a68	type : %d\n
+80399a74	mode : %d\n
+80399a80	Received report 20\n
+80399a94	initialize attachment\n
+80399aac	already initialized\n
+80399ac4	already disconnected\n
+80399adc	read error happens!\n
+80399af4	base addr: %08x\n
+80399b08	length   : %d\n
+80399b18	received data is out of range!\n
+80399b38	Received ack!\n
+80399b48	ack --> report ID = %02x, error code = %d\n
+80399b74	ack error --> report ID = %d, error code = %d\n
+80399ba4	invalid ack!\n
+8039ae18	ans : %d %d %d %d %d %d\n
+8039ae34	rand: %d %d %d %d %d %d %d %d %d %d\n
+8039ae5c	t0  : %d %d %d %d %d %d %d %d %d %d\n
+8039ae84	key : %d %d %d %d %d %d \n
+8039aea0	ft  : %d %d %d %d %d %d %d %d\n
+8039aec0	sb  : %d %d %d %d %d %d %d %d\n
+8039aee0	<< RVL_SDK - EXI \trelease build: Nov 30 2006 03:26:56 (0x4199_60831) >>
+8039af28	APP ERROR: Not enough IPC arena\n
+8039af60	<< RVL_SDK - GX \trelease build: Nov 30 2006 03:30:39 (0x4199_60831) >>
+8039b1a0	CPUFifo: %08X - %08X\n
+8039b1b8	GP Fifo: %08X - %08X\n
+8039b908	/tmp/sys
+8039b914	%s/%08x/%s
+8039b920	<< RVL_SDK - NAND \trelease build: Nov 30 2006 03:32:57 (0x4199_60831) >>
+8039b9d0	/shared2
+8039b9dc	/shared2/
+8039b9e8	CAUTION!  Unexpected error code [%d] was found.\n
+8039ba1c	Failed to set home directory.\n
+8039ba40	/title/00010000
+8039ba50	/title/00010001
+8039ba60	/title/00010003
+8039ba70	/title/00010004
+8039ba80	/title/00010005
+8039ba90	/title/00010006
+8039baa0	/title/00010007
+8039bab0	/shared2/title
+8039baf0	<< RVL_SDK - OS \trelease build: Apr 24 2007 11:50:47 (0x4199_60831) >>
+8039bb38	\nRevolution OS\n
+8039bb48	Kernel built : %s %s\n
+8039bb60	Apr 24 2007
+8039bb6c	11:50:47
+8039bb78	Console Type : 
+8039bb88	Pre-production board 1\n
+8039bba0	Pre-production board 2-1\n
+8039bbbc	Pre-production board 2-2\n
+8039bbd8	Retail %d\n
+8039bbe4	NDEV 2.1\n
+8039bbf0	NDEV 2.0\n
+8039bbfc	NDEV 1.2\n
+8039bc08	NDEV 1.1\n
+8039bc14	NDEV 1.0\n
+8039bc20	Revolution Emulator\n
+8039bc38	Emulation platform (%08x)\n
+8039bc54	TDEV-based emulation HW%d\n
+8039bc70	Firmware     : %d.%d.%d 
+8039bc8c	(%d/%d/%d)\n
+8039bc98	Memory %d MB\n
+8039bca8	MEM1 Arena : 0x%x - 0x%x\n
+8039bcc4	MEM2 Arena : 0x%x - 0x%x\n
+8039bd48	OS ERROR: boot program is not for RVL target. Please use correct boot program.\n
+8039bd98	Failed to run app
+8039bdb0	OS ERROR: apploader[D].img is not for RVL target. Please use correct apploader[D].img.\n
+8039be44	Installing OSDBIntegrator\n
+8039be60	>>> OSINIT: exception %d commandeered by TRK\n
+8039be90	>>> OSINIT: exception %d vectored to debugger\n
+8039bec0	Exceptions initialized...\n
+8039bf70	>>> L2 INVALIDATE : SHOULD NEVER HAPPEN\n
+8039bfa0	Machine check received\n
+8039bfb8	HID2 = 0x%x   SRR1 = 0x%x\n
+8039bfd8	Machine check was not DMA/locked cache related\n
+8039c008	DMAErrorHandler(): An error occurred while processing DMA.\n
+8039c044	The following errors have been detected and cleared :\n
+8039c07c	\t- Requested a locked cache tag that was already in the cache\n
+8039c0bc	\t- DMA attempted to access normal cache\n
+8039c0e8	\t- DMA missed in data cache\n
+8039c108	\t- DMA queue overflowed\n
+8039c124	L1 i-caches initialized\n
+8039c140	L1 d-caches initialized\n
+8039c15c	L2 cache initialized\n
+8039c174	Locked cache machine check handler installed\n
+8039c1a8	------------------------- Context 0x%08x -------------------------\n
+8039c1f0	r%-2d  = 0x%08x (%14d)  r%-2d  = 0x%08x (%14d)\n
+8039c220	LR   = 0x%08x                   CR   = 0x%08x\n
+8039c250	SRR0 = 0x%08x                   SRR1 = 0x%08x\n
+8039c280	\nGQRs----------\n
+8039c294	gqr%d = 0x%08x \t gqr%d = 0x%08x\n
+8039c2b8	\n\nFPRs----------\n
+8039c2cc	fr%d \t= %d \t fr%d \t= %d\n
+8039c2e8	\n\nPSFs----------\n
+8039c2fc	ps%d \t= 0x%x \t ps%d \t= 0x%x\n
+8039c31c	\nAddress:      Back Chain    LR Save\n
+8039c344	0x%08x:   0x%08x    0x%08x\n
+8039c360	FPU-unavailable handler installed\n
+8039c388	 in "%s" on line %d.\n
+8039c3a0	\nAddress:      Back Chain    LR Save\n
+8039c3c8	0x%08x:   0x%08x    0x%08x\n
+8039c3e4	Non-recoverable Exception %d
+8039c404	Unhandled Exception %d
+8039c41c	\nDSISR = 0x%08x                   DAR  = 0x%08x\n
+8039c450	TB = 0x%016llx\n
+8039c460	\nInstruction at 0x%x (read from SRR0) attempted to access invalid address 0x%x (read from DAR)\n
+8039c4c0	\nAttempted to fetch instruction from invalid address 0x%x (read from SRR0)\n
+8039c50c	\nInstruction at 0x%x (read from SRR0) attempted to access unaligned address 0x%x (read from DAR)\n
+8039c570	\nProgram exception : Possible illegal instruction/operation at or around 0x%x (read from SRR0)\n
+8039c5d0	AI DMA Address =   0x%04x%04x\n
+8039c5f0	ARAM DMA Address = 0x%04x%04x\n
+8039c610	DI DMA Address =   0x%08x\n
+8039c62c	\nLast interrupt (%d): SRR0 = 0x%08x  TB = 0x%016llx\n
+8039c868	 !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijk
+8039d1f8	OSReset.c
+8039d204	OSReturnToMenu(): Falied to boot system menu.\n
+8039d234	OSResetSystem() is obsoleted. It doesn't work any longer.\n
+8039d3ca	]^_`abcdefghijklmnopqrstuvwxyz{|}
+803a9110	/dev/stm/immediate
+803a9124	/dev/stm/eventhook
+803a9138	OSStateTM.c
+803a9144	Error: The firmware doesn't support shutdown feature.\n
+803a917c	Error: The firmware doesn't support reboot feature.\n
+803a91b4	Error on STM state event handler\n
+803a91d8	/title/00000001/00000002/data/play_rec.dat
+803a9220	/title/00000001/00000002/data/state.dat
+803a9248	Failed to register network shutdown function. %d\n
+803a927c	Failed to suspend the WiiConnect24 scheduler. %d\n
+803a92b0	Failed to synchronize time with network resource managers. %d\n
+803a92f0	NWC24iPrepareShutdown
+803a9308	/dev/net/kd/request
+803a931c	NWC24SuspendScheduler
+803a9334	NWC24ResumeScheduler
+803a934c	NWC24iRequestShutdown
+803a9364	NWC24Shutdown_: Give up!\n
+803a9380	NWC24iSetRtcCounter_
+803a9398	/dev/net/kd/time
+803a93b0	<< RVL_SDK - SC \trelease build: Nov 30 2006 03:33:00 (0x4199_60831) >>
+803a9404	IPL.SADR
+803a941c	NET.PROF
+803a95c8	USB ERR: 
+803a95d4	Library is already initialized. Heap Id = %d\n
+803a9604	iusb size: %d lo: %x hi: %x\n
+803a9624	Not enough IPC arena\n
+803a963c	Not enough heaps\n
+803a9650	_intrBlkCtrlCb returned: %d\n
+803a9670	_intrBlkCtrlCb: nclean = %d\n
+803a9690	__intBlkCtrlCb: got invalid nclean\n
+803a96b8	Freeing clean[%d] = %x\n
+803a96d0	iosFree(%d, 0x%x) failed: %d\n
+803a96f0	cb = %x cbArg = %x\n
+803a9704	iosAllocAligned(%d, %u) failed: %d\n
+803a9728	OpenDeviceIds: Not enough memory\n
+803a974c	/dev/usb/%s/%x/%x
+803a9760	OpenDevice - %s\n
+803a9774	OpenDevice returned: %d\n
+803a9790	OpenDevice\n
+803a979c	OpenDeviceIdsAsync: Not enough memory\n
+803a97c4	CloseDevice\n
+803a97d4	CloseDevice returned: %d\n
+803a97f0	CloseDeviceAsync: Not enough memory\n
+803a9818	openDevice: Not enough memory\n
+803a9838	getDeviceList: Not enough memory\n
+803a985c	__IntrBlkMsgInt: Not enough memory\n
+803a9880	intr/blk ioctl returned: %d\n
+803a98a0	IntBlkMsgInt (async): Not enough memory\n
+803a98cc	intrblkmsg: cb = 0x%x cbArg = 0x%x\n
+803a98f0	ctrlmsg: bad data buffer\n
+803a990c	Ctrl Msg: Not enough memory\n
+803a992c	CtrlMsgInt (async): Not enough memory\n
+803a9954	ctrlmsgint: cb = 0x%x cbArg = 0x%x\n
+803a9978	Ctrl Msg async returned: %d\n
+803a9998	GetStrCb returned: %d\n
+803a99b0	GetStrCb: buf = 0x%x buflen = %u\n
+803a99d4	Failed to convert buffer from unicode 2 ascii\n
+803a9a04	calling cb 0x%x with arg 0x%x\n
+803a9a24	Failed __CtrlMsg: %d
+803a9a3c	Failed to convert unicode 2 ascii\n
+803a9a60	GetStr - _GetStrCb\n
+803a9a74	 GetAsciiStrAsync: Not enough memory\n
+803a9aa0	__CtrlMsgInt failed %d\n
+803a9ab8	GetDescrCb returned: %d\n
+803a9ad4	GetDevDescr\n
+803a9ae8	GetDevDescr: Not enough memory\n
+803a9b08	GetDevDescr: %d\n
+803a9b1c	GetDevDescr - _GetDescrCb\n
+803a9b38	GetDevDescrAsync: Not enough memory\n
+803a9b60	DeviceRemovalNotifyAsync\n
+803a9b7c	Invalid parameters for ISO transfer request\n
+803a9bac	IUSB_IsoMsgAsync: Not enough memory\n
+803a9bd4	Open(%s) failed\n
+803a9be8	<< RVL_SDK - VI \trelease build: Nov 30 2006 03:31:49 (0x4199_60831) >>
+803a9ed4	***************************************\n
+803a9f00	 ! ! ! C A U T I O N ! ! !             \n
+803a9f2c	This TV format "DEBUG_PAL" is only for \n
+803a9f58	temporary solution until PAL DAC board \n
+803a9f84	is available. Please do NOT use this   \n
+803a9fb0	mode in real games!!!                  \n
+803a9fdc	VIConfigure(): Tried to change mode from (%d) to (%d), which is forbidden\n
+803aa6d4	App_MEMalloc\n
+803aa6e4	App_MEMfree\n
+803aa6f4	SyncFlushCallback() : %d, Sync: %d\n
+803aa718	DeleteFlushCallback() : %d, Delete: %d\n
+803aa740	ShutFlushCallback() : %d, Shutdown: %d\n
+803aa768	%d devices is stored into SC.\n
+803aa788	Pairing Done\n
+803aa798	Nintendo RVL-CNT
+803aa7ac	write stored link key\n
+803aa7c4	addr : %02x:%02x:%02x:%02x:%02x:%02x\n
+803aa7f0	key  : %02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x\n
+803aa848	Cancel searching because 4 connections exist.\n
+803aa878	WARNING: Illigal status\n
+803aa8b8	hci_version   : %02x\n
+803aa8d0	hci_revision  : %04x\n
+803aa8e8	lmp_version   : %02x\n
+803aa900	lmp_subversion: %04x\n
+803aa918	manufacturer  : %04x\n
+803aa930	 ==> 2045 firmware ver.002.003.014.%d\n
+803aa958	WUDiAppendRuntimePatch()\n
+803aa974	Nintendo RVL-CNT-01
+803aa988	name : %s\n
+803aa994	InitCore\n
+803aa9a0	BTA_Init() is started\n
+803aa9b8	BTA_Init() is done\n
+803aa9cc	WUDShutdown()\n
+803aa9dc	WUDSetSyncDeviceCallback\n
+803aa9f8	WUDSetClearDeviceCallback\n
+803aaa14	WUDStartSyncDevice()\n
+803aaa2c	WUDStartSyncSimple()\n
+803aaa44	WUDCancelSyncDevice()\n
+803aaa5c	WUDStopSyncSimple()\n
+803aaa74	WUDStartClearDevice()\n
+803aaa90	WUDSetDisableChannel()\n
+803aaaa8	BTM_SetAfhChannels() : %d\n
+803aaac4	WUDSetHidRecvCallback()\n
+803aaae0	WUDSetHidConnCallback()\n
+803aac10	!O;`start WUDiInitSub()\n
+803aac30	WUDiAutoSync()\n
+803aac40	WUDiCancelSync()\n
+803aac54	WUDiDeleteAllLinkKeys()\n
+803aac70	BTA_DmAddDevice(): %d\n
+803aac88	BTA_HhAddDev()\n
+803aac98	WUDiRemoveDevice : \n
+803aacb0	 handle : %d,  addr : %02x:%02x:%02x:%02x:%02x:%02x\n
+803aace8	remove device info from database.\n
+803aad0c	BTA_HhRemoveDev()\n
+803aad20	 handle : %d\n
+803aad30	BTA_DmRemoveDevice(): %d\n
+803aad4c	new entry index is %d\n
+803aad64	WARNING: USB_CLOSE_FAILURE!\n
+803aad84	WUDSecurityCallback: 
+803aada0	BTA_ENABLE_EVT\n
+803aadb0	host : %02x:%02x:%02x:%02x:%02x:%02x\n
+803aadd8	BTA_DISABLE_EVT\n
+803aadec	BTA_DM_PIN_REQ_EVT\n
+803aae00	BTA_DM_AUTH_CMPL_EVT\n
+803aae18	  addr : %02x:%02x:%02x:%02x:%02x:%02x\n
+803aae40	  key  : %02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x\n
+803aae9c	  result = %d\n
+803aaeac	BTA_DM_AUTHORIZE_EVT\n
+803aaec4	BTA_DM_LINK_UP_EVT\n
+803aaed8	   addr : %02x:%02x:%02x:%02x:%02x:%02x\n
+803aaf04	%s --> %02x:%02x:%02x:%02x:%02x:%02x\n
+803aaf2c	not paired
+803aaf38	4 links exist
+803aaf48	BTA_DM_LINK_DOWN_EVT\n
+803aaf60	result: %d\n
+803aaf6c	this device in not paired\n
+803aaf88	WARNING: link num count is reset.\n
+803aafac	BTA_DM_SIG_STRENGTH_EVT\n
+803aafc8	BTA_DM_BUSY_LEVEL_EVT\n
+803ab004	INQUIRY RESULT: %02x:%02x:%02x:%02x:%02x:%02x   %02x%02x%02x   %d\n
+803ab048	INQUIRY_COMPLETED\n
+803ab05c	DISCOVER RESULT:  %02x:%02x:%02x:%02x:%02x:%02x   %s (%04x)\n
+803ab09c	DISCOVER COMPLETED\n
+803ab0b0	SEARCH CANCEL\n\n
+803ab0c0	Warning: Search Callback returns invalid event\n
+803ab0f0	VSE:- INITIATE_PAIRING\n
+803ab108	VSE:- DELETE_ALL_KEYS\n
+803ab120	VSE:- SI_PORT_STATUS  status = %d\n
+803ab144	VSE:- WATCH_DOG_RESET  HW error = %d\n
+803ab16c	MODULE FATAL ERROR\n
+803ab180	WUDDeviceStatusCallback\n
+803ab19c	---- WARNING: USB FATAL ERROR! ----\n
+803ab1c4	BTM_CB_EVT_RETURN_LINK_KEYS\n
+803ab1e4	BD_ADDR:  %02x:%02x:%02x:%02x:%02x:%02x\n
+803ab210	LINKKEY: %02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x:%02x\n
+803ab26c	this device is not stored in NAND\n
+803ab290	   LAST: %02x:%02x:%02x:%02x:%02x:%02x\n
+803ab2b8	BTM_CB_EVT_READ_STORED_LINK_KEYS\n
+803ab2dc	  status: %d  max_keys: %d  num_keys: %d\n
+803ab308	BTM_CB_EVT_WRITE_STORED_LINK_KEYS\n
+803ab32c	  status: %d  num_keys: %d\n
+803ab348	BTM_CB_EVT_DELETE_STORED_LINK_KEYS\n
+803ab36c	WARNING: no entry is deleted\n
+803ab38c	Unknown event\n
+803ab39c	WUDPowerManagerCallback\n
+803ab3b8	hci_status = %d
+803ab3c8	 addr = %02x:%02x:%02x:%02x:%02x:%02x,  status = %d\n
+803ab400	_WUDEnableTestMode\n
+803ab414	_WUDStartSyncDevice()\n
+803ab42c	_WUDDeleteStoreDevice()\n
+803ab448	dev number = %d\n
+803ab460	BTA_HH_ENABLE_EVT\n
+803ab474	BTA_HH_DISABLE_EVT\n
+803ab488	BTA_HH_OPEN_EVT\n
+803ab49c	handle: %d, addr: %02x:%02x:%02x:%02x:%02x:%02x\n
+803ab4d0	error code: %d\n
+803ab4e0	BTA_HH_CLOSE_EVT\n
+803ab4f4	device handle : %d   status = %d\n
+803ab518	BTA_HH_SET_RPT_EVT\n
+803ab52c	BTA_HH_GET_RPT_EVT\n
+803ab540	BTA_HH_SET_PROTO_EVT\n
+803ab558	BTA_HH_GET_PROTO_EVT\n
+803ab570	BTA_HH_SET_IDLE_EVT\n
+803ab588	BTA_HH_GET_IDLE_EVT\n
+803ab5a0	BTA_HH_GET_DCSP_EVT\n
+803ab5b8	BTA_HH_ADD_DEV_EVT\n
+803ab5cc	result: %d, handle: %d, addr: %02x:%02x:%02x:%02x:%02x:%02x\n
+803ab60c	BTA_HH_RMV_DEV_EVT\n
+803ab620	BTA_HH_VS_UNPLUG_EVT\n
+803ab638	WARNING: link num count is modified.\n
+803ab6a0	Invalid app_id [%d]\n
+803ab6b8	bta_hh_co_open()\n
+803ab6cc	bta_hh_co_close()\n
+803ab6e0	<< RVL_SDK - AI \trelease build: Nov 30 2006 03:26:11 (0x4199_60831) >>
+803ab728	ARCInitHandle: bad archive format
+803ab74c	Warning: ARCOpen(): file '%s' was not found under %s in the archive.\n
+803ab798	<< RVL_SDK - AX \trelease build: Dec 18 2006 15:43:48 (0x4199_60831) >>
+803af5a0	H4A should not be cleared because of Broadway errata.\n
+803af5d8	getbuf: Size is zero
+803af5f0	getbuf: Size is too big
+803af608	Free - Buf Corrupted
+803af620	Freeing Linked Buf
+803af634	Bad Buf QId
+803af640	Sending to unknown dest
+803af658	Send - Buffer corrupted
+803af670	Send - buffer linked
+803af688	Enqueue - Buffer corrupted
+803af6a4	Eneueue - buf already linked
+803af6c4	Eneueue head - buf already linked
+803af6e8	GKI_get_buf_start:: bad addr
+803af708	Deleting bad pool
+803af720	HCIS: Unable to allocate buffer for incoming HCI message.
+803af75c	HCIS: Invalid length for incoming HCI message.
+803af790	HCISU_LOG: uusb_ReadIntrDataCB called\n
+803af7b8	HCISU_ERR: uusb_ReadIntrDataCB: usb_state != UUSB_PPC_OPENED_ST\n
+803af7fc	HCISU_ERR: ************\n* uusb_ReadIntrDataCB(): usb_state != UUSB_PPC_OPENED_ST - stop reading\n************\n
+803af86c	HCISU_ERR: uusb_ReadIntrDataCB(): Got Error code %d\n
+803af8a4	HCISU_LOG: uusb_ReadIntrDataCB: len(%d) offset (%d) cp_len(%d) data = 
+803af8ec	HCISU_ERR: uusb_readBulkDataCB: usb_state != UUSB_PPC_OPENED_ST\n
+803af930	HCISU_ERR: ****\n* uusb_readBulkDataCB(): usb_state != UUSB_PPC_OPENED_ST - stop reading\n****\n
+803af990	HCISU_ERR: uusb_ReadBulkDataCB(): Got Error code %d\n
+803af9c8	HCISU_LOG: uusb_ReadBulkDataCB: len(%d) offset(%d) cp_len(%d) data = 
+803afa10	HCISU_ERR: ****\n* uusb_issue_bulk_read(): unable to get buffer - try again\n****\n
+803afa64	HCISU_ERR: uusb_issue_bulk_read: IUSB_ReadBlkMsgAsync failed with err = %d\n
+803afab0	HCISU_ERR: ****\n* uusb_issue_bulk_read: IUSB_ReadBlkMsgAsync failed with err = %d\n****\n
+803afb08	HCISU_ERR: ****\n* uusb_issue_intr_read(): unable to get buffer - try again\n****\n
+803afb5c	HCISU_ERR: IUSB_ReadIntrMsgAsync failed with err = %d\n
+803afb94	HCISU_ERR: ****\n* uusb_issue_intr_read(): IUSB_ReadIntrMsgAsync failed with err = %d\n****\n
+803afbf0	HCISU_LOG: uusb_WriteCtrlDataCB called with err = %d\n
+803afc28	HCISU_ERR: uusb_WriteCtrlDataCB(): Got error (%d)\n
+803afc60	HCISU_ERR: uusb_WriteCtrlDataCB(): error - unable to write data packet\n
+803afca8	HCISU_LOG: uusb_WriteBulkDataCB called with err = %d\n
+803afce0	HCISU_ERR: uusb_WriteBulkDataCB(): Got error (%d)\n
+803afd18	HCISU_ERR: uusb_WriteBulkDataCB(): error - unable to write data packet\n
+803afd60	HCISU_ERR: ERROR from IUSB_OpenDeviceIds (%d) : Device (vendor 0x%x product 0x%x) not found\n
+803afdc0	HCISU_ERR: No suitable Bluetooth Device was found. Exiting...\n
+803afe00	HCISU_ERR: UUSB_Register: ERROR - failed IPCCltInit\n
+803afe38	HCISU_ERR: UUSB_Register: ERROR - failed IUSB_OpenLib\n
+803afe70	HCISU_ERR: UUSB_Register: Error returned from get_devId()\n
+803afeb0	HCISU_LOG: UUSB_Register: uusb_get_dev_id returned with usb.devId = %d\n
+803afef8	HCISU_LOG: UUSB_Register: Unable to create memory pools\n
+803aff34	HCISU_LOG: UUSB_Register: hci_cmd_usb_pool_id (%d) hci_acl_usb_pool_id(%d)\n
+803aff80	HCISU_LOG: UUSB_Open: USB is not in registered state, unable to open\n
+803affc8	HCISU_LOG: UUSB_Open: USB Buffer Pool's Invalid\n
+803b0000	HCISU_LOG: UUSB_Open: hci_cmd_usb_pool_id = %d\n
+803b0030	HCISU_LOG: UUSB_Open: hci_acl_usb_pool_id = %d\n
+803b0060	HCISU_ERR: UUSB_Write: usb_state != UUSB_PPC_OPENED_ST\n
+803b0098	HCISU_LOG: buffer size = %d\n
+803b00b8	HCISU_LOG: UUSB_Write: ep(%d) len(%d) data = 
+803b00e8	HCISU_ERR: UUSB_Write: Unable to get buffer from hci_cmd_usb_pool\n
+803b012c	HCISU_ERR: UUSB_WRITE(): Ctrl Queue count =  %d\n
+803b0160	HCISU_ERR: *************************************************************************************\n
+803b01c4	HCISU_ERR: * UUSB_Write(): IUSB_WriteCtrlMsgAsync error...  (%d), writes outstanding (%d)\n
+803b0220	HCISU_ERR: * UUSB_Write(): IUSB_WriteCtrlMsgAsync error... IOS_ERROR_FAIL_ALLOC  (%d), writes outstanding (%d)\n
+803b0290	HCISU_ERR: * UUSB_Write(): IUSB_WriteCtrlMsgAsync error... IOS_ERROR_QFULL  (%d), writes outstanding (%d)\n
+803b02fc	HCISU_ERR: UUSB_Write: Unable to get buffer from hci_acl_usb_pool\n
+803b0340	HCISU_ERR: UUSB_Write - writing mem data\n
+803b036c	HCISU_ERR: UUSB_WRITE(): Bulk Queue count =  %d\n
+803b03a0	HCISU_ERR: * UUSB_Write(): IUSB_WriteBlkMsgAsync error...  (%d), writes outstanding (%d)\n
+803b03fc	HCISU_ERR: * UUSB_Write(): IUSB_WriteBlkMsgAsync error... IOS_ERROR_FAIL_ALLOC  (%d), writes outstanding (%d)\n
+803b046c	HCISU_ERR: * UUSB_Write(): IUSB_WriteBlkMsgAsync error... IOS_ERROR_QFULL  (%d), writes outstanding (%d)\n
+803b04d8	BTA got event 0x%x
+803b04ec	BTA got unregistered event id %d
+803b0510	 bta_dm_disable_timer_cback  
+803b0530	 bta_dm_search_timer_cback  
+803b0550	 bta_dm_pin_cback() -> Failed to start Remote Name Request  
+803b0590	 timer stopped  
+803b05a4	bta_dm_l2cap_server_compress_cback, BTA ID %d
+803b05d4	bta_dm_compress_cback open app_id %d, BTA id %d, state %d
+803b0610	bta_dm_compress_cback close app_id %d, BTA id %d, state %d
+803b0650	bta_dm_act no more connected service cbs
+803b067c	bta_dm_act no more pm timers
+803b06a0	bta_hh_sdp_cback: p_cb: %d result 0x%02x,                             attr_mask 0x%02x
+803b06f8	bta_hh_start_sdp:: skip SDP for known devices
+803b0728	bta_hh_start_sdp:  HID_HostGetSDPRecord failed:                 Status 0x%2X
+803b0778	bta_hh_sdp_cmpl:  status 0x%2X
+803b0798	bta_hh_sdp_cmpl:  HID_HostOpenDev failed:                     Status 0x%2X
+803b07e4	bta_hh_open_act:  Device[%d] connected
+803b080c	BTA_HH_GET_RPT_EVT
+803b0820	BTA_HH_SET_RPT_EVT
+803b0834	BTA_HH_GET_PROTO_EVT
+803b084c	BTA_HH_SET_PROTO_EVT
+803b0864	BTA_HH_GET_IDLE_EVT
+803b0878	BTA_HH_SET_IDLE_EVT
+803b0890	BTA_HH_OPEN_EVT
+803b08a0	Unknown event
+803b08b0	HANDSHAKE received for: event = %s data= %d
+803b08dc	unknown transaction type
+803b0948	Ctrl DATA received w4: event[%s]
+803b096c	invalid  transaction type for DATA payload: 4_evt[%s]
+803b09f8	invalid command
+803b0a08	HID_HostWriteDev Error %d
+803b0a24	bta_hh_write_dev_act:: cmd type = %d
+803b0a4c	HID_HDEV_EVT_OPEN
+803b0a60	HID_HDEV_EVT_CLOSE
+803b0a74	HID_HDEV_EVT_RETRYING
+803b0a8c	HID_HDEV_EVT_INTR_DATA
+803b0aa4	HID_HDEV_EVT_INTR_DATC
+803b0abc	HID_HDEV_EVT_CTRL_DATA
+803b0ad4	HID_HDEV_EVT_CTRL_DATC
+803b0aec	HID_HDEV_EVT_HANDSHAKE
+803b0b04	HID_HDEV_EVT_VC_UNPLUG
+803b0b1c	Unknown HID event
+803b0b30	bta_hh_cback::HID_event [%s]
+803b0b98	No resource to send HID host Connect request.
+803b0bc8	wrong device handle: [%d]
+803b0be4	BTA_HH_NULL_ST
+803b0bf4	BTA_HH_IDLE_ST
+803b0c04	BTA_HH_W4_CONN_ST
+803b0c18	BTA_HH_CONN_ST
+803b0c28	unknown HID Host state
+803b0c40	bta_hh_sm_execute: State 0x%02x [%s], Event [%s]
+803b0c74	HH State Change: [%s] -> [%s] after Event [%s]
+803b0ca4	bta_hh_hdl_event:: handle = %d dev_cb[%d] 
+803b0cd0	BTA_HH_API_DISABLE_EVT
+803b0ce8	BTA_HH_API_ENABLE_EVT
+803b0d00	BTA_HH_API_OPEN_EVT
+803b0d14	BTA_HH_API_CLOSE_EVT
+803b0d2c	BTA_HH_INT_OPEN_EVT
+803b0d40	BTA_HH_INT_CLOSE_EVT
+803b0d58	BTA_HH_INT_HANDSK_EVT
+803b0d70	BTA_HH_INT_DATA_EVT
+803b0d84	BTA_HH_INT_CTRL_DATA
+803b0d9c	BTA_HH_API_WRITE_DEV_EVT
+803b0db8	BTA_HH_SDP_CMPL_EVT
+803b0dcc	BTA_HH_DISC_CMPL_EVT
+803b0de4	BTA_HH_API_MAINT_DEV_EVT
+803b0e00	BTA_HH_API_GET_DSCP_EVT
+803b0e18	BTA_HH_OPEN_CMPL_EVT
+803b0e30	BTA_HH_API_GET_ACL_Q_EVT
+803b0e4c	unknown HID Host event code
+803b0ea8	found kdev_cb[%d] hid_handle = %d 
+803b0ecc	in_use ? [%d] kdev[%d].hid_handle = %d state = [%d]
+803b0f00	bta_hh_find_cb:: index = %d while max = %d
+803b0f2c	subclass = 0x%2x
+803b0f40	bta_hh_parse_keybd_rpt:  (report=%p, report_len=%d) called
+803b0f80	Alt key pressed
+803b0f90	Alt key not pressed
+803b0fa4	this_char = %02x
+803b0fb8	BTA_HhParseKeybdRpt:  Cannot interpret scan code                 0x%02x
+803b1000	bta_hh_parse_mice_rpt:  bta_keybd_rpt_rcvd(report=%p,                 report_len=%d) called
+803b105c	mice button: 0x%2x
+803b1070	mice move: x = %d y = %d
+803b108c	bta_hh_trace_dev_db:: Device DB list********************
+803b10c8	kdev[%d] in_use[%d]  handle[%d] 
+803b10ec	\t\t\t attr_mask[%04x] state [%d] sub_class[%02x] index = %d
+803b1128	*********************************************************
+803b1168	Duplicate btm_acl_created: RemBdAddr: %02x%02x%02x%02x%02x%02x
+803b11a8	SetPacketType Mask -> 0x%04x
+803b11c8	Role change request declined since the previous request for this device is not completed 
+803b1224	BTM_SetLinkPolicy switch not supported (settings: 0x%04x)
+803b1260	BTM_SetLinkPolicy hold not supported (settings: 0x%04x)
+803b1298	BTM_SetLinkPolicy sniff not supported (settings: 0x%04x)
+803b12d8	BTM_SetLinkPolicy park not supported (settings: 0x%04x)
+803b1310	BTM_ReadLinkPolicy: RemBdAddr: %02x%02x%02x%02x%02x%02x
+803b1348	BTM_ReadClockOffset: RemBdAddr: %02x%02x%02x%02x%02x%02x
+803b1384	Role Switch Event: new_role 0x%02x, HCI Status 0x%02x
+803b13bc	BTM_SetQoS: BdAddr: %02x%02x%02x%02x%02x%02x
+803b13ec	BTM: p_flow->delay_variation: 0x%02x
+803b1414	BTM_ReadRSSI: RemBdAddr: %02x%02x%02x%02x%02x%02x
+803b1448	BTM_ReadLinkQuality: RemBdAddr: %02x%02x%02x%02x%02x%02x
+803b1484	BTM RSSI Complete: rssi %d, hci status 0x%02x
+803b14b4	BTM Link Quality Complete: Link Quality %d, hci status 0x%02x
+803b14f4	btm BEFORE SCO setting to 1 slot; hci hdl 0x%x
+803b1524	btm last SCO removed; unsniffing hci hdl 0x%x
+803b1554	btm last SCO removed; hci hdl 0x%x, types 0x%02x
+803b1588	BTM_SetAfhChannels first: %d (%d) last: %d (%d)
+803b15b8	btm_reset_complete
+803b15cc	Local supported ACL packet types: 0x%04x
+803b15f8	Local supported SCO packet types: 0x%04x
+803b1624	BTM: BTM_VendorSpecificCommand: Opcode: 0x%04X, ParamLen: %i.
+803b1664	BTM: Unable to send vendor specific command (controller is busy).
+803b16a8	BTM Event: Received a vendor specific event from controller
+803b16e8	BTM: BTM_WritePageTimeout: Timeout: %d.
+803b1710	BTM: BTM_WriteVoiceSettings: Settings: 0x%04x.
+803b1740	BTM: BTM_EnableTestMode
+803b1758	BTM: BTM_ReadStoredLinkKey: Read_All: %s
+803b1784	BTM: BTM_WriteStoredLinkKey: num_keys: %d
+803b17b0	BTM: BTM_DeleteStoredLinkKey: delete_all_flag: %s
+803b17e8	BTM_SetDiscoverability: mode %d [NonDisc-0, Lim-1, Gen-2], window 0x%04x, interval 0x%04x
+803b1844	BTM_SetConnectability: mode %d [NonConn-0, Conn-1], window 0x%04x, interval 0x%04x
+803b1898	BTM_CancelInquiry called
+803b18b4	BTM_StartInquiry: mode: %d, dur: %d, rsps: %d, flt: %d
+803b18ec	BTM_ReadRemoteDeviceName: bd addr [%02x%02x%02x%02x%02x%02x]
+803b192c	BTM_CancelRemoteDeviceName()
+803b194c	BTM_InqDbRead: bd addr [%02x%02x%02x%02x%02x%02x]
+803b1980	BTM Warning: Set Event Filter Failed (HCI returned 0x%x)
+803b19bc	BTM Inq Compl Callback: status 0x%02x, num results %d
+803b19f8	btm mode change AFTER unsniffing; hci hdl 0x%x, types 0x%02x
+803b1a38	btm_esco_conn_rsp -> No Resources
+803b1a5c	TCS accept SCO: Packet Types 0x%04x
+803b1a80	BTM_CreateSco -> (e)SCO Link for ACL handle 0x%04x, Desired Type %d
+803b1ac4	      txbw 0x%x, rxbw 0x%x, lat 0x%x, voice 0x%x, retrans 0x%02x, pkt 0x%04x
+803b1b14	btm_sco_chk_pend_unpark -> (e)SCO Link for ACL handle 0x%04x, Desired Type %d
+803b1b64	btm_sco_conn_req: No one wants this SCO connection; rejecting it
+803b1ba8	BTM_SetEScoMode -> mode %d
+803b1bc4	BTM_SetEScoMode -> mode SCO (eSCO not supported)
+803b1bf8	    txbw 0x%08x, rxbw 0x%08x, max_lat 0x%04x, voice 0x%04x, pkt 0x%04x, rtx effort 0x%02x
+803b1c58	BTM_ReadEScoLinkParms -> sco_inx 0x%04x
+803b1c80	BTM_ChangeEScoLinkParms -> SCO Link for handle 0x%04x, pkt 0x%04x
+803b1cc4	BTM_ChangeEScoLinkParms -> eSCO Link for handle 0x%04x
+803b1cfc	btm_esco_proc_conn_chg -> handle 0x%04x, status 0x%02x
+803b1d38	BTM_Sec: application registered
+803b1d58	BTM_SetSecurityMode: mode:%d
+803b1d78	BTM_SetSecurityMode: Authen Enable -> FALSE
+803b1da4	BTM_SetSecurityMode: Authen Enable -> TRUE
+803b1dd0	BTM_SetPinType: pin type %d [variable-0, fixed-1], code %s, length %d
+803b1e18	BTM_SEC_REG[%d]: id %d, is_orig %d, psm 0x%04x, proto_id %d, chan_id %d
+803b1e60	               : sec: 0x%x, service name [%s] (up to %d chars saved)
+803b1ea8	BTM_SEC_REG: Out of Service Records (%d)
+803b1ed8	Security Manager: Attempting Authorization of Unknown Device Address [%02x%02x%02x%02x%02x%02x]
+803b1f38	Security Manager: authorized status:%d State:%d
+803b1f68	BTM_SecBond BDA: %02x:%02x:%02x:%02x:%02x:%02x
+803b1f98	BTM_SecBond: Illegal Pin len:%d
+803b1fb8	BTM_SecBond: no device block
+803b1fd8	BTM_SecBond -> Already Paired
+803b1ff8	BTM_SecBond: Authen Enable -> TRUE
+803b201c	BTM_SecBond: no buffer
+803b2034	btm_restore_mode: Authen Enable -> %d
+803b205c	Security Manager: BTM_SetEncryption not connected
+803b2090	Security Manager: BTM_SetEncryption already encrypted
+803b20c8	Security Manager: BTM_SetEncryption busy
+803b20f8	Security Manager: BTM_SetEncryption Handle:%d State:%d Flags:0x%x Required:0x%x
+803b2148	Security Manager: l2cap_access_req PSM:%d no resources
+803b2180	Security Manager: l2cap_access_req PSM:%d no application registerd
+803b21c4	Security Manager: l2cap_access_req PSM:%d postponed for multiplexer
+803b2208	Security Manager: l2cap_access_req PSM:%d Handle:%d State:%d Flags:0x%x Required:0x%x
+803b2260	Security Manager: trusted:0x%04x%04x Flags:0x%x
+803b2290	Security Manager: MX service not found PSM:%d Proto:%d SCN:%d
+803b22d0	Security Manager: connect request from not paired device
+803b230c	Security Manager: rmt_name_complete status:%d State:%d
+803b2344	Security Manager: auth_complete status:%d State:%d
+803b2378	Security Manager: mkey comp status:%d State:%d
+803b23a8	Security Manager: encrypt_change status:%d State:%d
+803b23dc	Security Manager: btm_sec_connected handle:%d status:%d enc_mode:%d
+803b2420	btm_sec_link_key_notification()  BDA: %02x:%02x:%02x:%02x:%02x:%02x
+803b2464	                                TYPE: %d
+803b2490	btm_sec_link_key_request()  BDA: %02x:%02x:%02x:%02x:%02x:%02x
+803b24d0	btm_sec_pin_code_request_timeout()
+803b24f4	btm_sec_pin_code_request()  BDA: %02x:%02x:%02x:%02x:%02x:%02x
+803b2534	btm_sec_pin_code_request bonding sending reply
+803b2564	btm_sec_pin_code_request: Authen Enable -> %d
+803b2594	btm_sec_pin_code_request(): Pairing disabled:%d; PIN callback:%x, Dev Rec:%x!
+803b25e4	btm_sec_execute_procedure: Required:0x%x Flags:0x%x State:%d
+803b2624	L2CAP - no LCB for L2CA_conn_req
+803b2648	Security Manager: Start get name
+803b266c	Security Manager: Start authentication
+803b2694	Security Manager: Start encryption
+803b26b8	Security Manager: Start authorization
+803b26e0	Security Manager: trusted:0x%04x%04x
+803b2708	Security Manager: access granted
+803b272c	btm_sec_collision_timeout()
+803b2748	Ctlr H/w error event
+803b2760	Event mismatch opcode=%X cmd opcode=%X
+803b2788	Cmd timeout; no cmd in queue
+803b27a8	BTU HCI command timeout - cmd opcode = 0x%02x
+803b27d8	WARNING: GAP Conn Indication for Unexpected Bd Addr...Disconnecting
+803b281c	GAP_CONN - Rcvd L2CAP conn ind, CID: 0x%x
+803b2848	GAP_CONN - Rcvd L2CAP disc, CID: 0x%x
+803b2870	GAP_CONN - Rcvd L2CAP Is Congested (%d), CID: 0x%x
+803b28a8	   GAP Inquiry Complete Event (Status 0x%04x, Result(s) %d)
+803b28e4	   GAP Discovery Complete Event(SDP Result: 0x%04x)
+803b2918	   GAP Discovery Successfully Completed
+803b2940	   GAP Remote Name Complete Event (status 0x%04x)
+803b2998	GAP Inquiry Results Callback (bdaddr [%02x%02x%02x%02x%02x%02x])
+803b29dc	                             (COD [%02x%02x%02x], clkoff 0x%04x)
+803b2a20	   GAP: FindAddrByName Rem Name Cmpl Evt (Status 0x%04x, Name [%s])
+803b2a64	   GAP: FindAddrByName Rem Name Cmpl Evt (Status 0x%04x)
+803b2ae8	   GAP: FindAddrByName Inq Cmpl Evt (Status 0x%04x, Result(s) %d)
+803b2b98	HID - Originate started
+803b2bb0	HID - Originate failed
+803b2bc8	hidd_proc_repage_timeout
+803b2be8	HID_ERR_NOT_REGISTERED
+803b2c00	HID_ERR_INVALID_PARAM
+803b2c18	HID_ERR_NO_CONNECTION dev_handle %d
+803b2c3c	Security Registration 1 failed
+803b2c5c	Security Registration 2 failed
+803b2c7c	Security Registration 3 failed
+803b2c9c	Security Registration 4 failed
+803b2cbc	Security Registration 5 failed
+803b2cdc	Security Registration 6 failed
+803b2d00	HID Control Registration failed
+803b2d20	HID Interrupt Registration failed
+803b2d44	HID - disconnect
+803b2d58	HID - Rcvd L2CAP conn ind, PSM: 0x%04x  CID 0x%x
+803b2d8c	HID - Rcvd INTR L2CAP conn ind, but no CTL channel
+803b2dc0	HID - Rcvd INTR L2CAP conn ind, wrong state: %d
+803b2df0	HID - Rcvd CTL L2CAP conn ind, wrong state: %d
+803b2e20	HID - Rcvd L2CAP conn ind, sent config req, PSM: 0x%04x  CID 0x%x
+803b2e64	HID - Originate failed
+803b2e80	HID - Originator security pass.
+803b2ea0	HID - INTR Originate failed
+803b2ebc	HID - Rcvd unexpected conn cnf, CID 0x%x 
+803b2ee8	HID - got CTRL conn cnf, sent cfg req, CID: 0x%x
+803b2f1c	HID - Rcvd L2CAP cfg ind, unknown CID: 0x%x
+803b2f48	HID - Rcvd cfg ind, sent cfg cfm, CID: 0x%x
+803b2f74	HID - Rcvd cfg cfm, CID: 0x%x  Result: %d
+803b2fa0	HID - Rcvd L2CAP disc, unknown CID: 0x%x
+803b2fcc	HID - Rcvd L2CAP disc, CID: 0x%x
+803b2ff0	HID - Rcvd L2CAP disc cfm, unknown CID: 0x%x
+803b3020	HID - Rcvd L2CAP disc cfm, CID: 0x%x
+803b3048	HID - Rcvd L2CAP congestion status, unknown CID: 0x%x
+803b3080	HID - Rcvd L2CAP congestion status, CID: 0x%x  Cong: %d
+803b30b8	HID - Rcvd L2CAP data, unknown CID: 0x%x
+803b30e8	L2CAP - L2CA_Register() called for PSM: 0x%04x
+803b3118	L2CAP - no cb registering PSM: 0x%04x
+803b3140	L2CAP - invalid PSM value, PSM: 0x%04x
+803b3168	L2CAP - no RCB available, PSM: 0x%04x
+803b3190	L2CAP - L2CA_Deregister() called for PSM: 0x%04x
+803b31c4	L2CAP - PSM: 0x%04x not found for deregistration
+803b31f8	L2CA_ConnectReq()  PSM: 0x%04x
+803b3218	L2CA_ConnectReq()  BDA: %02x-%02x-%02x-%02x-%02x-%02x
+803b3250	L2CAP connect req - BTU not ready
+803b3274	L2CAP - no RCB for L2CA_conn_req, PSM: 0x%04x
+803b32a4	L2CAP - no LCB for L2CA_conn_req
+803b32c8	L2CAP API - L2CA_conn_req rejected - link disconnecting
+803b3300	L2CAP - no CCB for L2CA_conn_req
+803b3324	L2CAP - L2CA_conn_req() returned CID: 0x%04x
+803b3354	L2CA_ConnectRsp()  CID: 0x%04x  Result: %d  Status: %d
+803b338c	L2CA_ConnectRsp()  BDA: %02x-%02x-%02x-%02x-%02x-%02x
+803b33c4	L2CAP - no LCB for L2CA_conn_rsp
+803b33e8	L2CAP - no CCB for L2CA_conn_rsp
+803b340c	L2CAP - bad id in L2CA_conn_rsp. Exp: %d  Got: %d
+803b3440	L2CA_ConfigReq()  CID: 0x%04x
+803b3460	L2CAP - no CCB for L2CA_cfg_req, CID: %d
+803b348c	L2CA_ConfigRsp()  CID: 0x%04x  Result: %d
+803b34b8	L2CAP - no CCB for L2CA_cfg_rsp, CID: %d
+803b34e4	L2CA_DisconnectReq()  CID: 0x%04x
+803b3508	L2CAP - no CCB for L2CA_disc_req, CID: %d
+803b3534	L2CA_DisconnectRsp()  CID: 0x%04x
+803b3558	L2CAP - no CCB for L2CA_disc_rsp, CID: %d
+803b3584	L2CA_DataWrite()  CID: 0x%04x  Len: %d
+803b35ac	L2CAP - no CCB for L2CA_DataWrite, CID: %d
+803b35d8	L2CAP - cannot send message bigger than peer's mtu size
+803b3610	L2CA_Ping()  BDA: %02x-%02x-%02x-%02x-%02x-%02x
+803b3640	L2CAP - no LCB for L2CA_ping
+803b3660	L2CAP - rejected second L2CA_ping
+803b3688	L2CAP - L2CA_ping rejected - link disconnecting
+803b36b8	L2CAP - no CCB for L2CA_SetIdleTimeout, CID: %d
+803b36e8	L2CA_SetAclPriority()  bdaddr: %02x%02x%02x%02x%02x%02x
+803b3720	L2CAP - no LCB for L2CA_SetAclPriority
+803b3748	L2CA_SetCompression() local cid %d, direction %d, pe_type %d, mem_level %d, wbits %d, enable %d
+803b37a8	L2CAP - no CCB for L2CA_Flush, CID: %d
+803b37d0	L2CA_Flush()  CID: 0x%04x flushed %d buffers
+803b3800	L2CA_GetNumQueuedBufs()  CID: 0x%04x  abmormally returning 0
+803b3840	L2CA_GetNumQueuedBufs()  CID: 0x%04x  returning %d
+803b389c	L2CAP - st: CLOSED evt: %d
+803b38b8	L2CAP - Calling Disconnect_Ind_Cb(), CID: 0x%04x  No Conf Needed
+803b38fc	L2CAP - Calling ConnectCfm_Cb(), CID: 0x%04x  Status: %d
+803b39b4	L2CAP - st: ORIG_W4_SEC_COMP evt: %d
+803b3a48	L2CAP - st: TERM_W4_SEC_COMP evt: %d
+803b3a70	L2CAP - Calling Connect_Ind_Cb(), CID: 0x%04x
+803b3b0c	L2CAP - st: W4_L2CAP_CON_RSP evt: %d
+803b3b34	L2CAP - Calling Connect_Cfm_Cb(), CID: 0x%04x, Success
+803b3b6c	L2CAP - Calling Connect_Pnd_Cb()
+803b3b90	L2CAP - Calling Connect_Cfm_Cb(), CID: 0x%04x, Failure Code: %d
+803b3bd0	L2CAP - Calling Connect_Cfm_Cb(), CID: 0x%04x, Timeout
+803b3c78	L2CAP - st: W4_L2CA_CON_RSP evt: %d
+803b3d0c	L2CAP - st: CONFIG evt: %d
+803b3d28	L2CAP - Calling Config_Req_Cb(), CID: 0x%04x
+803b3d58	L2CAP - Calling Config_Rsp_Cb(), CID: 0x%04x
+803b3d88	L2CAP - Calling Config_Rsp_Cb(), CID: 0x%04x, Failure: %d
+803b3dc4	L2CAP - Calling Disconnect_Ind_Cb(), CID: 0x%04x  Conf Needed
+803b3e04	L2CAP - Calling DataInd_Cb(), CID: 0x%04x
+803b3ea0	L2CAP - st: OPEN evt: %d
+803b3f28	L2CAP - st: W4_L2CAP_DISC_RSP evt: %d
+803b3f50	L2CAP - Calling DisconnectCfm_Cb(), CID: 0x%04x
+803b3ff0	L2CAP - st: W4_L2CA_DISC_RSP evt: %d
+803b4088	L2CAP - cannot send buffer, offset: %d
+803b40b0	L2CAP failed to allocate LCB
+803b40d0	L2CAP got conn_req while connected
+803b40f8	L2CAP got conn_comp for unknown BD_ADDR
+803b4120	L2CAP got conn_comp in bad state: %d  status: 0x%d
+803b4154	L2CAP got sec_comp for unknown BD_ADDR
+803b417c	L2CAP - ping timeout
+803b4194	L2CAP - Congested(), CID: 0x%04x, Congested
+803b41c0	L2CAP - Calling CongestionStatus_Cb(), CID: 0x%04x, Congested
+803b4200	!!! L2CAP - buffer dropped
+803b4220	L2CAP - Calling CongestionStatus_Cb(), CID: 0x%04x, Uncongested
+803b4260	LCB %d Priority:%d XmitWindow:%d Congestion Start:%d End:%d Discard:%d
+803b42a8	L2CAP - dropping incomplete pkt
+803b42c8	L2CAP - dropping too long pkt
+803b42e8	L2CAP - rcvd segment complete, unknown handle: %d
+803b4320	L2CAP - expected pkt start, got: %d
+803b4344	L2CAP - holding ACL for unknown handle:%d ls:%d cid:%d opcode:%d cur count:%d
+803b4398	L2CAP - unknown CID: %d
+803b43b0	L2CAP - got incorrect hci header
+803b43d4	L2CAP - bad length in pkt. Exp: %d  Act: %d
+803b4400	GOT CONNECTIONLESS DATA PSM:%d
+803b4420	Command len bad  pkt_len: %d  cmd_len: %d  code: %d
+803b4454	L2CAP - MTU rej Handle: %d MTU: %d
+803b4478	L2CAP - rej with CID invalid, LCID: %d RCID: %d
+803b44a8	L2CAP - rcvd conn req for unknown PSM: %d
+803b44d4	L2CAP - unable to allocate CCB
+803b44f4	L2CAP - no CCB for conn rsp, LCID: %d RCID: %d
+803b4524	L2CAP - con rsp - bad ID. Exp: %d Got: %d
+803b4550	L2CAP - cfg rsp - bad ID. Exp: %d Got: %d
+803b457c	L2CAP - rcvd cfg rsp for unknown CID: %d
+803b45a8	L2CAP - bad cmd code: %d
+803b45f4	L2CAP HOLD CONTINUE
+803b4608	L2CAP HOLD TIMEOUT
+803b4620	L2CAP - no buffer cmd_rej
+803b463c	L2CAP - no buffer for conn_req
+803b465c	L2CAP - no buffer for cfg_rej
+803b467c	L2CAP - no buffer for echo_req
+803b469c	l2cu_create_conn - btm_is_sco_active_by_bdaddr() is_sco_active = %s
+803b46e0	L2CAP - no buffer for l2cu_create_conn
+803b4708	port_open_continue
+803b471c	port_open_continue no mx channel
+803b4740	PORT_StartCnf result:%d
+803b4758	PORT_StartCnf failed result:%d
+803b4778	PORT_StartInd
+803b4788	PORT_ParNegInd dlci:%d mtu:%d
+803b47a8	PORT_ParNegInd: port not found
+803b47c8	PORT_ParNegCnf dlci:%d mtu:%d cl: %d k: %d
+803b47f4	PORT_DlcEstablishInd dlci:%d mtu:%d
+803b4818	PORT_DlcEstablishCnf dlci:%d mtu:%d result:%d
+803b4848	PORT_PortNegInd
+803b4858	PORT_PortNegCnf
+803b4868	PORT_PortNegCnf no port
+803b4880	PORT_PortNegCnf Control Already sent
+803b48a8	PORT_ControlInd
+803b48b8	PORT_ControlInd DTR_DSR : %d, RTS_CTS : %d, RI : %d, DCD : %d
+803b48f8	PORT_ControlCnf
+803b4908	PORT_LineStatusInd
+803b491c	PORT_DlcReleaseInd
+803b4930	PORT_CloseInd
+803b4940	Port_TimeOutCloseMux
+803b4958	PORT_DataInd with data length %d
+803b497c	PORT_DataInd. Buffer over run. Dropping the buffer
+803b49b0	PORT_FlowInd fc:%d
+803b49c4	Sending RFCOMM_DataReq
+803b49dc	port_rfc_closed in OPENING state ignored
+803b4a08	port_rfc_closed state:%d sending events:%x
+803b4a38	port_select_mtu bad packet size
+803b4a58	port_select_mtu selected %d based on connection speed
+803b4a90	port_select_mtu selected %d based on l2cap PDU size
+803b4ac8	port_select_mtu application selected %d
+803b4af0	port_select_mtu credit_rx_max %d, credit_rx_low %d, rx_buf_critical %d
+803b4b38	rfc_port_closed DONE
+803b4b50	PORT_DataInd Data reached HW. Sending FC set.
+803b4b80	rfc_find_lcid_mcb LCID:0x%x
+803b4b9c	rfc_find_lcid_mcb LCID reused LCID:0x%x current:0x%x
+803b4bd4	RFCOMM_ConnectCnf LCID:0x%x
+803b4bf0	RFCOMM_ConfigInd LCID:0x%x
+803b4c0c	RFCOMM_ConfigCnf LCID:0x%x
+803b4c28	RFCOMM_DisconnectInd LCID:0x%x
+803b4c48	RFCOMM_BufDataInd LCID:0x%x
+803b4c64	RFCOMM_CongestionStatusInd dropped LCID:0x%x
+803b4c94	RFCOMM_CongestionStatusInd LCID:0x%x
+803b4cdc	rfc_mx_sm_state_idle - evt:%d
+803b4cfc	Mx error state %d event %d
+803b4d18	rfc_mx_send_config_req
+803b4d30	RFCOMM MX ignored - evt:%d in state:%d
+803b4d8c	rfc_mx_sm_state_wait_conn_cnf - evt:%d
+803b4db4	rfc_mx_sm_state_configure - evt:%d
+803b4dfc	rfc_mx_sm_sabme_wait_ua - evt:%d
+803b4e5c	rfc_mx_sm_state_wait_sabme - evt:%d
+803b4e80	rfc_mx_sm_state_connected - evt:%d
+803b4ed4	rfc_mx_sm_state_disc_wait_ua - evt:%d
+803b4f38	rfc_mx_conf_cnf p_cfg:%08x res:%d 
+803b4f5c	rfc_mx_conf_ind p_cfg:%0x
+803b4f78	NULL port event %d
+803b4f8c	Port error state %d event %d
+803b4fac	Port state closed Event ignored %d
+803b500c	Port state sabme_wait_ua Event ignored %d
+803b5074	Port error state Term Wait Sec event Data
+803b50a0	Port state term_wait_sec_check Event ignored %d
+803b5110	Port error state Orig Wait Sec event Data
+803b5140	Port state orig_wait_sec_check Event ignored %d
+803b51b0	Port state opened Event ignored %d
+803b5210	Port state disc_wait_ua Event ignored %d
+803b5278	***** MX PN while disconnecting *****
+803b52a0	Bad Length1: %d
+803b52b0	Bad Length2 %d %d
+803b52c4	Bad SABME
+803b52d0	Bad DISC
+803b52dc	Bad UIH - invalid DLCI
+803b52f4	Bad UIH - FCS
+803b5304	Bad UIH - response
+803b5318	Illegal MX Frame ea:%d len:%d
+803b5338	Bad MX frame
+803b5348	Bad PN frame
+803b5358	Bad MSC frame
+803b5368	Bad RPN frame
+803b5378	rfc_timer_stop
+803b5388	rfc_timer_start - timeout:%d
+803b53a8	rfc_port_timer_start - timeout:%d
+803b53cc	rfc_port_timer_stop
+803b53e0	rfc_port_closed
+803b53f0	rfc_inc_credit:%d
+803b5408	SDP_InitDiscoveryDb Illegal param: p_db 0x%x, len %d, num_uuid %d, num_attr %d
+803b5458	SDP_AddAttribute: attr_len:%d too long. truncate to (%d)
+803b5494	SDP_AddUuidSequence - too long, add %d uuids of %d
+803b54c8	Deleting attr_id 0x%04x for handle 0x%x
+803b54f0	SDP - Unexp. PDU: %d in state: %d
+803b5518	SDP - Rcvd ServiceSearchRsp, no matches
+803b5540	SDP - Wrong type: 0x%02x in attr_rsp
+803b5568	SDP - Bad len in attr_rsp %d
+803b5588	SDP - DB full
+803b5598	SDP - Bad type: 0x%02x or len: %d in attr_rsp
+803b55c8	SDP - attr nesting too deep
+803b55e4	SDP - bad len in UUID attr: %d
+803b5604	SDP - bad len in boolean attr: %d
+803b5650	Service Discovery
+803b5664	Security Registration Server failed
+803b5688	Security Registration for Client failed
+803b56b0	SDP Registration failed
+803b56c8	SDP - Rcvd L2CAP conn ind, sent config req, CID 0x%x
+803b5700	SDP - Rcvd conn cnf for unknown CID 0x%x
+803b572c	SDP - got conn cnf, sent cfg req, CID: 0x%x
+803b5758	SDP - Rcvd conn cnf with error: 0x%x  CID 0x%x
+803b5788	SDP - Rcvd L2CAP cfg ind, unknown CID: 0x%x
+803b57b4	SDP - Rcvd cfg ind, sent cfg cfm, CID: 0x%x
+803b57e0	SDP - Rcvd cfg cfm, CID: 0x%x  Result: %d
+803b580c	SDP - disconnect  CID: 0x%x
+803b5828	SDP - Rcvd L2CAP disc, unknown CID: 0x%x
+803b5854	SDP - Rcvd L2CAP disc, CID: 0x%x
+803b5878	SDP - Ignored L2CAP data while in state: %d, CID: 0x%x
+803b58b0	SDP - Rcvd L2CAP data, unknown CID: 0x%x
+803b58dc	SDP - no spare CCB for orig
+803b58f8	SDP - Originate started
+803b5910	SDP - Originate failed
+803b5928	SDP - Rcvd L2CAP disc cfm, unknown CID: 0x%x
+803b5958	SDP - Rcvd L2CAP disc cfm, CID: 0x%x
+803b5980	SDP - CCB timeout in state: %d  CID: 0x%x
+803b59b0	SDP - server got unknown PDU: 0x%x
+803b59d4	SDP - no buf for search rsp
+803b5a34	SDP - sdpu_build_n_send_error  code: 0x%x  CID: 0x%x
+803b5a6c	SDP - no buf for err msg
+803b5ae8	DBExceptionDestination\n
+803b5b00	<< RVL_SDK - DSP \trelease build: Nov 30 2006 03:26:46 (0x4199_60831) >>
+803b5b48	DSPInit(): Build Date: %s %s\n
+803b5b68	Nov 30 2006
+803b5b74	03:26:46
+803b5b80	DSP is booting task: 0x%08X\n
+803b5ba0	__DSP_boot_task()  : IRAM MMEM ADDR: 0x%08X\n
+803b5bd0	__DSP_boot_task()  : IRAM DSP ADDR : 0x%08X\n
+803b5c00	__DSP_boot_task()  : IRAM LENGTH   : 0x%08X\n
+803b5c30	__DSP_boot_task()  : DRAM MMEM ADDR: 0x%08X\n
+803b5c60	__DSP_boot_task()  : Start Vector  : 0x%08X\n
+803b5c90	__DSP_add_task() : Added task    : 0x%08X\n
+803b5cc0	DVDConvertEntrynumToPath(possibly DVDOpen or DVDChangeDir or DVDOpenDir): specified directory or file (%s) doesn't match standard 8.3 format. This is a temporary restriction and will be removed soon\n
+803b5d88	Warning: DVDOpen(): file '%s' was not found under %s.\n
+803b5dc0	DVDReadAsync(): specified area is out of the file  
+803b5df4	DVDRead(): specified area is out of the file  
+803b5e28	<< RVL_SDK - DVD \trelease build: Apr 24 2007 11:44:29 (0x4199_60831) >>
+803b5e70	DVDChangeDisk(): FST in the new disc is too big.   
+803b60b8	/shared2/test2/dvderror.dat
+803b60d4	/shared2/test2
+803b6178	\n\n\nAn error has occurred.\nPress the Eject Button, remove the\nGame Disc, and turn the power off.\nPlease read the Wii operations manual\nfor more information.
+803b6236	cke den Ausgabeknopf, entnimm die\nGame Disc und schalte die Wii-Konsole\naus. Bitte lies die Bedienungsanleitung der\nWii-Konsole, um weitere Informationen zu\nerhalten.
+803b635c	rer au mode d'emploi\nde la console pour de plus amples\ninformations.
+803b6457	 verificato un errore.\nPremi il pulsante EJECT, estrai il disco\ndi gioco e spegni la console. Per maggiori\ninformazioni consulta il manuale di\nistruzioni della console Wii.
+803b6508	\n\n\nEr is een fout opgetreden.\nDruk op de ejectknop, verwijder de\nspeldisk en zet het systeem uit. Lees\nde Wii-handleiding voor meer informatie.
+803b6598	(doTransactionCallback) Error - context mangled!\n
+803b65cc	(doCoverCallback) Error - context mangled!\n
+803b65f8	IPCCltInit returned error: %d\n
+803b6618	(ddrAllocAligned32) Not enough space to allocate %d bytes\n
+803b6654	Allocation of diCommand blocks failed\n
+803b667c	Allocation of pathBuf failed\n
+803b669c	(DVDLowInit) Error: IOS_Open failed - pathname '/dev/di' does not exist\n
+803b66e8	(DVDLowInit) Error: IOS_Open failed - calling thread lacks permission\n
+803b6730	(DVDLowInit) Error: IOS_Open failed - connection limit has been reached\n
+803b677c	(DVDLowInit) IOS_Open failed, errorcode = %d\n
+803b67b0	(newContext) ERROR: freeDvdContext.inUse (#%d) is true\n
+803b67e8	(newContext) Now spinning in infinite loop\n
+803b6818	(newContext) Something overwrote the context magic - spinning \n
+803b6858	@@@@@@ WARNING - Calling DVDLowReadDiskId with NULL ptr\n
+803b6894	@@@ (DVDLowReadDiskID) IOS_IoctlAsync returned error: %d\n
+803b68d0	(DVDLowOpenPartition) eTicket memory is unaligned\n
+803b6908	(DVDLowOpenPartition) certificates memory is unaligned\n
+803b6940	@@@ (DVDLowOpenPartition) IOS_IoctlvAsync returned error: %d\n
+803b6980	@@@ (DVDLowClosePartition) IOS_IoctlAsync returned error: %d\n
+803b69c0	@@@ (DVDLowUnencryptedRead) IOS_IoctlAsync returned error: %d\n
+803b6a00	@@@ (DVDLowStopMotor) IOS_IoctlAsync returned error: %d\n
+803b6a3c	@@@ (DVDLowWaitForCoverClose) IOS_IoctlAsync returned error: %d\n
+803b6a80	@@@ (DVDLowInquiry) IOS_IoctlAsync returned error: %d\n
+803b6ab8	@@@ (DVDLowRequestError) IOS_IoctlAsync returned error: %d\n
+803b6af4	(DVDLowSetSpinupFlag): Synch functions can't be called in callbacks\n
+803b6b3c	@@@ (DVDLowNotifyReset) IOS_IoctlAsync returned error: %d\n
+803b6b78	@@@ (DVDLowReset) IOS_IoctlAsync returned error: %d\n
+803b6bb0	@@@ (DVDLowAudioBufferConfig) IOS_IoctlAsync returned error: %d\n
+803b6bf4	(DVDLowGetCoverStatus): Synch functions can't be called in callbacks\n
+803b6c3c	@@@ (DVDLowGetCoverStatus) IOS_Ioctl returned error: %d\n
+803b6c78	@@@ (DVDLowReadDVD) IOS_IoctlAsync returned error: %d\n
+803b6cb0	@@@ (DVDLowReadDVDConfig) IOS_IoctlAsync returned error: %d\n
+803b6cf0	@@@ (DVDLowReadDvdCopyright) IOS_IoctlAsync returned error: %d\n
+803b6d30	@@@ (DVDLowReadDvdPhysical) IOS_IoctlAsync returned error: %d\n
+803b6d70	@@@ (DVDLowReadDvdDiscKey) IOS_IoctlAsync returned error: %d\n
+803b6db0	@@@ (DVDLowReportKey) IOS_IoctlAsync returned error: %d\n
+803b6dec	@@@ (DVDLowOffset) IOS_IoctlAsync returned error: %d\n
+803b6e24	@@@ (DVDLowStopLaser) IOS_IoctlAsync returned error: %d\n
+803b6e60	@@@ (DVDLowReadDiskBca) IOS_IoctlAsync returned error: %d\n
+803b6e9c	@@@ (DVDLowSerMeasControl) IOS_IoctlAsync returned error: %d\n
+803b6edc	@@@ (DVDLowRequestDiscStatus) IOS_IoctlAsync returned error: %d\n
+803b6f20	@@@ (DVDLowRequestRetryNumber) IOS_IoctlAsync returned error: %d\n
+803b6f64	@@@ (DVDLowSetMaxRotation) IOS_IoctlAsync returned error: %d\n
+803b6fa4	(DVDLowRead): ERROR - destAddr buffer is not 32 byte aligned\n
+803b6fe4	@@@ (DVDLowRead) IOS_IoctlAsync returned error: %d\n
+803b7018	@@@ (DVDLowSeek) IOS_IoctlAsync returned error: %d\n
+803b704c	(DVDLowGetCoverReg): Synch functions can't be called in callbacks\n
+803b7090	@@@ (DVDLowGetCoverReg) IOS_Ioctl returned error: %d\n
+803b70c8	@@@ (DVDLowPrepareCoverRegsiter) IOS_IoctlAsync returned error: %d\n
+803b710c	@@@ (DVDLowClearCoverInterrupt) IOS_IoctlAsync returned error: %d\n
+803b7150	@@@ (DVDLowEnableDvdVideo) IOS_IoctlAsync returned error: %d\n
+803b7190	<< RVL_SDK - SI \trelease build: Nov 30 2006 03:31:44 (0x4199_60831) >>
+803b7260	SISetSamplingRate: unknown TV format. Use default.
+803b7298	invalid version number for texture palette
+803b72c8	CAUTION!  Unexpected error code [%d] was found.\n
+803b7577	9<< REX-PPC 1.0.0.2 (RevoEX-1.0plus2) REL 070510173628 >>
+803b7670	/shared2/wc24/mbox
+803b7684	/shared2/wc24/nwc24msg.cfg
+803b76a0	/shared2/wc24/nwc24msg.cbk
+803b76bc	NWC24Config.c
+803b76cc	stopped.
+803b76d8	<< RVL_SDK - NWC24 \trelease build: May 10 2007 17:58:59 (0x4199_60831) >>
+803b77e8	/wc24send.ctl
+803b77f8	/wc24recv.ctl
+803b7808	/wc24recv.mbx
+803b7818	/wc24send.mbx
+803b7828	/shared2/wc24/mbox/recvtmp.msg
+803b7848	/shared2/wc24/mbox/dlcnt.bin
+803b7868	@24:/mb/s%07d.msg
+803b787c	@24:/mb/r%07d.msg
+803b7890	ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=
+803b78d8	application/octet-stream
+803b78f4	application/x-wii-minidata
+803b7910	application/x-wii-msgboard
+803b792c	image/jpeg
+803b7938	image/x-wii-picture
+803b794c	multipart/alternative
+803b7968	multipart/mixed
+803b7978	multipart/related
+803b798c	text/html
+803b7998	text/plain
+803b7a20	iso-2022-jp
+803b7a2c	iso-8859-1
+803b7a38	iso-8859-10
+803b7a44	iso-8859-15
+803b7a50	iso-8859-2
+803b7a5c	iso-8859-3
+803b7a68	iso-8859-5
+803b7a74	iso-8859-7
+803b7a80	iso-8859-9
+803b7a8c	shift_jis
+803b7a98	us-ascii
+803b7aa4	utf-16be
+803b7ab0	utf-32be
+803b7abc	windows-1252
+803b7b4f	Rquoted-printable
+803b7b88	Message-Id: <
+803b7b98	%05X%08X%08X%08X
+803b7bac	Subject: 
+803b7bb8	X-Wii-Cmd: %08X\n
+803b7bcc	X-Wii-Tag: %08X\n
+803b7be0	X-Wii-DWCId: %08X\n
+803b7bf4	X-Wii-MB-NoReply: -\n
+803b7c0c	X-Wii-MB-RegDate: %04X\n
+803b7c28	X-Wii-MB-Delay: %02X\n
+803b7c40	Boundary-NWC24-%08X%05X
+803b7c58	MIME-Version: 1.0\n
+803b7c6c	Content-Type: multipart/mixed;\n boundary="
+803b7c98	MAIL FROM: 
+803b7ca4	RCPT TO: 
+803b7ce0	Date: %02d %s %d %02d:%02d:%02d -0000\n
+803b7d08	X-Wii-AppId: 
+803b7d18	%d-%08X-%04X\n
+803b7d28	X-WiiFace:
+803b7d34	X-Wii-AltName:
+803b7d44	Content-Type: %s;\n name=%c%07d.%s\n
+803b7d6c	Content-Transfer-Encoding: base64\n
+803b7d90	Content-Disposition: attachment;\n filename=%c%07d.%s\n\n
+803b7dcc	Content-Type: text/plain; charset=%s\n
+803b7df4	Content-Transfer-Encoding: %s\n\n
+803b7e18	/dev/net/kd/request
+803b7e2c	NWC24iRequestGenerateUserId
+803b7e48	ExecTrySuspendScheduler
+803b7e60	/shared2/wc24/nwc24fl.bin
+803b7e80	/shared2/wc24/nwc24fls.bin
+803b7ea0	NWC24iGetTimeDifference
+803b7eb8	/dev/net/kd/time
+803b7ecc	NWC24iSetRtcCounter
+803b7ee0	/shared2/wc24/nwc24dl.bin
+803b7f00	NWC24iPrepareShutdown
+803b7f18	/dev/net/kd/request
+803b7f2c	NWC24iRequestShutdown
+803b7f48	NO NAME    
+803b8008	<< RVL_SDK - RFL \trelease build: Jun  9 2007 17:25:33 (0x4199_60831) >>
+803b8050	/shared2/FaceLib/RFL_Res.dat
+803b8070	/shared2/menu/FaceLib/RFL_DB.dat
+803b8094	/shared2/menu/FaceLib/RFL_Res.dat
+803b80b8	/shared2/menu
+803b80c8	/shared2/menu/FaceLib
+803b80f0	no name
+803b8740	<< RVL_SDK - HBM \trelease build: May  7 2007 18:28:39 (0x4199_60726) >>
+803b878d	J;xP1_Def.brlyt
+803b87a0	P2_Def.brlyt
+803b87b0	P3_Def.brlyt
+803b87c0	P4_Def.brlyt
+803b87e0	N_Trans
+803b8804	B_btnL_00
+803b8810	B_btnL_01
+803b881c	B_btnL_10
+803b8828	B_btnL_11
+803b8848	T_btnL_00
+803b8854	T_btnL_01
+803b8860	T_btnL_10
+803b886c	T_btnL_11
+803b8888	btnL_00_inOut
+803b8898	btnL_01_inOut
+803b88a8	btnL_10_inOut
+803b88b8	btnL_11_inOut
+803b88c8	btnL_00_psh
+803b88d4	btnL_01_psh
+803b88e0	btnL_10_psh
+803b88ec	btnL_11_psh
+803b8918	_cntBtn_in.brlan
+803b892c	_cntBtn_psh.brlan
+803b8940	_cntBtn_out.brlan
+803b8960	_ltrIcn_on.brlan
+803b8974	_optn_bar_psh.brlan
+803b8988	_close_bar_psh.brlan
+803b89a0	_hmMenu_bar_in.brlan
+803b89b8	_hmMenu_bar_psh.brlan
+803b89d0	_link_msg_in.brlan
+803b89e4	_link_msg_out.brlan
+803b89f8	_cmn_msg_in.brlan
+803b8a0c	_cmn_msg_out.brlan
+803b8a20	_cntrl_up.brlan
+803b8a30	_cntrl_wndw_opn.brlan
+803b8a48	_cntrl_dwn.brlan
+803b8a5c	_hmMenu_bar_out.brlan
+803b8a74	_cmn_msg_rtrn.brlan
+803b8a88	_12btn_on.brlan
+803b8ad4	ltrIcn_on
+803b8ae0	optn_bar_psh
+803b8af0	close_bar_psh
+803b8b00	hmMenu_bar_in
+803b8b10	hmMenu_bar_psh
+803b8b20	link_msg_in
+803b8b2c	link_msg_out
+803b8b3c	cmn_msg_in
+803b8b48	cmn_msg_out
+803b8b54	cntrl_up
+803b8b60	cntrl_wndw_opn
+803b8b70	cntrl_dwn
+803b8b7c	hmMenu_bar_out
+803b8b8c	cmn_msg_rtrn
+803b8b9c	12btn_on
+803b8be4	_hmMenu_strt.brlan
+803b8bf8	_hmMenu_fnsh.brlan
+803b8c0c	_optn_bar_in.brlan
+803b8c20	_optn_bar_out.brlan
+803b8c34	_optn_btn_in.brlan
+803b8c48	_optn_btn_psh.brlan
+803b8c5c	_vb_btn_wht_psh.brlan
+803b8c74	_optn_btn_out.brlan
+803b8c88	_vb_btn_ylw_psh.brlan
+803b8ca0	_sound_gry.brlan
+803b8cb4	_sound_ylw.brlan
+803b8cc8	_cmn_msg_btn_in.brlan
+803b8ce0	_cmn_msg_btn_out.brlan
+803b8cf8	_cmn_msg_btn_psh.brlan
+803b8d10	_vb_btn_ylw_ylw.brlan
+803b8d28	_btry_wink.brlan
+803b8d40	_btry_gry.brlan
+803b8d50	_btry_wht.brlan
+803b8d60	_btry_wink_gry.brlan
+803b8d78	_close_bar_in.brlan
+803b8d8c	_close_bar_out.brlan
+803b8da8	_btry_red.brlan
+803b8e10	hmMenu_strt
+803b8e1c	hmMenu_fnsh
+803b8e28	hmMenuBck_strt
+803b8e38	hmMenuBck_fnsh
+803b8e48	optn_bar_in
+803b8e54	optn_bar_out
+803b8e64	optnBtn_00_inOut
+803b8e78	optnBtn_01_inOut
+803b8e8c	optnBtn_10_inOut
+803b8ea0	optnBtn_11_inOut
+803b8eb4	optnBtn_20_inOut
+803b8ec8	optnBtn_00_psh
+803b8ed8	optnBtn_01_psh
+803b8ee8	optnBtn_10_psh
+803b8ef8	optnBtn_11_psh
+803b8f08	optnBtn_20_psh
+803b8f18	optnBtn_10_cntrl
+803b8f30	msgBtn_00_inOut
+803b8f40	msgBtn_01_inOut
+803b8f50	msgBtn_00_psh
+803b8f60	msgBtn_01_psh
+803b8f70	vol_00
+803b8f78	vol_01
+803b8f80	vol_02
+803b8f88	vol_03
+803b8f90	vol_04
+803b8f98	vol_05
+803b8fa0	vol_06
+803b8fa8	vol_07
+803b8fb0	vol_08
+803b8fb8	vol_09
+803b8fc0	plyr_00
+803b8fc8	plyr_01
+803b8fd0	plyr_02
+803b8fd8	plyr_03
+803b906c	let_icn_00
+803b9078	N_plyr_00
+803b9084	N_plyr_01
+803b9090	N_plyr_02
+803b909c	N_plyr_03
+803b90bc	B_btn_00
+803b90c8	B_bar_10
+803b90d4	B_optnBtn_00
+803b90e4	B_optnBtn_01
+803b90f4	B_optnBtn_10
+803b9104	B_optnBtn_11
+803b9114	B_optnBtn_20
+803b9124	B_BtnA
+803b912c	B_BtnB
+803b9134	cntrl_00
+803b9168	T_msg_00
+803b9174	T_msg_01
+803b9180	T_Dialog
+803b9198	btryPwr_00_0
+803b91a8	btryPwr_00_1
+803b91b8	btryPwr_00_2
+803b91c8	btryPwr_00_3
+803b91d8	btryPwr_01_0
+803b91e8	btryPwr_01_1
+803b91f8	btryPwr_01_2
+803b9208	btryPwr_01_3
+803b9218	btryPwr_02_0
+803b9228	btryPwr_02_1
+803b9238	btryPwr_02_2
+803b9248	btryPwr_02_3
+803b9258	btryPwr_03_0
+803b9268	btryPwr_03_1
+803b9278	btryPwr_03_2
+803b9288	btryPwr_03_3
+803b9d68	%%%d.%df
+803b9e18	Wrong Sound Name < %s >\n
+803b9e38	RPSndAudioMgr.h
+803ba4f0	pName != NULL
+803ba500	eggIBinary.h
+803ba510	pName != NULL
+803ba520	eggIBinary.h
+803ba530	pName != NULL
+803ba540	eggIBinary.h
+803ba550	pName != NULL
+803ba560	eggIBinary.h
+803ba570	pName != NULL
+803ba580	eggIBinary.h
+803ba590	0.f <= modify && modify <= 1.f
+803ba5b0	eggStateGX.h
+803ba6d8	index < mTexNum
+803ba6e8	eggLightTextureManager.h
+803ba940	FANFARE_SpareGet
+803ba954	FANFARE_Strike
+803ba964	FANFARE_OutOfTheParkHomer
+803ba980	FANFARE_HomeRun
+803ba990	RP_PNP_BGM_FANFARE_WIN
+803ba9a8	RP_COMMON_BGM_RANK_COMPLETE
+803ba9c4	RP_COM_BGM_GET_PLATINA
+803ba9dc	RP_COM_BGM_GET_GOLD
+803ba9f0	RP_COM_BGM_GET_SILVER
+803baa08	RP_COM_BGM_GET_COPPER
+803baa20	4>=cam_count
+803baa30	eggAudio3DMgr.h
+803baa40	0<cam_count
+803baa50	eggAudio3DMgr.h
+803bab8f	arp_STATIC_PLAYER_SE_01
+803baba7	rp_STATIC_GROUP_01
+803babba	rp_STATIC_BANK
+803babc9	rp_STATIC_CONNECT_01_CTSP
+803baff8	rp_STATIC_CONNECT_01
+803bbea0	0eVdeeuePTcaBA! p
+803be777	"06EUVuEE0DCdCEUE0FGeEDSEp
+803c2042	]|0 <= idx && idx < GetAmbientNum()
+803c2068	eggLightManager.h
+803c23c0	Wrong Sound Name < %s >\n
+803c23e0	RPSndAudioMgr.h
+803c23f0	canvasMode < CANVAS_MAX
+803c2408	eggFrustum.h
+803c2d12	'd0.f < fovy && fovy < 180.f
+803c2d30	eggFrustum.h
+803c2d40	sizeX >= 0.f
+803c2d50	eggFrustum.h
+803c2d60	sizeY >= 0.f
+803c2d70	eggFrustum.h
+803c2d80	type < PROJ_MAX
+803c2d90	eggFrustum.h
+803c2da0	canvasMode < CANVAS_MAX
+803c2db8	eggFrustum.h
+803c2fa4	Wrong Sound Name < %s >\n
+803c2fc0	RPSndAudioMgr.h
+803c33d8	Wrong Sound Name < %s >\n
+803c33f8	RPSndAudioMgr.h
+803c36e8	Wrong Sound Name < %s >\n
+803c3708	RPSndAudioMgr.h
+803c3879	!ODindex<mHandleCount
+803c3890	RPSndObject.h
+803c38a0	cam_num<mCameraCount
+803c38b8	eggAudio3DMgr.h
+803c4035	\tf\index<mHandleCount
+803c404c	RPSndObject.h
+803c405c	index<mHandleCount
+803c4070	RPSndObject.h
+803c4080	smCommon3DManager[i]
+803c4098	RPSndObject.h
+803c4b9c	range > 0.f
+803c4ba8	eggDrawPathDOF.h
+803c4bbc	radius > 0.f
+803c4bcc	eggDrawPathDOF.h
+803c5418	adjust >= 0.f
+803c5428	eggShadowTexture.h
+803c5a40	index<mHandleCount
+803c5a54	RPSndObject.h
+803c5a64	index<mHandleCount
+803c5a78	RPSndObject.h
+803c5a88	smCommon3DManager[i]
+803c5aa0	RPSndObject.h
+803c6598	index<mHandleCount
+803c65ac	RPSndObject.h
+803c6618	no message
+803c69d8	range > 0.f
+803c69e4	eggDrawPathDOF.h
+803c69f8	radius > 0.f
+803c6a08	eggDrawPathDOF.h
+803c724c	index < GetNum()
+803c7260	eggLightManager.h
+803c7274	sizeX >= 0.f
+803c7284	eggFrustum.h
+803c7294	sizeY >= 0.f
+803c72a4	eggFrustum.h
+803c72b8	canvasMode < CANVAS_MAX
+803c72d0	eggFrustum.h
+803c7dac	index<mHandleCount
+803c7dc0	RPSndObject.h
+803c967b	4index<mHandleCount
+803c9690	RPSndObject.h
+803c96a0	index<mHandleCount
+803c96b4	RPSndObject.h
+803c96c4	index<mHandleCount
+803c96d8	RPSndObject.h
+804bd42f	 NodeMix
+804bd450	NodeMix
+804bd490	pBuffer
+804bd4d0	pSphere
+804bd510	false
+804bd6a8	/meta
+804bd6b0	/ticket
+804bd72c	IPL.CB
+804bd734	IPL.AR
+804bd7e8	BT.SENS
+804bd92c	FALSE
+804bd948	FALSE
+804bda18	euc-jp
+804bda20	utf-8
+804bda38	base64
+804bda48	DATA\n
+804c0b10	AM|PM
+804c1750	FEEL MIE

@@ -1,0 +1,33 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_a998fbbca547b441",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/box_KO_model.brres/KO",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/box_KO_model.brres",
+ "model": "KO",
+ "glb": "models/src/core/shared/SportsStatic/us/local.carc/G3D/box_KO_model__KO.glb",
+ "textures": [
+  {
+   "name": "box_env",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_KO_model.brres"
+  },
+  {
+   "name": "KO_ind_JPN",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_KO_model.brres"
+  },
+  {
+   "name": "KO_tex_JPN",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/box_KO_model.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "KO"
+  },
+  {
+   "type": "CLR0",
+   "name": "KO"
+  }
+ ]
+}

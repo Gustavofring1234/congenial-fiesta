@@ -1,0 +1,39 @@
+{
+ "seconds": 9.6,
+ "files": 4025,
+ "bytes": 177798990,
+ "assets": {
+  "binary": 1416,
+  "collision": 21,
+  "animation": 647,
+  "font": 8,
+  "layout": 138,
+  "texture": 615,
+  "model": 259,
+  "scene": 32
+ },
+ "refs": 4708,
+ "unresolved": 1,
+ "conversionErrors": [],
+ "codeRefs": {
+  "total": 752,
+  "resolved": 639
+ },
+ "textureAliases": 959,
+ "animationsWithMissingTargets": 47,
+ "inventory": {
+  "files": 3100,
+  "byStatus": {
+   "referencia": 1032,
+   "convertido": 1740,
+   "parcial": 174,
+   "nao-convertido": 154
+  }
+ },
+ "validation": {
+  "ok": true,
+  "errors": 0,
+  "warnings": 1,
+  "firstErrors": []
+ }
+}

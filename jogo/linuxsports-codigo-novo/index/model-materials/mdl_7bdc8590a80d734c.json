@@ -1,0 +1,84 @@
+{
+ "assetId": "mdl_7bdc8590a80d734c",
+ "model": "glf_teeOBJ",
+ "materials": [
+  {
+   "name": "M_TeeBall",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_TeeBall1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1",
+    "polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_TeePin",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_TeePin1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "M_TeeShadow",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_TeeShadow1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon3"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "glf_TeeBall1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_teeOBJ.brres",
+   "materials": [
+    "M_TeeBall"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_TeePin1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_teeOBJ.brres",
+   "materials": [
+    "M_TeePin"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_TeeShadow1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_teeOBJ.brres",
+   "materials": [
+    "M_TeeShadow"
+   ],
+   "layer0": true
+  }
+ ]
+}

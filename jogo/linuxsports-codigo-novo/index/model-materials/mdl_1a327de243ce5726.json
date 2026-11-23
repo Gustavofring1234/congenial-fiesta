@@ -1,0 +1,207 @@
+{
+ "assetId": "mdl_1a327de243ce5726",
+ "model": "bwg_pin_286_91",
+ "materials": [
+  {
+   "name": "bwl_pin_mat",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bwg_pin",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "bwg_pin_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "test_gra",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon1",
+    "polygon2",
+    "polygon3",
+    "polygon4",
+    "polygon5",
+    "polygon6",
+    "polygon7",
+    "polygon8",
+    "polygon9",
+    "polygon10",
+    "polygon11",
+    "polygon12",
+    "polygon13",
+    "polygon14",
+    "polygon15",
+    "polygon16",
+    "polygon17",
+    "polygon18",
+    "polygon19",
+    "polygon20",
+    "polygon21",
+    "polygon22",
+    "polygon23",
+    "polygon24",
+    "polygon25",
+    "polygon26",
+    "polygon27",
+    "polygon28",
+    "polygon29",
+    "polygon30",
+    "polygon31",
+    "polygon32",
+    "polygon33",
+    "polygon34",
+    "polygon35",
+    "polygon36",
+    "polygon37",
+    "polygon38",
+    "polygon39",
+    "polygon40",
+    "polygon41",
+    "polygon42",
+    "polygon43",
+    "polygon44",
+    "polygon45",
+    "polygon46",
+    "polygon47",
+    "polygon48",
+    "polygon49",
+    "polygon50",
+    "polygon51",
+    "polygon52",
+    "polygon53",
+    "polygon54",
+    "polygon55",
+    "polygon56",
+    "polygon57",
+    "polygon58",
+    "polygon59",
+    "polygon60",
+    "polygon61",
+    "polygon62",
+    "polygon63",
+    "polygon64",
+    "polygon65",
+    "polygon66",
+    "polygon67",
+    "polygon68",
+    "polygon69",
+    "polygon70",
+    "polygon71",
+    "polygon72",
+    "polygon73",
+    "polygon74",
+    "polygon75",
+    "polygon76",
+    "polygon77",
+    "polygon78",
+    "polygon79",
+    "polygon80",
+    "polygon81",
+    "polygon82",
+    "polygon83",
+    "polygon84",
+    "polygon85",
+    "polygon86",
+    "polygon87",
+    "polygon88",
+    "polygon89",
+    "polygon90"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "bwl_pin_red_mat",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bwg_pin_red",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "bwg_pin_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "test_gra",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "bwg_Ball_blue",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_Pin.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "bwg_pin",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_Pin.brres",
+   "materials": [
+    "bwl_pin_mat"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "bwg_pin_env",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_Pin.brres",
+   "materials": [
+    "bwl_pin_mat",
+    "bwl_pin_red_mat"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "bwg_pin_red",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_Pin.brres",
+   "materials": [
+    "bwl_pin_red_mat"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "env_test",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_Pin.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "test_gra",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_Pin.brres",
+   "materials": [
+    "bwl_pin_mat",
+    "bwl_pin_red_mat"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "test_gra_91",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_Pin.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "summary": {
+  "scenes": 32,
+  "objects": 1361,
+  "onTerrain": 1359,
+  "within5Units": 1246,
+  "maxAbsMedianHeightOffset": 0.89,
+  "teeVotes": {
+   "aligned": 12
+  },
+  "convention": "Wii colunas (X,Y,Z) a partir do registro Z,Y,X; Unity = espelho em X: pos(-x,y,z), quat(x,-y,-z,w)"
+ },
+ "scenes": {
+  "assets/maps/baseball/ballpark00.scene.json": {
+   "objects": 0
+  },
+  "assets/maps/boxing/MainGame.scene.json": {
+   "objects": 0
+  },
+  "assets/maps/golf/glf_course_E3.scene.json": {
+   "objects": 87,
+   "onTerrain": 87,
+   "medianHeightOffset": -0.89,
+   "within5Units": 73,
+   "teeForwardToPinsDeg": 3
+  },
+  "assets/maps/golf/glf_course_angle.scene.json": {
+   "objects": 50,
+   "onTerrain": 50,
+   "medianHeightOffset": 0.0,
+   "within5Units": 50,
+   "teeForwardToPinsDeg": 0
+  },
+  "assets/maps/golf/glf_course_fc1.scene.json": {
+   "objects": 119,
+   "onTerrain": 117,
+   "medianHeightOffset": 0.0,
+   "within5Units": 116,
+   "teeForwardToPinsDeg": 2
+  },
+  "assets/maps/golf/glf_course_fc11.scene.json": {
+   "objects": 189,
+   "onTerrain": 189,
+   "medianHeightOffset": -0.0,
+   "within5Units": 139
+  },
+  "assets/maps/golf/glf_course_fc12.scene.json": {
+   "objects": 107,
+   "onTerrain": 107,
+   "medianHeightOffset": -0.0,
+   "within5Units": 106,
+   "teeForwardToPinsDeg": 25
+  },
+  "assets/maps/golf/glf_course_fc13.scene.json": {
+   "objects": 66,
+   "onTerrain": 66,
+   "medianHeightOffset": 0.0,
+   "within5Units": 65,
+   "teeForwardToPinsDeg": 22
+  },
+  "assets/maps/golf/glf_course_fc14.scene.json": {
+   "objects": 72,
+   "onTerrain": 72,
+   "medianHeightOffset": 0.0,
+   "within5Units": 71,
+   "teeForwardToPinsDeg": 10
+  },
+  "assets/maps/golf/glf_course_fc16.scene.json": {
+   "objects": 121,
+   "onTerrain": 121,
+   "medianHeightOffset": -0.0,
+   "within5Units": 118,
+   "teeForwardToPinsDeg": 10
+  },
+  "assets/maps/golf/glf_course_fc18.scene.json": {
+   "objects": 148,
+   "onTerrain": 148,
+   "medianHeightOffset": -0.0,
+   "within5Units": 146,
+   "teeForwardToPinsDeg": 31
+  },
+  "assets/maps/golf/glf_course_fc3.scene.json": {
+   "objects": 157,
+   "onTerrain": 157,
+   "medianHeightOffset": -0.571,
+   "within5Units": 132
+  },
+  "assets/maps/golf/glf_course_fc5.scene.json": {
+   "objects": 93,
+   "onTerrain": 93,
+   "medianHeightOffset": 0.0,
+   "within5Units": 92,
+   "teeForwardToPinsDeg": 37
+  },
+  "assets/maps/golf/glf_course_fc8.scene.json": {
+   "objects": 76,
+   "onTerrain": 76,
+   "medianHeightOffset": -0.0,
+   "within5Units": 63,
+   "teeForwardToPinsDeg": 40
+  },
+  "assets/maps/golf/glf_course_fc9.scene.json": {
+   "objects": 74,
+   "onTerrain": 74,
+   "medianHeightOffset": 0.0,
+   "within5Units": 73,
+   "teeForwardToPinsDeg": 0
+  },
+  "assets/maps/golf/glf_course_survey.scene.json": {
+   "objects": 2,
+   "onTerrain": 2,
+   "medianHeightOffset": 0.0,
+   "within5Units": 2,
+   "teeForwardToPinsDeg": 0
+  },
+  "assets/maps/tennis/tns_Field_a.scene.json": {
+   "objects": 0
+  },
+  "assets/maps/tennis/tns_Field_b.scene.json": {
+   "objects": 0
+  },
+  "src/core/shared/Kokeshi/common/common.scene.json": {
+   "objects": 0
+  },
+  "src/core/shared/RPCommon/common/common.scene.json": {
+   "objects": 0
+  },
+  "src/core/shared/RPST/common/common.scene.json": {
+   "objects": 0
+  },
+  "src/core/shared/RPST/us/local.scene.json": {
+   "objects": 0
+  },
+  "src/core/shared/RPSportsCommon/common/common.scene.json": {
+   "objects": 0
+  },
+  "src/core/shared/SportsStatic/common/common.scene.json": {
+   "objects": 0
+  },
+  "src/core/shared/SportsStatic/us/local.scene.json": {
+   "objects": 0
+  },
+  "src/minigames/baseball/common/common.scene.json": {
+   "objects": 0
+  },
+  "src/minigames/bowling/common/common.scene.json": {
+   "objects": 0
+  },
+  "src/minigames/boxing/common/common.scene.json": {
+   "objects": 0
+  },
+  "src/minigames/fitness/common/common.scene.json": {
+   "objects": 0
+  },
+  "src/minigames/golf/common/common.scene.json": {
+   "objects": 0
+  },
+  "src/minigames/tennis/common/common.scene.json": {
+   "objects": 0
+  },
+  "src/minigames/training/common/common.scene.json": {
+   "objects": 0
+  }
+ }
+}

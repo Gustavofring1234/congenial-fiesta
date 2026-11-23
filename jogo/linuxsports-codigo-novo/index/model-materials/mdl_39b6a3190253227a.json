@@ -1,0 +1,65 @@
+{
+ "assetId": "mdl_39b6a3190253227a",
+ "model": "bbl_Bat",
+ "materials": [
+  {
+   "name": "bbl_bat_woodA",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bbl_Bat",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "bbl_Bat_env",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "bbl_bat_woodB",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bbl_Bat",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "bbl_Bat",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Bat.brres",
+   "materials": [
+    "bbl_bat_woodA",
+    "bbl_bat_woodB"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "bbl_Bat_env",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_Bat.brres",
+   "materials": [
+    "bbl_bat_woodA"
+   ],
+   "layer0": false
+  }
+ ]
+}

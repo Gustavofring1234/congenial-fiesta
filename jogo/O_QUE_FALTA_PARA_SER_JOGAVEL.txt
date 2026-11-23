@@ -1,0 +1,96 @@
+O QUE FALTA PARA SER JOGÁVEL
+Pasta analisada: linuxsports-web-wispt (e o zip linuxsports-web-wispt.zip)
+Data: 18/11/2026
+
+======================================================================
+1. O QUE JÁ EXISTE (convertido e utilizável no navegador)
+======================================================================
+- 32 cenas/mapas 3D (scenes/*.scene.json) com modelos, colisão e
+  posicionamento de objetos (os objetos do .pmp só existem nos campos de golfe).
+- 259 modelos 3D em .glb (models/), carregáveis com three.js.
+- 21 malhas de colisão em .glb.
+- 138 layouts de tela (menus e HUD) em JSON, com 647 animações 2D.
+- 615 texturas convertidas (.png + .tex.json) e 971 texturas renomeadas
+  em raw/assets/textures.
+- 8 fontes.
+- Visualizador web em HTML/JS/CSS puro (viewer/), com three.js local.
+
+======================================================================
+2. O QUE FALTA
+======================================================================
+
+[A] LÓGICA DO JOGO .......................................... CRÍTICO
+    Situação: não existe em forma utilizável. Só há o código C
+    descompilado do executável PowerPC (_secundario/raw/src/core/
+    decompiled/decompiled.c, 14,7 MB, mais functions.tsv e strings.tsv).
+    Falta: regras de cada esporte, física (bola, pinos, tacadas, socos),
+    IA dos adversários, pontuação, fluxo entre telas (menu, partida,
+    resultados) e gravação de recordes.
+    Observação: é a maior parte do trabalho. Código descompilado não
+    tem nomes de variáveis e funções, e precisaria ser reescrito à mão.
+
+[B] ANIMAÇÕES 3D ............................................ CRÍTICO
+    Situação: não convertidas. São 301 animações (CHR0, SRT0, PAT0,
+    CLR0, VIS0, SHP0, SCN0), e 119 delas não foram associadas a nenhum
+    modelo.
+    Onde estão: só nos arquivos .brres da pasta linuxsports-web
+    (não estão na pasta wispt nem no zip).
+    Sem elas: os personagens e objetos ficam parados, sem andar,
+    rebater, arremessar ou socar.
+
+[C] PERSONAGENS (MII) ....................................... CRÍTICO
+    Situação: não decodificados.
+    Arquivos: raw/src/core/shared/Kokeshi/common/RFL_Res.dat (peças
+    do rosto e do corpo) e os 60 arquivos .rcd (dados dos Miis da CPU).
+    Falta: montar o modelo do personagem a partir dessas peças.
+
+[D] ÁUDIO ................................................... CRÍTICO
+    Situação: ausente. O código cita 8 bancos rp_*_sound.brsar que NÃO
+    estão no projeto. Só existem alguns efeitos do menu Home
+    (5 .bwav / 5 .wav).
+    Falta: músicas, efeitos sonoros e vozes. Sem os arquivos de origem,
+    não há o que converter.
+
+[E] CONTROLES ............................................... CRÍTICO
+    Situação: o jogo original depende do sensor de movimento do Wiimote
+    (acelerômetro e infravermelho).
+    Falta: redesenhar a jogabilidade para mouse, teclado, toque, gamepad
+    ou celular como controle (DeviceMotion API).
+
+[F] EFEITOS VISUAIS ......................................... IMPORTANTE
+    Situação: os .breft (texturas de efeito) foram identificados, mas
+    não decodificados. Os .breff (definição das partículas) ficaram
+    só na pasta linuxsports-web.
+    Falta: partículas como poeira, faíscas e brilhos.
+
+[G] ILUMINAÇÃO E AMBIENTE ................................... IMPORTANTE
+    Situação: identificados, mas não decodificados.
+    Arquivos: .plight (luzes), .pblm (bloom), .plmap (lightmaps),
+    .pmmisc e .bti.
+    Falta: decodificar ou aproximar a iluminação no three.js.
+    Sem isso, as cenas ficam com luz genérica.
+
+[H] TEXTOS DO JOGO .......................................... MENOR
+    Situação: os .bmg (mensagens) não foram decodificados. Existe uma
+    extração parcial em _secundario/raw/docs/textos/*.tsv.
+
+[I] DETALHES DOS MODELOS .................................... MENOR
+    - O .model.json lista todas as texturas do .brres de origem, e não
+      quais texturas cada material usa.
+    - A ordem dos eixos dos objetos do .pmp (Z, Y, X) é uma hipótese,
+      não foi confirmada.
+    - 47 animações 2D citam painéis que não existem no layout atual.
+      O player deve ignorar esses alvos.
+
+======================================================================
+3. RESUMO
+======================================================================
+Você tem a parte VISUAL ESTÁTICA: cenários, modelos parados, telas e
+texturas.
+Falta a parte que faz o jogo FUNCIONAR: lógica, animação, personagens,
+som e controles.
+Os itens A a E são obrigatórios para haver algo jogável. Os itens F a I
+melhoram a fidelidade visual.
+
+IMPORTANTE: guarde a pasta linuxsports-web. Ela é a única que ainda tem
+os .brres (com as animações 3D) e os .breff.

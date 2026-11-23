@@ -1,0 +1,16 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_d22e27ed9d9bf175",
+ "source": "src/minigames/tennis/common/common.carc/G3D/tns_r_color.brres/tns_r_color",
+ "brres": "src/minigames/tennis/common/common.carc/G3D/tns_r_color.brres",
+ "model": "tns_r_color",
+ "glb": "models/src/minigames/tennis/common/common.carc/G3D/tns_r_color__tns_r_color.glb",
+ "textures": [
+  {
+   "name": "tns_racket_a",
+   "foundIn": "src/minigames/tennis/common/common.carc/G3D/tns_r_color.brres"
+  }
+ ],
+ "animations": []
+}

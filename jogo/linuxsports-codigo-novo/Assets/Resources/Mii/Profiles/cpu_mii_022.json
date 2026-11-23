@@ -1,0 +1,73 @@
+{
+ "id": "cpu_mii_022",
+ "source": "raw/src/core/shared/SportsStatic/common/CPUMii/cpu_mii_022.rcd",
+ "raw": "gAww6TCkMKIw8wAAAAAAAAAAAAAAAEBAIAAAAAAAAADOvx+YMM7IwkRtRDCVSDBPAIrsqiUEAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "info": {
+  "name": "ライアン",
+  "creator": "",
+  "sex": 0,
+  "birthMonth": 0,
+  "birthDay": 0,
+  "favoriteColor": 6,
+  "favorite": 0,
+  "height": 64,
+  "build": 64,
+  "createId": "2000000000000000",
+  "faceline": {
+   "type": 6,
+   "color": 3,
+   "texture": 10
+  },
+  "hair": {
+   "type": 15,
+   "color": 6,
+   "flip": 0
+  },
+  "eye": {
+   "type": 17,
+   "color": 2,
+   "scale": 2,
+   "rotate": 3,
+   "x": 1,
+   "y": 13
+  },
+  "eyebrow": {
+   "type": 6,
+   "color": 6,
+   "scale": 4,
+   "rotate": 3,
+   "x": 2,
+   "y": 12
+  },
+  "nose": {
+   "type": 9,
+   "scale": 5,
+   "y": 9
+  },
+  "mouth": {
+   "type": 6,
+   "color": 0,
+   "scale": 2,
+   "y": 15
+  },
+  "beard": {
+   "mustache": 3,
+   "type": 2,
+   "color": 6,
+   "scale": 5,
+   "y": 10
+  },
+  "glass": {
+   "type": 0,
+   "color": 0,
+   "scale": 4,
+   "y": 10
+  },
+  "mole": {
+   "type": 0,
+   "scale": 4,
+   "x": 2,
+   "y": 20
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_18ee212c57805653",
+ "source": "src/core/shared/SportsStatic/us/local.carc/G3D/all_win.brres/win",
+ "brres": "src/core/shared/SportsStatic/us/local.carc/G3D/all_win.brres",
+ "model": "win",
+ "glb": "models/src/core/shared/SportsStatic/us/local.carc/G3D/all_win__win.glb",
+ "textures": [
+  {
+   "name": "all_BG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_win.brres"
+  },
+  {
+   "name": "all_env_win",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_win.brres"
+  },
+  {
+   "name": "all_shadow",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_win.brres"
+  },
+  {
+   "name": "all_win_ind_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_win.brres"
+  },
+  {
+   "name": "all_win_tex_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/all_win.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "win"
+  },
+  {
+   "type": "SRT0",
+   "name": "win"
+  },
+  {
+   "type": "CLR0",
+   "name": "win"
+  },
+  {
+   "type": "VIS0",
+   "name": "win"
+  }
+ ]
+}

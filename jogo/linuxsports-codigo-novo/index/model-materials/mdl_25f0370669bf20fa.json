@@ -1,0 +1,51 @@
+{
+ "assetId": "mdl_25f0370669bf20fa",
+ "model": "glf_marker",
+ "materials": [
+  {
+   "name": "M_marker",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glfM_Mark.1",
+     "palette": "glfM_Mark.1",
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "glfM_Mark.1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_marker.brres",
+   "materials": [
+    "M_marker"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glfM_Mark.2",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_marker.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glfM_Mark.3",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_marker.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "glfM_Mark.4",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_marker.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ]
+}

@@ -1,0 +1,350 @@
+{
+ "presets": [
+  {
+   "name": "rpcommon",
+   "lights": 16,
+   "gxLights": 0,
+   "lightTextureLights": 7,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": null
+  },
+  {
+   "name": "baseball",
+   "lights": 16,
+   "gxLights": 3,
+   "lightTextureLights": 6,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "bowling",
+   "lights": 16,
+   "gxLights": 4,
+   "lightTextureLights": 6,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "golf",
+   "lights": 16,
+   "gxLights": 2,
+   "lightTextureLights": 6,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": false
+  },
+  {
+   "name": "tennis",
+   "lights": 16,
+   "gxLights": 4,
+   "lightTextureLights": 5,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "tennis_b",
+   "lights": 16,
+   "gxLights": 5,
+   "lightTextureLights": 5,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "tennis_select",
+   "lights": 16,
+   "gxLights": 5,
+   "lightTextureLights": 5,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "boxing_main",
+   "lights": 16,
+   "gxLights": 5,
+   "lightTextureLights": 7,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "boxing_minigame01",
+   "lights": 16,
+   "gxLights": 5,
+   "lightTextureLights": 6,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "boxing_minigame02",
+   "lights": 16,
+   "gxLights": 5,
+   "lightTextureLights": 6,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "boxing_minigame03",
+   "lights": 16,
+   "gxLights": 5,
+   "lightTextureLights": 6,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "golf_fc1",
+   "lights": 16,
+   "gxLights": 4,
+   "lightTextureLights": 6,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "golf_fc11",
+   "lights": 16,
+   "gxLights": 4,
+   "lightTextureLights": 6,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "golf_fc12",
+   "lights": 16,
+   "gxLights": 4,
+   "lightTextureLights": 6,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "golf_fc13",
+   "lights": 16,
+   "gxLights": 4,
+   "lightTextureLights": 6,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "golf_fc14",
+   "lights": 16,
+   "gxLights": 4,
+   "lightTextureLights": 6,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "golf_fc16",
+   "lights": 16,
+   "gxLights": 4,
+   "lightTextureLights": 6,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "golf_fc3",
+   "lights": 16,
+   "gxLights": 4,
+   "lightTextureLights": 6,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "golf_fc5",
+   "lights": 16,
+   "gxLights": 4,
+   "lightTextureLights": 6,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "golf_fc8",
+   "lights": 16,
+   "gxLights": 4,
+   "lightTextureLights": 6,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  },
+  {
+   "name": "golf_fc9",
+   "lights": 16,
+   "gxLights": 4,
+   "lightTextureLights": 6,
+   "lightTextures": [
+    "lm_0",
+    "lm_1"
+   ],
+   "bloom": true
+  }
+ ],
+ "bti": [
+  {
+   "source": "raw/src/core/shared/SportsStatic/common/HomeMenu/homeBtnIcon.bti",
+   "resource": "Environment/Textures/src__core__shared__SportsStatic__common__HomeMenu__homeBtnIcon",
+   "format": 5,
+   "width": 56,
+   "height": 56,
+   "wrapS": 0,
+   "wrapT": 0,
+   "mipmaps": 1,
+   "paletteFormat": null
+  },
+  {
+   "source": "raw/src/core/shared/SportsStatic/common/lm_0.bti",
+   "resource": "Environment/Textures/src__core__shared__SportsStatic__common__lm_0",
+   "format": 6,
+   "width": 32,
+   "height": 32,
+   "wrapS": 0,
+   "wrapT": 0,
+   "mipmaps": 1,
+   "paletteFormat": null
+  },
+  {
+   "source": "raw/src/core/shared/SportsStatic/common/lm_1.bti",
+   "resource": "Environment/Textures/src__core__shared__SportsStatic__common__lm_1",
+   "format": 6,
+   "width": 32,
+   "height": 32,
+   "wrapS": 0,
+   "wrapT": 0,
+   "mipmaps": 1,
+   "paletteFormat": null
+  },
+  {
+   "source": "raw/src/minigames/fitness/common/msy_point08_00.bti",
+   "resource": "Environment/Textures/src__minigames__fitness__common__msy_point08_00",
+   "format": 2,
+   "width": 8,
+   "height": 8,
+   "wrapS": 0,
+   "wrapT": 0,
+   "mipmaps": 1,
+   "paletteFormat": null
+  },
+  {
+   "source": "raw/src/minigames/golf/common/FaceDummy1.bti",
+   "resource": "Environment/Textures/src__minigames__golf__common__FaceDummy1",
+   "format": 0,
+   "width": 32,
+   "height": 32,
+   "wrapS": 0,
+   "wrapT": 0,
+   "mipmaps": 1,
+   "paletteFormat": null
+  },
+  {
+   "source": "raw/src/minigames/golf/common/FaceDummy2.bti",
+   "resource": "Environment/Textures/src__minigames__golf__common__FaceDummy2",
+   "format": 0,
+   "width": 32,
+   "height": 32,
+   "wrapS": 0,
+   "wrapT": 0,
+   "mipmaps": 1,
+   "paletteFormat": null
+  },
+  {
+   "source": "raw/src/minigames/golf/common/FaceDummy3.bti",
+   "resource": "Environment/Textures/src__minigames__golf__common__FaceDummy3",
+   "format": 0,
+   "width": 32,
+   "height": 32,
+   "wrapS": 0,
+   "wrapT": 0,
+   "mipmaps": 1,
+   "paletteFormat": null
+  },
+  {
+   "source": "raw/src/minigames/golf/common/FaceDummy4.bti",
+   "resource": "Environment/Textures/src__minigames__golf__common__FaceDummy4",
+   "format": 0,
+   "width": 32,
+   "height": 32,
+   "wrapS": 0,
+   "wrapT": 0,
+   "mipmaps": 1,
+   "paletteFormat": null
+  },
+  {
+   "source": "raw/src/minigames/tennis/common/bti/block.bti",
+   "resource": "Environment/Textures/src__minigames__tennis__common__bti__block",
+   "format": 4,
+   "width": 48,
+   "height": 32,
+   "wrapS": 0,
+   "wrapT": 0,
+   "mipmaps": 1,
+   "paletteFormat": null
+  },
+  {
+   "source": "raw/src/minigames/tennis/common/bti/shadow.bti",
+   "resource": "Environment/Textures/src__minigames__tennis__common__bti__shadow",
+   "format": 6,
+   "width": 64,
+   "height": 64,
+   "wrapS": 0,
+   "wrapT": 0,
+   "mipmaps": 1,
+   "paletteFormat": null
+  }
+ ],
+ "errors": [],
+ "unusedEnvironmentFiles": [],
+ "scenes": 32
+}

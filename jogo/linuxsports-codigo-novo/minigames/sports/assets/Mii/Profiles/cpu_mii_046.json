@@ -1,0 +1,73 @@
+{
+ "id": "cpu_mii_046",
+ "source": "raw/src/core/shared/SportsStatic/common/CPUMii/cpu_mii_046.rcd",
+ "raw": "AAgw6zD8MKsAAAAAAAAAAAAAAAAAAEBAIAAAAAAAAAAOfnxASQ8kdahqZJFlOHhsSmoSiCUFAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "info": {
+  "name": "ルーカ",
+  "creator": "",
+  "sex": 0,
+  "birthMonth": 0,
+  "birthDay": 0,
+  "favoriteColor": 4,
+  "favorite": 0,
+  "height": 64,
+  "build": 64,
+  "createId": "2000000000000000",
+  "faceline": {
+   "type": 0,
+   "color": 3,
+   "texture": 9
+  },
+  "hair": {
+   "type": 62,
+   "color": 1,
+   "flip": 0
+  },
+  "eye": {
+   "type": 42,
+   "color": 3,
+   "scale": 2,
+   "rotate": 3,
+   "x": 4,
+   "y": 10
+  },
+  "eyebrow": {
+   "type": 9,
+   "color": 1,
+   "scale": 2,
+   "rotate": 4,
+   "x": 5,
+   "y": 7
+  },
+  "nose": {
+   "type": 6,
+   "scale": 5,
+   "y": 7
+  },
+  "mouth": {
+   "type": 15,
+   "color": 0,
+   "scale": 3,
+   "y": 12
+  },
+  "beard": {
+   "mustache": 0,
+   "type": 1,
+   "color": 1,
+   "scale": 4,
+   "y": 8
+  },
+  "glass": {
+   "type": 4,
+   "color": 5,
+   "scale": 3,
+   "y": 10
+  },
+  "mole": {
+   "type": 0,
+   "scale": 4,
+   "x": 2,
+   "y": 20
+  }
+ }
+}

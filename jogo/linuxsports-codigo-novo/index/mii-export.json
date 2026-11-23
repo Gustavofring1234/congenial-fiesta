@@ -1,0 +1,81 @@
+{
+ "source": "raw/src/core/shared/Kokeshi/common/RFL_Res.dat",
+ "archives": 18,
+ "shapes": {
+  "nose": {
+   "parts": 12,
+   "empty": 2,
+   "minWindingAgreement": 1.0,
+   "vertices": 213,
+   "triangles": 349
+  },
+  "forehead": {
+   "parts": 72,
+   "empty": 3,
+   "minWindingAgreement": 1.0,
+   "vertices": 964,
+   "triangles": 840
+  },
+  "faceline": {
+   "parts": 8,
+   "empty": 0,
+   "minWindingAgreement": 1.0,
+   "vertices": 928,
+   "triangles": 860
+  },
+  "hair": {
+   "parts": 72,
+   "empty": 1,
+   "minWindingAgreement": 1.0,
+   "vertices": 9328,
+   "triangles": 13839
+  },
+  "cap": {
+   "parts": 72,
+   "empty": 66,
+   "minWindingAgreement": 1.0,
+   "vertices": 519,
+   "triangles": 446
+  },
+  "beard": {
+   "parts": 4,
+   "empty": 1,
+   "minWindingAgreement": 1.0,
+   "vertices": 131,
+   "triangles": 129
+  },
+  "noseline": {
+   "parts": 12,
+   "empty": 0,
+   "minWindingAgreement": 1.0,
+   "vertices": 53,
+   "triangles": 26
+  },
+  "mask": {
+   "parts": 8,
+   "empty": 0,
+   "minWindingAgreement": 1.0,
+   "vertices": 1408,
+   "triangles": 1120
+  },
+  "glass": {
+   "parts": 1,
+   "empty": 0,
+   "minWindingAgreement": 1.0,
+   "vertices": 4,
+   "triangles": 2
+  }
+ },
+ "textures": {
+  "eye": 50,
+  "eyebrow": 24,
+  "mouth": 25,
+  "mustache": 4,
+  "mole": 2,
+  "faceline_shape": 12,
+  "cap_shape": 72,
+  "noseline_shape": 12,
+  "glass_shape": 10
+ },
+ "profiles": 60
+}

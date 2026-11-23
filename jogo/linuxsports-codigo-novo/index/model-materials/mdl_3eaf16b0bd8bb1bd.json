@@ -1,0 +1,39 @@
+{
+ "assetId": "mdl_3eaf16b0bd8bb1bd",
+ "model": "golf_powerbar_tex01",
+ "materials": [
+  {
+   "name": "powerbar_tex",
+   "translucent": true,
+   "doubleSided": true,
+   "layers": [
+    {
+     "texture": "glf_cmetter_bar_2.00",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "glf_cmetter_bar_2.00",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_bar_tex.brres",
+   "materials": [
+    "powerbar_tex"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_cmetter_bar_2.01",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_bar_tex.brres",
+   "materials": [],
+   "layer0": false
+  }
+ ]
+}

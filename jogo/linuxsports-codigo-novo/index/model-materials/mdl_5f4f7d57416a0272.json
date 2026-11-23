@@ -1,0 +1,131 @@
+{
+ "assetId": "mdl_5f4f7d57416a0272",
+ "model": "box_sandbagA",
+ "materials": [
+  {
+   "name": "box_sdbg_body",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "box_sandbag_test",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "box_env_sdbg",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    },
+    {
+     "texture": "box_id02",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "mirror"
+    },
+    {
+     "texture": "box_sdbg_kiwa",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "box_sdbgchain",
+   "translucent": false,
+   "doubleSided": true,
+   "layers": [
+    {
+     "texture": "box_sdbg_chain",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "box_sdbgchain_maru",
+   "translucent": false,
+   "doubleSided": true,
+   "layers": [
+    {
+     "texture": "box_sdbg_chain_maru",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "box_env_sdbg",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_sandbag.brres",
+   "materials": [
+    "box_sdbg_body"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "box_id02",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_sandbag.brres",
+   "materials": [
+    "box_sdbg_body"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "box_sandbag_test",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_sandbag.brres",
+   "materials": [
+    "box_sdbg_body"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "box_sdbg_boro",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_sandbag.brres",
+   "materials": [],
+   "layer0": false
+  },
+  {
+   "name": "box_sdbg_chain",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_sandbag.brres",
+   "materials": [
+    "box_sdbgchain"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "box_sdbg_chain_maru",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_sandbag.brres",
+   "materials": [
+    "box_sdbgchain_maru"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "box_sdbg_kiwa",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_sandbag.brres",
+   "materials": [
+    "box_sdbg_body"
+   ],
+   "layer0": false
+  }
+ ]
+}

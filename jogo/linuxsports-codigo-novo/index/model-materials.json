@@ -1,0 +1,3841 @@
+{
+ "summary": {
+  "models": 259,
+  "linked": 259,
+  "errors": {},
+  "materials": 914,
+  "modelsWithUnusedTextures": 170,
+  "unusedTextureRefs": 1844,
+  "externalTextureRefs": 0,
+  "glbNameMismatches": {}
+ },
+ "models": {
+  "mdl_0faa4fef7d1aa94e": {
+   "model": "bbl_Field_Score",
+   "materials": 11,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "sportlogo_white"
+   ]
+  },
+  "mdl_1b6f4c5bac720d40": {
+   "model": "bbl_Field_Screen",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_monitor_edge_i",
+    "sportlogo_white"
+   ]
+  },
+  "mdl_20de8bc6b195098e": {
+   "model": "bbl_Field_a",
+   "materials": 30,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "bbl_Bat_env"
+   ]
+  },
+  "mdl_644d45cbbd1ff4be": {
+   "model": "box_avatarA",
+   "materials": 5,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_people_dotsB"
+   ]
+  },
+  "mdl_644d44cbbd1ff30b": {
+   "model": "box_avatarB",
+   "materials": 5,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_people_dotsA"
+   ]
+  },
+  "mdl_644d43cbbd1ff158": {
+   "model": "box_avatarC",
+   "materials": 4,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_people_dotsA",
+    "box_people_dotsB"
+   ]
+  },
+  "mdl_6bc1c15f137c29ff": {
+   "model": "box_ball_bad",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "Light_map3",
+    "ball.1",
+    "ball.2",
+    "ball.3",
+    "ball.4",
+    "ball.5",
+    "ball.6",
+    "ball.7",
+    "ball.8",
+    "ball.9",
+    "ball_shadow",
+    "bbl_Ball",
+    "bbl_Ball_env",
+    "bwg_ball.0",
+    "bwg_ball.1",
+    "bwg_ball.2",
+    "bwg_ball.3",
+    "env_bwg",
+    "glf_ball1A",
+    "glf_ball1B",
+    "tns_Ball_e"
+   ]
+  },
+  "mdl_6bb7c75f1373dfac": {
+   "model": "box_ball_bbl",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "Light_map3",
+    "ball.0",
+    "ball.1",
+    "ball.2",
+    "ball.3",
+    "ball.4",
+    "ball.5",
+    "ball.6",
+    "ball.7",
+    "ball.8",
+    "ball.9",
+    "ball_shadow",
+    "bwg_ball.0",
+    "bwg_ball.1",
+    "bwg_ball.2",
+    "bwg_ball.3",
+    "env",
+    "env_bwg",
+    "glf_ball1A",
+    "glf_ball1B",
+    "tns_Ball_e"
+   ]
+  },
+  "mdl_6b92e25f1354f150": {
+   "model": "box_ball_bwg",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "Light_map3",
+    "ball.0",
+    "ball.1",
+    "ball.2",
+    "ball.3",
+    "ball.4",
+    "ball.5",
+    "ball.6",
+    "ball.7",
+    "ball.8",
+    "ball.9",
+    "ball_shadow",
+    "bbl_Ball",
+    "bbl_Ball_env",
+    "bwg_ball.1",
+    "bwg_ball.2",
+    "bwg_ball.3",
+    "env",
+    "glf_ball1A",
+    "glf_ball1B",
+    "tns_Ball_e"
+   ]
+  },
+  "mdl_51eb685f04e52603": {
+   "model": "box_ball_glf",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "Light_map3",
+    "ball.0",
+    "ball.1",
+    "ball.2",
+    "ball.3",
+    "ball.4",
+    "ball.5",
+    "ball.6",
+    "ball.7",
+    "ball.8",
+    "ball.9",
+    "ball_shadow",
+    "bbl_Ball",
+    "bwg_ball.0",
+    "bwg_ball.1",
+    "bwg_ball.2",
+    "bwg_ball.3",
+    "env",
+    "env_bwg",
+    "tns_Ball_e"
+   ]
+  },
+  "mdl_cff3095ebb449e1b": {
+   "model": "box_ball_pin",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "Light_map3",
+    "ball.0",
+    "ball.1",
+    "ball.2",
+    "ball.3",
+    "ball.4",
+    "ball.5",
+    "ball.6",
+    "ball.7",
+    "ball.8",
+    "ball.9",
+    "ball_shadow",
+    "bbl_Ball",
+    "bwg_ball.0",
+    "bwg_ball.1",
+    "bwg_ball.2",
+    "bwg_ball.3",
+    "env",
+    "env_bwg",
+    "glf_ball1A",
+    "glf_ball1B",
+    "tns_Ball_e"
+   ]
+  },
+  "mdl_6a3cae12130b5f98": {
+   "model": "box_ball_shadow",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "Light_map3",
+    "ball.0",
+    "ball.1",
+    "ball.2",
+    "ball.3",
+    "ball.4",
+    "ball.5",
+    "ball.6",
+    "ball.7",
+    "ball.8",
+    "ball.9",
+    "bbl_Ball",
+    "bbl_Ball_env",
+    "bwg_ball.0",
+    "bwg_ball.1",
+    "bwg_ball.2",
+    "bwg_ball.3",
+    "env",
+    "env_bwg",
+    "glf_ball1A",
+    "glf_ball1B",
+    "tns_Ball_e"
+   ]
+  },
+  "mdl_afb4485ea9af5583": {
+   "model": "box_ball_tns",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball.0",
+    "ball.1",
+    "ball.2",
+    "ball.3",
+    "ball.4",
+    "ball.5",
+    "ball.6",
+    "ball.7",
+    "ball.8",
+    "ball.9",
+    "ball_shadow",
+    "bbl_Ball",
+    "bbl_Ball_env",
+    "bwg_ball.0",
+    "bwg_ball.1",
+    "bwg_ball.2",
+    "bwg_ball.3",
+    "env",
+    "env_bwg",
+    "glf_ball1A",
+    "glf_ball1B"
+   ]
+  },
+  "mdl_a83edc8a093af7c7": {
+   "model": "box_gym",
+   "materials": 35,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_383a46eebf39a083": {
+   "model": "box_corner_B",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_TV.1",
+    "box_TV.2",
+    "box_TV_dots_i",
+    "box_env_c_mat02",
+    "box_grid1_i",
+    "box_hall_kaidan",
+    "box_hall_kaidan_shadow",
+    "box_hall_mat01",
+    "box_hall_saku",
+    "box_hall_saku_sadow",
+    "box_hall_seat",
+    "box_hall_stair",
+    "box_hall_top01",
+    "box_hall_wall",
+    "box_hall_wall_ura",
+    "box_light_frame",
+    "box_light_front",
+    "box_light_hokori",
+    "box_light_spot",
+    "box_light_spot_env",
+    "box_logo_nin",
+    "box_logo_nin_big55",
+    "box_logo_ws_big",
+    "box_monitor_edge_i",
+    "box_ring_floor",
+    "box_ring_floor_mura",
+    "box_ring_side06",
+    "box_rope_kage",
+    "box_rope_shade01",
+    "box_spot_front"
+   ]
+  },
+  "mdl_383a36eebf398553": {
+   "model": "box_corner_R",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_TV.1",
+    "box_TV.2",
+    "box_TV_dots_i",
+    "box_env_c_mat02",
+    "box_grid1_i",
+    "box_hall_kaidan",
+    "box_hall_kaidan_shadow",
+    "box_hall_mat01",
+    "box_hall_saku",
+    "box_hall_saku_sadow",
+    "box_hall_seat",
+    "box_hall_stair",
+    "box_hall_top01",
+    "box_hall_wall",
+    "box_hall_wall_ura",
+    "box_light_frame",
+    "box_light_front",
+    "box_light_hokori",
+    "box_light_spot",
+    "box_light_spot_env",
+    "box_logo_nin",
+    "box_logo_nin_big55",
+    "box_logo_ws_big",
+    "box_monitor_edge_i",
+    "box_ring_floor",
+    "box_ring_floor_mura",
+    "box_ring_side06",
+    "box_rope_kage",
+    "box_rope_shade01",
+    "box_spot_front"
+   ]
+  },
+  "mdl_c47acdaeeec61c07": {
+   "model": "box_corner_W1",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_TV.1",
+    "box_TV.2",
+    "box_TV_dots_i",
+    "box_env_c_mat02",
+    "box_grid1_i",
+    "box_hall_kaidan",
+    "box_hall_kaidan_shadow",
+    "box_hall_mat01",
+    "box_hall_saku",
+    "box_hall_saku_sadow",
+    "box_hall_seat",
+    "box_hall_stair",
+    "box_hall_top01",
+    "box_hall_wall",
+    "box_hall_wall_ura",
+    "box_light_frame",
+    "box_light_front",
+    "box_light_hokori",
+    "box_light_spot",
+    "box_light_spot_env",
+    "box_logo_nin",
+    "box_logo_nin_big55",
+    "box_logo_ws_big",
+    "box_monitor_edge_i",
+    "box_ring_floor",
+    "box_ring_floor_mura",
+    "box_ring_side06",
+    "box_rope_kage",
+    "box_rope_shade01",
+    "box_spot_front"
+   ]
+  },
+  "mdl_c47aceaeeec61dba": {
+   "model": "box_corner_W2",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_TV.1",
+    "box_TV.2",
+    "box_TV_dots_i",
+    "box_env_c_mat02",
+    "box_grid1_i",
+    "box_hall_kaidan",
+    "box_hall_kaidan_shadow",
+    "box_hall_mat01",
+    "box_hall_saku",
+    "box_hall_saku_sadow",
+    "box_hall_seat",
+    "box_hall_stair",
+    "box_hall_top01",
+    "box_hall_wall",
+    "box_hall_wall_ura",
+    "box_light_frame",
+    "box_light_front",
+    "box_light_hokori",
+    "box_light_spot",
+    "box_light_spot_env",
+    "box_logo_nin",
+    "box_logo_nin_big55",
+    "box_logo_ws_big",
+    "box_monitor_edge_i",
+    "box_ring_floor",
+    "box_ring_floor_mura",
+    "box_ring_side06",
+    "box_rope_kage",
+    "box_rope_shade01",
+    "box_spot_front"
+   ]
+  },
+  "mdl_97553b203796012c": {
+   "model": "box_hall",
+   "materials": 13,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_TV.1",
+    "box_c_sponge",
+    "box_env_c_mat01",
+    "box_env_c_mat02",
+    "box_id02",
+    "box_light_hokori",
+    "box_light_spot",
+    "box_light_spot_env",
+    "box_logo_nin",
+    "box_logo_nin_big55",
+    "box_logo_wii",
+    "box_logo_ws_big",
+    "box_ring_floor",
+    "box_ring_floor_mura",
+    "box_ring_side06",
+    "box_rope_kage",
+    "box_rope_shade01",
+    "box_spot_front"
+   ]
+  },
+  "mdl_9f5a008259267121": {
+   "model": "box_light",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_TV.1",
+    "box_TV.2",
+    "box_TV_dots_i",
+    "box_c_sponge",
+    "box_env_c_mat01",
+    "box_env_c_mat02",
+    "box_grid1_i",
+    "box_hall_kaidan",
+    "box_hall_kaidan_shadow",
+    "box_hall_mat01",
+    "box_hall_saku",
+    "box_hall_saku_sadow",
+    "box_hall_seat",
+    "box_hall_stair",
+    "box_hall_top01",
+    "box_hall_wall",
+    "box_hall_wall_ura",
+    "box_id02",
+    "box_light_frame",
+    "box_light_front",
+    "box_logo_nin",
+    "box_logo_nin_big55",
+    "box_logo_wii",
+    "box_logo_ws_big",
+    "box_monitor_edge_i",
+    "box_ring_floor",
+    "box_ring_floor_mura",
+    "box_ring_side06",
+    "box_rope_kage",
+    "box_rope_shade01"
+   ]
+  },
+  "mdl_679492548a618249": {
+   "model": "box_ring",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_TV.1",
+    "box_TV.2",
+    "box_TV_dots_i",
+    "box_c_sponge",
+    "box_env_c_mat01",
+    "box_grid1_i",
+    "box_hall_kaidan",
+    "box_hall_kaidan_shadow",
+    "box_hall_mat01",
+    "box_hall_saku",
+    "box_hall_saku_sadow",
+    "box_hall_seat",
+    "box_hall_stair",
+    "box_hall_top01",
+    "box_hall_wall",
+    "box_hall_wall_ura",
+    "box_light_frame",
+    "box_light_front",
+    "box_light_hokori",
+    "box_light_spot",
+    "box_light_spot_env",
+    "box_logo_nin",
+    "box_logo_wii",
+    "box_monitor_edge_i",
+    "box_rope_kage",
+    "box_rope_shade01",
+    "box_spot_front"
+   ]
+  },
+  "mdl_34899a546dbbb1af": {
+   "model": "box_rope",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_TV.1",
+    "box_TV.2",
+    "box_TV_dots_i",
+    "box_c_sponge",
+    "box_env_c_mat02",
+    "box_grid1_i",
+    "box_hall_kaidan",
+    "box_hall_kaidan_shadow",
+    "box_hall_mat01",
+    "box_hall_saku",
+    "box_hall_saku_sadow",
+    "box_hall_seat",
+    "box_hall_stair",
+    "box_hall_top01",
+    "box_hall_wall",
+    "box_hall_wall_ura",
+    "box_light_frame",
+    "box_light_front",
+    "box_light_hokori",
+    "box_light_spot",
+    "box_light_spot_env",
+    "box_logo_nin_big55",
+    "box_logo_wii",
+    "box_logo_ws_big",
+    "box_monitor_edge_i",
+    "box_ring_floor",
+    "box_ring_floor_mura",
+    "box_ring_side06",
+    "box_rope_kage",
+    "box_spot_front"
+   ]
+  },
+  "mdl_86db55948b013f00": {
+   "model": "box_rope_kage",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_TV.1",
+    "box_TV.2",
+    "box_TV_dots_i",
+    "box_c_sponge",
+    "box_env_c_mat01",
+    "box_env_c_mat02",
+    "box_grid1_i",
+    "box_hall_kaidan",
+    "box_hall_kaidan_shadow",
+    "box_hall_mat01",
+    "box_hall_saku",
+    "box_hall_saku_sadow",
+    "box_hall_seat",
+    "box_hall_stair",
+    "box_hall_top01",
+    "box_hall_wall",
+    "box_hall_wall_ura",
+    "box_id02",
+    "box_light_frame",
+    "box_light_front",
+    "box_light_hokori",
+    "box_light_spot",
+    "box_light_spot_env",
+    "box_logo_nin",
+    "box_logo_nin_big55",
+    "box_logo_wii",
+    "box_logo_ws_big",
+    "box_monitor_edge_i",
+    "box_ring_floor",
+    "box_ring_floor_mura",
+    "box_ring_side06",
+    "box_rope_shade01",
+    "box_spot_front"
+   ]
+  },
+  "mdl_5f4f7d57416a0272": {
+   "model": "box_sandbagA",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_sdbg_boro"
+   ]
+  },
+  "mdl_fdf281ce7e419b62": {
+   "model": "box_sandbagA_a",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_sdbg_boro"
+   ]
+  },
+  "mdl_5f4f7c57416a00bf": {
+   "model": "box_sandbagB",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_sdbg_boro"
+   ]
+  },
+  "mdl_f6a42cce7a80fbf3": {
+   "model": "box_sandbagB_a",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_sdbg_boro"
+   ]
+  },
+  "mdl_5f4f7b574169ff0c": {
+   "model": "box_sandbagC",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_sdbg_kiwa"
+   ]
+  },
+  "mdl_ee7c13ce76071eb8": {
+   "model": "box_sandbagC_a",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "box_sdbg_kiwa"
+   ]
+  },
+  "mdl_25b860e90d2d82cd": {
+   "model": "glf_course_E3",
+   "materials": 16,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_30e7e4c624f4ea5a": {
+   "model": "glf_course_angle",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_18a8f9bf323fb1a2": {
+   "model": "glf_course_fc11",
+   "materials": 12,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_5c852ba618ec8ae5": {
+   "model": "glf_course_fc12",
+   "materials": 14,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_b3d4ded6117d65d8": {
+   "model": "glf_course_fc13",
+   "materials": 14,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_33e01a0d729da2a3": {
+   "model": "glf_course_fc14",
+   "materials": 16,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_e3bf824e669f0299": {
+   "model": "glf_course_fc16",
+   "materials": 17,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_18136362e39cc707": {
+   "model": "glf_course_fc18",
+   "materials": 9,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_a3e9977b9cdd9d0b": {
+   "model": "glf_course_fc1",
+   "materials": 12,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_9978fbe3bea8cb8d": {
+   "model": "glf_course_fc3",
+   "materials": 15,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_1fc60dd517d056c7": {
+   "model": "glf_course_fc5",
+   "materials": 16,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_771e8dccc1c9b218": {
+   "model": "glf_course_fc8",
+   "materials": 16,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_5a4e8455481fee63": {
+   "model": "glf_course_fc9",
+   "materials": 14,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_3fb23d6ce2fce0c3": {
+   "model": "glf_course_survey",
+   "materials": 4,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_a6edcc68ee70087d": {
+   "model": "glf_map_E3",
+   "materials": 16,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_043a8ddc5394a9e2": {
+   "model": "glf_map_angle",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_deb8012f13de2e60": {
+   "model": "glf_map_fc11",
+   "materials": 6,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_map_tree1"
+   ]
+  },
+  "mdl_fa17667d6bc29d7a": {
+   "model": "glf_tree_fc11",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_MapColor1",
+    "glfM_MapFairway1",
+    "glfM_MapGreen1",
+    "glfM_MapIwa1",
+    "glfM_MapLake1",
+    "glfM_MapLine1",
+    "glfM_MapRough1",
+    "glf_tokosenFix",
+    "glf_water_ind1"
+   ]
+  },
+  "mdl_c6ddf0f0b45acaf9": {
+   "model": "glf_map_fc12",
+   "materials": 5,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_map_tree1"
+   ]
+  },
+  "mdl_ef2032811f780a47": {
+   "model": "glf_tree_fc12",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_MapBunker1",
+    "glfM_MapColor1",
+    "glfM_MapFairway1",
+    "glfM_MapGreen1",
+    "glfM_MapLine1",
+    "glfM_MapRough1",
+    "glf_tokosenFix2"
+   ]
+  },
+  "mdl_fd72ccc7bb9edcee": {
+   "model": "glf_map_fc13",
+   "materials": 8,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_map_tree1"
+   ]
+  },
+  "mdl_0732306c02ddd19c": {
+   "model": "glf_tree_fc13",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_MapBunker1",
+    "glfM_MapColor1",
+    "glfM_MapFairway1",
+    "glfM_MapGreen1",
+    "glfM_MapIwa1",
+    "glfM_MapLine1",
+    "glfM_MapOB2_Mip2",
+    "glfM_MapRough1",
+    "glfM_MapSea1",
+    "glf_tokosenFix",
+    "glf_water_ind1"
+   ]
+  },
+  "mdl_d6e9db9c2b6be8af": {
+   "model": "glf_map_fc14",
+   "materials": 7,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_map_tree1"
+   ]
+  },
+  "mdl_3a0f3ec521e8f8b1": {
+   "model": "glf_tree_fc14",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_MapBunker1",
+    "glfM_MapColor1",
+    "glfM_MapFairway1",
+    "glfM_MapGreen1",
+    "glfM_MapIwa1",
+    "glfM_MapLine1",
+    "glfM_MapOB2",
+    "glfM_MapRough1",
+    "glf_tokosenFix"
+   ]
+  },
+  "mdl_0b9eab228d6530d5": {
+   "model": "glf_map_fc16",
+   "materials": 8,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_map_tree1",
+    "glfM_map_tree2"
+   ]
+  },
+  "mdl_11f6c0764634ae0b": {
+   "model": "glf_tree_fc16",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_MapBunker1",
+    "glfM_MapColor1",
+    "glfM_MapFairway1",
+    "glfM_MapGreen1",
+    "glfM_MapIwa1",
+    "glfM_MapLine1",
+    "glfM_MapOB2",
+    "glfM_MapRough1",
+    "glfM_MapSea1",
+    "glf_tokosenFix2",
+    "glf_water_ind1"
+   ]
+  },
+  "mdl_33836d5ffb2dbb5b": {
+   "model": "glf_map_fc18",
+   "materials": 9,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_b97c59b888dd09b9": {
+   "model": "glf_map_fc1",
+   "materials": 5,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_map_tree1",
+    "glfM_map_tree2"
+   ]
+  },
+  "mdl_a74cccc5e9152f17": {
+   "model": "glf_tree_fc1",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_MapBunker1",
+    "glfM_MapColor1",
+    "glfM_MapFairway1",
+    "glfM_MapGreen1",
+    "glfM_MapLine1",
+    "glfM_MapRough1",
+    "glf_tokosenFix"
+   ]
+  },
+  "mdl_bf982f3390963fbb": {
+   "model": "glf_map_fc3",
+   "materials": 8,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_map_tree1"
+   ]
+  },
+  "mdl_a107677d60ac99a5": {
+   "model": "glf_tree_fc3",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_MapBunker1",
+    "glfM_MapColor1",
+    "glfM_MapFairway1",
+    "glfM_MapGreen1",
+    "glfM_MapIwa1",
+    "glfM_MapLake1",
+    "glfM_MapLine1",
+    "glfM_MapRough1",
+    "glf_tokosenFix",
+    "glf_water_ind1"
+   ]
+  },
+  "mdl_0fdf35382ebd971d": {
+   "model": "glf_map_fc5",
+   "materials": 7,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_map_tree1",
+    "glfM_map_tree2"
+   ]
+  },
+  "mdl_f82fa955f5f71923": {
+   "model": "glf_tree_fc5",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_MapBunker1",
+    "glfM_MapColor1",
+    "glfM_MapFairway1",
+    "glfM_MapGreen1",
+    "glfM_MapIwa1",
+    "glfM_MapLine1",
+    "glfM_MapRough1",
+    "glfM_MapSea1",
+    "glf_tokosenFix",
+    "glf_water_ind1"
+   ]
+  },
+  "mdl_54996e2171225b60": {
+   "model": "glf_map_fc8",
+   "materials": 8,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_map_tree1",
+    "glfM_map_tree2"
+   ]
+  },
+  "mdl_9b3f53caa60b666e": {
+   "model": "glf_tree_fc8",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_MapBunker1",
+    "glfM_MapColor1",
+    "glfM_MapFairway1",
+    "glfM_MapGreen1",
+    "glfM_MapIwa1",
+    "glfM_MapLake1",
+    "glfM_MapLine1",
+    "glfM_MapOB2_Mip2",
+    "glfM_MapRough1",
+    "glf_tokosenFix",
+    "glf_water_ind1"
+   ]
+  },
+  "mdl_a3a43b4143735fd1": {
+   "model": "glf_map_fc9",
+   "materials": 8,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_map_tree1"
+   ]
+  },
+  "mdl_1f4be81af67252ff": {
+   "model": "glf_tree_fc9",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_MapBunker1",
+    "glfM_MapColor1",
+    "glfM_MapFairway1",
+    "glfM_MapGreen1",
+    "glfM_MapIwa1",
+    "glfM_MapLine1",
+    "glfM_MapOB2",
+    "glfM_MapRough1",
+    "glfM_MapSea1",
+    "glf_tokosenFix",
+    "glf_water_ind1"
+   ]
+  },
+  "mdl_6464326441c02bbb": {
+   "model": "glf_map_survey",
+   "materials": 4,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_65d2061e5eb2f55e": {
+   "model": "tns_Field_a",
+   "materials": 19,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_37842916e46587f2": {
+   "model": "tns_net_a",
+   "materials": 6,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_cbc5aec4a2dc0755": {
+   "model": "tns_Field_b",
+   "materials": 14,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_a449af24cae2acf9": {
+   "model": "tns_net_a",
+   "materials": 5,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_e639d7e09405ef57": {
+   "model": "ava_bodyA0",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_6ba2941cb6de3aed": {
+   "model": "ava_bodyA1",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_ab88d90e94cdb203": {
+   "model": "ava_bodyA2",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_0331333e2f4caff5": {
+   "model": "ava_bodyA3",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_938655c583cb2099": {
+   "model": "ava_bodyB0",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_8192b926f46ac437": {
+   "model": "ava_bodyB1",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_8a1d39439af01725": {
+   "model": "ava_bodyB2",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_5a4869d30bb2a007": {
+   "model": "ava_bodyB3",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_2a00b12bcdb59887": {
+   "model": "ava_bodyC0",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_1095848983d4c2ad": {
+   "model": "ava_bodyC1",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_0b61d89aabf019b7": {
+   "model": "ava_bodyE0",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_3d83dc32b2fcd935": {
+   "model": "ava_handA",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_8d5f333f192a6bd9": {
+   "model": "ava_handB",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_a37244ef72931802": {
+   "model": "logo_model",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "WiSpt_logo"
+   ]
+  },
+  "mdl_ca4afd845eeca8b6": {
+   "model": "menu_BG_model",
+   "materials": 6,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "B",
+    "C",
+    "env_tex",
+    "ind_tex",
+    "map"
+   ]
+  },
+  "mdl_e96379d6ff2c3e6e": {
+   "model": "sp_titleBG_00",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_fc5f9746059d5291": {
+   "model": "sp_titleBG_00",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "sp_titleBG.1",
+    "sp_titleBG.11",
+    "sp_titleBG.2",
+    "sp_titleBG.3",
+    "sp_titleBG.4",
+    "sp_titleBG.5"
+   ]
+  },
+  "mdl_e0b549681b52ee0f": {
+   "model": "logo_model",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "WiSpt_logo"
+   ]
+  },
+  "mdl_62aec3d3278ad277": {
+   "model": "menu_BG_model",
+   "materials": 6,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "B",
+    "C",
+    "env_tex",
+    "ind_tex",
+    "map"
+   ]
+  },
+  "mdl_e244d8011d1bb205": {
+   "model": "sun_lensfx",
+   "materials": 11,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_1793e8dd9749edfe": {
+   "model": "sun_model",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_41ddf01777784e40": {
+   "model": "wipe_replay",
+   "materials": 4,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "WiSpt_logo_1"
+   ]
+  },
+  "mdl_afe7ea591d482920": {
+   "model": "wipe_slide",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_af8ebebb429426c7": {
+   "model": "VS",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_4d684fbba8af8a4f": {
+   "model": "lose",
+   "materials": 4,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "all_lose_ind_JPN",
+    "all_lose_tex_JPN"
+   ]
+  },
+  "mdl_5d3b40e7e2836583": {
+   "model": "tie",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "all_tie_ind_JPN",
+    "all_tie_tex_JPN"
+   ]
+  },
+  "mdl_18ee212c57805653": {
+   "model": "win",
+   "materials": 4,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_c369b49de4ec5162": {
+   "model": "game_set",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_b78a6ad69ad2ef5a": {
+   "model": "home_run0",
+   "materials": 5,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_62fb2d1a87cda656": {
+   "model": "home_run1",
+   "materials": 5,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_bbf388cad6bdbd66": {
+   "model": "play_ball",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_cde9e92721d379dc": {
+   "model": "score_0a",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_cde9ec2721d37ef5": {
+   "model": "score_0b",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_cde6c52721d106d9": {
+   "model": "score_1a",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_cde6c22721d101c0": {
+   "model": "score_1b",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_cde2dd2721cd46ca": {
+   "model": "score_2a",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_cde2dc2721cd4517": {
+   "model": "score_2b",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_cddff92721cb4087": {
+   "model": "score_3a",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_cddffa2721cb423a": {
+   "model": "score_3b",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_cddcd12721c8c6b8": {
+   "model": "score_4a",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_cddcd42721c8cbd1": {
+   "model": "score_4b",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_cdd8ed2721c50d75": {
+   "model": "score_5a",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_cdd8ea2721c5085c": {
+   "model": "score_5b",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_cdd5c52721c293a6": {
+   "model": "score_6a",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_cdd5c42721c291f3": {
+   "model": "score_6b",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_cdd1e12721beda63": {
+   "model": "score_7a",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_cdd1e22721bedc16": {
+   "model": "score_7b",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_ce04d92721ea2664": {
+   "model": "score_8a",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_ce04dc2721ea2b7d": {
+   "model": "score_8b",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score9_ind",
+    "score9_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_ce01f52721e82021": {
+   "model": "score_9a",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_ce01f22721e81b08": {
+   "model": "score_9b",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score_hyphen_ind",
+    "score_hyphen_tex"
+   ]
+  },
+  "mdl_72b5207d30e121fd": {
+   "model": "score_set",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "score0_ind",
+    "score0_tex",
+    "score1_ind",
+    "score1_tex",
+    "score2_ind",
+    "score2_tex",
+    "score3_ind",
+    "score3_tex",
+    "score4_ind",
+    "score4_tex",
+    "score5_ind",
+    "score5_tex",
+    "score6_ind",
+    "score6_tex",
+    "score7_ind",
+    "score7_tex",
+    "score8_ind",
+    "score8_tex",
+    "score9_ind",
+    "score9_tex"
+   ]
+  },
+  "mdl_a998fbbca547b441": {
+   "model": "KO",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_4f0f1f213ad0641d": {
+   "model": "count10_1",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "count10_10_ind",
+    "count10_10_tex",
+    "count10_2_ind",
+    "count10_2_tex",
+    "count10_3_ind",
+    "count10_3_tex",
+    "count10_4_ind",
+    "count10_4_tex",
+    "count10_5_ind",
+    "count10_5_tex",
+    "count10_6_ind",
+    "count10_6_tex",
+    "count10_7_ind",
+    "count10_7_tex",
+    "count10_8_ind",
+    "count10_8_tex",
+    "count10_9_ind",
+    "count10_9_tex"
+   ]
+  },
+  "mdl_27161276f01a3877": {
+   "model": "count10_10",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "count10_1_ind",
+    "count10_1_tex",
+    "count10_2_ind",
+    "count10_2_tex",
+    "count10_3_ind",
+    "count10_3_tex",
+    "count10_4_ind",
+    "count10_4_tex",
+    "count10_5_ind",
+    "count10_5_tex",
+    "count10_6_ind",
+    "count10_6_tex",
+    "count10_7_ind",
+    "count10_7_tex",
+    "count10_8_ind",
+    "count10_8_tex",
+    "count10_9_ind",
+    "count10_9_tex"
+   ]
+  },
+  "mdl_4f0f1c213ad05f04": {
+   "model": "count10_2",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "count10_10_ind",
+    "count10_10_tex",
+    "count10_1_ind",
+    "count10_1_tex",
+    "count10_3_ind",
+    "count10_3_tex",
+    "count10_4_ind",
+    "count10_4_tex",
+    "count10_5_ind",
+    "count10_5_tex",
+    "count10_6_ind",
+    "count10_6_tex",
+    "count10_7_ind",
+    "count10_7_tex",
+    "count10_8_ind",
+    "count10_8_tex",
+    "count10_9_ind",
+    "count10_9_tex"
+   ]
+  },
+  "mdl_4f0f1d213ad060b7": {
+   "model": "count10_3",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "count10_10_ind",
+    "count10_10_tex",
+    "count10_1_ind",
+    "count10_1_tex",
+    "count10_2_ind",
+    "count10_2_tex",
+    "count10_4_ind",
+    "count10_4_tex",
+    "count10_5_ind",
+    "count10_5_tex",
+    "count10_6_ind",
+    "count10_6_tex",
+    "count10_7_ind",
+    "count10_7_tex",
+    "count10_8_ind",
+    "count10_8_tex",
+    "count10_9_ind",
+    "count10_9_tex"
+   ]
+  },
+  "mdl_4f0f1a213ad05b9e": {
+   "model": "count10_4",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "count10_10_ind",
+    "count10_10_tex",
+    "count10_1_ind",
+    "count10_1_tex",
+    "count10_2_ind",
+    "count10_2_tex",
+    "count10_3_ind",
+    "count10_3_tex",
+    "count10_5_ind",
+    "count10_5_tex",
+    "count10_6_ind",
+    "count10_6_tex",
+    "count10_7_ind",
+    "count10_7_tex",
+    "count10_8_ind",
+    "count10_8_tex",
+    "count10_9_ind",
+    "count10_9_tex"
+   ]
+  },
+  "mdl_4f0f1b213ad05d51": {
+   "model": "count10_5",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "count10_10_ind",
+    "count10_10_tex",
+    "count10_1_ind",
+    "count10_1_tex",
+    "count10_2_ind",
+    "count10_2_tex",
+    "count10_3_ind",
+    "count10_3_tex",
+    "count10_4_ind",
+    "count10_4_tex",
+    "count10_6_ind",
+    "count10_6_tex",
+    "count10_7_ind",
+    "count10_7_tex",
+    "count10_8_ind",
+    "count10_8_tex",
+    "count10_9_ind",
+    "count10_9_tex"
+   ]
+  },
+  "mdl_4f0f18213ad05838": {
+   "model": "count10_6",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "count10_10_ind",
+    "count10_10_tex",
+    "count10_1_ind",
+    "count10_1_tex",
+    "count10_2_ind",
+    "count10_2_tex",
+    "count10_3_ind",
+    "count10_3_tex",
+    "count10_4_ind",
+    "count10_4_tex",
+    "count10_5_ind",
+    "count10_5_tex",
+    "count10_7_ind",
+    "count10_7_tex",
+    "count10_8_ind",
+    "count10_8_tex",
+    "count10_9_ind",
+    "count10_9_tex"
+   ]
+  },
+  "mdl_4f0f19213ad059eb": {
+   "model": "count10_7",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "count10_10_ind",
+    "count10_10_tex",
+    "count10_1_ind",
+    "count10_1_tex",
+    "count10_2_ind",
+    "count10_2_tex",
+    "count10_3_ind",
+    "count10_3_tex",
+    "count10_4_ind",
+    "count10_4_tex",
+    "count10_5_ind",
+    "count10_5_tex",
+    "count10_6_ind",
+    "count10_6_tex",
+    "count10_8_ind",
+    "count10_8_tex",
+    "count10_9_ind",
+    "count10_9_tex"
+   ]
+  },
+  "mdl_4f0f16213ad054d2": {
+   "model": "count10_8",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "count10_10_ind",
+    "count10_10_tex",
+    "count10_1_ind",
+    "count10_1_tex",
+    "count10_2_ind",
+    "count10_2_tex",
+    "count10_3_ind",
+    "count10_3_tex",
+    "count10_4_ind",
+    "count10_4_tex",
+    "count10_5_ind",
+    "count10_5_tex",
+    "count10_6_ind",
+    "count10_6_tex",
+    "count10_7_ind",
+    "count10_7_tex",
+    "count10_9_ind",
+    "count10_9_tex"
+   ]
+  },
+  "mdl_4f0f17213ad05685": {
+   "model": "count10_9",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "count10_10_ind",
+    "count10_10_tex",
+    "count10_1_ind",
+    "count10_1_tex",
+    "count10_2_ind",
+    "count10_2_tex",
+    "count10_3_ind",
+    "count10_3_tex",
+    "count10_4_ind",
+    "count10_4_tex",
+    "count10_5_ind",
+    "count10_5_tex",
+    "count10_6_ind",
+    "count10_6_tex",
+    "count10_7_ind",
+    "count10_7_tex",
+    "count10_8_ind",
+    "count10_8_tex"
+   ]
+  },
+  "mdl_5a514235912c05b1": {
+   "model": "down",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_2958018a9c2cdba7": {
+   "model": "fight",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_8577b971741968cc": {
+   "model": "final_round",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "round1_ENG",
+    "round2_ENG"
+   ]
+  },
+  "mdl_f01bbe1ab05a93e2": {
+   "model": "round1",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "final_round_ENG",
+    "round2_ENG"
+   ]
+  },
+  "mdl_f01bbd1ab05a922f": {
+   "model": "round2",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "final_round_ENG",
+    "round1_ENG"
+   ]
+  },
+  "mdl_f39991aec3d54d28": {
+   "model": "nice_throw",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_a430718a46c601ae": {
+   "model": "spare",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "bwg_spare_JPN"
+   ]
+  },
+  "mdl_8c061ccfb94c1618": {
+   "model": "strike",
+   "materials": 5,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_b2c24ba691d11a89": {
+   "model": "chip_in",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_63b22bdfcf890131": {
+   "model": "hole_in_one",
+   "materials": 6,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_e8c70951c61935d5": {
+   "model": "nice_in",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_ccd34258eaf4e70d": {
+   "model": "nice_on",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_20dd59f74e8fa346": {
+   "model": "bbl_Arrow_A",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_a9473c3a3b9f08a6": {
+   "model": "bbl_Arrow_B",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_df601120208c81ec": {
+   "model": "bbl_Ball",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "bbl_Ball_nuime",
+    "bbl_Ball_white"
+   ]
+  },
+  "mdl_39b6a3190253227a": {
+   "model": "bbl_Bat",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_d9a7caed0ca0c1ad": {
+   "model": "bbl_Glove_l",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_d9a7aced0ca08eb3": {
+   "model": "bbl_Glove_r",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_295e14d068404480": {
+   "model": "bbl_RangeBoard_A",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_30f6b291a32bda82": {
+   "model": "bbl_RangeBoard_B",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_e8b6d6474331bb90": {
+   "model": "bbl_RangeBoard_C",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_ec4b2f3377140552": {
+   "model": "bbl_c_glove",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_203e083310a8b44a": {
+   "model": "bbl_c_mask",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "bbl_c_mask.1",
+    "bbl_c_mask.10",
+    "bbl_c_mask.11",
+    "bbl_c_mask.2",
+    "bbl_c_mask.3",
+    "bbl_c_mask.4",
+    "bbl_c_mask.5",
+    "bbl_c_mask.6",
+    "bbl_c_mask.7",
+    "bbl_c_mask.8",
+    "bbl_c_mask.9",
+    "glf_env08"
+   ]
+  },
+  "mdl_27c23aafc8f0242a": {
+   "model": "bbl_c_pl",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "bbl_pl.1",
+    "bbl_pl.10",
+    "bbl_pl.11",
+    "bbl_pl.2",
+    "bbl_pl.3",
+    "bbl_pl.4",
+    "bbl_pl.5",
+    "bbl_pl.6",
+    "bbl_pl.7",
+    "bbl_pl.8",
+    "bbl_pl.9",
+    "bbl_pl_blue",
+    "bbl_pl_env",
+    "bbl_pl_red"
+   ]
+  },
+  "mdl_b2c57c7bd74a1601": {
+   "model": "sun_lensfx",
+   "materials": 11,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "P_sun_core1d",
+    "P_sun_spreadline5"
+   ]
+  },
+  "mdl_5561a9646b3e069c": {
+   "model": "sun_model",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "P_glow1",
+    "P_glow2",
+    "P_glow3",
+    "P_glow4",
+    "P_glow5",
+    "P_sun_spreadline5"
+   ]
+  },
+  "mdl_dfee6542cda68660": {
+   "model": "bwg_pin_166_10",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "bwg_Ball_blue",
+    "bwg_pin_red",
+    "env_test",
+    "test_gra_91"
+   ]
+  },
+  "mdl_1a4e0ee243e61541": {
+   "model": "bwg_pin_286_10",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "bwg_Ball_blue",
+    "bwg_pin_red",
+    "env_test",
+    "test_gra_91"
+   ]
+  },
+  "mdl_1a327de243ce5726": {
+   "model": "bwg_pin_286_91",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "bwg_Ball_blue",
+    "env_test",
+    "test_gra_91"
+   ]
+  },
+  "mdl_f255d56f5efb2948": {
+   "model": "bwg_pin_438_10",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "bwg_Ball_blue",
+    "bwg_pin_red",
+    "env_test",
+    "test_gra_91"
+   ]
+  },
+  "mdl_f23ac66f5ee44813": {
+   "model": "bwg_pin_438_91",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "bwg_Ball_blue",
+    "env_test",
+    "test_gra"
+   ]
+  },
+  "mdl_0965b74462d55d9e": {
+   "model": "bwg_pin_74_10",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "bwg_Ball_blue",
+    "bwg_pin_red",
+    "env_test",
+    "test_gra_91"
+   ]
+  },
+  "mdl_408c9ab06b75a915": {
+   "model": "bwg_pin_866_10",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "bwg_Ball_blue",
+    "bwg_pin_red",
+    "env_test",
+    "test_gra_91"
+   ]
+  },
+  "mdl_a1217670602e0366": {
+   "model": "bwg_ava_shadow",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_d7180405978dfc1b": {
+   "model": "bwg_ball_blue",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball_gra",
+    "bwg_Ball_green",
+    "bwg_Ball_pink",
+    "bwg_ball_yellow"
+   ]
+  },
+  "mdl_30493df3b669668f": {
+   "model": "bwg_ball_blue_mirror",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball_gra",
+    "bwg_Ball_green",
+    "bwg_Ball_pink",
+    "bwg_ball_yellow"
+   ]
+  },
+  "mdl_ce43d015980fc7e6": {
+   "model": "bwg_ball_green",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball_gra",
+    "bwg_Ball_blue",
+    "bwg_Ball_pink",
+    "bwg_ball_yellow"
+   ]
+  },
+  "mdl_22fff1a17c524e98": {
+   "model": "bwg_ball_green_mirror",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball_gra",
+    "bwg_Ball_blue",
+    "bwg_Ball_pink",
+    "bwg_ball_yellow"
+   ]
+  },
+  "mdl_7b5b999a2d39fa37": {
+   "model": "bwg_ball_pink",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball_gra",
+    "bwg_Ball_blue",
+    "bwg_Ball_green",
+    "bwg_ball_yellow"
+   ]
+  },
+  "mdl_9622cede8bbe73cb": {
+   "model": "bwg_ball_pink_mirror",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball_gra",
+    "bwg_Ball_blue",
+    "bwg_Ball_green",
+    "bwg_ball_yellow"
+   ]
+  },
+  "mdl_de9287bad515ccab": {
+   "model": "bwg_ball_yellow",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball_gra",
+    "bwg_Ball_blue",
+    "bwg_Ball_green",
+    "bwg_Ball_pink"
+   ]
+  },
+  "mdl_4c0e29872e0101bf": {
+   "model": "bwg_ball_yellow_mirror",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball_gra",
+    "bwg_Ball_blue",
+    "bwg_Ball_green",
+    "bwg_Ball_pink"
+   ]
+  },
+  "mdl_839e48d86751ab17": {
+   "model": "bwg_ball_blue_pro",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball_gra",
+    "bwg_ball_green_pro",
+    "bwg_ball_pink_pro",
+    "bwg_ball_yellow",
+    "bwg_ball_yellow_pro",
+    "drm_env10"
+   ]
+  },
+  "mdl_6d30ef0b0f95956b": {
+   "model": "bwg_ball_blue_pro_mirror",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball_gra",
+    "bwg_ball_green_pro",
+    "bwg_ball_pink_pro",
+    "bwg_ball_yellow",
+    "bwg_ball_yellow_pro",
+    "drm_env10"
+   ]
+  },
+  "mdl_97f90f05164e5752": {
+   "model": "bwg_ball_green_pro",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball_gra",
+    "bwg_Ball_blue_pro",
+    "bwg_ball_pink_pro",
+    "bwg_ball_yellow",
+    "bwg_ball_yellow_pro",
+    "drm_env10"
+   ]
+  },
+  "mdl_c0a08b874ee35664": {
+   "model": "bwg_ball_green_pro_mirror",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball_gra",
+    "bwg_Ball_blue_pro",
+    "bwg_ball_pink_pro",
+    "bwg_ball_yellow",
+    "bwg_ball_yellow_pro",
+    "drm_env10"
+   ]
+  },
+  "mdl_0b5e6bf22b877d93": {
+   "model": "bwg_ball_pink_pro",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball_gra",
+    "bwg_Ball_blue_pro",
+    "bwg_ball_green_pro",
+    "bwg_ball_yellow",
+    "bwg_ball_yellow_pro",
+    "drm_env10"
+   ]
+  },
+  "mdl_5258e3b6336efb97": {
+   "model": "bwg_ball_pink_pro_mirror",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball_gra",
+    "bwg_Ball_blue_pro",
+    "bwg_ball_green_pro",
+    "bwg_ball_yellow",
+    "bwg_ball_yellow_pro",
+    "drm_env10"
+   ]
+  },
+  "mdl_1675bfea3701bba7": {
+   "model": "bwg_ball_yellow_pro",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball_gra",
+    "bwg_Ball_blue_pro",
+    "bwg_ball_green_pro",
+    "bwg_ball_pink_pro",
+    "bwg_ball_yellow",
+    "drm_env10"
+   ]
+  },
+  "mdl_7d7eac4931823d9b": {
+   "model": "bwg_ball_yellow_pro_mirror",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "ball_gra",
+    "bwg_Ball_blue_pro",
+    "bwg_ball_green_pro",
+    "bwg_ball_pink_pro",
+    "bwg_ball_yellow",
+    "drm_env10"
+   ]
+  },
+  "mdl_4612de54072ac963": {
+   "model": "pin_conveyer",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_efa5bed16aa3fbd2": {
+   "model": "bwg_field_91",
+   "materials": 26,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "back_floor",
+    "back_roof",
+    "ball_putplace_",
+    "black",
+    "bwg_etc",
+    "counter",
+    "jihanki",
+    "kabe",
+    "kabe_etc",
+    "pin_spot",
+    "projection",
+    "projection_2",
+    "roof_91",
+    "table",
+    "white"
+   ]
+  },
+  "mdl_ad91c8f94158c642": {
+   "model": "bwg_wall_L",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "alpha_z",
+    "back_floor",
+    "back_roof",
+    "ball_comber",
+    "ball_putplace_",
+    "ball_return",
+    "ball_stand",
+    "black",
+    "bwg_ball_alpha",
+    "bwg_chair_env",
+    "bwg_conveyer_env",
+    "bwg_etc",
+    "bwg_pin_env",
+    "bwg_screen",
+    "bwg_screen_alpha",
+    "bwg_screen_tekari",
+    "carpet",
+    "chair",
+    "chair_cylinder",
+    "chair_cylinder_env",
+    "counter",
+    "counter_test",
+    "dust_table",
+    "env_test",
+    "floor",
+    "floor_mura02",
+    "gater",
+    "inside",
+    "jihanki",
+    "kansetu_light",
+    "locker",
+    "mark",
+    "mirror",
+    "pin_spot",
+    "projection",
+    "projection_2",
+    "put_ball_env",
+    "roof",
+    "roof_91",
+    "roof_light",
+    "roof_mirror",
+    "shadow_a",
+    "table",
+    "white"
+   ]
+  },
+  "mdl_f155e37d9c3c7d74": {
+   "model": "bwg_wall_L_mirror",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "alpha_z",
+    "back_floor",
+    "back_roof",
+    "ball_comber",
+    "ball_putplace_",
+    "ball_return",
+    "ball_stand",
+    "black",
+    "bwg_ball_alpha",
+    "bwg_chair_env",
+    "bwg_conveyer_env",
+    "bwg_etc",
+    "bwg_pin_env",
+    "bwg_screen",
+    "bwg_screen_alpha",
+    "bwg_screen_tekari",
+    "carpet",
+    "chair",
+    "chair_cylinder",
+    "chair_cylinder_env",
+    "counter",
+    "counter_test",
+    "dust_table",
+    "env_test",
+    "floor",
+    "floor_mura02",
+    "gater",
+    "inside",
+    "jihanki",
+    "kansetu_light",
+    "locker",
+    "mark",
+    "mirror",
+    "pin_spot",
+    "projection",
+    "projection_2",
+    "put_ball_env",
+    "roof",
+    "roof_91",
+    "roof_light",
+    "roof_mirror",
+    "shadow_a",
+    "table",
+    "white"
+   ]
+  },
+  "mdl_ad91baf94158ae78": {
+   "model": "bwg_wall_R",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "alpha_z",
+    "back_floor",
+    "back_roof",
+    "ball_comber",
+    "ball_putplace_",
+    "ball_return",
+    "ball_stand",
+    "black",
+    "bwg_ball_alpha",
+    "bwg_chair_env",
+    "bwg_conveyer_env",
+    "bwg_etc",
+    "bwg_pin_env",
+    "bwg_screen",
+    "bwg_screen_alpha",
+    "bwg_screen_tekari",
+    "carpet",
+    "chair",
+    "chair_cylinder",
+    "chair_cylinder_env",
+    "counter",
+    "counter_test",
+    "dust_table",
+    "env_test",
+    "floor",
+    "floor_mura02",
+    "gater",
+    "inside",
+    "jihanki",
+    "kansetu_light",
+    "locker",
+    "mark",
+    "mirror",
+    "pin_spot",
+    "projection",
+    "projection_2",
+    "put_ball_env",
+    "roof",
+    "roof_91",
+    "roof_light",
+    "roof_mirror",
+    "shadow_a",
+    "table",
+    "white"
+   ]
+  },
+  "mdl_83febb82f7050662": {
+   "model": "bwg_wall_R_mirror",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "alpha_z",
+    "back_floor",
+    "back_roof",
+    "ball_comber",
+    "ball_putplace_",
+    "ball_return",
+    "ball_stand",
+    "black",
+    "bwg_ball_alpha",
+    "bwg_chair_env",
+    "bwg_conveyer_env",
+    "bwg_etc",
+    "bwg_pin_env",
+    "bwg_screen",
+    "bwg_screen_alpha",
+    "bwg_screen_tekari",
+    "carpet",
+    "chair",
+    "chair_cylinder",
+    "chair_cylinder_env",
+    "counter",
+    "counter_test",
+    "dust_table",
+    "env_test",
+    "floor",
+    "floor_mura02",
+    "gater",
+    "inside",
+    "jihanki",
+    "kansetu_light",
+    "locker",
+    "mark",
+    "mirror",
+    "pin_spot",
+    "projection",
+    "projection_2",
+    "put_ball_env",
+    "roof",
+    "roof_91",
+    "roof_light",
+    "roof_mirror",
+    "shadow_a",
+    "table",
+    "white"
+   ]
+  },
+  "mdl_2793cc224716d814": {
+   "model": "bwg_field",
+   "materials": 23,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "alpha_lane",
+    "ball_putplace_",
+    "black",
+    "bwg_Ball_blue",
+    "bwg_ball_hole",
+    "bwg_etc",
+    "bwg_pin",
+    "bwg_pin_env",
+    "bwg_screen",
+    "bwg_screen_alpha",
+    "bwg_screen_tekari",
+    "gate",
+    "inside",
+    "kabe",
+    "kabe_etc",
+    "kansetu_light",
+    "pin_spot",
+    "projection",
+    "put_ball_nuki",
+    "table",
+    "test_gra",
+    "white"
+   ]
+  },
+  "mdl_3b88d8c00cba1c2c": {
+   "model": "bwg_field_front",
+   "materials": 18,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "alpha_lane",
+    "back_floor",
+    "back_roof",
+    "ball_putplace_",
+    "ball_stand",
+    "black",
+    "bwg_Ball_blue",
+    "bwg_ball_alpha",
+    "bwg_ball_hole",
+    "bwg_chair_env",
+    "bwg_etc",
+    "bwg_pin",
+    "carpet",
+    "chair",
+    "chair_cylinder",
+    "chair_cylinder_env",
+    "counter",
+    "dust_table",
+    "gate",
+    "kabe",
+    "kabe_etc",
+    "kansetu_light",
+    "projection",
+    "put_ball_env",
+    "put_ball_nuki",
+    "table",
+    "test_gra",
+    "white"
+   ]
+  },
+  "mdl_523fa258df3f0c00": {
+   "model": "bwg_field_pin",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "alpha_lane",
+    "alpha_z",
+    "back_floor",
+    "back_roof",
+    "ball_comber",
+    "ball_putplace_",
+    "ball_return",
+    "ball_stand",
+    "black",
+    "bwg_Ball_blue",
+    "bwg_ball_alpha",
+    "bwg_ball_hole",
+    "bwg_chair_env",
+    "bwg_conveyer_env",
+    "bwg_etc",
+    "bwg_pin_env",
+    "bwg_screen",
+    "bwg_screen_alpha",
+    "bwg_screen_tekari",
+    "carpet",
+    "chair",
+    "chair_cylinder",
+    "chair_cylinder_env",
+    "counter",
+    "dust_table",
+    "env_test",
+    "floor",
+    "floor_mura02",
+    "gate",
+    "gater",
+    "inside",
+    "jihanki",
+    "kabe",
+    "kabe_etc",
+    "kansetu_light",
+    "mark",
+    "mirror",
+    "pin_spot",
+    "projection",
+    "projection_1",
+    "projection_2",
+    "put_ball_env",
+    "put_ball_nuki",
+    "roof",
+    "roof_light",
+    "roof_mirror",
+    "shadow_a",
+    "shadow_b",
+    "table",
+    "test_gra",
+    "white"
+   ]
+  },
+  "mdl_2d5ba7557d81b678": {
+   "model": "lane_alpha",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "alpha_z",
+    "back_floor",
+    "back_roof",
+    "ball_comber",
+    "ball_putplace_",
+    "ball_return",
+    "ball_stand",
+    "black",
+    "bwg_Ball_blue",
+    "bwg_ball_alpha",
+    "bwg_ball_hole",
+    "bwg_chair_env",
+    "bwg_conveyer_env",
+    "bwg_etc",
+    "bwg_pin",
+    "bwg_pin_env",
+    "bwg_screen",
+    "bwg_screen_alpha",
+    "bwg_screen_tekari",
+    "carpet",
+    "chair",
+    "chair_cylinder",
+    "chair_cylinder_env",
+    "counter",
+    "dust_table",
+    "env_test",
+    "floor",
+    "floor_mura02",
+    "gate",
+    "gater",
+    "inside",
+    "jihanki",
+    "kabe",
+    "kabe_etc",
+    "kansetu_light",
+    "mark",
+    "mirror",
+    "pin_spot",
+    "projection",
+    "projection_1",
+    "projection_2",
+    "put_ball_env",
+    "put_ball_nuki",
+    "roof",
+    "roof_light",
+    "roof_mirror",
+    "shadow_a",
+    "shadow_b",
+    "table",
+    "test_gra",
+    "white"
+   ]
+  },
+  "mdl_48ad97da71ebf32d": {
+   "model": "lane_alpha_etc",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "alpha_z",
+    "back_floor",
+    "back_roof",
+    "ball_comber",
+    "ball_putplace_",
+    "ball_return",
+    "ball_stand",
+    "black",
+    "bwg_Ball_blue",
+    "bwg_ball_alpha",
+    "bwg_ball_hole",
+    "bwg_chair_env",
+    "bwg_conveyer_env",
+    "bwg_etc",
+    "bwg_pin",
+    "bwg_pin_env",
+    "bwg_screen",
+    "bwg_screen_alpha",
+    "bwg_screen_tekari",
+    "carpet",
+    "chair",
+    "chair_cylinder",
+    "chair_cylinder_env",
+    "counter",
+    "dust_table",
+    "env_test",
+    "floor",
+    "floor_mura02",
+    "gate",
+    "gater",
+    "inside",
+    "jihanki",
+    "kabe",
+    "kabe_etc",
+    "kansetu_light",
+    "mark",
+    "mirror",
+    "pin_spot",
+    "projection",
+    "projection_1",
+    "projection_2",
+    "put_ball_env",
+    "put_ball_nuki",
+    "roof",
+    "roof_light",
+    "roof_mirror",
+    "shadow_a",
+    "shadow_b",
+    "table",
+    "test_gra",
+    "white"
+   ]
+  },
+  "mdl_0c5ffb9daed3d932": {
+   "model": "bwg_gate",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_851c4582eef98d2f": {
+   "model": "bwg_gate_frame_L",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "shadow_b"
+   ]
+  },
+  "mdl_851c3b82eef97c31": {
+   "model": "bwg_gate_frame_R",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "shadow_b"
+   ]
+  },
+  "mdl_5f944db61b81c378": {
+   "model": "bwg_lane",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_3ec9f124b64b3840": {
+   "model": "bwg_arrow_00",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "arrow_00",
+    "arrow_02"
+   ]
+  },
+  "mdl_3ec9f224b64b39f3": {
+   "model": "bwg_arrow_01",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "arrow_01",
+    "arrow_02"
+   ]
+  },
+  "mdl_80e1a5a1e38617f0": {
+   "model": "bwg_throwline",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "arrow_00",
+    "arrow_01"
+   ]
+  },
+  "mdl_51fa7aee8de9e066": {
+   "model": "box_glove_L",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_51fa94ee8dea0c94": {
+   "model": "box_glove_R",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_bc6bc8a9dae605b0": {
+   "model": "box_mitt_L",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_bc6bc6a9dae6024a": {
+   "model": "box_mitt_R",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_11ac2b0a5f97d21c": {
+   "model": "logo_model",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "WiSpt_logo"
+   ]
+  },
+  "mdl_0e8a26011cbeb958": {
+   "model": "menu_BG_model",
+   "materials": 6,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "B",
+    "C",
+    "env_tex",
+    "ind_tex",
+    "map"
+   ]
+  },
+  "mdl_0b49e0a8c64a381d": {
+   "model": "glf_HelpBall",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_HelpSquare1"
+   ]
+  },
+  "mdl_2ca38a70e2a21cd7": {
+   "model": "glf_HelpSquare",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_HelpBall1"
+   ]
+  },
+  "mdl_7a02aad1273e49dc": {
+   "model": "glf_ball1",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_e0b8d65e4730b20e": {
+   "model": "golf_powerbar_tex01frame",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "pc_glf_metter_w.01",
+    "pc_glf_metter_w.02",
+    "pc_glf_metter_w.03",
+    "pc_glf_metter_w.04"
+   ]
+  },
+  "mdl_3eaf16b0bd8bb1bd": {
+   "model": "golf_powerbar_tex01",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glf_cmetter_bar_2.01"
+   ]
+  },
+  "mdl_d25b7347cbbd13b1": {
+   "model": "golf_powerbar_tex01bg_out",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_88452b0560c6f30c": {
+   "model": "golf_powerbar_tex01bg",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_e8ce05cb2b14b318": {
+   "model": "glf_club_IR",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "env1",
+    "glf_driver_grip1",
+    "glf_driver_head",
+    "glf_env04",
+    "glf_env08",
+    "glf_putter_head",
+    "glf_sw_head"
+   ]
+  },
+  "mdl_e87ff9cb2ad27d63": {
+   "model": "glf_club_PT",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "env1",
+    "glf_driver_grip1",
+    "glf_driver_head",
+    "glf_env08",
+    "glf_env1",
+    "glf_iron_head",
+    "glf_sw_head"
+   ]
+  },
+  "mdl_e8760acb2aca45c1": {
+   "model": "glf_club_SW",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "env1",
+    "glf_driver_grip1",
+    "glf_driver_head",
+    "glf_env04",
+    "glf_env08",
+    "glf_iron_head",
+    "glf_putter_head"
+   ]
+  },
+  "mdl_e868e7cb2abf7fec": {
+   "model": "glf_club_WD",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "env1",
+    "glf_driver_grip1",
+    "glf_env04",
+    "glf_env1",
+    "glf_iron_head",
+    "glf_putter_head",
+    "glf_sw_head"
+   ]
+  },
+  "mdl_f379a93a2c73cff2": {
+   "model": "glf_club_IR_L",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glf_driver_head",
+    "glf_env04",
+    "glf_env08",
+    "glf_putter_head",
+    "glf_sw_head"
+   ]
+  },
+  "mdl_0b9e4ff9325af63d": {
+   "model": "glf_club_PT_L",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glf_driver_head",
+    "glf_env08",
+    "glf_env1",
+    "glf_iron_head",
+    "glf_sw_head"
+   ]
+  },
+  "mdl_d6c522f2cbe67257": {
+   "model": "glf_club_SW_L",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glf_driver_head",
+    "glf_env04",
+    "glf_env08",
+    "glf_iron_head",
+    "glf_putter_head"
+   ]
+  },
+  "mdl_364ca010ac3c377a": {
+   "model": "glf_club_WD_L",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glf_env04",
+    "glf_env1",
+    "glf_iron_head",
+    "glf_putter_head",
+    "glf_sw_head"
+   ]
+  },
+  "mdl_3714054860a4d3b4": {
+   "model": "glf_cup",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glf_cup_side"
+   ]
+  },
+  "mdl_79685f5e7ee49eda": {
+   "model": "glf_cup_side",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glf_cup"
+   ]
+  },
+  "mdl_6a7449d4d0140bba": {
+   "model": "glf_fukidasi",
+   "materials": 4,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_25f0370669bf20fa": {
+   "model": "glf_marker",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_Mark.2",
+    "glfM_Mark.3",
+    "glfM_Mark.4"
+   ]
+  },
+  "mdl_6ecb2804cb0cc160": {
+   "model": "glf_matoPIN",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_c6fc10689df0c805": {
+   "model": "glf_matoWATER_C",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_kazu_7250",
+    "glf_matoWAVE1",
+    "glf_matoWAVE1_ind",
+    "glfo_kazu_04",
+    "glfo_maru_03",
+    "glfo_maru_A02",
+    "glfo_maru_A03",
+    "glfo_siro01"
+   ]
+  },
+  "mdl_6f0cae11b647ed3f": {
+   "model": "glf_matoWAVE_C",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_kazu_7250",
+    "glf_water_ind1",
+    "glf_water_light1",
+    "glf_water_wave1",
+    "glfo_kazu_04",
+    "glfo_maru_03",
+    "glfo_maru_A02",
+    "glfo_maru_A03",
+    "glfo_siro01"
+   ]
+  },
+  "mdl_1d16290bcedd14a0": {
+   "model": "glf_mato_A",
+   "materials": 6,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_kazu_7250",
+    "glf_matoWAVE1",
+    "glf_matoWAVE1_ind",
+    "glf_water_ind1",
+    "glf_water_light1",
+    "glf_water_wave1"
+   ]
+  },
+  "mdl_1d162b0bcedd1806": {
+   "model": "glf_mato_C",
+   "materials": 6,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glf_matoWAVE1",
+    "glf_matoWAVE1_ind",
+    "glf_water_ind1",
+    "glf_water_light1",
+    "glf_water_wave1",
+    "glfo_kazu_04",
+    "glfo_maru_A03"
+   ]
+  },
+  "mdl_7ea6de5c8f296c6a": {
+   "model": "glf_pin1",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_5ef7df4743629198": {
+   "model": "glf_pin1b",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glf_flag1"
+   ]
+  },
+  "mdl_8c2a4b84071247dc": {
+   "model": "glf_sky",
+   "materials": 4,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_3e263f580410396a": {
+   "model": "glf_sky2",
+   "materials": 4,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_d21e0914b8236a12": {
+   "model": "glf_strike",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_7bdc8590a80d734c": {
+   "model": "glf_teeOBJ",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_f63a6abda731e75c": {
+   "model": "glf_tree1",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glf_tree1_LOD",
+    "glf_tree1_sh"
+   ]
+  },
+  "mdl_7fe3773df160414c": {
+   "model": "glf_tree1_LOD",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_leaf03",
+    "glfM_wood01",
+    "glfM_wood_sh1",
+    "glf_Tree1env1",
+    "glf_tree1_sh"
+   ]
+  },
+  "mdl_bda6b83e14adaec8": {
+   "model": "glf_tree1_env",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_leaf03",
+    "glfM_wood01",
+    "glfM_wood_sh1",
+    "glf_Tree1env1",
+    "glf_tree1_sh"
+   ]
+  },
+  "mdl_4ab92d35b229be82": {
+   "model": "glf_tree1_sh",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_leaf03",
+    "glfM_wood01",
+    "glfM_wood_sh1",
+    "glf_Tree1env1",
+    "glf_tree1_LOD"
+   ]
+  },
+  "mdl_7bbe907144008ca0": {
+   "model": "glf_tree2",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_tree2_LOD"
+   ]
+  },
+  "mdl_1257cb89eff5b670": {
+   "model": "glf_tree2_LOD",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_tree2leaf",
+    "glfM_tree2wood",
+    "glf_Tree2env1"
+   ]
+  },
+  "mdl_4c47dc8a1002d77c": {
+   "model": "glf_tree2_env",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_tree2leaf",
+    "glfM_tree2wood",
+    "glf_Tree2env1"
+   ]
+  },
+  "mdl_26c19ed42e309cf6": {
+   "model": "glf_tree2_sh",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfM_tree2_LOD",
+    "glfM_tree2wood",
+    "glf_Tree2env1"
+   ]
+  },
+  "mdl_71ec7ba7965184fb": {
+   "model": "glf_windArrow",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfS_wind01",
+    "glfS_wind04"
+   ]
+  },
+  "mdl_ef8573cc950774e9": {
+   "model": "glf_windGround",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "glfS_wind02",
+    "glfS_wind03",
+    "glfS_wind04"
+   ]
+  },
+  "mdl_7cb31ca95e2843f5": {
+   "model": "ava_head",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_115d43c8debc4871": {
+   "model": "tns_ball_a",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "tns_Ball_c"
+   ]
+  },
+  "mdl_5422d68fdfbfe78d": {
+   "model": "tns_mato_a",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_5422d38fdfbfe274": {
+   "model": "tns_mato_b",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_5422d48fdfbfe427": {
+   "model": "tns_mato_c",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_8a86b4d218210427": {
+   "model": "tns_pole",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_d22e27ed9d9bf175": {
+   "model": "tns_r_color",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_582ab15334348f75": {
+   "model": "tns_r_shadow",
+   "materials": 2,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": []
+  },
+  "mdl_4a55034043ab1877": {
+   "model": "tns_racket",
+   "materials": 3,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "tns_racket.1",
+    "tns_racket.2",
+    "tns_racket.3",
+    "tns_racket.4"
+   ]
+  },
+  "mdl_cb54141c910f3ee6": {
+   "model": "logo_model",
+   "materials": 1,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "WiSpt_logo"
+   ]
+  },
+  "mdl_7564a33ce77e1b6a": {
+   "model": "menu_BG_model",
+   "materials": 6,
+   "glbMaterialsMissingInMdl0": [],
+   "externalTextures": [],
+   "unusedTextures": [
+    "B",
+    "C",
+    "env_tex",
+    "ind_tex",
+    "map"
+   ]
+  }
+ }
+}

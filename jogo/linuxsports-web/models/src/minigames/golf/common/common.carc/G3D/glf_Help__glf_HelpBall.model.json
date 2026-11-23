@@ -1,0 +1,20 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_0b49e0a8c64a381d",
+ "source": "src/minigames/golf/common/common.carc/G3D/glf_Help.brres/glf_HelpBall",
+ "brres": "src/minigames/golf/common/common.carc/G3D/glf_Help.brres",
+ "model": "glf_HelpBall",
+ "glb": "models/src/minigames/golf/common/common.carc/G3D/glf_Help__glf_HelpBall.glb",
+ "textures": [
+  {
+   "name": "glfM_HelpBall1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_Help.brres"
+  },
+  {
+   "name": "glfM_HelpSquare1",
+   "foundIn": "src/minigames/golf/common/common.carc/G3D/glf_Help.brres"
+  }
+ ],
+ "animations": []
+}

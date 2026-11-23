@@ -1,0 +1,217 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_33836d5ffb2dbb5b",
+ "source": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres/glf_map_fc18",
+ "brres": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres",
+ "model": "glf_map_fc18",
+ "glb": "models/assets/maps/golf/G3D/glf_map_fc18__glf_map_fc18.glb",
+ "textures": [
+  {
+   "name": "glf_cup1",
+   "foundIn": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres",
+   "materials": [
+    "glf_cup"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_enkei1",
+   "foundIn": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres",
+   "materials": [
+    "M_Enkei1"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_fairway1",
+   "foundIn": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres",
+   "materials": [
+    "glf_fairway"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_green1.1",
+   "foundIn": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres",
+   "materials": [
+    "glf_green"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_iwa1",
+   "foundIn": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres",
+   "materials": [
+    "glf_iwa"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_rough1",
+   "foundIn": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres",
+   "materials": [
+    "glf_rough",
+    "glf_rough_1"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "glf_sand01",
+   "foundIn": "assets/maps/golf/glf_course_fc18.carc/G3D/glf_map_fc18.brres",
+   "materials": [
+    "glf_sand"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [],
+ "materials": [
+  {
+   "name": "M_Enkei1",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_enkei1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "col_WATER",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [],
+   "objects": [
+    "polygon8"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "glf_cup",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_cup1",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "glf_fairway",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_fairway1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon3"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "glf_green",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_green1.1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon4"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "glf_iwa",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_iwa1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon6"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "glf_rough",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_rough1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon5"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "glf_rough_1",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_rough1",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon7"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "glf_sand",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "glf_sand01",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  }
+ ]
+}

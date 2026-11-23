@@ -1,0 +1,247 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_e244d8011d1bb205",
+ "source": "src/core/shared/SportsStatic/common/common.carc/G3D/lensfx.brres/sun_lensfx",
+ "brres": "src/core/shared/SportsStatic/common/common.carc/G3D/lensfx.brres",
+ "model": "sun_lensfx",
+ "glb": "models/src/core/shared/SportsStatic/common/G3D/lensfx__sun_lensfx.glb",
+ "textures": [
+  {
+   "name": "P_glow1",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/lensfx.brres",
+   "materials": [
+    "_mat_lens_fx_11",
+    "_mat_lens_fx_3",
+    "_mat_lens_fx_4"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "P_glow2",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/lensfx.brres",
+   "materials": [
+    "_mat_lens_fx_10",
+    "_mat_lens_fx_5",
+    "_mat_lens_fx_6",
+    "_mat_lens_fx_8"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "P_glow3",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/lensfx.brres",
+   "materials": [
+    "_mat_lens_fx_1"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "P_glow4",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/lensfx.brres",
+   "materials": [
+    "_mat_lens_fx_2",
+    "_mat_lens_fx_7"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "P_glow5",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/lensfx.brres",
+   "materials": [
+    "_mat_lens_fx_9"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [],
+ "materials": [
+  {
+   "name": "_mat_lens_fx_1",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "P_glow3",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "Polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "_mat_lens_fx_10",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "P_glow2",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "Polygon9"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "_mat_lens_fx_11",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "P_glow1",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "Polygon10"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "_mat_lens_fx_2",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "P_glow4",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "Polygon1"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "_mat_lens_fx_3",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "P_glow1",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "Polygon2"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "_mat_lens_fx_4",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "P_glow1",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "Polygon3"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "_mat_lens_fx_5",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "P_glow2",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "Polygon4"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "_mat_lens_fx_6",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "P_glow2",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "Polygon5"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "_mat_lens_fx_7",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "P_glow4",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "Polygon6"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "_mat_lens_fx_8",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "P_glow2",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "Polygon7"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "_mat_lens_fx_9",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "P_glow5",
+     "palette": null,
+     "wrapS": "mirror",
+     "wrapT": "mirror"
+    }
+   ],
+   "objects": [
+    "Polygon8"
+   ],
+   "inGlb": true
+  }
+ ]
+}

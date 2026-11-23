@@ -1,0 +1,37 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_644d44cbbd1ff30b",
+ "source": "assets/maps/boxing/MainGame.carc/G3D/box_avatar.brres/box_avatarB",
+ "brres": "assets/maps/boxing/MainGame.carc/G3D/box_avatar.brres",
+ "model": "box_avatarB",
+ "glb": "models/assets/maps/boxing/MainGame.carc/G3D/box_avatar__box_avatarB.glb",
+ "textures": [
+  {
+   "name": "box_avatar_dummy",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_avatar.brres"
+  },
+  {
+   "name": "box_avatar_far",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_avatar.brres"
+  },
+  {
+   "name": "box_avatar_hand_env",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_avatar.brres"
+  },
+  {
+   "name": "box_people_dotsA",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_avatar.brres"
+  },
+  {
+   "name": "box_people_dotsB",
+   "foundIn": "assets/maps/boxing/MainGame.carc/G3D/box_avatar.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "box_avatarB"
+  }
+ ]
+}

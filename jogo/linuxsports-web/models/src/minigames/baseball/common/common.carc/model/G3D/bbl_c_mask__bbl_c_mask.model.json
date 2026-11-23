@@ -1,0 +1,73 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_203e083310a8b44a",
+ "source": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask.brres/bbl_c_mask",
+ "brres": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask.brres",
+ "model": "bbl_c_mask",
+ "glb": "models/src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask__bbl_c_mask.glb",
+ "textures": [
+  {
+   "name": "01_env08",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask.brres"
+  },
+  {
+   "name": "bbl_c_mask.0",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask.brres"
+  },
+  {
+   "name": "bbl_c_mask.1",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask.brres"
+  },
+  {
+   "name": "bbl_c_mask.10",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask.brres"
+  },
+  {
+   "name": "bbl_c_mask.11",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask.brres"
+  },
+  {
+   "name": "bbl_c_mask.2",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask.brres"
+  },
+  {
+   "name": "bbl_c_mask.3",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask.brres"
+  },
+  {
+   "name": "bbl_c_mask.4",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask.brres"
+  },
+  {
+   "name": "bbl_c_mask.5",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask.brres"
+  },
+  {
+   "name": "bbl_c_mask.6",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask.brres"
+  },
+  {
+   "name": "bbl_c_mask.7",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask.brres"
+  },
+  {
+   "name": "bbl_c_mask.8",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask.brres"
+  },
+  {
+   "name": "bbl_c_mask.9",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask.brres"
+  },
+  {
+   "name": "glf_env08",
+   "foundIn": "src/minigames/baseball/common/common.carc/model/G3D/bbl_c_mask.brres"
+  }
+ ],
+ "animations": [
+  {
+   "type": "PAT0",
+   "name": "bbl_c_mask"
+  }
+ ]
+}

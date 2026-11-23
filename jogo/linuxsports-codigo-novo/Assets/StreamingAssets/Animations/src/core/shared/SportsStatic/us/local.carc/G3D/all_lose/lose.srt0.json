@@ -1,0 +1,1 @@
+{"type":"SRT0","name":"lose","frames":180,"loop":true,"matrixMode":1,"materials":[{"material":"mt_main","textures":[{"slot":1,"indirect":null,"rotate":{"type":"hermite","keys":[[0.0,0.0,2.0],[180.0,360.0,2.0]]}}]}],"format":"nw4r-anim3d","version":1,"source":"src/core/shared/SportsStatic/us/local.carc/G3D/all_lose.brres/lose"}

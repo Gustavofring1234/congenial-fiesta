@@ -1,0 +1,218 @@
+{
+ "format": "nw4r-scene",
+ "version": 1,
+ "assetId": "scn_5ce3d6de59558656",
+ "source": "src/minigames/bowling/common/common.carc",
+ "sport": "bowling",
+ "models": [
+  {
+   "name": "G3D/bwg_ava_shadow.brres/bwg_ava_shadow",
+   "ref": "mdl_a1217670602e0366"
+  },
+  {
+   "name": "G3D/bwg_ball_pro.brres/bwg_ball_blue_pro",
+   "ref": "mdl_839e48d86751ab17"
+  },
+  {
+   "name": "G3D/bwg_ball_pro.brres/bwg_ball_blue_pro_mirror",
+   "ref": "mdl_6d30ef0b0f95956b"
+  },
+  {
+   "name": "G3D/bwg_ball_pro.brres/bwg_ball_green_pro",
+   "ref": "mdl_97f90f05164e5752"
+  },
+  {
+   "name": "G3D/bwg_ball_pro.brres/bwg_ball_green_pro_mirror",
+   "ref": "mdl_c0a08b874ee35664"
+  },
+  {
+   "name": "G3D/bwg_ball_pro.brres/bwg_ball_pink_pro",
+   "ref": "mdl_0b5e6bf22b877d93"
+  },
+  {
+   "name": "G3D/bwg_ball_pro.brres/bwg_ball_pink_pro_mirror",
+   "ref": "mdl_5258e3b6336efb97"
+  },
+  {
+   "name": "G3D/bwg_ball_pro.brres/bwg_ball_yellow_pro",
+   "ref": "mdl_1675bfea3701bba7"
+  },
+  {
+   "name": "G3D/bwg_ball_pro.brres/bwg_ball_yellow_pro_mirror",
+   "ref": "mdl_7d7eac4931823d9b"
+  },
+  {
+   "name": "G3D/bwg_ball.brres/bwg_ball_blue",
+   "ref": "mdl_d7180405978dfc1b"
+  },
+  {
+   "name": "G3D/bwg_ball.brres/bwg_ball_blue_mirror",
+   "ref": "mdl_30493df3b669668f"
+  },
+  {
+   "name": "G3D/bwg_ball.brres/bwg_ball_green",
+   "ref": "mdl_ce43d015980fc7e6"
+  },
+  {
+   "name": "G3D/bwg_ball.brres/bwg_ball_green_mirror",
+   "ref": "mdl_22fff1a17c524e98"
+  },
+  {
+   "name": "G3D/bwg_ball.brres/bwg_ball_pink",
+   "ref": "mdl_7b5b999a2d39fa37"
+  },
+  {
+   "name": "G3D/bwg_ball.brres/bwg_ball_pink_mirror",
+   "ref": "mdl_9622cede8bbe73cb"
+  },
+  {
+   "name": "G3D/bwg_ball.brres/bwg_ball_yellow",
+   "ref": "mdl_de9287bad515ccab"
+  },
+  {
+   "name": "G3D/bwg_ball.brres/bwg_ball_yellow_mirror",
+   "ref": "mdl_4c0e29872e0101bf"
+  },
+  {
+   "name": "G3D/bwg_conveyer.brres/pin_conveyer",
+   "ref": "mdl_4612de54072ac963"
+  },
+  {
+   "name": "G3D/bwg_field_91.brres/bwg_field_91",
+   "ref": "mdl_efa5bed16aa3fbd2"
+  },
+  {
+   "name": "G3D/bwg_field_91.brres/bwg_wall_L",
+   "ref": "mdl_ad91c8f94158c642"
+  },
+  {
+   "name": "G3D/bwg_field_91.brres/bwg_wall_L_mirror",
+   "ref": "mdl_f155e37d9c3c7d74"
+  },
+  {
+   "name": "G3D/bwg_field_91.brres/bwg_wall_R",
+   "ref": "mdl_ad91baf94158ae78"
+  },
+  {
+   "name": "G3D/bwg_field_91.brres/bwg_wall_R_mirror",
+   "ref": "mdl_83febb82f7050662"
+  },
+  {
+   "name": "G3D/bwg_field.brres/bwg_field",
+   "ref": "mdl_2793cc224716d814"
+  },
+  {
+   "name": "G3D/bwg_field.brres/bwg_field_front",
+   "ref": "mdl_3b88d8c00cba1c2c"
+  },
+  {
+   "name": "G3D/bwg_field.brres/bwg_field_pin",
+   "ref": "mdl_523fa258df3f0c00"
+  },
+  {
+   "name": "G3D/bwg_field.brres/lane_alpha",
+   "ref": "mdl_2d5ba7557d81b678"
+  },
+  {
+   "name": "G3D/bwg_field.brres/lane_alpha_etc",
+   "ref": "mdl_48ad97da71ebf32d"
+  },
+  {
+   "name": "G3D/bwg_gate.brres/bwg_gate",
+   "ref": "mdl_0c5ffb9daed3d932"
+  },
+  {
+   "name": "G3D/bwg_gate.brres/bwg_gate_frame_L",
+   "ref": "mdl_851c4582eef98d2f"
+  },
+  {
+   "name": "G3D/bwg_gate.brres/bwg_gate_frame_R",
+   "ref": "mdl_851c3b82eef97c31"
+  },
+  {
+   "name": "G3D/bwg_lane.brres/bwg_lane",
+   "ref": "mdl_5f944db61b81c378"
+  },
+  {
+   "name": "G3D/bwg_Pin.brres/bwg_pin_166_10",
+   "ref": "mdl_dfee6542cda68660"
+  },
+  {
+   "name": "G3D/bwg_Pin.brres/bwg_pin_286_10",
+   "ref": "mdl_1a4e0ee243e61541"
+  },
+  {
+   "name": "G3D/bwg_Pin.brres/bwg_pin_286_91",
+   "ref": "mdl_1a327de243ce5726"
+  },
+  {
+   "name": "G3D/bwg_Pin.brres/bwg_pin_438_10",
+   "ref": "mdl_f255d56f5efb2948"
+  },
+  {
+   "name": "G3D/bwg_Pin.brres/bwg_pin_438_91",
+   "ref": "mdl_f23ac66f5ee44813"
+  },
+  {
+   "name": "G3D/bwg_Pin.brres/bwg_pin_74_10",
+   "ref": "mdl_0965b74462d55d9e"
+  },
+  {
+   "name": "G3D/bwg_Pin.brres/bwg_pin_866_10",
+   "ref": "mdl_408c9ab06b75a915"
+  },
+  {
+   "name": "G3D/bwg_throwline.brres/bwg_arrow_00",
+   "ref": "mdl_3ec9f124b64b3840"
+  },
+  {
+   "name": "G3D/bwg_throwline.brres/bwg_arrow_01",
+   "ref": "mdl_3ec9f224b64b39f3"
+  },
+  {
+   "name": "G3D/bwg_throwline.brres/bwg_throwline",
+   "ref": "mdl_80e1a5a1e38617f0"
+  }
+ ],
+ "collision": [
+  {
+   "name": "bwg_field_91_col.kcl",
+   "ref": "col_c5d0632ac48a34c4"
+  },
+  {
+   "name": "bwg_field_col.kcl",
+   "ref": "col_48265ddfe7ae2d97"
+  },
+  {
+   "name": "bwg_lane_col.kcl",
+   "ref": "col_a3703c557e93f0a1"
+  },
+  {
+   "name": "cube_col.kcl",
+   "ref": "col_eb945f36ddedcf3f"
+  }
+ ],
+ "objects": [],
+ "data": [
+  {
+   "role": "pblm",
+   "name": "Environment/scene_Bloom.pblm",
+   "ref": "bin_fce32a255eba4fad"
+  },
+  {
+   "role": "plight",
+   "name": "Environment/scene_Light.plight",
+   "ref": "bin_33e8d31c89a62795"
+  },
+  {
+   "role": "plmap",
+   "name": "Environment/scene_Lm.plmap",
+   "ref": "bin_81d45fdc6d9ad8f0"
+  },
+  {
+   "role": "pmmisc",
+   "name": "Environment/scene_ModelMisc.pmmisc",
+   "ref": "bin_43dac7cd37055bdd"
+  }
+ ]
+}

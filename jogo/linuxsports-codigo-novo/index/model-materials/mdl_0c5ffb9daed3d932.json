@@ -1,0 +1,72 @@
+{
+ "assetId": "mdl_0c5ffb9daed3d932",
+ "model": "bwg_gate",
+ "materials": [
+  {
+   "name": "gate_mat",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "gate",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    },
+    {
+     "texture": "env_test",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "shadow_b_mat",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "shadow_b",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "env_test",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_gate.brres",
+   "materials": [
+    "gate_mat"
+   ],
+   "layer0": false
+  },
+  {
+   "name": "gate",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_gate.brres",
+   "materials": [
+    "gate_mat"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "shadow_b",
+   "foundIn": "src/minigames/bowling/common/common.carc/G3D/bwg_gate.brres",
+   "materials": [
+    "shadow_b_mat"
+   ],
+   "layer0": true
+  }
+ ]
+}

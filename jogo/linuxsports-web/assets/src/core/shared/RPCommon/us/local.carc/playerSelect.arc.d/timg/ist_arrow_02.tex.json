@@ -1,0 +1,31 @@
+{
+ "format": "nw4r-tex",
+ "version": 1,
+ "assetId": "tex_94295b3de01a05d6",
+ "source": "src/core/shared/RPCommon/us/local.carc/playerSelect.arc.d/timg/ist_arrow_02.tpl",
+ "images": [
+  {
+   "index": 0,
+   "file": "assets/src/core/shared/RPCommon/us/local.carc/playerSelect.arc.d/timg/ist_arrow_02.png",
+   "width": 56,
+   "height": 104,
+   "format": "IA8",
+   "formatId": 3,
+   "palette": null,
+   "wrapS": "CLAMP",
+   "wrapT": "CLAMP",
+   "minFilter": "LINEAR",
+   "magFilter": "LINEAR",
+   "lodBias": 0,
+   "minLod": 0,
+   "maxLod": 0,
+   "mipmapCount": 1,
+   "webgl": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "minFilter": 9729,
+    "magFilter": 9729
+   }
+  }
+ ]
+}

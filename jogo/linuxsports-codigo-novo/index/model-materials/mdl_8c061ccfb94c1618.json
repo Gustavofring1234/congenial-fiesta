@@ -1,0 +1,117 @@
+{
+ "assetId": "mdl_8c061ccfb94c1618",
+ "model": "strike",
+ "materials": [
+  {
+   "name": "mt_crown0",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bwg_env",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon4"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_crown1",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bwg_env",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon6",
+    "polygon7",
+    "polygon8",
+    "polygon9"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_effect",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "bwg_mat_ENG",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon5"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "mt_shadow",
+   "translucent": true,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "shadow_ENG",
+     "palette": null,
+     "wrapS": "clamp",
+     "wrapT": "clamp"
+    }
+   ],
+   "objects": [
+    "polygon10"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "wp_bord",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [],
+   "objects": [
+    "polygon0",
+    "polygon1",
+    "polygon2",
+    "polygon3"
+   ],
+   "inGlb": true
+  }
+ ],
+ "textures": [
+  {
+   "name": "bwg_env",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bwg_strike_model.brres",
+   "materials": [
+    "mt_crown0",
+    "mt_crown1"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "bwg_mat_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bwg_strike_model.brres",
+   "materials": [
+    "mt_effect"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "shadow_ENG",
+   "foundIn": "src/core/shared/SportsStatic/us/local.carc/G3D/bwg_strike_model.brres",
+   "materials": [
+    "mt_shadow"
+   ],
+   "layer0": true
+  }
+ ]
+}

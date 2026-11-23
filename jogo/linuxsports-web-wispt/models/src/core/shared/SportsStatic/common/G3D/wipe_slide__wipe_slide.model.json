@@ -1,0 +1,73 @@
+{
+ "format": "nw4r-model",
+ "version": 1,
+ "assetId": "mdl_afe7ea591d482920",
+ "source": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_slide.brres/wipe_slide",
+ "brres": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_slide.brres",
+ "model": "wipe_slide",
+ "glb": "models/src/core/shared/SportsStatic/common/G3D/wipe_slide__wipe_slide.glb",
+ "textures": [
+  {
+   "name": "dammy_L",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_slide.brres",
+   "materials": [
+    "W_Left"
+   ],
+   "layer0": true
+  },
+  {
+   "name": "dammy_R",
+   "foundIn": "src/core/shared/SportsStatic/common/common.carc/G3D/wipe_slide.brres",
+   "materials": [
+    "W_Right"
+   ],
+   "layer0": true
+  }
+ ],
+ "animations": [
+  {
+   "type": "CHR0",
+   "name": "wipe_slide_bbl"
+  },
+  {
+   "type": "CHR0",
+   "name": "wipe_slide_box"
+  }
+ ],
+ "materials": [
+  {
+   "name": "W_Left",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "dammy_L",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon0"
+   ],
+   "inGlb": true
+  },
+  {
+   "name": "W_Right",
+   "translucent": false,
+   "doubleSided": false,
+   "layers": [
+    {
+     "texture": "dammy_R",
+     "palette": null,
+     "wrapS": "repeat",
+     "wrapT": "repeat"
+    }
+   ],
+   "objects": [
+    "polygon1"
+   ],
+   "inGlb": true
+  }
+ ]
+}
